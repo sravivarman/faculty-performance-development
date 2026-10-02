@@ -1,0 +1,705 @@
+{
+  "doi": "10.3390/su151813424",
+  "title": "Enhancing Sustainable Urban Energy Management through Short-Term Wind Power Forecasting Using LSTM Neural Network",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Sustainability",
+  "publisher": "MDPI AG",
+  "publication_date": "2023-09-07",
+  "online_publication_date": "2023-09-07",
+  "print_publication_date": null,
+  "volume": "15",
+  "issue": "18",
+  "pages_or_article_number": "13424",
+  "issn": null,
+  "eissn": "2071-1050",
+  "isbn": null,
+  "url": "https://doi.org/10.3390/su151813424",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:38.751149+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            18
+          ]
+        ],
+        "date-time": "2026-08-18T05:12:38Z",
+        "timestamp": 1787029958396,
+        "version": "build-2736575974"
+      },
+      "reference-count": 31,
+      "publisher": "MDPI AG",
+      "issue": "18",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                9,
+                7
+              ]
+            ],
+            "date-time": "2023-09-07T00:00:00Z",
+            "timestamp": 1694044800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "King Saud University, Riyadh, Saudi Arabia",
+          "award": [
+            "RSPD2023R890"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "RSPD2023R890"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Sustainability"
+      ],
+      "abstract": "<jats:p>Integrating wind energy forecasting into urban city energy management systems offers significant potential for optimizing energy usage, reducing the carbon footprint, and improving overall energy efficiency. This article focuses on developing a wind power forecasting model using cutting-edge technologies to enhance urban city energy management systems. To effectively manage wind energy availability, a strategy is proposed to curtail energy consumption during periods of low wind energy availability and boost consumption during periods of high wind energy availability. For this purpose, an LSTM-based model is employed to forecast short-term wind power, leveraging a publicly available dataset. The LSTM model is trained with 27,310 instances and 10 wind energy system attributes, which were selected using the Pearson correlation feature selection method to identify crucial features. The evaluation of the LSTM-based forecasting model yields an impressive R2 score of 0.9107. The model’s performance metrics attest to its high accuracy, explaining a substantial proportion of the variance in the test data. This study not only contributes to advancing wind power forecasting, but also holds promise for sustainable urban energy management, enabling cities to make informed decisions in optimizing energy consumption and promoting a greener, more resilient future.</jats:p>",
+      "DOI": "10.3390/su151813424",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            7
+          ]
+        ],
+        "date-time": "2023-09-07T09:51:37Z",
+        "timestamp": 1694080297000
+      },
+      "page": "13424",
+      "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 25,
+      "title": [
+        "Enhancing Sustainable Urban Energy Management through Short-Term Wind Power Forecasting Using LSTM Neural Network"
+      ],
+      "prefix": "10.3390",
+      "volume": "15",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-7755-5715",
+          "authenticated-orcid": false,
+          "given": "Karthick",
+          "family": "Kanagarathinam",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, GMR Institute of Technology, Rajam 532127, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "S. K.",
+          "family": "Aruna",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science and Engineering, School of Engineering and Technology, CHRIST (Deemed to be University), Bangalore 560029, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6348-3132",
+          "authenticated-orcid": false,
+          "given": "S.",
+          "family": "Ravivarman",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, Vardhaman College of Engineering, Shamshabad 501218, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7445-7121",
+          "authenticated-orcid": false,
+          "given": "Mejdl",
+          "family": "Safran",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science, College of Computer and Information Sciences, King Saud University, P.O. Box 51178, Riyadh 11543, Saudi Arabia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0001-1268-9613",
+          "authenticated-orcid": false,
+          "given": "Sultan",
+          "family": "Alfarhood",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science, College of Computer and Information Sciences, King Saud University, P.O. Box 51178, Riyadh 11543, Saudi Arabia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Waleed",
+          "family": "Alrajhi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science, College of Computer and Information Sciences, King Saud University, P.O. Box 51178, Riyadh 11543, Saudi Arabia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "1968",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            7
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "ref_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "121915",
+          "DOI": "10.1016/j.techfore.2022.121915",
+          "article-title": "Emerging smart city, transport and energy trends in urban settings: Results of a pan-European foresight exercise with 120 experts",
+          "volume": "183",
+          "author": "Angelidou",
+          "year": "2022",
+          "journal-title": "Technol. Forecast. Soc. Chang."
+        },
+        {
+          "key": "ref_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "5",
+          "DOI": "10.1186/s42162-020-00108-6",
+          "article-title": "The emerging data–driven Smart City and its innovative applied solutions for sustainability: The cases of London and Barcelona",
+          "volume": "3",
+          "author": "Bibri",
+          "year": "2020",
+          "journal-title": "Energy Inf."
+        },
+        {
+          "key": "ref_3",
+          "doi-asserted-by": "crossref",
+          "first-page": "1389",
+          "DOI": "10.3390/smartcities5040071",
+          "article-title": "Energy and Sustainable Development in Smart Cities: An Overview",
+          "volume": "5",
+          "author": "Almihat",
+          "year": "2022",
+          "journal-title": "Smart Cities"
+        },
+        {
+          "key": "ref_4",
+          "doi-asserted-by": "crossref",
+          "first-page": "100539",
+          "DOI": "10.1016/j.esr.2020.100539",
+          "article-title": "Challenges of renewable energy penetration on power system flexibility: A survey",
+          "volume": "31",
+          "author": "Impram",
+          "year": "2020",
+          "journal-title": "Energy Strategy Rev."
+        },
+        {
+          "key": "ref_5",
+          "doi-asserted-by": "crossref",
+          "first-page": "e11263",
+          "DOI": "10.1016/j.heliyon.2022.e11263",
+          "article-title": "Wind energy conversion technologies and engineering approaches to enhancing wind power generation: A review",
+          "volume": "8",
+          "author": "Desalegn",
+          "year": "2022",
+          "journal-title": "Heliyon"
+        },
+        {
+          "key": "ref_6",
+          "doi-asserted-by": "crossref",
+          "first-page": "91",
+          "DOI": "10.1016/j.renene.2019.04.135",
+          "article-title": "Doblas-Reyes, Seasonal forecasts of wind power generation",
+          "volume": "143",
+          "author": "Torralba",
+          "year": "2019",
+          "journal-title": "Renew. Energy"
+        },
+        {
+          "key": "ref_7",
+          "doi-asserted-by": "crossref",
+          "first-page": "122099",
+          "DOI": "10.1016/j.energy.2021.122099",
+          "article-title": "Reducing forecasting error by optimally pooling wind energy generation sources through portfolio optimization",
+          "volume": "239 Pt B",
+          "author": "Han",
+          "year": "2022",
+          "journal-title": "Energy"
+        },
+        {
+          "key": "ref_8",
+          "doi-asserted-by": "crossref",
+          "first-page": "9250937",
+          "DOI": "10.1155/2020/9250937",
+          "article-title": "Integrated Machine Learning and Enhanced Statistical Approach-Based Wind Power Forecasting in Australian Tasmania Wind Farm",
+          "volume": "2020",
+          "author": "Yao",
+          "year": "2020",
+          "journal-title": "Complexity"
+        },
+        {
+          "key": "ref_9",
+          "first-page": "634639",
+          "article-title": "Short-Term Wind Power Forecasting Using Mixed Input Feature-Based Cascade-connected Artificial Neural Networks. Front",
+          "volume": "9",
+          "author": "Chen",
+          "year": "2021",
+          "journal-title": "Energy Res."
+        },
+        {
+          "key": "ref_10",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1186/s41601-016-0016-y",
+          "article-title": "Short-term wind power prediction based on extreme learning machine with error correction",
+          "volume": "1",
+          "author": "Li",
+          "year": "2016",
+          "journal-title": "Prot. Control Mod. Power Syst."
+        },
+        {
+          "key": "ref_11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Corchado, E., Snášel, V., Sedano, J., Hassanien, A.E., Calvo, J.L., and Ślȩzak, D. (2011). Soft Computing Models in Industrial and Environmental Applications, Proceedings of the 6th International Conference SOCO 2011, Salamnaca, Spain, 6–8 April 2011, Springer. Advances in Intelligent and Soft Computing.",
+          "DOI": "10.1007/978-3-642-19644-7"
+        },
+        {
+          "key": "ref_12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kassa, Y., Zhang, J.H., Zheng, D.H., and Wei, D. (2016, January 21–23). Short term wind power prediction using ANFIS. Proceedings of the 2016 IEEE International Conference on Power and Renewable Energy (ICPRE), Shanghai, China.",
+          "DOI": "10.1109/ICPRE.2016.7871238"
+        },
+        {
+          "key": "ref_13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tu, C.-S., Hong, C.-M., Huang, H.-S., and Chen, C.-H. (2020). Short Term Wind Power Prediction Based on Data Regression and Enhanced Support Vector Machine. Energies, 13.",
+          "DOI": "10.3390/en13236319"
+        },
+        {
+          "key": "ref_14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Pang, M., Zhang, L., Zhang, Y., Zhou, A., Dou, J., and Deng, Z. (2022). Ultra-Short-TermWind Speed Forecasting Using the Hybrid Model of Subseries Reconstruction and Broad Learning System. Energies, 15.",
+          "DOI": "10.3390/en15124492"
+        },
+        {
+          "key": "ref_15",
+          "doi-asserted-by": "crossref",
+          "first-page": "122",
+          "DOI": "10.1016/j.compeleceng.2014.07.009",
+          "article-title": "Machine Learning based short term wind power prediction using a hybrid learning model",
+          "volume": "45",
+          "year": "2015",
+          "journal-title": "Comput. Electr. Eng."
+        },
+        {
+          "key": "ref_16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Alkesaiberi, A., Harrou, F., and Sun, Y. (2022). Efficient Wind Power Prediction Using Machine Learning Methods: A Comparative Study. Energies, 15.",
+          "DOI": "10.3390/en15072327"
+        },
+        {
+          "key": "ref_17",
+          "doi-asserted-by": "crossref",
+          "first-page": "679",
+          "DOI": "10.1007/s40313-017-0329-8",
+          "article-title": "A Meteorological–Statistic Model for Short-Term Wind Power Forecasting",
+          "volume": "28",
+          "author": "Lima",
+          "year": "2017",
+          "journal-title": "J. Control Autom. Electr. Syst."
+        },
+        {
+          "key": "ref_18",
+          "doi-asserted-by": "crossref",
+          "first-page": "234",
+          "DOI": "10.1016/j.renene.2011.11.051",
+          "article-title": "Performance evaluation and accuracy enhancement of a day-ahead wind power forecasting system in China",
+          "volume": "43",
+          "author": "Zhao",
+          "year": "2012",
+          "journal-title": "Renew. Energy"
+        },
+        {
+          "key": "ref_19",
+          "doi-asserted-by": "crossref",
+          "first-page": "3085",
+          "DOI": "10.1016/j.egyr.2022.02.065",
+          "article-title": "Prediction of operating parameters and output power of ducted wind turbine using artificial neural networks",
+          "volume": "8",
+          "author": "Taghinezhad",
+          "year": "2022",
+          "journal-title": "Energy Rep."
+        },
+        {
+          "key": "ref_20",
+          "doi-asserted-by": "crossref",
+          "first-page": "793",
+          "DOI": "10.1016/j.apenergy.2016.03.096",
+          "article-title": "A novel bidirectional mechanism based on time series model for wind power forecasting",
+          "volume": "177",
+          "author": "Zhao",
+          "year": "2016",
+          "journal-title": "Appl. Energy"
+        },
+        {
+          "key": "ref_21",
+          "doi-asserted-by": "crossref",
+          "first-page": "93",
+          "DOI": "10.1016/j.asoc.2019.03.035",
+          "article-title": "A novel hybrid model for short-term wind power forecasting",
+          "volume": "80",
+          "author": "Du",
+          "year": "2019",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "key": "ref_22",
+          "unstructured": "(2023, July 27). Available online: https://www.kaggle.com/datasets/theforcecoder/wind-power-forecasting?select=Turbine_Data.csv."
+        },
+        {
+          "key": "ref_23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Linardatos, P., Papastefanopoulos, V., and Kotsiantis, S. (2021). Explainable AI: A Review of Machine Learning Interpretability Methods. Entropy, 23.",
+          "DOI": "10.3390/e23010018"
+        },
+        {
+          "key": "ref_24",
+          "doi-asserted-by": "crossref",
+          "first-page": "140",
+          "DOI": "10.1186/s40537-021-00516-9",
+          "article-title": "A survey on missing data in machine learning",
+          "volume": "8",
+          "author": "Emmanuel",
+          "year": "2021",
+          "journal-title": "J. Big Data"
+        },
+        {
+          "key": "ref_25",
+          "doi-asserted-by": "crossref",
+          "first-page": "102042",
+          "DOI": "10.1016/j.datak.2022.102042",
+          "article-title": "Machine learning-based risk prediction model for cardiovascular disease using a hybrid dataset",
+          "volume": "140",
+          "author": "Kanagarathinam",
+          "year": "2022",
+          "journal-title": "Data Knowl. Eng."
+        },
+        {
+          "key": "ref_26",
+          "doi-asserted-by": "crossref",
+          "first-page": "80",
+          "DOI": "10.1186/s40537-021-00469-z",
+          "article-title": "Unsupervised outlier detection in multidimensional data",
+          "volume": "8",
+          "author": "Belhaouari",
+          "year": "2021",
+          "journal-title": "J. Big Data"
+        },
+        {
+          "key": "ref_27",
+          "doi-asserted-by": "crossref",
+          "first-page": "65",
+          "DOI": "10.1186/s40537-021-00448-4",
+          "article-title": "Intrusion detection systems using long short-term memory (LSTM)",
+          "volume": "8",
+          "author": "Laghrissi",
+          "year": "2021",
+          "journal-title": "J. Big Data"
+        },
+        {
+          "key": "ref_28",
+          "first-page": "7020979",
+          "article-title": "An Improved Power Quality Disturbance Detection Using Deep Learning Approach",
+          "volume": "2022",
+          "author": "Sekar",
+          "year": "2022",
+          "journal-title": "Math. Probl. Eng. Hindawi"
+        },
+        {
+          "key": "ref_29",
+          "doi-asserted-by": "crossref",
+          "first-page": "11779322211020315",
+          "DOI": "10.1177/11779322211020315",
+          "article-title": "Performance of Regression Models as a Function of Experiment Noise",
+          "volume": "15",
+          "author": "Li",
+          "year": "2021",
+          "journal-title": "Bioinform. Biol. Insights"
+        },
+        {
+          "key": "ref_30",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ryu, J.-Y., Lee, B., Park, S., Hwang, S., Park, H., Lee, C., and Kwon, D. (2022). Evaluation of Weather Information for Short-Term Wind Power Forecasting with Various Types of Models. Energies, 15.",
+          "DOI": "10.3390/en15249403"
+        },
+        {
+          "key": "ref_31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mora, E., Cifuentes, J., and Marulanda, G. (2021). Short-Term Forecasting of Wind Energy: A Comparison of Deep Learning Frameworks. Energies, 14.",
+          "DOI": "10.3390/en14237943"
+        }
+      ],
+      "container-title": [
+        "Sustainability"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.mdpi.com/2071-1050/15/18/13424/pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            10
+          ]
+        ],
+        "date-time": "2025-10-10T20:46:57Z",
+        "timestamp": 1760129217000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.mdpi.com/2071-1050/15/18/13424"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            7
+          ]
+        ]
+      },
+      "references-count": 31,
+      "journal-issue": {
+        "issue": "18",
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              9
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "su151813424"
+      ],
+      "URL": "https://doi.org/10.3390/su151813424",
+      "relation": {},
+      "ISSN": [
+        "2071-1050"
+      ],
+      "issn-type": [
+        {
+          "value": "2071-1050",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            7
+          ]
+        ]
+      }
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Karthick Kanagarathinam",
+      "given_name_from_source": "Karthick",
+      "family_name_from_source": "Kanagarathinam",
+      "orcid_from_source": "https://orcid.org/0000-0001-7755-5715",
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering, GMR Institute of Technology, Rajam 532127, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "S. K. Aruna",
+      "given_name_from_source": "S. K.",
+      "family_name_from_source": "Aruna",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Computer Science and Engineering, School of Engineering and Technology, CHRIST (Deemed to be University), Bangalore 560029, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "S. Ravivarman",
+      "given_name_from_source": "S.",
+      "family_name_from_source": "Ravivarman",
+      "orcid_from_source": "https://orcid.org/0000-0001-6348-3132",
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering, Vardhaman College of Engineering, Shamshabad 501218, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Mejdl Safran",
+      "given_name_from_source": "Mejdl",
+      "family_name_from_source": "Safran",
+      "orcid_from_source": "https://orcid.org/0000-0002-7445-7121",
+      "affiliation_from_source": [
+        "Department of Computer Science, College of Computer and Information Sciences, King Saud University, P.O. Box 51178, Riyadh 11543, Saudi Arabia"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Sultan Alfarhood",
+      "given_name_from_source": "Sultan",
+      "family_name_from_source": "Alfarhood",
+      "orcid_from_source": "https://orcid.org/0009-0001-1268-9613",
+      "affiliation_from_source": [
+        "Department of Computer Science, College of Computer and Information Sciences, King Saud University, P.O. Box 51178, Riyadh 11543, Saudi Arabia"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "Waleed Alrajhi",
+      "given_name_from_source": "Waleed",
+      "family_name_from_source": "Alrajhi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Computer Science, College of Computer and Information Sciences, King Saud University, P.O. Box 51178, Riyadh 11543, Saudi Arabia"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

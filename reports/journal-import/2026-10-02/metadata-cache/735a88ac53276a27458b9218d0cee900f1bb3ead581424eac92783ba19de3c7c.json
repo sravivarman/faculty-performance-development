@@ -1,0 +1,436 @@
+{
+  "doi": "10.11591/ijpeds.v14.i4.pp2021-2031",
+  "title": "A new brushless DC motor driving resonant pole inverter optimized for batteries",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "International Journal of Power Electronics and Drive Systems (IJPEDS)",
+  "publisher": "Institute of Advanced Engineering and Science",
+  "publication_date": "2023-12-01",
+  "online_publication_date": "2023-12-01",
+  "print_publication_date": null,
+  "volume": "14",
+  "issue": "4",
+  "pages_or_article_number": "2021",
+  "issn": "2088-8694",
+  "eissn": "2722-256X",
+  "isbn": null,
+  "url": "https://doi.org/10.11591/ijpeds.v14.i4.pp2021-2031",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:35.256232+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            23
+          ]
+        ],
+        "date-time": "2026-06-23T22:43:02Z",
+        "timestamp": 1782254582262,
+        "version": "3.54.5"
+      },
+      "reference-count": 0,
+      "publisher": "Institute of Advanced Engineering and Science",
+      "issue": "4",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                12,
+                1
+              ]
+            ],
+            "date-time": "2023-12-01T00:00:00Z",
+            "timestamp": 1701388800000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "IJPEDS"
+      ],
+      "abstract": "<jats:p>&lt;span lang=\"EN-US\"&gt;The brushless DC motor (BLDC) has gained significant popularity in industrial settings due to its notable attributes such as low inertia, rapid response, high power density, exceptional dependability, and reputation for being conservation-free. Typically, these are equipped by a tight-switching PWM inverter, which results in significant switching losses. Consequently, the dissipation of switching loss necessitates the use of sizable heat sinks, resulting in an increase in both the physical dimensions and mass of the drive system. Numerous researchers have developed soft switching inverters with the aim of minimizing switching losses. The utilization of a soft-switching circuit may give rise to additional issues, including heightened voltage stress, incomplete pulse width modulation control, and intricate control scheme or implementation. The present study introduces a basic soft switch inverter design that is suitable for employment in BLDC drive systems powered by batteries. The inverter exhibits low loss for power switching and voltage stress is less on the main switches, while also featuring a straightforward control scheme that is easily implementable. Upon conducting analytical analysis, simulation results were presented by evaluating the theoretical analysis.&lt;/span&gt;</jats:p>",
+      "DOI": "10.11591/ijpeds.v14.i4.pp2021-2031",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            26
+          ]
+        ],
+        "date-time": "2023-09-26T15:37:38Z",
+        "timestamp": 1695742658000
+      },
+      "page": "2021",
+      "source": "Crossref",
+      "is-referenced-by-count": 8,
+      "title": [
+        "A new brushless DC motor driving resonant pole inverter optimized for batteries"
+      ],
+      "prefix": "10.11591",
+      "volume": "14",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-3808-0512",
+          "authenticated-orcid": false,
+          "given": "Kambhampati Venkata Govardhan",
+          "family": "Rao",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1154-9723",
+          "authenticated-orcid": false,
+          "given": "Malligunta Kiran",
+          "family": "Kumar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5107-9738",
+          "authenticated-orcid": false,
+          "given": "Srikanth B.",
+          "family": "Goud",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8651-9748",
+          "authenticated-orcid": false,
+          "given": "Tellapati Anuradha",
+          "family": "Devi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4776-5524",
+          "authenticated-orcid": false,
+          "given": "Gundala Srinivasa",
+          "family": "Rao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1134-0671",
+          "authenticated-orcid": false,
+          "given": "Ambati",
+          "family": "Giriprasad",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6656-0455",
+          "authenticated-orcid": false,
+          "given": "ISNVR",
+          "family": "Prashanth",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0183-4037",
+          "authenticated-orcid": false,
+          "given": "Thalanki Venkata Sai",
+          "family": "Kalyani",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "4858",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            1
+          ]
+        ]
+      },
+      "container-title": [
+        "International Journal of Power Electronics and Drive Systems (IJPEDS)"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "https://ijpeds.iaescore.com/index.php/IJPEDS/article/viewFile/22811/14326",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://ijpeds.iaescore.com/index.php/IJPEDS/article/viewFile/22811/14326",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            26
+          ]
+        ],
+        "date-time": "2023-09-26T15:39:31Z",
+        "timestamp": 1695742771000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://ijpeds.iaescore.com/index.php/IJPEDS/article/view/22811"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            1
+          ]
+        ]
+      },
+      "references-count": 0,
+      "journal-issue": {
+        "issue": "4",
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              1
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.11591/ijpeds.v14.i4.pp2021-2031",
+      "relation": {},
+      "ISSN": [
+        "2722-256X",
+        "2088-8694"
+      ],
+      "issn-type": [
+        {
+          "value": "2722-256X",
+          "type": "electronic"
+        },
+        {
+          "value": "2088-8694",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            1
+          ]
+        ]
+      }
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Kambhampati Venkata Govardhan Rao",
+      "given_name_from_source": "Kambhampati Venkata Govardhan",
+      "family_name_from_source": "Rao",
+      "orcid_from_source": "https://orcid.org/0000-0003-3808-0512",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Malligunta Kiran Kumar",
+      "given_name_from_source": "Malligunta Kiran",
+      "family_name_from_source": "Kumar",
+      "orcid_from_source": "https://orcid.org/0000-0002-1154-9723",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Srikanth B. Goud",
+      "given_name_from_source": "Srikanth B.",
+      "family_name_from_source": "Goud",
+      "orcid_from_source": "https://orcid.org/0000-0002-5107-9738",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Tellapati Anuradha Devi",
+      "given_name_from_source": "Tellapati Anuradha",
+      "family_name_from_source": "Devi",
+      "orcid_from_source": "https://orcid.org/0000-0002-8651-9748",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Gundala Srinivasa Rao",
+      "given_name_from_source": "Gundala Srinivasa",
+      "family_name_from_source": "Rao",
+      "orcid_from_source": "https://orcid.org/0000-0002-4776-5524",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "Ambati Giriprasad",
+      "given_name_from_source": "Ambati",
+      "family_name_from_source": "Giriprasad",
+      "orcid_from_source": "https://orcid.org/0000-0002-1134-0671",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 7,
+      "author_name_from_source": "ISNVR Prashanth",
+      "given_name_from_source": "ISNVR",
+      "family_name_from_source": "Prashanth",
+      "orcid_from_source": "https://orcid.org/0000-0001-6656-0455",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 8,
+      "author_name_from_source": "Thalanki Venkata Sai Kalyani",
+      "given_name_from_source": "Thalanki Venkata Sai",
+      "family_name_from_source": "Kalyani",
+      "orcid_from_source": "https://orcid.org/0000-0002-0183-4037",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

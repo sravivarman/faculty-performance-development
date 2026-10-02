@@ -1,0 +1,869 @@
+{
+  "doi": "10.1016/j.heliyon.2024.e39598",
+  "title": "An improved finite set model predictive control of SRM drive based on a voltage vectors strategy for low torque ripple",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Heliyon",
+  "publisher": "Elsevier BV",
+  "publication_date": null,
+  "online_publication_date": null,
+  "print_publication_date": null,
+  "volume": "10",
+  "issue": "20",
+  "pages_or_article_number": "e39598",
+  "issn": "2405-8440",
+  "eissn": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1016/j.heliyon.2024.e39598",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:00.484248+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            8
+          ]
+        ],
+        "date-time": "2026-09-08T18:47:27Z",
+        "timestamp": 1788893247821,
+        "version": "build-2803163510"
+      },
+      "reference-count": 50,
+      "publisher": "Elsevier BV",
+      "issue": "20",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2024-10-01T00:00:00Z",
+            "timestamp": 1727740800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2024-10-01T00:00:00Z",
+            "timestamp": 1727740800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                17
+              ]
+            ],
+            "date-time": "2024-10-17T00:00:00Z",
+            "timestamp": 1729123200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 16,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "cell.com",
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Heliyon"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            10
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.heliyon.2024.e39598",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            19
+          ]
+        ],
+        "date-time": "2024-10-19T22:16:23Z",
+        "timestamp": 1729376183000
+      },
+      "page": "e39598",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 30,
+      "title": [
+        "An improved finite set model predictive control of SRM drive based on a voltage vectors strategy for low torque ripple"
+      ],
+      "prefix": "10.1016",
+      "volume": "10",
+      "author": [
+        {
+          "given": "Deepak",
+          "family": "Mohanraj",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7622-5490",
+          "authenticated-orcid": false,
+          "given": "Devakirubakaran",
+          "family": "S",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.heliyon.2024.e39598_bib1",
+          "doi-asserted-by": "crossref",
+          "first-page": "73635",
+          "DOI": "10.1109/ACCESS.2022.3187515",
+          "article-title": "Critical aspects of electric motor drive controllers and mitigation of torque ripple—review",
+          "volume": "10",
+          "author": "Mohanraj",
+          "year": "2022",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39598_bib2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. Thangavel, M. Deepak, T. Girijaprasanna, S. Raju, C. Dhanamjayulu and S. M. Muyeen, \"A comprehensive review on electric Vehicle: battery management system, charging station, traction motors,\" in IEEE Access, doi: 10.1109/ACCESS.2023.3250221.",
+          "DOI": "10.1109/ACCESS.2023.3250221"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.heliyon.2024.e39598_bib3",
+          "doi-asserted-by": "crossref",
+          "first-page": "65",
+          "DOI": "10.3390/wevj13040065",
+          "article-title": "A multi-criteria analysis and trends of electric motors for electric vehicles",
+          "volume": "13",
+          "author": "El Hadraoui",
+          "year": "2022",
+          "journal-title": "World Electric Vehicle Journal"
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.heliyon.2024.e39598_bib4",
+          "doi-asserted-by": "crossref",
+          "first-page": "2402",
+          "DOI": "10.1016/j.enconman.2010.05.004",
+          "article-title": "Torque ripple minimization of axial laminations switched reluctance motor provided with digital lead controller",
+          "volume": "51",
+          "author": "Hasanien",
+          "year": "2010",
+          "journal-title": "Energy Convers. Manag."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39598_bib5",
+          "first-page": "1",
+          "article-title": "A hybrid sensorless starting strategy for SRM with fault-tolerant capability",
+          "author": "Cai",
+          "year": "2022",
+          "journal-title": "IEEE Transactions on Transportation Electrification"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39598_bib6",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.fuel.2021.121583",
+          "article-title": "Alternative fuels for decarbonisation of road transport sector in India: options, present status, opportunities, and challenges",
+          "volume": "305",
+          "author": "Nouni",
+          "year": "2021",
+          "journal-title": "Fuel"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.heliyon.2024.e39598_bib7",
+          "doi-asserted-by": "crossref",
+          "first-page": "967",
+          "DOI": "10.1109/JPROC.2021.3072788",
+          "article-title": "State of the art and trends in electric and hybrid electric vehicles",
+          "volume": "109",
+          "author": "Ehsani",
+          "year": "2021",
+          "journal-title": "Proc. IEEE"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.heliyon.2024.e39598_bib8",
+          "doi-asserted-by": "crossref",
+          "first-page": "835",
+          "DOI": "10.1109/TTE.2018.2865665",
+          "article-title": "Comprehensive report on design and development of a 100-kW DSSRM",
+          "volume": "4",
+          "author": "Maharjan",
+          "year": "2018",
+          "journal-title": "IEEE Transactions on Transportation Electrification"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39598_bib9",
+          "first-page": "1657",
+          "article-title": "Power electronic converter topologies for switched reluctance motor towards torque ripple analysis",
+          "volume": "52",
+          "author": "Deepak",
+          "year": "2022",
+          "journal-title": "Mater. Today: Proc."
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.heliyon.2024.e39598_bib10",
+          "doi-asserted-by": "crossref",
+          "first-page": "9300",
+          "DOI": "10.1109/TPEL.2021.3051107",
+          "article-title": "Wide speed range noise and vibration mitigation in switched reluctance machines with stator Pole bridges",
+          "volume": "36",
+          "author": "Das",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Power Electron."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39598_bib11",
+          "first-page": "255",
+          "article-title": "Investigation on airgap selection for switched reluctance motor on low power electric vehicles",
+          "volume": "64",
+          "author": "Deepak",
+          "year": "2022",
+          "journal-title": "Mater. Today: Proc."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.heliyon.2024.e39598_bib12",
+          "doi-asserted-by": "crossref",
+          "first-page": "1356",
+          "DOI": "10.1109/TIE.2021.3063871",
+          "article-title": "A mathematical torque ripple minimization technique based on a nonlinear modulating factor for switched reluctance motor drives",
+          "volume": "69",
+          "author": "Rana",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Ind. Electron."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.heliyon.2024.e39598_bib13",
+          "doi-asserted-by": "crossref",
+          "first-page": "411",
+          "DOI": "10.3390/en12030411",
+          "article-title": "Model predictive-based secondary frequency control considering heat pump water heaters",
+          "volume": "12",
+          "author": "Oshnoei",
+          "year": "2019",
+          "journal-title": "Energies"
+        },
+        {
+          "issue": "23",
+          "key": "10.1016/j.heliyon.2024.e39598_bib14",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.3390/app122312283",
+          "article-title": "An improved hybrid control scheme of a switched reluctance motor for torque ripple reduction",
+          "volume": "12",
+          "author": "He",
+          "year": "2022",
+          "journal-title": "Appl. Sci."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.heliyon.2024.e39598_bib15",
+          "doi-asserted-by": "crossref",
+          "first-page": "5605",
+          "DOI": "10.1109/TMECH.2022.3186383",
+          "article-title": "A hybrid control strategy for multimode switched reluctance motors",
+          "volume": "27",
+          "author": "Sun",
+          "year": "2022",
+          "journal-title": "IEEE ASME Trans. Mechatron."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39598_bib16",
+          "article-title": "Torque ripple minimization and radial force reduction for switched reluctance motor drive using offline Gaussian torque sharing function",
+          "author": "Divandari",
+          "year": "2022",
+          "journal-title": "Journal of Vibration Engineering & Technologies"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39598_bib17",
+          "first-page": "1",
+          "article-title": "Investigation on torque sharing function for torque ripple minimization of switched reluctance motor: a flower pollination algorithm based approach",
+          "author": "Gengaraj",
+          "year": "2022",
+          "journal-title": "IETE J. Res."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.heliyon.2024.e39598_bib18",
+          "doi-asserted-by": "crossref",
+          "first-page": "534",
+          "DOI": "10.1109/TTE.2022.3183171",
+          "article-title": "An online torque sharing function method involving current dynamics for switched reluctance motor drives",
+          "volume": "9",
+          "author": "Xia",
+          "year": "2023",
+          "journal-title": "IEEE Transactions on Transportation Electrification"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.heliyon.2024.e39598_bib19",
+          "doi-asserted-by": "crossref",
+          "first-page": "1241",
+          "DOI": "10.1109/TIE.2016.2618339",
+          "article-title": "Design and implementation of a nonlinear PI predictive controller for a grid-tied photovoltaic inverter",
+          "volume": "64",
+          "author": "Errouissi",
+          "year": "2017",
+          "journal-title": "IEEE Trans. Ind. Electron."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39598_bib20",
+          "article-title": "ANFIS based speed and current control with torque ripple minimization using hybrid SSD-SFO for switched reluctance motor",
+          "volume": "49",
+          "author": "Mukhopadhyay",
+          "year": "2022",
+          "journal-title": "Sustain. Energy Technol. Assessments"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39598_bib21",
+          "doi-asserted-by": "crossref",
+          "first-page": "75472",
+          "DOI": "10.1109/ACCESS.2022.3190082",
+          "article-title": "Torque ripple suppression of switched reluctance motor based on fuzzy indirect instant torque control",
+          "volume": "10",
+          "author": "Jing",
+          "year": "2022",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.heliyon.2024.e39598_bib22",
+          "doi-asserted-by": "crossref",
+          "first-page": "151",
+          "DOI": "10.1109/TIE.2021.3050349",
+          "article-title": "A sliding mode DITC cruise control for SRM with steepest descent minimum torque ripple point tracking",
+          "volume": "69",
+          "author": "de Paula",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Ind. Electron."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39598_bib23",
+          "doi-asserted-by": "crossref",
+          "first-page": "1336",
+          "DOI": "10.1016/j.egyr.2022.08.076",
+          "article-title": "Improved DITC strategy of switched reluctance motor based on adaptive turn-on angle TSF",
+          "volume": "8",
+          "author": "Ren",
+          "year": "2022",
+          "journal-title": "Energy Rep."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39598_bib24",
+          "series-title": "2021 23rd European Conference on Power Electronics and Applications (EPE’21 ECCE Europe)",
+          "article-title": "Torque ripple suppression method based on FOC for SRM without FEM analysis",
+          "author": "Tokui",
+          "year": "2021"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.heliyon.2024.e39598_bib25",
+          "doi-asserted-by": "crossref",
+          "first-page": "6688",
+          "DOI": "10.1109/TPEL.2022.3145873",
+          "article-title": "Direct torque control with variable flux for an SRM based on hybrid optimization algorithm",
+          "volume": "37",
+          "author": "Feng",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Power Electron."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.heliyon.2024.e39598_bib26",
+          "doi-asserted-by": "crossref",
+          "first-page": "1406",
+          "DOI": "10.1109/TEC.2021.3131870",
+          "article-title": "Model predictive direct torque control of switched reluctance motors for low-speed operation",
+          "volume": "37",
+          "author": "Li",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Energy Convers."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.heliyon.2024.e39598_bib27",
+          "doi-asserted-by": "crossref",
+          "first-page": "1193",
+          "DOI": "10.11591/eei.v10i3.3039",
+          "article-title": "Hybrid intelligent controller-based torque ripple minimization in switched reluctance motor drive",
+          "volume": "10",
+          "author": "Pushparajesh",
+          "year": "2021",
+          "journal-title": "Bulletin of Electrical Engineering and Informatics"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.heliyon.2024.e39598_bib28",
+          "doi-asserted-by": "crossref",
+          "first-page": "4595",
+          "DOI": "10.1109/TIE.2022.3190895",
+          "article-title": "An improved model predictive torque control for switched reluctance motors with candidate voltage vectors optimization",
+          "volume": "70",
+          "author": "Ding",
+          "year": "2023",
+          "journal-title": "IEEE Trans. Ind. Electron."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39598_bib29",
+          "doi-asserted-by": "crossref",
+          "first-page": "58170",
+          "DOI": "10.1109/ACCESS.2021.3073020",
+          "article-title": "Recent achievements in model predictive control techniques for industrial motor: a comprehensive state-of-the-art",
+          "volume": "9",
+          "author": "Elmorshedy",
+          "year": "2021",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "issue": "14",
+          "key": "10.1016/j.heliyon.2024.e39598_bib30",
+          "doi-asserted-by": "crossref",
+          "first-page": "3163",
+          "DOI": "10.1049/iet-pel.2019.1574",
+          "article-title": "Improved modulated model‐predictive control for PMSM drives with reduced computational burden",
+          "volume": "13",
+          "author": "Sun",
+          "year": "2020",
+          "journal-title": "IET Power Electron."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.heliyon.2024.e39598_bib31",
+          "doi-asserted-by": "crossref",
+          "first-page": "287",
+          "DOI": "10.1109/TTE.2015.2468178",
+          "article-title": "Inductance surface learning for model predictive current control of switched reluctance motors",
+          "volume": "1",
+          "author": "Li",
+          "year": "2015",
+          "journal-title": "IEEE Transactions on Transportation Electrification"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.heliyon.2024.e39598_bib32",
+          "doi-asserted-by": "crossref",
+          "first-page": "370",
+          "DOI": "10.1109/TPEL.2011.2161332",
+          "article-title": "Control for polyphase switched reluctance machines to minimize torque ripple and decrease ohmic machine losses",
+          "volume": "27",
+          "author": "Brauer",
+          "year": "2012",
+          "journal-title": "IEEE Trans. Power Electron."
+        },
+        {
+          "issue": "14",
+          "key": "10.1016/j.heliyon.2024.e39598_bib33",
+          "doi-asserted-by": "crossref",
+          "first-page": "3163",
+          "DOI": "10.1049/iet-pel.2019.1574",
+          "article-title": "Improved modulated model‐predictive control for PMSM drives with reduced computational burden",
+          "volume": "13",
+          "author": "Sun",
+          "year": "2020",
+          "journal-title": "IET Power Electron."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39598_bib34",
+          "doi-asserted-by": "crossref",
+          "first-page": "68584",
+          "DOI": "10.1109/ACCESS.2019.2917317",
+          "article-title": "A new control method based on DTC and MPC to reduce torque ripple in SRM",
+          "volume": "7",
+          "author": "Xu",
+          "year": "2019",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.heliyon.2024.e39598_bib35",
+          "doi-asserted-by": "crossref",
+          "first-page": "1619",
+          "DOI": "10.1109/JPHOTOV.2016.2598271",
+          "article-title": "A robust continuous-time MPC of a DC–DC boost converter interfaced with a grid-connected photovoltaic system",
+          "volume": "6",
+          "author": "Errouissi",
+          "year": "2016",
+          "journal-title": "IEEE J. Photovoltaics"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.heliyon.2024.e39598_bib36",
+          "doi-asserted-by": "crossref",
+          "first-page": "1826",
+          "DOI": "10.1109/TIE.2008.2008349",
+          "article-title": "Model predictive control—a simple and powerful method to control power converters",
+          "volume": "56",
+          "author": "Kouro",
+          "year": "2009",
+          "journal-title": "IEEE Trans. Ind. Electron."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.heliyon.2024.e39598_bib37",
+          "doi-asserted-by": "crossref",
+          "first-page": "144",
+          "DOI": "10.1049/iet-epa.2017.0268",
+          "article-title": "An improved finite‐state predictive torque control for switched reluctance motor drive",
+          "volume": "12",
+          "author": "Li",
+          "year": "2017",
+          "journal-title": "IET Electr. Power Appl."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39598_bib38",
+          "doi-asserted-by": "crossref",
+          "first-page": "68584",
+          "DOI": "10.1109/ACCESS.2019.2917317",
+          "article-title": "A new control method based on DTC and MPC to reduce torque ripple in SRM",
+          "volume": "7",
+          "author": "Xu",
+          "year": "2019",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39598_bib39",
+          "series-title": "2010 IEEE International Symposium on Industrial Electronics",
+          "article-title": "Model predictive control of a switched reluctance machine using discrete space vector modulation",
+          "author": "Villegas",
+          "year": "2010"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.heliyon.2024.e39598_bib40",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.asej.2022.101967",
+          "article-title": "An enhanced direct instantaneous torque control of switched reluctance motor drives using ant colony optimization",
+          "volume": "14",
+          "author": "Al-Amyal",
+          "year": "2023",
+          "journal-title": "Ain Shams Eng. J."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.heliyon.2024.e39598_bib41",
+          "doi-asserted-by": "crossref",
+          "first-page": "1313",
+          "DOI": "10.1109/TEC.2020.3047983",
+          "article-title": "A review of predictive control techniques for switched reluctance machine drives. Part I: fundamentals and current control",
+          "volume": "36",
+          "author": "Valencia",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Energy Convers."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.heliyon.2024.e39598_bib42",
+          "doi-asserted-by": "crossref",
+          "first-page": "792",
+          "DOI": "10.1109/TEC.2005.853763",
+          "article-title": "Effectiveness of active noise and vibration cancellation for switched reluctance machines operating under alternative control strategies",
+          "volume": "20",
+          "author": "Long",
+          "year": "2005",
+          "journal-title": "IEEE Trans. Energy Convers."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.heliyon.2024.e39598_bib43",
+          "doi-asserted-by": "crossref",
+          "first-page": "3146",
+          "DOI": "10.1109/TIA.2016.2550521",
+          "article-title": "Linearized modeling of switched reluctance motor for closed-loop current control",
+          "volume": "52",
+          "author": "Ahmad",
+          "year": "2016",
+          "journal-title": "IEEE Trans. Ind. Appl."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.heliyon.2024.e39598_bib44",
+          "doi-asserted-by": "crossref",
+          "first-page": "3934",
+          "DOI": "10.1109/TIE.2015.2497301",
+          "article-title": "Model predictive current control of switched reluctance motors with inductance auto-calibration",
+          "volume": "63",
+          "author": "Li",
+          "year": "2016",
+          "journal-title": "IEEE Trans. Ind. Electron."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39598_bib45",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1109/ISIE.2014.6864721",
+          "article-title": "Model predictive control of stator currents in Switched Reluctance Generators",
+          "author": "Kiani",
+          "year": "2014"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.heliyon.2024.e39598_bib46",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1115/1.4026128",
+          "article-title": "Robust control based on generalized predictive control applied to switched reluctance motor current loop",
+          "volume": "136",
+          "author": "Torrico",
+          "year": "2014",
+          "journal-title": "J. Dyn. Syst. Meas. Control"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39598_bib47",
+          "series-title": "2018 IEEE Energy Conversion Congress and Exposition (ECCE)",
+          "article-title": "Extended speed current profiling algorithm for low torque ripple SRM using model predictive control",
+          "author": "Mehta",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39598_bib48",
+          "first-page": "1",
+          "article-title": "The current predictive control method of switched reluctance motor based on commutation interval subdivision",
+          "author": "Tao",
+          "year": "2023"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39598_bib49",
+          "series-title": "2023 IEEE IAS Global Conference on Renewable Energy and Hydrogen Technologies (GlobConHT), Male, Maldives",
+          "first-page": "1",
+          "article-title": "A mathematical modelling approach switched reluctance motor for low speed torque ripple minimization by sensorless intelligent control",
+          "author": "Deepak",
+          "year": "2023"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39598_bib50",
+          "doi-asserted-by": "crossref",
+          "unstructured": "X. Sun, Y. Zhu, Y. Cai, M. Yao, Y. Sun and G. Lei, \"Optimized-sector-based model predictive torque control with sliding mode controller for switched reluctance motor,\" in IEEE Trans. Energy Convers., doi: 10.1109/TEC.2023.3301000.",
+          "DOI": "10.1109/TEC.2023.3301000"
+        }
+      ],
+      "container-title": [
+        "Heliyon"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2405844024156290?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2405844024156290?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            9
+          ]
+        ],
+        "date-time": "2026-04-09T10:12:07Z",
+        "timestamp": 1775729527000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2405844024156290"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            10
+          ]
+        ]
+      },
+      "references-count": 50,
+      "journal-issue": {
+        "issue": "20",
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              10
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "S2405844024156290"
+      ],
+      "URL": "https://doi.org/10.1016/j.heliyon.2024.e39598",
+      "relation": {},
+      "ISSN": [
+        "2405-8440"
+      ],
+      "issn-type": [
+        {
+          "value": "2405-8440",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            10
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "An improved finite set model predictive control of SRM drive based on a voltage vectors strategy for low torque ripple",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Heliyon",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.heliyon.2024.e39598",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2024 Published by Elsevier Ltd.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "e39598"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Deepak Mohanraj",
+      "given_name_from_source": "Deepak",
+      "family_name_from_source": "Mohanraj",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Devakirubakaran S",
+      "given_name_from_source": "Devakirubakaran",
+      "family_name_from_source": "S",
+      "orcid_from_source": "https://orcid.org/0000-0001-7622-5490",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

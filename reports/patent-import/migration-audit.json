@@ -1,0 +1,22 @@
+{
+  "backup": "C:\\Users\\silic\\Documents\\GitHub\\faculty-performance-development\\data\\backups\\pre_patent_import_20261003_002952.db",
+  "existing_table_values_preserved": true,
+  "tables_verified": [
+    "academic_years",
+    "students",
+    "change_logs",
+    "publication_authors",
+    "patents",
+    "patent_change_logs",
+    "patent_inventors",
+    "patent_status_history",
+    "publications",
+    "book_publications",
+    "book_change_logs",
+    "book_contributors",
+    "evidence_files",
+    "faculty"
+  ],
+  "integrity_check": "ok",
+  "foreign_key_violations": 0
+}

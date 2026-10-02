@@ -1,0 +1,780 @@
+{
+  "doi": "10.1038/s41598-024-77275-z",
+  "title": "Multiobjective optimal power flow solutions using nondominated sorting colliding bodies optimization",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Scientific Reports",
+  "publisher": "Springer Science and Business Media LLC",
+  "publication_date": "2024-11-04",
+  "online_publication_date": "2024-11-04",
+  "print_publication_date": null,
+  "volume": "14",
+  "issue": "1",
+  "pages_or_article_number": "26593",
+  "issn": null,
+  "eissn": "2045-2322",
+  "isbn": null,
+  "url": "https://doi.org/10.1038/s41598-024-77275-z",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:56.929542+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            2
+          ]
+        ],
+        "date-time": "2026-07-02T00:51:41Z",
+        "timestamp": 1782953501164,
+        "version": "3.54.5"
+      },
+      "reference-count": 30,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                4
+              ]
+            ],
+            "date-time": "2024-11-04T00:00:00Z",
+            "timestamp": 1730678400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                4
+              ]
+            ],
+            "date-time": "2024-11-04T00:00:00Z",
+            "timestamp": 1730678400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Sci Rep"
+      ],
+      "DOI": "10.1038/s41598-024-77275-z",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            4
+          ]
+        ],
+        "date-time": "2024-11-04T08:03:05Z",
+        "timestamp": 1730707385000
+      },
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 4,
+      "title": [
+        "Multiobjective optimal power flow solutions using nondominated sorting colliding bodies optimization"
+      ],
+      "prefix": "10.1038",
+      "volume": "14",
+      "author": [
+        {
+          "given": "Harish",
+          "family": "Pulluri",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kambhampati Venkata Govardhan",
+          "family": "Rao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Cholleti",
+          "family": "Sriram",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "B.",
+          "family": "Srikanth Goud",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sangeetha",
+          "family": "K",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            4
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "77275_CR1",
+          "doi-asserted-by": "publisher",
+          "first-page": "1866",
+          "DOI": "10.1109/TPAS.1968.292150",
+          "volume": "87",
+          "author": "HW Dommel",
+          "year": "1968",
+          "unstructured": "Dommel, H. W. & Tinney, W. F. Optimal power flow solutions. IEEE Transc Power Apparat Syst. 87, 1866–1876 (1968).",
+          "journal-title": "IEEE Transc Power Apparat Syst."
+        },
+        {
+          "issue": "5",
+          "key": "77275_CR2",
+          "first-page": "1713",
+          "volume": "97",
+          "author": "B Scott",
+          "year": "1978",
+          "unstructured": "Scott, B. & Hobson, E. Power system security control calculations using linear programming- part I. IEEE Transc. Power Appart Syst. 97 (5), 1713–1720 (1978).",
+          "journal-title": "Power Appart Syst."
+        },
+        {
+          "issue": "10",
+          "key": "77275_CR3",
+          "doi-asserted-by": "publisher",
+          "first-page": "2864",
+          "DOI": "10.1109/TPAS.1984.318284",
+          "volume": "103",
+          "author": "DI Sun",
+          "year": "1984",
+          "unstructured": "Sun, D. I., Ashley, B., Brewer, B. & Tinney, W. F. Optimal powerflow by Newton appraoch. IEEE Transc Power Appart Syst. 103 (10), 2864–2880 (1984).",
+          "journal-title": "IEEE Transc Power Appart Syst."
+        },
+        {
+          "issue": "8",
+          "key": "77275_CR4",
+          "doi-asserted-by": "publisher",
+          "first-page": "3283",
+          "DOI": "10.1007/s00500-015-1707-4",
+          "volume": "20",
+          "author": "AA Omar",
+          "year": "2016",
+          "unstructured": "Omar, A. A., AL-Smadi, M., Shaher, M. & Tasawar, H. Numerical solutions of fuzzy differential equations using reproducing kernel Hilbert space method. Soft Comput. 20 (8), 3283–3302 (2016).",
+          "journal-title": "Soft Comput."
+        },
+        {
+          "issue": "13",
+          "key": "77275_CR5",
+          "first-page": "7191",
+          "volume": "21",
+          "author": "AA Omar",
+          "year": "2017",
+          "unstructured": "Omar, A. A., AL-Smadi, M., Shaher, M. & Tasawar, H. Application of reproducing kernel algorithm for solving second-order, two-point fuzzy boundary value problems. Soft. Comput. 21 (13), 7191–7206 (2017).",
+          "journal-title": "Soft. Comput."
+        },
+        {
+          "issue": "7",
+          "key": "77275_CR6",
+          "doi-asserted-by": "publisher",
+          "first-page": "1591",
+          "DOI": "10.1007/s00521-015-2110-x",
+          "volume": "28",
+          "author": "AA Omar",
+          "year": "2017",
+          "unstructured": "Omar, A. A. Adaptation of reproducing kernel algorithm for solving fuzzy Fredholm-Volterra integrodifferential equations. Neural Comput. Appl. 28 (7), 1591–1610 (2017).",
+          "journal-title": "Neural Comput. Appl."
+        },
+        {
+          "key": "77275_CR7",
+          "doi-asserted-by": "publisher",
+          "first-page": "229",
+          "DOI": "10.1016/j.asoc.2017.01.030",
+          "volume": "54",
+          "author": "H Pulluri",
+          "year": "2017",
+          "unstructured": "Pulluri, H., Sharma, R. N. & Sharma, V. An enhanced self-adaptive differential evolution based solution methodology for multiobjective optimal power flow. Appl. Soft Comput. 54, 229–245 (2017).",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "key": "77275_CR8",
+          "doi-asserted-by": "publisher",
+          "first-page": "509",
+          "DOI": "10.1007/s00521-017-3009-5",
+          "volume": "31",
+          "author": "S Surender Reddy",
+          "year": "2019",
+          "unstructured": "Surender Reddy, S. & Bijwe, P. R. Differential evolution-based efficient multi-objective optimal power flow. Neural Comput. Applic. 31, 509–522 (2019).",
+          "journal-title": "Neural Comput. Applic"
+        },
+        {
+          "key": "77275_CR9",
+          "doi-asserted-by": "publisher",
+          "first-page": "991",
+          "DOI": "10.1007/s13369-012-0224-3",
+          "volume": "37",
+          "author": "MA Abido",
+          "year": "2012",
+          "unstructured": "Abido, M. A. Al-Ali. Multiobjective optimal power flow using differential evolution. Arab. J. Sci. Eng. 37, 991–1005 (2012).",
+          "journal-title": "Arab. J. Sci. Eng."
+        },
+        {
+          "key": "77275_CR10",
+          "doi-asserted-by": "publisher",
+          "first-page": "107814",
+          "DOI": "10.1016/j.asoc.2021.107814",
+          "volume": "112",
+          "author": "S uman",
+          "year": "2021",
+          "unstructured": "uman, S., Akbel, M. & Kahraman, H. T. Development of the multi-objective adaptive guided diferential evolution and optimization of the MO-ACOPF for wind/PV/tidal energy sources. Appl. Sof Comput. 112, 107814 (2021).",
+          "journal-title": "Appl. Sof Comput."
+        },
+        {
+          "issue": "2",
+          "key": "77275_CR11",
+          "doi-asserted-by": "publisher",
+          "first-page": "182",
+          "DOI": "10.1109/4235.996017",
+          "volume": "6",
+          "author": "K Deb",
+          "year": "2002",
+          "unstructured": "Deb, K., Agarwal, S., Pratap, A. & Merayivan, T. A fast and elitist multiobjective genetic algorithm: NSGA-II. IEEE Transc Evol. Comput. 6 (2), 182–197 (2002).",
+          "journal-title": "IEEE Transc Evol. Comput."
+        },
+        {
+          "key": "77275_CR12",
+          "doi-asserted-by": "publisher",
+          "first-page": "116817",
+          "DOI": "10.1016/j.energy.2019.116817",
+          "volume": "193",
+          "author": "AE Ragab",
+          "year": "2020",
+          "unstructured": "Ragab, A. E., Selim, F., Bachir, B. & bido, M. A. A novel multi-objective hybrid particle swarm and salp optimization algorithm for technical-economical environmental operation in power systems. Energy. 193, 116817 (2020).",
+          "journal-title": "Energy"
+        },
+        {
+          "key": "77275_CR13",
+          "doi-asserted-by": "publisher",
+          "first-page": "219",
+          "DOI": "10.1016/j.ijepes.2013.04.021",
+          "volume": "53",
+          "author": "M Rezaei",
+          "year": "2013",
+          "unstructured": "Rezaei, M., Daryani, A. & Karami, M. Artificial bee colony algorithm for solving multiobjective optimal power flow problem. Int. J. Electr. Power Energy Syst. 53, 219–230 (2013).",
+          "journal-title": "Int. J. Electr. Power Energy Syst."
+        },
+        {
+          "key": "77275_CR14",
+          "doi-asserted-by": "publisher",
+          "first-page": "745",
+          "DOI": "10.1016/j.ijepes.2010.12.031",
+          "volume": "33",
+          "author": "S Sivasubramani",
+          "year": "2011",
+          "unstructured": "Sivasubramani, S. & Swarup, K. S. Multiobjective harmony search algorithm for optimal power flow problem. Int. J. Electr. Power Energy Syst. 33, 745–752 (2011).",
+          "journal-title": "Int. J. Electr. Power Energy Syst."
+        },
+        {
+          "issue": "8",
+          "key": "77275_CR15",
+          "doi-asserted-by": "publisher",
+          "first-page": "751",
+          "DOI": "10.1049/iet-gtd.2011.0593",
+          "volume": "6",
+          "author": "B Aniruddha",
+          "year": "2012",
+          "unstructured": "Aniruddha, B. & Provas, K. R. Solution of multi-objective optimal power flow using gravitational search algorithm. IET Gener Transm Distr. 6 (8), 751–763 (2012).",
+          "journal-title": "IET Gener Transm Distr"
+        },
+        {
+          "key": "77275_CR16",
+          "doi-asserted-by": "publisher",
+          "first-page": "1237",
+          "DOI": "10.1016/j.ijepes.2014.09.015",
+          "volume": "64",
+          "author": "RB Arup",
+          "year": "2015",
+          "unstructured": "Arup, R. B. & Ajoy, K. C. Solution of optimal power flow using non dominated sorting multi objective opposition based gravitational search algorithm. Int. J. Electr. Power Energy Syst. 64, 1237–1250 (2015).",
+          "journal-title": "Int. J. Electr. Power Energy Syst."
+        },
+        {
+          "key": "77275_CR17",
+          "doi-asserted-by": "publisher",
+          "first-page": "10647",
+          "DOI": "10.1038/s41598-023-37635-7",
+          "volume": "13",
+          "author": "N Li",
+          "year": "2023",
+          "unstructured": "Li, N. et al. Multi-objective pathfinder algorithm for multi-objective optimal power flow problem with random renewable energy sources: wind, photovoltaic and tidal. Sci. Rep. 13, 10647 (2023).",
+          "journal-title": "Sci. Rep."
+        },
+        {
+          "key": "77275_CR18",
+          "doi-asserted-by": "publisher",
+          "first-page": "286",
+          "DOI": "10.1016/j.ins.2014.09.051",
+          "volume": "294",
+          "author": "M Ghasemi",
+          "year": "2015",
+          "unstructured": "Ghasemi, M., Ghavidel, S., Ghanbarian, M. M. & Gitizadeh, M. Multiobjective optimal electric power planning in the power system using Gaussian bare-bones imperialist competitive algorithm. Inf. Sci. 294, 286–304 (2015).",
+          "journal-title": "Inf. Sci."
+        },
+        {
+          "issue": "6",
+          "key": "77275_CR19",
+          "doi-asserted-by": "publisher",
+          "first-page": "2943",
+          "DOI": "10.1007/s00500-022-07607-6",
+          "volume": "27",
+          "author": "MR Chen",
+          "year": "2023",
+          "unstructured": "Chen, M. R., Yang, L. Q. & Zeng, G. Q. IFA-EO: an improved firefly algorithm hybridized with extremal optimization for continuous unconstrained optimization problems. Soft Comput. 27 (6), 2943–2964 (2023).",
+          "journal-title": "Soft Comput."
+        },
+        {
+          "key": "77275_CR20",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Li, H., Wang, Z., Zeng, N., Wu, P. & Li, Y. Promoting objective knowledge transfer: a cascaded fuzzy system for solving dynamic Multiobjective optimization problems. in IEEE Trans. Fuzzy Syst., https://doi.org/10.1109/TFUZZ.2024.3443207",
+          "DOI": "10.1109/TFUZZ.2024.3443207"
+        },
+        {
+          "key": "77275_CR21",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Li, H., Wang, Z., Lan, C., Wu, P. & Zeng, N. A novel dynamic multiobjective optimization algorithm with non-inductive transfer learning based on multi-strategy adaptive selection. IEEE Trans. Neural Netw. Learn. Syst. 28 https://doi.org/10.1109/TNNLS.2023.3295461 (2023).",
+          "DOI": "10.1109/TNNLS.2023.3295461"
+        },
+        {
+          "issue": "5",
+          "key": "77275_CR22",
+          "doi-asserted-by": "publisher",
+          "first-page": "766",
+          "DOI": "10.1080/15325008.2023.2234378",
+          "volume": "52",
+          "author": "E Naderi",
+          "year": "2023",
+          "unstructured": "Naderi, E., Mirzaei, L., Trimble, J. P. & Cantrell, D. A. multi-objective optimal power flow incorporating flexible alternating current transmission systems: application of a wavelet-oriented evolutionary algorithm. Electr. Power Compo Syst. 52 (5), 766–795 (2023).",
+          "journal-title": "Electr. Power Compo Syst."
+        },
+        {
+          "issue": "2",
+          "key": "77275_CR23",
+          "doi-asserted-by": "publisher",
+          "first-page": "2494",
+          "DOI": "10.1109/TCSS.2023.3293331",
+          "volume": "11",
+          "author": "H Li",
+          "year": "2024",
+          "unstructured": "Li, H., Wang, Z., Lan, C., Wu, P. & Zeng, N. A novel dynamic multiobjective optimization algorithm with hierarchical response system. IEEE Trans. Comput. Social Syst. 11 (2), 2494–2512 (2024).",
+          "journal-title": "IEEE Trans. Comput. Social Syst."
+        },
+        {
+          "issue": "1",
+          "key": "77275_CR24",
+          "doi-asserted-by": "publisher",
+          "first-page": "159",
+          "DOI": "10.1007/s00500-016-2319-3",
+          "volume": "22",
+          "author": "H Pulluri",
+          "year": "2016",
+          "unstructured": "Pulluri, H., Naresh, R. & Sharma, V. A solution network based on stud krill herd algorithm for optimal power flow problems. Soft Comput. 22 (1), 159–176 (2016).",
+          "journal-title": "Soft Comput."
+        },
+        {
+          "key": "77275_CR25",
+          "doi-asserted-by": "publisher",
+          "first-page": "105885",
+          "DOI": "10.1016/j.compbiomed.2022.105885",
+          "volume": "148",
+          "author": "S Beibei",
+          "year": "2022",
+          "unstructured": "Beibei, S. et al. Prediction of recurrent spontaneous abortion using evolutionary machine learning with joint self-adaptive sime mould algorithm. Comput. Biol. Med. 148, 105885 (2022).",
+          "journal-title": "Comput. Biology Med."
+        },
+        {
+          "key": "77275_CR26",
+          "doi-asserted-by": "publisher",
+          "first-page": "8",
+          "DOI": "10.1016/j.compstruc.2014.04.005",
+          "volume": "139",
+          "author": "A Kaveh",
+          "year": "2014",
+          "unstructured": "Kaveh, A. & Mahdvi, V. R. Colliding bodies optimization: a novel meta-heuristic method. Comput. Struct. 139, 8–27 (2014).",
+          "journal-title": "Comput. Struct."
+        },
+        {
+          "key": "77275_CR27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Pulluri, H., Naresh, R., Sharma, V. & Preeti Solving non-convex and non-linear optimal power flow problems using colliding bodies optimization, Proceedings of the 2nd international Conference on Recent Adnvances in Engineering and Computer Sciences (RAECS-2015), Chandighar, INDIA, pp. 1–6. (2015).",
+          "DOI": "10.1109/RAECS.2015.7453351"
+        },
+        {
+          "key": "77275_CR28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Pulluri, H., Naresh, R., Sharma, V. & Preeti A new colliding bodies optimization for solving optimal power flow problem in power system. Proceedings of the 6th International Conference on Power Systems (ICPS – 2016), New Delhi, INDIA, pp. 1–6. (2016).",
+          "DOI": "10.1109/ICPES.2016.7584138"
+        },
+        {
+          "key": "77275_CR29",
+          "doi-asserted-by": "publisher",
+          "first-page": "1",
+          "DOI": "10.1016/j.advengsoft.2014.01.002",
+          "volume": "70",
+          "author": "A Kaveh",
+          "year": "2014",
+          "unstructured": "Kaveh, A. & Mahdvi, V. R. Colliding bodies optimization method for optimum design of truss structures with continuous variables. Adv. Eng. Soft. 70, 1–12 (2014).",
+          "journal-title": "Adv. Eng. Soft"
+        },
+        {
+          "issue": "16",
+          "key": "77275_CR30",
+          "doi-asserted-by": "publisher",
+          "first-page": "7229",
+          "DOI": "10.1007/s00500-018-3368-6",
+          "volume": "23",
+          "author": "N Gouthamkumar",
+          "year": "2019",
+          "unstructured": "Gouthamkumar, N., Srinivasarao, B., Venkateswararao, B. & Narasimham, P. V. R.L. Nondominated sorting-based disruption in oppositional gravitational search algorithm for stochastic multiobjective short-term hydrothermal scheduling. Soft Comput. 23 (16), 7229–7248 (2019).",
+          "journal-title": "Soft Comput."
+        }
+      ],
+      "container-title": [
+        "Scientific Reports"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.nature.com/articles/s41598-024-77275-z.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.nature.com/articles/s41598-024-77275-z",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.nature.com/articles/s41598-024-77275-z.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            7
+          ]
+        ],
+        "date-time": "2024-11-07T12:05:15Z",
+        "timestamp": 1730981115000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.nature.com/articles/s41598-024-77275-z"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            4
+          ]
+        ]
+      },
+      "references-count": 30,
+      "journal-issue": {
+        "issue": "1",
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              12
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "77275"
+      ],
+      "URL": "https://doi.org/10.1038/s41598-024-77275-z",
+      "relation": {},
+      "ISSN": [
+        "2045-2322"
+      ],
+      "issn-type": [
+        {
+          "value": "2045-2322",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            4
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "7 July 2024",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "21 October 2024",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "4 November 2024",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Declarations"
+          }
+        },
+        {
+          "value": "The paper is not currently being considered for publication elsewhere.",
+          "order": 2,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Ethical approval"
+          }
+        },
+        {
+          "value": "Not applicable.",
+          "order": 3,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Consent to participate"
+          }
+        },
+        {
+          "value": "Not applicable.",
+          "order": 4,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Consent to publish"
+          }
+        },
+        {
+          "value": "The authors declare no competing interests.",
+          "order": 5,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        }
+      ],
+      "article-number": "26593"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Harish Pulluri",
+      "given_name_from_source": "Harish",
+      "family_name_from_source": "Pulluri",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Kambhampati Venkata Govardhan Rao",
+      "given_name_from_source": "Kambhampati Venkata Govardhan",
+      "family_name_from_source": "Rao",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Cholleti Sriram",
+      "given_name_from_source": "Cholleti",
+      "family_name_from_source": "Sriram",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "B. Srikanth Goud",
+      "given_name_from_source": "B.",
+      "family_name_from_source": "Srikanth Goud",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "Sangeetha K",
+      "given_name_from_source": "Sangeetha",
+      "family_name_from_source": "K",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

@@ -1,0 +1,1515 @@
+{
+  "doi": "10.1016/j.heliyon.2024.e39299",
+  "title": "Advancement of electric vehicle technologies, classification of charging methodologies, and optimization strategies for sustainable development - A comprehensive review",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Heliyon",
+  "publisher": "Elsevier BV",
+  "publication_date": null,
+  "online_publication_date": null,
+  "print_publication_date": null,
+  "volume": "10",
+  "issue": "20",
+  "pages_or_article_number": "e39299",
+  "issn": "2405-8440",
+  "eissn": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1016/j.heliyon.2024.e39299",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:01.318711+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            7
+          ]
+        ],
+        "date-time": "2026-09-07T22:35:32Z",
+        "timestamp": 1788820532935,
+        "version": "build-2803163510"
+      },
+      "reference-count": 106,
+      "publisher": "Elsevier BV",
+      "issue": "20",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2024-10-01T00:00:00Z",
+            "timestamp": 1727740800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2024-10-01T00:00:00Z",
+            "timestamp": 1727740800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                10
+              ]
+            ],
+            "date-time": "2024-10-10T00:00:00Z",
+            "timestamp": 1728518400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 9,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "cell.com",
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Heliyon"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            10
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.heliyon.2024.e39299",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            12
+          ]
+        ],
+        "date-time": "2024-10-12T02:27:02Z",
+        "timestamp": 1728700022000
+      },
+      "page": "e39299",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 46,
+      "title": [
+        "Advancement of electric vehicle technologies, classification of charging methodologies, and optimization strategies for sustainable development - A comprehensive review"
+      ],
+      "prefix": "10.1016",
+      "volume": "10",
+      "author": [
+        {
+          "given": "Vikram Goud",
+          "family": "Madaram",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Pabitra Kumar",
+          "family": "Biswas",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chiranjit",
+          "family": "Sain",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sudhakar Babu",
+          "family": "Thanikanti",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1561-1376",
+          "authenticated-orcid": false,
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "issue": "7",
+          "key": "10.1016/j.heliyon.2024.e39299_bib1",
+          "doi-asserted-by": "crossref",
+          "first-page": "634",
+          "DOI": "10.1080/14786451.2020.1743704",
+          "article-title": "Land transport CO2 emissions and climate change: evidence from Cyprus",
+          "volume": "39",
+          "author": "Giannakis",
+          "year": "2020",
+          "journal-title": "Int. J. Sustain. Energy"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib2",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.3389/fenrg.2021.672920",
+          "article-title": "Conservative or aggressive? The dynamic adjustment of the feed-in tariff policy for photovoltaic power generation in China",
+          "volume": "9",
+          "author": "Fu",
+          "year": "2021",
+          "journal-title": "Front. Energy Res."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib3",
+          "doi-asserted-by": "crossref",
+          "first-page": "59",
+          "DOI": "10.1146/annurev-environ-012220-034103",
+          "article-title": "Greenhouse gas emissions from air conditioning and refrigeration service expansion in developing countries",
+          "volume": "46",
+          "author": "Dong",
+          "year": "2021",
+          "journal-title": "Annu. Rev. Environ. Resour."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.heliyon.2024.e39299_bib4",
+          "doi-asserted-by": "crossref",
+          "first-page": "78",
+          "DOI": "10.3390/wevj12020078",
+          "article-title": "Analysis and prediction of electromobility and energy supply by the example of Stuttgart",
+          "volume": "12",
+          "author": "Wörner",
+          "year": "2021",
+          "journal-title": "World Electric Vehicle Journal"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.heliyon.2024.e39299_bib5",
+          "doi-asserted-by": "crossref",
+          "first-page": "456",
+          "DOI": "10.1038/s41578-021-00325-9",
+          "article-title": "Mining our green future",
+          "volume": "6",
+          "author": "Herrington",
+          "year": "2021",
+          "journal-title": "Nat. Rev. Mater."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib6",
+          "doi-asserted-by": "crossref",
+          "first-page": "105761",
+          "DOI": "10.1109/ACCESS.2023.3318121",
+          "article-title": "Advances in batteries, battery modeling, battery management system, battery thermal management, SOC, SOH, and charge/discharge characteristics in EV applications",
+          "volume": "11",
+          "author": "Kumar",
+          "year": "2023",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib7",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.apenergy.2021.116737",
+          "article-title": "Cost and carbon footprint reduction of electric vehicle lithium-ion batteries through efficient thermal management",
+          "volume": "289",
+          "author": "Lander",
+          "year": "2021",
+          "journal-title": "Appl. Energy"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.heliyon.2024.e39299_bib8",
+          "doi-asserted-by": "crossref",
+          "first-page": "114",
+          "DOI": "10.1007/s40518-021-00180-w",
+          "article-title": "Status report on electrification policy: where to next?",
+          "volume": "8",
+          "year": "2021",
+          "journal-title": "Current Sustainable/Renewable Energy Reports"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib9",
+          "series-title": "Steering a Green, Healthy, and Inclusive Recovery through Transport",
+          "author": "Fried",
+          "year": "2021"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.heliyon.2024.e39299_bib10",
+          "doi-asserted-by": "crossref",
+          "first-page": "66",
+          "DOI": "10.1016/j.tej.2013.04.008",
+          "article-title": "The outlook for residential electricity prices in Australia's National Electricity Market in 2020",
+          "volume": "26",
+          "author": "Simshauser",
+          "year": "2013",
+          "journal-title": "Electr. J."
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.heliyon.2024.e39299_bib12",
+          "doi-asserted-by": "crossref",
+          "first-page": "3636",
+          "DOI": "10.3390/en14123636",
+          "article-title": "Case study of a hybrid wind and tidal turbines system with a microgrid for power supply to a remote off-grid community in New Zealand",
+          "volume": "14",
+          "author": "MajdiNasab",
+          "year": "2021",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib13",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.enpol.2020.111885",
+          "article-title": "Fuel riots: definition, evidence and policy implications for a new type of energy-related conflict",
+          "volume": "147",
+          "author": "Natalini",
+          "year": "2020",
+          "journal-title": "Energy Pol."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib14",
+          "series-title": "Reducing Greenhouse Gas Emissions and Improving Air Quality",
+          "first-page": "39",
+          "article-title": "Electrification of transportation",
+          "author": "Erickson",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib15",
+          "doi-asserted-by": "crossref",
+          "first-page": "824",
+          "DOI": "10.1016/j.energy.2019.06.077",
+          "article-title": "A comprehensive review of the key technologies for pure electric vehicles",
+          "volume": "182",
+          "author": "Li",
+          "year": "2019",
+          "journal-title": "Energy"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.heliyon.2024.e39299_bib16",
+          "first-page": "76",
+          "article-title": "Structure of the model of hybrid electric vehicle energy efficiency",
+          "volume": "6",
+          "author": "Bozhkov",
+          "year": "2021",
+          "journal-title": "Trans Motauto World"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.heliyon.2024.e39299_bib17",
+          "doi-asserted-by": "crossref",
+          "first-page": "967",
+          "DOI": "10.1109/JPROC.2021.3072788",
+          "article-title": "State of the art and trends in electric and hybrid electric vehicles",
+          "volume": "109",
+          "author": "Ehsani",
+          "year": "2021",
+          "journal-title": "Proc. IEEE"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib18",
+          "series-title": "Smart Sensors Measurements and Instrumentation",
+          "first-page": "93",
+          "article-title": "Comparative analysis of different control techniques for six-phase PMSM as an application to HEV",
+          "author": "Mohith",
+          "year": "2021"
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.heliyon.2024.e39299_bib19",
+          "doi-asserted-by": "crossref",
+          "first-page": "6921",
+          "DOI": "10.1109/TVT.2018.2834537",
+          "article-title": "Automated dynamic modeling of arbitrary hybrid and electric drivetrain topologies",
+          "volume": "67",
+          "author": "van Harselaar",
+          "year": "2018",
+          "journal-title": "IEEE Trans. Veh. Technol."
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.heliyon.2024.e39299_bib20",
+          "doi-asserted-by": "crossref",
+          "first-page": "11523",
+          "DOI": "10.1109/TVT.2019.2952190",
+          "article-title": "Efficiency improvement of a series–parallel hybrid electric powertrain by topology modification",
+          "volume": "68",
+          "author": "Kabalan",
+          "year": "2019",
+          "journal-title": "IEEE Trans. Veh. Technol."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib21",
+          "author": "Miller"
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.heliyon.2024.e39299_bib22",
+          "doi-asserted-by": "crossref",
+          "first-page": "2831",
+          "DOI": "10.1109/TITS.2018.2886809",
+          "article-title": "Recuperation of regenerative braking energy in electric rail transit systems",
+          "volume": "20",
+          "author": "Khodaparastan",
+          "year": "2019",
+          "journal-title": "IEEE Trans. Intell. Transport. Syst."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib23",
+          "doi-asserted-by": "crossref",
+          "first-page": "95",
+          "DOI": "10.1016/j.mechatronics.2018.11.006",
+          "article-title": "Torque optimization control for electric vehicles with four in-wheel motors equipped with regenerative braking system",
+          "volume": "57",
+          "author": "Xu",
+          "year": "2019",
+          "journal-title": "Mechatronics"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib24",
+          "doi-asserted-by": "crossref",
+          "first-page": "796",
+          "DOI": "10.1016/j.jclepro.2018.04.024",
+          "article-title": "Rule-corrected energy management strategy for hybrid electric vehicles based on operation-mode prediction",
+          "volume": "188",
+          "author": "Liu",
+          "year": "2018",
+          "journal-title": "J. Clean. Prod."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib25",
+          "series-title": "IEEE Innovative Smart Grid Technologies-Asia (ISGT Asia)",
+          "first-page": "151",
+          "article-title": "A novel simulation model for analyzing the state of charge of electric vehicle",
+          "author": "Arif",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib26",
+          "doi-asserted-by": "crossref",
+          "first-page": "268",
+          "DOI": "10.1016/j.rser.2017.03.056",
+          "article-title": "Fuel cell hybrid electric vehicles: a review on power conditioning units and topologies",
+          "volume": "76",
+          "author": "Das",
+          "year": "2017",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.heliyon.2024.e39299_bib27",
+          "doi-asserted-by": "crossref",
+          "first-page": "753",
+          "DOI": "10.1002/fuce.202000095",
+          "article-title": "A long‐term energy management strategy for fuel cell electric vehicles using reinforcement learning",
+          "volume": "20",
+          "author": "Zhou",
+          "year": "2020",
+          "journal-title": "Fuel Cell."
+        },
+        {
+          "issue": "25",
+          "key": "10.1016/j.heliyon.2024.e39299_bib28",
+          "doi-asserted-by": "crossref",
+          "first-page": "11614",
+          "DOI": "10.1016/j.ijhydene.2017.03.166",
+          "article-title": "Influence of secondary source technologies and energy management strategies on Energy Storage System sizing for fuel cell electric vehicles",
+          "volume": "43",
+          "author": "Bendjedia",
+          "year": "2018",
+          "journal-title": "Int. J. Hydrogen Energy"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.heliyon.2024.e39299_bib29",
+          "doi-asserted-by": "crossref",
+          "first-page": "36",
+          "DOI": "10.1080/23080477.2017.1420132",
+          "article-title": "A review of the electric vehicle charging techniques, standards, progression and evolution of EV technologies in Germany",
+          "volume": "6",
+          "author": "Ahmad",
+          "year": "2018",
+          "journal-title": "Smart Science"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib30",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.rser.2021.110977",
+          "article-title": "Vehicle-to-X (V2X) implementation: an overview of predominate trial configurations and technical, social and regulatory challenges",
+          "volume": "145",
+          "author": "Gschwendtner",
+          "year": "2021",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib31",
+          "series-title": "Distributed Energy Resources in Local Integrated Energy Systems",
+          "first-page": "315",
+          "article-title": "The integration of electric vehicles in smart distribution grids with other distributed resources",
+          "author": "Brenna",
+          "year": "2021"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.heliyon.2024.e39299_bib32",
+          "doi-asserted-by": "crossref",
+          "first-page": "3871",
+          "DOI": "10.1109/TSG.2017.2777738",
+          "article-title": "Comprehensive optimization model for sizing and siting of DG units, EV charging stations, and energy storage systems",
+          "volume": "9",
+          "author": "Erdinç",
+          "year": "2017",
+          "journal-title": "IEEE Trans. Smart Grid"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib33",
+          "series-title": "IECON 2018-44th Annual Conference of the IEEE Industrial Electronics Society",
+          "first-page": "5147",
+          "article-title": "An optimal design and analysis of a hybrid power charging station for electric vehicles considering uncertainties",
+          "author": "Li",
+          "year": "2018"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.heliyon.2024.e39299_bib34",
+          "doi-asserted-by": "crossref",
+          "first-page": "372",
+          "DOI": "10.3390/smartcities4010022",
+          "article-title": "A review on electric vehicles: technologies and challenges",
+          "volume": "4",
+          "author": "Sanguesa",
+          "year": "2021",
+          "journal-title": "Smart Cities"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib35",
+          "doi-asserted-by": "crossref",
+          "first-page": "137667",
+          "DOI": "10.1109/ACCESS.2021.3116678",
+          "article-title": "Inductive wireless power transfer charging for electric vehicles–A review",
+          "volume": "9",
+          "author": "Mahesh",
+          "year": "2021",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.heliyon.2024.e39299_bib36",
+          "doi-asserted-by": "crossref",
+          "first-page": "3",
+          "DOI": "10.1109/TTE.2017.2780627",
+          "article-title": "Wireless power transfer for vehicular applications: overview and challenges",
+          "volume": "4",
+          "author": "Patil",
+          "year": "2017",
+          "journal-title": "IEEE Transactions on Transportation Electrification"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.heliyon.2024.e39299_bib37",
+          "doi-asserted-by": "crossref",
+          "first-page": "443",
+          "DOI": "10.1109/TTE.2016.2559165",
+          "article-title": "Optimal sizing of storage system in a fast charging station for plug-in hybrid electric vehicles",
+          "volume": "2",
+          "author": "Negarestani",
+          "year": "2016",
+          "journal-title": "IEEE transactions on transportation electrification"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib38",
+          "doi-asserted-by": "crossref",
+          "first-page": "205",
+          "DOI": "10.1016/j.rser.2017.01.064",
+          "article-title": "Enhancing smart grid with microgrids: challenges and opportunities",
+          "volume": "72",
+          "author": "Yoldaş",
+          "year": "2017",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib39",
+          "doi-asserted-by": "crossref",
+          "first-page": "241",
+          "DOI": "10.1016/j.ijepes.2013.12.005",
+          "article-title": "Impact of electric vehicle fast charging on power system voltage stability",
+          "volume": "57",
+          "author": "Dharmakeerthi",
+          "year": "2014",
+          "journal-title": "Int. J. Electr. Power Energy Syst."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib40",
+          "doi-asserted-by": "crossref",
+          "first-page": "13866",
+          "DOI": "10.1109/ACCESS.2018.2812303",
+          "article-title": "A comprehensive study of implemented international standards, technical challenges, impacts and prospects for electric vehicles",
+          "volume": "6",
+          "author": "Habib",
+          "year": "2018",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.heliyon.2024.e39299_bib41",
+          "doi-asserted-by": "crossref",
+          "first-page": "1256",
+          "DOI": "10.3390/en8021256",
+          "article-title": "Coordinated charging strategy for electric taxis in temporal and spatial scale",
+          "volume": "8",
+          "author": "Yang",
+          "year": "2015",
+          "journal-title": "Energies"
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.heliyon.2024.e39299_bib46",
+          "doi-asserted-by": "crossref",
+          "first-page": "2139",
+          "DOI": "10.3390/en13092139",
+          "article-title": "Plug-in electric bus depot charging with PV and ESS and their impact on LV feeder",
+          "volume": "13",
+          "author": "Arif",
+          "year": "2020",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib47",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.epsr.2021.107413",
+          "article-title": "A novel and cost-efficient energy management system for plug-in electric bus charging depot owners",
+          "volume": "199",
+          "author": "Arif",
+          "year": "2021",
+          "journal-title": "Elec. Power Syst. Res."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib48",
+          "series-title": "2017 IEEE Vehicle Power and Propulsion Conference (VPPC)",
+          "first-page": "1",
+          "article-title": "Battery electric buses in european cities: economic comparison of different technological concepts based on actual demonstrations",
+          "author": "Meishner",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib49",
+          "doi-asserted-by": "crossref",
+          "first-page": "195",
+          "DOI": "10.1016/j.trpro.2018.10.092",
+          "article-title": "Redesigning European public transport: impact of new battery technologies in the design of electric bus fleets",
+          "volume": "33",
+          "author": "Carrilero",
+          "year": "2018",
+          "journal-title": "Transport. Res. Procedia"
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.heliyon.2024.e39299_bib45",
+          "doi-asserted-by": "crossref",
+          "first-page": "5673",
+          "DOI": "10.1109/TPEL.2012.2227500",
+          "article-title": "Review of the impact of vehicle-to-grid technologies on distribution systems and utility interfaces",
+          "volume": "28",
+          "author": "Yilmaz",
+          "year": "2012",
+          "journal-title": "IEEE Trans. Power Electron."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib42",
+          "series-title": "2014 IEEE Conference and Expo Transportation Electrification Asia-Pacific (ITEC Asia-Pacific)",
+          "first-page": "1",
+          "article-title": "A smart energy management system for electric city bus battery swap station",
+          "author": "Dai",
+          "year": "2014"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib43",
+          "doi-asserted-by": "crossref",
+          "first-page": "970",
+          "DOI": "10.1016/j.rser.2016.11.239",
+          "article-title": "Electric vehicles in Spain: an overview of charging systems",
+          "volume": "77",
+          "author": "Martínez-Lao",
+          "year": "2017",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.heliyon.2024.e39299_bib50",
+          "doi-asserted-by": "crossref",
+          "first-page": "1171",
+          "DOI": "10.1016/j.trc.2010.12.010",
+          "article-title": "Electric vehicles: how much range is required for a day's driving?",
+          "volume": "19",
+          "author": "Pearre",
+          "year": "2011",
+          "journal-title": "Transport. Res. C Emerg. Technol."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib51",
+          "doi-asserted-by": "crossref",
+          "first-page": "501",
+          "DOI": "10.1016/j.rser.2014.03.031",
+          "article-title": "Electric vehicles and smart grid interaction: a review on vehicle to grid and renewable energy sources integration",
+          "volume": "34",
+          "author": "Mwasilu",
+          "year": "2014",
+          "journal-title": "Renewable and sustainable energy reviews"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib52",
+          "series-title": "2021 1st International Conference on Power Electronics and Energy (ICPEE)",
+          "first-page": "1",
+          "article-title": "Reactive power compensation using vehicle-to-grid enabled bidirectional off-board EV battery charger",
+          "author": "Lenka",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib53",
+          "doi-asserted-by": "crossref",
+          "first-page": "109618",
+          "DOI": "10.1016/j.rser.2019.109618",
+          "article-title": "Electric vehicles standards, charging infrastructure, and impact on grid integration: A technological review",
+          "volume": "120",
+          "author": "Das",
+          "year": "2019",
+          "journal-title": "Renewable and Sustainable Energy Reviews"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib54",
+          "doi-asserted-by": "crossref",
+          "first-page": "3",
+          "DOI": "10.1016/j.egypro.2017.12.640",
+          "article-title": "Electric vehicle development in singapore and technical considerations for charging infrastructure",
+          "volume": "143",
+          "author": "Xue",
+          "year": "2017",
+          "journal-title": "Energy Proc."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib55",
+          "series-title": "2019 International Conference on Technologies and Policies in Electric Power & Energy",
+          "first-page": "1",
+          "article-title": "Impact of plug in electric vehicle on uniformly distributed system model",
+          "author": "Mangunkusumo",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib56",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.rser.2019.109618",
+          "article-title": "Electric vehicles standards, charging infrastructure, and impact on grid integration: a technological review",
+          "volume": "120",
+          "author": "Das",
+          "year": "2020",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib57",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.segan.2019.100240",
+          "article-title": "Optimal charging of Electric Vehicles in residential area",
+          "volume": "19",
+          "author": "Ayyadi",
+          "year": "2019",
+          "journal-title": "Sustainable Energy, Grids and Networks"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.heliyon.2024.e39299_bib58",
+          "doi-asserted-by": "crossref",
+          "first-page": "206",
+          "DOI": "10.1109/TPWRS.2010.2049133",
+          "article-title": "Assessment of the impact of plug-in electric vehicles on distribution networks",
+          "volume": "26",
+          "author": "Fernandez",
+          "year": "2010",
+          "journal-title": "IEEE Trans. Power Syst."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.heliyon.2024.e39299_bib59",
+          "doi-asserted-by": "crossref",
+          "first-page": "431",
+          "DOI": "10.1109/TSTE.2016.2598365",
+          "article-title": "Reliability studies of modern distribution systems integrated with renewable generation and parking lots",
+          "volume": "8",
+          "author": "Farzin",
+          "year": "2016",
+          "journal-title": "IEEE Trans. Sustain. Energy"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.heliyon.2024.e39299_bib60",
+          "doi-asserted-by": "crossref",
+          "first-page": "1722",
+          "DOI": "10.1109/TSTE.2018.2810274",
+          "article-title": "Electrical vehicle charging station profit maximization: admission, pricing, and online scheduling",
+          "volume": "9",
+          "author": "Wang",
+          "year": "2018",
+          "journal-title": "IEEE Trans. Sustain. Energy"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib61",
+          "series-title": "2018 International Conference and Exposition on Electrical and Power Engineering (EPE)",
+          "first-page": "46",
+          "article-title": "Diffusion models for predicting electric vehicles market in Morocco",
+          "author": "Ayyadi",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib62",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1155/2020/7086032",
+          "article-title": "Optimal framework to maximize the workplace charging station owner profit while compensating electric vehicles users",
+          "volume": "2020",
+          "author": "Ayyadi",
+          "year": "2020",
+          "journal-title": "Math. Probl Eng."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib63",
+          "doi-asserted-by": "crossref",
+          "first-page": "250",
+          "DOI": "10.1016/j.enconman.2013.09.006",
+          "article-title": "Intelligent optimization to integrate a plug-in hybrid electric vehicle smart parking lot with renewable energy resources and enhance grid characteristics",
+          "volume": "77",
+          "author": "Fazelpour",
+          "year": "2014",
+          "journal-title": "Energy Convers. Manag."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib64",
+          "series-title": "IECON 2013-39th Annual Conference of the IEEE Industrial Electronics Society",
+          "first-page": "2121",
+          "article-title": "Optimal electric vehicle charging stations placement in distribution systems",
+          "author": "Su",
+          "year": "2013"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib66",
+          "series-title": "2012 International Conference on Control Engineering and Communication Technology",
+          "first-page": "403",
+          "article-title": "Electric vehicle charging station planning based on multiple-population hybrid genetic algorithm",
+          "author": "He",
+          "year": "2012"
+        },
+        {
+          "issue": "4598",
+          "key": "10.1016/j.heliyon.2024.e39299_bib67",
+          "doi-asserted-by": "crossref",
+          "first-page": "671",
+          "DOI": "10.1126/science.220.4598.671",
+          "article-title": "Optimization by simulated annealing",
+          "volume": "220",
+          "author": "Kirkpatrick",
+          "year": "1983",
+          "journal-title": "science"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib68",
+          "series-title": "2007 IEEE International Conference on Control and Automation",
+          "first-page": "1536",
+          "article-title": "Optimization of series hybrid electric vehicle operational parameters by simulated annealing algorithm",
+          "author": "Wang",
+          "year": "2007"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.heliyon.2024.e39299_bib69",
+          "doi-asserted-by": "crossref",
+          "first-page": "535",
+          "DOI": "10.1109/TSG.2011.2165303",
+          "article-title": "Intelligent energy resource management considering vehicle-to-grid: a simulated annealing approach",
+          "volume": "3",
+          "author": "Sousa",
+          "year": "2011",
+          "journal-title": "IEEE Trans. Smart Grid"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.heliyon.2024.e39299_bib70",
+          "doi-asserted-by": "crossref",
+          "first-page": "1506",
+          "DOI": "10.1109/TSG.2017.2715259",
+          "article-title": "An innovative two-level model for electric vehicle parking lots in distribution systems with renewable energy",
+          "volume": "9",
+          "author": "Shafie-Khah",
+          "year": "2017",
+          "journal-title": "IEEE Trans. Smart Grid"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.heliyon.2024.e39299_bib71",
+          "doi-asserted-by": "crossref",
+          "first-page": "906",
+          "DOI": "10.1109/TSTE.2016.2617679",
+          "article-title": "Optimal resource allocation and charging prices for benefit maximization in smart PEV-parking lots",
+          "volume": "8",
+          "author": "Awad",
+          "year": "2016",
+          "journal-title": "IEEE Trans. Sustain. Energy"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.heliyon.2024.e39299_bib72",
+          "doi-asserted-by": "crossref",
+          "first-page": "2273",
+          "DOI": "10.1109/TSG.2015.2436069",
+          "article-title": "An integrated planning framework for different types of PEV charging facilities in urban area",
+          "volume": "7",
+          "author": "Zhang",
+          "year": "2015",
+          "journal-title": "IEEE Trans. Smart Grid"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.heliyon.2024.e39299_bib73",
+          "doi-asserted-by": "crossref",
+          "first-page": "1271",
+          "DOI": "10.1109/TSG.2012.2186642",
+          "article-title": "Hourly coordination of electric vehicle operation and volatile wind power generation in SCUC",
+          "volume": "3",
+          "author": "Khodayar",
+          "year": "2012",
+          "journal-title": "IEEE Trans. Smart Grid"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.heliyon.2024.e39299_bib74",
+          "doi-asserted-by": "crossref",
+          "first-page": "371",
+          "DOI": "10.1109/TPWRS.2009.2036481",
+          "article-title": "The impact of charging plug-in hybrid electric vehicles on a residential distribution grid",
+          "volume": "25",
+          "author": "Clement-Nyns",
+          "year": "2009",
+          "journal-title": "IEEE Trans. Power Syst."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib75",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.scs.2021.102744",
+          "article-title": "The peak load shaving assessment of developing a user-oriented vehicle-to-grid scheme with multiple operation modes: the case study of Shenzhen, China",
+          "volume": "67",
+          "author": "Zheng",
+          "year": "2021",
+          "journal-title": "Sustain. Cities Soc."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib65",
+          "series-title": "2014 IEEE Conference and Expo Transportation Electrification Asia-Pacific (ITEC Asia-Pacific)",
+          "first-page": "1",
+          "article-title": "Planning of electric vehicle charging station based on hierarchic genetic algorithm",
+          "author": "Yan",
+          "year": "2014"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.heliyon.2024.e39299_bib76",
+          "doi-asserted-by": "crossref",
+          "first-page": "2163",
+          "DOI": "10.1109/TSG.2014.2318836",
+          "article-title": "Optimal energy management for a residential microgrid including a vehicle-to-grid system",
+          "volume": "5",
+          "author": "Corchero",
+          "year": "2014",
+          "journal-title": "IEEE Trans. Smart Grid"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib77",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.apenergy.2020.115253",
+          "article-title": "Optimized power dispatch for solar photovoltaic-storage system with multiple buildings in bilateral contracts",
+          "volume": "273",
+          "author": "Ahsan",
+          "year": "2020",
+          "journal-title": "Appl. Energy"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.heliyon.2024.e39299_bib78",
+          "doi-asserted-by": "crossref",
+          "first-page": "188",
+          "DOI": "10.1109/TTE.2015.2430288",
+          "article-title": "Optimal coordination of G2V and V2G to support power grids with high penetration of renewable energy",
+          "volume": "1",
+          "author": "Nguyen",
+          "year": "2015",
+          "journal-title": "IEEE Transactions on Transportation Electrification"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib79",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.apenergy.2021.116857",
+          "article-title": "Coordinated charging and discharging control of electric vehicles to manage supply voltages in distribution networks: assessing the customer benefit",
+          "volume": "291",
+          "author": "Nimalsiri",
+          "year": "2021",
+          "journal-title": "Appl. Energy"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.heliyon.2024.e39299_bib80",
+          "doi-asserted-by": "crossref",
+          "first-page": "1425",
+          "DOI": "10.1109/TPWRS.2012.2230276",
+          "article-title": "Optimal charging/discharging scheduling of battery storage systems for distribution systems interconnected with sizeable PV generation systems",
+          "volume": "28",
+          "author": "Teng",
+          "year": "2012",
+          "journal-title": "IEEE Trans. Power Syst."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib81",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.trc.2021.103146",
+          "article-title": "Electric vehicle fleet size for carsharing services considering on-demand charging strategy and battery degradation",
+          "volume": "127",
+          "author": "Xu",
+          "year": "2021",
+          "journal-title": "Transport. Res. C Emerg. Technol."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.heliyon.2024.e39299_bib82",
+          "doi-asserted-by": "crossref",
+          "first-page": "1221",
+          "DOI": "10.35833/MPCE.2019.000143",
+          "article-title": "Analytical hybrid particle swarm optimization algorithm for optimal siting and sizing of distributed generation in smart grid",
+          "volume": "8",
+          "author": "Arif",
+          "year": "2020",
+          "journal-title": "Journal of Modern Power Systems and Clean Energy"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib83",
+          "doi-asserted-by": "crossref",
+          "first-page": "425",
+          "DOI": "10.1016/j.renene.2021.01.023",
+          "article-title": "Italian protocol for massive solar integration: from solar imbalance regulation to firm 24/365 solar generation",
+          "volume": "169",
+          "author": "Pierro",
+          "year": "2021",
+          "journal-title": "Renew. Energy"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib84",
+          "series-title": "International Conference on Sustainable Energy for Smart Cities",
+          "first-page": "187",
+          "article-title": "Battery charging station for electric vehicles based on bipolar dc power grid with grid-to-vehicle, vehicle-to-grid and vehicle-to-vehicle operation modes",
+          "author": "Sousa",
+          "year": "2021"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.heliyon.2024.e39299_bib85",
+          "doi-asserted-by": "crossref",
+          "first-page": "11",
+          "DOI": "10.51662/jiae.v1i1.8",
+          "article-title": "A review of the smart grid communication technologies in contactless charging with vehicle to grid integration technology",
+          "volume": "1",
+          "author": "Alsharif",
+          "year": "2021",
+          "journal-title": "Journal of Integrated and Advanced Engineering (JIAE)"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib86",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.3389/fenrg.2020.535535",
+          "article-title": "High level controller-based energy management for a smart building integrated microgrid with electric vehicle",
+          "volume": "8",
+          "author": "Dagdougui",
+          "year": "2020",
+          "journal-title": "Front. Energy Res."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib87",
+          "doi-asserted-by": "crossref",
+          "first-page": "1067",
+          "DOI": "10.1016/j.renene.2020.02.027",
+          "article-title": "Integration of renewable energy sources and electric vehicles in V2G network with adjustable robust optimization",
+          "volume": "153",
+          "author": "Shi",
+          "year": "2020",
+          "journal-title": "Renew. Energy"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib88",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.energy.2022.123110",
+          "article-title": "Optimal sizing and management of distributed energy resources in smart buildings",
+          "volume": "244",
+          "author": "Ahmad",
+          "year": "2022",
+          "journal-title": "Energy"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib89",
+          "doi-asserted-by": "crossref",
+          "first-page": "653",
+          "DOI": "10.1016/j.energy.2016.06.018",
+          "article-title": "Efficient integration of plug-in electric vehicles via reconfigurable microgrids",
+          "volume": "111",
+          "author": "Kavousi‐Fard",
+          "year": "2016",
+          "journal-title": "Energy"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib90",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1109/PES.2011.6039275",
+          "article-title": "Integration of plug-in hybrid electric vehicles into building energy management system",
+          "author": "Wang",
+          "year": "2011",
+          "journal-title": "IEEE Power Energy Soc. Gen. Meet"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib91",
+          "doi-asserted-by": "crossref",
+          "first-page": "323",
+          "DOI": "10.1109/TCE.2013.6531113",
+          "article-title": "Electric vehicle charging method for smart homes/buildings with a photovoltaic system",
+          "volume": "59",
+          "author": "Wi",
+          "year": "2013",
+          "journal-title": "IEEE Trans. Consum. Electron."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib92",
+          "doi-asserted-by": "crossref",
+          "first-page": "625",
+          "DOI": "10.1016/j.rser.2018.11.003",
+          "article-title": "Building to vehicle to building concept toward a novel zero energy paradigm: modelling and case studies",
+          "volume": "101",
+          "author": "Barone",
+          "year": "2019",
+          "journal-title": "Renewable Sustainable Energy Rev."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib93",
+          "doi-asserted-by": "crossref",
+          "first-page": "3834",
+          "DOI": "10.3390/en12203834",
+          "article-title": "Optimal strategy to exploit the flexibility of an electric vehicle charging station",
+          "volume": "12",
+          "author": "Diaz-Londono",
+          "year": "2019",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib94",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.energy.2021.122884",
+          "article-title": "Stochastic multi-objective optimal energy management of grid-connected unbalanced microgrids with renewable energy generation and plug-in electric vehicles",
+          "volume": "241",
+          "author": "Zandrazavi",
+          "year": "2022",
+          "journal-title": "Energy"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib95",
+          "doi-asserted-by": "crossref",
+          "first-page": "422",
+          "DOI": "10.1080/21642583.2020.1789898",
+          "article-title": "Cost minimization control for electric vehicle car parks with vehicle to grid technology",
+          "volume": "8",
+          "author": "Su",
+          "year": "2020",
+          "journal-title": "Systems Science & Control Engineering"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib96",
+          "series-title": "N Proceedings of the 2018 7th International Conference on Renewable Energy Research and Applications (ICRERA)",
+          "article-title": "Multiobjective optimization of grid- photovoltaic- electric vehicle hybrid system in smart building with vehicle-to-grid (V2G) concept",
+          "author": "Türker",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib97",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.ijepes.2021.107534",
+          "article-title": "Single contract power optimization: a novel business model for smart buildings using intelligent energy management",
+          "volume": "135",
+          "author": "Foroozandeh",
+          "year": "2022",
+          "journal-title": "Int. J. Electr. Power Energy Syst."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib98",
+          "doi-asserted-by": "crossref",
+          "first-page": "3605",
+          "DOI": "10.3390/en13143605",
+          "article-title": "Optimal model for energy management strategy in smart building with energy storage systems and electric vehicles",
+          "volume": "13",
+          "author": "Moya",
+          "year": "2020",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib99",
+          "doi-asserted-by": "crossref",
+          "first-page": "1188",
+          "DOI": "10.1016/j.apenergy.2017.07.035",
+          "article-title": "Optimal operation of an energy management system for a grid-connected smart building considering photovoltaics' uncertainty and stochastic electric vehicles' driving schedule",
+          "volume": "210",
+          "author": "Thomas",
+          "year": "2018",
+          "journal-title": "Appl. Energy"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib100",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.enbuild.2021.111676",
+          "article-title": "Nearly optimal demand side management for energy, thermal, EV and storage loads: an approximate dynamic programming approach for smarter buildings",
+          "volume": "255",
+          "author": "Korkas",
+          "year": "2022",
+          "journal-title": "Energy Build."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib101",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.est.2021.103577",
+          "article-title": "A smart discrete charging method for optimum electric vehicles integration in the distribution system in presence of demand response program",
+          "volume": "47",
+          "author": "Saeedirad",
+          "year": "2022",
+          "journal-title": "J. Energy Storage"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib102",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.energy.2022.123553",
+          "article-title": "Co-optimization of a novel distributed energy system integrated with hybrid energy storage in different nearly zero energy community scenarios",
+          "volume": "247",
+          "author": "Liu",
+          "year": "2022",
+          "journal-title": "Energy"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib103",
+          "doi-asserted-by": "crossref",
+          "first-page": "4836",
+          "DOI": "10.3390/su12124836",
+          "article-title": "Modeling and analysis of electric vehicle-power grid-manufacturing facility (EPM) energy sharing system under time-of-use electricity tariff",
+          "volume": "12",
+          "author": "Chu",
+          "year": "2020",
+          "journal-title": "Sustainability"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib104",
+          "doi-asserted-by": "crossref",
+          "first-page": "427",
+          "DOI": "10.1016/j.enconman.2014.04.050",
+          "article-title": "Intelligent energy management of optimally located renewable energy systems incorporating PHEV",
+          "volume": "84",
+          "author": "El-Zonkoly",
+          "year": "2014",
+          "journal-title": "Energy Convers. Manag."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib105",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.enconman.2020.113206",
+          "article-title": "Data analysis of a monitored building using machine learning and optimization of integrated photovoltaic panel, battery and electric vehicles in a central European climatic condition",
+          "volume": "221",
+          "author": "Rehman",
+          "year": "2020",
+          "journal-title": "Energy Convers. Manag."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.heliyon.2024.e39299_bib106",
+          "doi-asserted-by": "crossref",
+          "first-page": "562",
+          "DOI": "10.3390/electronics11040562",
+          "article-title": "Power electronics converter technology integrated energy storage management in electric vehicles: emerging trends, analytical assessment and future research opportunities",
+          "volume": "11",
+          "author": "Hossain Lipu",
+          "year": "2022",
+          "journal-title": "Electronics"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib107",
+          "article-title": "A review of expert hybrid and Co-estimation techniques for SOH and RUL estimation in battery management system with electric vehicle application",
+          "volume": "123123",
+          "author": "Alsuwian",
+          "year": "2024",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e39299_bib109",
+          "series-title": "AIP Conference Proceedings",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1063/1.4981173",
+          "article-title": "Battery management systems (BMS) optimization for electric vehicles (EVs) in Malaysia",
+          "volume": "vol. 1831",
+          "author": "Salehen",
+          "year": "2017"
+        }
+      ],
+      "container-title": [
+        "Heliyon"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2405844024153303?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2405844024153303?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            9
+          ]
+        ],
+        "date-time": "2026-04-09T10:21:35Z",
+        "timestamp": 1775730095000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2405844024153303"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            10
+          ]
+        ]
+      },
+      "references-count": 106,
+      "journal-issue": {
+        "issue": "20",
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              10
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "S2405844024153303"
+      ],
+      "URL": "https://doi.org/10.1016/j.heliyon.2024.e39299",
+      "relation": {},
+      "ISSN": [
+        "2405-8440"
+      ],
+      "issn-type": [
+        {
+          "value": "2405-8440",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            10
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Advancement of electric vehicle technologies, classification of charging methodologies, and optimization strategies for sustainable development - A comprehensive review",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Heliyon",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.heliyon.2024.e39299",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2024 The Authors. Published by Elsevier Ltd.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "e39299"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Vikram Goud Madaram",
+      "given_name_from_source": "Vikram Goud",
+      "family_name_from_source": "Madaram",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Pabitra Kumar Biswas",
+      "given_name_from_source": "Pabitra Kumar",
+      "family_name_from_source": "Biswas",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Chiranjit Sain",
+      "given_name_from_source": "Chiranjit",
+      "family_name_from_source": "Sain",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Sudhakar Babu Thanikanti",
+      "given_name_from_source": "Sudhakar Babu",
+      "family_name_from_source": "Thanikanti",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": "https://orcid.org/0000-0003-1561-1376",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

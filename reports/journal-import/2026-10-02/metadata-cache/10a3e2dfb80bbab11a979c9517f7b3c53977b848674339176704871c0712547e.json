@@ -1,0 +1,593 @@
+{
+  "doi": "10.1155/2023/3355124",
+  "title": "Optimal Design and Performance Investigation of Artificial Neural Network Controller for Solar- and Battery-Connected Unified Power Quality Conditioner",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "International Journal of Energy Research",
+  "publisher": "Wiley",
+  "publication_date": "2023-04-11",
+  "online_publication_date": null,
+  "print_publication_date": "2023-04-11",
+  "volume": "2023",
+  "issue": null,
+  "pages_or_article_number": "1-22",
+  "issn": "0363-907X",
+  "eissn": "1099-114X",
+  "isbn": null,
+  "url": "https://doi.org/10.1155/2023/3355124",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:46.809066+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            23
+          ]
+        ],
+        "date-time": "2026-08-23T17:33:12Z",
+        "timestamp": 1787506392801,
+        "version": "build-2736575974"
+      },
+      "reference-count": 33,
+      "publisher": "Wiley",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                4,
+                11
+              ]
+            ],
+            "date-time": "2023-04-11T00:00:00Z",
+            "timestamp": 1681171200000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "International Journal of Energy Research"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            11
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Nowadays, integration of renewable sources into the local distribution system and the nonlinear behavior of advanced power electronic equipment have made a large impact on the power quality (PQ). The unified power quality conditioner (UPQC) is a multifunctional FACTS device, which is a combination of both shunt active filter and series active filters via a common DC link. Presently, the artificial intelligence is playing a vital role in the development of the intelligent control methods. Traditional training methods of artificial neural network (ANN) like back propagation and Levenberg-Marquardt may get stuck in local optimal solution which leads to the invention of ANN trained optimally by metaheuristic algorithms. This paper develops a firefly algorithm-trained ANN (FF-ANNC) controller for the shunt active filter and proportional integral controller (PI-C) for the series active filter of the UPQC integrated with the solar energy system and battery energy storage via boost converter (B-C) and buck boost converters (B-B-C). The main aim of the proposed FF-ANNC is to reduce the mean square error (MSE) thereby achieving the constant DC link capacitor voltage (DLCV) during load and irradiation variations, reduction of imperfections in current waveforms, improvement in power factor (PF), and mitigation of sag, swell, disturbances, and unbalances in the grid voltage. The working of developed FF-ANNC was tested on five test studies with different types of loads and source voltage balancing/unbalancing conditions. However, to demonstrate supremacy of the suggested FF-ANNC, a comparative study with the training methods like genetic algorithm (GA) and ant colony optimization (AC-O) and also with other methods that exist in literature like PI-C, fuzzy logic controller (FL-C), and artificial neuro fuzzy interface system (ANFI-S) was conducted. The proposed method reduces the total harmonic distortion to 2.39%, 2.32%, 2.27%, 2.45%, and 2.66% which are lower than the existing methods that are available in literature. The FF-ANNC shows an excellent performance in reducing voltage fluctuations and total harmonic distortion (THD) successfully and thereby improving PF.</jats:p>",
+      "DOI": "10.1155/2023/3355124",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            11
+          ]
+        ],
+        "date-time": "2023-04-11T16:50:08Z",
+        "timestamp": 1681231808000
+      },
+      "page": "1-22",
+      "source": "Crossref",
+      "is-referenced-by-count": 25,
+      "title": [
+        "Optimal Design and Performance Investigation of Artificial Neural Network Controller for Solar- and Battery-Connected Unified Power Quality Conditioner"
+      ],
+      "prefix": "10.1155",
+      "volume": "2023",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-2881-8977",
+          "authenticated-orcid": true,
+          "given": "Alapati",
+          "family": "Ramadevi",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, Velagapudi Ramakrishna Siddhartha Engineering College, Vijayawada, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9723-5230",
+          "authenticated-orcid": true,
+          "given": "Koganti",
+          "family": "Srilakshmi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, Sreenidhi Institute of Science and Technology, Telangana, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1561-1376",
+          "authenticated-orcid": true,
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, Vardhaman College of Engineering, Hyderabad, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6405-5938",
+          "authenticated-orcid": true,
+          "given": "Ilhami",
+          "family": "Colak",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, Faculty of Engineering and Architectures, Nisantasi University, 34398 Istanbul, Turkey"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0054-0149",
+          "authenticated-orcid": true,
+          "given": "C.",
+          "family": "Dhanamjayulu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Electrical Engineering, Vellore Institute of Technology, Vellore, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3093-6032",
+          "authenticated-orcid": true,
+          "given": "Baseem",
+          "family": "Khan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Computer Engineering, Hawassa University, Hawassa 05, Ethiopia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "311",
+      "reference": [
+        {
+          "key": "1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICIEA.2017.8283004"
+        },
+        {
+          "key": "2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2022.3211504"
+        },
+        {
+          "key": "3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.20508/ijrer.v12i3.12910.g8557"
+        },
+        {
+          "key": "4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICEPE50861.2021.9404453"
+        },
+        {
+          "key": "5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.20508/ijrer.v11i4.12397.g8321"
+        },
+        {
+          "issue": "1",
+          "key": "6",
+          "article-title": "Artificial intelligence based multi-objective hybrid controller for PV-battery unified power quality conditioner",
+          "volume": "12",
+          "author": "K. Srilakshmi",
+          "year": "2022",
+          "journal-title": "International Journal of Renewable Energy Research"
+        },
+        {
+          "key": "7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/a15080256"
+        },
+        {
+          "key": "8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TIA.2017.2754983"
+        },
+        {
+          "key": "9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICIMIA48430.2020.9074886"
+        },
+        {
+          "key": "10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2020.2988611"
+        },
+        {
+          "key": "11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/15567036.2021.1902430"
+        },
+        {
+          "key": "12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1142/S0219691319410212"
+        },
+        {
+          "key": "13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/02286203.2020.1727134"
+        },
+        {
+          "key": "14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/15325008.2018.1460641"
+        },
+        {
+          "key": "15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/03772063.2021.1888325"
+        },
+        {
+          "key": "16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.epsr.2008.10.009"
+        },
+        {
+          "key": "17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1088/1757-899x/342/1/012084"
+        },
+        {
+          "key": "18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/23311916.2017.1402453"
+        },
+        {
+          "key": "19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1049/gtd2.12020"
+        },
+        {
+          "key": "20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1049/tje2.12005"
+        },
+        {
+          "key": "21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/15567036.2021.1943068"
+        },
+        {
+          "key": "22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3233/JIFS-171236"
+        },
+        {
+          "key": "23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.swevo.2018.06.008"
+        },
+        {
+          "key": "24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1142/S0218213016500330"
+        },
+        {
+          "key": "25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.conengprac.2015.04.013"
+        },
+        {
+          "key": "26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.asej.2017.09.004"
+        },
+        {
+          "key": "27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ISI.2015.9"
+        },
+        {
+          "key": "28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICENCO.2016.7856471"
+        },
+        {
+          "key": "29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s42835-020-00644-x"
+        },
+        {
+          "key": "30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/electronics8070791"
+        },
+        {
+          "key": "31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/en13236298"
+        },
+        {
+          "key": "32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/electronics11060919"
+        },
+        {
+          "key": "33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/electronics12030494"
+        }
+      ],
+      "container-title": [
+        "International Journal of Energy Research"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "http://downloads.hindawi.com/journals/ijer/2023/3355124.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "http://downloads.hindawi.com/journals/ijer/2023/3355124.xml",
+          "content-type": "application/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "http://downloads.hindawi.com/journals/ijer/2023/3355124.pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            11
+          ]
+        ],
+        "date-time": "2023-04-11T16:50:12Z",
+        "timestamp": 1681231812000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.hindawi.com/journals/ijer/2023/3355124/"
+        }
+      },
+      "subtitle": [],
+      "editor": [
+        {
+          "given": "Yogendra",
+          "family": "Arya",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "editor"
+            }
+          ]
+        }
+      ],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            11
+          ]
+        ]
+      },
+      "references-count": 33,
+      "alternative-id": [
+        "3355124",
+        "3355124"
+      ],
+      "URL": "https://doi.org/10.1155/2023/3355124",
+      "relation": {},
+      "ISSN": [
+        "1099-114X",
+        "0363-907X"
+      ],
+      "issn-type": [
+        {
+          "value": "1099-114X",
+          "type": "electronic"
+        },
+        {
+          "value": "0363-907X",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            11
+          ]
+        ]
+      }
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Alapati Ramadevi",
+      "given_name_from_source": "Alapati",
+      "family_name_from_source": "Ramadevi",
+      "orcid_from_source": "https://orcid.org/0000-0002-2881-8977",
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering, Velagapudi Ramakrishna Siddhartha Engineering College, Vijayawada, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Koganti Srilakshmi",
+      "given_name_from_source": "Koganti",
+      "family_name_from_source": "Srilakshmi",
+      "orcid_from_source": "https://orcid.org/0000-0002-9723-5230",
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering, Sreenidhi Institute of Science and Technology, Telangana, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": "https://orcid.org/0000-0003-1561-1376",
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering, Vardhaman College of Engineering, Hyderabad, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Ilhami Colak",
+      "given_name_from_source": "Ilhami",
+      "family_name_from_source": "Colak",
+      "orcid_from_source": "https://orcid.org/0000-0002-6405-5938",
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering, Faculty of Engineering and Architectures, Nisantasi University, 34398 Istanbul, Turkey"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "C. Dhanamjayulu",
+      "given_name_from_source": "C.",
+      "family_name_from_source": "Dhanamjayulu",
+      "orcid_from_source": "https://orcid.org/0000-0003-0054-0149",
+      "affiliation_from_source": [
+        "School of Electrical Engineering, Vellore Institute of Technology, Vellore, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "Baseem Khan",
+      "given_name_from_source": "Baseem",
+      "family_name_from_source": "Khan",
+      "orcid_from_source": "https://orcid.org/0000-0002-3093-6032",
+      "affiliation_from_source": [
+        "Department of Electrical and Computer Engineering, Hawassa University, Hawassa 05, Ethiopia"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

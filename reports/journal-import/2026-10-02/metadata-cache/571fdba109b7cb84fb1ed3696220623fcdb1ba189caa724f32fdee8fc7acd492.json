@@ -1,0 +1,589 @@
+{
+  "doi": "10.1002/ese3.70430",
+  "title": "Tomtit‐Raven Evolutionary Selector‐Reinforced Attention‐Driven: A High‐Performance and Computationally Efficient Cyber Threat Detection Framework for Smart Grids",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Energy Science &amp; Engineering",
+  "publisher": "Wiley",
+  "publication_date": "2025-12-29",
+  "online_publication_date": "2025-12-29",
+  "print_publication_date": null,
+  "volume": "14",
+  "issue": "3",
+  "pages_or_article_number": "1431-1455",
+  "issn": "2050-0505",
+  "eissn": "2050-0505",
+  "isbn": null,
+  "url": "https://doi.org/10.1002/ese3.70430",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:02.190804+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T15:40:09Z",
+        "timestamp": 1782315609327,
+        "version": "3.54.5"
+      },
+      "reference-count": 33,
+      "publisher": "Wiley",
+      "issue": "3",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                29
+              ]
+            ],
+            "date-time": "2025-12-29T00:00:00Z",
+            "timestamp": 1766966400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                29
+              ]
+            ],
+            "date-time": "2025-12-29T00:00:00Z",
+            "timestamp": 1766966400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "scijournals.onlinelibrary.wiley.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Energy Science &amp; Engineering"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            3
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>Identifying cyber threats maintains the security and operational stability of smart grid systems because they experience escalating attacks that endanger both operating data reliability and system stability and electricity grid performance. The current intrusion detection techniques struggle to deliver effective results because they have issues with improper feature selection along with many incorrect positive identifications and weak computational processing abilities. These issues prevent them from providing real‐time security in CPS. This research develops a new combined intrusion detection framework through Tomtit‐Raven Evolutionary Selector (TRES) for feature selection and Reinforced Attention‐Driven Transformer (ReAD‐Transformer) for intrusion classification tasks. The TRES model implements an evolutionary strategy based on natural principles to select features by optimizing discrimination along with reducing unwanted data in effective intrusion detection systems. ReAD‐Transformer employs innovative reinforced attention‐driven learning to recognize long dependencies as well as contextual patterns in network traffic data, which leads to precise anomaly detection. The developed approach utilizes deep learning‐based decision‐making to refine features while delivering high performance and accuracy through an efficient decision‐making process. Experimental testing reveals that the proposed system model delivers superior results with accuracy reaching 99.82% as well as precision of 99.10%, and recall score of 99.94% that exceeds state‐of‐the‐art current techniques with an F1‐Score of 99.50%. Testing and training aspects of this proposed method operate at the fastest rates of 38 and 0.3 s respectively which enables real‐time smart grid intrusion detection. The proposed TRES‐ReAD framework proves successful as a scalable high‐performance adaptive cybersecurity solution because it secures smart grid infrastructures from evolving cyber threats.</jats:p>",
+      "DOI": "10.1002/ese3.70430",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            30
+          ]
+        ],
+        "date-time": "2025-12-30T04:52:44Z",
+        "timestamp": 1767070364000
+      },
+      "page": "1431-1455",
+      "update-policy": "https://doi.org/10.1002/crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Tomtit‐Raven Evolutionary Selector‐Reinforced Attention‐Driven: A High‐Performance and Computationally Efficient Cyber Threat Detection Framework for Smart Grids"
+      ],
+      "prefix": "10.1002",
+      "volume": "14",
+      "author": [
+        {
+          "given": "Priya R.",
+          "family": "Karpaga",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronic Engineering Saveetha Engineering College Chennai India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1561-1376",
+          "authenticated-orcid": false,
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering Vardhaman College of Engineering Hyderabad Telangana India"
+            },
+            {
+              "name": "Department of Electrical and Electronics Engineering Chennai Institute of Technology Chennai Tamilnadu India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Umawathy",
+          "family": "Techanamurthy",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Engineering Education, Faculty of Engineering and Built Environment Universiti Kebangsaan Malaysia Bangi Selangor Malaysia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Muhammad Ammirrul Atiqi Mohd",
+          "family": "Zainuri",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical, Electronic and Systems Engineering, Solar Research Institute, Faculty of Engineering and Built Environment Universiti Kebangsaan Malaysia Bangi Selangor Malaysia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "311",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            29
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_8_2_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2025.3545637"
+        },
+        {
+          "key": "e_1_2_8_3_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.epsr.2024.111327"
+        },
+        {
+          "key": "e_1_2_8_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jisa.2024.103947"
+        },
+        {
+          "key": "e_1_2_8_5_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/23335777.2024.2350004"
+        },
+        {
+          "key": "e_1_2_8_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ins.2025.122002"
+        },
+        {
+          "key": "e_1_2_8_7_1",
+          "first-page": "1",
+          "article-title": "Overview of Smart Cyber‐Physical Power Systems: Fundamentals, Challenges, and Solutions",
+          "volume": "1",
+          "author": "Parizad A.",
+          "year": "2025",
+          "journal-title": "Smart Cyber‐Physical Power Systems: Fundamental Concepts, Challenges, and Solutions"
+        },
+        {
+          "key": "e_1_2_8_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/spy2.70007"
+        },
+        {
+          "key": "e_1_2_8_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1049/ise2/2654550"
+        },
+        {
+          "key": "e_1_2_8_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.comnet.2024.110776"
+        },
+        {
+          "key": "e_1_2_8_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-981-97-5734-3_7"
+        },
+        {
+          "key": "e_1_2_8_12_1",
+          "first-page": "801",
+          "article-title": "Smart Grids: A Cyber–Physical Systems Perspective",
+          "volume": "11",
+          "author": "Bhadani U.",
+          "year": "2024",
+          "journal-title": "International Research Journal of Engineering and Technology (IRJET"
+        },
+        {
+          "key": "e_1_2_8_13_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cie.2024.109891"
+        },
+        {
+          "key": "e_1_2_8_14_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1049/cps2.12087"
+        },
+        {
+          "key": "e_1_2_8_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2024.3372379"
+        },
+        {
+          "key": "e_1_2_8_16_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TICPS.2024.3432851"
+        },
+        {
+          "key": "e_1_2_8_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.17775/CSEEJPES.2023.01250"
+        },
+        {
+          "key": "e_1_2_8_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.iotcps.2023.12.001"
+        },
+        {
+          "key": "e_1_2_8_19_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1201/9781003406105-5"
+        },
+        {
+          "key": "e_1_2_8_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egyr.2024.08.060"
+        },
+        {
+          "key": "e_1_2_8_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/s24123815"
+        },
+        {
+          "key": "e_1_2_8_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TEM.2024.3489273"
+        },
+        {
+          "key": "e_1_2_8_23_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cose.2024.104095"
+        },
+        {
+          "key": "e_1_2_8_24_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/JIOT.2024.3495046"
+        },
+        {
+          "key": "e_1_2_8_25_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egyr.2024.07.051"
+        },
+        {
+          "issue": "15",
+          "key": "e_1_2_8_26_1",
+          "first-page": "1",
+          "article-title": "Adaptive Machine Learning Based Network Intrusion Detection",
+          "volume": "1",
+          "author": "Chindove H.",
+          "year": "2021",
+          "journal-title": "Proceedings of the International Conference on Artificial Intelligence and its Applications"
+        },
+        {
+          "key": "e_1_2_8_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TICPS.2024.3413607"
+        },
+        {
+          "key": "e_1_2_8_28_1",
+          "first-page": "2121",
+          "article-title": "Adaptive Subgradient Methods for Online Learning and Stochastic Optimization",
+          "volume": "12",
+          "author": "Duchi J.",
+          "year": "2011",
+          "journal-title": "Journal of Machine Learning Research"
+        },
+        {
+          "key": "e_1_2_8_29_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2024.3404270"
+        },
+        {
+          "key": "e_1_2_8_30_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/cpe.8334"
+        },
+        {
+          "key": "e_1_2_8_31_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10586-024-04964-9"
+        },
+        {
+          "key": "e_1_2_8_32_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2024.3422077"
+        },
+        {
+          "key": "e_1_2_8_33_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.compeleceng.2024.109489"
+        },
+        {
+          "key": "e_1_2_8_34_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TMLCN.2024.3395419"
+        }
+      ],
+      "container-title": [
+        "Energy Science &amp; Engineering"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://scijournals.onlinelibrary.wiley.com/doi/pdf/10.1002/ese3.70430",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://scijournals.onlinelibrary.wiley.com/doi/full-xml/10.1002/ese3.70430",
+          "content-type": "application/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://scijournals.onlinelibrary.wiley.com/doi/pdf/10.1002/ese3.70430",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            11
+          ]
+        ],
+        "date-time": "2026-03-11T08:48:45Z",
+        "timestamp": 1773218925000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://scijournals.onlinelibrary.wiley.com/doi/10.1002/ese3.70430"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            29
+          ]
+        ]
+      },
+      "references-count": 33,
+      "journal-issue": {
+        "issue": "3",
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              3
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1002/ese3.70430"
+      ],
+      "URL": "https://doi.org/10.1002/ese3.70430",
+      "archive": [
+        "Portico"
+      ],
+      "relation": {},
+      "ISSN": [
+        "2050-0505",
+        "2050-0505"
+      ],
+      "issn-type": [
+        {
+          "value": "2050-0505",
+          "type": "print"
+        },
+        {
+          "value": "2050-0505",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            29
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2025-04-25",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2025-12-15",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2025-12-29",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Priya R. Karpaga",
+      "given_name_from_source": "Priya R.",
+      "family_name_from_source": "Karpaga",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical and Electronic Engineering Saveetha Engineering College Chennai India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": "https://orcid.org/0000-0003-1561-1376",
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering Vardhaman College of Engineering Hyderabad Telangana India",
+        "Department of Electrical and Electronics Engineering Chennai Institute of Technology Chennai Tamilnadu India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Umawathy Techanamurthy",
+      "given_name_from_source": "Umawathy",
+      "family_name_from_source": "Techanamurthy",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Engineering Education, Faculty of Engineering and Built Environment Universiti Kebangsaan Malaysia Bangi Selangor Malaysia"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Muhammad Ammirrul Atiqi Mohd Zainuri",
+      "given_name_from_source": "Muhammad Ammirrul Atiqi Mohd",
+      "family_name_from_source": "Zainuri",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical, Electronic and Systems Engineering, Solar Research Institute, Faculty of Engineering and Built Environment Universiti Kebangsaan Malaysia Bangi Selangor Malaysia"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

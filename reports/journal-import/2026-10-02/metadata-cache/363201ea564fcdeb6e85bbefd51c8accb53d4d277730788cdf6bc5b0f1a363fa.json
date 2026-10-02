@@ -1,0 +1,549 @@
+{
+  "doi": "10.1155/jcse/9317231",
+  "title": "A Robust Hybrid GRAS‐Net With Chaotic Optimization Model for Energy Management in Smart Grid‐IoT Systems",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Journal of Control Science and Engineering",
+  "publisher": "Wiley",
+  "publication_date": "2026-04-17",
+  "online_publication_date": "2026-04-17",
+  "print_publication_date": null,
+  "volume": "2026",
+  "issue": "1",
+  "pages_or_article_number": "9317231",
+  "issn": "1687-5249",
+  "eissn": "1687-5257",
+  "isbn": null,
+  "url": "https://doi.org/10.1155/jcse/9317231",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:52:53.496280+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            17
+          ]
+        ],
+        "date-time": "2026-04-17T16:10:15Z",
+        "timestamp": 1776442215804,
+        "version": "3.51.2"
+      },
+      "reference-count": 27,
+      "publisher": "Wiley",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                17
+              ]
+            ],
+            "date-time": "2026-04-17T00:00:00Z",
+            "timestamp": 1776384000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 106,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2026-01-01T00:00:00Z",
+            "timestamp": 1767225600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "onlinelibrary.wiley.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Journal of Control Science and Engineering"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            1
+          ]
+        ]
+      },
+      "abstract": "<jats:p>\n                    Electrical power distribution, together with energy management and grid stability, strongly relies on energy management functions that reside in IoT‐enabled smart grid systems. Accurate forecasting of the demand for electrical energy supports optimum distribution of available resources while also preventing power supply imbalances. The limitations of the current forecasting models are complex time‐based relationships that need costly calculations, not flexible enough to adapt to the changing patterns of energy consumption. Traditional statistics with machine‐learning approaches cannot cope with the changing pattern of energy consumption, while deep‐learning techniques reach peak performance only after proper hyperparameter optimization. This paper deduces Gated Recurrent Attention‐based Sequential Network (GRAS‐Net) integrating chaotic sine cosine optimization (ChSO) to generate accurate energy forecasting in smart grids. GRAS‐Net is unique for its dual capacity to address short‐term energy data variability along with long‐term dependency using deep‐learning architecture with attention‐based improvements. The ChSO algorithm plays the role of key component to optimize GRAS‐Net hyperparameters and helps to improve simultaneously the prediction accuracy along with increasing the processing speed. Deep learning, together with chaotic‐inspired optimization in the proposed model, achieves better performance than traditional methods in the delivery of a precise adaptable energy forecasting system. The superiority of the proposed GRAS‐Net over state‐of‐the‐art solutions is proved through extensive experimental analyses, proving its value for energy utilities and grid operators to improve their decision‐making, load balancing, and overall energy management in IoT‐enabled smart grids. The experimental results highlighted the perfect operation of the proposed GRAS‐Net, obtaining values of RMSE of 6.5, MAE of 5.3, and\n                    <jats:italic>R</jats:italic>\n                    <jats:sup>2</jats:sup>\n                    of 0.92, which allow us not only to infer its leading ability of prediction but also to suggest its stability with respect to other methods.\n                  </jats:p>",
+      "DOI": "10.1155/jcse/9317231",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            17
+          ]
+        ],
+        "date-time": "2026-04-17T15:15:21Z",
+        "timestamp": 1776438921000
+      },
+      "update-policy": "https://doi.org/10.1002/crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "A Robust Hybrid GRAS‐Net With Chaotic Optimization Model for Energy Management in Smart Grid‐IoT Systems"
+      ],
+      "prefix": "10.1155",
+      "volume": "2026",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-1561-1376",
+          "authenticated-orcid": false,
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "B. Meenakshi",
+          "family": "Sundaram",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "P. M. Jai",
+          "family": "Ganesh",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4931-724X",
+          "authenticated-orcid": false,
+          "given": "Shitharth",
+          "family": "Selvarajan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "311",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            17
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_12_1_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.epsr.2024.111249"
+        },
+        {
+          "key": "e_1_2_12_2_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.enconman.2023.117948"
+        },
+        {
+          "key": "e_1_2_12_3_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1515/dema-2022-0176"
+        },
+        {
+          "key": "e_1_2_12_4_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/en17020353"
+        },
+        {
+          "key": "e_1_2_12_5_2",
+          "first-page": "153",
+          "volume-title": "Optimized Energy Management Strategies for Electric Vehicles",
+          "author": "Ghai A. S.",
+          "year": "2025"
+        },
+        {
+          "key": "e_1_2_12_6_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "19",
+          "DOI": "10.1016/B978-0-443-28951-4.00003-4",
+          "volume-title": "Green Machine Learning and Big Data for Smart Grids",
+          "author": "Ghosh D.",
+          "year": "2025"
+        },
+        {
+          "key": "e_1_2_12_7_2",
+          "article-title": "Energy Management Simulation for a Local Energy Supply System",
+          "volume": "53",
+          "author": "Hirano Y.",
+          "year": "2025",
+          "journal-title": "Energy Proceedings"
+        },
+        {
+          "key": "e_1_2_12_8_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/access.2021.3078082"
+        },
+        {
+          "key": "e_1_2_12_9_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1051/e3sconf/202339401002"
+        },
+        {
+          "key": "e_1_2_12_10_2",
+          "article-title": "A Contiguous Temporal Chebyshev Convolutional Optimized Network (CoC-TemNet) Model for Energy Prediction in IoT Enabled Smart City Networks",
+          "author": "Karthik P.",
+          "year": "2024",
+          "journal-title": "IEEE Internet of Things Journal"
+        },
+        {
+          "key": "e_1_2_12_11_2",
+          "first-page": "305",
+          "volume-title": "Edible Electronics for Smart Technology Solutions",
+          "author": "Salama R.",
+          "year": "2025"
+        },
+        {
+          "key": "e_1_2_12_12_2",
+          "first-page": "91",
+          "volume-title": "Innovation and Sustainability Through Circular Economy in Businesses",
+          "author": "Madhura K.",
+          "year": "2025"
+        },
+        {
+          "key": "e_1_2_12_13_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ref.2023.100520"
+        },
+        {
+          "key": "e_1_2_12_14_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.apenergy.2024.124407"
+        },
+        {
+          "key": "e_1_2_12_15_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.rser.2023.114023"
+        },
+        {
+          "key": "e_1_2_12_16_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.epsr.2024.111079"
+        },
+        {
+          "key": "e_1_2_12_17_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "111",
+          "DOI": "10.1002/9781394261727.ch7",
+          "article-title": "An Intelligent Smart Grid Switching System for an Efficient Load Balancing Through Machine Learning Models",
+          "volume": "1",
+          "author": "Sundarajan A.",
+          "year": "2024",
+          "journal-title": "Smart Grids as Cyber Physical Systems: Artificial Intelligence, Cybersecurity, and Clean Energy for Next Generation Smart Grids"
+        },
+        {
+          "key": "e_1_2_12_18_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/jiot.2020.3013306"
+        },
+        {
+          "key": "e_1_2_12_19_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1177/18479790211032920"
+        },
+        {
+          "key": "e_1_2_12_20_2",
+          "volume-title": "‘Smart Grids: Sources of Security Intimidations, Challenges, and Opportunities,’ Cyber Security Solutions for Protecting and Building the Future Smart Grid",
+          "author": "Nagpal T.",
+          "year": "2025"
+        },
+        {
+          "key": "e_1_2_12_21_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/access.2020.2991067"
+        },
+        {
+          "key": "e_1_2_12_22_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/er.4883"
+        },
+        {
+          "key": "e_1_2_12_23_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.epsr.2020.106232"
+        },
+        {
+          "key": "e_1_2_12_24_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.apenergy.2024.124410"
+        },
+        {
+          "key": "e_1_2_12_25_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.epsr.2024.111154"
+        },
+        {
+          "key": "e_1_2_12_26_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.epsr.2024.111057"
+        },
+        {
+          "key": "e_1_2_12_27_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/su152416885"
+        }
+      ],
+      "container-title": [
+        "Journal of Control Science and Engineering"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1155/jcse/9317231",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1155/jcse/9317231",
+          "content-type": "application/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1155/jcse/9317231",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            17
+          ]
+        ],
+        "date-time": "2026-04-17T15:15:23Z",
+        "timestamp": 1776438923000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://onlinelibrary.wiley.com/doi/10.1155/jcse/9317231"
+        }
+      },
+      "subtitle": [],
+      "editor": [
+        {
+          "family": "Deepali",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "editor",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            1
+          ]
+        ]
+      },
+      "references-count": 27,
+      "journal-issue": {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              1
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1155/jcse/9317231"
+      ],
+      "URL": "https://doi.org/10.1155/jcse/9317231",
+      "archive": [
+        "Portico"
+      ],
+      "relation": {},
+      "ISSN": [
+        "1687-5249",
+        "1687-5257"
+      ],
+      "issn-type": [
+        {
+          "value": "1687-5249",
+          "type": "print"
+        },
+        {
+          "value": "1687-5257",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            1
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2025-04-11",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2026-03-03",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2026-04-17",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ],
+      "article-number": "9317231"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": "https://orcid.org/0000-0003-1561-1376",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "B. Meenakshi Sundaram",
+      "given_name_from_source": "B. Meenakshi",
+      "family_name_from_source": "Sundaram",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "P. M. Jai Ganesh",
+      "given_name_from_source": "P. M. Jai",
+      "family_name_from_source": "Ganesh",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Shitharth Selvarajan",
+      "given_name_from_source": "Shitharth",
+      "family_name_from_source": "Selvarajan",
+      "orcid_from_source": "https://orcid.org/0000-0002-4931-724X",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

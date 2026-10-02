@@ -1,0 +1,63 @@
+{
+  "database": "C:\\Users\\silic\\Documents\\GitHub\\faculty-performance-development\\data\\faculty.db",
+  "backup": "C:\\Users\\silic\\Documents\\GitHub\\faculty-performance-development\\data\\backups\\faculty-before-book-doi-20261002-225841.db",
+  "historical_values_preserved": true,
+  "tables": {
+    "academic_years": {
+      "rows": 5,
+      "sha256": "30f486edcf25b71fe05bd2414c8d262ab1fc5f618f10f080bdc82c5d5060928b"
+    },
+    "book_change_logs": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "book_contributors": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "book_publications": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "change_logs": {
+      "rows": 382,
+      "sha256": "bc37bd80ed39c7d15caf7f7c1e2723c056d44be66135c23ecd9fd527672da933"
+    },
+    "evidence_files": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "faculty": {
+      "rows": 20,
+      "sha256": "3391d44731d5d1b336292a0dfcb7e58d6c143f8c100f1cf9987615a3f2e830ca"
+    },
+    "patent_change_logs": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "patent_inventors": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "patent_status_history": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "patents": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "publication_authors": {
+      "rows": 1789,
+      "sha256": "264b153ec579f510a9700c6decf9a8fe3f2d32ffacb99e6bb04af3f16f48374c"
+    },
+    "publications": {
+      "rows": 325,
+      "sha256": "29cfe0987adb1dffd3dc46358acd8c0666ef5d52aae209a821312ac831583ec7"
+    },
+    "students": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  }
+}

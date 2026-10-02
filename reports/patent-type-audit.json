@@ -1,0 +1,34 @@
+{
+  "database": "C:\\Users\\silic\\Documents\\GitHub\\faculty-performance-development\\data\\faculty.db",
+  "backup": "C:\\Users\\silic\\Documents\\GitHub\\faculty-performance-development\\data\\backups\\pre_patent_types_20261003_004224.db",
+  "existing_rows_preserved": true,
+  "tables_verified": [
+    "academic_years",
+    "students",
+    "change_logs",
+    "publication_authors",
+    "patents",
+    "patent_change_logs",
+    "patent_inventors",
+    "patent_status_history",
+    "publications",
+    "book_publications",
+    "book_change_logs",
+    "book_contributors",
+    "evidence_files",
+    "faculty"
+  ],
+  "types": {
+    "DESIGN": 2,
+    "UTILITY": 7
+  },
+  "COPYRIGHT": 0,
+  "integrity": "ok",
+  "foreign_key_violations": 0,
+  "final_live_values_preserved": true,
+  "live_dashboard_types": {
+    "UTILITY": 7,
+    "DESIGN": 2,
+    "COPYRIGHT": 0
+  }
+}

@@ -1,0 +1,1167 @@
+{
+  "doi": "10.1016/j.suscom.2025.101208",
+  "title": "Integrating blockchain and iot with advanced predictive modeling for energy efficient urban transportation systems",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Sustainable Computing: Informatics and Systems",
+  "publisher": "Elsevier BV",
+  "publication_date": null,
+  "online_publication_date": null,
+  "print_publication_date": null,
+  "volume": "48",
+  "issue": null,
+  "pages_or_article_number": "101208",
+  "issn": "2210-5379",
+  "eissn": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1016/j.suscom.2025.101208",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:30.929410+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            11
+          ]
+        ],
+        "date-time": "2026-08-11T19:30:23Z",
+        "timestamp": 1786476623067,
+        "version": "build-2736575974"
+      },
+      "reference-count": 60,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                1
+              ]
+            ],
+            "date-time": "2025-12-01T00:00:00Z",
+            "timestamp": 1764547200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                1
+              ]
+            ],
+            "date-time": "2025-12-01T00:00:00Z",
+            "timestamp": 1764547200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                1
+              ]
+            ],
+            "date-time": "2025-12-01T00:00:00Z",
+            "timestamp": 1764547200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-017"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                1
+              ]
+            ],
+            "date-time": "2025-12-01T00:00:00Z",
+            "timestamp": 1764547200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                1
+              ]
+            ],
+            "date-time": "2025-12-01T00:00:00Z",
+            "timestamp": 1764547200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-012"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                1
+              ]
+            ],
+            "date-time": "2025-12-01T00:00:00Z",
+            "timestamp": 1764547200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                1
+              ]
+            ],
+            "date-time": "2025-12-01T00:00:00Z",
+            "timestamp": 1764547200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-004"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100007446",
+          "name": "King Khalid University",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "RGP.2/198/46"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "RGP.2/198/46"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100007446",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Sustainable Computing: Informatics and Systems"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            12
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.suscom.2025.101208",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            17
+          ]
+        ],
+        "date-time": "2025-09-17T00:51:55Z",
+        "timestamp": 1758070315000
+      },
+      "page": "101208",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "special_numbering": "C",
+      "title": [
+        "Integrating blockchain and iot with advanced predictive modeling for energy efficient urban transportation systems"
+      ],
+      "prefix": "10.1016",
+      "volume": "48",
+      "author": [
+        {
+          "given": "Jyotsnarani",
+          "family": "Tripathy",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "M.",
+          "family": "Kaliappan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gnana Kousalya",
+          "family": "Chellathevar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "J. Relin Francis",
+          "family": "Raj",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ravivarman",
+          "family": "Shanmugasundaram",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Manjunathan",
+          "family": "Alagarsamy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "S.Patricia",
+          "family": "Nancy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ali",
+          "family": "Algahtani",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.suscom.2025.101208_bib1",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.iot.2022.100565",
+          "article-title": "The big picture on the Internet of things and the smart city: a review of what we know and what we need to know",
+          "volume": "19",
+          "author": "Rejeb",
+          "year": "2022",
+          "journal-title": "Internet Things"
+        },
+        {
+          "issue": "23",
+          "key": "10.1016/j.suscom.2025.101208_bib2",
+          "doi-asserted-by": "crossref",
+          "first-page": "9271",
+          "DOI": "10.3390/s22239271",
+          "article-title": "A review of emerging technologies for IoT-based smart cities",
+          "volume": "22",
+          "author": "Whaiduzzaman",
+          "year": "2022",
+          "journal-title": "Sensors"
+        },
+        {
+          "key": "10.1016/j.suscom.2025.101208_bib3",
+          "first-page": "33",
+          "article-title": "A blockchain-based architecture for traffic signal control systems",
+          "volume": "2019",
+          "author": "Li",
+          "year": "2019",
+          "journal-title": "IEEE Int. Congr. Internet Things (ICIOT)"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.suscom.2025.101208_bib4",
+          "first-page": "198",
+          "article-title": "Limited sensing and deep data mining: a new exploration of developing city-wide parking guidance systems",
+          "volume": "14",
+          "author": "Zou",
+          "year": "2022",
+          "journal-title": "IEEE Intell. Transp. Syst. Mag."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.suscom.2025.101208_bib5",
+          "doi-asserted-by": "crossref",
+          "first-page": "4972",
+          "DOI": "10.1109/TITS.2020.3044927",
+          "article-title": "The improvement of road driving safety guided by visual inattentional blindness",
+          "volume": "23",
+          "author": "Xu",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Intell. Transp. Syst."
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.suscom.2025.101208_bib6",
+          "doi-asserted-by": "crossref",
+          "first-page": "24672",
+          "DOI": "10.1109/TITS.2022.3198046",
+          "article-title": "Game theoretic approach for multipriority data transmission in 5G vehicular networks",
+          "volume": "23",
+          "author": "Sun",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Intell. Transp. Syst."
+        },
+        {
+          "key": "10.1016/j.suscom.2025.101208_bib7",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.compeleceng.2020.106906",
+          "article-title": "Deep learning-based urban big data fusion in smart cities: towards traffic monitoring and flow-preserving fusion",
+          "volume": "89",
+          "author": "Khan",
+          "year": "2021",
+          "journal-title": "Comput. Electr. Eng."
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.suscom.2025.101208_bib8",
+          "doi-asserted-by": "crossref",
+          "first-page": "2908",
+          "DOI": "10.3390/s22082908",
+          "article-title": "Design and implementation of an ML and IoT based adaptive traffic-management system for smart cities",
+          "volume": "22",
+          "author": "Lilhore",
+          "year": "2022",
+          "journal-title": "Sensors"
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.suscom.2025.101208_bib9",
+          "doi-asserted-by": "crossref",
+          "first-page": "24672",
+          "DOI": "10.1109/TITS.2022.3198046",
+          "article-title": "“Intersection fog-based distributed routing for V2V communication in urban vehicular ad hoc networks,”",
+          "volume": "23",
+          "author": "Sun",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Intell. Transp. Syst."
+        },
+        {
+          "key": "10.1016/j.suscom.2025.101208_bib10",
+          "doi-asserted-by": "crossref",
+          "first-page": "57",
+          "DOI": "10.1007/s10708-024-11040-7",
+          "article-title": "Benefit and limitation of using blockchain in smart cities to improve citizen services",
+          "volume": "89",
+          "author": "Bahrepour",
+          "year": "2024",
+          "journal-title": "GeoJournal"
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.suscom.2025.101208_bib11",
+          "doi-asserted-by": "crossref",
+          "first-page": "324",
+          "DOI": "10.3390/fi16090324",
+          "article-title": "Machine learning for blockchain and IoT systems in smart cities: a survey",
+          "volume": "16",
+          "author": "Dritsas",
+          "year": "2024",
+          "journal-title": "Future Internet"
+        },
+        {
+          "key": "10.1016/j.suscom.2025.101208_bib12",
+          "article-title": "Designing blockchain based secure autonomous vehicular Internet of things (IoT) architecture with efficient smart contracts",
+          "author": "Hemani",
+          "year": "2024",
+          "journal-title": "Int. J. Inf. Technol."
+        },
+        {
+          "key": "10.1016/j.suscom.2025.101208_bib13",
+          "doi-asserted-by": "crossref",
+          "first-page": "45",
+          "DOI": "10.1007/s10723-024-09762-6",
+          "article-title": "Exploring the synergy of blockchain, IoT, and edge computing in smart traffic management across urban landscapes",
+          "volume": "22",
+          "author": "Chen",
+          "year": "2024",
+          "journal-title": "J. Grid Comput."
+        },
+        {
+          "issue": "23",
+          "key": "10.1016/j.suscom.2025.101208_bib14",
+          "doi-asserted-by": "crossref",
+          "first-page": "9271",
+          "DOI": "10.3390/s22239271",
+          "article-title": "A review of emerging technologies for IoT-based smart cities",
+          "volume": "22",
+          "author": "Whaiduzzaman",
+          "year": "2022",
+          "journal-title": "Sensors"
+        },
+        {
+          "key": "10.1016/j.suscom.2025.101208_bib15",
+          "first-page": "33",
+          "article-title": "A blockchain-based architecture for traffic signal control systems",
+          "volume": "2019",
+          "author": "Li",
+          "year": "2019",
+          "journal-title": "IEEE Int. Congr. Internet Things (ICIOT)"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.suscom.2025.101208_bib16",
+          "first-page": "198",
+          "article-title": "Limited sensing and deep data mining: a new exploration of developing city-wide parking guidance systems",
+          "volume": "14",
+          "author": "Zou",
+          "year": "2022",
+          "journal-title": "IEEE Intell. Transp. Syst. Mag."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.suscom.2025.101208_bib17",
+          "doi-asserted-by": "crossref",
+          "first-page": "4972",
+          "DOI": "10.1109/TITS.2020.3044927",
+          "article-title": "The improvement of road driving safety guided by visual inattentional blindness",
+          "volume": "23",
+          "author": "Xu",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Intell. Transp. Syst."
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.suscom.2025.101208_bib18",
+          "doi-asserted-by": "crossref",
+          "first-page": "24672",
+          "DOI": "10.1109/TITS.2022.3198046",
+          "article-title": "Game theoretic approach for multipriority data transmission in 5G vehicular networks",
+          "volume": "23",
+          "author": "Sun",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Intell. Transp. Syst."
+        },
+        {
+          "key": "10.1016/j.suscom.2025.101208_bib19",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.compeleceng.2020.106906",
+          "article-title": "Deep learning-based urban big data fusion in smart cities: towards traffic monitoring and flow-preserving fusion",
+          "volume": "89",
+          "author": "Khan",
+          "year": "2021",
+          "journal-title": "Comput. Electr. Eng."
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.suscom.2025.101208_bib20",
+          "doi-asserted-by": "crossref",
+          "first-page": "2908",
+          "DOI": "10.3390/s22082908",
+          "article-title": "Design and implementation of an ML and IoT based adaptive traffic-management system for smart cities",
+          "volume": "22",
+          "author": "Lilhore",
+          "year": "2022",
+          "journal-title": "Sensors"
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.suscom.2025.101208_bib21",
+          "doi-asserted-by": "crossref",
+          "first-page": "24672",
+          "DOI": "10.1109/TITS.2022.3198046",
+          "article-title": "“Intersection fog-based distributed routing for V2V communication in urban vehicular ad hoc networks,”",
+          "volume": "23",
+          "author": "Sun",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Intell. Transp. Syst."
+        },
+        {
+          "key": "10.1016/j.suscom.2025.101208_bib22",
+          "doi-asserted-by": "crossref",
+          "first-page": "57",
+          "DOI": "10.1007/s10708-024-11040-7",
+          "article-title": "Benefit and limitation of using blockchain in smart cities to improve citizen services",
+          "volume": "89",
+          "author": "Bahrepour",
+          "year": "2024",
+          "journal-title": "GeoJournal"
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.suscom.2025.101208_bib23",
+          "doi-asserted-by": "crossref",
+          "first-page": "324",
+          "DOI": "10.3390/fi16090324",
+          "article-title": "Machine learning for blockchain and IoT systems in smart cities: a survey",
+          "volume": "16",
+          "author": "Dritsas",
+          "year": "2024",
+          "journal-title": "Future Internet"
+        },
+        {
+          "key": "10.1016/j.suscom.2025.101208_bib24",
+          "article-title": "Designing blockchain based secure autonomous vehicular Internet of things (IoT) architecture with efficient smart contracts",
+          "author": "Hemani",
+          "year": "2024",
+          "journal-title": "Int. J. Inf. Technol."
+        },
+        {
+          "key": "10.1016/j.suscom.2025.101208_bib25",
+          "doi-asserted-by": "crossref",
+          "first-page": "45",
+          "DOI": "10.1007/s10723-024-09762-6",
+          "article-title": "Exploring the synergy of blockchain, IoT, and edge computing in smart traffic management across urban landscapes",
+          "volume": "22",
+          "author": "Chen",
+          "year": "2024",
+          "journal-title": "J. Grid Comput."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.suscom.2025.101208_bib26",
+          "first-page": "912",
+          "article-title": "A blockchain-based secure and efficient vehicle-to-grid energy trading mechanism",
+          "volume": "15",
+          "author": "Zhang",
+          "year": "2024",
+          "journal-title": "IEEE Trans. Smart Grid"
+        },
+        {
+          "key": "10.1016/j.suscom.2025.101208_bib27",
+          "article-title": "Machine learning-based EV charging prediction and optimization for smart grids",
+          "volume": "59",
+          "author": "Sharma",
+          "year": "2023",
+          "journal-title": "J. Energy Storage"
+        },
+        {
+          "key": "10.1016/j.suscom.2025.101208_bib28",
+          "first-page": "137",
+          "article-title": "Energy-efficient traffic flow optimization in smart cities using IoT and edge computing",
+          "volume": "143",
+          "author": "Kim",
+          "year": "2024",
+          "journal-title": "Future Gener. Comput. Syst."
+        },
+        {
+          "key": "10.1016/j.suscom.2025.101208_bib29",
+          "article-title": "A blockchain-enabled IoT architecture for energy-efficient smart city ecosystems",
+          "volume": "88",
+          "author": "Singh",
+          "year": "2024",
+          "journal-title": "Sustain. Cities Soc."
+        },
+        {
+          "key": "10.1016/j.suscom.2025.101208_bib30",
+          "first-page": "45",
+          "article-title": "“Integration of renewable energy and EVs using blockchain for smart urban environments,”",
+          "volume": "203",
+          "author": "Li",
+          "year": "2024",
+          "journal-title": "Renew. Energy"
+        },
+        {
+          "key": "10.1016/j.suscom.2025.101208_bib31",
+          "article-title": "Deep learning-based adaptive traffic control for sustainable urban transport",
+          "volume": "156",
+          "author": "Wu",
+          "year": "2023",
+          "journal-title": "Transp. Res. Part C Emerg. Technol."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.suscom.2025.101208_bib32",
+          "first-page": "4213",
+          "article-title": "A privacy-preserving blockchain architecture for smart transportation systems",
+          "volume": "11",
+          "author": "Zhang",
+          "year": "2024",
+          "journal-title": "IEEE Internet Things J."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.suscom.2025.101208_bib33",
+          "first-page": "87",
+          "article-title": "Designing efficient urban mobility systems with IoT and machine learning",
+          "volume": "12",
+          "author": "Martinez",
+          "year": "2023",
+          "journal-title": "J. Transp. Logist."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.suscom.2025.101208_bib34",
+          "first-page": "4567",
+          "article-title": "Blockchain-enabled Green energy management for urban smart grids",
+          "volume": "19",
+          "author": "Liu",
+          "year": "2024",
+          "journal-title": "IEEE Trans. Ind. Inform."
+        },
+        {
+          "key": "10.1016/j.suscom.2025.101208_bib35",
+          "article-title": "Dynamic resource allocation for EV charging stations using blockchain and IoT",
+          "volume": "155",
+          "author": "Patel",
+          "year": "2024",
+          "journal-title": "Int. J. Electr. Power Energy Syst."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.suscom.2025.101208_bib36",
+          "first-page": "420",
+          "article-title": "An effective method for managing waste in smart cities based on deep residual neural network approach",
+          "volume": "25",
+          "author": "Shunmugasundaram",
+          "year": "2024",
+          "journal-title": "J. Environ. Prot. Ecol."
+        },
+        {
+          "key": "10.1016/j.suscom.2025.101208_bib37",
+          "first-page": "1",
+          "article-title": "Intelligent traffic prediction system using hybrid convolutional neural networks for smart cities",
+          "author": "Raju",
+          "year": "2024",
+          "journal-title": "Multimed. Tools Appl."
+        },
+        {
+          "key": "10.1016/j.suscom.2025.101208_bib38",
+          "unstructured": "Tamilarasi K., Maheswari K., Ramesh S., Isaac S., Rajaram A. A decentralized smart healthcare monitoring system using deep federated learning technique for IoMT."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.suscom.2025.101208_bib39",
+          "first-page": "1717",
+          "article-title": "Analysis of CT-Images for Covid-19 using blockchain networks for mask RCNN and capsule",
+          "volume": "25",
+          "author": "VEERABHADRASWAMY",
+          "year": "2024",
+          "journal-title": "J. Environ. Prot. Ecol."
+        },
+        {
+          "key": "10.1016/j.suscom.2025.101208_bib40",
+          "first-page": "1",
+          "article-title": "Blockchain-enabled monitoring of public works projects using piezoelectric transducers",
+          "author": "Jeribi",
+          "year": "2025",
+          "journal-title": "Mech. Adv. Mater. Struct."
+        },
+        {
+          "key": "10.1016/j.suscom.2025.101208_bib41",
+          "first-page": "29",
+          "article-title": "IoT-based sustainable urban traffic management using machine learning",
+          "volume": "166",
+          "author": "Roy",
+          "year": "2023",
+          "journal-title": "Transp. Res. Part A Policy Pract."
+        },
+        {
+          "key": "10.1016/j.suscom.2025.101208_bib42",
+          "article-title": "Decentralized urban energy optimization using blockchain and edge computing",
+          "volume": "306",
+          "author": "Zhang",
+          "year": "2024",
+          "journal-title": "Energy Build."
+        },
+        {
+          "key": "10.1016/j.suscom.2025.101208_bib43",
+          "first-page": "123456",
+          "article-title": "Multi-agent reinforcement learning for urban mobility systems powered by blockchain",
+          "volume": "12",
+          "author": "Tan",
+          "year": "2024",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "issue": "45",
+          "key": "10.1016/j.suscom.2025.101208_bib44",
+          "article-title": "AI-powered real-time traffic flow prediction for smart cities",
+          "volume": "10",
+          "author": "Brown",
+          "year": "2023",
+          "journal-title": "J. Big Data"
+        },
+        {
+          "key": "10.1016/j.suscom.2025.101208_bib45",
+          "article-title": "A blockchain-empowered IoT framework for enhancing EV infrastructure management",
+          "volume": "345",
+          "author": "Zhao",
+          "year": "2024",
+          "journal-title": "Appl. Energy"
+        },
+        {
+          "key": "10.1016/j.suscom.2025.101208_bib46",
+          "article-title": "AI-based model for prediction of power consumption in smart grid-smart way towards smart city using blockchain technology",
+          "volume": "24",
+          "author": "Aljarrah",
+          "year": "2024",
+          "journal-title": "Intell. Syst. Appl."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.suscom.2025.101208_bib47",
+          "article-title": "Energy-Efficient and Blockchain-Enabled model for Internet of things (IoT) in smart cities",
+          "volume": "66",
+          "author": "Alghamdi",
+          "year": "2021",
+          "journal-title": "Comput. Mater. Contin."
+        },
+        {
+          "key": "10.1016/j.suscom.2025.101208_bib48",
+          "doi-asserted-by": "crossref",
+          "first-page": "01179",
+          "DOI": "10.1051/matecconf/202439201179",
+          "article-title": "Enabling sustainable urban transportation with predictive analytics and IoT",
+          "volume": "392",
+          "author": "Rozhdestvenskiy",
+          "year": "2024",
+          "journal-title": "MATEC Web Conf."
+        },
+        {
+          "key": "10.1016/j.suscom.2025.101208_bib49",
+          "series-title": "InInternational Conference on",
+          "first-page": "399",
+          "article-title": "Intelligent transportation system for sustainable and efficient urban mobility: machine learning approach for traffic flow prediction",
+          "author": "Sreelekha",
+          "year": "2024"
+        },
+        {
+          "key": "10.1016/j.suscom.2025.101208_bib50",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.entcom.2024.100910",
+          "article-title": "Internet of things for gaming: a review",
+          "volume": "52",
+          "author": "Laghari",
+          "year": "2025",
+          "journal-title": "Entertain. Comput."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.suscom.2025.101208_bib51",
+          "doi-asserted-by": "crossref",
+          "first-page": "36",
+          "DOI": "10.1007/s43926-024-00090-5",
+          "article-title": "Internet of things (IoT) applications security trends and challenges",
+          "volume": "4",
+          "author": "Laghari",
+          "year": "2024",
+          "journal-title": "Discov. Internet Things"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.suscom.2025.101208_bib52",
+          "first-page": "19",
+          "article-title": "Internet of multimedia things (IoMT): a review",
+          "volume": "19",
+          "author": "Laghari",
+          "year": "2025",
+          "journal-title": "Rev. Socio Strateg."
+        },
+        {
+          "issue": "18",
+          "key": "10.1016/j.suscom.2025.101208_bib53",
+          "doi-asserted-by": "crossref",
+          "first-page": "29402",
+          "DOI": "10.1109/JIOT.2024.3353337",
+          "article-title": "An anomaly detection model based on deep auto-encoder and capsule graph convolution via sparrow search algorithm in 6G Internet of everything",
+          "volume": "11",
+          "author": "Yin",
+          "year": "2024",
+          "journal-title": "IEEE Internet Things J."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.suscom.2025.101208_bib54",
+          "doi-asserted-by": "crossref",
+          "first-page": "677",
+          "DOI": "10.3390/electronics12030677",
+          "article-title": "Lightweight-biov: blockchain distributed ledger technology (bdlt) for Internet of vehicles (iovs)",
+          "volume": "12",
+          "author": "Laghari",
+          "year": "2023",
+          "journal-title": "Electronics"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.suscom.2025.101208_bib55",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1002/cpe.6662",
+          "article-title": "Botnet attack detection in Internet of things devices over cloud environment via machine learning",
+          "volume": "34",
+          "author": "Waqas",
+          "year": "2022",
+          "journal-title": "Concurr. Comput. Pract. Exp."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.suscom.2025.101208_bib56",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1145/3625548",
+          "article-title": "Incomplete multiview clustering via semidiscrete optimal transport for multimedia data mining in IoT",
+          "volume": "20",
+          "author": "Gao",
+          "year": "2024",
+          "journal-title": "ACM Trans. Multimed. Comput. Commun. Appl."
+        },
+        {
+          "issue": "16",
+          "key": "10.1016/j.suscom.2025.101208_bib57",
+          "doi-asserted-by": "crossref",
+          "first-page": "26700",
+          "DOI": "10.1109/JIOT.2023.3325272",
+          "article-title": "Deep incomplete multiview clustering via information bottleneck for pattern mining of data in extreme-environment IoT",
+          "volume": "11",
+          "author": "Gao",
+          "year": "2023",
+          "journal-title": "IEEE Internet Things J."
+        },
+        {
+          "issue": "18",
+          "key": "10.1016/j.suscom.2025.101208_bib58",
+          "doi-asserted-by": "crossref",
+          "first-page": "53949",
+          "DOI": "10.1007/s11042-023-17611-z",
+          "article-title": "Mobile crowdsensing with energy efficiency to control road congestion in Internet cloud of vehicles: a review",
+          "volume": "83",
+          "author": "Fatima",
+          "year": "2024",
+          "journal-title": "Multimed. Tools Appl."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.suscom.2025.101208_bib59",
+          "doi-asserted-by": "crossref",
+          "first-page": "1591",
+          "DOI": "10.1007/s11831-021-09631-5",
+          "article-title": "Survey on wireless network security",
+          "volume": "29",
+          "author": "Nazir",
+          "year": "2022",
+          "journal-title": "Arch. Comput. Methods Eng."
+        },
+        {
+          "key": "10.1016/j.suscom.2025.101208_bib60",
+          "doi-asserted-by": "crossref",
+          "first-page": "64876",
+          "DOI": "10.1109/ACCESS.2018.2865967",
+          "article-title": "Quality of experience framework for cloud computing (QoC)",
+          "volume": "6",
+          "author": "Laghari",
+          "year": "2018",
+          "journal-title": "IEEE Access"
+        }
+      ],
+      "container-title": [
+        "Sustainable Computing: Informatics and Systems"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2210537925001295?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2210537925001295?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            11
+          ]
+        ],
+        "date-time": "2026-08-11T19:03:40Z",
+        "timestamp": 1786475020000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2210537925001295"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12
+          ]
+        ]
+      },
+      "references-count": 60,
+      "alternative-id": [
+        "S2210537925001295"
+      ],
+      "URL": "https://doi.org/10.1016/j.suscom.2025.101208",
+      "relation": {},
+      "ISSN": [
+        "2210-5379"
+      ],
+      "issn-type": [
+        {
+          "value": "2210-5379",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            12
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Integrating blockchain and iot with advanced predictive modeling for energy efficient urban transportation systems",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Sustainable Computing: Informatics and Systems",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.suscom.2025.101208",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2025 Published by Elsevier Inc.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "101208"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Jyotsnarani Tripathy",
+      "given_name_from_source": "Jyotsnarani",
+      "family_name_from_source": "Tripathy",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "M. Kaliappan",
+      "given_name_from_source": "M.",
+      "family_name_from_source": "Kaliappan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Gnana Kousalya Chellathevar",
+      "given_name_from_source": "Gnana Kousalya",
+      "family_name_from_source": "Chellathevar",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "J. Relin Francis Raj",
+      "given_name_from_source": "J. Relin Francis",
+      "family_name_from_source": "Raj",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Ravivarman Shanmugasundaram",
+      "given_name_from_source": "Ravivarman",
+      "family_name_from_source": "Shanmugasundaram",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "Manjunathan Alagarsamy",
+      "given_name_from_source": "Manjunathan",
+      "family_name_from_source": "Alagarsamy",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 7,
+      "author_name_from_source": "S.Patricia Nancy",
+      "given_name_from_source": "S.Patricia",
+      "family_name_from_source": "Nancy",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 8,
+      "author_name_from_source": "Ali Algahtani",
+      "given_name_from_source": "Ali",
+      "family_name_from_source": "Algahtani",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

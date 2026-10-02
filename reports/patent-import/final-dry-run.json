@@ -1,0 +1,1343 @@
+{
+  "database": "C:\\Users\\silic\\Documents\\GitHub\\faculty-performance-development\\data\\faculty.db",
+  "mode": "DRY_RUN",
+  "ambiguous": 0,
+  "source_patents": 9,
+  "inserted": 0,
+  "existing": 0,
+  "records": [
+    {
+      "identifier": "202641060300 A",
+      "title": "A System and Method for Automated Task Scheduling and Resource Optimization Using AI-Based Analysis",
+      "existing_id": null,
+      "type": "UTILITY",
+      "status": "PUBLISHED",
+      "inventor_count": 6,
+      "claimant_count": 5,
+      "matching": [
+        {
+          "source_name": "Mr. B Raja Gopal Reddy",
+          "classification": "DEPARTMENT",
+          "faculty_name": "Mr. B. Raja Gopal Reddy",
+          "employee_id": "VCE801",
+          "match_source": "STRONG_VARIANT"
+        },
+        {
+          "source_name": "Mr. Nakka Srinivas",
+          "classification": "DEPARTMENT",
+          "faculty_name": "Dr. N. Srinivas",
+          "employee_id": "VCE087",
+          "match_source": "STRONG_VARIANT"
+        },
+        {
+          "source_name": "Mr. A Ananda Kumar",
+          "classification": "DEPARTMENT",
+          "faculty_name": "Mr. A. Ananda Kumar",
+          "employee_id": "VCE1009",
+          "match_source": "STRONG_VARIANT"
+        },
+        {
+          "source_name": "Dr. Anuradha Devi Tellapati",
+          "classification": "DEPARTMENT",
+          "faculty_name": "Dr. T. Anuradha Devi",
+          "employee_id": "VCE1011",
+          "match_source": "SOURCE_EMPLOYEE_ID_VERIFIED"
+        },
+        {
+          "source_name": "Ms. Puligilla Swetha",
+          "classification": "DEPARTMENT",
+          "faculty_name": null,
+          "employee_id": null,
+          "match_source": "CURRENT_DEPARTMENT_UNMATCHED"
+        },
+        {
+          "source_name": "Ms. Fatima Unnisa",
+          "classification": "DEPARTMENT",
+          "faculty_name": "Ms. Fatima Unnisa",
+          "employee_id": "VCE1199",
+          "match_source": "STRONG_VARIANT"
+        }
+      ],
+      "payload": {
+        "title": "A System and Method for Automated Task Scheduling and Resource Optimization Using AI-Based Analysis",
+        "application_number": "202641060300 A",
+        "patent_office": "Not specified in source",
+        "country": null,
+        "patent_type": "UTILITY",
+        "filing_date": null,
+        "publication_number": null,
+        "publication_date": "2026-05-22",
+        "grant_number": null,
+        "grant_date": null,
+        "current_status": "PUBLISHED",
+        "applicant_assignee": null,
+        "remarks": "Department Patents Summary — CY 2026; source column: Patent Number; identifier preserved in generic application_number field. Office, country, filing date and external affiliations were not supplied. UNKNOWN/current-department inventors are CURRENT_DEPARTMENT_UNMATCHED; external person/UNKNOWN scope means external affiliation unspecified.",
+        "is_claimable": true,
+        "is_active": true,
+        "inventors": [
+          {
+            "person_type": "FACULTY",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": 10,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": true,
+            "inventor_order": 1,
+            "inventor_name": "Mr. B Raja Gopal Reddy"
+          },
+          {
+            "person_type": "FACULTY",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": 9,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": true,
+            "inventor_order": 2,
+            "inventor_name": "Mr. Nakka Srinivas"
+          },
+          {
+            "person_type": "FACULTY",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": 12,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": true,
+            "inventor_order": 3,
+            "inventor_name": "Mr. A Ananda Kumar"
+          },
+          {
+            "person_type": "FACULTY",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": 8,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": true,
+            "inventor_order": 4,
+            "inventor_name": "Dr. Anuradha Devi Tellapati"
+          },
+          {
+            "person_type": "UNKNOWN",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": null,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": false,
+            "inventor_order": 5,
+            "inventor_name": "Ms. Puligilla Swetha"
+          },
+          {
+            "person_type": "FACULTY",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": 15,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": true,
+            "inventor_order": 6,
+            "inventor_name": "Ms. Fatima Unnisa"
+          }
+        ],
+        "duplicate_acknowledged": false,
+        "status_note": null
+      }
+    },
+    {
+      "identifier": "202641060303 A",
+      "title": "A System and Method for Software Performance Optimization Using Real-Time Monitoring and Machine Learning",
+      "existing_id": null,
+      "type": "UTILITY",
+      "status": "PUBLISHED",
+      "inventor_count": 6,
+      "claimant_count": 6,
+      "matching": [
+        {
+          "source_name": "Ms. D Revathi",
+          "classification": "DEPARTMENT",
+          "faculty_name": "Ms. D. Revathi",
+          "employee_id": "VCE792",
+          "match_source": "STRONG_VARIANT"
+        },
+        {
+          "source_name": "Dr. K Murugaperumal",
+          "classification": "DEPARTMENT",
+          "faculty_name": "Dr. Muruga Perumal",
+          "employee_id": "VCE1496",
+          "match_source": "SOURCE_EMPLOYEE_ID_VERIFIED"
+        },
+        {
+          "source_name": "Mr. Adiraju Ramakrishna",
+          "classification": "DEPARTMENT",
+          "faculty_name": "Mr. A. Rama Krishna",
+          "employee_id": "VCE306",
+          "match_source": "SOURCE_EMPLOYEE_ID_VERIFIED"
+        },
+        {
+          "source_name": "Ms. Indirarani Guntu",
+          "classification": "DEPARTMENT",
+          "faculty_name": "Ms. G. Indirarani",
+          "employee_id": "VCE1430",
+          "match_source": "SOURCE_EMPLOYEE_ID_VERIFIED"
+        },
+        {
+          "source_name": "Dr. Patil Mounica",
+          "classification": "DEPARTMENT",
+          "faculty_name": "Dr. Patil Mounica",
+          "employee_id": "VCE967",
+          "match_source": "CANONICAL"
+        },
+        {
+          "source_name": "Mr. Bukya Mohan",
+          "classification": "DEPARTMENT",
+          "faculty_name": "Mr. B. Mohan",
+          "employee_id": "VCE1074",
+          "match_source": "SOURCE_EMPLOYEE_ID_VERIFIED"
+        }
+      ],
+      "payload": {
+        "title": "A System and Method for Software Performance Optimization Using Real-Time Monitoring and Machine Learning",
+        "application_number": "202641060303 A",
+        "patent_office": "Not specified in source",
+        "country": null,
+        "patent_type": "UTILITY",
+        "filing_date": null,
+        "publication_number": null,
+        "publication_date": "2026-05-22",
+        "grant_number": null,
+        "grant_date": null,
+        "current_status": "PUBLISHED",
+        "applicant_assignee": null,
+        "remarks": "Department Patents Summary — CY 2026; source column: Patent Number; identifier preserved in generic application_number field. Office, country, filing date and external affiliations were not supplied. UNKNOWN/current-department inventors are CURRENT_DEPARTMENT_UNMATCHED; external person/UNKNOWN scope means external affiliation unspecified.",
+        "is_claimable": true,
+        "is_active": true,
+        "inventors": [
+          {
+            "person_type": "FACULTY",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": 17,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": true,
+            "inventor_order": 1,
+            "inventor_name": "Ms. D Revathi"
+          },
+          {
+            "person_type": "FACULTY",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": 7,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": true,
+            "inventor_order": 2,
+            "inventor_name": "Dr. K Murugaperumal"
+          },
+          {
+            "person_type": "FACULTY",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": 11,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": true,
+            "inventor_order": 3,
+            "inventor_name": "Mr. Adiraju Ramakrishna"
+          },
+          {
+            "person_type": "FACULTY",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": 13,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": true,
+            "inventor_order": 4,
+            "inventor_name": "Ms. Indirarani Guntu"
+          },
+          {
+            "person_type": "FACULTY",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": 2,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": true,
+            "inventor_order": 5,
+            "inventor_name": "Dr. Patil Mounica"
+          },
+          {
+            "person_type": "FACULTY",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": 14,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": true,
+            "inventor_order": 6,
+            "inventor_name": "Mr. Bukya Mohan"
+          }
+        ],
+        "duplicate_acknowledged": false,
+        "status_note": null
+      }
+    },
+    {
+      "identifier": "483689-001",
+      "title": "Electroencephalogram Headset for IoT-Enabled Environments",
+      "existing_id": null,
+      "type": "DESIGN",
+      "status": "PUBLISHED",
+      "inventor_count": 5,
+      "claimant_count": 1,
+      "matching": [
+        {
+          "source_name": "Dr. C. S. Boopathi",
+          "classification": "EXTERNAL / OTHER",
+          "faculty_name": null,
+          "employee_id": null,
+          "match_source": "EXTERNAL / OTHER"
+        },
+        {
+          "source_name": "Dr. Patil Mounica",
+          "classification": "DEPARTMENT",
+          "faculty_name": "Dr. Patil Mounica",
+          "employee_id": "VCE967",
+          "match_source": "CANONICAL"
+        },
+        {
+          "source_name": "Dr. K. Sridharan",
+          "classification": "EXTERNAL / OTHER",
+          "faculty_name": null,
+          "employee_id": null,
+          "match_source": "EXTERNAL / OTHER"
+        },
+        {
+          "source_name": "Dr. K. Srinivasarao",
+          "classification": "EXTERNAL / OTHER",
+          "faculty_name": null,
+          "employee_id": null,
+          "match_source": "EXTERNAL / OTHER"
+        },
+        {
+          "source_name": "Mr. N. Naveen Kumar",
+          "classification": "EXTERNAL / OTHER",
+          "faculty_name": null,
+          "employee_id": null,
+          "match_source": "EXTERNAL / OTHER"
+        }
+      ],
+      "payload": {
+        "title": "Electroencephalogram Headset for IoT-Enabled Environments",
+        "application_number": "483689-001",
+        "patent_office": "Not specified in source",
+        "country": null,
+        "patent_type": "DESIGN",
+        "filing_date": null,
+        "publication_number": null,
+        "publication_date": "2026-03-12",
+        "grant_number": null,
+        "grant_date": null,
+        "current_status": "PUBLISHED",
+        "applicant_assignee": null,
+        "remarks": "Department Patents Summary — CY 2026; source column: Patent Number; identifier preserved in generic application_number field. Office, country, filing date and external affiliations were not supplied. UNKNOWN/current-department inventors are CURRENT_DEPARTMENT_UNMATCHED; external person/UNKNOWN scope means external affiliation unspecified.",
+        "is_claimable": true,
+        "is_active": true,
+        "inventors": [
+          {
+            "person_type": "EXTERNAL_PERSON",
+            "institution_scope": "UNKNOWN",
+            "faculty_id": null,
+            "student_id": null,
+            "department_name": null,
+            "institution_name": null,
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": false,
+            "inventor_order": 1,
+            "inventor_name": "Dr. C. S. Boopathi"
+          },
+          {
+            "person_type": "FACULTY",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": 2,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": true,
+            "inventor_order": 2,
+            "inventor_name": "Dr. Patil Mounica"
+          },
+          {
+            "person_type": "EXTERNAL_PERSON",
+            "institution_scope": "UNKNOWN",
+            "faculty_id": null,
+            "student_id": null,
+            "department_name": null,
+            "institution_name": null,
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": false,
+            "inventor_order": 3,
+            "inventor_name": "Dr. K. Sridharan"
+          },
+          {
+            "person_type": "EXTERNAL_PERSON",
+            "institution_scope": "UNKNOWN",
+            "faculty_id": null,
+            "student_id": null,
+            "department_name": null,
+            "institution_name": null,
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": false,
+            "inventor_order": 4,
+            "inventor_name": "Dr. K. Srinivasarao"
+          },
+          {
+            "person_type": "EXTERNAL_PERSON",
+            "institution_scope": "UNKNOWN",
+            "faculty_id": null,
+            "student_id": null,
+            "department_name": null,
+            "institution_name": null,
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": false,
+            "inventor_order": 5,
+            "inventor_name": "Mr. N. Naveen Kumar"
+          }
+        ],
+        "duplicate_acknowledged": false,
+        "status_note": null
+      }
+    },
+    {
+      "identifier": "202541124572 A",
+      "title": "Systems and Methods for Adaptive Machine-Learning–Based Monitoring and Fault Detection in Photovoltaic Power Arrays",
+      "existing_id": null,
+      "type": "UTILITY",
+      "status": "PUBLISHED",
+      "inventor_count": 6,
+      "claimant_count": 6,
+      "matching": [
+        {
+          "source_name": "Mr. N. Srinivas",
+          "classification": "DEPARTMENT",
+          "faculty_name": "Dr. N. Srinivas",
+          "employee_id": "VCE087",
+          "match_source": "STRONG_VARIANT"
+        },
+        {
+          "source_name": "Dr. S. Ravivarman",
+          "classification": "DEPARTMENT",
+          "faculty_name": "Dr. S. Ravivarman",
+          "employee_id": "VCE1127",
+          "match_source": "STRONG_VARIANT"
+        },
+        {
+          "source_name": "Dr. N. Karuppiah",
+          "classification": "DEPARTMENT",
+          "faculty_name": "Dr. N. Karuppiah",
+          "employee_id": "VCE1172",
+          "match_source": "STRONG_VARIANT"
+        },
+        {
+          "source_name": "Dr. T. Anuradha Devi",
+          "classification": "DEPARTMENT",
+          "faculty_name": "Dr. T. Anuradha Devi",
+          "employee_id": "VCE1011",
+          "match_source": "STRONG_VARIANT"
+        },
+        {
+          "source_name": "Mr. B. Rajagopal Reddy",
+          "classification": "DEPARTMENT",
+          "faculty_name": "Mr. B. Raja Gopal Reddy",
+          "employee_id": "VCE801",
+          "match_source": "SOURCE_EMPLOYEE_ID_VERIFIED"
+        },
+        {
+          "source_name": "Dr. Patil Mounica",
+          "classification": "DEPARTMENT",
+          "faculty_name": "Dr. Patil Mounica",
+          "employee_id": "VCE967",
+          "match_source": "CANONICAL"
+        }
+      ],
+      "payload": {
+        "title": "Systems and Methods for Adaptive Machine-Learning–Based Monitoring and Fault Detection in Photovoltaic Power Arrays",
+        "application_number": "202541124572 A",
+        "patent_office": "Not specified in source",
+        "country": null,
+        "patent_type": "UTILITY",
+        "filing_date": null,
+        "publication_number": null,
+        "publication_date": "2026-02-06",
+        "grant_number": null,
+        "grant_date": null,
+        "current_status": "PUBLISHED",
+        "applicant_assignee": null,
+        "remarks": "Department Patents Summary — CY 2026; source column: Patent Number; identifier preserved in generic application_number field. Office, country, filing date and external affiliations were not supplied. UNKNOWN/current-department inventors are CURRENT_DEPARTMENT_UNMATCHED; external person/UNKNOWN scope means external affiliation unspecified.",
+        "is_claimable": true,
+        "is_active": true,
+        "inventors": [
+          {
+            "person_type": "FACULTY",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": 9,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": true,
+            "inventor_order": 1,
+            "inventor_name": "Mr. N. Srinivas"
+          },
+          {
+            "person_type": "FACULTY",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": 3,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": true,
+            "inventor_order": 2,
+            "inventor_name": "Dr. S. Ravivarman"
+          },
+          {
+            "person_type": "FACULTY",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": 5,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": true,
+            "inventor_order": 3,
+            "inventor_name": "Dr. N. Karuppiah"
+          },
+          {
+            "person_type": "FACULTY",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": 8,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": true,
+            "inventor_order": 4,
+            "inventor_name": "Dr. T. Anuradha Devi"
+          },
+          {
+            "person_type": "FACULTY",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": 10,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": true,
+            "inventor_order": 5,
+            "inventor_name": "Mr. B. Rajagopal Reddy"
+          },
+          {
+            "person_type": "FACULTY",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": 2,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": true,
+            "inventor_order": 6,
+            "inventor_name": "Dr. Patil Mounica"
+          }
+        ],
+        "duplicate_acknowledged": false,
+        "status_note": null
+      }
+    },
+    {
+      "identifier": "202541121382 A",
+      "title": "Autonomous Animal Rescue and Handling Device",
+      "existing_id": null,
+      "type": "UTILITY",
+      "status": "PUBLISHED",
+      "inventor_count": 8,
+      "claimant_count": 4,
+      "matching": [
+        {
+          "source_name": "Mandepudi Rohith",
+          "classification": "EXTERNAL / OTHER",
+          "faculty_name": null,
+          "employee_id": null,
+          "match_source": "EXTERNAL / OTHER"
+        },
+        {
+          "source_name": "K Shiva Bhargavi",
+          "classification": "EXTERNAL / OTHER",
+          "faculty_name": null,
+          "employee_id": null,
+          "match_source": "EXTERNAL / OTHER"
+        },
+        {
+          "source_name": "S Vinod Reddy",
+          "classification": "EXTERNAL / OTHER",
+          "faculty_name": null,
+          "employee_id": null,
+          "match_source": "EXTERNAL / OTHER"
+        },
+        {
+          "source_name": "Dr. Murugaperumal",
+          "classification": "DEPARTMENT",
+          "faculty_name": "Dr. Muruga Perumal",
+          "employee_id": "VCE1496",
+          "match_source": "SOURCE_EMPLOYEE_ID_VERIFIED"
+        },
+        {
+          "source_name": "Dr. P Mounica",
+          "classification": "DEPARTMENT",
+          "faculty_name": "Dr. Patil Mounica",
+          "employee_id": "VCE967",
+          "match_source": "SOURCE_EMPLOYEE_ID_VERIFIED"
+        },
+        {
+          "source_name": "K Haleema",
+          "classification": "DEPARTMENT",
+          "faculty_name": "Ms. K Haleema",
+          "employee_id": "VCE1219",
+          "match_source": "CANONICAL"
+        },
+        {
+          "source_name": "Dr. Venkata Ramana",
+          "classification": "DEPARTMENT",
+          "faculty_name": null,
+          "employee_id": null,
+          "match_source": "CURRENT_DEPARTMENT_UNMATCHED"
+        },
+        {
+          "source_name": "Bandi Balakrishna",
+          "classification": "DEPARTMENT",
+          "faculty_name": "Mr. B. Balakrishna",
+          "employee_id": "VCE1837",
+          "match_source": "SOURCE_EMPLOYEE_ID_VERIFIED"
+        }
+      ],
+      "payload": {
+        "title": "Autonomous Animal Rescue and Handling Device",
+        "application_number": "202541121382 A",
+        "patent_office": "Not specified in source",
+        "country": null,
+        "patent_type": "UTILITY",
+        "filing_date": null,
+        "publication_number": null,
+        "publication_date": "2026-01-02",
+        "grant_number": null,
+        "grant_date": null,
+        "current_status": "PUBLISHED",
+        "applicant_assignee": null,
+        "remarks": "Department Patents Summary — CY 2026; source column: Patent Number; identifier preserved in generic application_number field. Office, country, filing date and external affiliations were not supplied. UNKNOWN/current-department inventors are CURRENT_DEPARTMENT_UNMATCHED; external person/UNKNOWN scope means external affiliation unspecified.",
+        "is_claimable": true,
+        "is_active": true,
+        "inventors": [
+          {
+            "person_type": "EXTERNAL_PERSON",
+            "institution_scope": "UNKNOWN",
+            "faculty_id": null,
+            "student_id": null,
+            "department_name": null,
+            "institution_name": null,
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": false,
+            "inventor_order": 1,
+            "inventor_name": "Mandepudi Rohith"
+          },
+          {
+            "person_type": "EXTERNAL_PERSON",
+            "institution_scope": "UNKNOWN",
+            "faculty_id": null,
+            "student_id": null,
+            "department_name": null,
+            "institution_name": null,
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": false,
+            "inventor_order": 2,
+            "inventor_name": "K Shiva Bhargavi"
+          },
+          {
+            "person_type": "EXTERNAL_PERSON",
+            "institution_scope": "UNKNOWN",
+            "faculty_id": null,
+            "student_id": null,
+            "department_name": null,
+            "institution_name": null,
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": false,
+            "inventor_order": 3,
+            "inventor_name": "S Vinod Reddy"
+          },
+          {
+            "person_type": "FACULTY",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": 7,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": true,
+            "inventor_order": 4,
+            "inventor_name": "Dr. Murugaperumal"
+          },
+          {
+            "person_type": "FACULTY",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": 2,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": true,
+            "inventor_order": 5,
+            "inventor_name": "Dr. P Mounica"
+          },
+          {
+            "person_type": "FACULTY",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": 20,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": true,
+            "inventor_order": 6,
+            "inventor_name": "K Haleema"
+          },
+          {
+            "person_type": "UNKNOWN",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": null,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": false,
+            "inventor_order": 7,
+            "inventor_name": "Dr. Venkata Ramana"
+          },
+          {
+            "person_type": "FACULTY",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": 18,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": true,
+            "inventor_order": 8,
+            "inventor_name": "Bandi Balakrishna"
+          }
+        ],
+        "duplicate_acknowledged": false,
+        "status_note": null
+      }
+    },
+    {
+      "identifier": "202541122891 A",
+      "title": "Agricultural Produce Storage Device",
+      "existing_id": null,
+      "type": "UTILITY",
+      "status": "PUBLISHED",
+      "inventor_count": 6,
+      "claimant_count": 2,
+      "matching": [
+        {
+          "source_name": "M. MouryaSree",
+          "classification": "EXTERNAL / OTHER",
+          "faculty_name": null,
+          "employee_id": null,
+          "match_source": "EXTERNAL / OTHER"
+        },
+        {
+          "source_name": "K. Manisha",
+          "classification": "EXTERNAL / OTHER",
+          "faculty_name": null,
+          "employee_id": null,
+          "match_source": "EXTERNAL / OTHER"
+        },
+        {
+          "source_name": "B. ManishGoud",
+          "classification": "EXTERNAL / OTHER",
+          "faculty_name": null,
+          "employee_id": null,
+          "match_source": "EXTERNAL / OTHER"
+        },
+        {
+          "source_name": "C. Shivanandh",
+          "classification": "EXTERNAL / OTHER",
+          "faculty_name": null,
+          "employee_id": null,
+          "match_source": "EXTERNAL / OTHER"
+        },
+        {
+          "source_name": "S. Vinod Reddy",
+          "classification": "DEPARTMENT",
+          "faculty_name": "Mr. S. Vinod Reddy",
+          "employee_id": "VCE1422",
+          "match_source": "STRONG_VARIANT"
+        },
+        {
+          "source_name": "Bandi Balakrishna",
+          "classification": "DEPARTMENT",
+          "faculty_name": "Mr. B. Balakrishna",
+          "employee_id": "VCE1837",
+          "match_source": "SOURCE_EMPLOYEE_ID_VERIFIED"
+        }
+      ],
+      "payload": {
+        "title": "Agricultural Produce Storage Device",
+        "application_number": "202541122891 A",
+        "patent_office": "Not specified in source",
+        "country": null,
+        "patent_type": "UTILITY",
+        "filing_date": null,
+        "publication_number": null,
+        "publication_date": "2026-01-02",
+        "grant_number": null,
+        "grant_date": null,
+        "current_status": "PUBLISHED",
+        "applicant_assignee": null,
+        "remarks": "Department Patents Summary — CY 2026; source column: Patent Number; identifier preserved in generic application_number field. Office, country, filing date and external affiliations were not supplied. UNKNOWN/current-department inventors are CURRENT_DEPARTMENT_UNMATCHED; external person/UNKNOWN scope means external affiliation unspecified.",
+        "is_claimable": true,
+        "is_active": true,
+        "inventors": [
+          {
+            "person_type": "EXTERNAL_PERSON",
+            "institution_scope": "UNKNOWN",
+            "faculty_id": null,
+            "student_id": null,
+            "department_name": null,
+            "institution_name": null,
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": false,
+            "inventor_order": 1,
+            "inventor_name": "M. MouryaSree"
+          },
+          {
+            "person_type": "EXTERNAL_PERSON",
+            "institution_scope": "UNKNOWN",
+            "faculty_id": null,
+            "student_id": null,
+            "department_name": null,
+            "institution_name": null,
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": false,
+            "inventor_order": 2,
+            "inventor_name": "K. Manisha"
+          },
+          {
+            "person_type": "EXTERNAL_PERSON",
+            "institution_scope": "UNKNOWN",
+            "faculty_id": null,
+            "student_id": null,
+            "department_name": null,
+            "institution_name": null,
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": false,
+            "inventor_order": 3,
+            "inventor_name": "B. ManishGoud"
+          },
+          {
+            "person_type": "EXTERNAL_PERSON",
+            "institution_scope": "UNKNOWN",
+            "faculty_id": null,
+            "student_id": null,
+            "department_name": null,
+            "institution_name": null,
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": false,
+            "inventor_order": 4,
+            "inventor_name": "C. Shivanandh"
+          },
+          {
+            "person_type": "FACULTY",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": 16,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": true,
+            "inventor_order": 5,
+            "inventor_name": "S. Vinod Reddy"
+          },
+          {
+            "person_type": "FACULTY",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": 18,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": true,
+            "inventor_order": 6,
+            "inventor_name": "Bandi Balakrishna"
+          }
+        ],
+        "duplicate_acknowledged": false,
+        "status_note": null
+      }
+    },
+    {
+      "identifier": "202541121383 A",
+      "title": "Cognitive Assistive System for Sign Language Communication",
+      "existing_id": null,
+      "type": "UTILITY",
+      "status": "PUBLISHED",
+      "inventor_count": 7,
+      "claimant_count": 3,
+      "matching": [
+        {
+          "source_name": "G. Shruthi",
+          "classification": "EXTERNAL / OTHER",
+          "faculty_name": null,
+          "employee_id": null,
+          "match_source": "EXTERNAL / OTHER"
+        },
+        {
+          "source_name": "M. Jyothi",
+          "classification": "EXTERNAL / OTHER",
+          "faculty_name": null,
+          "employee_id": null,
+          "match_source": "EXTERNAL / OTHER"
+        },
+        {
+          "source_name": "K. Charan Chandra",
+          "classification": "EXTERNAL / OTHER",
+          "faculty_name": null,
+          "employee_id": null,
+          "match_source": "EXTERNAL / OTHER"
+        },
+        {
+          "source_name": "T. Saikumar",
+          "classification": "EXTERNAL / OTHER",
+          "faculty_name": null,
+          "employee_id": null,
+          "match_source": "EXTERNAL / OTHER"
+        },
+        {
+          "source_name": "S. Vinod Reddy",
+          "classification": "DEPARTMENT",
+          "faculty_name": "Mr. S. Vinod Reddy",
+          "employee_id": "VCE1422",
+          "match_source": "STRONG_VARIANT"
+        },
+        {
+          "source_name": "Dr. N. Karuppaiah",
+          "classification": "DEPARTMENT",
+          "faculty_name": "Dr. N. Karuppiah",
+          "employee_id": "VCE1172",
+          "match_source": "SOURCE_EMPLOYEE_ID_VERIFIED"
+        },
+        {
+          "source_name": "B. Raj Gopal Reddy",
+          "classification": "DEPARTMENT",
+          "faculty_name": "Mr. B. Raja Gopal Reddy",
+          "employee_id": "VCE801",
+          "match_source": "SOURCE_EMPLOYEE_ID_VERIFIED"
+        }
+      ],
+      "payload": {
+        "title": "Cognitive Assistive System for Sign Language Communication",
+        "application_number": "202541121383 A",
+        "patent_office": "Not specified in source",
+        "country": null,
+        "patent_type": "UTILITY",
+        "filing_date": null,
+        "publication_number": null,
+        "publication_date": "2026-01-02",
+        "grant_number": null,
+        "grant_date": null,
+        "current_status": "PUBLISHED",
+        "applicant_assignee": null,
+        "remarks": "Department Patents Summary — CY 2026; source column: Patent Number; identifier preserved in generic application_number field. Office, country, filing date and external affiliations were not supplied. UNKNOWN/current-department inventors are CURRENT_DEPARTMENT_UNMATCHED; external person/UNKNOWN scope means external affiliation unspecified.",
+        "is_claimable": true,
+        "is_active": true,
+        "inventors": [
+          {
+            "person_type": "EXTERNAL_PERSON",
+            "institution_scope": "UNKNOWN",
+            "faculty_id": null,
+            "student_id": null,
+            "department_name": null,
+            "institution_name": null,
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": false,
+            "inventor_order": 1,
+            "inventor_name": "G. Shruthi"
+          },
+          {
+            "person_type": "EXTERNAL_PERSON",
+            "institution_scope": "UNKNOWN",
+            "faculty_id": null,
+            "student_id": null,
+            "department_name": null,
+            "institution_name": null,
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": false,
+            "inventor_order": 2,
+            "inventor_name": "M. Jyothi"
+          },
+          {
+            "person_type": "EXTERNAL_PERSON",
+            "institution_scope": "UNKNOWN",
+            "faculty_id": null,
+            "student_id": null,
+            "department_name": null,
+            "institution_name": null,
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": false,
+            "inventor_order": 3,
+            "inventor_name": "K. Charan Chandra"
+          },
+          {
+            "person_type": "EXTERNAL_PERSON",
+            "institution_scope": "UNKNOWN",
+            "faculty_id": null,
+            "student_id": null,
+            "department_name": null,
+            "institution_name": null,
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": false,
+            "inventor_order": 4,
+            "inventor_name": "T. Saikumar"
+          },
+          {
+            "person_type": "FACULTY",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": 16,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": true,
+            "inventor_order": 5,
+            "inventor_name": "S. Vinod Reddy"
+          },
+          {
+            "person_type": "FACULTY",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": 5,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": true,
+            "inventor_order": 6,
+            "inventor_name": "Dr. N. Karuppaiah"
+          },
+          {
+            "person_type": "FACULTY",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": 10,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": true,
+            "inventor_order": 7,
+            "inventor_name": "B. Raj Gopal Reddy"
+          }
+        ],
+        "duplicate_acknowledged": false,
+        "status_note": null
+      }
+    },
+    {
+      "identifier": "202541123828 A",
+      "title": "Systems and Methods for Hybrid Energy Storage and Power Management in Renewable-Integrated Power Grids",
+      "existing_id": null,
+      "type": "UTILITY",
+      "status": "PUBLISHED",
+      "inventor_count": 6,
+      "claimant_count": 6,
+      "matching": [
+        {
+          "source_name": "Dr. Patil Mounica",
+          "classification": "DEPARTMENT",
+          "faculty_name": "Dr. Patil Mounica",
+          "employee_id": "VCE967",
+          "match_source": "CANONICAL"
+        },
+        {
+          "source_name": "Mr. B. Rajagopal Reddy",
+          "classification": "DEPARTMENT",
+          "faculty_name": "Mr. B. Raja Gopal Reddy",
+          "employee_id": "VCE801",
+          "match_source": "SOURCE_EMPLOYEE_ID_VERIFIED"
+        },
+        {
+          "source_name": "Dr. T. Anuradha Devi",
+          "classification": "DEPARTMENT",
+          "faculty_name": "Dr. T. Anuradha Devi",
+          "employee_id": "VCE1011",
+          "match_source": "STRONG_VARIANT"
+        },
+        {
+          "source_name": "Mr. B. Mohan",
+          "classification": "DEPARTMENT",
+          "faculty_name": "Mr. B. Mohan",
+          "employee_id": "VCE1074",
+          "match_source": "STRONG_VARIANT"
+        },
+        {
+          "source_name": "Dr. S. Ravivarman",
+          "classification": "DEPARTMENT",
+          "faculty_name": "Dr. S. Ravivarman",
+          "employee_id": "VCE1127",
+          "match_source": "STRONG_VARIANT"
+        },
+        {
+          "source_name": "Dr. N. Karuppiah",
+          "classification": "DEPARTMENT",
+          "faculty_name": "Dr. N. Karuppiah",
+          "employee_id": "VCE1172",
+          "match_source": "STRONG_VARIANT"
+        }
+      ],
+      "payload": {
+        "title": "Systems and Methods for Hybrid Energy Storage and Power Management in Renewable-Integrated Power Grids",
+        "application_number": "202541123828 A",
+        "patent_office": "Not specified in source",
+        "country": null,
+        "patent_type": "UTILITY",
+        "filing_date": null,
+        "publication_number": null,
+        "publication_date": "2026-01-02",
+        "grant_number": null,
+        "grant_date": null,
+        "current_status": "PUBLISHED",
+        "applicant_assignee": null,
+        "remarks": "Department Patents Summary — CY 2026; source column: Patent Number; identifier preserved in generic application_number field. Office, country, filing date and external affiliations were not supplied. UNKNOWN/current-department inventors are CURRENT_DEPARTMENT_UNMATCHED; external person/UNKNOWN scope means external affiliation unspecified.",
+        "is_claimable": true,
+        "is_active": true,
+        "inventors": [
+          {
+            "person_type": "FACULTY",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": 2,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": true,
+            "inventor_order": 1,
+            "inventor_name": "Dr. Patil Mounica"
+          },
+          {
+            "person_type": "FACULTY",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": 10,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": true,
+            "inventor_order": 2,
+            "inventor_name": "Mr. B. Rajagopal Reddy"
+          },
+          {
+            "person_type": "FACULTY",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": 8,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": true,
+            "inventor_order": 3,
+            "inventor_name": "Dr. T. Anuradha Devi"
+          },
+          {
+            "person_type": "FACULTY",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": 14,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": true,
+            "inventor_order": 4,
+            "inventor_name": "Mr. B. Mohan"
+          },
+          {
+            "person_type": "FACULTY",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": 3,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": true,
+            "inventor_order": 5,
+            "inventor_name": "Dr. S. Ravivarman"
+          },
+          {
+            "person_type": "FACULTY",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": 5,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": true,
+            "inventor_order": 6,
+            "inventor_name": "Dr. N. Karuppiah"
+          }
+        ],
+        "duplicate_acknowledged": false,
+        "status_note": null
+      }
+    },
+    {
+      "identifier": "484051-001",
+      "title": "Real-Time Diagnostic Imaging Interaction and Visualization Device for Healthcare",
+      "existing_id": null,
+      "type": "DESIGN",
+      "status": "GRANTED",
+      "inventor_count": 5,
+      "claimant_count": 1,
+      "matching": [
+        {
+          "source_name": "Dr. B. Kiran Kumar",
+          "classification": "EXTERNAL / OTHER",
+          "faculty_name": null,
+          "employee_id": null,
+          "match_source": "EXTERNAL / OTHER"
+        },
+        {
+          "source_name": "Mr. Sangi Narasimhulu",
+          "classification": "EXTERNAL / OTHER",
+          "faculty_name": null,
+          "employee_id": null,
+          "match_source": "EXTERNAL / OTHER"
+        },
+        {
+          "source_name": "Dr. T Anuradha Devi",
+          "classification": "DEPARTMENT",
+          "faculty_name": "Dr. T. Anuradha Devi",
+          "employee_id": "VCE1011",
+          "match_source": "STRONG_VARIANT"
+        },
+        {
+          "source_name": "Dr. Vijendra Pratap Singh",
+          "classification": "EXTERNAL / OTHER",
+          "faculty_name": null,
+          "employee_id": null,
+          "match_source": "EXTERNAL / OTHER"
+        },
+        {
+          "source_name": "Dr. Sushma Jaiswal",
+          "classification": "EXTERNAL / OTHER",
+          "faculty_name": null,
+          "employee_id": null,
+          "match_source": "EXTERNAL / OTHER"
+        }
+      ],
+      "payload": {
+        "title": "Real-Time Diagnostic Imaging Interaction and Visualization Device for Healthcare",
+        "application_number": "484051-001",
+        "patent_office": "Not specified in source",
+        "country": null,
+        "patent_type": "DESIGN",
+        "filing_date": null,
+        "publication_number": null,
+        "publication_date": "2025-12-16",
+        "grant_number": null,
+        "grant_date": "2026-03-05",
+        "current_status": "GRANTED",
+        "applicant_assignee": null,
+        "remarks": "Department Patents Summary — CY 2026; source column: Patent Number; identifier preserved in generic application_number field. Office, country, filing date and external affiliations were not supplied. UNKNOWN/current-department inventors are CURRENT_DEPARTMENT_UNMATCHED; external person/UNKNOWN scope means external affiliation unspecified.",
+        "is_claimable": true,
+        "is_active": true,
+        "inventors": [
+          {
+            "person_type": "EXTERNAL_PERSON",
+            "institution_scope": "UNKNOWN",
+            "faculty_id": null,
+            "student_id": null,
+            "department_name": null,
+            "institution_name": null,
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": false,
+            "inventor_order": 1,
+            "inventor_name": "Dr. B. Kiran Kumar"
+          },
+          {
+            "person_type": "EXTERNAL_PERSON",
+            "institution_scope": "UNKNOWN",
+            "faculty_id": null,
+            "student_id": null,
+            "department_name": null,
+            "institution_name": null,
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": false,
+            "inventor_order": 2,
+            "inventor_name": "Mr. Sangi Narasimhulu"
+          },
+          {
+            "person_type": "FACULTY",
+            "institution_scope": "CURRENT_DEPARTMENT",
+            "faculty_id": 8,
+            "student_id": null,
+            "department_name": "EEE",
+            "institution_name": "Vardhaman College of Engineering",
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": true,
+            "inventor_order": 3,
+            "inventor_name": "Dr. T Anuradha Devi"
+          },
+          {
+            "person_type": "EXTERNAL_PERSON",
+            "institution_scope": "UNKNOWN",
+            "faculty_id": null,
+            "student_id": null,
+            "department_name": null,
+            "institution_name": null,
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": false,
+            "inventor_order": 4,
+            "inventor_name": "Dr. Vijendra Pratap Singh"
+          },
+          {
+            "person_type": "EXTERNAL_PERSON",
+            "institution_scope": "UNKNOWN",
+            "faculty_id": null,
+            "student_id": null,
+            "department_name": null,
+            "institution_name": null,
+            "employee_or_roll_number": null,
+            "is_claiming_faculty": false,
+            "inventor_order": 5,
+            "inventor_name": "Dr. Sushma Jaiswal"
+          }
+        ],
+        "duplicate_acknowledged": false,
+        "status_note": null
+      }
+    }
+  ]
+}

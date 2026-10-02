@@ -1,0 +1,899 @@
+{
+  "doi": "10.1016/j.rineng.2025.107513",
+  "title": "Hybrid CMNV2: DeepFake faces classification and recognition using deep learning methods",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Results in Engineering",
+  "publisher": "Elsevier BV",
+  "publication_date": null,
+  "online_publication_date": null,
+  "print_publication_date": null,
+  "volume": "28",
+  "issue": null,
+  "pages_or_article_number": "107513",
+  "issn": "2590-1230",
+  "eissn": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1016/j.rineng.2025.107513",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:30.042668+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            21
+          ]
+        ],
+        "date-time": "2026-09-21T03:38:33Z",
+        "timestamp": 1789961913873,
+        "version": "4.0.1"
+      },
+      "reference-count": 45,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                1
+              ]
+            ],
+            "date-time": "2025-12-01T00:00:00Z",
+            "timestamp": 1764547200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                1
+              ]
+            ],
+            "date-time": "2025-12-01T00:00:00Z",
+            "timestamp": 1764547200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                29
+              ]
+            ],
+            "date-time": "2025-09-29T00:00:00Z",
+            "timestamp": 1759104000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Results in Engineering"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            12
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.rineng.2025.107513",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            1
+          ]
+        ],
+        "date-time": "2025-10-01T18:42:55Z",
+        "timestamp": 1759344175000
+      },
+      "page": "107513",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 22,
+      "special_numbering": "C",
+      "title": [
+        "Hybrid CMNV2: DeepFake faces classification and recognition using deep learning methods"
+      ],
+      "prefix": "10.1016",
+      "volume": "28",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-2531-9136",
+          "authenticated-orcid": false,
+          "given": "B. Anil",
+          "family": "Kumar",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7907-0276",
+          "authenticated-orcid": false,
+          "given": "Neeraj Kumar",
+          "family": "Misra",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nirupma",
+          "family": "Pathak",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2462-8030",
+          "authenticated-orcid": false,
+          "given": "Seyed-Sajad",
+          "family": "Ahmadpour",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0203-0700",
+          "authenticated-orcid": false,
+          "given": "Murugaperumal",
+          "family": "Krishnamoorthy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dhirendra Kumar",
+          "family": "Shukla",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4401-8777",
+          "authenticated-orcid": false,
+          "given": "Mukesh",
+          "family": "Patidar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Musawer",
+          "family": "Hakimi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "issue": "1",
+          "key": "10.1016/j.rineng.2025.107513_bib0021",
+          "doi-asserted-by": "crossref",
+          "first-page": "370",
+          "DOI": "10.3390/app10010370",
+          "article-title": "Deep fake image detection based on pairwise learning",
+          "volume": "10",
+          "author": "Hsu",
+          "year": "2020",
+          "journal-title": "Appl. Sci."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.rineng.2025.107513_bib0042",
+          "doi-asserted-by": "crossref",
+          "first-page": "289",
+          "DOI": "10.3390/forensicsci4030021",
+          "article-title": "Video and audio deepfake datasets and open issues in deepfake technology: being ahead of the curve",
+          "volume": "4",
+          "author": "Akhtar",
+          "year": "2024",
+          "journal-title": "Forensic Sci."
+        },
+        {
+          "key": "10.1016/j.rineng.2025.107513_bib0013",
+          "doi-asserted-by": "crossref",
+          "first-page": "18757",
+          "DOI": "10.1109/ACCESS.2022.3151186",
+          "article-title": "Deepfake detection for human face images and videos: a survey",
+          "volume": "10",
+          "author": "Malik",
+          "year": "2022",
+          "journal-title": "IEEE Access."
+        },
+        {
+          "key": "10.1016/j.rineng.2025.107513_bib0022",
+          "first-page": "2533",
+          "article-title": "Gan-generated faces detection: a survey and new perspectives",
+          "volume": "2023",
+          "author": "Wang",
+          "year": "2023",
+          "journal-title": "ECAI"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.rineng.2025.107513_bib0033",
+          "doi-asserted-by": "crossref",
+          "first-page": "31",
+          "DOI": "10.3390/computers13010031",
+          "article-title": "Multiclass aigenerated deepfake face detection using patch-wise deep learning model",
+          "volume": "13",
+          "author": "Arshed",
+          "year": "2024",
+          "journal-title": "Computers"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.rineng.2025.107513_bib0001",
+          "first-page": "65",
+          "article-title": "Fake face recognition using fusion of thermal imaging and skin elasticity",
+          "volume": "4",
+          "author": "Kant",
+          "year": "2013",
+          "journal-title": "IJCSC"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.rineng.2025.107513_bib0002",
+          "doi-asserted-by": "crossref",
+          "first-page": "710",
+          "DOI": "10.1109/TIP.2013.2292332",
+          "article-title": "Image quality assessment for fake biometric detection: application to iris, fingerprint, and face recognition",
+          "volume": "23",
+          "author": "Galbally",
+          "year": "2013",
+          "journal-title": "IEEE Trans. Image Process."
+        },
+        {
+          "key": "10.1016/j.rineng.2025.107513_bib0003",
+          "doi-asserted-by": "crossref",
+          "first-page": "3429",
+          "DOI": "10.1007/s00500-015-2019-4",
+          "article-title": "Face recognition performance comparison between fake faces and live faces",
+          "volume": "21",
+          "author": "Cho",
+          "year": "2017",
+          "journal-title": "Soft. Comput."
+        },
+        {
+          "key": "10.1016/j.rineng.2025.107513_bib0004",
+          "series-title": "IEEE International Symposium on Computer, Consumer and Control (IS3C)",
+          "first-page": "388",
+          "article-title": "Learning to detect fake face images in the wild",
+          "author": "Hsu",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.rineng.2025.107513_bib0030",
+          "series-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+          "first-page": "2929",
+          "article-title": "Face forgery detection by 3D decomposition",
+          "author": "Zhu",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.rineng.2025.107513_bib0026",
+          "series-title": "Proceedings of the 34th ACM/SIGAPP Symposium on Applied Computing",
+          "first-page": "1296",
+          "article-title": "Gan is a friend or foe? A framework to detect various fake face images",
+          "author": "Tariq",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.rineng.2025.107513_bib0008",
+          "doi-asserted-by": "crossref",
+          "first-page": "97641",
+          "DOI": "10.1109/ACCESS.2019.2930203",
+          "article-title": "Multi-process training gan for identity-preserving face synthesis",
+          "volume": "7",
+          "author": "Tang",
+          "year": "2019",
+          "journal-title": "IEEE Access."
+        },
+        {
+          "key": "10.1016/j.rineng.2025.107513_bib0010",
+          "series-title": "IEEE International Conference on Intelligent Computing and Control Systems (ICCS)",
+          "first-page": "852",
+          "article-title": "Deepfake: a survey on facial forgery technique using generative adversarial network",
+          "author": "Yadav",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.rineng.2025.107513_bib0011",
+          "doi-asserted-by": "crossref",
+          "first-page": "31",
+          "DOI": "10.1016/j.patrec.2021.03.005",
+          "article-title": "Optical flow based CNN for detection of unlearnt deepfake manipulations",
+          "volume": "146",
+          "author": "Caldelli",
+          "year": "2021",
+          "journal-title": "Pattern. Recognit. Lett."
+        },
+        {
+          "key": "10.1016/j.rineng.2025.107513_bib0014",
+          "unstructured": "Dolhansky, B., Bitton, J., Pflaum, B., Lu, J., Howes, R., Wang, M., Ferrer, C.C.: The deepfake detection challenge (dfdc) dataset. arXiv preprint arXiv:2006.07397 (2020)."
+        },
+        {
+          "key": "10.1016/j.rineng.2025.107513_bib0015",
+          "series-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+          "first-page": "3207",
+          "article-title": "Celeb-df: A large-scale challenging dataset for deepfake forensics",
+          "author": "Li",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.rineng.2025.107513_bib0016",
+          "series-title": "IEEE International Conference of the Biometrics Special Interest Group (BIOSIG)",
+          "first-page": "1",
+          "article-title": "Fake face detection methods: can they be generalized?",
+          "author": "Khodabakhsh",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.rineng.2025.107513_bib0017",
+          "series-title": "Proceedings of the 6th ACM Workshop on Information Hiding and Multimedia Security",
+          "first-page": "43",
+          "article-title": "Fake faces identification via convolutional neural network",
+          "author": "Mo",
+          "year": "2018"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.rineng.2025.107513_bib0018",
+          "doi-asserted-by": "crossref",
+          "first-page": "515",
+          "DOI": "10.1109/TIFS.2014.2300937",
+          "article-title": "Contrast enhancement-based forensics in digital images",
+          "volume": "9",
+          "author": "Cao",
+          "year": "2014",
+          "journal-title": "IEEE Trans. Inf. Forensics Secur."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.rineng.2025.107513_bib0019",
+          "doi-asserted-by": "crossref",
+          "first-page": "198",
+          "DOI": "10.1080/23307706.2022.2033644",
+          "article-title": "Deep-fake video detection approaches using convolutional–recurrent neural networks",
+          "volume": "10",
+          "author": "Suratkar",
+          "year": "2023",
+          "journal-title": "J. Control Decis."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.rineng.2025.107513_bib0052",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.3390/app13020935",
+          "article-title": "Face mask detection on photo and real-time video images using Caffe-MobileNetV2 transfer learning",
+          "volume": "13",
+          "author": "Kumar",
+          "year": "2023",
+          "journal-title": "Appl. Sci."
+        },
+        {
+          "key": "10.1016/j.rineng.2025.107513_bib0053",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2024.123179",
+          "article-title": "Masked face age and gender identification using caffe-modified mobilenetv2 on photo and real-time video images by transfer learning and deep learning techniques",
+          "volume": "246",
+          "author": "Kumar",
+          "year": "2024",
+          "journal-title": "Expert. Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.rineng.2025.107513_bib0054",
+          "first-page": "1",
+          "article-title": "A multi-level classification and prediction of unbalanced dataset real and fake faces using hybrid cmnv2 and deep learning methods",
+          "author": "Kumar",
+          "year": "2025",
+          "journal-title": "Int. J. Mach. Learn. Cybern."
+        },
+        {
+          "key": "10.1016/j.rineng.2025.107513_bib0020",
+          "series-title": "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+          "first-page": "8261",
+          "article-title": "Exposing deep fakes using inconsistent head poses",
+          "author": "Yang",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.rineng.2025.107513_bib0023",
+          "series-title": "12th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2017)",
+          "first-page": "17",
+          "article-title": "An all-in-one convolutional neural network for face analysis",
+          "author": "Ranjan",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.rineng.2025.107513_bib0024",
+          "series-title": "Proceedings of the ACM SIGSAC Conference on Computer and Communications Security",
+          "first-page": "2613",
+          "article-title": "Poster: towards robust open-world detection of deepfakes",
+          "author": "Sohrawardi",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.rineng.2025.107513_bib0025",
+          "doi-asserted-by": "crossref",
+          "first-page": "131",
+          "DOI": "10.1016/j.inffus.2020.06.014",
+          "article-title": "Deepfakes and beyond: a survey of face manipulation and fake detection",
+          "volume": "64",
+          "author": "Tolosana",
+          "year": "2020",
+          "journal-title": "Inf. Fusion."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.rineng.2025.107513_bib0028",
+          "doi-asserted-by": "crossref",
+          "first-page": "7422",
+          "DOI": "10.1038/s41598-023-34629-3",
+          "article-title": "Deep fake detection and classification using error-level analysis and deep learning",
+          "volume": "13",
+          "author": "Rafique",
+          "year": "2023",
+          "journal-title": "Sci. Rep."
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.rineng.2025.107513_bib0029",
+          "doi-asserted-by": "crossref",
+          "first-page": "9727",
+          "DOI": "10.1007/s13369-022-07321-3",
+          "article-title": "Deep fake video detection using transfer learning approach",
+          "volume": "48",
+          "author": "Suratkar",
+          "year": "2023",
+          "journal-title": "Arab. J. Sci. Eng."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.rineng.2025.107513_bib0031",
+          "first-page": "505",
+          "article-title": "Estimation and concealment deep fake detection in images using hybrid LSTM",
+          "volume": "12",
+          "author": "Sharma",
+          "year": "2024",
+          "journal-title": "Int. J. Intell. Syst. Appl. Eng."
+        },
+        {
+          "issue": "6s",
+          "key": "10.1016/j.rineng.2025.107513_bib0032",
+          "first-page": "840",
+          "article-title": "Deep fake detection using lstm and survey of deep fake creation technologies",
+          "volume": "12",
+          "author": "Pant",
+          "year": "2024",
+          "journal-title": "Int. J. Intell. Syst. Appl. Eng."
+        },
+        {
+          "issue": "11s",
+          "key": "10.1016/j.rineng.2025.107513_bib0034",
+          "first-page": "40",
+          "article-title": "Analysing the landscape of deep fake detection: a survey",
+          "volume": "12",
+          "author": "Vyas",
+          "year": "2024",
+          "journal-title": "Int. J. Intell. Syst. Appl. Eng."
+        },
+        {
+          "key": "10.1016/j.rineng.2025.107513_bib0035",
+          "first-page": "1",
+          "article-title": "Transferability of CNN models for GAN-generated face detection",
+          "author": "Aieprasert",
+          "year": "2024",
+          "journal-title": "Multimed. Tools. Appl."
+        },
+        {
+          "key": "10.1016/j.rineng.2025.107513_bib0036",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.engappai.2024.108450",
+          "article-title": "Texture and artifact decomposition for improving generalization in deep-learning-based deepfake detection",
+          "volume": "133",
+          "author": "Gao",
+          "year": "2024",
+          "journal-title": "Eng. Appl. Artif. Intell."
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.rineng.2025.107513_bib0037",
+          "doi-asserted-by": "crossref",
+          "first-page": "3926",
+          "DOI": "10.3390/app12083926",
+          "article-title": "Detecting deepfake voice using explainable deep learning techniques",
+          "volume": "12",
+          "author": "Lim",
+          "year": "2022",
+          "journal-title": "Appl. Sci."
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.rineng.2025.107513_bib0038",
+          "doi-asserted-by": "crossref",
+          "first-page": "6323",
+          "DOI": "10.1007/s00371-022-02732-7",
+          "article-title": "Resnet-swish-dense54: a deep learning approach for deepfakes detection",
+          "volume": "39",
+          "author": "Nawaz",
+          "year": "2023",
+          "journal-title": "Vis. Comput."
+        },
+        {
+          "key": "10.1016/j.rineng.2025.107513_bib0039",
+          "first-page": "1",
+          "article-title": "A novel blockchain-based deepfake detection method using federated and deep learning models",
+          "author": "Heidari",
+          "year": "2024",
+          "journal-title": "Cogn. Comput."
+        },
+        {
+          "issue": "02",
+          "key": "10.1016/j.rineng.2025.107513_bib0040",
+          "first-page": "41",
+          "article-title": "Frequency-based deep-fake video detection using deep learning methods",
+          "volume": "4",
+          "author": "Malik",
+          "year": "2023",
+          "journal-title": "J. Comput. Biomed. Inform."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.rineng.2025.107513_bib0041",
+          "article-title": "Exposing deepfakes using a deep multilayer perceptron–convolutional neural network model",
+          "volume": "2",
+          "author": "Kolagati",
+          "year": "2022",
+          "journal-title": "Int. J. Inf. Manag. Data Insights"
+        },
+        {
+          "key": "10.1016/j.rineng.2025.107513_bib0051",
+          "unstructured": "University, C.: Real and fake face detection. https://www.kaggle.com/datasets/ciplab/real-and-fake-face-detection (accessed 2019)."
+        },
+        {
+          "key": "10.1016/j.rineng.2025.107513_bib0055",
+          "series-title": "Proceedings of the 22nd ACM International Conference on Multimedia",
+          "first-page": "675",
+          "article-title": "Caffe: convolutional architecture for fast feature embedding",
+          "author": "Jia",
+          "year": "2014"
+        },
+        {
+          "key": "10.1016/j.rineng.2025.107513_bib0056",
+          "unstructured": "Howard, A.G., Zhu, M., Chen, B., Kalenichenko, D., Wang, W., Weyand, T., Andreetto, M., Adam, H.: Mobilenets: efficient convolutional neural networks for mobile vision applications. arXiv preprint arXiv:1704.04861 (2017)."
+        },
+        {
+          "key": "10.1016/j.rineng.2025.107513_bib0057",
+          "unstructured": "ImageNet http://www.image-net.org."
+        },
+        {
+          "key": "10.1016/j.rineng.2025.107513_bib0058",
+          "unstructured": "Applications, K. https://keras.io/api/applications/."
+        },
+        {
+          "key": "10.1016/j.rineng.2025.107513_bib0059",
+          "first-page": "27",
+          "article-title": "Confusion matrix",
+          "volume": "6",
+          "author": "Room",
+          "year": "2019",
+          "journal-title": "Mach. Learn."
+        }
+      ],
+      "container-title": [
+        "Results in Engineering"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2590123025035686?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2590123025035686?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            26
+          ]
+        ],
+        "date-time": "2026-05-26T08:44:06Z",
+        "timestamp": 1779785046000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2590123025035686"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12
+          ]
+        ]
+      },
+      "references-count": 45,
+      "alternative-id": [
+        "S2590123025035686"
+      ],
+      "URL": "https://doi.org/10.1016/j.rineng.2025.107513",
+      "relation": {},
+      "ISSN": [
+        "2590-1230"
+      ],
+      "issn-type": [
+        {
+          "value": "2590-1230",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            12
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Hybrid CMNV2: DeepFake faces classification and recognition using deep learning methods",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Results in Engineering",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.rineng.2025.107513",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2025 The Authors. Published by Elsevier B.V.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "107513"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "B. Anil Kumar",
+      "given_name_from_source": "B. Anil",
+      "family_name_from_source": "Kumar",
+      "orcid_from_source": "https://orcid.org/0000-0002-2531-9136",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Neeraj Kumar Misra",
+      "given_name_from_source": "Neeraj Kumar",
+      "family_name_from_source": "Misra",
+      "orcid_from_source": "https://orcid.org/0000-0002-7907-0276",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Nirupma Pathak",
+      "given_name_from_source": "Nirupma",
+      "family_name_from_source": "Pathak",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Seyed-Sajad Ahmadpour",
+      "given_name_from_source": "Seyed-Sajad",
+      "family_name_from_source": "Ahmadpour",
+      "orcid_from_source": "https://orcid.org/0000-0003-2462-8030",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Murugaperumal Krishnamoorthy",
+      "given_name_from_source": "Murugaperumal",
+      "family_name_from_source": "Krishnamoorthy",
+      "orcid_from_source": "https://orcid.org/0000-0002-0203-0700",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "Dhirendra Kumar Shukla",
+      "given_name_from_source": "Dhirendra Kumar",
+      "family_name_from_source": "Shukla",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 7,
+      "author_name_from_source": "Mukesh Patidar",
+      "given_name_from_source": "Mukesh",
+      "family_name_from_source": "Patidar",
+      "orcid_from_source": "https://orcid.org/0000-0002-4401-8777",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 8,
+      "author_name_from_source": "Musawer Hakimi",
+      "given_name_from_source": "Musawer",
+      "family_name_from_source": "Hakimi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

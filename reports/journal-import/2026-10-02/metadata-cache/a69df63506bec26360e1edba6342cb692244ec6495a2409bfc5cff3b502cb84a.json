@@ -1,0 +1,852 @@
+{
+  "doi": "10.1016/j.engappai.2025.112316",
+  "title": "A robust deep learning model selection with data augmentation for automatic detection of tessellated fundus images and explainable artificial intelligence based interpretation",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Engineering Applications of Artificial Intelligence",
+  "publisher": "Elsevier BV",
+  "publication_date": null,
+  "online_publication_date": null,
+  "print_publication_date": null,
+  "volume": "161",
+  "issue": null,
+  "pages_or_article_number": "112316",
+  "issn": "0952-1976",
+  "eissn": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1016/j.engappai.2025.112316",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:31.945588+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            2
+          ]
+        ],
+        "date-time": "2026-10-02T04:03:33Z",
+        "timestamp": 1790913813800,
+        "version": "4.1.0"
+      },
+      "reference-count": 38,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                1
+              ]
+            ],
+            "date-time": "2025-12-01T00:00:00Z",
+            "timestamp": 1764547200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                1
+              ]
+            ],
+            "date-time": "2025-12-01T00:00:00Z",
+            "timestamp": 1764547200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                22
+              ]
+            ],
+            "date-time": "2025-09-22T00:00:00Z",
+            "timestamp": 1758499200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Engineering Applications of Artificial Intelligence"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            12
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.engappai.2025.112316",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            16
+          ]
+        ],
+        "date-time": "2025-09-16T22:40:20Z",
+        "timestamp": 1758062420000
+      },
+      "page": "112316",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "special_numbering": "PC",
+      "title": [
+        "A robust deep learning model selection with data augmentation for automatic detection of tessellated fundus images and explainable artificial intelligence based interpretation"
+      ],
+      "prefix": "10.1016",
+      "volume": "161",
+      "author": [
+        {
+          "given": "Kachi",
+          "family": "Anvesh",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9686-4329",
+          "authenticated-orcid": false,
+          "given": "Shanmugasundaram",
+          "family": "Hariharan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bharati M.",
+          "family": "Reshmi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Qiang",
+          "family": "Xu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Joan",
+          "family": "Lu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9760-0824",
+          "authenticated-orcid": false,
+          "given": "Vinay",
+          "family": "Kukreja",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Murugaperumal",
+          "family": "Krishnamoorthy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.engappai.2025.112316_bib1",
+          "series-title": "2024 International Conference on Emerging Smart Computing and Informatics (ESCI)",
+          "first-page": "1",
+          "article-title": "Accurate classification of tessellated retinal disease with deep learning model",
+          "author": "Anvesh",
+          "year": "2024"
+        },
+        {
+          "key": "10.1016/j.engappai.2025.112316_bib2",
+          "doi-asserted-by": "crossref",
+          "first-page": "105069",
+          "DOI": "10.1109/ACCESS.2023.3317348",
+          "article-title": "Systematic development of AI-enabled diagnostic systems for glaucoma and diabetic retinopathy",
+          "volume": "11",
+          "author": "Aurangzeb",
+          "year": "2023",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.engappai.2025.112316_bib3",
+          "doi-asserted-by": "crossref",
+          "first-page": "23107",
+          "DOI": "10.1109/ACCESS.2022.3217782",
+          "article-title": "An efficient and light weight deep learning model for accurate retinal vessels segmentation",
+          "volume": "11",
+          "author": "Aurangzeb",
+          "year": "2023",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.engappai.2025.112316_bib4",
+          "doi-asserted-by": "crossref",
+          "first-page": "55",
+          "DOI": "10.1016/j.preteyeres.2018.12.003",
+          "article-title": "On the origin of proteins in human drusen: the meet, greet and stick hypothesis",
+          "volume": "70",
+          "author": "Bergen",
+          "year": "2019",
+          "journal-title": "Prog. Retin. Eye Res."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.engappai.2025.112316_bib5",
+          "doi-asserted-by": "crossref",
+          "first-page": "3159",
+          "DOI": "10.1007/s40123-023-00802-0",
+          "article-title": "Clinical features of Fundus Tessellation and its relationship with myopia: a systematic review and Meta-analysis",
+          "volume": "12",
+          "author": "Chen",
+          "year": "2023",
+          "journal-title": "Ophthalmol. Ther."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.engappai.2025.112316_bib6",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1155/2023/1493676",
+          "article-title": "Early and high‐accuracy diagnosis of Parkinson's disease: outcomes of a new model",
+          "volume": "2023",
+          "author": "Doumari",
+          "year": "2023",
+          "journal-title": "Comput. Math. Methods Med."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.engappai.2025.112316_bib7",
+          "doi-asserted-by": "crossref",
+          "first-page": "504",
+          "DOI": "10.3390/medicina58040504",
+          "article-title": "A systematic review of artificial intelligence applications used for inherited retinal disease management",
+          "volume": "58",
+          "author": "Esengoenuel",
+          "year": "2022",
+          "journal-title": "Medicina"
+        },
+        {
+          "key": "10.1016/j.engappai.2025.112316_bib8",
+          "doi-asserted-by": "crossref",
+          "first-page": "57796",
+          "DOI": "10.1109/ACCESS.2022.3178372",
+          "article-title": "A comprehensive review of deep learning strategies in retinal disease diagnosis using fundus images",
+          "volume": "10",
+          "author": "Goutam",
+          "year": "2022",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.engappai.2025.112316_bib9",
+          "doi-asserted-by": "crossref",
+          "first-page": "673",
+          "DOI": "10.1111/aos.13748",
+          "article-title": "Optic disc drusen: understanding an old problem from a new perspective",
+          "volume": "96",
+          "author": "Hamann",
+          "year": "2018",
+          "journal-title": "Acta Ophthalmol."
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.engappai.2025.112316_bib10",
+          "doi-asserted-by": "crossref",
+          "first-page": "3709",
+          "DOI": "10.1109/JBHI.2021.3052916",
+          "article-title": "Synergic adversarial label learning for grading retinal diseases via knowledge distillation and multi-task learning",
+          "volume": "25",
+          "author": "Ju",
+          "year": "2021",
+          "journal-title": "IEEE J. Biomed. Health Inform."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.engappai.2025.112316_bib11",
+          "doi-asserted-by": "crossref",
+          "first-page": "1577",
+          "DOI": "10.13005/bpj/1788",
+          "article-title": "Detection of multi-class retinal diseases using artificial intelligence: an expeditious learning using deep CNN with minimal data",
+          "volume": "12",
+          "author": "Karthikeyan",
+          "year": "2019",
+          "journal-title": "Biomed. & Pharmacol. J."
+        },
+        {
+          "key": "10.1016/j.engappai.2025.112316_bib12",
+          "doi-asserted-by": "crossref",
+          "first-page": "70",
+          "DOI": "10.1016/j.preteyeres.2016.04.008",
+          "article-title": "Differentiating drusen: drusen and drusen-like appearances associated with ageing, age-related macular degeneration, inherited eye disease and other pathological processes",
+          "volume": "53",
+          "author": "Khan",
+          "year": "2016",
+          "journal-title": "Prog. Retin. Eye Res."
+        },
+        {
+          "key": "10.1016/j.engappai.2025.112316_bib13",
+          "doi-asserted-by": "crossref",
+          "first-page": "79166",
+          "DOI": "10.1109/ACCESS.2024.3396153",
+          "article-title": "Efficient deep retinal fundus image-based network for Alzheimer’s disease diagnosis using mobile device applications",
+          "volume": "12",
+          "author": "Kim",
+          "year": "2024",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.engappai.2025.112316_bib14",
+          "series-title": "Deep Learning: A Beginners' Guide",
+          "author": "Meedeniya",
+          "year": "2023"
+        },
+        {
+          "key": "10.1016/j.engappai.2025.112316_bib15",
+          "series-title": "2024 International Conference on Distributed Computing and Optimization Techniques (ICDCOT)",
+          "first-page": "1",
+          "article-title": "Automatic detection and classification of retinal disease using improved firefly algorithm-based gated recurrent unit",
+          "author": "Mohan",
+          "year": "2024"
+        },
+        {
+          "key": "10.1016/j.engappai.2025.112316_bib16",
+          "doi-asserted-by": "crossref",
+          "first-page": "56170",
+          "DOI": "10.1109/ACCESS.2023.3281859",
+          "article-title": "Multi-class retinal diseases detection using deep CNN with minimal memory consumption",
+          "volume": "11",
+          "author": "Nawaz",
+          "year": "2023",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.engappai.2025.112316_bib17",
+          "doi-asserted-by": "crossref",
+          "first-page": "31719",
+          "DOI": "10.1109/ACCESS.2024.3369913",
+          "article-title": "Performance evaluation of retinal OCT fluid segmentation, detection, and generalization over variations of data sources",
+          "volume": "12",
+          "author": "Ndipenoch",
+          "year": "2024",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.engappai.2025.112316_bib18",
+          "doi-asserted-by": "crossref",
+          "first-page": "877",
+          "DOI": "10.1016/j.ajo.2015.01.022",
+          "article-title": "International photographic classification and grading system for myopic maculopathy",
+          "volume": "159",
+          "author": "Ohno-Matsui",
+          "year": "2015",
+          "journal-title": "Am. J. Ophthalmol."
+        },
+        {
+          "key": "10.1016/j.engappai.2025.112316_bib19",
+          "series-title": "IEEE Journal of Selected Topics in Quantum Electronics",
+          "first-page": "1",
+          "article-title": "\"Self distillation for improving the generalizability of retinal disease diagnosis using optical coherence Tomography images,\"",
+          "volume": "29",
+          "author": "Paluru",
+          "year": "2023"
+        },
+        {
+          "key": "10.1016/j.engappai.2025.112316_bib20",
+          "doi-asserted-by": "crossref",
+          "first-page": "113526",
+          "DOI": "10.1109/ACCESS.2023.3318261",
+          "article-title": "En-MinWhale: an ensemble approach based on MRMR and Whale optimization for Cancer diagnosis",
+          "volume": "11",
+          "author": "Panigrahi",
+          "year": "2023",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.engappai.2025.112316_bib21",
+          "doi-asserted-by": "crossref",
+          "first-page": "527",
+          "DOI": "10.3390/medicina60040527",
+          "article-title": "Artificial intelligence (AI) for early diagnosis of retinal diseases",
+          "volume": "60",
+          "author": "Parmar",
+          "year": "2024",
+          "journal-title": "Medicina"
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.engappai.2025.112316_bib22",
+          "doi-asserted-by": "crossref",
+          "first-page": "3408",
+          "DOI": "10.1109/TAI.2024.3351589",
+          "article-title": "Soft attention mechanism based network to extract blood vessels from retinal image modality",
+          "volume": "5",
+          "author": "Preity",
+          "year": "2024",
+          "journal-title": "IEEE Trans. Artif. Intell."
+        },
+        {
+          "key": "10.1016/j.engappai.2025.112316_bib23",
+          "doi-asserted-by": "crossref",
+          "first-page": "28297",
+          "DOI": "10.1109/ACCESS.2024.3367977",
+          "article-title": "A detectability analysis of retinitis pigmetosa using Novel SE-ResNet based deep learning model and color fundus images",
+          "volume": "12",
+          "author": "Rashid",
+          "year": "2024",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.engappai.2025.112316_bib24",
+          "doi-asserted-by": "crossref",
+          "first-page": "2739",
+          "DOI": "10.1109/JBHI.2022.3214086",
+          "article-title": "Multi-label retinal disease classification using transformers",
+          "volume": "27",
+          "author": "Rodríguez",
+          "year": "2022",
+          "journal-title": "IEEE J. Biomed. Health Inform."
+        },
+        {
+          "key": "10.1016/j.engappai.2025.112316_bib25",
+          "series-title": "2023 World Conference on Communication \\& Computing (WCONF)",
+          "first-page": "1",
+          "article-title": "BIBHU: biomarker identification using bio-inspired evolutionary hybrid unique machine learning model",
+          "author": "Sahu",
+          "year": "2023"
+        },
+        {
+          "issue": "20",
+          "key": "10.1016/j.engappai.2025.112316_bib26",
+          "article-title": "A hybrid approach for breast cancer classification and diagnosis",
+          "volume": "6",
+          "author": "Sahu",
+          "year": "2019",
+          "journal-title": "EAI Endors. Trans. Scal. Inform. Syst."
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.engappai.2025.112316_bib27",
+          "doi-asserted-by": "crossref",
+          "first-page": "3927",
+          "DOI": "10.1109/JBHI.2022.3166068",
+          "article-title": "Robust fovea detection in retinal OCT imaging using deep learning",
+          "volume": "26",
+          "author": "Schürer-Waldheim",
+          "year": "2022",
+          "journal-title": "IEEE J. Biomed. Health Inform."
+        },
+        {
+          "key": "10.1016/j.engappai.2025.112316_bib28",
+          "article-title": "Enhancing kidney transplantation through multi-agent kidney exchange programs: a comprehensive review and optimization models",
+          "author": "Sharifi",
+          "year": "2025",
+          "journal-title": "arXiv preprint arXiv:2502.07819"
+        },
+        {
+          "key": "10.1016/j.engappai.2025.112316_bib29",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.patcog.2024.110882",
+          "article-title": "Sparse feature selection using hypergraph Laplacian-based semi-supervised discriminant analysis",
+          "volume": "157",
+          "author": "Sheikhpour",
+          "year": "2025",
+          "journal-title": "Pattern Recogn."
+        },
+        {
+          "key": "10.1016/j.engappai.2025.112316_bib30",
+          "series-title": "2022 \\emph{2nd International Conference on Advanced Research in Computing (ICARC), Belihuloya",
+          "first-page": "200",
+          "article-title": "CNN based fundus images classification for glaucoma identification",
+          "author": "Shyamalee",
+          "year": "2022"
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.engappai.2025.112316_bib31",
+          "doi-asserted-by": "crossref",
+          "first-page": "1208",
+          "DOI": "10.2174/1389450121666200708120646",
+          "article-title": "Application of artificial intelligence in targeting retinal diseases",
+          "volume": "21",
+          "author": "Sorrentino",
+          "year": "2020",
+          "journal-title": "Curr. Drug Targets"
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.engappai.2025.112316_bib32",
+          "doi-asserted-by": "crossref",
+          "first-page": "690",
+          "DOI": "10.3390/jpm14070690",
+          "article-title": "Novel approaches for early detection of retinal diseases using artificial intelligence",
+          "volume": "14",
+          "author": "Sorrentino",
+          "year": "2024",
+          "journal-title": "J. Personalized Med."
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.engappai.2025.112316_bib33",
+          "doi-asserted-by": "crossref",
+          "first-page": "1187",
+          "DOI": "10.1136/bjophthalmol-2021-319365",
+          "article-title": "Artificial intelligence for diagnosis of inherited retinal disease: an exciting opportunity and one step forward",
+          "volume": "105",
+          "author": "Tan",
+          "year": "2021",
+          "journal-title": "Br. J. Ophthalmol."
+        },
+        {
+          "key": "10.1016/j.engappai.2025.112316_bib34",
+          "doi-asserted-by": "crossref",
+          "first-page": "137881",
+          "DOI": "10.1109/ACCESS.2023.3339574",
+          "article-title": "Enhancing ocular healthcare: deep learning-based multi-class diabetic eye disease segmentation and classification",
+          "volume": "11",
+          "author": "Vadduri",
+          "year": "2023",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.engappai.2025.112316_bib35",
+          "doi-asserted-by": "crossref",
+          "first-page": "3283",
+          "DOI": "10.1007/s00417-023-06052-x",
+          "article-title": "Artificial intelligence in retinal disease: clinical application, challenges, and future directions",
+          "volume": "261",
+          "author": "Varela",
+          "year": "2023",
+          "journal-title": "Graefes Arch. Clin. Exp. Ophthalmol."
+        },
+        {
+          "key": "10.1016/j.engappai.2025.112316_bib36",
+          "series-title": "2024 International Conference on Social and Sustainable Innovations in Technology and Engineering (SASI-ITE)",
+          "first-page": "147",
+          "article-title": "Automated hypertensive retinopathy detection method using deep learning",
+          "author": "Yashwanth",
+          "year": "2024"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.engappai.2025.112316_bib37",
+          "doi-asserted-by": "crossref",
+          "first-page": "121",
+          "DOI": "10.1038/s41433-020-01265-4",
+          "article-title": "Drusen and pachydrusen: the definition, pathogenesis, and clinical significance",
+          "volume": "35",
+          "author": "Zhang",
+          "year": "2021",
+          "journal-title": "Eye"
+        },
+        {
+          "key": "10.1016/j.engappai.2025.112316_bib38",
+          "doi-asserted-by": "crossref",
+          "first-page": "13248",
+          "DOI": "10.1109/ACCESS.2024.3356824",
+          "article-title": "A Novel artificial-intelligence-based approach for automatic assessment of retinal disease images using multi-view deep-broad learning network",
+          "volume": "12",
+          "author": "Zhang",
+          "year": "2024",
+          "journal-title": "IEEE Access"
+        }
+      ],
+      "container-title": [
+        "Engineering Applications of Artificial Intelligence"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0952197625023243?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0952197625023243?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            28
+          ]
+        ],
+        "date-time": "2026-01-28T19:45:19Z",
+        "timestamp": 1769629519000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0952197625023243"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12
+          ]
+        ]
+      },
+      "references-count": 38,
+      "alternative-id": [
+        "S0952197625023243"
+      ],
+      "URL": "https://doi.org/10.1016/j.engappai.2025.112316",
+      "relation": {},
+      "ISSN": [
+        "0952-1976"
+      ],
+      "issn-type": [
+        {
+          "value": "0952-1976",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            12
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "A robust deep learning model selection with data augmentation for automatic detection of tessellated fundus images and explainable artificial intelligence based interpretation",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Engineering Applications of Artificial Intelligence",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.engappai.2025.112316",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2025 The Authors. Published by Elsevier Ltd.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "112316"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Kachi Anvesh",
+      "given_name_from_source": "Kachi",
+      "family_name_from_source": "Anvesh",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Shanmugasundaram Hariharan",
+      "given_name_from_source": "Shanmugasundaram",
+      "family_name_from_source": "Hariharan",
+      "orcid_from_source": "https://orcid.org/0000-0001-9686-4329",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Bharati M. Reshmi",
+      "given_name_from_source": "Bharati M.",
+      "family_name_from_source": "Reshmi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Qiang Xu",
+      "given_name_from_source": "Qiang",
+      "family_name_from_source": "Xu",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Joan Lu",
+      "given_name_from_source": "Joan",
+      "family_name_from_source": "Lu",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "Vinay Kukreja",
+      "given_name_from_source": "Vinay",
+      "family_name_from_source": "Kukreja",
+      "orcid_from_source": "https://orcid.org/0000-0002-9760-0824",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 7,
+      "author_name_from_source": "Murugaperumal Krishnamoorthy",
+      "given_name_from_source": "Murugaperumal",
+      "family_name_from_source": "Krishnamoorthy",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

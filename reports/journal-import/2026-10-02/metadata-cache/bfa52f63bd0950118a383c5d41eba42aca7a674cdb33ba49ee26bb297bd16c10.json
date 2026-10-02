@@ -1,0 +1,684 @@
+{
+  "doi": "10.1016/j.est.2024.114818",
+  "title": "An optimized neural network-honey badger based control technique for a hybrid solar PV and battery energy storage fed unified power quality conditioner",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Journal of Energy Storage",
+  "publisher": "Elsevier BV",
+  "publication_date": null,
+  "online_publication_date": null,
+  "print_publication_date": null,
+  "volume": "106",
+  "issue": null,
+  "pages_or_article_number": "114818",
+  "issn": "2352-152X",
+  "eissn": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1016/j.est.2024.114818",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:53.485072+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            1
+          ]
+        ],
+        "date-time": "2026-07-01T16:05:34Z",
+        "timestamp": 1782921934748,
+        "version": "3.54.5"
+      },
+      "reference-count": 22,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2025-01-01T00:00:00Z",
+            "timestamp": 1735689600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2025-01-01T00:00:00Z",
+            "timestamp": 1735689600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2025-01-01T00:00:00Z",
+            "timestamp": 1735689600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-017"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2025-01-01T00:00:00Z",
+            "timestamp": 1735689600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2025-01-01T00:00:00Z",
+            "timestamp": 1735689600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-012"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2025-01-01T00:00:00Z",
+            "timestamp": 1735689600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2025-01-01T00:00:00Z",
+            "timestamp": 1735689600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-004"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100005911",
+          "name": "Najran University",
+          "doi-asserted-by": "publisher",
+          "id": [
+            {
+              "id": "10.13039/501100005911",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Journal of Energy Storage"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            1
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.est.2024.114818",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            6
+          ]
+        ],
+        "date-time": "2024-12-06T13:39:59Z",
+        "timestamp": 1733492399000
+      },
+      "page": "114818",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 8,
+      "special_numbering": "C",
+      "title": [
+        "An optimized neural network-honey badger based control technique for a hybrid solar PV and battery energy storage fed unified power quality conditioner"
+      ],
+      "prefix": "10.1016",
+      "volume": "106",
+      "author": [
+        {
+          "given": "Belqasem",
+          "family": "Aljafari",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yaswanth Kumar",
+          "family": "Alapati",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Koganti",
+          "family": "Srilakshmi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sudhakar Babu",
+          "family": "Thanikanti",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.est.2024.114818_bb0005",
+          "doi-asserted-by": "crossref",
+          "first-page": "4009",
+          "DOI": "10.3390/en12204009",
+          "article-title": "Control Strategy of Intergrated Photovoltaic-UPQC System for DC-Bus Voltage Stability and Voltage Sags Compensation",
+          "volume": "12",
+          "author": "Yang",
+          "year": "2019",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.est.2024.114818_bb0010",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1007/s00202-023-02185-8",
+          "article-title": "Optimization of ANFIS controller for solar/battery sources fed UPQC using an hybrid algorithm",
+          "author": "Srilakshmi",
+          "year": "2024",
+          "journal-title": "Electr. Eng."
+        },
+        {
+          "key": "10.1016/j.est.2024.114818_bb0015",
+          "doi-asserted-by": "crossref",
+          "first-page": "74497",
+          "DOI": "10.1109/ACCESS.2020.2988611",
+          "article-title": "PSO-GWO optimized fractional order PID based hybrid shunt active power filter for power quality improvements",
+          "volume": "8",
+          "author": "Mishra",
+          "year": "2020",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.est.2024.114818_bb0020",
+          "doi-asserted-by": "crossref",
+          "first-page": "4429",
+          "DOI": "10.1038/s41598-024-54550-7",
+          "article-title": "Development of renewable energy fed three-level hybrid active filter for EV charging station load using Jaya grey wolf optimization",
+          "volume": "14",
+          "author": "Srilakshmi",
+          "year": "2024",
+          "journal-title": "Sci. Rep."
+        },
+        {
+          "key": "10.1016/j.est.2024.114818_bb0025",
+          "doi-asserted-by": "crossref",
+          "first-page": "6825",
+          "DOI": "10.3390/en15186825",
+          "article-title": "Neural network controlled solar PV battery powered unified power quality conditioner for grid connected operation",
+          "volume": "15",
+          "author": "Okwako",
+          "year": "2022",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.est.2024.114818_bb0030",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.3389/fenrg.2023.1342085",
+          "article-title": "Optimal design of solar/wind/battery and EV fed UPQC for power quality and power flow management using enhanced most valuable player algorithm",
+          "volume": "11",
+          "author": "Srilakshmi",
+          "year": "2024",
+          "journal-title": "Frontiers in Energy Research"
+        },
+        {
+          "key": "10.1016/j.est.2024.114818_bb0035",
+          "series-title": "Mathematics and Computers in Simulation",
+          "first-page": "84",
+          "article-title": "Honey Badger Algorithm: New metaheuristic algorithm for solving optimization problems",
+          "volume": "Volume 192",
+          "author": "Hashim",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.est.2024.114818_bb0040",
+          "doi-asserted-by": "crossref",
+          "first-page": "20447",
+          "DOI": "10.1038/s41598-024-71100-3",
+          "article-title": "Optimal design of hybrid green energy powered reduced switch converter based shunt active power filter using horse herd algorithm",
+          "volume": "14",
+          "author": "Srilakshmi",
+          "year": "2024",
+          "journal-title": "Sci. Rep."
+        },
+        {
+          "key": "10.1016/j.est.2024.114818_bb0045",
+          "doi-asserted-by": "crossref",
+          "first-page": "107116",
+          "DOI": "10.1109/ACCESS.2022.3211504",
+          "article-title": "Design of Soccer League Optimization Based Hybrid Controller for Solar-Battery Integrated UPQC",
+          "volume": "10",
+          "author": "Srilakshmi",
+          "year": "2022",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.est.2024.114818_bb0050",
+          "doi-asserted-by": "crossref",
+          "first-page": "256",
+          "DOI": "10.3390/a15080256",
+          "article-title": "Design of Multi-Objective-Based Artificial Intelligence Controller for Wind/Battery-Connected Shunt Active Power Filter",
+          "volume": "15",
+          "author": "Koganti",
+          "year": "2022",
+          "journal-title": "Algorithms"
+        },
+        {
+          "issue": "1989",
+          "key": "10.1016/j.est.2024.114818_bb0055",
+          "article-title": "Implementation of ANN controller based UPQC integrated with microgrid",
+          "volume": "10",
+          "author": "Mahar",
+          "year": "2022",
+          "journal-title": "Mathematics"
+        },
+        {
+          "key": "10.1016/j.est.2024.114818_bb0060",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1155/2023/3355124",
+          "article-title": "Optimal Design and Performance Investigation of Artificial Neural Network Controller for Solar- and Battery-Connected Unified Power Quality Conditioner",
+          "volume": "Vol. 2023",
+          "author": "Ramadevi",
+          "year": "2023",
+          "journal-title": "International Journal of Energy Research"
+        },
+        {
+          "issue": "Part A",
+          "key": "10.1016/j.est.2024.114818_bb0065",
+          "doi-asserted-by": "crossref",
+          "first-page": "113324",
+          "DOI": "10.1016/j.est.2024.113324",
+          "article-title": "Design of solar and energy storage systems fed reduced switch multilevel converter with flower pollination optimization",
+          "volume": "99",
+          "author": "Srilakshmi",
+          "year": "2024",
+          "journal-title": "Journal of Energy Storage"
+        },
+        {
+          "key": "10.1016/j.est.2024.114818_bb0070",
+          "article-title": "A new control scheme for wind/battery fed UPQC for the power quality enhancement: a hybrid technique",
+          "volume": "1–9",
+          "author": "Srilakshmi",
+          "year": "2024",
+          "journal-title": "IETE J. Res."
+        },
+        {
+          "key": "10.1016/j.est.2024.114818_bb0075",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1080/01969722.2023.2175144",
+          "article-title": "Design of UPQC with Solar PV and Battery Storage Systems for Power Quality Improvement",
+          "author": "Srilakshmi",
+          "year": "2023",
+          "journal-title": "Cybernetics and Systems: An International Journal"
+        },
+        {
+          "key": "10.1016/j.est.2024.114818_bb0080",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Koganti Srilakshmi, et al., “Multiobjective Neuro-Fuzzy Controller Design and Selection of Filter Parameters of UPQC Using Predator Prey Firefly and Enhanced Harmony Search Optimization”, International Transactions on Electrical Energy Systems, Volume 2024, 6611240, 21 pages, doi:https://doi.org/10.1155/2024/6611240.",
+          "DOI": "10.1155/2024/6611240"
+        },
+        {
+          "key": "10.1016/j.est.2024.114818_bb0085",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.3389/fenrg.2024.1370412",
+          "article-title": "Simulation of grid/standalone solar energy supplied reduced switch converter with optimal fuzzy logic controller using golden ball algorithm",
+          "volume": "12",
+          "author": "Srilakshmi",
+          "year": "2024",
+          "journal-title": "Frontiers in Energy Research"
+        },
+        {
+          "key": "10.1016/j.est.2024.114818_bb0090",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.3389/fenrg.2024.1325865",
+          "article-title": "Green energy-sourced AI-controlled multilevel UPQC parameter selection using football game optimization",
+          "volume": "12",
+          "author": "Srilakshmi",
+          "year": "2024",
+          "journal-title": "Frontiers in Energy Research"
+        },
+        {
+          "key": "10.1016/j.est.2024.114818_bb0095",
+          "doi-asserted-by": "crossref",
+          "first-page": "279",
+          "DOI": "10.1049/gtd2.12020",
+          "article-title": "Biogeography based optimization strategy for UPQC PI tuning on full order adaptive observer based control",
+          "volume": "15",
+          "author": "Sayed",
+          "year": "2021",
+          "journal-title": "IET Generation, Transmission & Distribution"
+        },
+        {
+          "key": "10.1016/j.est.2024.114818_bb0100",
+          "first-page": "1",
+          "article-title": "A novel control scheme for PV/WT/FC/battery to power quality enhancement in micro grid system: a hybrid technique",
+          "author": "Rajesh",
+          "year": "2021",
+          "journal-title": "Energy Sources, Part A"
+        },
+        {
+          "issue": "48",
+          "key": "10.1016/j.est.2024.114818_bb0105",
+          "first-page": "332",
+          "article-title": "The effect of distributed generation on voltage profile of a distribution network. Indian",
+          "volume": "17",
+          "author": "Idowu",
+          "year": "2020",
+          "journal-title": "J. Eng."
+        },
+        {
+          "issue": "49",
+          "key": "10.1016/j.est.2024.114818_bb0120",
+          "first-page": "58",
+          "article-title": "Integration of photovoltaic systems into distributed grids without battery energy storage",
+          "volume": "18",
+          "author": "Phong",
+          "year": "2021",
+          "journal-title": "Indian Journal of Engineering"
+        }
+      ],
+      "container-title": [
+        "Journal of Energy Storage"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2352152X24044049?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2352152X24044049?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            25
+          ]
+        ],
+        "date-time": "2025-01-25T16:19:56Z",
+        "timestamp": 1737821996000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2352152X24044049"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            1
+          ]
+        ]
+      },
+      "references-count": 22,
+      "alternative-id": [
+        "S2352152X24044049"
+      ],
+      "URL": "https://doi.org/10.1016/j.est.2024.114818",
+      "relation": {},
+      "ISSN": [
+        "2352-152X"
+      ],
+      "issn-type": [
+        {
+          "value": "2352-152X",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            1
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "An optimized neural network-honey badger based control technique for a hybrid solar PV and battery energy storage fed unified power quality conditioner",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Journal of Energy Storage",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.est.2024.114818",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "114818"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Belqasem Aljafari",
+      "given_name_from_source": "Belqasem",
+      "family_name_from_source": "Aljafari",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Yaswanth Kumar Alapati",
+      "given_name_from_source": "Yaswanth Kumar",
+      "family_name_from_source": "Alapati",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Koganti Srilakshmi",
+      "given_name_from_source": "Koganti",
+      "family_name_from_source": "Srilakshmi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Sudhakar Babu Thanikanti",
+      "given_name_from_source": "Sudhakar Babu",
+      "family_name_from_source": "Thanikanti",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

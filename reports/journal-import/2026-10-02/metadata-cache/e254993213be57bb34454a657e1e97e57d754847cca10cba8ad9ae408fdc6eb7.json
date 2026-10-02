@@ -1,0 +1,1805 @@
+{
+  "doi": "10.32604/cmes.2024.057214",
+  "title": "Advancements in Liver Tumor Detection: A Comprehensive Review of Various Deep Learning Models",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Computer Modeling in Engineering &amp; Sciences",
+  "publisher": "Tech Science Press",
+  "publication_date": null,
+  "online_publication_date": null,
+  "print_publication_date": null,
+  "volume": "142",
+  "issue": "1",
+  "pages_or_article_number": "91-122",
+  "issn": null,
+  "eissn": "1526-1506",
+  "isbn": null,
+  "url": "https://doi.org/10.32604/cmes.2024.057214",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:51.742109+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            18
+          ]
+        ],
+        "date-time": "2026-08-18T04:05:45Z",
+        "timestamp": 1787025945735,
+        "version": "build-2736575974"
+      },
+      "reference-count": 143,
+      "publisher": "Tech Science Press",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                12,
+                29
+              ]
+            ],
+            "date-time": "2024-12-29T00:00:00Z",
+            "timestamp": 1735430400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.32604/TSP-CROSSMARKPOLICY"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "CMES"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "DOI": "10.32604/cmes.2024.057214",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            17
+          ]
+        ],
+        "date-time": "2024-12-17T04:28:18Z",
+        "timestamp": 1734409698000
+      },
+      "page": "91-122",
+      "update-policy": "https://doi.org/10.32604/tsp-crossmarkpolicy",
+      "source": "Crossref",
+      "is-referenced-by-count": 21,
+      "title": [
+        "Advancements in Liver Tumor Detection: A Comprehensive Review of Various Deep Learning Models"
+      ],
+      "prefix": "10.32604",
+      "volume": "142",
+      "author": [
+        {
+          "given": "Shanmugasundaram",
+          "family": "Hariharan",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "D.",
+          "family": "Anandan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Murugaperumal",
+          "family": "Krishnamoorthy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Vinay",
+          "family": "Kukreja",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nitin",
+          "family": "Goyal",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shih-Yu",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "17807",
+      "published-online": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "ref1",
+          "series-title": "5th International Conference on Signals and Image Processing",
+          "article-title": "Extracting the liver and tumor from abdominal CT images",
+          "author": "Jayanthi",
+          "year": "2014 Jan 8–10"
+        },
+        {
+          "key": "ref2",
+          "doi-asserted-by": "crossref",
+          "first-page": "9661",
+          "DOI": "10.1016/j.eswa.2012.02.095",
+          "article-title": "A new unified level set method for semi automatic liver tumor segmentation on contrast enhanced CT images",
+          "volume": "39",
+          "author": "Bing",
+          "year": "2012",
+          "journal-title": "Expert Syst Appl"
+        },
+        {
+          "key": "ref3",
+          "series-title": "5th IEEE International Symposium on Biomedical Imaging From Nano to Macro",
+          "article-title": "Automatic detection of liver tumors",
+          "author": "Daniel",
+          "year": "2008 May 14–17"
+        },
+        {
+          "key": "ref4",
+          "series-title": "2nd IEEE International Conference on Recent Trends in Electronics Information and Communication Technology",
+          "article-title": "Liver tumor segmentation in noisy CT images using distance regularized level set evolution based on fuzzy C-means clustering",
+          "author": "Yugander",
+          "year": "2017 May 19–20"
+        },
+        {
+          "key": "ref5",
+          "series-title": "International Conference on Computer Engineering & Systems",
+          "article-title": "Fully automatic liver tumor segmentation from abdominal CT scans",
+          "author": "Nader",
+          "year": "2010 Nov 30–Dec 2"
+        },
+        {
+          "key": "ref6",
+          "series-title": "2nd International Conference on Trends in Electronics and Informatics",
+          "article-title": "Automated identification of hemangioma based on CT-scan tumor edge detection",
+          "author": "Chethan",
+          "year": "2018 May 11–12"
+        },
+        {
+          "key": "ref7",
+          "series-title": "2nd Global Conference on Life Sciences and Technologies",
+          "article-title": "Automatic segmentation of liver tumor in multiphase CT images by mask R-CNN",
+          "author": "Ryo",
+          "year": "2020 Mar 10–12"
+        },
+        {
+          "key": "ref8",
+          "series-title": "15th International Symposium on Biomedical Imaging",
+          "article-title": "Liver lesion segmentation informed by joint liver segmentation",
+          "author": "Eugene",
+          "year": "2018 Apr 4–7"
+        },
+        {
+          "key": "ref9",
+          "first-page": "371",
+          "article-title": "Review of image processing techniques for automatic detection of tumor in human liver",
+          "volume": "13",
+          "author": "Vinita",
+          "year": "2014",
+          "journal-title": "Int J Comput Sci Mobile Comput"
+        },
+        {
+          "key": "ref10",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.4236/jcc.2014.22001",
+          "article-title": "Review on the methods of automatic liver segmentation from abdominal images",
+          "volume": "2",
+          "author": "Luo",
+          "year": "2014",
+          "journal-title": "J Comput Commun"
+        },
+        {
+          "key": "ref11",
+          "doi-asserted-by": "crossref",
+          "first-page": "69",
+          "DOI": "10.1016/j.cmpb.2013.08.019",
+          "article-title": "A hybrid semi-automatic method for liver segmentation based on level-set methods using multiple seed points",
+          "volume": "113",
+          "author": "Yang",
+          "year": "2014",
+          "journal-title": "Comput Methods Programs Biomed"
+        },
+        {
+          "key": "ref12",
+          "first-page": "2848",
+          "article-title": "Liver tumor diagnosis by using hybrid watershed segmentation method",
+          "volume": "37",
+          "author": "Thulasidass",
+          "year": "2021",
+          "journal-title": "Mater Today: Proc"
+        },
+        {
+          "key": "ref13",
+          "doi-asserted-by": "crossref",
+          "first-page": "389",
+          "DOI": "10.1016/j.procs.2016.07.395",
+          "article-title": "Kernelized fuzzy C-means clustering with adaptive thresholding for segmenting liver tumors",
+          "volume": "92",
+          "author": "Amita",
+          "year": "2016",
+          "journal-title": "Procedia Comput Sci"
+        },
+        {
+          "key": "ref14",
+          "doi-asserted-by": "crossref",
+          "first-page": "105",
+          "DOI": "10.1016/j.artmed.2018.11.007",
+          "article-title": "CT liver tumor segmentation hybrid approach using neutrosophic sets, fast fuzzy c-means and adaptive watershed algorithm",
+          "volume": "97",
+          "author": "Ahmed",
+          "year": "2019",
+          "journal-title": "Artif Intell Med"
+        },
+        {
+          "key": "ref15",
+          "first-page": "1",
+          "article-title": "Integration of a knowledge-based constraint into generative models with applications in semi-automatic segmentation of liver tumors",
+          "volume": "57",
+          "author": "Nasim",
+          "year": "2020",
+          "journal-title": "Biomed Signal Process Control"
+        },
+        {
+          "key": "ref16",
+          "doi-asserted-by": "crossref",
+          "first-page": "1738",
+          "DOI": "10.1007/s00330-010-1712-z",
+          "article-title": "Liver tumour segmentation using contrast-enhanced multi-detector CT data performance benchmarking of three semiautomated methods",
+          "volume": "20",
+          "author": "Jia",
+          "year": "2010",
+          "journal-title": "Eur Radiol"
+        },
+        {
+          "key": "ref17",
+          "doi-asserted-by": "crossref",
+          "first-page": "817",
+          "DOI": "10.1007/s11548-015-1332-9",
+          "article-title": "Shape intensity prior level set combining probabilistic atlas and probability map constrains for automatic liver segmentation from abdominal CT images",
+          "volume": "11",
+          "author": "Wang",
+          "year": "2016",
+          "journal-title": "Int J Comput Assist Radiol Surg"
+        },
+        {
+          "key": "ref18",
+          "doi-asserted-by": "crossref",
+          "first-page": "88",
+          "DOI": "10.1016/j.patcog.2015.09.001",
+          "article-title": "A hierarchical local region-based sparse shape composition for liver segmentation in CT scans",
+          "volume": "50",
+          "author": "Shi",
+          "year": "2016",
+          "journal-title": "Pattern Recognit"
+        },
+        {
+          "key": "ref19",
+          "author": "Marius",
+          "year": "2012",
+          "journal-title": "Liver and tumor segmentation and analysis from CT of diseased patients via a generic affine invariant shape parameterization and graph cuts"
+        },
+        {
+          "key": "ref20",
+          "first-page": "1",
+          "article-title": "Cascaded deep convolutional encoder-decoder neural networks for efficient liver tumor segmentation",
+          "volume": "134",
+          "author": "Umit",
+          "year": "2019",
+          "journal-title": "Med Hypotheses"
+        },
+        {
+          "key": "ref21",
+          "doi-asserted-by": "crossref",
+          "first-page": "2967",
+          "DOI": "10.1109/TBME.2013.2267212",
+          "article-title": "A likelihood and local constraint level set model for liver tumor segmentation from CT volumes",
+          "volume": "60",
+          "author": "Li",
+          "year": "2013",
+          "journal-title": "IEEE Trans Biomed Eng"
+        },
+        {
+          "key": "ref22",
+          "doi-asserted-by": "crossref",
+          "first-page": "76056",
+          "DOI": "10.1109/ACCESS.2020.2988647",
+          "article-title": "Deep learning initialized and gradient enhanced level-set based segmentation for liver tumor from CT images",
+          "volume": "8",
+          "author": "Zhang",
+          "year": "2020",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "ref23",
+          "doi-asserted-by": "crossref",
+          "first-page": "171",
+          "DOI": "10.1007/s11548-016-1467-3",
+          "article-title": "Automatic 3D liver location and segmentation via convolutional neural network and graph cut",
+          "volume": "12",
+          "author": "Lu",
+          "year": "2016",
+          "journal-title": "Int J Comput Assist Radiol Surg"
+        },
+        {
+          "key": "ref24",
+          "first-page": "2144",
+          "article-title": "Segmentation of liver vasculature from contrast enhanced CT images using context-based voting",
+          "volume": "58",
+          "author": "Chi",
+          "year": "2010",
+          "journal-title": "IEEE Trans Biomed Eng"
+        },
+        {
+          "key": "ref25",
+          "author": "Avi",
+          "year": "2016",
+          "journal-title": "Fully convolutional network for liver segmentation and lesions detection"
+        },
+        {
+          "key": "ref26",
+          "doi-asserted-by": "crossref",
+          "first-page": "967",
+          "DOI": "10.1109/JBHI.2013.2261819",
+          "article-title": "Evolution-based hierarchical feature fusion for ultrasonic liver tissue characterization",
+          "volume": "17",
+          "author": "Wu",
+          "year": "2013",
+          "journal-title": "IEEE J Biomed Health Inform"
+        },
+        {
+          "key": "ref27",
+          "first-page": "1",
+          "article-title": "NucleiSegNet robust deep learning architecture for the nuclei segmentation of liver cancer histopathology images",
+          "volume": "128",
+          "author": "Shyam",
+          "year": "2020",
+          "journal-title": "Comput Biol Med"
+        },
+        {
+          "key": "ref28",
+          "doi-asserted-by": "crossref",
+          "first-page": "6737",
+          "DOI": "10.1016/j.eswa.2010.02.067",
+          "article-title": "An identification method of malignant and benign liver tumors from ultrasonography based on GLCM texture features and fuzzy SVM",
+          "volume": "37",
+          "author": "Xian",
+          "year": "2010",
+          "journal-title": "Expert Syst Appl"
+        },
+        {
+          "key": "ref29",
+          "first-page": "1",
+          "article-title": "Automated liver and tumor segmentation based on concave and convex points using fuzzy C-means and mean shift clustering",
+          "volume": "150",
+          "author": "Ramin",
+          "year": "2019",
+          "journal-title": "Measurement"
+        },
+        {
+          "key": "ref30",
+          "doi-asserted-by": "crossref",
+          "first-page": "130",
+          "DOI": "10.1016/j.media.2013.10.003",
+          "article-title": "A conditional statistical shape model with integrated error estimation of the conditions application to liver segmentation in non-contrast CT images",
+          "volume": "18",
+          "author": "Sho",
+          "year": "2014",
+          "journal-title": "Med Image Anal"
+        },
+        {
+          "key": "ref31",
+          "first-page": "577",
+          "article-title": "Automated liver lesion detection in CT images based on multi-level geometric features",
+          "volume": "9",
+          "author": "Laszlo",
+          "year": "2013",
+          "journal-title": "Int J Comput Assist Radiol Surg"
+        },
+        {
+          "key": "ref32",
+          "doi-asserted-by": "crossref",
+          "first-page": "45",
+          "DOI": "10.1016/j.cmpb.2017.04.008",
+          "article-title": "Computer-aided diagnosis of liver tumors on computed tomography images",
+          "volume": "145",
+          "author": "Chin",
+          "year": "2017",
+          "journal-title": "Comput Methods Programs Biomed"
+        },
+        {
+          "key": "ref33",
+          "doi-asserted-by": "crossref",
+          "first-page": "46",
+          "DOI": "10.1016/j.media.2017.01.002",
+          "article-title": "Adaptive local window for level set segmentation of CT and MRI liver lesions",
+          "volume": "37",
+          "author": "Assaf",
+          "year": "2017",
+          "journal-title": "Med Image Anal"
+        },
+        {
+          "key": "ref34",
+          "first-page": "1",
+          "article-title": "Liver segmentation from CT images using a sparse priori statistical shape model (SP-SSM)",
+          "volume": "12",
+          "author": "Xuehu",
+          "year": "2017",
+          "journal-title": "PLoS One"
+        },
+        {
+          "key": "ref35",
+          "doi-asserted-by": "crossref",
+          "first-page": "1965",
+          "DOI": "10.1109/TMI.2012.2211887",
+          "article-title": "Tumor burden analysis on computed tomography by automated liver and tumor segmentation",
+          "volume": "31",
+          "author": "Marius",
+          "year": "2012",
+          "journal-title": "IEEE Trans Med Imaging"
+        },
+        {
+          "key": "ref36",
+          "doi-asserted-by": "crossref",
+          "first-page": "1305",
+          "DOI": "10.1016/j.protcy.2016.05.126",
+          "article-title": "Automated liver tumor detection using Markov random field segmentation",
+          "volume": "24",
+          "author": "Amitha",
+          "year": "2016",
+          "journal-title": "Procedia Technol"
+        },
+        {
+          "key": "ref37",
+          "doi-asserted-by": "crossref",
+          "first-page": "201",
+          "DOI": "10.1134/S1054661819020056",
+          "article-title": "Detection of liver cancer using modified fuzzy clustering and decision tree classifier in CT images",
+          "volume": "29",
+          "author": "Amita",
+          "year": "2019",
+          "journal-title": "Pattern Recognit Image Anal"
+        },
+        {
+          "key": "ref38",
+          "series-title": "36th Annual International Conference of the IEEE Engineering in Medicine and Biology Society",
+          "article-title": "Random feature subspace ensemble based extreme learning machine for liver tumor detection and segmentation",
+          "author": "Weimin",
+          "year": "2014 Aug 26–30"
+        },
+        {
+          "key": "ref39",
+          "series-title": "35th Annual International Conference of the IEEE EMBS",
+          "article-title": "Liver tumor detection and segmentation using kernel-based extreme learning machine",
+          "author": "Huang",
+          "year": "2013 Jul 3–7"
+        },
+        {
+          "key": "ref40",
+          "doi-asserted-by": "crossref",
+          "first-page": "2277",
+          "DOI": "10.1007/s11517-019-02009-7",
+          "article-title": "An improved fuzzy differential evolution approach applied to classification of tumors in liver CT scan images",
+          "volume": "57",
+          "author": "Banafsheh",
+          "year": "2019",
+          "journal-title": "Medic Biol Eng Comput"
+        },
+        {
+          "key": "ref41",
+          "doi-asserted-by": "crossref",
+          "first-page": "923",
+          "DOI": "10.1109/JBHI.2018.2886276",
+          "article-title": "Extending 2-D convolutional neural networks to 3-D for advancing deep learning cancer classification with application to MRI liver tumor differentiation",
+          "volume": "23",
+          "author": "Eleftherios",
+          "year": "2019",
+          "journal-title": "IEEE J Biomed Health Inform"
+        },
+        {
+          "key": "ref42",
+          "first-page": "129889",
+          "article-title": "Liver cancer detection using hybridized fully convolutional neural network based on deep learning framework",
+          "author": "Dong",
+          "year": "2019",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "ref43",
+          "doi-asserted-by": "crossref",
+          "first-page": "1643",
+          "DOI": "10.1109/JBHI.2019.2949837",
+          "article-title": "Deep learning-based classification of liver cancer histopathology images using only global labels",
+          "volume": "24",
+          "author": "Sun",
+          "year": "2019",
+          "journal-title": "IEEE J Biomed Health Inform"
+        },
+        {
+          "key": "ref44",
+          "doi-asserted-by": "crossref",
+          "first-page": "1686",
+          "DOI": "10.1109/JBHI.2019.2942774",
+          "article-title": "GoogLeNet based ensemble FCNet classifier for focal liver lesion diagnosis",
+          "volume": "24",
+          "author": "Lakshmi",
+          "year": "2020",
+          "journal-title": "IEEE J Biomed Health Inform"
+        },
+        {
+          "key": "ref45",
+          "doi-asserted-by": "crossref",
+          "first-page": "1699",
+          "DOI": "10.1007/s11517-018-1803-6",
+          "article-title": "Patient-specific and global convolutional neural networks for robust automatic liver tumor delineation in follow-up CT studies",
+          "volume": "56",
+          "author": "Refael",
+          "year": "2018",
+          "journal-title": "Med Biol Eng Comput"
+        },
+        {
+          "key": "ref46",
+          "doi-asserted-by": "crossref",
+          "first-page": "315",
+          "DOI": "10.1016/j.compmedimag.2011.01.007",
+          "article-title": "Neural network based focal liver lesion diagnosis using ultrasound images",
+          "volume": "35",
+          "author": "Deepti",
+          "year": "2011",
+          "journal-title": "Comput Med Imaging Graph"
+        },
+        {
+          "key": "ref47",
+          "doi-asserted-by": "crossref",
+          "first-page": "80",
+          "DOI": "10.1016/j.asoc.2015.02.034",
+          "article-title": "Neural network based texture analysis of CT images for fatty and cirrhosis liver classification",
+          "volume": "32",
+          "author": "Mala",
+          "year": "2015",
+          "journal-title": "Appl Soft Comput"
+        },
+        {
+          "key": "ref48",
+          "doi-asserted-by": "crossref",
+          "first-page": "13",
+          "DOI": "10.1016/j.media.2009.09.002",
+          "article-title": "Semi automatic level set segmentation of liver tumors combining a spiral scanning technique with supervised fuzzy pixel classification",
+          "volume": "14",
+          "author": "Dirk",
+          "year": "2010",
+          "journal-title": "Med Image Anal"
+        },
+        {
+          "key": "ref49",
+          "doi-asserted-by": "crossref",
+          "first-page": "58",
+          "DOI": "10.1016/j.artmed.2017.03.008",
+          "article-title": "Automatic segmentation of liver tumors from multiphase contrast-enhanced CT images based on FCNs",
+          "volume": "83",
+          "author": "Sun",
+          "year": "2017",
+          "journal-title": "Artif Intell Med"
+        },
+        {
+          "key": "ref50",
+          "doi-asserted-by": "crossref",
+          "first-page": "1516",
+          "DOI": "10.1016/j.compeleceng.2013.02.008",
+          "article-title": "An automatic computer-aided diagnosis system for liver tumours on computed tomography images",
+          "volume": "39",
+          "author": "Kumar",
+          "year": "2013",
+          "journal-title": "Comput Elect Eng"
+        },
+        {
+          "key": "ref51",
+          "first-page": "244",
+          "article-title": "Segmentation of cancerous regions in liver using an edge based and phase congruent region enhancement method",
+          "volume": "53",
+          "author": "Gaurav",
+          "year": "2015",
+          "journal-title": "Comput Electr Eng"
+        },
+        {
+          "key": "ref52",
+          "author": "Patrick",
+          "year": "2016",
+          "journal-title": "Automatic liver and lesion segmentation in CT using cascaded fully convolutional neural networks and 3D conditional random fields"
+        },
+        {
+          "key": "ref53",
+          "doi-asserted-by": "crossref",
+          "first-page": "78214",
+          "DOI": "10.1109/ACCESS.2018.2884896",
+          "article-title": "Hybrid feature selection method based on neural networks and cross-validation for liver cancer with microarray",
+          "volume": "6",
+          "author": "Sangman",
+          "year": "2018",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "ref54",
+          "doi-asserted-by": "crossref",
+          "first-page": "82122",
+          "DOI": "10.1109/ACCESS.2019.2923218",
+          "article-title": "Liver tumor segmentation based on multi-scale candidate generation and fractal residual network",
+          "volume": "7",
+          "author": "Bai",
+          "year": "2019",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "ref55",
+          "article-title": "Automatic liver lesion segmentation using a deep convolutional neural network method",
+          "author": "Xiao",
+          "year": "2017",
+          "journal-title": "Med Phys"
+        },
+        {
+          "key": "ref56",
+          "series-title": "18th IEEE International Conference on Image Processing",
+          "article-title": "Liver tumor detection in CT images by adaptive contrast enhancement and the Em/Mpm algorithm",
+          "author": "Masuda",
+          "year": "2011 Sep 11–14"
+        },
+        {
+          "key": "ref57",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.cmpb.2020.105447",
+          "article-title": "Deeply self-supervised contour embedded neural network applied to liver segmentation",
+          "volume": "192",
+          "author": "Chung",
+          "year": "2020",
+          "journal-title": "Comput Methods Programs Biomed"
+        },
+        {
+          "key": "ref58",
+          "doi-asserted-by": "crossref",
+          "first-page": "80",
+          "DOI": "10.1016/j.procs.2016.07.027",
+          "article-title": "Computer-aided classification of liver lesions from CT images based on multiple ROI",
+          "volume": "90",
+          "author": "Hussein",
+          "year": "2016",
+          "journal-title": "Procedia Comput Sci"
+        },
+        {
+          "key": "ref59",
+          "unstructured": "Lei B, Jinman K, Ashnil K, Dagan F. Automatic liver lesion detection using cascaded deep residual networks. arXiv:1704.02703. 2017."
+        },
+        {
+          "key": "ref60",
+          "doi-asserted-by": "crossref",
+          "first-page": "321",
+          "DOI": "10.1016/j.neucom.2018.09.013",
+          "article-title": "GAN-based synthetic medical image augmentation for increased CNN performance in liver lesion classification",
+          "volume": "321",
+          "author": "Maayan",
+          "year": "2018",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "key": "ref61",
+          "series-title": "IEEE International Conference on Image Processing (ICIP)",
+          "article-title": "Multi-stream scale insensitive convolutional and recurrent neural networks for liver tumor detection in dynamic CT images",
+          "author": "Liang",
+          "year": "2019 Sep 22–25"
+        },
+        {
+          "key": "ref62",
+          "doi-asserted-by": "crossref",
+          "first-page": "17429",
+          "DOI": "10.1007/s11042-020-09282-x",
+          "article-title": "Tumor detection for whole slide image of liver based on patch-based convolutional neural network",
+          "volume": "80",
+          "author": "Wang",
+          "year": "2020",
+          "journal-title": "Multimed Tools Appl"
+        },
+        {
+          "key": "ref63",
+          "doi-asserted-by": "crossref",
+          "first-page": "304",
+          "DOI": "10.1007/s11766-021-4376-3",
+          "article-title": "Automatic liver and tumor segmentation based on deep learning and globally optimized refinement",
+          "volume": "36",
+          "author": "Hong",
+          "year": "2021",
+          "journal-title": "Appl Math-J Chin Univ"
+        },
+        {
+          "key": "ref64",
+          "doi-asserted-by": "crossref",
+          "first-page": "3338",
+          "DOI": "10.1007/s00330-019-06205-9",
+          "article-title": "Deep learning for liver tumor diagnosis part I development of a convolutional neural network classifier for multi-phasic MRI",
+          "volume": "29",
+          "author": "Charlie",
+          "year": "2019",
+          "journal-title": "Eur Radiol"
+        },
+        {
+          "key": "ref65",
+          "doi-asserted-by": "crossref",
+          "first-page": "11",
+          "DOI": "10.1016/j.compbiomed.2017.12.024",
+          "article-title": "Automated diagnosis of focal liver lesions using bidirectional empirical mode decomposition features",
+          "volume": "94",
+          "author": "Rajendra",
+          "year": "2018",
+          "journal-title": "Comput Biol Med"
+        },
+        {
+          "key": "ref66",
+          "first-page": "1599",
+          "article-title": "Classification of focal liver lesions on ultrasound images by extracting hybrid textural features and using an artificial neural network",
+          "volume": "26",
+          "author": "Yoo",
+          "year": "2015",
+          "journal-title": "Biomed Mater Eng"
+        },
+        {
+          "key": "ref67",
+          "doi-asserted-by": "crossref",
+          "first-page": "1549",
+          "DOI": "10.1007/s11548-021-02410-4",
+          "article-title": "LiverNet efficient and robust deep learning model for automatic diagnosis of sub-types of liver hepatocellular carcinoma cancer from H&E stained liver histopathology images",
+          "volume": "16",
+          "author": "Anirudh",
+          "year": "2021",
+          "journal-title": "Int J Comput Assist Radiol Surg"
+        },
+        {
+          "key": "ref68",
+          "doi-asserted-by": "crossref",
+          "first-page": "834",
+          "DOI": "10.1109/TPAMI.2017.2699184",
+          "article-title": "DeepLab semantic image segmentation with deep convolutional nets, atrous convolution and fully connected CRFs",
+          "volume": "40",
+          "author": "Liang",
+          "year": "2018",
+          "journal-title": "IEEE Trans Pattern Anal Mach Intell"
+        },
+        {
+          "key": "ref69",
+          "first-page": "4729",
+          "article-title": "Deep learning for liver tumour classification enhanced loss function",
+          "volume": "80",
+          "author": "Simranjeet",
+          "year": "2020",
+          "journal-title": "Multimed Tools Appl"
+        },
+        {
+          "key": "ref70",
+          "doi-asserted-by": "crossref",
+          "first-page": "1169",
+          "DOI": "10.1007/s11548-018-1801-z",
+          "article-title": "An automated liver tumour segmentation from abdominal CT scans for hepatic surgical planning",
+          "volume": "13",
+          "author": "Omar",
+          "year": "2018",
+          "journal-title": "Int J Comput Assist Radiol Surg"
+        },
+        {
+          "key": "ref71",
+          "series-title": "2022 1st International Conference on Computational Science and Technology (ICCST)",
+          "first-page": "1",
+          "article-title": "“Liver tumor detection using fast fuzzy C-Means clustering”",
+          "author": "Deepika",
+          "year": "2022"
+        },
+        {
+          "key": "ref72",
+          "series-title": "2022 International Conference on Augmented Intelligence and Sustainable Systems (ICAISS)",
+          "first-page": "171",
+          "article-title": "Convolutional neural networks based liver tumor classification",
+          "author": "Pathak",
+          "year": "2022"
+        },
+        {
+          "key": "ref73",
+          "series-title": "2022 International Conference on Knowledge Engineering and Communication Systems (ICKES)",
+          "first-page": "1",
+          "article-title": "Automatic liver cancer detection in abdominal liver images using soft optimization techniques",
+          "author": "Ramgopal",
+          "year": "2022"
+        },
+        {
+          "key": "ref74",
+          "doi-asserted-by": "crossref",
+          "first-page": "2965",
+          "DOI": "10.1109/TMI.2022.3175461",
+          "article-title": "Automatic liver tumor segmentation on dynamic contrast enhanced MRI using 4D information: deep learning model based on 3D convolution and convolutional LSTM",
+          "volume": "41",
+          "author": "Zheng",
+          "year": "2022",
+          "journal-title": "IEEE Trans Med Imaging"
+        },
+        {
+          "key": "ref75",
+          "series-title": "2022 International Conference on Power, Energy, Control and Transmission Systems (ICPECTS)",
+          "first-page": "1",
+          "article-title": "Gradient-driven texture-normalized liver tumor detection using deep learning",
+          "author": "Kiruthiga",
+          "year": "2022"
+        },
+        {
+          "key": "ref76",
+          "series-title": "2022 44th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)",
+          "first-page": "1536",
+          "article-title": "Unsupervised domain adaptation using adversarial learning and maximum square loss for liver tumors detection in multi-phase CT images",
+          "author": "Jain",
+          "year": "2022 Jul 11–15; Glasgow, UK;"
+        },
+        {
+          "key": "ref77",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.3390/biomedicines11030800",
+          "article-title": "Detection of liver tumour using deep learning based segmentation with coot extreme learning model",
+          "volume": "11",
+          "author": "Sridhar",
+          "year": "2023",
+          "journal-title": "Biomedicines"
+        },
+        {
+          "key": "ref78",
+          "doi-asserted-by": "crossref",
+          "first-page": "167",
+          "DOI": "10.1007/s10396-023-01301-2",
+          "article-title": "A study on the optimal condition of ground truth area for liver tumor detection in ultrasound images using deep learning",
+          "volume": "50",
+          "author": "Tosaki",
+          "year": "2023",
+          "journal-title": "J Med Ultrasonics"
+        },
+        {
+          "key": "ref79",
+          "first-page": "1000386",
+          "article-title": "Prediction of parameters of liver tumor using feature extraction and supervised function",
+          "volume": "22",
+          "author": "Geetha",
+          "year": "2022",
+          "journal-title": "Measurem Sens"
+        },
+        {
+          "key": "ref80",
+          "series-title": "International Workshop on Advanced Imaging Technology (IWAIT)",
+          "article-title": "Liver tumor detection and classification from abdominal ultrasound images with CenterNet using contrastive learning",
+          "author": "Eigo",
+          "year": "2023, Jan 9–11"
+        },
+        {
+          "key": "ref81",
+          "doi-asserted-by": "crossref",
+          "first-page": "81",
+          "DOI": "10.1016/j.neucom.2021.06.021",
+          "article-title": "X-Net: multi-branch UNet-like network for liver and tumor segmentation from 3D abdominal CT scans",
+          "volume": "459",
+          "author": "Chi",
+          "year": "2021",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "key": "ref82",
+          "doi-asserted-by": "crossref",
+          "first-page": "368",
+          "DOI": "10.3390/bioengineering9080368",
+          "article-title": "A deep learning approach for liver and tumor segmentation in CT images using ResUNet",
+          "volume": "9",
+          "author": "Rahman",
+          "year": "2022",
+          "journal-title": "Bioengineering"
+        },
+        {
+          "key": "ref83",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1186/s42490-021-00050-y",
+          "article-title": "Modified U-Net for liver cancer segmentation from computed tomography images with a new class balancing method",
+          "volume": "3",
+          "author": "Ayalew",
+          "year": "2021",
+          "journal-title": "BMC Biomed Eng"
+        },
+        {
+          "key": "ref84",
+          "doi-asserted-by": "crossref",
+          "first-page": "8650",
+          "DOI": "10.3390/app12178650",
+          "article-title": "Segmentation of liver tumor in CT scan using ResU-Net",
+          "volume": "12",
+          "author": "Sabir",
+          "year": "2022",
+          "journal-title": "Appl Sci"
+        },
+        {
+          "key": "ref85",
+          "doi-asserted-by": "crossref",
+          "first-page": "90",
+          "DOI": "10.1148/radiol.211838",
+          "article-title": "Reduced-dose deep learning reconstruction for abdominal CT of liver metastases",
+          "volume": "303",
+          "author": "Jensen",
+          "year": "2022",
+          "journal-title": "Radiology"
+        },
+        {
+          "key": "ref86",
+          "doi-asserted-by": "crossref",
+          "first-page": "1516",
+          "DOI": "10.3390/s20051516",
+          "article-title": "Liver tumor segmentation in CT scans using modified SegNet",
+          "volume": "20",
+          "author": "Almotairi",
+          "year": "2020",
+          "journal-title": "Sensors"
+        },
+        {
+          "key": "ref87",
+          "doi-asserted-by": "crossref",
+          "first-page": "30",
+          "DOI": "10.1016/j.neucom.2021.08.157",
+          "article-title": "Liver, kidney and spleen segmentation from CT scans and MRI with deep learning: a survey",
+          "volume": "490",
+          "author": "Altini",
+          "year": "2022",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "key": "ref88",
+          "doi-asserted-by": "crossref",
+          "first-page": "105620",
+          "DOI": "10.1016/j.compbiomed.2022.105620",
+          "article-title": "Deep learning techniques for liver and liver tumor segmentation: a review",
+          "volume": "147",
+          "author": "Gul",
+          "year": "2022",
+          "journal-title": "Comput Biol Med"
+        },
+        {
+          "key": "ref89",
+          "doi-asserted-by": "crossref",
+          "first-page": "105095",
+          "DOI": "10.1016/j.compbiomed.2021.105095",
+          "article-title": "Liver segmentation from computed tomography images using cascade deep learning",
+          "volume": "140",
+          "author": "Araújo",
+          "year": "2022",
+          "journal-title": "Comput Biol Med"
+        },
+        {
+          "key": "ref90",
+          "doi-asserted-by": "crossref",
+          "first-page": "598",
+          "DOI": "10.1007/s11604-021-01089-6",
+          "article-title": "Deep learning image reconstruction for improvement of image quality of abdominal computed tomography: comparison with hybrid iterative reconstruction",
+          "volume": "39",
+          "author": "Ichikawa",
+          "year": "2021",
+          "journal-title": "Jpn J Radiol"
+        },
+        {
+          "key": "ref91",
+          "doi-asserted-by": "crossref",
+          "first-page": "E207",
+          "DOI": "10.1148/radiol.2020201908",
+          "article-title": "Abdominal imaging findings in COVID-19: preliminary observations",
+          "volume": "297",
+          "author": "Bhayana",
+          "year": "2020",
+          "journal-title": "Radiology"
+        },
+        {
+          "key": "ref92",
+          "article-title": "Primary hepatic neuroendocrine tumor: a case report and literature review",
+          "volume": "14",
+          "author": "Elayan",
+          "year": "2022",
+          "journal-title": "Cureus"
+        },
+        {
+          "key": "ref93",
+          "doi-asserted-by": "crossref",
+          "first-page": "14153",
+          "DOI": "10.1038/s41598-022-16828-6",
+          "article-title": "A lightweight neural network with multiscale feature enhancement for liver CT segmentation",
+          "volume": "12",
+          "author": "Ansari",
+          "year": "2022",
+          "journal-title": "Sci Rep"
+        },
+        {
+          "key": "ref94",
+          "doi-asserted-by": "crossref",
+          "first-page": "106501",
+          "DOI": "10.1016/j.compbiomed.2022.106501",
+          "article-title": "Eres-UNet++: liver CT image segmentation based on high-efficiency channel attention and Res-UNet++",
+          "volume": "158",
+          "author": "Li",
+          "year": "2023",
+          "journal-title": "Comput Biol Med"
+        },
+        {
+          "key": "ref95",
+          "doi-asserted-by": "crossref",
+          "first-page": "250",
+          "DOI": "10.1148/radiol.2021204288",
+          "article-title": "Quantification of liver fat content with CT and MRI: state of the art",
+          "volume": "301",
+          "author": "Starekova",
+          "year": "2021",
+          "journal-title": "Radiology"
+        },
+        {
+          "key": "ref96",
+          "doi-asserted-by": "crossref",
+          "first-page": "264",
+          "DOI": "10.1002/mp.14585",
+          "article-title": "Spatial feature fusion convolutional network for liver and liver tumor segmentation from CT images",
+          "volume": "48",
+          "author": "Liu",
+          "year": "2021",
+          "journal-title": "Med Phys"
+        },
+        {
+          "key": "ref97",
+          "series-title": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+          "first-page": "21152",
+          "article-title": "Clip-driven universal model for organ segmentation and tumor detection",
+          "author": "Liu",
+          "year": "2023 Oct 1–6; Paris, France"
+        },
+        {
+          "key": "ref98",
+          "doi-asserted-by": "crossref",
+          "first-page": "689",
+          "DOI": "10.1016/j.acra.2021.06.018",
+          "article-title": "Contrast-enhanced abdominal CT with clinical photon-counting detector CT: assessment of image quality and comparison with energy-integrating detector CT",
+          "volume": "29",
+          "author": "Higashigaito",
+          "year": "2022",
+          "journal-title": "Acad Radiol"
+        },
+        {
+          "key": "ref99",
+          "doi-asserted-by": "crossref",
+          "first-page": "20220463",
+          "DOI": "10.1259/bjr.20220463",
+          "article-title": "Non-oncologic incidental uptake on FAPI PET/CT imaging",
+          "volume": "96",
+          "author": "Hotta",
+          "year": "2023",
+          "journal-title": "British J Radiol"
+        },
+        {
+          "key": "ref100",
+          "doi-asserted-by": "crossref",
+          "first-page": "134596",
+          "DOI": "10.1016/j.snb.2023.134596",
+          "author": "Zan",
+          "year": "2023",
+          "journal-title": "Sens Actuat B: Chem"
+        },
+        {
+          "key": "ref101",
+          "doi-asserted-by": "crossref",
+          "first-page": "405",
+          "DOI": "10.1159/000530495",
+          "article-title": "Guidelines for the diagnosis and treatment of primary liver cancer",
+          "volume": "12",
+          "author": "Zhou",
+          "year": "2023",
+          "journal-title": "Liver Cancer"
+        },
+        {
+          "key": "ref102",
+          "series-title": "2023 International Conference on Applied Intelligence and Sustainable Computing (ICAISC)",
+          "first-page": "1",
+          "article-title": "Machine learning approach for detecting liver tumours in CT images using the gray level co-occurrence metrix",
+          "author": "Aruna",
+          "year": "2023 Jun 16–17; Dharwad, India"
+        },
+        {
+          "key": "ref103",
+          "doi-asserted-by": "crossref",
+          "first-page": "108289",
+          "DOI": "10.1016/j.engappai.2024.108289",
+          "article-title": "Trustworthy multi-phase liver tumor segmentation via evidence-based uncertainty",
+          "volume": "133",
+          "author": "Hu",
+          "year": "2024",
+          "journal-title": "Eng Appl Artif Intell"
+        },
+        {
+          "key": "ref104",
+          "doi-asserted-by": "crossref",
+          "first-page": "2843",
+          "DOI": "10.1007/s00432-022-04169-w",
+          "article-title": "Rare benign liver tumors that require differentiation from hepatocellular carcinoma: focus on diagnosis and treatment",
+          "volume": "149",
+          "author": "Luo",
+          "year": "2023",
+          "journal-title": "J Cancer Res Clin Oncol"
+        },
+        {
+          "key": "ref105",
+          "doi-asserted-by": "crossref",
+          "first-page": "106706",
+          "DOI": "10.1016/j.phrs.2023.106706",
+          "article-title": "Artificial intelligence in liver cancers: decoding the impact of machine learning models in clinical diagnosis of primary liver cancers and liver cancer metastases",
+          "volume": "189",
+          "author": "Bakrania",
+          "year": "2023",
+          "journal-title": "Pharmacol Res"
+        },
+        {
+          "key": "ref106",
+          "doi-asserted-by": "crossref",
+          "first-page": "111640",
+          "DOI": "10.1016/j.ejrad.2024.111640",
+          "article-title": "Outcomes of radiofrequency ablation for liver tumors in patients on hemodialysis: results from the US Nationwide Inpatient Sample 2005–2020",
+          "volume": "178",
+          "author": "Chen",
+          "year": "2024",
+          "journal-title": "Eur J Radiol"
+        },
+        {
+          "key": "ref107",
+          "doi-asserted-by": "crossref",
+          "first-page": "102680",
+          "DOI": "10.1016/j.media.2022.102680",
+          "article-title": "The liver tumor segmentation benchmark (LiTS)",
+          "volume": "84",
+          "author": "Bilic",
+          "year": "2023",
+          "journal-title": "Med Image Anal"
+        },
+        {
+          "key": "ref108",
+          "doi-asserted-by": "crossref",
+          "first-page": "553",
+          "DOI": "10.1016/j.neunet.2023.06.013",
+          "article-title": "A multi-modal deep neural network for multi-class liver cancer diagnosis",
+          "volume": "165",
+          "author": "Khan",
+          "year": "2023",
+          "journal-title": "Neural Netw"
+        },
+        {
+          "key": "ref109",
+          "doi-asserted-by": "crossref",
+          "first-page": "104258",
+          "DOI": "10.1016/j.bspc.2022.104258",
+          "article-title": "CPAD-Net: contextual parallel attention and dilated network for liver tumor segmentation",
+          "volume": "79",
+          "author": "Wang",
+          "year": "2023",
+          "journal-title": "Biomed Signal Process Control"
+        },
+        {
+          "key": "ref110",
+          "doi-asserted-by": "crossref",
+          "first-page": "106674",
+          "DOI": "10.1016/j.phrs.2023.106674",
+          "article-title": "Biomarker discovery and application—an opportunity to resolve the challenge of liver cancer diagnosis and treatment",
+          "volume": "189",
+          "author": "Chen",
+          "year": "2023",
+          "journal-title": "Pharmacol Res"
+        },
+        {
+          "key": "ref111",
+          "doi-asserted-by": "crossref",
+          "first-page": "2647",
+          "DOI": "10.1007/s00432-022-04384-5",
+          "article-title": "Heterogeneous molecular behavior in liver tumors (HCC and CCA) of two patients with acute intermittent porphyria",
+          "volume": "149",
+          "author": "Haverkamp",
+          "year": "2023",
+          "journal-title": "J Cancer Res Clin Oncol"
+        },
+        {
+          "key": "ref112",
+          "doi-asserted-by": "crossref",
+          "first-page": "e202316487",
+          "DOI": "10.1002/ange.202316487",
+          "article-title": "An ER-targeted, viscosity-sensitive hemicyanine dye for the diagnosis of nonalcoholic fatty liver and photodynamic cancer therapy by activating pyroptosis pathway",
+          "volume": "136",
+          "author": "Zeng",
+          "year": "2024",
+          "journal-title": "Angew Chem"
+        },
+        {
+          "key": "ref113",
+          "doi-asserted-by": "crossref",
+          "first-page": "575",
+          "DOI": "10.1016/B978-0-443-13937-6.00004-4",
+          "author": "Sawhney",
+          "year": "2025",
+          "journal-title": "Nanophototherapy"
+        },
+        {
+          "key": "ref114",
+          "doi-asserted-by": "crossref",
+          "first-page": "181",
+          "DOI": "10.3233/CH-239100",
+          "article-title": "Current aspects of multi-modal ultrasound liver diagnostics using contrast-enhanced ultrasonography (CEUS), fat evaluation, fibrosis assessment, and perfusion analysis–an update",
+          "volume": "83",
+          "author": "Jung",
+          "year": "2023",
+          "journal-title": "Clin Hemorheol Microcirc"
+        },
+        {
+          "key": "ref115",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1002/jcu.23746",
+          "article-title": "Isolated liver gastrointestinal stromal tumor: a case report",
+          "author": "Deng",
+          "year": "2024",
+          "journal-title": "J Clin Ultrasound"
+        },
+        {
+          "key": "ref116",
+          "doi-asserted-by": "crossref",
+          "first-page": "1244",
+          "DOI": "10.3390/cancers15041244",
+          "article-title": "New challenges in the management of cholangiocarcinoma: the role of liver transplantation, locoregional therapies, and systemic therapy",
+          "volume": "15",
+          "author": "Mauro",
+          "year": "2023",
+          "journal-title": "Cancers"
+        },
+        {
+          "key": "ref117",
+          "doi-asserted-by": "crossref",
+          "first-page": "1852",
+          "DOI": "10.3390/biomedicines11071852",
+          "article-title": "Biomarkers for hepatocellular carcinoma: from origin to clinical diagnosis",
+          "volume": "11",
+          "author": "Omar",
+          "year": "2023",
+          "journal-title": "Biomedicines"
+        },
+        {
+          "key": "ref118",
+          "doi-asserted-by": "crossref",
+          "first-page": "2761",
+          "DOI": "10.3390/biomedicines11102761",
+          "article-title": "Pathology and pathogenesis of metabolic dysfunction-associated steatotic liver disease-associated hepatic tumors",
+          "volume": "11",
+          "author": "Takahashi",
+          "year": "2023",
+          "journal-title": "Biomedicines"
+        },
+        {
+          "key": "ref119",
+          "first-page": "535",
+          "author": "Souza",
+          "year": "2024",
+          "journal-title": "Tata memorial centre textbook of oncology"
+        },
+        {
+          "key": "ref120",
+          "doi-asserted-by": "crossref",
+          "first-page": "1262",
+          "DOI": "10.1053/j.gastro.2023.07.026",
+          "article-title": "Deep learning-enabled diagnosis of liver adenocarcinoma",
+          "volume": "165",
+          "author": "Albrecht",
+          "year": "2023",
+          "journal-title": "Gastroenterology"
+        },
+        {
+          "key": "ref121",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1007/s12672-024-01398-y",
+          "article-title": "Identification of novel diagnostic biomarkers associated with liver metastasis in colon adenocarcinoma by machine learning",
+          "volume": "15",
+          "author": "Yang",
+          "year": "2024",
+          "journal-title": "Discover Oncology"
+        },
+        {
+          "key": "ref122",
+          "article-title": "Metabolic dysfunction-associated steatotic liver disease has become the most common cause of hepatocellular carcinoma in Sweden: a nationwide cohort study",
+          "author": "Vaz",
+          "year": "2024",
+          "journal-title": "Int J Cancer"
+        },
+        {
+          "key": "ref123",
+          "doi-asserted-by": "crossref",
+          "first-page": "107389",
+          "DOI": "10.1016/j.compbiomed.2023.107389",
+          "article-title": "Liver cancer algorithm: a novel bio-inspired optimizer",
+          "volume": "165",
+          "author": "Houssein",
+          "year": "2023",
+          "journal-title": "Comput Biol Med"
+        },
+        {
+          "key": "ref124",
+          "doi-asserted-by": "crossref",
+          "first-page": "949",
+          "DOI": "10.3390/jcm12030949",
+          "article-title": "The performance of GALAD score for diagnosing hepatocellular carcinoma in patients with chronic liver diseases: a systematic review and meta-analysis",
+          "volume": "12",
+          "author": "Guan",
+          "year": "2023",
+          "journal-title": "J Clin Med"
+        },
+        {
+          "key": "ref125",
+          "doi-asserted-by": "crossref",
+          "first-page": "1121964",
+          "DOI": "10.3389/fmolb.2023.1121964",
+          "article-title": "Role of LGMN in tumor development and its progression and connection with the tumor microenvironment",
+          "volume": "10",
+          "author": "Khan",
+          "year": "2023",
+          "journal-title": "Front Mol Biosci"
+        },
+        {
+          "key": "ref126",
+          "doi-asserted-by": "crossref",
+          "first-page": "100184",
+          "DOI": "10.1016/j.jpi.2022.100184",
+          "article-title": "Application of digital pathology and machine learning in the liver, kidney and lung diseases",
+          "volume": "14",
+          "author": "Wu",
+          "year": "2023",
+          "journal-title": "J Pathol Inf"
+        },
+        {
+          "key": "ref127",
+          "doi-asserted-by": "crossref",
+          "first-page": "10473",
+          "DOI": "10.1007/s00432-023-04956-z",
+          "article-title": "Machine learning and deep learning techniques for breast cancer diagnosis and classification: a comprehensive review of medical imaging studies",
+          "volume": "149",
+          "author": "Radak",
+          "year": "2023",
+          "journal-title": "J Cancer Res Clin Oncol"
+        },
+        {
+          "key": "ref128",
+          "doi-asserted-by": "crossref",
+          "first-page": "16",
+          "DOI": "10.1186/s12911-023-02114-6",
+          "article-title": "MRI-based brain tumor detection using convolutional deep learning methods and chosen machine learning techniques",
+          "volume": "23",
+          "author": "Saeedi",
+          "year": "2023",
+          "journal-title": "BMC Med Inform Decis Mak"
+        },
+        {
+          "key": "ref129",
+          "doi-asserted-by": "crossref",
+          "first-page": "e23007",
+          "DOI": "10.1002/ima.23007",
+          "article-title": "Deep learning approach for brain tumor classification using metaheuristic optimization with gene expression data",
+          "volume": "34",
+          "author": "Joshi",
+          "year": "2024",
+          "journal-title": "Int J Imaging Syst Technol"
+        },
+        {
+          "key": "ref130",
+          "doi-asserted-by": "crossref",
+          "first-page": "27001",
+          "DOI": "10.1007/s11042-023-16520-5",
+          "article-title": "Cancer detection and segmentation using machine learning and deep learning techniques: a review",
+          "volume": "83",
+          "author": "Rai",
+          "year": "2024",
+          "journal-title": "Multimed Tools Appl"
+        },
+        {
+          "key": "ref131",
+          "series-title": "2023 International Conference on Networking and Advanced Systems (ICNAS)",
+          "first-page": "1",
+          "article-title": "Enhancing lung cancer detection and classification using machine learning and deep learning techniques: a comparative study",
+          "author": "Bouamrane",
+          "year": "2023 Oct 21–23; Algiers, Algeria"
+        },
+        {
+          "key": "ref132",
+          "doi-asserted-by": "crossref",
+          "first-page": "1673",
+          "DOI": "10.3390/cancers15061673",
+          "article-title": "Performing automatic identification and staging of urothelial carcinoma in bladder cancer patients using a hybrid deep-machine learning approach",
+          "volume": "15",
+          "author": "Sarkar",
+          "year": "2023",
+          "journal-title": "Cancers"
+        },
+        {
+          "key": "ref133",
+          "first-page": "1617",
+          "article-title": "Feature-enhanced deep learning technique with soft attention for MRI-based brain tumor classification",
+          "volume": "16",
+          "author": "Mohanty",
+          "year": "2024",
+          "journal-title": "Int J Inform Technol"
+        },
+        {
+          "key": "ref134",
+          "first-page": "14614",
+          "article-title": "Unveiling early detection and prevention of cancer: machine learning and deep learning approaches",
+          "volume": "30",
+          "author": "Khandakar",
+          "year": "2024",
+          "journal-title": "Educ Adm Theory Pract"
+        },
+        {
+          "key": "ref135",
+          "doi-asserted-by": "crossref",
+          "first-page": "103138",
+          "DOI": "10.1016/j.ejmp.2023.103138",
+          "article-title": "Recent advancements in machine learning and deep learning-based breast cancer detection using mammograms",
+          "volume": "114",
+          "author": "Sahu",
+          "year": "2023",
+          "journal-title": "Phys Med"
+        },
+        {
+          "key": "ref136",
+          "first-page": "31",
+          "article-title": "Enhanced QSVM with elitist non-dominated sorting genetic optimisation algorithm for breast cancer diagnosis",
+          "volume": "23",
+          "author": "Jose",
+          "year": "2024 Oct 23",
+          "journal-title": "IET Quantum Commun"
+        },
+        {
+          "key": "ref137",
+          "doi-asserted-by": "crossref",
+          "first-page": "31709",
+          "DOI": "10.1007/s11042-023-14828-w",
+          "article-title": "An enhanced deep learning method for multi-class brain tumor classification using deep transfer learning",
+          "volume": "82",
+          "author": "Asif",
+          "year": "2023",
+          "journal-title": "Multimed Tools Appl"
+        },
+        {
+          "key": "ref138",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Liu X, Wang Z. Deep learning in medical image classification from mri-based brain tumor images. arXiv:2408.00636. 2024.",
+          "DOI": "10.1109/ICPICS62053.2024.10796108"
+        },
+        {
+          "key": "ref139",
+          "doi-asserted-by": "crossref",
+          "first-page": "323",
+          "DOI": "10.25007/ajnu.v12n4a1985",
+          "article-title": "Enhancing brain tumor classification with data augmentation and DenseNet121",
+          "volume": "12",
+          "author": "Zebari",
+          "year": "2023",
+          "journal-title": "Acad J Nawroz Univ"
+        },
+        {
+          "key": "ref140",
+          "doi-asserted-by": "crossref",
+          "first-page": "1335740",
+          "DOI": "10.3389/fonc.2024.1335740",
+          "article-title": "Brain tumor classification from MRI scans: a framework of hybrid deep learning model with Bayesian optimization and quantum theory-based marine predator algorithm",
+          "volume": "14",
+          "author": "Ullah",
+          "year": "2024",
+          "journal-title": "Front Oncol"
+        },
+        {
+          "key": "ref141",
+          "series-title": "AIP Conference Proceedings",
+          "article-title": "An analysis of convolutional neural network and conventional machine learning for multiclass brain tumor detection",
+          "author": "Yadav",
+          "year": "2024"
+        },
+        {
+          "key": "ref142",
+          "doi-asserted-by": "crossref",
+          "first-page": "2338994",
+          "DOI": "10.1080/23311916.2024.2338994",
+          "article-title": "Feature extraction-based liver tumor classification using machine learning and deep learning methods of computed tomography images",
+          "volume": "11",
+          "author": "Malik",
+          "year": "2024",
+          "journal-title": "Cogent Eng"
+        },
+        {
+          "key": "ref143",
+          "doi-asserted-by": "crossref",
+          "first-page": "710",
+          "DOI": "10.1080/07357907.2024.2391359",
+          "article-title": "Liver cancer diagnosis: enhanced deep maxout model with improved feature set",
+          "volume": "42",
+          "author": "Tejaswi",
+          "year": "2024",
+          "journal-title": "Cancer Investig"
+        }
+      ],
+      "container-title": [
+        "Computer Modeling in Engineering &amp; Sciences"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.techscience.com/CMES/v142n1/58990/pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            7
+          ]
+        ],
+        "date-time": "2025-03-07T00:54:24Z",
+        "timestamp": 1741308864000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.techscience.com/CMES/v142n1/58990"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "references-count": 143,
+      "journal-issue": {
+        "issue": "1",
+        "published-online": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.32604/cmes.2024.057214",
+      "relation": {},
+      "ISSN": [
+        "1526-1506"
+      ],
+      "issn-type": [
+        {
+          "value": "1526-1506",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2024-08-11",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2024-11-18",
+          "order": 1,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2024-12-17",
+          "order": 2,
+          "name": "published",
+          "label": "Published Online",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Shanmugasundaram Hariharan",
+      "given_name_from_source": "Shanmugasundaram",
+      "family_name_from_source": "Hariharan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "D. Anandan",
+      "given_name_from_source": "D.",
+      "family_name_from_source": "Anandan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Murugaperumal Krishnamoorthy",
+      "given_name_from_source": "Murugaperumal",
+      "family_name_from_source": "Krishnamoorthy",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Vinay Kukreja",
+      "given_name_from_source": "Vinay",
+      "family_name_from_source": "Kukreja",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Nitin Goyal",
+      "given_name_from_source": "Nitin",
+      "family_name_from_source": "Goyal",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "Shih-Yu Chen",
+      "given_name_from_source": "Shih-Yu",
+      "family_name_from_source": "Chen",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

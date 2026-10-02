@@ -1,0 +1,780 @@
+{
+  "doi": "10.1016/j.compeleceng.2025.110814",
+  "title": "A high-dimensional data-driven approach for enhancing cyber-physical attack detection in PV-connected distribution power grids using deep Q-networks",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Computers and Electrical Engineering",
+  "publisher": "Elsevier BV",
+  "publication_date": null,
+  "online_publication_date": null,
+  "print_publication_date": null,
+  "volume": "129",
+  "issue": null,
+  "pages_or_article_number": "110814",
+  "issn": "0045-7906",
+  "eissn": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1016/j.compeleceng.2025.110814",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:24.476672+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            23
+          ]
+        ],
+        "date-time": "2026-09-23T17:28:39Z",
+        "timestamp": 1790184519043,
+        "version": "4.1.0"
+      },
+      "reference-count": 36,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2026-01-01T00:00:00Z",
+            "timestamp": 1767225600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2026-01-01T00:00:00Z",
+            "timestamp": 1767225600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2026-01-01T00:00:00Z",
+            "timestamp": 1767225600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-017"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2026-01-01T00:00:00Z",
+            "timestamp": 1767225600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2026-01-01T00:00:00Z",
+            "timestamp": 1767225600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-012"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2026-01-01T00:00:00Z",
+            "timestamp": 1767225600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2026-01-01T00:00:00Z",
+            "timestamp": 1767225600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-004"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Computers and Electrical Engineering"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            1
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.compeleceng.2025.110814",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            17
+          ]
+        ],
+        "date-time": "2025-11-17T13:48:30Z",
+        "timestamp": 1763387310000
+      },
+      "page": "110814",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "special_numbering": "PB",
+      "title": [
+        "A high-dimensional data-driven approach for enhancing cyber-physical attack detection in PV-connected distribution power grids using deep Q-networks"
+      ],
+      "prefix": "10.1016",
+      "volume": "129",
+      "author": [
+        {
+          "given": "A. Ananda",
+          "family": "Kumar",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dr. K․",
+          "family": "Srikumar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dr. G. Nageswara",
+          "family": "Rao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "issue": "17",
+          "key": "10.1016/j.compeleceng.2025.110814_bib0001",
+          "doi-asserted-by": "crossref",
+          "first-page": "5375",
+          "DOI": "10.3390/en14175375",
+          "article-title": "Distributed generation and renewable energy integration into the grid: prerequisites, push factors, practical options, issues and merits",
+          "volume": "14",
+          "author": "Iweh",
+          "year": "2021",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.compeleceng.2025.110814_bib0002",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Khoei T.T., Slimane H.O., Kaabouch N. (2022) A comprehensive survey on the cyber-security of smart grids: cyber-attacks, detection, countermeasure techniques, and future directions arXiv preprint arXiv:2207.07738.",
+          "DOI": "10.4236/cn.2022.144009"
+        },
+        {
+          "key": "10.1016/j.compeleceng.2025.110814_bib0003",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.ress.2022.108445",
+          "article-title": "Anomaly detection and diagnosis for wind turbines using long short-term memory-based stacked denoising autoencoders and XGBoost",
+          "volume": "222",
+          "author": "Zhang",
+          "year": "2022",
+          "journal-title": "Reliab Eng Syst Saf"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.compeleceng.2025.110814_bib0004",
+          "doi-asserted-by": "crossref",
+          "first-page": "2415",
+          "DOI": "10.3390/s23052415",
+          "article-title": "Survey on intrusion detection systems based on machine learning techniques for the protection of critical infrastructure",
+          "volume": "23",
+          "author": "Pinto",
+          "year": "2023",
+          "journal-title": "Sensors"
+        },
+        {
+          "key": "10.1016/j.compeleceng.2025.110814_bib0005",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1080/15325008.2023.2288305",
+          "article-title": "Evolutionary and swarm based optimization of fit k-nearest neighbor classifier for classification of power quality disturbances",
+          "volume": "1",
+          "author": "Li",
+          "year": "2023",
+          "journal-title": "Electric Power Comp Syst"
+        },
+        {
+          "key": "10.1016/j.compeleceng.2025.110814_bib0006",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.compbiomed.2022.105943",
+          "article-title": "Abnormality classification and localization using dual-branch whole-region-based CNN model with histopathological images",
+          "volume": "149",
+          "author": "Oyelade",
+          "year": "2022",
+          "journal-title": "Comput Biol Med"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.compeleceng.2025.110814_bib0007",
+          "doi-asserted-by": "crossref",
+          "first-page": "313",
+          "DOI": "10.1007/s11761-022-00349-1",
+          "article-title": "Detection of cyber attacks in smart grids using SVM-boosted machine learning models",
+          "volume": "16",
+          "author": "Alwageed",
+          "year": "2022",
+          "journal-title": "Serv Orient Comput Appl"
+        },
+        {
+          "key": "10.1016/j.compeleceng.2025.110814_bib0008",
+          "doi-asserted-by": "crossref",
+          "first-page": "119596",
+          "DOI": "10.1109/ACCESS.2023.3327640",
+          "article-title": "K-means and alternative clustering methods in modern power systems",
+          "volume": "11",
+          "author": "Miraftabzadeh",
+          "year": "2023",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.compeleceng.2025.110814_bib0009",
+          "doi-asserted-by": "crossref",
+          "first-page": "48",
+          "DOI": "10.1016/j.inffus.2021.02.007",
+          "article-title": "On learning effective ensembles of deep neural networks for intrusion detection",
+          "volume": "72",
+          "author": "Folino",
+          "year": "2021",
+          "journal-title": "Inf Fusion"
+        },
+        {
+          "key": "10.1016/j.compeleceng.2025.110814_bib0010",
+          "doi-asserted-by": "crossref",
+          "first-page": "120043",
+          "DOI": "10.1109/ACCESS.2021.3107975",
+          "article-title": "Deep learning for anomaly detection in time-series data: review, analysis, and guidelines",
+          "volume": "9",
+          "author": "Choi",
+          "year": "2021",
+          "journal-title": "IEEE access"
+        },
+        {
+          "key": "10.1016/j.compeleceng.2025.110814_bib0011",
+          "article-title": "A survey on explainable artificial intelligence for internet traffic classification and prediction, and intrusion detection",
+          "author": "Nascita",
+          "year": "2024",
+          "journal-title": "IEEE Commun Surv Tut"
+        },
+        {
+          "key": "10.1016/j.compeleceng.2025.110814_bib0012",
+          "series-title": "Applications of big data and artificial intelligence in smart energy systems",
+          "first-page": "169",
+          "article-title": "AI Business Model is Emerging Energy Market and Smart Grid",
+          "author": "Raval",
+          "year": "2023"
+        },
+        {
+          "issue": "14",
+          "key": "10.1016/j.compeleceng.2025.110814_bib0013",
+          "doi-asserted-by": "crossref",
+          "first-page": "5312",
+          "DOI": "10.3390/en15145312",
+          "article-title": "Real-time locational detection of stealthy false data injection attack in smart grid: using multivariate-based multi-label classification approach",
+          "volume": "15",
+          "author": "Hegazy",
+          "year": "2022",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.compeleceng.2025.110814_bib0014",
+          "doi-asserted-by": "crossref",
+          "first-page": "1075",
+          "DOI": "10.1016/j.neucom.2022.06.002",
+          "article-title": "A survey on neural networks for (cyber-) security and (cyber security) of neural networks",
+          "volume": "500",
+          "author": "Pawlicki",
+          "year": "2022",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.compeleceng.2025.110814_bib0015",
+          "doi-asserted-by": "crossref",
+          "first-page": "328",
+          "DOI": "10.3390/info12080328",
+          "article-title": "Detecting cyber attacks in smart grids using semi-supervised anomaly detection and deep representation learning",
+          "volume": "12",
+          "author": "Qi",
+          "year": "2021",
+          "journal-title": "Information"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.compeleceng.2025.110814_bib0016",
+          "doi-asserted-by": "crossref",
+          "first-page": "761",
+          "DOI": "10.1109/THMS.2022.3163185",
+          "article-title": "Dynamic role-based access control policy for smart grid applications: an offline deep reinforcement learning approach",
+          "volume": "52",
+          "author": "Fragkos",
+          "year": "2022",
+          "journal-title": "IEEE Trans Hum Mach Syst"
+        },
+        {
+          "key": "10.1016/j.compeleceng.2025.110814_bib0017",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.cose.2024.103821",
+          "article-title": "A survey on graph neural networks for intrusion detection systems: methods, trends and challenges",
+          "author": "Zhong",
+          "year": "2024",
+          "journal-title": "Comput Secur"
+        },
+        {
+          "key": "10.1016/j.compeleceng.2025.110814_bib0018",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2021.115019",
+          "article-title": "A hybrid model integrating deep learning with investor sentiment analysis for stock price prediction",
+          "volume": "178",
+          "author": "Jing",
+          "year": "2021",
+          "journal-title": "Expert Syst Appl"
+        },
+        {
+          "issue": "15",
+          "key": "10.1016/j.compeleceng.2025.110814_bib0019",
+          "doi-asserted-by": "crossref",
+          "first-page": "3283",
+          "DOI": "10.3390/electronics12153283",
+          "article-title": "A review of anomaly detection strategies to detect threats to cyber-physical systems",
+          "volume": "12",
+          "author": "Jeffrey",
+          "year": "2023",
+          "journal-title": "Electronics"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.compeleceng.2025.110814_bib0020",
+          "doi-asserted-by": "crossref",
+          "first-page": "33",
+          "DOI": "10.3390/computation13020033",
+          "article-title": "A novel ConvXGBoost method for detection and identification of cyberattacks on grid-connected photovoltaic (PV) inverter system",
+          "volume": "13",
+          "author": "Vodapally",
+          "year": "2025",
+          "journal-title": "Computation"
+        },
+        {
+          "key": "10.1016/j.compeleceng.2025.110814_bib0021",
+          "article-title": "A hybrid deep learning model for discrimination of physical disturbance and cyber-attack detection in smart grid",
+          "volume": "40",
+          "author": "Bitirgen",
+          "year": "2023",
+          "journal-title": "Int J Crit Infrastruct Protect"
+        },
+        {
+          "key": "10.1016/j.compeleceng.2025.110814_bib0022",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.apenergy.2022.119688",
+          "article-title": "Resilience enhancement of multi-agent reinforcement learning-based demand response against adversarial attacks",
+          "volume": "324",
+          "author": "Zeng",
+          "year": "2022",
+          "journal-title": "Appl Energy"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.compeleceng.2025.110814_bib0023",
+          "doi-asserted-by": "crossref",
+          "first-page": "2095",
+          "DOI": "10.1109/TIA.2023.3297089",
+          "article-title": "Design of reliable IoT systems with deep learning to support resilient demand side management in smart grids against adversarial attacks",
+          "volume": "60",
+          "author": "Elsisi",
+          "year": "2023",
+          "journal-title": "IEEE Trans Ind Appl"
+        },
+        {
+          "key": "10.1016/j.compeleceng.2025.110814_bib0024",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.compeleceng.2024.109188",
+          "article-title": "Ensemble LOF-based detection of false data injection in smart grid demand response system",
+          "volume": "116",
+          "author": "Tirulo",
+          "year": "2024",
+          "journal-title": "Comput Electric Eng"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.compeleceng.2025.110814_bib0025",
+          "doi-asserted-by": "crossref",
+          "first-page": "280",
+          "DOI": "10.1109/TSG.2021.3115910",
+          "article-title": "Deep domain adaptation for non-intrusive load monitoring based on a knowledge transfer learning network",
+          "volume": "13",
+          "author": "Lin",
+          "year": "2021",
+          "journal-title": "IEEE Trans Smart Grid"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.compeleceng.2025.110814_bib0026",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1145/3585386",
+          "article-title": "VulANalyzeR: explainable binary vulnerability detection with multi-task learning and attentional graph convolution",
+          "volume": "26",
+          "author": "Li",
+          "year": "2023",
+          "journal-title": "ACM Tran Priv Secur"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.compeleceng.2025.110814_bib0027",
+          "doi-asserted-by": "crossref",
+          "first-page": "754",
+          "DOI": "10.1109/JPROC.2022.3171691",
+          "article-title": "A comprehensive review on signal-based and model-based condition monitoring of wind turbines: fault diagnosis and lifetime prognosis",
+          "volume": "110",
+          "author": "Badihi",
+          "year": "2022",
+          "journal-title": "Proc IEEE"
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.compeleceng.2025.110814_bib0028",
+          "doi-asserted-by": "crossref",
+          "first-page": "3876",
+          "DOI": "10.3390/s23083876",
+          "article-title": "Utilization of 5G technologies in IoT applications: current limitations by interference and network optimization difficulties—a review",
+          "volume": "23",
+          "author": "Pons",
+          "year": "2023",
+          "journal-title": "Sensors"
+        },
+        {
+          "key": "10.1016/j.compeleceng.2025.110814_bib0029",
+          "doi-asserted-by": "crossref",
+          "first-page": "59675",
+          "DOI": "10.1109/ACCESS.2022.3178987",
+          "article-title": "Cyberphysical security of grid battery energy storage systems",
+          "volume": "10",
+          "author": "Trevizan",
+          "year": "2022",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.compeleceng.2025.110814_bib0030",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.compeleceng.2024.109694",
+          "article-title": "Revolutionizing PV grid integration: metaheuristic optimization of fractional PI controllers in T-type neutral point piloted inverters for enhanced performance",
+          "volume": "120",
+          "author": "Lalaymia",
+          "year": "2024",
+          "journal-title": "Comput Electric Eng"
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.compeleceng.2025.110814_bib0031",
+          "doi-asserted-by": "crossref",
+          "first-page": "226",
+          "DOI": "10.3390/technologies12110226",
+          "article-title": "Optimized Energy Management Strategy for an Autonomous DC Microgrid Integrating PV/Wind/Battery/Diesel-Based Hybrid PSO-GA-LADRC Through SAPF",
+          "volume": "12",
+          "author": "Ibrahim",
+          "year": "2024",
+          "journal-title": "Technologies"
+        },
+        {
+          "key": "10.1016/j.compeleceng.2025.110814_bib0032",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2023.120649",
+          "article-title": "Comparative study on the performance of different machine learning techniques to predict the shear strength of RC deep beams: model selection and industry implications",
+          "volume": "230",
+          "author": "Le Nguyen",
+          "year": "2023",
+          "journal-title": "Expert Syst Appl"
+        },
+        {
+          "key": "10.1016/j.compeleceng.2025.110814_bib0033",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2022.117493",
+          "article-title": "An improved group teaching optimization algorithm based on local search and chaotic map for feature selection in high-dimensional data",
+          "volume": "204",
+          "author": "Khosravi",
+          "year": "2022",
+          "journal-title": "Expert Syst Appl"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.compeleceng.2025.110814_bib0034",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1038/s41598-019-50262-5",
+          "article-title": "A novel hybrid model for predicting blast-induced ground vibration based on k-nearest neighbors and particle swarm optimization",
+          "volume": "9",
+          "author": "Bui",
+          "year": "2019",
+          "journal-title": "Sci Rep"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.compeleceng.2025.110814_bib0035",
+          "doi-asserted-by": "crossref",
+          "first-page": "490",
+          "DOI": "10.5658/WOOD.2022.50.6.490",
+          "article-title": "Mask region-based convolutional neural network (R-CNN) based image segmentation of rays in softwoods",
+          "volume": "50",
+          "author": "Yoo",
+          "year": "2022",
+          "journal-title": "J Korean Wood Sci Technol"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.compeleceng.2025.110814_bib0036",
+          "doi-asserted-by": "crossref",
+          "first-page": "754",
+          "DOI": "10.3390/w14050754",
+          "article-title": "Modeling reference crop evapotranspiration using support vector machine (SVM) and extreme learning machine (ELM) in region IV-A, Philippines",
+          "volume": "14",
+          "author": "Tejada",
+          "year": "2022",
+          "journal-title": "Water"
+        }
+      ],
+      "container-title": [
+        "Computers and Electrical Engineering"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0045790625007578?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0045790625007578?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            5
+          ]
+        ],
+        "date-time": "2025-12-05T14:11:13Z",
+        "timestamp": 1764943873000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0045790625007578"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            1
+          ]
+        ]
+      },
+      "references-count": 36,
+      "alternative-id": [
+        "S0045790625007578"
+      ],
+      "URL": "https://doi.org/10.1016/j.compeleceng.2025.110814",
+      "relation": {},
+      "ISSN": [
+        "0045-7906"
+      ],
+      "issn-type": [
+        {
+          "value": "0045-7906",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            1
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "A high-dimensional data-driven approach for enhancing cyber-physical attack detection in PV-connected distribution power grids using deep Q-networks",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Computers and Electrical Engineering",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.compeleceng.2025.110814",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2025 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "110814"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "A. Ananda Kumar",
+      "given_name_from_source": "A. Ananda",
+      "family_name_from_source": "Kumar",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Dr. K․ Srikumar",
+      "given_name_from_source": "Dr. K․",
+      "family_name_from_source": "Srikumar",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Dr. G. Nageswara Rao",
+      "given_name_from_source": "Dr. G. Nageswara",
+      "family_name_from_source": "Rao",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

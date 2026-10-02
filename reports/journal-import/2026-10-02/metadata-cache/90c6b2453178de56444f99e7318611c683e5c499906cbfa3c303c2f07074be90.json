@@ -1,0 +1,640 @@
+{
+  "doi": "10.1049/qtc2.12113",
+  "title": "Enhanced QSVM with elitist non‐dominated sorting genetic optimisation algorithm for breast cancer diagnosis",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "IET Quantum Communication",
+  "publisher": "Institution of Engineering and Technology (IET)",
+  "publication_date": "2024-10-23",
+  "online_publication_date": "2024-10-23",
+  "print_publication_date": null,
+  "volume": "5",
+  "issue": "4",
+  "pages_or_article_number": "384-398",
+  "issn": "2632-8925",
+  "eissn": "2632-8925",
+  "isbn": null,
+  "url": "https://doi.org/10.1049/qtc2.12113",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:58.674291+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            11
+          ]
+        ],
+        "date-time": "2026-09-11T17:25:15Z",
+        "timestamp": 1789147515973,
+        "version": "build-2803163510"
+      },
+      "reference-count": 36,
+      "publisher": "Institution of Engineering and Technology (IET)",
+      "issue": "4",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                23
+              ]
+            ],
+            "date-time": "2024-10-23T00:00:00Z",
+            "timestamp": 1729641600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "ietresearch.onlinelibrary.wiley.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "IET Quantum Communication"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            12
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Machine learning has emerged as a promising method for predicting breast cancer using quantum computation techniques. Quantum machine learning algorithms, such as quantum support vector machines (QSVMs), are demonstrating superior efficiency and economy in tackling complex problems compared to traditional machine learning methods. When compared with classical support vector machine, the quantum machine produces remarkably accurate results. The suggested quantum SVM model in this study effectively resolved the binary classification problem for diagnosing malignant breast cancer. This work introduces an enhanced approach to breast cancer diagnosis by integrating QSVM with elitist non‐dominated sorting genetic optimization (ENSGA), leveraging the strengths of both techniques to achieve more accurate and efficient classification results. ENSGA plays a crucial role in optimising QSVM parameters, ensuring that the model attains the best possible classification accuracy while considering multiple objectives simultaneously. Moreover, the quantum kernel estimation method demonstrated exceptional performance by achieving high accuracy within an impressive execution time of 0.14 in the IBM QSVM simulator. The seamless integration of quantum computation techniques with optimisation strategies such as ENSGA highlights the potential of quantum machine learning in revolutionising the field of healthcare, particularly in the domain of breast cancer diagnosis.</jats:p>",
+      "DOI": "10.1049/qtc2.12113",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            23
+          ]
+        ],
+        "date-time": "2024-10-23T07:09:26Z",
+        "timestamp": 1729667366000
+      },
+      "page": "384-398",
+      "update-policy": "https://doi.org/10.1002/crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 20,
+      "title": [
+        "Enhanced QSVM with elitist non‐dominated sorting genetic optimisation algorithm for breast cancer diagnosis"
+      ],
+      "prefix": "10.1049",
+      "volume": "5",
+      "author": [
+        {
+          "given": "Jose",
+          "family": "P",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of CSE Vel Tech Rangarajan Dr. Sagunthala R&amp;D Institute of Science and Technology  Morai India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9686-4329",
+          "authenticated-orcid": false,
+          "given": "Shanmugasundaram",
+          "family": "Hariharan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science and Engineering Vardhaman College of Engineering  Hyderabad India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Vimaladevi",
+          "family": "Madhivanan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computational Intelligence SRM Institute of Science and Technology  Chennai India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sujaudeen",
+          "family": "N",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Sri Sivasubramaniya Nadar College of Engineering  Chennai India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0203-0700",
+          "authenticated-orcid": false,
+          "given": "Murugaperumal",
+          "family": "Krisnamoorthy",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering Vardhaman College of Engineering  Hyderabad India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8455-9108",
+          "authenticated-orcid": false,
+          "given": "Aswani Kumar",
+          "family": "Cherukuri",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vellore Institute of Technology  Vellore India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "265",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            23
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "issue": "3",
+          "key": "e_1_2_10_2_1",
+          "first-page": "31",
+          "article-title": "Support vector machines and kernel methods: the new generation of learning machines",
+          "volume": "23",
+          "author": "Cristianini N.",
+          "year": "2022",
+          "journal-title": "AI Mag"
+        },
+        {
+          "key": "e_1_2_10_3_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/78.650102"
+        },
+        {
+          "key": "e_1_2_10_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/tnnls.2021.3084467"
+        },
+        {
+          "key": "e_1_2_10_5_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7551/mitpress/4175.001.0001"
+        },
+        {
+          "key": "e_1_2_10_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neunet.2022.03.043"
+        },
+        {
+          "key": "e_1_2_10_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/qute.201900038"
+        },
+        {
+          "key": "e_1_2_10_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/access.2023.3297498"
+        },
+        {
+          "key": "e_1_2_10_9_1",
+          "unstructured": "Kariya A.andBikash K.B.:Investigation of quantum support vector machine for classification in NISQ era ” arXiv preprint arXiv:2112.06912 (2021)"
+        },
+        {
+          "key": "e_1_2_10_10_1",
+          "unstructured": "Park J.E. et al.:Practical application improvement to Quantum SVM: theory to practice ” arXiv preprint arXiv:2012.07725 (2020)"
+        },
+        {
+          "key": "e_1_2_10_11_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gujju Y. Atsushi M.andRudy R.:Quantum machine learning on near‐term quantum devices: current state of supervised and unsupervised techniques for real‐world applications ” arXiv preprint arXiv:2307.00908 (2023)",
+          "DOI": "10.1103/PhysRevApplied.21.067001"
+        },
+        {
+          "key": "e_1_2_10_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/physreva.103.032430"
+        },
+        {
+          "key": "e_1_2_10_13_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.37391/ijeer.100252"
+        },
+        {
+          "key": "e_1_2_10_14_1",
+          "unstructured": "Park J.E. et al.:Practical Application Improvement to Quantum SVM: Theory to Practice(2020). arXiv preprint arXiv:2012.07725"
+        },
+        {
+          "key": "e_1_2_10_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.physa.2023.128938"
+        },
+        {
+          "key": "e_1_2_10_16_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.enconman.2023.117555"
+        },
+        {
+          "key": "e_1_2_10_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/electronics12112379"
+        },
+        {
+          "key": "e_1_2_10_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467‐023‐36159‐y"
+        },
+        {
+          "key": "e_1_2_10_19_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s12065‐022‐00756‐5"
+        },
+        {
+          "key": "e_1_2_10_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s42979‐021‐00592‐x"
+        },
+        {
+          "key": "e_1_2_10_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.32604/iasc.2022.017304"
+        },
+        {
+          "key": "e_1_2_10_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.asoc.2006.03.001"
+        },
+        {
+          "key": "e_1_2_10_23_1",
+          "first-page": "690",
+          "article-title": "Exploring the potential of quantum machine learning in cancer research",
+          "volume": "13",
+          "author": "Mukku L.",
+          "year": "2023",
+          "journal-title": "Ann. Med. Health Sci. Res."
+        },
+        {
+          "key": "e_1_2_10_24_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467‐021‐22539‐9"
+        },
+        {
+          "key": "e_1_2_10_25_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s43588‐022‐00311‐3"
+        },
+        {
+          "key": "e_1_2_10_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/09720502.2020.1731948"
+        },
+        {
+          "key": "e_1_2_10_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467‐023‐36159‐y"
+        },
+        {
+          "issue": "1",
+          "key": "e_1_2_10_28_1",
+          "first-page": "998",
+          "article-title": "Design and analysis of quantum powered support vector machines for malignant breast cancer diagnosis",
+          "volume": "30",
+          "author": "Vashisth S.",
+          "year": "2021",
+          "journal-title": "Intell. Syst."
+        },
+        {
+          "key": "e_1_2_10_29_1",
+          "unstructured": "https://github.com/Josekiruba/QSVM/blob/main/Source%20code‐QSVM.docx"
+        },
+        {
+          "key": "e_1_2_10_30_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598‐024‐61322‐w"
+        },
+        {
+          "key": "e_1_2_10_31_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/info15020072"
+        },
+        {
+          "key": "e_1_2_10_32_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1088/1572‐9494/ad48fc"
+        },
+        {
+          "key": "e_1_2_10_33_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/access.2024.3374890"
+        },
+        {
+          "key": "e_1_2_10_34_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ins.2021.11.052"
+        },
+        {
+          "key": "e_1_2_10_35_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ins.2024.120269"
+        },
+        {
+          "key": "e_1_2_10_36_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s13198‐023‐01955‐8"
+        },
+        {
+          "key": "e_1_2_10_37_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1142/s0219649224500291"
+        }
+      ],
+      "container-title": [
+        "IET Quantum Communication"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/qtc2.12113",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            28
+          ]
+        ],
+        "date-time": "2025-10-28T21:52:45Z",
+        "timestamp": 1761688365000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/qtc2.12113"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            23
+          ]
+        ]
+      },
+      "references-count": 36,
+      "journal-issue": {
+        "issue": "4",
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              12
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1049/qtc2.12113"
+      ],
+      "URL": "https://doi.org/10.1049/qtc2.12113",
+      "archive": [
+        "Portico"
+      ],
+      "relation": {},
+      "ISSN": [
+        "2632-8925",
+        "2632-8925"
+      ],
+      "issn-type": [
+        {
+          "value": "2632-8925",
+          "type": "print"
+        },
+        {
+          "value": "2632-8925",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            23
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2024-05-30",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2024-09-07",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2024-10-23",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Jose P",
+      "given_name_from_source": "Jose",
+      "family_name_from_source": "P",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of CSE Vel Tech Rangarajan Dr. Sagunthala R&amp;D Institute of Science and Technology  Morai India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Shanmugasundaram Hariharan",
+      "given_name_from_source": "Shanmugasundaram",
+      "family_name_from_source": "Hariharan",
+      "orcid_from_source": "https://orcid.org/0000-0001-9686-4329",
+      "affiliation_from_source": [
+        "Department of Computer Science and Engineering Vardhaman College of Engineering  Hyderabad India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Vimaladevi Madhivanan",
+      "given_name_from_source": "Vimaladevi",
+      "family_name_from_source": "Madhivanan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Computational Intelligence SRM Institute of Science and Technology  Chennai India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Sujaudeen N",
+      "given_name_from_source": "Sujaudeen",
+      "family_name_from_source": "N",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Sri Sivasubramaniya Nadar College of Engineering  Chennai India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Murugaperumal Krisnamoorthy",
+      "given_name_from_source": "Murugaperumal",
+      "family_name_from_source": "Krisnamoorthy",
+      "orcid_from_source": "https://orcid.org/0000-0002-0203-0700",
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering Vardhaman College of Engineering  Hyderabad India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "Aswani Kumar Cherukuri",
+      "given_name_from_source": "Aswani Kumar",
+      "family_name_from_source": "Cherukuri",
+      "orcid_from_source": "https://orcid.org/0000-0001-8455-9108",
+      "affiliation_from_source": [
+        "Vellore Institute of Technology  Vellore India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

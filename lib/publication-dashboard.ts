@@ -1,0 +1,10 @@
+export const PRIMARY={total:"Total Publications",journal:"Journals",conference:"Conferences",faculty_claimants:"Faculty Claimants",with_students:"Publications with Students"};
+export const INDEX_CARDS={sci:"SCI",scie:"SCIE",scopus:"Scopus",web_of_science:"Web of Science",esci:"ESCI",ugc_care:"UGC CARE"};
+export const INDEX_DISTRIBUTION={...INDEX_CARDS,indexing_other:"Other",none:"None",indexing_unknown:"Unknown"};
+export const QUALITY={q1:"Q1",q2:"Q2",q3:"Q3",q4:"Q4",international:"International",national:"National"};
+export const QUARTILES={q1:"Q1",q2:"Q2",q3:"Q3",q4:"Q4",not_applicable:"Not Applicable",quartile_unknown:"Unknown"};
+export const CLASSIFICATION={international:"International",national:"National",other:"Other",classification_unknown:"Unknown"};
+export const ATTENTION={missing_claimant:"Missing Claimant",indexing_unknown:"Indexing Unknown",classification_unknown:"Classification Unknown",quartile_unknown:"Quartile Unknown",internal_unknown:"Publications with Unclassified Internal Authors",missing_evidence:"Missing Evidence"};
+export const FACULTY_COLUMNS={claimed:"Claimed",authored:"Authored",journal_claimed:"Journal Claimed",conference_claimed:"Conference Claimed",scopus:"Scopus",sci_scie:"SCI/SCIE",q1:"Q1",q2:"Q2",with_students:"Publications with Students"};
+export type FacultySummary={id:number;name:string}&Record<keyof typeof FACULTY_COLUMNS,number>;
+export type DashboardReport={totals:Record<string,number>;faculty:FacultySummary[];trend:{month:string;from_date:string;to_date:string;total:number;journal:number;conference:number}[];recent:{id:number;title:string;publication_date:string;publication_type:string;claimant:string|null;indexing:string[];classification:string;quartile:string|null}[]};

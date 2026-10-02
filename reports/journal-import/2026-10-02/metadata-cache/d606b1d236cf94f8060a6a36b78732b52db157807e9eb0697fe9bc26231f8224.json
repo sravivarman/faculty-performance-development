@@ -1,0 +1,473 @@
+{
+  "doi": "10.1080/15325008.2023.2207177",
+  "title": "Real-Time Implementation of a Seven-Level Multilevel DC Link Inverter for Solar PV System during Partial Shading",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Electric Power Components and Systems",
+  "publisher": "Informa UK Limited",
+  "publication_date": "2023-05-08",
+  "online_publication_date": "2023-05-08",
+  "print_publication_date": "2023-11-08",
+  "volume": "51",
+  "issue": "18",
+  "pages_or_article_number": "2125-2134",
+  "issn": "1532-5008",
+  "eissn": "1532-5016",
+  "isbn": null,
+  "url": "https://doi.org/10.1080/15325008.2023.2207177",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:45.042108+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            6
+          ]
+        ],
+        "date-time": "2026-04-06T08:54:46Z",
+        "timestamp": 1775465686663,
+        "version": "3.50.1"
+      },
+      "reference-count": 15,
+      "publisher": "Informa UK Limited",
+      "issue": "18",
+      "content-domain": {
+        "domain": [
+          "www.tandfonline.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Electric Power Components and Systems"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            8
+          ]
+        ]
+      },
+      "DOI": "10.1080/15325008.2023.2207177",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            8
+          ]
+        ],
+        "date-time": "2023-05-08T15:04:15Z",
+        "timestamp": 1683558255000
+      },
+      "page": "2125-2134",
+      "update-policy": "https://doi.org/10.1080/tandf_crossmark_01",
+      "source": "Crossref",
+      "is-referenced-by-count": 10,
+      "title": [
+        "Real-Time Implementation of a Seven-Level Multilevel DC Link Inverter for Solar PV System during Partial Shading"
+      ],
+      "prefix": "10.1080",
+      "volume": "51",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-8697-1611",
+          "authenticated-orcid": false,
+          "given": "Niraimathi",
+          "family": "Ramachandran",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of EEE, Mohamed Sathak Engineering College",
+              "place": [
+                "Kilakarai, India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Shanthi",
+          "family": "Murugan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of ECE, University College of Engineering",
+              "place": [
+                "Ramanathapuram, India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Chamundeeswari",
+          "family": "Vinayagam",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of EEE, St. Joseph’s College of Engineering",
+              "place": [
+                "Chennai, India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1561-1376",
+          "authenticated-orcid": false,
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of EEE, Vardhaman College of Engineering",
+              "place": [
+                "Hyderabad, India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "301",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            8
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_3_1_2_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0927-0248(02)00134-4"
+        },
+        {
+          "key": "e_1_3_1_3_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPEL.2004.830090"
+        },
+        {
+          "key": "e_1_3_1_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPEL.2003.809375"
+        },
+        {
+          "key": "e_1_3_1_5_1",
+          "first-page": "2348",
+          "volume-title": "Conf. Rec. 1995 IEEE-IAS Annu. Meeting",
+          "author": "Lai J. S.",
+          "unstructured": "J. S. Lai and F. Z. Peng, “Multilevel converters—a new breed of power converters,” Conf. Rec. 1995 IEEE-IAS Annu. Meeting, pp. 2348–2356."
+        },
+        {
+          "key": "e_1_3_1_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/28.536875"
+        },
+        {
+          "key": "e_1_3_1_7_1",
+          "first-page": "286",
+          "volume-title": "Proc. 4th IEEE Int. Conf. Power Electronics and Drive Systems",
+          "volume": "1",
+          "author": "Takahashi I.",
+          "year": "2001",
+          "unstructured": "I. Takahashi and K. Iwaya, “100 kHz, 10 kW switching type power amplifier using multilevel inverter,” Proc. 4th IEEE Int. Conf. Power Electronics and Drive Systems, vol. 1, pp. 286–291, Oct. 22–25, 2001."
+        },
+        {
+          "key": "e_1_3_1_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TIE.2008.922601"
+        },
+        {
+          "key": "e_1_3_1_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ECCE.2009.5316126"
+        },
+        {
+          "key": "e_1_3_1_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TEC.2006.874230"
+        },
+        {
+          "key": "e_1_3_1_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/EPE.2007.4417684"
+        },
+        {
+          "key": "e_1_3_1_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/en15176172"
+        },
+        {
+          "key": "e_1_3_1_13_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1049/ip-gtd:19951577"
+        },
+        {
+          "key": "e_1_3_1_14_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/PESC.2008.4592141"
+        },
+        {
+          "key": "e_1_3_1_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPEL.2012.2209460"
+        },
+        {
+          "key": "e_1_3_1_16_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TIA.2005.847306"
+        }
+      ],
+      "container-title": [
+        "Electric Power Components and Systems"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.tandfonline.com/doi/pdf/10.1080/15325008.2023.2207177",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            6
+          ]
+        ],
+        "date-time": "2026-04-06T08:04:18Z",
+        "timestamp": 1775462658000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.tandfonline.com/doi/full/10.1080/15325008.2023.2207177"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            8
+          ]
+        ]
+      },
+      "references-count": 15,
+      "journal-issue": {
+        "issue": "18",
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              11,
+              8
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1080/15325008.2023.2207177"
+      ],
+      "URL": "https://doi.org/10.1080/15325008.2023.2207177",
+      "relation": {},
+      "ISSN": [
+        "1532-5008",
+        "1532-5016"
+      ],
+      "issn-type": [
+        {
+          "value": "1532-5008",
+          "type": "print"
+        },
+        {
+          "value": "1532-5016",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            8
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "The publishing and review policy for this title is described in its Aims & Scope.",
+          "order": 1,
+          "name": "peerreview_statement",
+          "label": "Peer Review Statement"
+        },
+        {
+          "value": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=uemp20",
+          "URL": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=uemp20",
+          "order": 2,
+          "name": "aims_and_scope_url",
+          "label": "Aim & Scope"
+        },
+        {
+          "value": "2023-02-07",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2023-04-05",
+          "order": 1,
+          "name": "revised",
+          "label": "Revised",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2023-04-23",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2023-05-08",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Niraimathi Ramachandran",
+      "given_name_from_source": "Niraimathi",
+      "family_name_from_source": "Ramachandran",
+      "orcid_from_source": "https://orcid.org/0000-0002-8697-1611",
+      "affiliation_from_source": [
+        "Department of EEE, Mohamed Sathak Engineering College"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Shanthi Murugan",
+      "given_name_from_source": "Shanthi",
+      "family_name_from_source": "Murugan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of ECE, University College of Engineering"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Chamundeeswari Vinayagam",
+      "given_name_from_source": "Chamundeeswari",
+      "family_name_from_source": "Vinayagam",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of EEE, St. Joseph’s College of Engineering"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": "https://orcid.org/0000-0003-1561-1376",
+      "affiliation_from_source": [
+        "Department of EEE, Vardhaman College of Engineering"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

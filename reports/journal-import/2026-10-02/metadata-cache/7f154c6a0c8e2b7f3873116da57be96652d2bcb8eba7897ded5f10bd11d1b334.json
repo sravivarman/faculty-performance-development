@@ -1,0 +1,843 @@
+{
+  "doi": "10.1088/2631-8695/ae2ced",
+  "title": "Dynamic image processing based reconfiguration algorithm for mitigating the power losses in partial shaded photovoltaic system",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Engineering Research Express",
+  "publisher": "IOP Publishing",
+  "publication_date": "2025-12-26",
+  "online_publication_date": "2025-12-26",
+  "print_publication_date": "2025-12-31",
+  "volume": "7",
+  "issue": "4",
+  "pages_or_article_number": "0453c2",
+  "issn": null,
+  "eissn": "2631-8695",
+  "isbn": null,
+  "url": "https://doi.org/10.1088/2631-8695/ae2ced",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:04.324786+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            26
+          ]
+        ],
+        "date-time": "2025-12-26T08:25:03Z",
+        "timestamp": 1766737503772,
+        "version": "3.48.0"
+      },
+      "reference-count": 33,
+      "publisher": "IOP Publishing",
+      "issue": "4",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                26
+              ]
+            ],
+            "date-time": "2025-12-26T00:00:00Z",
+            "timestamp": 1766707200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://publishingsupport.iopscience.iop.org/iop-standard/v1"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                26
+              ]
+            ],
+            "date-time": "2025-12-26T00:00:00Z",
+            "timestamp": 1766707200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://iopscience.iop.org/info/page/text-and-data-mining"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "iopscience.iop.org"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Eng. Res. Express"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            31
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Partial shading highly impacts the performance of solar photovoltaic (PV) systems that causes power loss. Reconfiguration algorithms are one of the solutions to overcome the consequences of partial shading. The reconfiguration method electrically rearranges the interconnections between the PV modules without altering its physical position. Generally, these methods require higher number of measurement devices for the attainment of reconfiguration pattern. This work proposes a image processing based reconfiguration methods without electrical measurements. Two types of image processing methods such as thermal image processing and tag camera image processing are developed and validated in this work. The proposed work has been validated in both simulation and experimental setup on the 2.4 kW PV system which is constructed using 16 numbers of monocrystalline modules. The validation is done under eleven realistic shading scenarios. The attainment of reconfiguration pattern is compared between both measurement-based reconfiguration and image processing-based reconfiguration. The results are shows that, the image processing attains accurate reconfiguration pattern as same as the measurement-based method. Also, this paper provides a comparative analysis of six proposed reconfiguration methods of Two-Step Reconfiguration (TSR), Couple Matching Algorithm (CMA), Thermal Image Processing-Based Two-Step Reconfiguration (T-TSR), Thermal Image Processing-Based Couple Matching Algorithm (T-CMA), Tag Camera Image Processing-Based Two-Step Reconfiguration (Tag-TSR), and Tag Camera Image Processing-Based Couple Matching Algorithm (Tag-CMA) in terms of power generation, power enhancement ratio, and mismatch losses.</jats:p>",
+      "DOI": "10.1088/2631-8695/ae2ced",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            15
+          ]
+        ],
+        "date-time": "2025-12-15T22:57:41Z",
+        "timestamp": 1765839461000
+      },
+      "page": "0453c2",
+      "update-policy": "https://doi.org/10.1088/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Dynamic image processing based reconfiguration algorithm for mitigating the power losses in partial shaded photovoltaic system"
+      ],
+      "prefix": "10.1088",
+      "volume": "7",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-0737-3961",
+          "authenticated-orcid": true,
+          "given": "Sudhakar Babu",
+          "family": "Thanikanti",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Tangirala",
+          "family": "Murali Krishna",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Devakirubakaran",
+          "family": "Samithas",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1561-1376",
+          "authenticated-orcid": true,
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Belqasem",
+          "family": "Aljafari",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "266",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            26
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "erxae2cedbib1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.buildenv.2023.110654",
+          "type": "journal-article",
+          "article-title": "Energy, exergy, and economic analysis of a solar photovoltaic and photothermal hybrid energy supply system for residential buildings",
+          "volume": "243",
+          "author": "Chen",
+          "year": "2023",
+          "journal-title": "Build. Environ."
+        },
+        {
+          "key": "erxae2cedbib2",
+          "doi-asserted-by": "publisher",
+          "first-page": "399",
+          "DOI": "10.1016/j.solener.2015.07.039",
+          "type": "journal-article",
+          "article-title": "Modeling, analysis and comparison of solar photovoltaic array configurations under partial shading conditions",
+          "volume": "120",
+          "author": "Belhachat",
+          "year": "2015",
+          "journal-title": "Sol. Energy"
+        },
+        {
+          "key": "erxae2cedbib3",
+          "doi-asserted-by": "publisher",
+          "first-page": "501",
+          "DOI": "10.1016/j.solener.2016.03.058",
+          "type": "journal-article",
+          "article-title": "Mathematical analysis of total-cross-tied photovoltaic array under partial shading condition and its comparison with other configurations",
+          "volume": "133",
+          "author": "Mohammadnejad",
+          "year": "2016",
+          "journal-title": "Sol. Energy"
+        },
+        {
+          "key": "erxae2cedbib4",
+          "doi-asserted-by": "publisher",
+          "first-page": "228",
+          "DOI": "10.1016/j.solener.2019.12.007",
+          "type": "journal-article",
+          "article-title": "Performance improvement of solar PV array topologies during various partial shading conditions",
+          "volume": "196",
+          "author": "Prince Winston",
+          "year": "2020",
+          "journal-title": "Sol. Energy"
+        },
+        {
+          "key": "erxae2cedbib5",
+          "doi-asserted-by": "publisher",
+          "first-page": "8486",
+          "DOI": "10.1109/TPEL.2016.2645449",
+          "type": "journal-article",
+          "article-title": "A novel flower pollination based global maximum power point method for solar maximum power point tracking",
+          "volume": "32",
+          "author": "Prasanth Ram",
+          "year": "2017",
+          "journal-title": "IEEE Trans. Power Electron."
+        },
+        {
+          "key": "erxae2cedbib6",
+          "doi-asserted-by": "publisher",
+          "first-page": "13",
+          "DOI": "10.1016/j.enbuild.2014.01.018",
+          "type": "journal-article",
+          "article-title": "A maximum power point tracking technique based on bypass diode mechanism for PV arrays under partial shading",
+          "volume": "73",
+          "author": "Murtaza",
+          "year": "2014",
+          "journal-title": "Energy Build."
+        },
+        {
+          "key": "erxae2cedbib7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.enconman.2020.113409",
+          "type": "journal-article",
+          "article-title": "A novel MPPT technique based on Henry gas solubility optimization",
+          "volume": "225",
+          "author": "Mirza",
+          "year": "2020",
+          "journal-title": "Energy Convers Manag"
+        },
+        {
+          "key": "erxae2cedbib8",
+          "doi-asserted-by": "publisher",
+          "first-page": "72617",
+          "DOI": "10.1007/s11356-023-27261-1",
+          "type": "journal-article",
+          "article-title": "Solar photovoltaic converter controller using opposition-based reinforcement learning with butterfly optimization algorithm under partial shading conditions",
+          "volume": "30",
+          "author": "Aljafari",
+          "year": "2023",
+          "journal-title": "Environmental Science and Pollution Research"
+        },
+        {
+          "key": "erxae2cedbib9",
+          "doi-asserted-by": "publisher",
+          "first-page": "47725",
+          "DOI": "10.1109/ACCESS.2023.3274684",
+          "type": "journal-article",
+          "article-title": "Performance evaluation of static PV array configurations for mitigating mismatch losses",
+          "volume": "11",
+          "author": "Devakirubakaran",
+          "year": "2023",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "erxae2cedbib10",
+          "doi-asserted-by": "publisher",
+          "first-page": "1385",
+          "DOI": "10.1049/rpg2.12683",
+          "type": "journal-article",
+          "article-title": "A zero switch and sensorless reconfiguration approach for sustainable operation of roof-top photovoltaic system during partial shading",
+          "volume": "17",
+          "author": "Aljafari",
+          "year": "2023",
+          "journal-title": "IET Renew Power Gener."
+        },
+        {
+          "key": "erxae2cedbib11",
+          "doi-asserted-by": "publisher",
+          "first-page": "548",
+          "DOI": "10.1016/j.solener.2017.01.066",
+          "type": "journal-article",
+          "article-title": "Effects of PV array layout, electrical configuration and geographic orientation on mismatch losses caused by moving clouds",
+          "volume": "144",
+          "author": "Lappalainen",
+          "year": "2017",
+          "journal-title": "Sol. Energy"
+        },
+        {
+          "key": "erxae2cedbib12",
+          "doi-asserted-by": "publisher",
+          "first-page": "264",
+          "DOI": "10.1016/j.renene.2014.12.055",
+          "type": "journal-article",
+          "article-title": "Positioning of PV panels for reduction in line losses and mismatch losses in PV array",
+          "volume": "78",
+          "author": "Potnuru",
+          "year": "2015",
+          "journal-title": "Renew Energy"
+        },
+        {
+          "key": "erxae2cedbib13",
+          "doi-asserted-by": "publisher",
+          "first-page": "326",
+          "DOI": "10.1016/j.apenergy.2016.11.038",
+          "type": "journal-article",
+          "article-title": "PV array power output maximization under partial shading using new shifted PV array arrangements",
+          "volume": "187",
+          "author": "Belhaouas",
+          "year": "2017",
+          "journal-title": "Appl. Energy"
+        },
+        {
+          "key": "erxae2cedbib14",
+          "doi-asserted-by": "publisher",
+          "first-page": "209",
+          "DOI": "10.1016/j.solener.2019.10.020",
+          "type": "journal-article",
+          "article-title": "Enhanced power production in PV arrays using a new skyscraper puzzle based one-time reconfiguration procedure under partial shade conditions (PSCs)",
+          "volume": "194",
+          "author": "Nihanth",
+          "year": "2019",
+          "journal-title": "Sol. Energy"
+        },
+        {
+          "key": "erxae2cedbib15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.enconman.2020.112885",
+          "type": "journal-article",
+          "article-title": "Power enhancement of PV system via physical array reconfiguration based Lo Shu technique",
+          "volume": "215",
+          "author": "Venkateswari",
+          "year": "2020",
+          "journal-title": "Energy Convers Manag"
+        },
+        {
+          "key": "erxae2cedbib16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.energy.2020.118780",
+          "type": "journal-article",
+          "article-title": "Odd–even-Prime pattern for PV array to increase power output under partial shading conditions",
+          "volume": "213",
+          "author": "Reddy",
+          "year": "2020",
+          "journal-title": "Energy"
+        },
+        {
+          "key": "erxae2cedbib17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fenrg.2024.1335111",
+          "type": "journal-article",
+          "article-title": "Modeling and simulation of a Renzoku puzzle pattern-based PV array configuration for a partially shaded PV system",
+          "volume": "12",
+          "author": "Aljafari",
+          "year": "2024",
+          "journal-title": "Front Energy Res."
+        },
+        {
+          "key": "erxae2cedbib18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.heliyon.2023.e16041",
+          "type": "journal-article",
+          "article-title": "Power enhanced solar PV array configuration based on calcudoku puzzle pattern for partial shaded PV system",
+          "volume": "9",
+          "author": "Aljafari",
+          "year": "2023",
+          "journal-title": "Heliyon"
+        },
+        {
+          "key": "erxae2cedbib19",
+          "doi-asserted-by": "publisher",
+          "first-page": "123103",
+          "DOI": "10.1109/ACCESS.2021.3109248",
+          "type": "journal-article",
+          "article-title": "Power enhancement in partial shaded photovoltaic system using spiral pattern array configuration scheme",
+          "volume": "9",
+          "author": "Cherukuri",
+          "year": "2021",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "erxae2cedbib20",
+          "doi-asserted-by": "publisher",
+          "first-page": "97661",
+          "DOI": "10.1109/ACCESS.2021.3094736",
+          "type": "journal-article",
+          "article-title": "L-shape propagated array configuration with dynamic reconfiguration algorithm for enhancing energy conversion rate of partial shaded photovoltaic systems",
+          "volume": "9",
+          "author": "Srinivasan",
+          "year": "2021",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "erxae2cedbib21",
+          "doi-asserted-by": "publisher",
+          "first-page": "1",
+          "DOI": "10.1109/GlobConHT56829.2023.10087573",
+          "type": "conference-proceedings",
+          "article-title": "A novel fused fibonacci-geometric number pattern-based PV array configuration for mitigating the mismatch losses",
+          "author": "Devakirubakaran",
+          "year": "2023"
+        },
+        {
+          "key": "erxae2cedbib22",
+          "doi-asserted-by": "publisher",
+          "first-page": "1210",
+          "DOI": "10.1109/JPHOTOV.2016.2581481",
+          "type": "journal-article",
+          "article-title": "Optimized configuration of mismatched photovoltaic arrays",
+          "volume": "6",
+          "author": "Orozco-Gutierrez",
+          "year": "2016",
+          "journal-title": "IEEE J. Photovolt."
+        },
+        {
+          "key": "erxae2cedbib23",
+          "doi-asserted-by": "publisher",
+          "first-page": "8450",
+          "DOI": "10.3390/en15228450",
+          "type": "journal-article",
+          "article-title": "Performance analysis of thermal image processing-based photovoltaic fault detection and PV array reconfiguration—a detailed experimentation",
+          "volume": "15",
+          "author": "Alwar",
+          "year": "2022",
+          "journal-title": "Energies (Basel)"
+        },
+        {
+          "key": "erxae2cedbib24",
+          "doi-asserted-by": "publisher",
+          "first-page": "640",
+          "DOI": "10.1016/j.solener.2020.06.004",
+          "type": "journal-article",
+          "article-title": "Mitigation of mismatch losses in solar PV system—two-step reconfiguration approach",
+          "volume": "206",
+          "author": "Srinivasan",
+          "year": "2020",
+          "journal-title": "Sol. Energy"
+        },
+        {
+          "key": "erxae2cedbib25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.solmat.2022.112163",
+          "type": "journal-article",
+          "article-title": "A dynamic mismatch loss mitigation algorithm with dual input dual output converter for solar PV systems.",
+          "volume": "251",
+          "author": "Thanikanti",
+          "year": "2023",
+          "journal-title": "Sol. Energy Mater. Sol. Cells"
+        },
+        {
+          "key": "erxae2cedbib26",
+          "doi-asserted-by": "publisher",
+          "first-page": "1",
+          "DOI": "10.1186/s41601-023-00315-9",
+          "type": "journal-article",
+          "article-title": "Optimal PV array reconfiguration under partial shading condition through dynamic leader based collective intelligence",
+          "volume": "8",
+          "author": "Wang",
+          "year": "2023",
+          "journal-title": "Protection and Control of Modern Power Systems"
+        },
+        {
+          "key": "erxae2cedbib27",
+          "doi-asserted-by": "publisher",
+          "first-page": "8388",
+          "DOI": "10.3390/app11188388",
+          "type": "journal-article",
+          "article-title": "Importance of image enhancement and CDF for fault assessment of photovoltaic module using IR thermal image",
+          "volume": "11",
+          "author": "Kim",
+          "year": "2021",
+          "journal-title": "Applied Sciences"
+        },
+        {
+          "key": "erxae2cedbib28",
+          "doi-asserted-by": "publisher",
+          "first-page": "6496",
+          "DOI": "10.3390/en13246496",
+          "type": "journal-article",
+          "article-title": "Automatic faults detection of photovoltaic farms: solAIr, a deep learning-based system for thermal images",
+          "volume": "13",
+          "author": "Pierdicca",
+          "year": "2020",
+          "journal-title": "Energies (Basel)"
+        },
+        {
+          "key": "erxae2cedbib29",
+          "doi-asserted-by": "publisher",
+          "first-page": "535",
+          "DOI": "10.1109/JPHOTOV.2020.3045680",
+          "type": "journal-article",
+          "article-title": "Automated overheated region object detection of photovoltaic module with thermography image",
+          "volume": "11",
+          "author": "Su",
+          "year": "2021",
+          "journal-title": "IEEE J. Photovolt."
+        },
+        {
+          "key": "erxae2cedbib30",
+          "doi-asserted-by": "publisher",
+          "first-page": "148",
+          "DOI": "10.1177/1748006X211020305",
+          "type": "journal-article",
+          "article-title": "A combined approach of convolutional neural networks and machine learning for visual fault classification in photovoltaic modules",
+          "volume": "236",
+          "author": "Venkatesh",
+          "year": "2022",
+          "journal-title": "Proc. Inst. Mech. Eng. O J. Risk Reliab"
+        },
+        {
+          "key": "erxae2cedbib31",
+          "doi-asserted-by": "publisher",
+          "first-page": "1",
+          "DOI": "10.1155/2022/6427076",
+          "type": "journal-article",
+          "article-title": "Infrared thermal images of solar PV panels for fault identification using image processing technique",
+          "volume": "2022",
+          "author": "Kirubakaran",
+          "year": "2022",
+          "journal-title": "Int. J. Photoenergy"
+        },
+        {
+          "key": "erxae2cedbib32",
+          "doi-asserted-by": "publisher",
+          "first-page": "1",
+          "DOI": "10.1155/2022/2872925",
+          "type": "journal-article",
+          "article-title": "Environmental fault diagnosis of solar panels using solar thermal images in multiple convolutional neural networks",
+          "volume": "2022",
+          "author": "Selvaraj",
+          "year": "2022",
+          "journal-title": "International Transactions on Electrical Energy Systems"
+        },
+        {
+          "key": "erxae2cedbib33",
+          "doi-asserted-by": "publisher",
+          "first-page": "334",
+          "DOI": "10.1016/j.renene.2020.01.148",
+          "type": "journal-article",
+          "article-title": "Photovoltaic plant condition monitoring using thermal images analysis by convolutional neural network-based structure",
+          "volume": "153",
+          "author": "Huerta Herraiz",
+          "year": "2020",
+          "journal-title": "Renew Energy"
+        }
+      ],
+      "container-title": [
+        "Engineering Research Express"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/ae2ced",
+          "content-type": "text/html",
+          "content-version": "am",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/ae2ced/pdf",
+          "content-type": "application/pdf",
+          "content-version": "am",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/ae2ced",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/ae2ced/pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/ae2ced/pdf",
+          "content-type": "application/pdf",
+          "content-version": "am",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/ae2ced/pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/ae2ced/pdf",
+          "content-type": "application/pdf",
+          "content-version": "am",
+          "intended-application": "similarity-checking"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/ae2ced/pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            26
+          ]
+        ],
+        "date-time": "2025-12-26T08:20:18Z",
+        "timestamp": 1766737218000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/ae2ced"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            26
+          ]
+        ]
+      },
+      "references-count": 33,
+      "journal-issue": {
+        "issue": "4",
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              26
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              31
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.1088/2631-8695/ae2ced",
+      "relation": {},
+      "ISSN": [
+        "2631-8695"
+      ],
+      "issn-type": [
+        {
+          "type": "electronic",
+          "value": "2631-8695"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            26
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Dynamic image processing based reconfiguration algorithm for mitigating the power losses in partial shaded photovoltaic system",
+          "name": "article_title",
+          "label": "Article Title"
+        },
+        {
+          "value": "Engineering Research Express",
+          "name": "journal_title",
+          "label": "Journal Title"
+        },
+        {
+          "value": "paper",
+          "name": "article_type",
+          "label": "Article Type"
+        },
+        {
+          "value": "© 2025 IOP Publishing Ltd. All rights, including for text and data mining, AI training, and similar technologies, are reserved.",
+          "name": "copyright_information",
+          "label": "Copyright Information"
+        },
+        {
+          "value": "2025-10-08",
+          "name": "date_received",
+          "label": "Date Received",
+          "group": {
+            "name": "publication_dates",
+            "label": "Publication dates"
+          }
+        },
+        {
+          "value": "2025-12-15",
+          "name": "date_accepted",
+          "label": "Date Accepted",
+          "group": {
+            "name": "publication_dates",
+            "label": "Publication dates"
+          }
+        },
+        {
+          "value": "2025-12-26",
+          "name": "date_epub",
+          "label": "Online publication date",
+          "group": {
+            "name": "publication_dates",
+            "label": "Publication dates"
+          }
+        }
+      ]
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Sudhakar Babu Thanikanti",
+      "given_name_from_source": "Sudhakar Babu",
+      "family_name_from_source": "Thanikanti",
+      "orcid_from_source": "https://orcid.org/0000-0003-0737-3961",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Tangirala Murali Krishna",
+      "given_name_from_source": "Tangirala",
+      "family_name_from_source": "Murali Krishna",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Devakirubakaran Samithas",
+      "given_name_from_source": "Devakirubakaran",
+      "family_name_from_source": "Samithas",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": "https://orcid.org/0000-0003-1561-1376",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Belqasem Aljafari",
+      "given_name_from_source": "Belqasem",
+      "family_name_from_source": "Aljafari",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

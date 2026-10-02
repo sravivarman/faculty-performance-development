@@ -1,0 +1,14 @@
+{
+  "database_path": "C:\\Users\\silic\\Documents\\GitHub\\faculty-performance-development\\data\\faculty.db",
+  "backup": "C:\\Users\\silic\\Documents\\GitHub\\faculty-performance-development\\data\\backups\\pre_import_queue_20261002_103516.db",
+  "publications_preserved": 173,
+  "all_existing_fields_preserved": true,
+  "historical_classification": "UNKNOWN",
+  "revision": "c931ea46d582",
+  "backend_tests": 222,
+  "readiness_tests": 19,
+  "browser_tests": 8,
+  "production_build": "passed",
+  "schema_drift_check": "passed",
+  "live_app": "passed"
+}

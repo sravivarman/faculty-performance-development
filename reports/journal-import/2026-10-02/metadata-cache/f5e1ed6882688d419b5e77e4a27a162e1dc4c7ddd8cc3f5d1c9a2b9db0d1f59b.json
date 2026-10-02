@@ -1,0 +1,914 @@
+{
+  "doi": "10.1002/aesr.202400088",
+  "title": "Integration of Renewable Energy in Microgrids and Smart Grids in Deregulated Power Systems: A Comparative Exploration",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Advanced Energy and Sustainability Research",
+  "publisher": "Wiley",
+  "publication_date": null,
+  "online_publication_date": null,
+  "print_publication_date": null,
+  "volume": "5",
+  "issue": "10",
+  "pages_or_article_number": "2400088",
+  "issn": "2699-9412",
+  "eissn": "2699-9412",
+  "isbn": null,
+  "url": "https://doi.org/10.1002/aesr.202400088",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:05.908865+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            27
+          ]
+        ],
+        "date-time": "2026-09-27T01:51:13Z",
+        "timestamp": 1790473873986,
+        "version": "4.1.0"
+      },
+      "reference-count": 90,
+      "publisher": "Wiley",
+      "issue": "10",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                8,
+                1
+              ]
+            ],
+            "date-time": "2024-08-01T00:00:00Z",
+            "timestamp": 1722470400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Adv Energy and Sustain Res"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            10
+          ]
+        ]
+      },
+      "abstract": "<jats:p>In recent years, the importance of deregulated power systems has grown significantly, resulting in positive effects on stability, reliability, innovation, and investment in new energy grid technology. The competitive landscape among energy providers and distributors has empowered consumers to not only save money on their energy bills but also incorporate sustainable energy sources into the grid. To efficiently manage electricity distribution, deregulated power systems must include a smart grid and microgrid (MG). Herein, the potential for sustainable expansion of these systems, as well as their economic and environmental implications, are examined. A comprehensive grid system that integrates smart grids and MGs can offer a complete solution, catering to the evolving energy needs of communities and businesses. The advantages of establishing such a system, including improved grid stability, reliability, and increased utilization of renewable energy sources (RES), are highlighted. Furthermore, the integration of MGs and smart grids enhances the management of distributed generation, allowing power companies to optimize system operations for profitability and efficiency. By following these suggestions, businesses and stakeholders in the power sector can enhance the efficiency and responsibility of their systems, resulting in benefits for both the economy and the environment.</jats:p>",
+      "DOI": "10.1002/aesr.202400088",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            1
+          ]
+        ],
+        "date-time": "2024-08-01T08:59:30Z",
+        "timestamp": 1722502770000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 101,
+      "title": [
+        "Integration of Renewable Energy in Microgrids and Smart Grids in Deregulated Power Systems: A Comparative Exploration"
+      ],
+      "prefix": "10.1002",
+      "volume": "5",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-3639-502X",
+          "authenticated-orcid": false,
+          "given": "Subhojit",
+          "family": "Dawn",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering Velagapudi Ramakrishna Siddhartha Engineering College  Vijayawada 520007 India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "A.",
+          "family": "Ramakrishna",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering Vardhaman College of Engineering  Hyderabad 501218 India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "M.",
+          "family": "Ramesh",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering Sphoorthy Engineering College  Dundigal Hyderabad 501510 India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shreya Shree",
+          "family": "Das",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Electronics Engineering VIT‐AP University  Amaravati 522237 India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "K. Dhananjay",
+          "family": "Rao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering Velagapudi Ramakrishna Siddhartha Engineering College  Vijayawada 520007 India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9069-1519",
+          "authenticated-orcid": false,
+          "given": "Md. Minarul",
+          "family": "Islam",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronic Engineering University of Dhaka  Dhaka 1000 Bangladesh"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2413-8421",
+          "authenticated-orcid": false,
+          "given": "Taha",
+          "family": "Selim Ustun",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Fukushima Renewable Energy Institute, AIST (FREA) National Institute of Advanced Industrial Science and Technology (AIST)  Koriyama 9630298 Japan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "311",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            8
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_13_2_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/batteries8090124"
+        },
+        {
+          "key": "e_1_2_13_3_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egyr.2022.11.081"
+        },
+        {
+          "key": "e_1_2_13_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egyr.2023.03.032"
+        },
+        {
+          "key": "e_1_2_13_5_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/electronics11182857"
+        },
+        {
+          "key": "e_1_2_13_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.heliyon.2023.e16710"
+        },
+        {
+          "key": "e_1_2_13_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ref.2023.05.006"
+        },
+        {
+          "key": "e_1_2_13_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egyr.2023.05.177"
+        },
+        {
+          "key": "e_1_2_13_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.xcrp.2021.100708"
+        },
+        {
+          "key": "e_1_2_13_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.esci.2022.07.002"
+        },
+        {
+          "key": "e_1_2_13_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egyr.2021.12.017"
+        },
+        {
+          "key": "e_1_2_13_12_1",
+          "unstructured": "IEA Renewables IEA Paris2023https://www.iea.org/reports/renewables‐2023. (accessed: April 2024)."
+        },
+        {
+          "key": "e_1_2_13_13_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.asej.2023.102125"
+        },
+        {
+          "key": "e_1_2_13_14_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jer.2023.100011"
+        },
+        {
+          "key": "e_1_2_13_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.procs.2022.12.357"
+        },
+        {
+          "key": "e_1_2_13_16_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egyr.2022.03.010"
+        },
+        {
+          "key": "e_1_2_13_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2022.3157310"
+        },
+        {
+          "key": "e_1_2_13_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2021.3135083"
+        },
+        {
+          "key": "e_1_2_13_19_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "T. S.Ustun C.Ozansoy A.Zayegh inIEEE Third Inter. Conf. on Smart Grid Communications (SmartGridComm) IEEE Piscataway NJ2012 pp.492–497.",
+          "DOI": "10.1109/SmartGridComm.2012.6486033"
+        },
+        {
+          "key": "e_1_2_13_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijepes.2020.105873"
+        },
+        {
+          "key": "e_1_2_13_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2021.3129980"
+        },
+        {
+          "key": "e_1_2_13_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.dcan.2022.01.002"
+        },
+        {
+          "key": "e_1_2_13_23_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egyr.2022.09.023"
+        },
+        {
+          "key": "e_1_2_13_24_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jclepro.2022.134996"
+        },
+        {
+          "key": "e_1_2_13_25_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.energy.2022.124852"
+        },
+        {
+          "key": "e_1_2_13_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/batteries9070376"
+        },
+        {
+          "key": "e_1_2_13_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egyr.2022.10.035"
+        },
+        {
+          "key": "e_1_2_13_28_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.esr.2023.101096"
+        },
+        {
+          "key": "e_1_2_13_29_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/su142114649"
+        },
+        {
+          "key": "e_1_2_13_30_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2022.3156079"
+        },
+        {
+          "key": "e_1_2_13_31_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TSG.2022.3188598"
+        },
+        {
+          "key": "e_1_2_13_32_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.rineng.2023.100925"
+        },
+        {
+          "key": "e_1_2_13_33_1",
+          "first-page": "1257",
+          "volume": "11",
+          "author": "Naderi M.",
+          "year": "2023",
+          "journal-title": "Clean Energy"
+        },
+        {
+          "key": "e_1_2_13_34_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2022.3203730"
+        },
+        {
+          "key": "e_1_2_13_35_1",
+          "first-page": "1009",
+          "volume": "10",
+          "author": "Li Z.",
+          "year": "2022",
+          "journal-title": "Clean Energy"
+        },
+        {
+          "key": "e_1_2_13_36_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.apenergy.2023.120707"
+        },
+        {
+          "key": "e_1_2_13_37_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.asej.2022.101985"
+        },
+        {
+          "key": "e_1_2_13_38_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2016.2614689"
+        },
+        {
+          "key": "e_1_2_13_39_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egyr.2022.09.025"
+        },
+        {
+          "key": "e_1_2_13_40_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2021.3123967"
+        },
+        {
+          "key": "e_1_2_13_41_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egyr.2022.07.064"
+        },
+        {
+          "key": "e_1_2_13_42_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.apenergy.2022.119873"
+        },
+        {
+          "key": "e_1_2_13_43_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/en14102735"
+        },
+        {
+          "key": "e_1_2_13_44_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.aej.2023.02.021"
+        },
+        {
+          "key": "e_1_2_13_45_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.rser.2022.112320"
+        },
+        {
+          "key": "e_1_2_13_46_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2021.3061731"
+        },
+        {
+          "key": "e_1_2_13_47_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egyr.2021.12.022"
+        },
+        {
+          "key": "e_1_2_13_48_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egyr.2022.03.201"
+        },
+        {
+          "key": "e_1_2_13_49_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2023.3238572"
+        },
+        {
+          "key": "e_1_2_13_50_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/JPETS.2018.2880762"
+        },
+        {
+          "key": "e_1_2_13_51_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jbusres.2022.05.062"
+        },
+        {
+          "key": "e_1_2_13_52_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.apenergy.2022.118830"
+        },
+        {
+          "key": "e_1_2_13_53_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TSG.2015.2421900"
+        },
+        {
+          "key": "e_1_2_13_54_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2021.3101839"
+        },
+        {
+          "key": "e_1_2_13_55_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2019.2958664"
+        },
+        {
+          "key": "e_1_2_13_56_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2022.3203728"
+        },
+        {
+          "key": "e_1_2_13_57_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2022.3145980"
+        },
+        {
+          "key": "e_1_2_13_58_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2022.3140360"
+        },
+        {
+          "key": "e_1_2_13_59_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2021.3115493"
+        },
+        {
+          "key": "e_1_2_13_60_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TSTE.2012.2191806"
+        },
+        {
+          "key": "e_1_2_13_61_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TSG.2016.2576902"
+        },
+        {
+          "key": "e_1_2_13_62_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/JPROC.2014.2316823"
+        },
+        {
+          "key": "e_1_2_13_63_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.apenergy.2023.121009"
+        },
+        {
+          "key": "e_1_2_13_64_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.asej.2022.101938"
+        },
+        {
+          "key": "e_1_2_13_65_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TIA.2020.2984614"
+        },
+        {
+          "key": "e_1_2_13_66_1",
+          "first-page": "e01331",
+          "volume": "17",
+          "author": "Asamoah S. S.",
+          "year": "2022",
+          "journal-title": "Sci. Afr."
+        },
+        {
+          "key": "e_1_2_13_67_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2021.3104354"
+        },
+        {
+          "key": "e_1_2_13_68_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egyai.2022.100208"
+        },
+        {
+          "key": "e_1_2_13_69_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.rineng.2022.100369"
+        },
+        {
+          "key": "e_1_2_13_70_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2022.3164514"
+        },
+        {
+          "key": "e_1_2_13_71_1",
+          "first-page": "66",
+          "volume": "5",
+          "author": "Ni L.",
+          "year": "2017",
+          "journal-title": "Clean Energy"
+        },
+        {
+          "key": "e_1_2_13_72_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egyr.2022.07.177"
+        },
+        {
+          "key": "e_1_2_13_73_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2022.3141377"
+        },
+        {
+          "key": "e_1_2_13_74_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2018.2878903"
+        },
+        {
+          "key": "e_1_2_13_75_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egyr.2022.05.200"
+        },
+        {
+          "key": "e_1_2_13_76_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.asej.2021.101679"
+        },
+        {
+          "key": "e_1_2_13_77_1",
+          "first-page": "316",
+          "volume": "10",
+          "author": "Dong Y.",
+          "year": "2022",
+          "journal-title": "Clean Energy"
+        },
+        {
+          "key": "e_1_2_13_78_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TSG.2023.3266761"
+        },
+        {
+          "key": "e_1_2_13_79_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1049/iet-gtd.2015.0442"
+        },
+        {
+          "key": "e_1_2_13_80_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2019.2918082"
+        },
+        {
+          "key": "e_1_2_13_81_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPWRS.2020.3041774"
+        },
+        {
+          "key": "e_1_2_13_82_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TEC.2016.2552497"
+        },
+        {
+          "key": "e_1_2_13_83_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15623/ijret.2015.0405055"
+        },
+        {
+          "key": "e_1_2_13_84_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/MELE.2013.2297031"
+        },
+        {
+          "key": "e_1_2_13_85_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TSTE.2021.3055764"
+        },
+        {
+          "key": "e_1_2_13_86_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.aei.2016.05.005"
+        },
+        {
+          "key": "e_1_2_13_87_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/15435075.2021.1891909"
+        },
+        {
+          "key": "e_1_2_13_88_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TNSM.2021.3078381"
+        },
+        {
+          "key": "e_1_2_13_89_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.aei.2022.101542"
+        },
+        {
+          "key": "e_1_2_13_90_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1140/epjst/e2015-50136-y"
+        },
+        {
+          "key": "e_1_2_13_91_1",
+          "first-page": "73",
+          "volume": "2",
+          "author": "Breviglieri P.",
+          "year": "2021",
+          "journal-title": "Comput. Sci."
+        }
+      ],
+      "container-title": [
+        "Advanced Energy and Sustainability Research"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://advanced.onlinelibrary.wiley.com/doi/pdf/10.1002/aesr.202400088",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            7
+          ]
+        ],
+        "date-time": "2025-10-07T21:27:36Z",
+        "timestamp": 1759872456000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aesr.202400088"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            8
+          ]
+        ]
+      },
+      "references-count": 90,
+      "journal-issue": {
+        "issue": "10",
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              10
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1002/aesr.202400088"
+      ],
+      "URL": "https://doi.org/10.1002/aesr.202400088",
+      "archive": [
+        "Portico"
+      ],
+      "relation": {},
+      "ISSN": [
+        "2699-9412",
+        "2699-9412"
+      ],
+      "issn-type": [
+        {
+          "value": "2699-9412",
+          "type": "print"
+        },
+        {
+          "value": "2699-9412",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            8
+          ]
+        ]
+      },
+      "article-number": "2400088"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Subhojit Dawn",
+      "given_name_from_source": "Subhojit",
+      "family_name_from_source": "Dawn",
+      "orcid_from_source": "https://orcid.org/0000-0002-3639-502X",
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering Velagapudi Ramakrishna Siddhartha Engineering College  Vijayawada 520007 India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "A. Ramakrishna",
+      "given_name_from_source": "A.",
+      "family_name_from_source": "Ramakrishna",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering Vardhaman College of Engineering  Hyderabad 501218 India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "M. Ramesh",
+      "given_name_from_source": "M.",
+      "family_name_from_source": "Ramesh",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering Sphoorthy Engineering College  Dundigal Hyderabad 501510 India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Shreya Shree Das",
+      "given_name_from_source": "Shreya Shree",
+      "family_name_from_source": "Das",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "School of Electronics Engineering VIT‐AP University  Amaravati 522237 India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "K. Dhananjay Rao",
+      "given_name_from_source": "K. Dhananjay",
+      "family_name_from_source": "Rao",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering Velagapudi Ramakrishna Siddhartha Engineering College  Vijayawada 520007 India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "Md. Minarul Islam",
+      "given_name_from_source": "Md. Minarul",
+      "family_name_from_source": "Islam",
+      "orcid_from_source": "https://orcid.org/0000-0001-9069-1519",
+      "affiliation_from_source": [
+        "Department of Electrical and Electronic Engineering University of Dhaka  Dhaka 1000 Bangladesh"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 7,
+      "author_name_from_source": "Taha Selim Ustun",
+      "given_name_from_source": "Taha",
+      "family_name_from_source": "Selim Ustun",
+      "orcid_from_source": "https://orcid.org/0000-0002-2413-8421",
+      "affiliation_from_source": [
+        "Fukushima Renewable Energy Institute, AIST (FREA) National Institute of Advanced Industrial Science and Technology (AIST)  Koriyama 9630298 Japan"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

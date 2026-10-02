@@ -1,0 +1,847 @@
+{
+  "doi": "10.1038/s41598-024-77696-w",
+  "title": "Optimal power generation of proton exchange membrane fuel cell using ANFIS based MPPT algorithm",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Scientific Reports",
+  "publisher": "Springer Science and Business Media LLC",
+  "publication_date": "2024-11-02",
+  "online_publication_date": "2024-11-02",
+  "print_publication_date": null,
+  "volume": "14",
+  "issue": "1",
+  "pages_or_article_number": "26455",
+  "issn": null,
+  "eissn": "2045-2322",
+  "isbn": null,
+  "url": "https://doi.org/10.1038/s41598-024-77696-w",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:50.559294+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            3
+          ]
+        ],
+        "date-time": "2026-06-03T03:12:18Z",
+        "timestamp": 1780456338956,
+        "version": "3.54.1"
+      },
+      "reference-count": 36,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                2
+              ]
+            ],
+            "date-time": "2024-11-02T00:00:00Z",
+            "timestamp": 1730505600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                2
+              ]
+            ],
+            "date-time": "2024-11-02T00:00:00Z",
+            "timestamp": 1730505600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Sci Rep"
+      ],
+      "DOI": "10.1038/s41598-024-77696-w",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            2
+          ]
+        ],
+        "date-time": "2024-11-02T13:02:45Z",
+        "timestamp": 1730552565000
+      },
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 5,
+      "title": [
+        "Optimal power generation of proton exchange membrane fuel cell using ANFIS based MPPT algorithm"
+      ],
+      "prefix": "10.1038",
+      "volume": "14",
+      "author": [
+        {
+          "given": "Devakirubakaran",
+          "family": "S",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bharatiraja",
+          "family": "C",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Narasimha Prasad",
+          "family": "T",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Praveen Kumar",
+          "family": "B",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shitharth",
+          "family": "S",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            2
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "77696_CR1",
+          "doi-asserted-by": "publisher",
+          "first-page": "657",
+          "DOI": "10.1016/j.renene.2013.08.030",
+          "volume": "62",
+          "author": "F Rizzi",
+          "year": "2014",
+          "unstructured": "Rizzi, F., van Eck, N. J. & Frey, M. The production of scientific knowledge on renewable energies: Worldwide trends, dynamics and challenges and implications for management. Renew. Energy 62, 657–671. https://doi.org/10.1016/j.renene.2013.08.030 (2014).",
+          "journal-title": "Renew. Energy"
+        },
+        {
+          "key": "77696_CR2",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Rahman, M. M., Alam, K. & Velayutham, E. Reduction of CO2 emissions: The role of renewable energy, technological innovation and export quality, Energy Reports, vol. 8, pp. 2793–2805, Nov. doi: (2022). https://doi.org/10.1016/j.egyr.2022.01.200",
+          "DOI": "10.1016/j.egyr.2022.01.200"
+        },
+        {
+          "issue": "7",
+          "key": "77696_CR3",
+          "doi-asserted-by": "publisher",
+          "first-page": "3847",
+          "DOI": "10.1016/j.ijhydene.2019.12.059",
+          "volume": "45",
+          "author": "F Dawood",
+          "year": "2020",
+          "unstructured": "Dawood, F., Anda, M. & Shafiullah, G. M. Hydrogen production for energy: An overview. Int. J. Hydrogen Energy 45(7), 3847–3869. https://doi.org/10.1016/j.ijhydene.2019.12.059 (2020).",
+          "journal-title": "Int. J. Hydrogen Energy"
+        },
+        {
+          "key": "77696_CR4",
+          "doi-asserted-by": "publisher",
+          "first-page": "8421",
+          "DOI": "10.1016/j.egyr.2021.08.003",
+          "volume": "7",
+          "author": "L Fan",
+          "year": "2021",
+          "unstructured": "Fan, L., Tu, Z. & Chan, S. H. Recent development of hydrogen and fuel cell technologies: A review. Energy Rep. 7, 8421–8446. https://doi.org/10.1016/j.egyr.2021.08.003 (2021).",
+          "journal-title": "Energy Rep."
+        },
+        {
+          "key": "77696_CR5",
+          "doi-asserted-by": "publisher",
+          "first-page": "14653",
+          "DOI": "10.3390/su142114653",
+          "volume": "14",
+          "author": "NH Jawad",
+          "year": "2022",
+          "unstructured": "Jawad, N. H. et al. Fuel Cell Types, Properties of Membrane, and Operating Conditions: A Review. Sustainability 14, 14653. https://doi.org/10.3390/su142114653 (2022).",
+          "journal-title": "Sustainability"
+        },
+        {
+          "issue": "18",
+          "key": "77696_CR6",
+          "doi-asserted-by": "publisher",
+          "first-page": "3064",
+          "DOI": "10.3390/polym13183064",
+          "volume": "13",
+          "author": "MM Tellez-Cruz",
+          "year": "2021",
+          "unstructured": "Tellez-Cruz, M. M., Escorihuela, J., Solorza-Feria, O. & Compañ, V. Proton Exchange Membrane Fuel Cells (PEMFCs): Advances and Challenges. Polym. (Basel) 13(18), 3064. https://doi.org/10.3390/polym13183064 (2021).",
+          "journal-title": "Polym. (Basel)"
+        },
+        {
+          "issue": "1",
+          "key": "77696_CR7",
+          "doi-asserted-by": "publisher",
+          "first-page": "15543",
+          "DOI": "10.1038/s41598-019-52038-3",
+          "volume": "9",
+          "author": "B Sen",
+          "year": "2019",
+          "unstructured": "Sen, B. et al. Composites of Platinum-Iridium Alloy Nanoparticles and Graphene Oxide for the Dimethyl Amine Borane (DMAB) dehydrogenation at ambient conditions: An Experimental and Density Functional Theory Study. Sci. Rep. 9(1), 15543. https://doi.org/10.1038/s41598-019-52038-3 (2019).",
+          "journal-title": "Sci. Rep."
+        },
+        {
+          "key": "77696_CR8",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Qiu, D., Peng, L., Yi, P., Lehnert, W. & Lai, X. Review on proton exchange membrane fuel cell stack assembly: Quality evaluation, assembly method, contact behavior and process design, Renewable and Sustainable Energy Reviews, vol. 152, p. 111660, Dec. doi: (2021). https://doi.org/10.1016/j.rser.2021.111660",
+          "DOI": "10.1016/j.rser.2021.111660"
+        },
+        {
+          "issue": "7",
+          "key": "77696_CR9",
+          "doi-asserted-by": "publisher",
+          "first-page": "908",
+          "DOI": "10.1049/iet-rpg.2015.0205",
+          "volume": "10",
+          "author": "MH Wang",
+          "year": "2016",
+          "unstructured": "Wang, M. H., Huang, M., Jiang, W. & Liou, K. Maximum power point tracking control method for proton exchange membrane fuel cell. IET Renew. Power Gener. 10(7), 908–915. https://doi.org/10.1049/iet-rpg.2015.0205 (2016).",
+          "journal-title": "IET Renew. Power Gener."
+        },
+        {
+          "issue": "1",
+          "key": "77696_CR10",
+          "doi-asserted-by": "publisher",
+          "first-page": "15",
+          "DOI": "10.1186/s41601-019-0129-1",
+          "volume": "4",
+          "author": "Y Chaibi",
+          "year": "2019",
+          "unstructured": "Chaibi, Y., Allouhi, A., Salhi, M. & El-jouni, A. Annual performance analysis of different maximum power point tracking techniques used in photovoltaic systems. Prot. Control Mod. Power Syst. 4(1), 15. https://doi.org/10.1186/s41601-019-0129-1 (2019).",
+          "journal-title": "Prot. Control Mod. Power Syst."
+        },
+        {
+          "key": "77696_CR11",
+          "doi-asserted-by": "publisher",
+          "first-page": "957",
+          "DOI": "10.1016/j.rser.2015.11.013",
+          "volume": "55",
+          "author": "D Kumar",
+          "year": "2016",
+          "unstructured": "Kumar, D. & Chatterjee, K. A review of conventional and advanced MPPT algorithms for wind energy systems. Renew. Sustain. Energy Rev. 55, 957–970. https://doi.org/10.1016/j.rser.2015.11.013 (2016).",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "key": "77696_CR12",
+          "doi-asserted-by": "publisher",
+          "first-page": "3899",
+          "DOI": "10.1109/ACCESS.2017.2785832",
+          "volume": "6",
+          "author": "K Jyotheeswara Reddy",
+          "year": "2018",
+          "unstructured": "Jyotheeswara Reddy, K. & Sudhakar, N. High Voltage Gain Interleaved Boost Converter With Neural Network Based MPPT Controller for Fuel Cell Based Electric Vehicle Applications. IEEE Access. 6, 3899–3908. https://doi.org/10.1109/ACCESS.2017.2785832 (2018).",
+          "journal-title": "IEEE Access."
+        },
+        {
+          "key": "77696_CR13",
+          "doi-asserted-by": "publisher",
+          "first-page": "100031",
+          "DOI": "10.1016/j.cles.2022.100031",
+          "volume": "3",
+          "author": "S George",
+          "year": "2022",
+          "unstructured": "George, S., Sehgal, N., Rana, K. P. S. & Kumar, V. A comprehensive review on modelling and maximum power point tracking of PEMFC. Clean. Energy Syst. 3, 100031. https://doi.org/10.1016/j.cles.2022.100031 (2022).",
+          "journal-title": "Clean. Energy Syst."
+        },
+        {
+          "key": "77696_CR14",
+          "doi-asserted-by": "publisher",
+          "first-page": "20430",
+          "DOI": "10.1016/j.ijhydene.2017.06.208",
+          "volume": "42",
+          "author": "S Ahmadi",
+          "year": "2017",
+          "unstructured": "Ahmadi, S., Abdi, S. & Kakavand, M. Maximum power point tracking of a proton exchange membrane fuel cell system using PSO-PID controller. Int. J. Hydrogen Energy 42, 20430–20443. https://doi.org/10.1016/j.ijhydene.2017.06.208 (2017).",
+          "journal-title": "Int. J. Hydrogen Energy"
+        },
+        {
+          "key": "77696_CR15",
+          "doi-asserted-by": "publisher",
+          "first-page": "5601",
+          "DOI": "10.3390/su12145601",
+          "volume": "12",
+          "author": "H Rezk",
+          "year": "2020",
+          "unstructured": "Rezk, H. & Fathy, A. Performance Improvement of PEM Fuel Cell Using Variable Step-Size Incremental Resistance MPPT Technique. Sustainability 12, 5601. https://doi.org/10.3390/su12145601 (2020).",
+          "journal-title": "Sustainability"
+        },
+        {
+          "key": "77696_CR16",
+          "doi-asserted-by": "publisher",
+          "first-page": "1067",
+          "DOI": "10.1016/j.apm.2017.01.026",
+          "volume": "45",
+          "author": "PY Chen",
+          "year": "2017",
+          "unstructured": "Chen, P. Y., Yu, K. N., Yau, H. T., Li, J. T. & Liao, C. K. A novel variable step size fractional order incremental conductance algorithm to maximize power tracking of fuel cells. Appl. Math. Model. 45, 1067–1075. https://doi.org/10.1016/j.apm.2017.01.026 (2017).",
+          "journal-title": "Appl. Math. Model."
+        },
+        {
+          "key": "77696_CR17",
+          "doi-asserted-by": "publisher",
+          "first-page": "905310",
+          "DOI": "10.3389/fenrg.2022.905310",
+          "volume": "10",
+          "author": "M Alanazi",
+          "year": "2022",
+          "unstructured": "Alanazi, M., Alanazi, A., Memon, Z. A., Csaba, M. & Mosavi, A. Hill Climbing Artificial Electric Field Algorithm for Maximum Power Point Tracking of Photovoltaics. Front. Energy Res. 10, https://doi.org/10.3389/fenrg.2022.905310 (2022).",
+          "journal-title": "Front. Energy Res."
+        },
+        {
+          "key": "77696_CR18",
+          "doi-asserted-by": "publisher",
+          "first-page": "333",
+          "DOI": "10.1016/j.solener.2014.01.003",
+          "volume": "101",
+          "author": "KS Tey",
+          "year": "2014",
+          "unstructured": "Tey, K. S. & Mekhilef, S. Modified incremental conductance MPPT algorithm to mitigate inaccurate responses under fast-changing solar irradiation level. Sol. Energy 101, 333–342. https://doi.org/10.1016/j.solener.2014.01.003 (2014).",
+          "journal-title": "Sol. Energy"
+        },
+        {
+          "key": "77696_CR19",
+          "doi-asserted-by": "publisher",
+          "first-page": "758",
+          "DOI": "10.1016/j.solener.2017.07.007",
+          "volume": "155",
+          "author": "A Kchaou",
+          "year": "2017",
+          "unstructured": "Kchaou, A., Naamane, A., Koubaa, Y. & M’sirdi, N. Second order sliding mode-based MPPT control for photovoltaic applications. Sol. Energy 155, 758–769. https://doi.org/10.1016/j.solener.2017.07.007 (2017).",
+          "journal-title": "Sol. Energy"
+        },
+        {
+          "issue": "1",
+          "key": "77696_CR20",
+          "doi-asserted-by": "publisher",
+          "first-page": "259",
+          "DOI": "10.1016/j.jpowsour.2007.10.080",
+          "volume": "176",
+          "author": "Z Zhong",
+          "year": "2008",
+          "unstructured": "Zhong, Z., Huo, H., Zhu, X., Cao, G. & Ren, Y. Adaptive maximum power point tracking control of fuel cell power plants. J. Power Sources 176(1), 259–269. https://doi.org/10.1016/j.jpowsour.2007.10.080 (2008).",
+          "journal-title": "J. Power Sources"
+        },
+        {
+          "key": "77696_CR21",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Bizon, N. On tracking robustness in adaptive extremum seeking control of the fuel cell power plants, Appl Energy, vol. 87, no. 10, pp. 3115–3130, Oct. doi: (2010). https://doi.org/10.1016/j.apenergy.2010.04.007",
+          "DOI": "10.1016/j.apenergy.2010.04.007"
+        },
+        {
+          "key": "77696_CR22",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Bizon, N. Energy harvesting from the FC stack that operates using the MPP tracking based on modified extremum seeking control, Appl Energy, vol. 104, pp. 326–336, Apr. doi: (2013). https://doi.org/10.1016/j.apenergy.2012.11.011",
+          "DOI": "10.1016/j.apenergy.2012.11.011"
+        },
+        {
+          "key": "77696_CR23",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Bizon, N. Energy optimization of fuel cell system by using global extremum seeking algorithm, Appl Energy, vol. 206, pp. 458–474, Nov. doi: (2017). https://doi.org/10.1016/j.apenergy.2017.08.097",
+          "DOI": "10.1016/j.apenergy.2017.08.097"
+        },
+        {
+          "key": "77696_CR24",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Liu, J., Zhao, Y., Geng, B. & Xiao, B. Adaptive Second Order Sliding Mode Control of a Fuel Cell Hybrid System for Electric Vehicle Applications, Math Probl Eng, vol. pp. 1–14, 2015, doi: (2015). https://doi.org/10.1155/2015/370424",
+          "DOI": "10.1155/2015/370424"
+        },
+        {
+          "key": "77696_CR25",
+          "doi-asserted-by": "publisher",
+          "first-page": "3342",
+          "DOI": "10.1038/s41598-024-53763-0",
+          "volume": "14",
+          "author": "V Prashanth",
+          "year": "2024",
+          "unstructured": "Prashanth, V., Rafikiran, S. & Basha, H. Implementation of high step-up power converter for fuel cell application with hybrid MPPT controller. Sci. Rep. 14, 3342. https://doi.org/10.1038/s41598-024-53763-0 (2024).",
+          "journal-title": "Sci. Rep."
+        },
+        {
+          "key": "77696_CR26",
+          "doi-asserted-by": "publisher",
+          "first-page": "4316",
+          "DOI": "10.1038/s41598-022-08327-5",
+          "volume": "12",
+          "author": "L an",
+          "year": "2022",
+          "unstructured": "an, L. & Ma, X. Maximum power point tracking of PEMFC based on hybrid artificial bee colony algorithm with fuzzy control. Sci. Rep. 12, 4316. https://doi.org/10.1038/s41598-022-08327-5 (2022).",
+          "journal-title": "Sci. Rep."
+        },
+        {
+          "key": "77696_CR27",
+          "doi-asserted-by": "publisher",
+          "first-page": "539",
+          "DOI": "10.1007/978-981-33-4543-0_57",
+          "volume": "171",
+          "author": "A Radhakrishnan",
+          "year": "2021",
+          "unstructured": "Radhakrishnan, A. & Jeyakumar, G. Evolutionary algorithm for solving combinatorial optimization: A review. Lect Notes Netw. Syst. 171, 539–545. https://doi.org/10.1007/978-981-33-4543-0_57 (2021).",
+          "journal-title": "Lect Notes Netw. Syst."
+        },
+        {
+          "key": "77696_CR28",
+          "doi-asserted-by": "publisher",
+          "first-page": "31",
+          "DOI": "10.1007/s00170-021-07155-7",
+          "volume": "15",
+          "author": "NA Zolpakar",
+          "year": "2021",
+          "unstructured": "Zolpakar, N. A., Yasak, M. F. & Pathak, S. A review: Use of evolutionary algorithm for optimization of machining parameters. Int. J. Adv. Manuf. Technol. 15, 31–47. https://doi.org/10.1007/s00170-021-07155-7 (2021).",
+          "journal-title": "Int. J. Adv. Manuf. Technol."
+        },
+        {
+          "key": "77696_CR29",
+          "doi-asserted-by": "publisher",
+          "first-page": "79",
+          "DOI": "10.1007/s10462-016-9517-3",
+          "volume": "49",
+          "author": "A Nabaei",
+          "year": "2018",
+          "unstructured": "Nabaei, A. et al. Topologies and performance of intelligent algorithms: A comprehensive review. Artif. Intell. Rev. 49, 79–103. https://doi.org/10.1007/s10462-016-9517-3 (2018).",
+          "journal-title": "Artif. Intell. Rev."
+        },
+        {
+          "issue": "10",
+          "key": "77696_CR30",
+          "doi-asserted-by": "publisher",
+          "first-page": "5061",
+          "DOI": "10.1016/j.ijhydene.2009.08.090",
+          "volume": "35",
+          "author": "AW Al-Dabbagh",
+          "year": "2010",
+          "unstructured": "Al-Dabbagh, A. W., Lu, L. & Mazza, A. Modelling, simulation and control of a proton exchange membrane fuel cell (PEMFC) power system. Int. J. Hydrogen Energy 35(10), 5061–5069. https://doi.org/10.1016/j.ijhydene.2009.08.090 (2010).",
+          "journal-title": "Int. J. Hydrogen Energy"
+        },
+        {
+          "key": "77696_CR31",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Venkateshkumar, M., Sarathkumar, G. & Britto, S. Intelligent control based MPPT method for fuel cell power system, in International Conference on Renewable Energy and Sustainable Energy (ICRESE), IEEE, Dec. 2013, pp. 253–257. doi: (2013). https://doi.org/10.1109/ICRESE.2013.6927825",
+          "DOI": "10.1109/ICRESE.2013.6927825"
+        },
+        {
+          "key": "77696_CR32",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Benchouia, N. E. et al. An adaptive fuzzy logic controller (AFLC) for PEMFC fuel cell, Int J Hydrogen Energy, vol. 40, no. 39, pp. 13806–13819, Oct. doi: (2015). https://doi.org/10.1016/j.ijhydene.2015.05.189",
+          "DOI": "10.1016/j.ijhydene.2015.05.189"
+        },
+        {
+          "key": "77696_CR33",
+          "doi-asserted-by": "publisher",
+          "first-page": "5826",
+          "DOI": "10.1016/j.egyr.2023.05.030",
+          "volume": "9",
+          "author": "S Rafikiran",
+          "year": "2023",
+          "unstructured": "Rafikiran, S. et al. Design and performance analysis of hybrid MPPT controllers for fuel cell fed DC-DC converter systems. Energy Rep. 9, 5826–5842. https://doi.org/10.1016/j.egyr.2023.05.030 (2023).",
+          "journal-title": "Energy Rep."
+        },
+        {
+          "key": "77696_CR34",
+          "doi-asserted-by": "publisher",
+          "first-page": "937",
+          "DOI": "10.1016/j.ijhydene.2024.05.206",
+          "volume": "71",
+          "author": "S Saidi",
+          "year": "2024",
+          "unstructured": "Saidi, S. et al. Precise parameter identification of a PEMFC model using a robust enhanced salp swarm algorithm. Int. J. Hydrog. Energy 71, 937–951. https://doi.org/10.1016/j.ijhydene.2024.05.206 (2024).",
+          "journal-title": "Int. J. Hydrog. Energy"
+        },
+        {
+          "key": "77696_CR35",
+          "doi-asserted-by": "publisher",
+          "first-page": "79",
+          "DOI": "10.1016/j.solener.2018.12.018",
+          "volume": "178",
+          "author": "PK Pathak",
+          "year": "2019",
+          "unstructured": "Pathak, P. K. & Yadav, A. K. Design of battery charging circuit through intelligent MPPT using SPV system. Sol. Energy 178, 79–89. https://doi.org/10.1016/j.solener.2018.12.018 (2019).",
+          "journal-title": "Sol. Energy"
+        },
+        {
+          "issue": "6",
+          "key": "77696_CR36",
+          "doi-asserted-by": "publisher",
+          "first-page": "505",
+          "DOI": "10.1504/IJPELEC.2012.052427",
+          "volume": "4",
+          "author": "SN Motapon",
+          "year": "2012",
+          "unstructured": "Motapon, S. N., Tremblay, O. & Dessaint, L. A. Development of a generic fuel cell model: application to a fuel cell vehicle simulation. Int. J. Power Electron. 4 (6), 505. https://doi.org/10.1504/IJPELEC.2012.052427 (2012).",
+          "journal-title": "Int. J. Power Electron."
+        }
+      ],
+      "updated-by": [
+        {
+          "DOI": "10.1038/s41598-024-83983-3",
+          "type": "correction",
+          "label": "Correction",
+          "source": "publisher",
+          "updated": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                7
+              ]
+            ],
+            "date-time": "2025-01-07T00:00:00Z",
+            "timestamp": 1736208000000
+          }
+        }
+      ],
+      "container-title": [
+        "Scientific Reports"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.nature.com/articles/s41598-024-77696-w.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.nature.com/articles/s41598-024-77696-w",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.nature.com/articles/s41598-024-77696-w.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            7
+          ]
+        ],
+        "date-time": "2025-01-07T22:08:08Z",
+        "timestamp": 1736287688000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.nature.com/articles/s41598-024-77696-w"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            2
+          ]
+        ]
+      },
+      "references-count": 36,
+      "journal-issue": {
+        "issue": "1",
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              12
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "77696"
+      ],
+      "URL": "https://doi.org/10.1038/s41598-024-77696-w",
+      "relation": {
+        "correction": [
+          {
+            "id-type": "doi",
+            "id": "10.1038/s41598-024-83983-3",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "ISSN": [
+        "2045-2322"
+      ],
+      "issn-type": [
+        {
+          "value": "2045-2322",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            2
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "19 June 2024",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "24 October 2024",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "2 November 2024",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "7 January 2025",
+          "order": 4,
+          "name": "change_date",
+          "label": "Change Date",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "Correction",
+          "order": 5,
+          "name": "change_type",
+          "label": "Change Type",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "A Correction to this paper has been published:",
+          "order": 6,
+          "name": "change_details",
+          "label": "Change Details",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "https://doi.org/10.1038/s41598-024-83983-3",
+          "URL": "https://doi.org/10.1038/s41598-024-83983-3",
+          "order": 7,
+          "name": "change_details",
+          "label": "Change Details",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Declarations"
+          }
+        },
+        {
+          "value": "The authors declare no competing interests.",
+          "order": 2,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        },
+        {
+          "value": "The paper is not currently being considered for publication elsewhere.",
+          "order": 3,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Ethical approval"
+          }
+        }
+      ],
+      "article-number": "26455"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Devakirubakaran S",
+      "given_name_from_source": "Devakirubakaran",
+      "family_name_from_source": "S",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Bharatiraja C",
+      "given_name_from_source": "Bharatiraja",
+      "family_name_from_source": "C",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Narasimha Prasad T",
+      "given_name_from_source": "Narasimha Prasad",
+      "family_name_from_source": "T",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Praveen Kumar B",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "B",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Shitharth S",
+      "given_name_from_source": "Shitharth",
+      "family_name_from_source": "S",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

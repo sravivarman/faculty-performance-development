@@ -1,0 +1,566 @@
+{
+  "doi": "10.1155/2023/7754765",
+  "title": "Preserving Resource Handiness and Exigency-Based Migration Algorithm (PRH-EM) for Energy Efficient Federated Cloud Management Systems",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Mobile Information Systems",
+  "publisher": "Wiley",
+  "publication_date": "2023-02-17",
+  "online_publication_date": null,
+  "print_publication_date": "2023-02-17",
+  "volume": "2023",
+  "issue": null,
+  "pages_or_article_number": "1-11",
+  "issn": "1574-017X",
+  "eissn": "1875-905X",
+  "isbn": null,
+  "url": "https://doi.org/10.1155/2023/7754765",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:50.278660+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            23
+          ]
+        ],
+        "date-time": "2026-07-23T15:59:06Z",
+        "timestamp": 1784822346105,
+        "version": "3.55.0"
+      },
+      "reference-count": 31,
+      "publisher": "Wiley",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                2,
+                17
+              ]
+            ],
+            "date-time": "2023-02-17T00:00:00Z",
+            "timestamp": 1676592000000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Mobile Information Systems"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            2,
+            17
+          ]
+        ]
+      },
+      "abstract": "<jats:p>On-demand computing ability and efficient service delivery are the major benefits of cloud systems. The limitation in resource availability in single data centers causes the extraction of additional resources from the cloud providers group. The federation scheme dynamically increases resource availability in response to service requests. The dynamic increase in resource count leads to excessive energy consumption, maximum cost, and carbon footprints emission. Hence, the reduction of resources is the major requirement to construct the optimized cloud source models for profit maximization without considering energy mix and CO2. This paper proposes the novel migration method to reduce carbon emissions and energy consumption. The initial stage in the proposed work is the categorization of data centers based on the MIPS and cost prior to job allocation offers scalable and efficient services and resources to the cloud user. Then, the job with the maximum size is allotted to the VM only if its capacity is less than the cumulative capacity of data centers. A novel migration based on overutilized and underutilized levels provides the services to the user even if the particular VM fails. The proposed work offers efficient maintenance of resource availability and maximizes the profit of the cloud providers associated with the federated cloud environment. The comparative analysis of the proposed algorithm with the existing methods regarding the response time, accuracy, profit, carbon emission, and energy consumption assures the effectiveness in a confederated cloud environment.</jats:p>",
+      "DOI": "10.1155/2023/7754765",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            2,
+            17
+          ]
+        ],
+        "date-time": "2023-02-17T20:06:23Z",
+        "timestamp": 1676664383000
+      },
+      "page": "1-11",
+      "source": "Crossref",
+      "is-referenced-by-count": 14,
+      "title": [
+        "Preserving Resource Handiness and Exigency-Based Migration Algorithm (PRH-EM) for Energy Efficient Federated Cloud Management Systems"
+      ],
+      "prefix": "10.1155",
+      "volume": "2023",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-7200-8007",
+          "authenticated-orcid": true,
+          "given": "R.",
+          "family": "Karthikeyan",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of CSE (AI&ML), Vardhaman College of Engineering, Hyderabad, TS 501218, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5515-5769",
+          "authenticated-orcid": true,
+          "given": "B.",
+          "family": "Sundaravadivazhagan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of IT, University of Technology and Applied Sciences, Al Mussanah, Oman"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3876-3703",
+          "authenticated-orcid": true,
+          "given": "Robin",
+          "family": "Cyriac",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of IT, University of Technology and Applied Sciences, Al Mussanah, Oman"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1561-1376",
+          "authenticated-orcid": true,
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of EEE, Vardhaman College of Engineering, Hyderabad, TS 501218, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4931-724X",
+          "authenticated-orcid": true,
+          "given": "S.",
+          "family": "Shitharth",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of CSE, Kebri Dehar University, Somali, Ethiopia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "311",
+      "reference": [
+        {
+          "key": "1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/HPCC.2011.44"
+        },
+        {
+          "key": "2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.future.2011.05.021"
+        },
+        {
+          "key": "3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CLOUD.2012.79"
+        },
+        {
+          "key": "4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10723-013-9269-0"
+        },
+        {
+          "key": "5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/IC2E.2014.9"
+        },
+        {
+          "key": "6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICACCI.2014.6968597"
+        },
+        {
+          "key": "7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/IC3.2014.6897171"
+        },
+        {
+          "key": "8",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.4018/978-1-4666-8213-9.ch002",
+          "article-title": "Network-aware virtual machine placement and migration in cloud data centers",
+          "volume": "42",
+          "author": "M. H. Ferdaus",
+          "year": "2015",
+          "journal-title": "Emerging Research in Cloud Distributed Computing Systems"
+        },
+        {
+          "key": "9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.adhoc.2014.11.003"
+        },
+        {
+          "key": "10",
+          "first-page": "20",
+          "article-title": "Energy and performance-aware virtual machine consolidation in cloud computing A two-dimensional approach",
+          "volume": "1",
+          "author": "A. R. A. Horri",
+          "year": "2015",
+          "journal-title": "Turkish Journal of Engineering, Science and Technology"
+        },
+        {
+          "key": "11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2208828.2208832"
+        },
+        {
+          "key": "12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4156/jcit.vol7.issue1.8"
+        },
+        {
+          "key": "13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/SMC.2013.28"
+        },
+        {
+          "key": "14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CGC.2013.76"
+        },
+        {
+          "key": "15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.future.2012.05.019"
+        },
+        {
+          "key": "16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jpdc.2012.02.002"
+        },
+        {
+          "key": "17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10723-013-9258-3"
+        },
+        {
+          "key": "18",
+          "first-page": "519",
+          "article-title": "Energy-aware VM scheduling in IaaS clouds using pliant logic",
+          "volume": "74",
+          "author": "A. Benyi",
+          "year": "2014",
+          "journal-title": "Closer"
+        },
+        {
+          "key": "19",
+          "first-page": "169",
+          "article-title": "Dynamic communication-aware scheduling with uncertainty of workflow applications in clouds",
+          "volume-title": "High Performance Computer Applications",
+          "author": "V. Miranda",
+          "year": "2015"
+        },
+        {
+          "key": "20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5120/14643-2919"
+        },
+        {
+          "key": "21",
+          "first-page": "72",
+          "article-title": "Energy-aware multi-agent server consolidation in federated clouds",
+          "volume-title": "Cloud Computing",
+          "author": "A. F. Leite",
+          "year": "2012"
+        },
+        {
+          "key": "22",
+          "first-page": "2319",
+          "article-title": "Virtual machine migration policies in clouds",
+          "author": "A. Singh",
+          "year": "2013",
+          "journal-title": "International Journal of Science and Research (IJSR), India Online ISSN"
+        },
+        {
+          "key": "23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/tsc.2015.2491280"
+        },
+        {
+          "key": "24",
+          "article-title": "Virtual machine migration enabled cloud resource management: a challenging task",
+          "author": "M. Liaqat",
+          "year": "2016"
+        },
+        {
+          "key": "25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10586-016-0566-9"
+        },
+        {
+          "key": "26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5815/ijmecs.2015.03.06"
+        },
+        {
+          "key": "27",
+          "first-page": "12",
+          "article-title": "Virtual machine scheduling management on cloud computing using artificial bee colony",
+          "author": "B. Kruekaew"
+        },
+        {
+          "key": "28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10586-017-0889-1"
+        },
+        {
+          "key": "29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/cpe.6171"
+        },
+        {
+          "key": "30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/s22041482"
+        },
+        {
+          "key": "31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10586-022-03690-4"
+        }
+      ],
+      "container-title": [
+        "Mobile Information Systems"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "http://downloads.hindawi.com/journals/misy/2023/7754765.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "http://downloads.hindawi.com/journals/misy/2023/7754765.xml",
+          "content-type": "application/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "http://downloads.hindawi.com/journals/misy/2023/7754765.pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            2,
+            17
+          ]
+        ],
+        "date-time": "2023-02-17T20:06:31Z",
+        "timestamp": 1676664391000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.hindawi.com/journals/misy/2023/7754765/"
+        }
+      },
+      "subtitle": [],
+      "editor": [
+        {
+          "given": "Shuai",
+          "family": "Zhao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "editor"
+            }
+          ]
+        }
+      ],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            2,
+            17
+          ]
+        ]
+      },
+      "references-count": 31,
+      "alternative-id": [
+        "7754765",
+        "7754765"
+      ],
+      "URL": "https://doi.org/10.1155/2023/7754765",
+      "relation": {},
+      "ISSN": [
+        "1875-905X",
+        "1574-017X"
+      ],
+      "issn-type": [
+        {
+          "value": "1875-905X",
+          "type": "electronic"
+        },
+        {
+          "value": "1574-017X",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            2,
+            17
+          ]
+        ]
+      }
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "R. Karthikeyan",
+      "given_name_from_source": "R.",
+      "family_name_from_source": "Karthikeyan",
+      "orcid_from_source": "https://orcid.org/0000-0002-7200-8007",
+      "affiliation_from_source": [
+        "Department of CSE (AI&ML), Vardhaman College of Engineering, Hyderabad, TS 501218, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "B. Sundaravadivazhagan",
+      "given_name_from_source": "B.",
+      "family_name_from_source": "Sundaravadivazhagan",
+      "orcid_from_source": "https://orcid.org/0000-0002-5515-5769",
+      "affiliation_from_source": [
+        "Department of IT, University of Technology and Applied Sciences, Al Mussanah, Oman"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Robin Cyriac",
+      "given_name_from_source": "Robin",
+      "family_name_from_source": "Cyriac",
+      "orcid_from_source": "https://orcid.org/0000-0002-3876-3703",
+      "affiliation_from_source": [
+        "Department of IT, University of Technology and Applied Sciences, Al Mussanah, Oman"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": "https://orcid.org/0000-0003-1561-1376",
+      "affiliation_from_source": [
+        "Department of EEE, Vardhaman College of Engineering, Hyderabad, TS 501218, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "S. Shitharth",
+      "given_name_from_source": "S.",
+      "family_name_from_source": "Shitharth",
+      "orcid_from_source": "https://orcid.org/0000-0002-4931-724X",
+      "affiliation_from_source": [
+        "Department of CSE, Kebri Dehar University, Somali, Ethiopia"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

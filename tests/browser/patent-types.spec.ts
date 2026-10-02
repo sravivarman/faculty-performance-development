@@ -1,0 +1,51 @@
+import {test,expect} from '@playwright/test';
+
+test('Copyright entry, type filters, breakdowns, CSV and faculty details retain the type',async({page,request})=>{
+  const faculty=await (await request.post('/api/faculty',{data:{employee_id:'TYPE-FACULTY',name:'Type Faculty'}})).json();
+  for(const type of ['UTILITY','DESIGN']){
+    const response=await request.post('/api/patents',{data:{title:`Type ${type}`,application_number:`TYPE-${type}`,patent_type:type,patent_office:'Example Office',current_status:'PUBLISHED',publication_date:'2026-06-01',inventors:[{inventor_order:1,inventor_name:faculty.name,person_type:'FACULTY',institution_scope:'CURRENT_DEPARTMENT',faculty_id:faculty.id,is_claiming_faculty:true}]}});
+    expect(response.status()).toBe(201);
+  }
+  await page.goto('/patents/new');
+  const typeSelect=page.getByRole('combobox',{name:'Patent Type',exact:true});
+  await expect(typeSelect.locator('option')).toHaveText(['Select patent type','Utility','Design','Copyright']);
+  await typeSelect.selectOption('COPYRIGHT');
+  await page.getByLabel('Patent title *',{exact:true}).fill('Type Copyright');
+  await page.getByLabel('Application number',{exact:true}).fill('TYPE-COPYRIGHT');
+  await page.getByLabel('Patent office *',{exact:true}).fill('Example Office');
+  await page.getByLabel('Publication date',{exact:true}).fill('2026-06-01');
+  await page.getByRole('combobox',{name:'Current status',exact:true}).selectOption('PUBLISHED');
+  await page.getByRole('button',{name:'+ Add inventor',exact:true}).click();
+  const card=page.locator('.inventor-card').first();
+  await card.getByLabel('Inventor name',{exact:true}).fill(faculty.name);
+  await card.getByRole('combobox',{name:'Person type',exact:true}).selectOption('FACULTY');
+  await card.getByRole('combobox',{name:'Affiliation',exact:true}).selectOption('CURRENT_DEPARTMENT');
+  await card.getByRole('combobox',{name:'Local master reference',exact:true}).selectOption(String(faculty.id));
+  await page.getByLabel('I reviewed the dates, inventor affiliations and claimants.').check();
+  await page.getByRole('button',{name:'Save patent',exact:true}).click();
+  await expect(page).toHaveURL(/\/patents\/\d+$/);
+  const detail=page.url();
+  await expect(page.getByText('Copyright',{exact:true})).toBeVisible();
+  await page.getByRole('link',{name:'Edit patent',exact:true}).click();
+  await expect(page.getByRole('combobox',{name:'Patent Type',exact:true})).toHaveValue('COPYRIGHT');
+  const range='?from_date=2026-01-01&to_date=2026-12-31&faculty_id='+faculty.id;
+  await page.goto('/patents'+range);
+  for(const type of ['Utility','Design','Copyright'])await expect(page.getByRole('button',{name:`Patents by Type \u00b7 ${type}: 1`,exact:true})).toBeVisible();
+  await page.getByRole('combobox',{name:'Patent Type',exact:true}).selectOption('COPYRIGHT');
+  await expect(page.getByRole('button',{name:'Unique Patents: 1',exact:true})).toBeVisible();
+  await expect(page.getByRole('link',{name:'Type Copyright',exact:true})).toHaveAttribute('href',new URL(detail).pathname);
+  await expect(page.getByRole('link',{name:'Type UTILITY',exact:true})).toHaveCount(0);
+  const exportLink=await page.getByRole('link',{name:'Export CSV',exact:true}).getAttribute('href');
+  const exported=await request.get(exportLink!);
+  expect(await exported.text()).toContain('COPYRIGHT,Copyright');
+  expect(await exported.text()).not.toContain('Type UTILITY');
+  await page.goto('/?from_date=2026-01-01&to_date=2026-12-31');
+  await page.getByRole('button',{name:'Open Faculty Research Details: Type Faculty',exact:true}).click();
+  await page.getByRole('dialog').getByRole('tab',{name:'Patents',exact:true}).click();
+  await expect(page.getByRole('dialog').getByRole('cell',{name:'Copyright',exact:true})).toBeVisible();
+  await page.getByRole('button',{name:'Close Faculty Research Details',exact:true}).click();
+  await page.goto('/patents/records');
+  await page.getByRole('combobox',{name:'Patent Type',exact:true}).selectOption('COPYRIGHT');
+  await expect(page.getByRole('link',{name:'Type Copyright',exact:true})).toBeVisible();
+  await expect(page.getByRole('link',{name:'Type DESIGN',exact:true})).toHaveCount(0);
+});

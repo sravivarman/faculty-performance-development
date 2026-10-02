@@ -1,0 +1,632 @@
+{
+  "doi": "10.3390/wevj15020060",
+  "title": "Optimizing Electric Vehicle Battery Life: A Machine Learning Approach for Sustainable Transportation",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "World Electric Vehicle Journal",
+  "publisher": "MDPI AG",
+  "publication_date": "2024-02-09",
+  "online_publication_date": "2024-02-09",
+  "print_publication_date": null,
+  "volume": "15",
+  "issue": "2",
+  "pages_or_article_number": "60",
+  "issn": null,
+  "eissn": "2032-6653",
+  "isbn": null,
+  "url": "https://doi.org/10.3390/wevj15020060",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:26.677348+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            8
+          ]
+        ],
+        "date-time": "2026-09-08T17:26:39Z",
+        "timestamp": 1788888399274,
+        "version": "build-2803163510"
+      },
+      "reference-count": 37,
+      "publisher": "MDPI AG",
+      "issue": "2",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                2,
+                9
+              ]
+            ],
+            "date-time": "2024-02-09T00:00:00Z",
+            "timestamp": 1707436800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "WEVJ"
+      ],
+      "abstract": "<jats:p>Electric vehicles (EVs) are becoming increasingly popular, due to their beneficial environmental effects and low operating costs. However, one of the main challenges with EVs is their short battery life. This study presents a comprehensive approach for predicting the Remaining Useful Life (RUL) of Nickel Manganese Cobalt-Lithium Cobalt Oxide (NMC-LCO) batteries. This research utilizes a dataset derived from the Hawaii Natural Energy Institute, encompassing 14 individual batteries subjected to over 1000 cycles under controlled conditions. A multi-step methodology is adopted, starting with data collection and preprocessing, followed by feature selection and outlier elimination. Machine learning models, including XGBoost, BaggingRegressor, LightGBM, CatBoost, and ExtraTreesRegressor, are employed to develop the RUL prediction model. Feature importance analysis aids in identifying critical parameters influencing battery health and lifespan. Statistical evaluations reveal no missing or duplicate data, and outlier removal enhances model accuracy. Notably, XGBoost emerged as the most effective algorithm, providing near-perfect predictions. This research underscores the significance of RUL prediction for enhancing battery lifecycle management, particularly in applications like electric vehicles, ensuring optimal resource utilization, cost efficiency, and environmental sustainability.</jats:p>",
+      "DOI": "10.3390/wevj15020060",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            9
+          ]
+        ],
+        "date-time": "2024-02-09T09:04:01Z",
+        "timestamp": 1707469441000
+      },
+      "page": "60",
+      "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 26,
+      "title": [
+        "Optimizing Electric Vehicle Battery Life: A Machine Learning Approach for Sustainable Transportation"
+      ],
+      "prefix": "10.3390",
+      "volume": "15",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-7755-5715",
+          "authenticated-orcid": false,
+          "given": "K.",
+          "family": "Karthick",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, GMR Institute of Technology, Rajam 532127, Andhra Pradesh, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6348-3132",
+          "authenticated-orcid": false,
+          "given": "S.",
+          "family": "Ravivarman",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, Vardhaman College of Engineering, Hyderabad 501218, Telangana, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "R.",
+          "family": "Priyanka",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, S.A. Engineering College, Chennai 600077, Tamil Nadu, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "1968",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            9
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "ref_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "11",
+          "DOI": "10.1016/j.egyr.2023.08.069",
+          "article-title": "Maximizing energy density of lithium-ion batteries for electric vehicles: A critical review",
+          "volume": "9",
+          "author": "Khan",
+          "year": "2023",
+          "journal-title": "Energy Rep."
+        },
+        {
+          "key": "ref_2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Alanazi, F. (2023). Electric Vehicles: Benefits, Challenges, and Potential Solutions for Widespread Adaptation. Appl. Sci., 13.",
+          "DOI": "10.3390/app13106016"
+        },
+        {
+          "key": "ref_3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kumar, M., Panda, K.P., Naayagi, R.T., Thakur, R., and Panda, G. (2023). Comprehensive Review of Electric Vehicle Technology and Its Impacts: Detailed Investigation of Charging Infrastructure, Power Management, and Control Techniques. Appl. Sci., 13.",
+          "DOI": "10.3390/app13158919"
+        },
+        {
+          "key": "ref_4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kang, Z., Catal, C., and Tekinerdogan, B. (2021). Remaining Useful Life (RUL) Prediction of Equipment in Production Lines Using Artificial Neural Networks. Sensors, 21.",
+          "DOI": "10.3390/s21030932"
+        },
+        {
+          "key": "ref_5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Uzair, M., Abbas, G., and Hosain, S. (2021). Characteristics of Battery Management Systems of Electric Vehicles with Consideration of the Active and Passive Cell Balancing Process. World Electr. Veh. J., 12.",
+          "DOI": "10.3390/wevj12030120"
+        },
+        {
+          "key": "ref_6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Pang, X., Huang, R., Wen, J., Shi, Y., Jia, J., and Zeng, J. (2019). A Lithium-Ion Battery RUL Prediction Method Considering the Capacity Regeneration Phenomenon. Energies, 12.",
+          "DOI": "10.3390/en12122247"
+        },
+        {
+          "key": "ref_7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jiang, Y., and Song, W. (2023). Predicting the Cycle Life of Lithium-Ion Batteries Using Data-Driven Machine Learning Based on Discharge Voltage Curves. Batteries, 9.",
+          "DOI": "10.3390/batteries9080413"
+        },
+        {
+          "key": "ref_8",
+          "doi-asserted-by": "crossref",
+          "first-page": "81",
+          "DOI": "10.1016/j.promfg.2020.06.015",
+          "article-title": "Remaining Useful Life Prediction using Deep Learning Approaches: A Review",
+          "volume": "49",
+          "author": "Wang",
+          "year": "2020",
+          "journal-title": "Procedia Manuf."
+        },
+        {
+          "key": "ref_9",
+          "doi-asserted-by": "crossref",
+          "first-page": "313",
+          "DOI": "10.1016/j.egyr.2022.10.298",
+          "article-title": "RUL Prediction for Lithium Batteries Using a Novel Ensemble Learning Method",
+          "volume": "8",
+          "author": "Wu",
+          "year": "2022",
+          "journal-title": "Energy Rep."
+        },
+        {
+          "key": "ref_10",
+          "doi-asserted-by": "crossref",
+          "first-page": "103",
+          "DOI": "10.1016/j.jechem.2023.03.026",
+          "article-title": "The development of machine learning-based remaining useful life prediction for lithium-ion batteries",
+          "volume": "82",
+          "author": "Li",
+          "year": "2023",
+          "journal-title": "J. Energy Chem."
+        },
+        {
+          "key": "ref_11",
+          "doi-asserted-by": "crossref",
+          "first-page": "108120",
+          "DOI": "10.1016/j.est.2023.108120",
+          "article-title": "Predicting future capacity of lithium-ion batteries using transfer learning method",
+          "volume": "71",
+          "author": "Chou",
+          "year": "2023",
+          "journal-title": "J. Energy Storage"
+        },
+        {
+          "key": "ref_12",
+          "doi-asserted-by": "crossref",
+          "first-page": "100214",
+          "DOI": "10.1016/j.etran.2022.100214",
+          "article-title": "Machine learning for predicting battery capacity for electric vehicles",
+          "volume": "15",
+          "author": "Zhao",
+          "year": "2023",
+          "journal-title": "eTransportation"
+        },
+        {
+          "key": "ref_13",
+          "doi-asserted-by": "crossref",
+          "first-page": "108234",
+          "DOI": "10.1016/j.est.2023.108234",
+          "article-title": "Electrochemical polarization-based fast charging of lithium-ion batteries in embedded systems",
+          "volume": "72",
+          "author": "Zoerr",
+          "year": "2023",
+          "journal-title": "J. Energy Storage"
+        },
+        {
+          "key": "ref_14",
+          "doi-asserted-by": "crossref",
+          "first-page": "42",
+          "DOI": "10.1016/j.apm.2023.05.038",
+          "article-title": "A Physics-Constrained Bayesian neural network for battery remaining useful life prediction",
+          "volume": "122",
+          "author": "Hu",
+          "year": "2023",
+          "journal-title": "Appl. Math. Model."
+        },
+        {
+          "key": "ref_15",
+          "doi-asserted-by": "crossref",
+          "first-page": "233367",
+          "DOI": "10.1016/j.jpowsour.2023.233367",
+          "article-title": "Impact of the manufacturing process on graphite blend electrodes with silicon nanoparticles for lithium-ion batteries",
+          "volume": "580",
+          "author": "Dominguez",
+          "year": "2023",
+          "journal-title": "J. Power Source"
+        },
+        {
+          "key": "ref_16",
+          "doi-asserted-by": "crossref",
+          "first-page": "128228",
+          "DOI": "10.1016/j.energy.2023.128228",
+          "article-title": "Battery health prognostic using efficient and robust aging trajectory matching with ensemble deep transfer learning",
+          "volume": "282",
+          "author": "Zhao",
+          "year": "2023",
+          "journal-title": "Energy"
+        },
+        {
+          "key": "ref_17",
+          "doi-asserted-by": "crossref",
+          "first-page": "107745",
+          "DOI": "10.1016/j.est.2023.107745",
+          "article-title": "Degradation behaviour analysis and end-of-life prediction of lithium titanate oxide batteries",
+          "volume": "68",
+          "author": "Soltani",
+          "year": "2023",
+          "journal-title": "J. Energy Storage"
+        },
+        {
+          "key": "ref_18",
+          "doi-asserted-by": "crossref",
+          "first-page": "108101",
+          "DOI": "10.1016/j.est.2023.108101",
+          "article-title": "A new study on the prediction of the effects of road gradient and coolant flow on electric vehicle battery power electronics components using machine learning approach",
+          "volume": "70",
+          "year": "2023",
+          "journal-title": "J. Energy Storage"
+        },
+        {
+          "key": "ref_19",
+          "doi-asserted-by": "crossref",
+          "first-page": "1299",
+          "DOI": "10.1016/j.egyr.2023.05.121",
+          "article-title": "RUL prediction of lithium ion battery based on CEEMDAN-CNN BiLSTM model",
+          "volume": "9",
+          "author": "Guo",
+          "year": "2023",
+          "journal-title": "Energy Rep."
+        },
+        {
+          "key": "ref_20",
+          "doi-asserted-by": "crossref",
+          "first-page": "8513",
+          "DOI": "10.1109/TPEL.2022.3150026",
+          "article-title": "Battery Thermal Runaway Fault Prognosis in Electric Vehicles Based on Abnormal Heat Generation and Deep Learning Algorithms",
+          "volume": "37",
+          "author": "Li",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Power Electron."
+        },
+        {
+          "key": "ref_21",
+          "unstructured": "(2023, November 30). Dataset Link. Available online: https://www.kaggle.com/datasets/ignaciovinuales/battery-remaining-useful-life-rul."
+        },
+        {
+          "key": "ref_22",
+          "doi-asserted-by": "crossref",
+          "first-page": "915",
+          "DOI": "10.1002/bimj.202000196",
+          "article-title": "Missing data: A statistical framework for practice",
+          "volume": "63",
+          "author": "Carpenter",
+          "year": "2021",
+          "journal-title": "Biom. J."
+        },
+        {
+          "key": "ref_23",
+          "doi-asserted-by": "crossref",
+          "first-page": "112",
+          "DOI": "10.1186/s40537-021-00502-1",
+          "article-title": "Missing values compensation in duplicates detection using hot deck method",
+          "volume": "8",
+          "author": "Ali",
+          "year": "2021",
+          "journal-title": "J. Big Data"
+        },
+        {
+          "key": "ref_24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Montesinos López, O.A., Montesinos López, A., and Crossa, J. (2022). Multivariate Statistical Machine Learning Methods for Genomic Prediction, Springer.",
+          "DOI": "10.1007/978-3-030-89010-0"
+        },
+        {
+          "key": "ref_25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Linardatos, P., Papastefanopoulos, V., and Kotsiantis, S. (2021). Explainable AI: A Review of Machine Learning Interpretability Methods. Entropy, 23.",
+          "DOI": "10.3390/e23010018"
+        },
+        {
+          "key": "ref_26",
+          "doi-asserted-by": "crossref",
+          "first-page": "879736",
+          "DOI": "10.1155/2014/879736",
+          "article-title": "Time Series Outlier Detection Based on Sliding Window Prediction",
+          "volume": "2014",
+          "author": "Yu",
+          "year": "2014",
+          "journal-title": "Math. Probl. Eng."
+        },
+        {
+          "key": "ref_27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gandhi, S.M., and Sarkar, B.C. (2016). Essentials of Mineral Exploration and Evaluation, Elsevier.",
+          "DOI": "10.1016/B978-0-12-805329-4.00013-2"
+        },
+        {
+          "key": "ref_28",
+          "doi-asserted-by": "crossref",
+          "first-page": "77605",
+          "DOI": "10.1007/s11356-023-27870-w",
+          "article-title": "Examining the interconnectedness of green finance: An analysis of dynamic spillover effects among green bonds, renewable energy, and carbon markets",
+          "volume": "30",
+          "author": "Zhang",
+          "year": "2023",
+          "journal-title": "Environ. Sci. Pollut. Res. Int."
+        },
+        {
+          "key": "ref_29",
+          "doi-asserted-by": "crossref",
+          "first-page": "1282443",
+          "DOI": "10.3389/fpls.2023.1282443",
+          "article-title": "Corrigendum: An advanced deep learning models-based plant disease detection: A review of recent research",
+          "volume": "14",
+          "author": "Shoaib",
+          "year": "2023",
+          "journal-title": "Front. Plant Sci."
+        },
+        {
+          "key": "ref_30",
+          "doi-asserted-by": "crossref",
+          "first-page": "1728",
+          "DOI": "10.1177/0962280219854487",
+          "article-title": "Evaluation of multiple prediction models: A novel view on model selection and performance assessment",
+          "volume": "29",
+          "author": "Westphal",
+          "year": "2020",
+          "journal-title": "Stat. Methods Med. Res."
+        },
+        {
+          "key": "ref_31",
+          "doi-asserted-by": "crossref",
+          "first-page": "761990",
+          "DOI": "10.3389/feart.2021.761990",
+          "article-title": "Developing an XGBoost Regression Model for Predicting Young’s Modulus of Intact Sedimentary Rocks for the Stability of Surface and Subsurface Structures",
+          "volume": "9",
+          "author": "Shahani",
+          "year": "2021",
+          "journal-title": "Front. Earth Sci."
+        },
+        {
+          "key": "ref_32",
+          "doi-asserted-by": "crossref",
+          "first-page": "3521",
+          "DOI": "10.1016/j.asej.2021.03.028",
+          "article-title": "Application of bagging ensemble model for predicting compressive strength of hollow concrete masonry prism",
+          "volume": "12",
+          "author": "Sharafati",
+          "year": "2021",
+          "journal-title": "Ain Shams Eng. J."
+        },
+        {
+          "key": "ref_33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Paudel, P., Karna, S.K., Saud, R., Regmi, L., Thapa, T.B., and Bhandari, M. (2023, January 21–23). Unveiling Key Predictors for Early Heart Attack Detection using Machine Learning and Explainable AI Technique with LIME. Proceedings of the 10th International Conference on Networking, Systems and Security (NsysS’23), Khulna, Bangladesh.",
+          "DOI": "10.1145/3629188.3629193"
+        },
+        {
+          "key": "ref_34",
+          "first-page": "2556066",
+          "article-title": "Identification of Dry Bean Varieties Based on Multiple Attributes Using CatBoost Machine Learning Algorithm",
+          "volume": "2023",
+          "author": "Krishnan",
+          "year": "2023",
+          "journal-title": "Sci. Program."
+        },
+        {
+          "key": "ref_35",
+          "first-page": "100204",
+          "article-title": "Rainfall prediction: A comparative analysis of modern machine learning algorithms for time-series forecasting",
+          "volume": "7",
+          "author": "Oyedele",
+          "year": "2022",
+          "journal-title": "Mach. Learn. Appl."
+        },
+        {
+          "key": "ref_36",
+          "doi-asserted-by": "crossref",
+          "first-page": "8477",
+          "DOI": "10.1109/JIOT.2022.3199712",
+          "article-title": "Optimization of RBF-SVM Kernel Using Grid Search Algorithm for DDoS Attack Detection in SDN-Based VANET",
+          "volume": "10",
+          "author": "Anyanwu",
+          "year": "2023",
+          "journal-title": "IEEE Internet Things J."
+        },
+        {
+          "key": "ref_37",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jierula, A., Wang, S., OH, T.-M., and Wang, P. (2021). Study on Accuracy Metrics for Evaluating the Predictions of Damage Locations in Deep Piles Using Artificial Neural Networks with Acoustic Emission Data. Appl. Sci., 11.",
+          "DOI": "10.3390/app11052314"
+        }
+      ],
+      "container-title": [
+        "World Electric Vehicle Journal"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.mdpi.com/2032-6653/15/2/60/pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            10
+          ]
+        ],
+        "date-time": "2025-10-10T13:57:59Z",
+        "timestamp": 1760104679000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.mdpi.com/2032-6653/15/2/60"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            9
+          ]
+        ]
+      },
+      "references-count": 37,
+      "journal-issue": {
+        "issue": "2",
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              2
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "wevj15020060"
+      ],
+      "URL": "https://doi.org/10.3390/wevj15020060",
+      "relation": {},
+      "ISSN": [
+        "2032-6653"
+      ],
+      "issn-type": [
+        {
+          "value": "2032-6653",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            9
+          ]
+        ]
+      }
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "K. Karthick",
+      "given_name_from_source": "K.",
+      "family_name_from_source": "Karthick",
+      "orcid_from_source": "https://orcid.org/0000-0001-7755-5715",
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering, GMR Institute of Technology, Rajam 532127, Andhra Pradesh, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "S. Ravivarman",
+      "given_name_from_source": "S.",
+      "family_name_from_source": "Ravivarman",
+      "orcid_from_source": "https://orcid.org/0000-0001-6348-3132",
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering, Vardhaman College of Engineering, Hyderabad 501218, Telangana, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "R. Priyanka",
+      "given_name_from_source": "R.",
+      "family_name_from_source": "Priyanka",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering, S.A. Engineering College, Chennai 600077, Tamil Nadu, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

@@ -1,0 +1,1317 @@
+{
+  "doi": "10.32397/tesea.vol6.n1.574",
+  "title": "An evaluation on industrial applications using leakage inductance and series capacitance converter",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Transactions on Energy Systems and Engineering Applications",
+  "publisher": "Universidad Tecnologica de Bolivar",
+  "publication_date": "2025-02-10",
+  "online_publication_date": "2025-02-10",
+  "print_publication_date": null,
+  "volume": "6",
+  "issue": "1",
+  "pages_or_article_number": "1-23",
+  "issn": null,
+  "eissn": "2745-0120",
+  "isbn": null,
+  "url": "https://doi.org/10.32397/tesea.vol6.n1.574",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:48.645029+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            7
+          ]
+        ],
+        "date-time": "2026-05-07T22:11:17Z",
+        "timestamp": 1778191877093,
+        "version": "3.51.4"
+      },
+      "reference-count": 127,
+      "publisher": "Universidad Tecnologica de Bolivar",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                10
+              ]
+            ],
+            "date-time": "2025-02-10T00:00:00Z",
+            "timestamp": 1739145600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "TESEA"
+      ],
+      "abstract": "<jats:p>The Leakage Inductance and Series Capacitance (LLSC) resonant converters are exhaustively employed in a wide assortment of industries involving consumer electronics due to their benefits of good efficiency, higher power density, immunity to electromagnetic interference, low EMI and harmonic distortion, wide production extends, voltage stress is lowered and frequency at high operating characteristic. Three of the most prominent converters with LLSC topologies are explored along with thorough analyses of their merits and disadvantages. The background of LLSC resonant converters are also discussed. A significant amount of research is also being done regarding large - scale production of LLSC resonant converters, namely in order to charge electric automobiles (EVs), solar systems, LED lighting drivers, and power supply for LCD TVs. Eventually, the growth of LLSC resonant converter is explained.</jats:p>",
+      "DOI": "10.32397/tesea.vol6.n1.574",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            10
+          ]
+        ],
+        "date-time": "2025-02-10T14:32:58Z",
+        "timestamp": 1739197978000
+      },
+      "page": "1-23",
+      "update-policy": "https://doi.org/10.32397/tesea-crossmark",
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "An evaluation on industrial applications using leakage inductance and series capacitance converter"
+      ],
+      "prefix": "10.32397",
+      "volume": "6",
+      "author": [
+        {
+          "family": "Gundala Srinivasa Rao",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "CMR college of engineering & technologyCMR college of engineering & technology"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "family": "Tellapati Anuradha Devi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vardhaman College of Engineering"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3808-0512",
+          "authenticated-orcid": false,
+          "given": "Kambhampati Venkata Govardhan",
+          "family": "Rao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "St. Martin's Engineering College"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "family": "Thalanki Venkata Sai Kalyani",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "St. Martin’s Engineering College"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "family": "Malligunta Kiran Kumar",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Koneru Lakshmaiah Education Foundation"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "family": "B. Srikanth Goud",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Anurag University"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "family": "K. S. Bhargavi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vignan institute of technology and science"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "family": "CH Naga Sai Kalyan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vasireddy Venkatadri Institute of Technology"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "family": "Srungaram Ravi Teja",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Koneru Lakshmaiah Education Foundation"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "family": "M. Sai Prasad Reddy",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vignana Bharathi Institute of Technology"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "17094",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            10
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "ref0",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Do-Hyun Kim, Min-Soo Kim, Sarvar Hussain Nengroo, Chang-Hee Kim, and Hee-Je Kim. LLC resonant converter for LEV (light electric vehicle) fast chargers. Electronics (Basel), 8(3):362, March 2019.",
+          "DOI": "10.3390/electronics8030362"
+        },
+        {
+          "key": "ref1",
+          "unstructured": "Bo Yang, F C Lee, A J Zhang, and Guisong Huang. LLC resonant converter for front end DC/DC conversion. In APEC. Seventeenth Annual IEEE Applied Power Electronics Conference and Exposition (Cat. No.02CH37335). IEEE, 2003."
+        },
+        {
+          "key": "ref2",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Daocheng Huang, Shu Ji, and Fred C Lee. LLC resonant converter with matrix transformer. In 2014 IEEE Applied Power Electronics Conference and Exposition - APEC 2014. IEEE, March 2014.",
+          "DOI": "10.1109/APEC.2014.6803447"
+        },
+        {
+          "key": "ref3",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Junming Zeng, Guidong Zhang, Samson Shenglong Yu, Bo Zhang, and Yun Zhang. LLC resonant converter topologies and industrial applications — a review. Chin. J. Electr. Eng., 6(3):73–84, September 2020.",
+          "DOI": "10.23919/CJEE.2020.000021"
+        },
+        {
+          "key": "ref4",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Yanjun Zhang, Dehong Xu, Min Chen, Yu Han, and Zhoong Du. LLC resonant converter for 48 V to 0.9 V VRM. In 2004 IEEE 35th Annual Power Electronics Specialists Conference (IEEE Cat. No.04CH37551). IEEE, 2004.",
+          "DOI": "10.1109/PESC.2004.1355397"
+        },
+        {
+          "key": "ref5",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Maikel Fernando Menke, Alysson Raniere Seidel, and Rodrigo Varella Tambara. LLC LED driver small-signal modeling and digital control design for active ripple compensation. IEEE Trans. Ind. Electron., 66(1):387–396, January 2019.",
+          "DOI": "10.1109/TIE.2018.2829683"
+        },
+        {
+          "key": "ref6",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Mohammad Ali Saket, Navid Shafiei, and Martin Ordonez. LLC converters with planar transformers: Issues and mitigation. IEEE Trans. Power Electron., 32(6):4524–4542, June 2017.",
+          "DOI": "10.1109/TPEL.2016.2602360"
+        },
+        {
+          "key": "ref7",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Pedro S Almeida, Henrique A C Braga, Marco A Dalla Costa, and J Marcos Alonso. Offline soft-switched LED driver based on an integrated bridgeless boost–asymmetrical half-bridge converter. IEEE Trans. Ind. Appl., 51(1):761–769, January 2015.",
+          "DOI": "10.1109/TIA.2014.2332066"
+        },
+        {
+          "key": "ref8",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Lokesha M H and S G Srivani. LLC resonant converter design and development. In 2014 Annual IEEE India Conference (INDICON). IEEE, December 2014.",
+          "DOI": "10.1109/INDICON.2014.7030386"
+        },
+        {
+          "key": "ref9",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Rui Zhou, Qianqian Jiao, and Yincan Mao. Natural convection cooled SiC-based LLC resonant converters in wide voltage range battery charger application. In 2019 IEEE Energy Conversion Congress and Exposition (ECCE). IEEE, September 2019.",
+          "DOI": "10.1109/ECCE.2019.8912300"
+        },
+        {
+          "key": "ref10",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Zhijian Fang, Tao Cai, Shanxu Duan, and Changsong Chen. Optimal design methodology for llc resonant converter in battery charging applications based on time-weighted average efficiency. IEEE Trans. Power Electron., 30(10):5469–5483, October 2015.",
+          "DOI": "10.1109/TPEL.2014.2379278"
+        },
+        {
+          "key": "ref11",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Xiang Fang, Haibing Hu, Z John Shen, and Issa Batarseh. Operation mode analysis and peak gain approximation of the LLC resonant converter. IEEE Trans. Power Electron., 27(4):1985–1995, April 2012.",
+          "DOI": "10.1109/TPEL.2011.2168545"
+        },
+        {
+          "key": "ref12",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Kondreddy Sreekanth Reddy and Sreenivasappa Bhupasandra Veeranna. Modified full bridge dual inductive coupling resonant converter for electric vehicle battery charging applications. Int. J. Power Electron. Drive Syst. (IJPEDS), 13(2):773, June 2022.",
+          "DOI": "10.11591/ijpeds.v13.i2.pp773-782"
+        },
+        {
+          "key": "ref13",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Adiraju Prasanth Rao, K. Sudheer Reddy, and Sathiyamoorthi V. Automated soil residue Levels Detecting device with IoT interface, page 123–135. November 2020.",
+          "DOI": "10.4018/978-1-7998-2566-1.ch007"
+        },
+        {
+          "key": "ref14",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Jong-Bok Baek, Ji-Tae Kim, and Bo-Hyung Cho. Low-profile AC/DC converter for laptop adaptor. In 2011 Twenty-Sixth Annual IEEE Applied Power Electronics Conference and Exposition (APEC). IEEE, March 2011.",
+          "DOI": "10.1109/APEC.2011.5744576"
+        },
+        {
+          "key": "ref15",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Ettore Scabeni Glitz and Martin Ordonez. MOSFET power loss estimation in llc resonant converters: Time interval analysis. IEEE Trans. Power Electron., 34(12):11964–11980, December 2019.",
+          "DOI": "10.1109/TPEL.2019.2909903"
+        },
+        {
+          "key": "ref16",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Dmitri Vinnikov, Andrii Chub, Elizaveta Liivik, and Indrek Roasto. High-performance quasi-z-source series resonant DC–DC converter for photovoltaic module-level power electronics applications. IEEE Trans. Power Electron., 32(5):3634–3650, May 2017.",
+          "DOI": "10.1109/TPEL.2016.2591726"
+        },
+        {
+          "key": "ref17",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Le Anh Dao Ta, Ngoc Dat Dao, and Dong-Choon Lee. High-efficiency hybrid LLC resonant converter for on-board chargers of plug-in electric vehicles. IEEE Trans. Power Electron., 35(8):8324–8334, August 2020.",
+          "DOI": "10.1109/TPEL.2020.2968084"
+        },
+        {
+          "key": "ref18",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Zhizhong Li, Tianwen Wu, Guidong Zhang, and Ru Yang. Hybrid modulation method combining variable frequency and double phase-shift for a 10 kw LLC resonant converter. IET Power Electron., 11(13):2161–2169, November 2018.",
+          "DOI": "10.1049/iet-pel.2018.5304"
+        },
+        {
+          "key": "ref19",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Ke Jin and Xinbo Ruan. Hybrid full-bridge three-level LLC resonant converter- a novel DC-DC converter suitable for fuel cell power system. In IEEE 36th Conference on Power Electronics Specialists, 2005. IEEE, 2006.",
+          "DOI": "10.1109/TIE.2006.882020"
+        },
+        {
+          "key": "ref20",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Yanxia Shen, Wenhui Zhao, Zhe Chen, and Chengchao Cai. Full-bridge LLC resonant converter with series-parallel connected transformers for electric vehicle on-board charger. IEEE Access, 6:13490–13500, 2018.",
+          "DOI": "10.1109/ACCESS.2018.2811760"
+        },
+        {
+          "key": "ref21",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Mohamed Salem, Vigna K Ramachandaramurthy, P Sanjeevikumar, Zbigniew Leonowicz, and Venkata Yaramasu. Full bridge LLC resonant three-phase interleaved multi converter for HV applications. In 2019 IEEE International Conference on Environment and Electrical Engineering and 2019 IEEE Industrial and Commercial Power Systems Europe (EEEIC / I&CPS Europe). IEEE, June 2019.",
+          "DOI": "10.1109/EEEIC.2019.8783795"
+        },
+        {
+          "key": "ref22",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Wei Qian, Juncheng Lu, Hua Bai, and Scott Averitt. Hard-switching 650-V GaN HEMTs in an 800-V DC-grid system with no-diode-clamping active-balancing three-level topology. IEEE J. Emerg. Sel. Top. Power Electron., 7(2):1060–1070, June 2019.",
+          "DOI": "10.1109/JESTPE.2018.2873156"
+        },
+        {
+          "key": "ref23",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Borislav Dimitrov, Suleiman Sharkh, Andrew Cruden, and Iosko Balabozov. Implementation of a DC current sensing transformer with h-bridge MOSFET rectifier in a resonant LLC converter. In 2018 20th International Symposium on Electrical Apparatus and Technologies (SIELA). IEEE, June 2018.",
+          "DOI": "10.1109/SIELA.2018.8447120"
+        },
+        {
+          "key": "ref24",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Sajad A Ansari, Jonathan N Davidson, and Martin P Foster. Fully-integrated transformer with asymmetric primary and secondary leakage inductances for a bidirectional resonant converter. IEEE Trans. Ind. Appl., 59(3):3674–3685, May 2023.",
+          "DOI": "10.1109/TIA.2023.3252525"
+        },
+        {
+          "key": "ref25",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Chainarin Ekkaravarodome, Kohji Higuchi, and Kamon Jirasereeamornkul. Implementation of ZVDS class-DE bridge rectifier with series-parallel matching network for high-step up ZVS push-pull resonant converter. In 2020 International Conference on Power, Energy and Innovations (ICPEI). IEEE, October 2020.",
+          "DOI": "10.1109/ICPEI49860.2020.9431440"
+        },
+        {
+          "key": "ref26",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Jianguang Ma, Xueye Wei, Liang Hu, and Junhong Zhang. LED driver based on boost circuit and LLC converter. IEEE Access, 6:49588–49600, 2018.",
+          "DOI": "10.1109/ACCESS.2018.2866502"
+        },
+        {
+          "key": "ref27",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Ch Naga Sai Kalyan, Anuradha Devi Tellapati, Thalanki Venkata Sai Kalyani, B Srikanth Goud, Kambhampati Venkata Govardhan Rao, and I Vijaya Kumar. Revealing the effect of excitation cross coupling on the lfc performance in two area hybrid source system. In 2024 International Conference on Integrated Circuits and Communication Systems (ICICACS), pages 1–6. IEEE, 2024.",
+          "DOI": "10.1109/ICICACS60521.2024.10499043"
+        },
+        {
+          "key": "ref28",
+          "unstructured": "Bo Yang, Rengang Chen, and F C Lee. Integrated magnetic for LLC resonant converter. In APEC. Seventeenth Annual IEEE Applied Power Electronics Conference and Exposition (Cat. No.02CH37335). IEEE, 2003."
+        },
+        {
+          "key": "ref29",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Guangdi Li, Jin Xia, Kun Wang, Yan Deng, Xiangning He, and Yousheng Wang. Hybrid modulation of parallel-series LLC resonant converter and phase shift full-bridge converter for a dual-output DC–DC converter. IEEE J. Emerg. Sel. Top. Power Electron., 7(2):833–842, June 2019.",
+          "DOI": "10.1109/JESTPE.2019.2900700"
+        },
+        {
+          "key": "ref30",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Ke Jin and Xinbo Ruan. Hybrid full-bridge three-level llc resonant converter- a novel dc-dc converter suitable for fuel cell power system. In 2005 IEEE 36th Power Electronics Specialists Conference, pages 361–367, 2005.",
+          "DOI": "10.1109/PESC.2005.1581649"
+        },
+        {
+          "key": "ref31",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Hamid Amini Moghadam, Sima Dimitrijev, Jisheng Han, Daniel Haasmann, and Amirhossein Aminbeidokhti. Transient-current method for measurement of active near-interface oxide traps in 4H-SiC MOS capacitors and MOSFETs. IEEE Trans. Electron Devices, 62(8):2670–2674, August 2015.",
+          "DOI": "10.1109/TED.2015.2440444"
+        },
+        {
+          "key": "ref32",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Mohamed Salem, Vigna K Ramachandaramurthy, Awang Jusoh, Sanjeevikumar Padmanaban, Mohamad Kamarol, Jiashen Teh, and Dahaman Ishak. Three-phase series resonant DC-DC boost converter with double LLC resonant tanks and variable frequency control. IEEE Access, 8:22386–22399, 2020.",
+          "DOI": "10.1109/ACCESS.2020.2969546"
+        },
+        {
+          "key": "ref33",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Kambhampati Venkata Govardhan Rao, Malligunta Kiran Kumar, and B Srikanth Goud. An independently controlled two output half bridge resonant led driver. Electric Power Components and Systems, 52(7):1094–1114, 2024.",
+          "DOI": "10.1080/15325008.2023.2238695"
+        },
+        {
+          "key": "ref34",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Hamed Valipour, Mohammad Mahdavi, and Martin Ordonez. Resonant bridgeless AC/DC rectifier with high switching frequency and inherent PFC capability. IEEE Trans. Power Electron., 35(1):232–246, January 2020.",
+          "DOI": "10.1109/TPEL.2019.2910755"
+        },
+        {
+          "key": "ref35",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Ming Shang, Haoyu Wang, and Qi Cao. Reconfigurable LLC topology with squeezed frequency span for high-voltage bus-based photovoltaic systems. IEEE Trans. Power Electron., 33(5):3688–3692, May 2018.",
+          "DOI": "10.1109/TPEL.2017.2761847"
+        },
+        {
+          "key": "ref36",
+          "doi-asserted-by": "publisher",
+          "unstructured": "A. Amudha, M. Siva Ramkumar, G. Emayavaramban, S. Divyapriya, P. Nagaveni, V.M. Mansoor, and M. SivaramKrishnan. Retracted: Resonant converter l3c for e-vehicle for charing a pv battery. Materials Today: Proceedings, 37:2599–2606, 2021. International Conference on Newer Trends and Innovation in Mechanical Engineering: Materials Science.",
+          "DOI": "10.1016/j.matpr.2020.08.505"
+        },
+        {
+          "key": "ref37",
+          "doi-asserted-by": "publisher",
+          "unstructured": "K V Govardhan Rao and Malligunta Kiran Kumar. A literature review on reduction of harmonics using active power filter. In AIP Conference Proceedings, volume 2512, page 020083. AIP Publishing, 2024.",
+          "DOI": "10.1063/5.0112028"
+        },
+        {
+          "key": "ref38",
+          "doi-asserted-by": "publisher",
+          "unstructured": "You-Chun Huang, Yao-Ching Hsieh, Yi-Cheng Lin, Huang-Ren Chiu, and Jing-Yuan Lin. Study and implementation on start-up control of full-bridge llc resonant converter. In 2018 IEEE Transportation Electrification Conference and Expo, Asia-Pacific (ITEC Asia-Pacific), page 1–5. IEEE, June 2018.",
+          "DOI": "10.1109/ITEC-AP.2018.8433272"
+        },
+        {
+          "key": "ref39",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Ettore Scabeni Glitz, Jhih-Da Hsu, and Martin Ordonez. Power loss estimation in llc synchronous rectification using rectifier current equations. IEEE Trans. Ind. Electron., 67(5):3696–3704, May 2020.",
+          "DOI": "10.1109/TIE.2019.2917372"
+        },
+        {
+          "key": "ref40",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Guidong Zhang, Zhong Li, Bo Zhang, and Wolfgang A Halang. Power electronics converters: Past, present and future. Renew. Sustain. Energy Rev., 81:2028–2044, January 2018.",
+          "DOI": "10.1016/j.rser.2017.05.290"
+        },
+        {
+          "key": "ref41",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Kambhampati Venkata Govardhan Rao, Malligunta Kiran Kumar, Srikanth B Goud, Tellapati Anuradha Devi, Gundala Srinivasa Rao, Ambati Giriprasad, Isnvr Prashanth, and Thalanki Venkata Sai Kalyani. A new brushless DC motor driving resonant pole inverter optimized for batteries. Int. J. Power Electron. Drive Syst. (IJPEDS), 14(4):2021, December 2023.",
+          "DOI": "10.11591/ijpeds.v14.i4.pp2021-2031"
+        },
+        {
+          "key": "ref42",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Georg Pledl, Matthias Tauer, and Dominik Buecherl. Theory of operation, design procedure and simulation of a bidirectional LLC resonant converter for vehicular applications. In 2010 IEEE Vehicle Power and Propulsion Conference. IEEE, September 2010.",
+          "DOI": "10.1109/VPPC.2010.5728978"
+        },
+        {
+          "key": "ref43",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Fengyi Zhang, YubinWang, FanWang, and Jia Ming. Synchronous rectification control strategy for bidirectional full-bridge LLC resonant converter. In 2019 22nd International Conference on Electrical Machines and Systems (ICEMS). IEEE, August 2019.",
+          "DOI": "10.1109/ICEMS.2019.8922422"
+        },
+        {
+          "key": "ref44",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Xiaoqiang Guo, Marcelo C Cavalcanti, Alexandre M Farias, and Josep M Guerrero. Single-carrier modulation for neutral-point-clamped inverters in three-phase transformerless photovoltaic systems. IEEE Trans. Power Electron., 28(6):2635–2637, June 2013.",
+          "DOI": "10.1109/TPEL.2012.2224138"
+        },
+        {
+          "key": "ref45",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Khairul Safuan Muhammad and Dylan Dah-Chuan Lu. Single-phase single-stage ZCS boost PFC rectifier with reduced switch count. In 2014 Australasian Universities Power Engineering Conference (AUPEC). IEEE, September 2014.",
+          "DOI": "10.1109/AUPEC.2014.6966512"
+        },
+        {
+          "key": "ref46",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Kambhampati Venkata Govardhan Rao, Malligunta Kiran Kumar, B Srikanth Goud, Mohit Bajaj, Mohamad Abou Houran, and Salah Kamel. Design of a bidirectional DC/DC converter for a hybrid electric drive system with dual-battery storing energy. Front. Energy Res., 10, November 2022.",
+          "DOI": "10.3389/fenrg.2022.972089"
+        },
+        {
+          "key": "ref47",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Junwei Liu, Ka Wing Chan, Chi Yung Chung, Nelson Hon Lung Chan, Ming Liu, and Wenzheng Xu. Single-stage wireless-power-transfer resonant converter with boost bridgeless power-factor-correction rectifier. IEEE Trans. Ind. Electron., 65(3):2145–2155, March 2018.",
+          "DOI": "10.1109/TIE.2017.2745471"
+        },
+        {
+          "key": "ref48",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Yijie Wang, Na Qi, Yueshi Guan, Carlo Cecati, and Dianguo Xu. A Single-Stage LED driver based on SEPIC and LLC circuits. IEEE Trans. Ind. Electron., 64(7):5766–5776, July 2017.",
+          "DOI": "10.1109/TIE.2016.2613921"
+        },
+        {
+          "key": "ref49",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Kambhampati Venkata Govardhan Rao and Malligunta Kiran Kumar. The harmonic reduction techniques in shunt active power filter when integrated with non-conventional energy sources. Indones. J. Electr. Eng. Comput. Sci., 25(3):1236, March 2022.",
+          "DOI": "10.11591/ijeecs.v25.i3.pp1236-1245"
+        },
+        {
+          "key": "ref50",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Ibrahim Demirel and Burcu Erkmen. A very low-profile dual output LLC resonant converter for LCD/LED TV applications. IEEE Trans. Power Electron., 29(7):3514–3524, July 2014.",
+          "DOI": "10.1109/TPEL.2013.2278715"
+        },
+        {
+          "key": "ref51",
+          "doi-asserted-by": "publisher",
+          "unstructured": "B Singh, B N Singh, A Chandra, K Al-Haddad, A Pandey, and D P Kothari. A review of single-phase improved power quality ac dc converters. IEEE Trans. Ind. Electron., 50(5):962–981, October 2003.",
+          "DOI": "10.1109/TIE.2003.817609"
+        },
+        {
+          "key": "ref52",
+          "unstructured": "Weiming Lin, Hongxing Chen, and Yuncheng Fang. A single-stage pfc by integrating quasi-bridgeless boost and llc converter. In 2018 IEEE International Telecommunications Energy Conference (INTELEC). IEEE, October 2018."
+        },
+        {
+          "key": "ref53",
+          "doi-asserted-by": "publisher",
+          "unstructured": "M.Z. Youssef and P.K. Jain. A review and performance evaluation of control techniques in resonant converters. In 30th Annual Conference of IEEE Industrial Electronics Society, 2004. IECON 2004, volume 1, page 215–221. IEEE.",
+          "DOI": "10.1109/IECON.2004.1433312"
+        },
+        {
+          "key": "ref54",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Yijie Wang, Yueshi Guan, Kailin Ren, Wei Wang, and Dianguo Xu. A single-stage led driver based on bcm boost circuit and llc converter for street lighting system. IEEE Transactions on Industrial Electronics, 62(9):5446–5457, September 2015.",
+          "DOI": "10.1109/TIE.2015.2416341"
+        },
+        {
+          "key": "ref55",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Chuan Shi, Haoyu Wang, Serkan Dusmez, and Alireza Khaligh. A sic-based high-efficiency isolated onboard pev charger with ultrawide dc-link voltage range. IEEE Transactions on Industry Applications, 53(1):501–511, January 2017.",
+          "DOI": "10.1109/TIA.2016.2605063"
+        },
+        {
+          "key": "ref56",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Guangdi Li, Jin Xia, Kun Wang, Yan Deng, Xiangning He, and Yousheng Wang. A single-stage interleaved resonant bridgeless boost rectifier with high-frequency isolation. IEEE Journal of Emerging and Selected Topics in Power Electronics, 8(2):1767–1781, June 2020.",
+          "DOI": "10.1109/JESTPE.2019.2912434"
+        },
+        {
+          "key": "ref57",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Rahul Pandey and Bhim Singh. A power factor corrected resonant ev charger using reduced sensor based bridgeless boost pfc converter. IEEE Transactions on Industry Applications, 57(6):6465–6474, November 2021.",
+          "DOI": "10.1109/TIA.2021.3106616"
+        },
+        {
+          "key": "ref58",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Markus Andresen, Johannes Kuprat, Vivek Raveendran, Johannes Falck, and Marco Liserre. Active thermal control for delaying maintenance of power electronics converters. Chinese Journal of Electrical Engineering, 4(3):13–20, September 2018.",
+          "DOI": "10.23919/CJEE.2018.8471285"
+        },
+        {
+          "key": "ref59",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Mehdi Abbasi and John Lam. A bridgeless ac/dc high voltage gain converter with three-phase modular series-output connected configuration for mvdc grid applications. IEEE Transactions on Power Electronics, 35(10):10323–10337, October 2020.",
+          "DOI": "10.1109/TPEL.2020.2977912"
+        },
+        {
+          "key": "ref60",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Utsab Kundu, Kalyan Yenduri, and Parthasarathi Sensarma. Accurate zvs analysis for magnetic design and efficiency improvement of full-bridge llc resonant converter. IEEE Transactions on Power Electronics, 32(3):1703–1706, March 2017.",
+          "DOI": "10.1109/TPEL.2016.2604118"
+        },
+        {
+          "key": "ref61",
+          "unstructured": "SRIKANTH GOUD, B Sai Kumar, B Sai Sri Vindhya, D Bharath Kumar, E Laxman Kumar, O Chandra Shekar, A Ajitha, Kambhampati Venkata Govardhan Rao, Thalanki Venkata Sai Kalyani, et al. Switched quasi impedance-source dc-dc network for photovoltaic systems. International Journal of Renewable Energy Research (IJRER), 13(2):681–698, 2023."
+        },
+        {
+          "key": "ref62",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Muntasir Alam, Wilson Eberle, Deepak S. Gautam, Chris Botting, Nicholas Dohmeier, and Fariborz Musavi. A hybrid resonant pulse-width modulation bridgeless ac–dc power factor correction converter. IEEE Transactions on Industry Applications, 53(2):1406–1415, March 2017.",
+          "DOI": "10.1109/TIA.2016.2638806"
+        },
+        {
+          "key": "ref63",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Danish Shahzad, Maida Farooq, Saad Pervaiz, and Khurram K. Afridi. A high-power-density high-efficiency soft-switched single-phase universal input to 28-v isolated ac–dc converter module designed for paralleled operation. IEEE Transactions on Power Electronics, 37(7):8262–8280, July 2022.",
+          "DOI": "10.1109/TPEL.2022.3151910"
+        },
+        {
+          "key": "ref64",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Ziyu Zhao and Jian Zong. A llc resonant full - bridge converter with fractional order pid controller. In 2019 International Conference on Intelligent Informatics and Biomedical Sciences (ICIIBMS), volume 26, page 250–255. IEEE, November 2019.",
+          "DOI": "10.1109/ICIIBMS46890.2019.8991548"
+        },
+        {
+          "key": "ref65",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Venkata Ravi Kishore Kanamarlapudi, Benfei Wang, Nandha Kumar Kandasamy, and Ping Lam So. A new zvs full-bridge dc–dc converter for battery charging with reduced losses over full-load range. IEEE Transactions on Industry Applications, 54(1):571–579, January 2018.",
+          "DOI": "10.1109/TIA.2017.2756031"
+        },
+        {
+          "key": "ref66",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Jianqiang Liu, Jiepin Zhang, Trillion Q. Zheng, and Jingxi Yang. A modified gain model and the corresponding design method for an llc resonant converter. IEEE Transactions on Power Electronics, 32(9):6716–6727, September 2017.",
+          "DOI": "10.1109/TPEL.2016.2623418"
+        },
+        {
+          "key": "ref67",
+          "doi-asserted-by": "publisher",
+          "unstructured": "C.-H. Chang, C. Lin, and C.-W. Ku. A high efficiency solar array simulator implemented by an llc resonant dc/dc converter. In The 2010 International Power Electronics Conference - ECCE ASIA -, volume 2, page 2603–2609. IEEE, June 2010.",
+          "DOI": "10.1109/IPEC.2010.5542362"
+        },
+        {
+          "key": "ref68",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Rahul Pandey and Bhim Singh. A high efficiency modular ev charger using bridgeless and resonant converters. In 2020 IEEE Industry Applications Society Annual Meeting, volume 3, page 1–6. IEEE, October 2020.",
+          "DOI": "10.1109/IAS44978.2020.9334739"
+        },
+        {
+          "key": "ref69",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Avinash Kumar, Ranjeet Kumar Singh, and B Krishna Naick. A highly efficient pv and fuel cell powered full bridge bidirectional llc resonant converter. In 2018 International Electrical Engineering Congress (iEECON), volume 6, page 1–4. IEEE, March 2018.",
+          "DOI": "10.1109/IEECON.2018.8712288"
+        },
+        {
+          "key": "ref70",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Pakpoom Chansri, Nongnuch Noicharoen, and Kritsada Phetphoi. A high power led driver with class d zvs series resonant converter. In International Conference on Electrical, Control and Computer Engineering 2011 (InECCE), volume 34, page 457–460. IEEE, June 2011.",
+          "DOI": "10.1109/INECCE.2011.5953925"
+        },
+        {
+          "key": "ref71",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Rahul Pandey and Bhim Singh. A power factor corrected llc resonant converter for electric vehicle charger using cuk converter. In 2018 IEEE International Conference on Power Electronics, Drives and Energy Systems (PEDES), volume 8, page 1–6. IEEE, December 2018.",
+          "DOI": "10.1109/IICPE.2018.8709526"
+        },
+        {
+          "key": "ref72",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Rudiger Schwendemann, Fabian Sommer, and Marc Hiller. A resonant supplied cascaded h-bridge cell for a series hybrid cascaded h-bridge converter used as a power hardware in the loop emulator. In 2020 IEEE 21st Workshop on Control and Modeling for Power Electronics (COMPEL), page 1–8. IEEE, November 2020.",
+          "DOI": "10.1109/COMPEL49091.2020.9265686"
+        },
+        {
+          "key": "ref73",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Rahul Pandey and Bhim Singh. A power-factor-corrected llc resonant converter for electric vehicle charger using cuk converter. IEEE Transactions on Industry Applications, 55(6):6278–6286, November 2019.",
+          "DOI": "10.1109/TIA.2019.2934059"
+        },
+        {
+          "key": "ref74",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Xiaoqiang Guo. A novel ch5 inverter for single-phase transformerless photovoltaic system applications. IEEE Transactions on Circuits and Systems II: Express Briefs, 64(10):1197–1201, October 2017.",
+          "DOI": "10.1109/TCSII.2017.2672779"
+        },
+        {
+          "key": "ref75",
+          "doi-asserted-by": "publisher",
+          "unstructured": "M.J. Ryan, W.E. Brumsickle, D.M. Divan, and R.D. Lorenz. A new zvs lcl-resonant push-pull dc-dc converter topology. IEEE Transactions on Industry Applications, 34(5):1164–1174, 1998.",
+          "DOI": "10.1109/28.720458"
+        },
+        {
+          "key": "ref76",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Bhim Singh and Radha Kushwaha. A pfc based ev battery charger using a bridgeless isolated sepic converter. IEEE Transactions on Industry Applications, 56(1):477–487, January 2020.",
+          "DOI": "10.1109/TIA.2019.2951510"
+        },
+        {
+          "key": "ref77",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Kambhampati Venkata Govardhan Rao, Malligunta Kiran Kumar, B Srikanth Goud, D Krishna, Mohit Bajaj, Parvesh Saini, and Subhashree Choudhury. Iot-powered crop shield system for surveillance and auto transversum. In 2023 IEEE 3rd International Conference on Sustainable Energy and Future Electric Transportation (SEFET), pages 1–6. IEEE, 2023.",
+          "DOI": "10.1109/SeFeT57834.2023.10245773"
+        },
+        {
+          "key": "ref78",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Dianbo Fu, Ya Liu, Fred C. Lee, and Ming Xu. A novel driving scheme for synchronous rectifiers in llc resonant converters. IEEE Transactions on Power Electronics, 24(5):1321–1329, May 2009.",
+          "DOI": "10.1109/TPEL.2009.2012500"
+        },
+        {
+          "key": "ref79",
+          "unstructured": "Jee-Hoon Jung, Jong-Moon Choi, and Joong-Gi Kwon. Design methodology for transformers including integrated and center-tapped structures for llc resonant converters. Journal of Power electronics, 9(2):215–223, 2009."
+        },
+        {
+          "key": "ref80",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Wei-Hsin Liao, Yi-Hwa Liu, and Shun-Chung Wang. Design and implementation of a digitalized power supply for large scale lcd tv. In 2010 8th IEEE International Conference on Industrial Informatics, volume 1, page 786–791. IEEE, July 2010.",
+          "DOI": "10.1109/INDIN.2010.5549644"
+        },
+        {
+          "key": "ref81",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Huang-Jen Chiu, Yu-Kang Lo, Ting-Peng Lee, Shann-Chyi Mou, and Hsiu-Ming Huang. Design of an rgb led backlight circuit for liquid crystal display panels. IEEE Transactions on Industrial Electronics, 56(7):2793–2795, July 2009.",
+          "DOI": "10.1109/TIE.2009.2020714"
+        },
+        {
+          "key": "ref82",
+          "unstructured": "Hang-Seok Choi. Design consideration of half-bridge llc resonant converter. Journal of power electronics, 7(1):13–20, 2007."
+        },
+        {
+          "key": "ref83",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Haoyu Wang, Serkan Dusmez, and Alireza Khaligh. Design and analysis of a full-bridge llc-based pev charger optimized for wide battery voltage range. IEEE Transactions on Vehicular Technology, 63(4):1603–1613, May 2014.",
+          "DOI": "10.1109/TVT.2013.2288772"
+        },
+        {
+          "key": "ref84",
+          "doi-asserted-by": "publisher",
+          "unstructured": "L.A. Barragan, J.M. Burdio, J.I. Artigas, D. Navarro, J. Acero, and D. Puyal. Efficiency optimization in zvs series resonant inverters with asymmetrical voltage-cancellation control. IEEE Transactions on Power Electronics, 20(5):1036–1044, September 2005.",
+          "DOI": "10.1109/TPEL.2005.854024"
+        },
+        {
+          "key": "ref85",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Mostafa Noah, Tomohide Shirakawa, Kazuhiro Umetani, Jun Imaoka, Masayoshi Yamamoto, and Eiji Hiraki. Effects of secondary leakage inductance on the llc resonant converter. IEEE Transactions on Power Electronics, 35(1):835–852, January 2020.",
+          "DOI": "10.1109/TPEL.2019.2911093"
+        },
+        {
+          "key": "ref86",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Mingkai Mu and Fred Lee. Design and optimization of a 380v-12v high-frequency, high-current llc converter with gan devices and planar matrix transformers. IEEE Journal of Emerging and Selected Topics in Power Electronics, page 1–1, 2016.",
+          "DOI": "10.1109/JESTPE.2016.2586964"
+        },
+        {
+          "key": "ref87",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Sebastian Rivera, Bin Wu, Samir Kouro, Venkata Yaramasu, and Jiacheng Wang. Electric vehicle charging station using a neutral point clamped converter with bipolar dc bus. IEEE Transactions on Industrial Electronics, 62(4):1999–2009, April 2015.",
+          "DOI": "10.1109/TIE.2014.2348937"
+        },
+        {
+          "key": "ref88",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Alex Buus Nielsen, William Gerard Hurley, Pooya Davari, Maeve Catherine Duffy, Frede Blaabjerg, and Bo Vork Nielsen. Design and optimization methodology of transformer for 700/400 v series resonant dc/dc converters with enhanced power density. In 2020 IEEE Energy Conversion Congress and Exposition (ECCE), volume 4, page 3484–3491. IEEE, October 2020.",
+          "DOI": "10.1109/ECCE44975.2020.9236308"
+        },
+        {
+          "key": "ref89",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Shuilin Tian, Fred C. Lee, and Qiang Li. Equivalent circuit modeling of llc resonant converter. In 2016 IEEE Applied Power Electronics Conference and Exposition (APEC), volume 2, page 1608–1615. IEEE, March 2016.",
+          "DOI": "10.1109/APEC.2016.7468082"
+        },
+        {
+          "key": "ref90",
+          "doi-asserted-by": "publisher",
+          "unstructured": "J.A. Sabate, R.W. Farrington, M.M. Jovanovic, and E.C. Lee. Effect of fet output capacitance on zvs of resonant converters. IEEE Transactions on Aerospace and Electronic Systems, 32(1):255–266, January 1996.",
+          "DOI": "10.1109/7.481267"
+        },
+        {
+          "key": "ref91",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Seyed Milad Tayebi, Haibing Hu, Sam Abdel-Rahman, and Issa Batarseh. Dual-input single-resonant tank llc converter with phase shift control for pv applications. IEEE Transactions on Industry Applications, 55(2):1729–1739, March 2019.",
+          "DOI": "10.1109/TIA.2018.2883015"
+        },
+        {
+          "key": "ref92",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Hangseok Choi. Analysis and design of llc resonant converter with integrated transformer. In APEC 07 - Twenty-Second Annual IEEE Applied Power Electronics Conference and Exposition, volume 3, page 1630–1635. IEEE, February 2007.",
+          "DOI": "10.1109/APEX.2007.357736"
+        },
+        {
+          "key": "ref93",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Chao Fei, Qiang Li, and Fred C. Lee. Digital implementation of adaptive synchronous rectifier (sr) driving scheme for high-frequency llc converters with microcontroller. IEEE Transactions on Power Electronics, 33(6):5351–5361, June 2018.",
+          "DOI": "10.1109/TPEL.2017.2731942"
+        },
+        {
+          "key": "ref94",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Jong-Woo Kim, Jung-Pil Moon, and Gun-Woo Moon. Duty-ratio-control-aided llc converter for current balancing of two-channel led driver. IEEE Transactions on Industrial Electronics, 64(2):1178–1184, February 2017.",
+          "DOI": "10.1109/TIE.2016.2618338"
+        },
+        {
+          "key": "ref95",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Qingqing He, Quanming Luo, Kun Ma, Pengju Sun, and Luowei Zhou. Analysis and design of a single-stage bridgeless high-frequency resonant ac/ac converter. IEEE Transactions on Power Electronics, 34(1):700–711, January 2019.",
+          "DOI": "10.1109/TPEL.2018.2819168"
+        },
+        {
+          "key": "ref96",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Hao Wen, Jinwu Gong, Xiaonan Zhao, Chih-Shen Yeh, and Jih-Sheng Lai. Analysis of diode reverse recovery effect on zvs condition for gan-based llc resonant converter. IEEE Transactions on Power Electronics, 34(12):11952–11963, December 2019.",
+          "DOI": "10.1109/TPEL.2019.2909426"
+        },
+        {
+          "key": "ref97",
+          "doi-asserted-by": "publisher",
+          "unstructured": "B.R. Lin and S.F. Wu. Analysis of a resonant converter with two transformers and voltage doubler rectifier. IET Power Electronics, 4(4):400, 2011.",
+          "DOI": "10.1049/iet-pel.2010.0121"
+        },
+        {
+          "key": "ref98",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Liang Hong, Hao Ma, JunWang, Jianhua Du, and BinleiWang. An efficient algorithm strategy for synchronous rectification used in llc resonant converters. In IECON 2016 - 42nd Annual Conference of the IEEE Industrial Electronics Society, volume 28, page 2452–2456. IEEE, October 2016.",
+          "DOI": "10.1109/IECON.2016.7794135"
+        },
+        {
+          "key": "ref99",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Zhiyuan Hu, Laili Wang, Yajie Qiu, Yan-Fei Liu, and Paresh C. Sen. An accurate design algorithm for llc resonant converters—part ii. IEEE Transactions on Power Electronics, 31(8):5448–5460, August 2016.",
+          "DOI": "10.1109/TPEL.2015.2496179"
+        },
+        {
+          "key": "ref100",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Venkata Ravi Kishore Kanamarlapudi, Benfei Wang, Ping Lam So, and Zhe Wang. Analysis, design, and implementation of an apwm zvzcs full-bridge dc–dc converter for battery charging in electric vehicles. IEEE Transactions on Power Electronics, 32(8):6145–6160, August 2017.",
+          "DOI": "10.1109/TPEL.2016.2614387"
+        },
+        {
+          "key": "ref101",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Mehdi Abbasi and John Lam. An sic-based ac/dc ccm bridgeless onboard ev charger with coupled active voltage doubler rectifiers for 800-v battery systems. In 2020 IEEE Applied Power Electronics Conference and Exposition (APEC), pages 905–910, 2020.",
+          "DOI": "10.1109/APEC39645.2020.9124294"
+        },
+        {
+          "key": "ref102",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Jingyu Wang, Chunfang Wang, Shuo Zhang, Hao Yuan, Quanlei Zhang, and Dongxue Li. Constant-current and constant-voltage output using hybrid compensated single-stage resonant converter for wireless power transfer. IEEE Journal of Emerging and Selected Topics in Power Electronics, 10(5):6371–6382, October 2022.",
+          "DOI": "10.1109/JESTPE.2022.3165179"
+        },
+        {
+          "key": "ref103",
+          "doi-asserted-by": "publisher",
+          "unstructured": "K. N. Mude and K. Aditya. Comprehensive review and analysis of two-element resonant compensation topologies for wireless inductive power transfer systems. Chinese Journal of Electrical Engineering, 5(2):14–31, June 2019.",
+          "DOI": "10.23919/CJEE.2019.000008"
+        },
+        {
+          "key": "ref104",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Guidong Zhang, Junming Zeng, Samson Shenglong Yu, Wenxun Xiao, Bo Zhang, Si-Zhe Chen, and Yun Zhang. Control design and performance analysis of a double-switched llc resonant rectifier for unity power factor and soft-switching. IEEE Access, 8:44511–44521, 2020.",
+          "DOI": "10.1109/ACCESS.2020.2978030"
+        },
+        {
+          "key": "ref105",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Fariborz Musavi, Marian Craciun, Deepak S. Gautam, and Wilson Eberle. Control strategies for wide output voltage range llc resonant dc–dc converters in battery chargers. IEEE Transactions on Vehicular Technology, 63(3):1117–1125, March 2014.",
+          "DOI": "10.1109/TVT.2013.2283158"
+        },
+        {
+          "key": "ref106",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Mrs. A. Santhi Mary Antony and Dr. D. Godwin Immanuel. Bridgeless pfc rectifier for single stage resonant converter with closed loop and improved dynamic response. In 2020 3rd International Conference on Intelligent Sustainable Systems (ICISS), volume 8, page 1523–1530. IEEE, December 2020.",
+          "DOI": "10.1109/ICISS49785.2020.9315946"
+        },
+        {
+          "key": "ref107",
+          "doi-asserted-by": "publisher",
+          "unstructured": "A. Kats, G. Ivensky, and S. Ben-Yaakov. Application of integrated magnetics in resonant converters. In Proceedings of APEC 97 - Applied Power Electronics Conference, volume 2 of APEC-97, page 925–930. IEEE.",
+          "DOI": "10.1109/APEC.1997.575756"
+        },
+        {
+          "key": "ref108",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Focus on Powder Coatings, 2021(2):5–6, February 2021.",
+          "DOI": "10.1016/j.fopow.2021.07.022"
+        },
+        {
+          "key": "ref109",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Ingilala Jagadeesh and Vairavasundaram Indragandhi. Comparative study of dc-dc converters for solar pv with microgrid applications. Energies, 15(20):7569, October 2022.",
+          "DOI": "10.3390/en15207569"
+        },
+        {
+          "key": "ref110",
+          "doi-asserted-by": "publisher",
+          "unstructured": "W.A. Tabisz and F.C.Y. Lee. Zero-voltage-switching multiresonant technique-a novel approach to improve performance of high-frequency quasi-resonant converters. IEEE Transactions on Power Electronics, 4(4):450–458, October 1989.",
+          "DOI": "10.1109/63.41774"
+        },
+        {
+          "key": "ref111",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Yuqi Wei, Quanming Luo, Si Chen, Pengju Sun, and Necmi Altin. Comparison among different analysis methodologies for llc resonant converter. IET Power Electronics, 12(9):2236–2244, July 2019.",
+          "DOI": "10.1049/iet-pel.2019.0027"
+        },
+        {
+          "key": "ref112",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Khairul Safuan Bin Muhammad and Dylan Dah-Chuan Lu. Zcs bridgeless boost pfc rectifier using only two active switches. IEEE Transactions on Industrial Electronics, 62(5):2795–2806, May 2015.",
+          "DOI": "10.1109/TIE.2014.2364983"
+        },
+        {
+          "key": "ref113",
+          "doi-asserted-by": "publisher",
+          "unstructured": "P. Dananjayan, V. ShRam, and C. Chellamuthu. A flyback constant frequency zcs-zvs quasi-resonant converter. Microelectronics Journal, 29(8):495–504, August 1998.",
+          "DOI": "10.1016/S0026-2692(97)00110-9"
+        },
+        {
+          "key": "ref114",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Long Xiao, Liang Wu, Jun Zhao, and Guozhu Chen. Virtual prototype and gan hemt based high frequency llc converter design. The Journal of Engineering, 2019(7):4672–4674, April 2019.",
+          "DOI": "10.1049/joe.2019.0081"
+        },
+        {
+          "key": "ref115",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Reza Beiranvand, Bizhan Rashidian, Mohammad Reza Zolghadri, and Seyed Mohammad Hossein Alavi. Using llc resonant converter for designing wide-range voltage source. IEEE Transactions on Industrial Electronics, 58(5):1746–1756, May 2011.",
+          "DOI": "10.1109/TIE.2010.2052537"
+        },
+        {
+          "key": "ref116",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Yuqi Wei, Quanming Luo, Zhiqing Wang, and Homer Alan Mantooth. A complete step-by-step optimal design for llc resonant converter. IEEE Transactions on Power Electronics, 36(4):3674–3691, April 2021.",
+          "DOI": "10.1109/TPEL.2020.3015094"
+        },
+        {
+          "key": "ref117",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Estiko Rijanto, Asep Nugroho, and Pekik A. Dahono. A dynamical model of full bridge llc resonant converter which incorporates power loss coefficients for controller design. In 2018 International Conference on Sustainable Energy Engineering and Application (ICSEEA), page 101–105. IEEE, November 2018.",
+          "DOI": "10.1109/ICSEEA.2018.8627092"
+        },
+        {
+          "key": "ref118",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Rahul Pandey and Bhim Singh. A cuk converter and resonant llc converter based e-bike charger for wide output voltage variations. IEEE Transactions on Industry Applications, 57(3):2682–2691, 2021.",
+          "DOI": "10.1109/TIA.2021.3066089"
+        },
+        {
+          "key": "ref119",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Aman Jha and Bhim Singh. A bridgeless boost pfc converter fed led driver for high power factor and low thd. In 2018 IEEMA Engineer Infinite Conference (eTechNxT), volume 1, page 1–6. IEEE, March 2018.",
+          "DOI": "10.1109/ETECHNXT.2018.8385333"
+        },
+        {
+          "key": "ref120",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Xiaoyong Ren, Zhi-Wei Xu, Zhiliang Zhang, Haoran Li, Mingxie He, Jiachen Tang, and Qianhong Chen. A 1-kv input sic llc converter with split resonant tanks and matrix transformers. IEEE Transactions on Power Electronics, 34(11):10446–10457, November 2019.",
+          "DOI": "10.1109/TPEL.2019.2896099"
+        },
+        {
+          "key": "ref121",
+          "doi-asserted-by": "publisher",
+          "unstructured": "K. Sudheer Reddy, G. Partha Saradhi Varma, and S. Sai Satyanarayana Reddy. Understanding the scope of web usage mining applications of web data usage patterns. In 2012 International Conference on Computing, Communication and Applications, pages 1–5, 2012.",
+          "DOI": "10.1109/ICCCA.2012.6179230"
+        },
+        {
+          "key": "ref122",
+          "doi-asserted-by": "publisher",
+          "unstructured": "H. L. Tian, J. F. Liu, and J. Zeng. A bridgeless electrolytic capacitor-free led driver based on series-resonant converter with constant frequency control. In 2017 7th International Conference on Power Electronics Systems and Applications - Smart Mobility, Power Transfer & Security (PESA), volume pp, page 1–5. IEEE, December 2017.",
+          "DOI": "10.1109/PESA.2017.8277760"
+        },
+        {
+          "key": "ref123",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Nikhil Kumar and M P R Prasad. A comparative analysis of different topologies of on-board charger (obc) with an approach of interfacing it with mcb. In 2021 6th International Conference for Convergence in Technology (I2CT), volume 56, page 1–6. IEEE, April 2021.",
+          "DOI": "10.1109/I2CT51068.2021.9417956"
+        },
+        {
+          "key": "ref124",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Yuqi Wei, Quanming Luo, and Alan Mantooth. A hybrid half-bridge llc resonant converter and phase shifted full-bridge converter for high step-up application. In 2020 IEEE Workshop on Wide Bandgap Power Devices and Applications in Asia (WiPDA Asia). IEEE, September 2020.",
+          "DOI": "10.1109/WiPDAAsia49671.2020.9360292"
+        },
+        {
+          "key": "ref125",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Andrii Chub, Abualkasim Bakeer, and Dmitri Vinnikov. Step-up series-resonant dc-dc converter with switched mode rectifier operating at fixed switching frequency. In 2020 IEEE 11th International Symposium on Power Electronics for Distributed Generation Systems (PEDG), page 597–601. IEEE, September 2020.",
+          "DOI": "10.1109/PEDG48541.2020.9244312"
+        },
+        {
+          "key": "ref126",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Ch Naga Santhosh Kumar and K.S. Reddy. Effective data analytics on opinion mining. International Journal of Innovative Technology and Exploring Engineering, 8(10):2073–2080, August 2019.",
+          "DOI": "10.35940/ijitee.J9332.0881019"
+        }
+      ],
+      "container-title": [
+        "Transactions on Energy Systems and Engineering Applications"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://revistas.utb.edu.co/tesea/article/download/574/430",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://revistas.utb.edu.co/tesea/article/download/574/430",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            7
+          ]
+        ],
+        "date-time": "2026-05-07T21:50:28Z",
+        "timestamp": 1778190628000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://revistas.utb.edu.co/tesea/article/view/574"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            10
+          ]
+        ]
+      },
+      "references-count": 127,
+      "journal-issue": {
+        "issue": "1",
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              6
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.32397/tesea.vol6.n1.574",
+      "archive": [
+        "CLOCKSS",
+        "Internet Archive"
+      ],
+      "relation": {},
+      "ISSN": [
+        "2745-0120"
+      ],
+      "issn-type": [
+        {
+          "value": "2745-0120",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            10
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2023-10-25",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2024-9-25",
+          "order": 1,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2025-2-10",
+          "order": 2,
+          "name": "published_online",
+          "label": "Published Online",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ],
+      "article-number": "574"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Gundala Srinivasa Rao",
+      "given_name_from_source": null,
+      "family_name_from_source": "Gundala Srinivasa Rao",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "CMR college of engineering & technologyCMR college of engineering & technology"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Tellapati Anuradha Devi",
+      "given_name_from_source": null,
+      "family_name_from_source": "Tellapati Anuradha Devi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Vardhaman College of Engineering"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Kambhampati Venkata Govardhan Rao",
+      "given_name_from_source": "Kambhampati Venkata Govardhan",
+      "family_name_from_source": "Rao",
+      "orcid_from_source": "https://orcid.org/0000-0003-3808-0512",
+      "affiliation_from_source": [
+        "St. Martin's Engineering College"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Thalanki Venkata Sai Kalyani",
+      "given_name_from_source": null,
+      "family_name_from_source": "Thalanki Venkata Sai Kalyani",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "St. Martin’s Engineering College"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Malligunta Kiran Kumar",
+      "given_name_from_source": null,
+      "family_name_from_source": "Malligunta Kiran Kumar",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Koneru Lakshmaiah Education Foundation"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "B. Srikanth Goud",
+      "given_name_from_source": null,
+      "family_name_from_source": "B. Srikanth Goud",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Anurag University"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 7,
+      "author_name_from_source": "K. S. Bhargavi",
+      "given_name_from_source": null,
+      "family_name_from_source": "K. S. Bhargavi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Vignan institute of technology and science"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 8,
+      "author_name_from_source": "CH Naga Sai Kalyan",
+      "given_name_from_source": null,
+      "family_name_from_source": "CH Naga Sai Kalyan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Vasireddy Venkatadri Institute of Technology"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 9,
+      "author_name_from_source": "Srungaram Ravi Teja",
+      "given_name_from_source": null,
+      "family_name_from_source": "Srungaram Ravi Teja",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Koneru Lakshmaiah Education Foundation"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 10,
+      "author_name_from_source": "M. Sai Prasad Reddy",
+      "given_name_from_source": null,
+      "family_name_from_source": "M. Sai Prasad Reddy",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Vignana Bharathi Institute of Technology"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

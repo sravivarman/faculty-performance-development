@@ -1,0 +1,57 @@
+import {test,expect} from '@playwright/test';
+test('production dashboard renders aggregates, calendar controls and responsive analytics',async({page,request})=>{
+  // Own fixture: this test also runs independently against the empty test database.
+  expect((await request.post('/api/faculty',{data:{employee_id:'PREVIEW-E2E',name:'Preview Faculty'}})).ok()).toBeTruthy();
+  const errors:string[]=[];page.on('pageerror',error=>errors.push(error.message));
+  await page.clock.install({time:new Date('2026-10-02T12:00:00+05:30')});
+  await page.goto('/?from_date=2026-09-01&to_date=2026-09-30');
+  const report=await (await request.get('/api/research/overview?from_date=2026-09-01&to_date=2026-09-30')).json();
+  await expect(page.getByRole('button',{name:`Journals: ${report.outcomes.journal}`,exact:true})).toBeVisible();
+  await expect(page.getByRole('button',{name:`Conferences: ${report.outcomes.conference}`,exact:true})).toBeVisible();
+  await expect(page.locator('[data-chart-ready="true"]')).toHaveCount(4);
+  await expect(page.getByRole('heading',{name:'Indexing Distribution',exact:true})).toBeVisible();
+  await expect(page.getByText('Not configured',{exact:true}).first()).toBeVisible();
+  await expect(page.locator('[tremor-id="tremor-raw"]').first()).toHaveCSS('background-color','rgb(255, 255, 255)');
+  await expect(page.locator('.dash-grid').first().locator(':scope > *')).toHaveCount(8);
+  expect(await page.locator('.dash-grid').first().evaluate(e=>getComputedStyle(e).gridTemplateColumns.split(' ').length)).toBe(4);
+  const trendBounds=await page.getByRole('heading',{name:'Research Activity Trend',exact:true}).locator('..').boundingBox();const dashboardBounds=await page.locator('div.research-dashboard').boundingBox();
+  expect(Math.round(trendBounds!.width)).toBe(Math.round(dashboardBounds!.width));
+  await expect(page.locator('.research-dashboard figure[aria-label="Research Activity Trend"] svg').getByText('Jan',{exact:true})).toBeVisible();
+  await expect(page.locator('.research-dashboard figure[aria-label="Research Activity Trend"] svg').getByText('Dec',{exact:true})).toBeVisible();
+  for(const [mode,first,last] of [['QUARTERLY','Q1','Q4'],['HALF_YEARLY','H1','H2']] as const){
+    const response=page.waitForResponse(r=>r.url().includes('granularity='+mode)&&r.status()===200);
+    await page.getByRole('combobox',{name:'Trend Granularity'}).selectOption(mode);await response;
+    await expect(page.locator('.research-dashboard figure[aria-label="Research Activity Trend"] svg').getByText(first,{exact:true})).toBeVisible();
+    await expect(page.locator('.research-dashboard figure[aria-label="Research Activity Trend"] svg').getByText(last,{exact:true})).toBeVisible();
+  }
+  const annual=page.waitForResponse(r=>r.url().includes('granularity=YEARLY')&&r.status()===200);
+  await page.getByRole('combobox',{name:'Trend Granularity'}).selectOption('YEARLY');await annual;
+  await expect(page.getByRole('combobox',{name:'Calendar Year'})).toBeDisabled();
+  await page.getByRole('combobox',{name:'Trend Granularity'}).selectOption('MONTHLY');
+  await expect(page.locator('.dash-analytics > *')).toHaveCount(4);
+  expect(await page.locator('.dash-analytics').evaluate(e=>getComputedStyle(e).gridTemplateColumns.split(' ').length)).toBe(2);
+  await page.getByRole('combobox',{name:'Publication Type',exact:true}).selectOption('JOURNAL');
+  await expect(page.getByText(/matching publications · distinct records/)).toBeVisible();
+  await page.getByLabel('Find faculty',{exact:true}).fill('no-such-preview-person');
+  await expect(page.getByText('No faculty match this selection.')).toBeVisible();
+  await page.getByLabel('Find faculty',{exact:true}).fill('');
+  await expect(page.getByRole('button',{name:'Open Faculty Research Details: Preview Faculty',exact:true})).toBeEnabled();
+  await page.getByRole('button',{name:/^Publications Authored/}).click();
+  await page.getByRole('combobox',{name:'Date Range',exact:true}).selectOption('Last Calendar Year');
+  await expect(page.getByLabel('From Date',{exact:true})).toHaveValue('2025-01-01');
+  await expect(page.locator('[data-chart-ready="true"]')).toHaveCount(4);
+  await page.screenshot({path:'test-results/research-production-desktop.png',fullPage:true});
+  await page.setViewportSize({width:900,height:900});
+  await page.clock.runFor(100);
+  expect(await page.locator('.dash-grid').first().evaluate(e=>getComputedStyle(e).gridTemplateColumns.split(' ').length)).toBe(2);
+  await page.screenshot({path:'test-results/research-production-tablet.png',fullPage:true});
+  await page.setViewportSize({width:390,height:844});
+  await page.clock.runFor(100);
+  await expect.poll(()=>page.locator('.research-dashboard figure[aria-label="Research Activity Trend"] [data-chart-ready="true"]').evaluate(e=>Number(e.querySelector('svg')?.getAttribute('width'))<=e.clientWidth)).toBe(true);
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(390);
+  expect(await page.locator('.dash-grid').first().evaluate(e=>getComputedStyle(e).gridTemplateColumns.split(' ').length)).toBe(1);
+  await page.screenshot({path:'test-results/research-production-mobile.png',fullPage:true});
+  await page.getByRole('link',{name:'Overview',exact:true}).click();
+  await expect(page.getByRole('heading',{name:'Research Overview',exact:true})).toBeVisible();
+  expect(errors).toEqual([]);
+});

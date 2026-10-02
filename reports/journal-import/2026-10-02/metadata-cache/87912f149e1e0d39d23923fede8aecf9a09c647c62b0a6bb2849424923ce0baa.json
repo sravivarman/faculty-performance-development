@@ -1,0 +1,871 @@
+{
+  "doi": "10.1038/s41598-024-71100-3",
+  "title": "Optimal design of hybrid green energy powered reduced switch converter based shunt active power filter using horse herd algorithm",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Scientific Reports",
+  "publisher": "Springer Science and Business Media LLC",
+  "publication_date": "2024-09-03",
+  "online_publication_date": "2024-09-03",
+  "print_publication_date": null,
+  "volume": "14",
+  "issue": "1",
+  "pages_or_article_number": "20447",
+  "issn": null,
+  "eissn": "2045-2322",
+  "isbn": null,
+  "url": "https://doi.org/10.1038/s41598-024-71100-3",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:03.049219+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            7
+          ]
+        ],
+        "date-time": "2026-07-07T23:25:08Z",
+        "timestamp": 1783466708170,
+        "version": "3.55.0"
+      },
+      "reference-count": 39,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                3
+              ]
+            ],
+            "date-time": "2024-09-03T00:00:00Z",
+            "timestamp": 1725321600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                3
+              ]
+            ],
+            "date-time": "2024-09-03T00:00:00Z",
+            "timestamp": 1725321600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Sci Rep"
+      ],
+      "DOI": "10.1038/s41598-024-71100-3",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            3
+          ]
+        ],
+        "date-time": "2024-09-03T09:02:40Z",
+        "timestamp": 1725354160000
+      },
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 14,
+      "title": [
+        "Optimal design of hybrid green energy powered reduced switch converter based shunt active power filter using horse herd algorithm"
+      ],
+      "prefix": "10.1038",
+      "volume": "14",
+      "author": [
+        {
+          "given": "Koganti",
+          "family": "Srilakshmi",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Krishnaveni",
+          "family": "Kondreddi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "N. Vasantha",
+          "family": "Gowri",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ramprasad",
+          "family": "Vangalapudi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "S.",
+          "family": "Devakirubakarn",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shitharth",
+          "family": "Selvarajan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            3
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "issue": "100420",
+          "key": "71100_CR1",
+          "doi-asserted-by": "publisher",
+          "first-page": "2666",
+          "DOI": "10.1016/j.rico.2024.100420",
+          "volume": "15",
+          "author": "B Shwetha",
+          "year": "2024",
+          "unstructured": "Shwetha, B., Sureshbabu, G. & Mallesham, G. Intelligent solar PV grid connected and standalone UPQC for EV charging station load. Res. Control Optim. 15(100420), 2666–7207. https://doi.org/10.1016/j.rico.2024.100420 (2024).",
+          "journal-title": "Res. Control Optim."
+        },
+        {
+          "key": "71100_CR2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fenrg.2024.1370412",
+          "author": "K Srilakshmi",
+          "year": "2024",
+          "unstructured": "Srilakshmi, K. et al. Simulation of grid/standalone solar energy supplied reduced switch converter with optimal fuzzy logic controller using golden Ball Algorithm. Front. Energy Res. https://doi.org/10.3389/fenrg.2024.1370412 (2024).",
+          "journal-title": "Front. Energy Res."
+        },
+        {
+          "key": "71100_CR3",
+          "doi-asserted-by": "publisher",
+          "first-page": "109671",
+          "DOI": "10.1016/j.est.2023.109671",
+          "volume": "75",
+          "author": "K Sarker",
+          "year": "2024",
+          "unstructured": "Sarker, K. FC-PV-battery-Z source-BBO integrated unified power quality conditioner for sensitive load & EV charging station. J. Energy Storage 75, 109671. https://doi.org/10.1016/j.est.2023.109671 (2024).",
+          "journal-title": "J. Energy Storage"
+        },
+        {
+          "key": "71100_CR4",
+          "doi-asserted-by": "publisher",
+          "first-page": "4429",
+          "DOI": "10.1038/s41598-024-54550-7",
+          "volume": "14",
+          "author": "K Srilakshmi",
+          "year": "2024",
+          "unstructured": "Srilakshmi, K. et al. Development of renewable energy fed three-level hybrid active filter for EV charging station load using Jaya grey wolf optimization. Sci. Rep. 14, 4429. https://doi.org/10.1038/s41598-024-54550-7 (2024).",
+          "journal-title": "Sci. Rep."
+        },
+        {
+          "key": "71100_CR5",
+          "doi-asserted-by": "publisher",
+          "first-page": "22",
+          "DOI": "10.1155/2023/3355124",
+          "volume": "3355124",
+          "author": "A Ramadevi",
+          "year": "2023",
+          "unstructured": "Ramadevi, A. et al. Optimal design and performance investigation of artificial neural network controller for solar- and battery-connected unified power quality conditioner. Int. J. Energy Res. 3355124, 22. https://doi.org/10.1155/2023/3355124 (2023).",
+          "journal-title": "Int. J. Energy Res."
+        },
+        {
+          "key": "71100_CR6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fenrg.2024.1325865",
+          "author": "K Srilakshmi",
+          "year": "2024",
+          "unstructured": "Srilakshmi, K., Srinivasa, R. G., Kumar, B. P. & Tomonobu, S. Green energy-sourced AI-controlled multilevel UPQC parameter selection using football game optimization. Front. Energy Res. https://doi.org/10.3389/fenrg.2024.1325865 (2024).",
+          "journal-title": "Front. Energy Res."
+        },
+        {
+          "key": "71100_CR7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/02286203.2024.2327647",
+          "author": "K Sarker",
+          "year": "2024",
+          "unstructured": "Sarker, K. et al. Power quality investigation with multilevel inverter by photovoltaic-fed dynamic voltage restorer. Int. J. Model. Simul. https://doi.org/10.1080/02286203.2024.2327647 (2024).",
+          "journal-title": "Int. J. Model. Simul."
+        },
+        {
+          "key": "71100_CR8",
+          "doi-asserted-by": "publisher",
+          "first-page": "109103",
+          "DOI": "10.1016/j.epsr.2022.109103",
+          "volume": "217",
+          "author": "A Subanth Williams",
+          "year": "2023",
+          "unstructured": "Subanth Williams, A., Suja Mani Malar, R. & Ahilan, T. Wind connected distribution system with intelligent controller based compensators for power quality issues mitigation. Electric Power Syst. Res. 217, 109103. https://doi.org/10.1016/j.epsr.2022.109103 (2023).",
+          "journal-title": "Electric Power Syst. Res."
+        },
+        {
+          "issue": "5",
+          "key": "71100_CR9",
+          "doi-asserted-by": "publisher",
+          "first-page": "1467",
+          "DOI": "10.1080/09720502.2022.2046332",
+          "volume": "25",
+          "author": "S Gandhar",
+          "year": "2022",
+          "unstructured": "Gandhar, S., Ohri, J. & Singh, M. A mathematical framework of ANFIS tuned UPQC controlled RES based isolated microgrid system. J. Interdiscip. Math. 25(5), 1467–1477. https://doi.org/10.1080/09720502.2022.2046332 (2022).",
+          "journal-title": "J. Interdiscip. Math."
+        },
+        {
+          "key": "71100_CR10",
+          "doi-asserted-by": "publisher",
+          "first-page": "6466",
+          "DOI": "10.3390/app12136466",
+          "volume": "12",
+          "author": "OB Adewumi",
+          "year": "2022",
+          "unstructured": "Adewumi, O. B., Fotis, G., Vita, V., Nankoo, D. & Ekonomou, L. The impact of distributed energy storage on distribution and transmission networks’ power quality. Appl. Sci. 12, 6466. https://doi.org/10.3390/app12136466 (2022).",
+          "journal-title": "Appl. Sci."
+        },
+        {
+          "key": "71100_CR11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Razmi, D., Lu, T., Papari, B., Akbari, E., Fathi, G. and Ghadamyari, M. An overview on power quality issues and control strategies for distribution networks with the presence of distributed generation resources, Special Section on Power Electronics Emerging Technologies for Sustainable Energy Conservation, (2022).",
+          "DOI": "10.1109/ACCESS.2023.3238685"
+        },
+        {
+          "key": "71100_CR12",
+          "doi-asserted-by": "publisher",
+          "first-page": "107116",
+          "DOI": "10.1109/ACCESS.2022.3211504",
+          "volume": "10",
+          "author": "K Srilakshmi",
+          "year": "2022",
+          "unstructured": "Srilakshmi, K. et al. Design of soccer league optimization based hybrid controller for solar-battery integrated UPQC. IEEE Access 10, 107116–107136. https://doi.org/10.1109/ACCESS.2022.3211504 (2022).",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "71100_CR13",
+          "doi-asserted-by": "publisher",
+          "first-page": "128102",
+          "DOI": "10.1016/j.jclepro.2021.128102",
+          "volume": "315",
+          "author": "K Raghavendranaik",
+          "year": "2021",
+          "unstructured": "Raghavendranaik, K., Rajpathak, B., Mitra, A. & Kolhe, M. L. Adaptive energy management strategy for sustainable voltage control of PV-hydro-battery integrated DC microgrid. J. Clean. Prod. 315, 128102. https://doi.org/10.1016/j.jclepro.2021.128102 (2021).",
+          "journal-title": "J. Clean. Prod."
+        },
+        {
+          "issue": "1",
+          "key": "71100_CR14",
+          "doi-asserted-by": "publisher",
+          "first-page": "2145",
+          "DOI": "10.2050/ijrer.v13i1.13523.g8672",
+          "volume": "13",
+          "author": "K Srilakshmi",
+          "year": "2023",
+          "unstructured": "Srilakshmi, K. et al. Performance analysis of artificial intelligence controller for PV and battery connected UPQC. Int. J. Renew. Energy Res. 13(1), 2145. https://doi.org/10.2050/ijrer.v13i1.13523.g8672 (2023).",
+          "journal-title": "Int. J. Renew. Energy Res."
+        },
+        {
+          "key": "71100_CR15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.20508/ijrer.v13i1.13523.g8672",
+          "author": "K Srilakshmi",
+          "year": "2023",
+          "unstructured": "Srilakshmi, K. et al. Design and performance analysis of hybrid controller for self tuning filter based solar integrated UPQC. Int. J. Renew. Energy Res. https://doi.org/10.20508/ijrer.v13i1.13523.g8672 (2023).",
+          "journal-title": "Int. J. Renew. Energy Res."
+        },
+        {
+          "key": "71100_CR16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/03772063.2024.2370959",
+          "author": "K Srilakshmi",
+          "year": "2024",
+          "unstructured": "Srilakshmi, K. et al. A new control scheme for wind/battery fed UPQC for the power quality enhancement: A hybrid technique. IETE J. Res. https://doi.org/10.1080/03772063.2024.2370959 (2024).",
+          "journal-title": "IETE J. Res."
+        },
+        {
+          "key": "71100_CR17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/00207217.2023.2245193",
+          "author": "K Srilakshmi",
+          "year": "2023",
+          "unstructured": "Srilakshmi, K., Pandian, A. N. & Palanivelu, A. Fuzzy based hybrid controller for UPQC with wind and battery storage systems. Int. J. Electron. https://doi.org/10.1080/00207217.2023.2245193 (2023).",
+          "journal-title": "Int. J. Electron."
+        },
+        {
+          "issue": "6611240",
+          "key": "71100_CR18",
+          "doi-asserted-by": "publisher",
+          "first-page": "21",
+          "DOI": "10.1155/2024/6611240",
+          "volume": "2024",
+          "author": "K Srilakshmi",
+          "year": "2024",
+          "unstructured": "Srilakshmi, K. et al. Multiobjective neuro-fuzzy controller design and selection of filter parameters of UPQC using predator prey firefly and enhanced harmony search optimization. Int. Transact. Electr. Energy Syst. 2024(6611240), 21. https://doi.org/10.1155/2024/6611240 (2024).",
+          "journal-title": "Int. Transact. Electr. Energy Syst."
+        },
+        {
+          "key": "71100_CR19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00202-023-02185-8",
+          "author": "K Srilakshmi",
+          "year": "2024",
+          "unstructured": "Srilakshmi, K. et al. Optimization of ANFIS controller for solar/battery sources fed UPQC using an hybrid algorithm. Electr. Eng. https://doi.org/10.1007/s00202-023-02185-8 (2024).",
+          "journal-title": "Electr. Eng."
+        },
+        {
+          "issue": "2",
+          "key": "71100_CR20",
+          "first-page": "370",
+          "volume": "14",
+          "author": "K Srilakshmi",
+          "year": "2024",
+          "unstructured": "Srilakshmi, K. et al. A renewable energy source fed neuro-fuzzy controlled multilevel UPQC for power quality improvement. Int. J. Renew. Energy Res. 14(2), 370 (2024).",
+          "journal-title": "Int. J. Renew. Energy Res."
+        },
+        {
+          "issue": "2",
+          "key": "71100_CR21",
+          "first-page": "403",
+          "volume": "14",
+          "author": "K Srilakshmi",
+          "year": "2024",
+          "unstructured": "Srilakshmi, K. et al. Development of AI controller for solar/battery fed H-bridge cascaded multilevel converter UPQC under different loading conditions. Int. J. Renew. Energy Res. 14(2), 403 (2024).",
+          "journal-title": "Int. J. Renew. Energy Res."
+        },
+        {
+          "key": "71100_CR22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.20508/ijrer.v13i1.13318.g8655",
+          "author": "K Srilakshmi",
+          "year": "2023",
+          "unstructured": "Srilakshmi, K. et al. Design and performance analysis of fuzzy based hybrid controller for grid connected solar-battery unified power quality conditioner. Int. J. Renew. Energy Res. https://doi.org/10.20508/ijrer.v13i1.13318.g8655 (2023).",
+          "journal-title": "Int. J. Renew. Energy Res."
+        },
+        {
+          "issue": "1",
+          "key": "71100_CR23",
+          "doi-asserted-by": "publisher",
+          "first-page": "29",
+          "DOI": "10.1109/TEC.2023.3298817",
+          "volume": "39",
+          "author": "N Kumar",
+          "year": "2024",
+          "unstructured": "Kumar, N. EV charging adapter to operate with isolated pillar top solar panels in remote locations. IEEE Transact. Energy Conv. 39(1), 29–36. https://doi.org/10.1109/TEC.2023.3298817 (2024).",
+          "journal-title": "IEEE Transact. Energy Conv."
+        },
+        {
+          "key": "71100_CR24",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Kumar, N., Mulo, T. and Verma, V. P. Application of computer and modern automation system for protection and optimum use of high voltage power transformer, 2013 International Conference on Computer Communication and Informatics, Coimbatore, India, 2013, pp. 1–5, https://doi.org/10.1109/ICCCI.2013.6466257.",
+          "DOI": "10.1109/ICCCI.2013.6466257"
+        },
+        {
+          "key": "71100_CR25",
+          "doi-asserted-by": "publisher",
+          "first-page": "193",
+          "DOI": "10.1016/j.ijepes.2016.02.024",
+          "volume": "81",
+          "author": "N Kumar",
+          "year": "2016",
+          "unstructured": "Kumar, N., Panigrahi, B. K. & Singh, B. A solution to the ramp rate and prohibited operating zone constrained unit commitment by GHS-JGT evolutionary algorithm. Int. J. Elect. Power Energy Syst. 81, 193–203. https://doi.org/10.1016/j.ijepes.2016.02.024 (2016).",
+          "journal-title": "Int. J. Elect. Power Energy Syst."
+        },
+        {
+          "key": "71100_CR26",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Satapathy, S. S. and Kumar N. Modulated perturb and observe maximum power point tracking algorithm for solar PV energy conversion system, 2019 3rd International Conference on Recent Developments in Control, Automation & Power Engineering (RDCAPE), Noida, India, 2019, pp. 345–350, https://doi.org/10.1109/RDCAPE47089.2019.8979025.",
+          "DOI": "10.1109/RDCAPE47089.2019.8979025"
+        },
+        {
+          "key": "71100_CR27",
+          "doi-asserted-by": "publisher",
+          "first-page": "115",
+          "DOI": "10.1109/OJCAS.2023.3247573",
+          "volume": "4",
+          "author": "N Kumar",
+          "year": "2023",
+          "unstructured": "Kumar, N., Singh, H. K. & Niwareeba, R. Adaptive control technique for portable solar powered EV charging adapter to operate in remote location. IEEE Open J. Circuits Syst. 4, 115–125. https://doi.org/10.1109/OJCAS.2023.3247573 (2023).",
+          "journal-title": "IEEE Open J. Circuits Syst."
+        },
+        {
+          "issue": "4",
+          "key": "71100_CR28",
+          "doi-asserted-by": "publisher",
+          "first-page": "1091",
+          "DOI": "10.1109/TCE.2023.3296480",
+          "volume": "69",
+          "author": "N Kumar",
+          "year": "2023",
+          "unstructured": "Kumar, N., Saxena, V., Singh, B. & Panigrahi, B. K. Power quality improved grid-interfaced PV-assisted onboard EV charging infrastructure for smart households consumers. IEEE Transact. Consumer Electron. 69(4), 1091–1100. https://doi.org/10.1109/TCE.2023.3296480 (2023).",
+          "journal-title": "IEEE Transact. Consumer Electron."
+        },
+        {
+          "issue": "100",
+          "key": "71100_CR29",
+          "doi-asserted-by": "publisher",
+          "first-page": "1668",
+          "DOI": "10.1049/iet-rpg.2019.1132",
+          "volume": "14",
+          "author": "SS Satapathy",
+          "year": "2020",
+          "unstructured": "Satapathy, S. S. & Kumar, N. Framework of maximum power point tracking for solar PV panel using WSPS technique. IET Renew. Power Gener. 14(100), 1668–1676 (2020).",
+          "journal-title": "IET Renew. Power Gener."
+        },
+        {
+          "issue": "4",
+          "key": "71100_CR30",
+          "doi-asserted-by": "publisher",
+          "first-page": "600",
+          "DOI": "10.1049/iet-rpg.2018.6034",
+          "volume": "14",
+          "author": "N Kumar",
+          "year": "2020",
+          "unstructured": "Kumar, N., Saxena, V., Singh, B. & Panigrahi, B. K. Intuitive control technique for grid connected partially shaded solar PV-based distributed generating system. IET Renew. Power Gener. 14(4), 600–607 (2020).",
+          "journal-title": "IET Renew. Power Gener."
+        },
+        {
+          "issue": "1",
+          "key": "71100_CR31",
+          "doi-asserted-by": "publisher",
+          "first-page": "1218",
+          "DOI": "10.1109/JSYST.2019.2949083",
+          "volume": "14",
+          "author": "N Priyadarshi",
+          "year": "2020",
+          "unstructured": "Priyadarshi, N., Padmanaban, S., Holm-Nielsen, J. B., Blaabjerg, F. & Bhaskar, M. S. An experimental estimation of hybrid ANFIS–PSO-based MPPT for PV grid integration under fluctuating sun irradiance. IEEE Syst. J. 14(1), 1218–1229. https://doi.org/10.1109/JSYST.2019.2949083 (2020).",
+          "journal-title": "IEEE Syst. J."
+        },
+        {
+          "issue": "1426",
+          "key": "71100_CR32",
+          "doi-asserted-by": "publisher",
+          "first-page": "3149",
+          "DOI": "10.1049/rpg2.12505",
+          "volume": "16",
+          "author": "N Priyadarshi",
+          "year": "2022",
+          "unstructured": "Priyadarshi, N. et al. An adaptive TS-fuzzy model based RBF neural network learning for grid integrated photovoltaic applications. IET Renew. Power Gener. 16(1426), 3149–3160 (2022).",
+          "journal-title": "IET Renew. Power Gener."
+        },
+        {
+          "key": "71100_CR33",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Priyadarshi, N., Ramachandaramurthy, V. K., Padmanaban, S., Azam, F., Sharma, A. K. and Kesari, J. P. An ANFIS artificial technique based maximum power tracker for standalone photovoltaic power generation,\" 2018 2nd IEEE International Conference on Power Electronics, Intelligent Control and Energy Systems (ICPEICES), Delhi, India, 2018, pp. 102–107, https://doi.org/10.1109/ICPEICES.2018.8897386.",
+          "DOI": "10.1109/ICPEICES.2018.8897386"
+        },
+        {
+          "issue": "4",
+          "key": "71100_CR34",
+          "doi-asserted-by": "publisher",
+          "first-page": "1007",
+          "DOI": "10.31763/ijrcs.v3i4.1176",
+          "volume": "3",
+          "author": "Z Ishrat",
+          "year": "2023",
+          "unstructured": "Ishrat, Z. et al. Optimizing solar energy harvesting: Supervised machine learning-driven peak power point tracking for diverse weather conditions. Int. J. Robot. Control Syst. 3(4), 1007–1020 (2023).",
+          "journal-title": "Int. J. Robot. Control Syst."
+        },
+        {
+          "issue": "1117",
+          "key": "71100_CR35",
+          "doi-asserted-by": "publisher",
+          "first-page": "1740",
+          "DOI": "10.1049/rpg2.13028",
+          "volume": "18",
+          "author": "S Khettab",
+          "year": "2024",
+          "unstructured": "Khettab, S. et al. Performance evaluation of PUC7-based multifunction single-phase solar active filter in real outdoor environments: Experimental insights. IET Renew Power Gener. 18(1117), 1740–1757. https://doi.org/10.1049/rpg2.13028 (2024).",
+          "journal-title": "IET Renew Power Gener."
+        },
+        {
+          "issue": "8",
+          "key": "71100_CR36",
+          "doi-asserted-by": "publisher",
+          "first-page": "1773",
+          "DOI": "10.1049/rpg2.12476",
+          "volume": "16",
+          "author": "N Khosravi",
+          "year": "2022",
+          "unstructured": "Khosravi, N. et al. Enhancement of power quality issues for a hybrid AC/DC microgrid based on optimization methods. IET Renew Power Gener 16(8), 1773–1791 (2022).",
+          "journal-title": "IET Renew Power Gener"
+        },
+        {
+          "issue": "3",
+          "key": "71100_CR37",
+          "doi-asserted-by": "publisher",
+          "first-page": "3765",
+          "DOI": "10.1109/TPEL.2022.3217964",
+          "volume": "38",
+          "author": "N Khosravi",
+          "year": "2023",
+          "unstructured": "Khosravi, N. et al. A new approach to enhance the operation of M-UPQC proportional-integral multiresonant controller based on the optimization methods for a stand-alone AC microgrid. IEEE Transact. Power Electron. 38(3), 3765–3774. https://doi.org/10.1109/TPEL.2022.3217964 (2023).",
+          "journal-title": "IEEE Transact. Power Electron."
+        },
+        {
+          "key": "71100_CR38",
+          "doi-asserted-by": "publisher",
+          "first-page": "110898",
+          "DOI": "10.1016/j.rser.2021.110898",
+          "volume": "143",
+          "author": "N Khosravi",
+          "year": "2021",
+          "unstructured": "Khosravi, N., Abdolmohammadi, H. R., Bagheri, S. & Miveh, M. R. Improvement of harmonic conditions in the AC/DC microgrids with the presence of filter compensation modules. Renew. Sustain. Energy Rev. 143, 110898. https://doi.org/10.1016/j.rser.2021.110898 (2021).",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "issue": "16",
+          "key": "71100_CR39",
+          "doi-asserted-by": "publisher",
+          "first-page": "3989",
+          "DOI": "10.1049/rpg2.12317",
+          "volume": "15",
+          "author": "N Khosravi",
+          "year": "2021",
+          "unstructured": "Khosravi, N., Abdolmohammadi, H. R., Bagheri, S. & Miveh, M. R. A novel control approach for harmonic compensation using switched power filter compensators in micro-grids. IET Renew. Power Gener. 15(16), 3989–4005. https://doi.org/10.1049/rpg2.12317 (2021).",
+          "journal-title": "IET Renew. Power Gener."
+        }
+      ],
+      "container-title": [
+        "Scientific Reports"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.nature.com/articles/s41598-024-71100-3.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.nature.com/articles/s41598-024-71100-3",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.nature.com/articles/s41598-024-71100-3.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            3
+          ]
+        ],
+        "date-time": "2024-09-03T09:05:52Z",
+        "timestamp": 1725354352000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.nature.com/articles/s41598-024-71100-3"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            3
+          ]
+        ]
+      },
+      "references-count": 39,
+      "journal-issue": {
+        "issue": "1",
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              12
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "71100"
+      ],
+      "URL": "https://doi.org/10.1038/s41598-024-71100-3",
+      "relation": {},
+      "ISSN": [
+        "2045-2322"
+      ],
+      "issn-type": [
+        {
+          "value": "2045-2322",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            3
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "22 June 2024",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "24 August 2024",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "3 September 2024",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "The authors declare no competing interests.",
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        },
+        {
+          "value": "The paper is not currently being considered for publication elsewhere.",
+          "order": 2,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Ethical approval"
+          }
+        }
+      ],
+      "article-number": "20447"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Koganti Srilakshmi",
+      "given_name_from_source": "Koganti",
+      "family_name_from_source": "Srilakshmi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Krishnaveni Kondreddi",
+      "given_name_from_source": "Krishnaveni",
+      "family_name_from_source": "Kondreddi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "N. Vasantha Gowri",
+      "given_name_from_source": "N. Vasantha",
+      "family_name_from_source": "Gowri",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Ramprasad Vangalapudi",
+      "given_name_from_source": "Ramprasad",
+      "family_name_from_source": "Vangalapudi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "S. Devakirubakarn",
+      "given_name_from_source": "S.",
+      "family_name_from_source": "Devakirubakarn",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 7,
+      "author_name_from_source": "Shitharth Selvarajan",
+      "given_name_from_source": "Shitharth",
+      "family_name_from_source": "Selvarajan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

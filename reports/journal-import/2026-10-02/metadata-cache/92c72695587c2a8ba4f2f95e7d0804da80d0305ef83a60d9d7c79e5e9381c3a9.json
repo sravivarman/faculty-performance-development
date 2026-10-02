@@ -1,0 +1,560 @@
+{
+  "doi": "10.1080/03772063.2024.2370959",
+  "title": "A New Control Scheme for Wind/Battery Fed UPQC for the Power Quality Enhancement: A Hybrid Technique",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "IETE Journal of Research",
+  "publisher": "Informa UK Limited",
+  "publication_date": "2024-07-11",
+  "online_publication_date": "2024-07-11",
+  "print_publication_date": null,
+  "volume": "70",
+  "issue": "11",
+  "pages_or_article_number": "8184-8191",
+  "issn": "0377-2063",
+  "eissn": "0974-780X",
+  "isbn": null,
+  "url": "https://doi.org/10.1080/03772063.2024.2370959",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:09.369927+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            24
+          ]
+        ],
+        "date-time": "2026-04-24T15:40:33Z",
+        "timestamp": 1777045233607,
+        "version": "3.51.4"
+      },
+      "reference-count": 19,
+      "publisher": "Informa UK Limited",
+      "issue": "11",
+      "content-domain": {
+        "domain": [
+          "www.tandfonline.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "IETE Journal of Research"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            11
+          ]
+        ]
+      },
+      "DOI": "10.1080/03772063.2024.2370959",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            11
+          ]
+        ],
+        "date-time": "2024-07-11T12:19:46Z",
+        "timestamp": 1720700386000
+      },
+      "page": "8184-8191",
+      "update-policy": "https://doi.org/10.1080/tandf_crossmark_01",
+      "source": "Crossref",
+      "is-referenced-by-count": 6,
+      "title": [
+        "A New Control Scheme for Wind/Battery Fed UPQC for the Power Quality Enhancement: A Hybrid Technique"
+      ],
+      "prefix": "10.1080",
+      "volume": "70",
+      "author": [
+        {
+          "given": "Koganti",
+          "family": "Srilakshmi",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Electrical &amp; Electronics Engineering, Sreenidhi Institute of Science and Technology, Hyderabad, Telangana, India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Alapati",
+          "family": "Ramadevi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical &amp; Electronic Engineering, Velagapudi Ramakrishna Siddhartha Engineering College, Siddhartha Academy of Higher Education (Deemed to be University), Kanuru, Vijayawada, Andhra Pradesh, India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "J. Ganesh Prasad",
+          "family": "Reddy",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, Sree Vahini Insititute of Science and Technology, Tirvuru, Andhra Pradesh, India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "K.",
+          "family": "Krishna Jyothi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science Engineering, Geethanjali College of Engineering and Technology, Hyderabad, Telangana, India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Krishnaveni",
+          "family": "Kondreddi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, Chaitanya Bharathi Institute of Technology, Telangana, India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, Vardhaman College of Engineering, Hyderabad, Telangana, India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ilhami",
+          "family": "Colak",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, Faculty of Engineering and Natural Sciences, Istinye University, Istanbul, Turkey"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "301",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            11
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_3_3_2_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1049/iet-gtd.2018.6079"
+        },
+        {
+          "key": "e_1_3_3_3_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TCSI.2020.2996775"
+        },
+        {
+          "key": "e_1_3_3_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.6113/JPE.2011.11.6.914"
+        },
+        {
+          "key": "e_1_3_3_5_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "K. Srilakshmi S. Gaddameedhi U. K. Neerati S. R. Salkuti P. A. Rao T. P. Kumar and M. Akshith. “Performance analysis of fuzzy-based controller for wind and battery fed UPQC ” in Power Quality in Microgrids: Issues Challenges and Mitigation Techniques. Singapore: Springer Nature Singapore 2023 pp. 217–241.",
+          "DOI": "10.1007/978-981-99-2066-2_11"
+        },
+        {
+          "key": "e_1_3_3_6_1",
+          "first-page": "1",
+          "article-title": "Optimization of ANFIS controller for solar/battery sources fed UPQC using an hybrid algorithm",
+          "author": "Srilakshmi K.",
+          "year": "2024",
+          "unstructured": "K. Srilakshmi, G. S. Rao, K. Swarnasri, S. R. Inkollu, K. Kondreddi, P. K. Balachandran, and I. Colak, “Optimization of ANFIS controller for solar/battery sources fed UPQC using an hybrid algorithm,” Electr. Eng., 1–28, 2024.",
+          "journal-title": "Electr. Eng."
+        },
+        {
+          "key": "e_1_3_3_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TEC.2021.3059754"
+        },
+        {
+          "issue": "4",
+          "key": "e_1_3_3_8_1",
+          "first-page": "427",
+          "article-title": "RTDS hardware implementation and simulation of SHAF for mitigation of harmonics using pq control strategy with PI and Fuzzy logic controllers",
+          "volume": "7",
+          "author": "Mikkili S.",
+          "year": "2012",
+          "unstructured": "S. Mikkili, and A. K. Panda, “RTDS hardware implementation and simulation of SHAF for mitigation of harmonics using pq control strategy with PI and Fuzzy logic controllers,” Front. Electr. Electr. Eng., Vol. 7, no. 4, pp. 427–37, 2012.",
+          "journal-title": "Front. Electr. Electr. Eng."
+        },
+        {
+          "key": "e_1_3_3_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TTE.2022.3213253"
+        },
+        {
+          "key": "e_1_3_3_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TIA.2022.3172240"
+        },
+        {
+          "key": "e_1_3_3_11_1",
+          "first-page": "1",
+          "article-title": "ANFIS-based power quality improvement by photovoltaic integrated UPQC at distribution system",
+          "volume": "69",
+          "author": "Dheeban S. S.",
+          "year": "2021",
+          "unstructured": "S. S. Dheeban, and N. B. MuthuSelvan, “ANFIS-based power quality improvement by photovoltaic integrated UPQC at distribution system,” IETE. J. Res., Vol. 69, pp. 1–19, 2021.",
+          "journal-title": "IETE. J. Res."
+        },
+        {
+          "key": "e_1_3_3_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1515/ehs-2022-0151"
+        },
+        {
+          "key": "e_1_3_3_13_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.est.2023.106843"
+        },
+        {
+          "key": "e_1_3_3_14_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/00207217.2023.2245193"
+        },
+        {
+          "key": "e_1_3_3_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1088/1757-899X/342/1/012084"
+        },
+        {
+          "key": "e_1_3_3_16_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/01969722.2023.2175144"
+        },
+        {
+          "key": "e_1_3_3_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1155/2023/3355124"
+        },
+        {
+          "key": "e_1_3_3_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-024-54550-7"
+        },
+        {
+          "key": "e_1_3_3_19_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1155/2024/6611240"
+        },
+        {
+          "key": "e_1_3_3_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fenrg.2024.1370412"
+        }
+      ],
+      "container-title": [
+        "IETE Journal of Research"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.tandfonline.com/doi/pdf/10.1080/03772063.2024.2370959",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            29
+          ]
+        ],
+        "date-time": "2024-11-29T05:44:12Z",
+        "timestamp": 1732859052000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.tandfonline.com/doi/full/10.1080/03772063.2024.2370959"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            11
+          ]
+        ]
+      },
+      "references-count": 19,
+      "journal-issue": {
+        "issue": "11",
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              11
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1080/03772063.2024.2370959"
+      ],
+      "URL": "https://doi.org/10.1080/03772063.2024.2370959",
+      "relation": {},
+      "ISSN": [
+        "0377-2063",
+        "0974-780X"
+      ],
+      "issn-type": [
+        {
+          "value": "0377-2063",
+          "type": "print"
+        },
+        {
+          "value": "0974-780X",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            11
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "The publishing and review policy for this title is described in its Aims & Scope.",
+          "order": 1,
+          "name": "peerreview_statement",
+          "label": "Peer Review Statement"
+        },
+        {
+          "value": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=tijr20",
+          "URL": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=tijr20",
+          "order": 2,
+          "name": "aims_and_scope_url",
+          "label": "Aim & Scope"
+        },
+        {
+          "value": "2024-07-11",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Koganti Srilakshmi",
+      "given_name_from_source": "Koganti",
+      "family_name_from_source": "Srilakshmi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical &amp; Electronics Engineering, Sreenidhi Institute of Science and Technology, Hyderabad, Telangana, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Alapati Ramadevi",
+      "given_name_from_source": "Alapati",
+      "family_name_from_source": "Ramadevi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical &amp; Electronic Engineering, Velagapudi Ramakrishna Siddhartha Engineering College, Siddhartha Academy of Higher Education (Deemed to be University), Kanuru, Vijayawada, Andhra Pradesh, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "J. Ganesh Prasad Reddy",
+      "given_name_from_source": "J. Ganesh Prasad",
+      "family_name_from_source": "Reddy",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering, Sree Vahini Insititute of Science and Technology, Tirvuru, Andhra Pradesh, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "K. Krishna Jyothi",
+      "given_name_from_source": "K.",
+      "family_name_from_source": "Krishna Jyothi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Computer Science Engineering, Geethanjali College of Engineering and Technology, Hyderabad, Telangana, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Krishnaveni Kondreddi",
+      "given_name_from_source": "Krishnaveni",
+      "family_name_from_source": "Kondreddi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering, Chaitanya Bharathi Institute of Technology, Telangana, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering, Vardhaman College of Engineering, Hyderabad, Telangana, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 7,
+      "author_name_from_source": "Ilhami Colak",
+      "given_name_from_source": "Ilhami",
+      "family_name_from_source": "Colak",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering, Faculty of Engineering and Natural Sciences, Istinye University, Istanbul, Turkey"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

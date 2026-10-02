@@ -1,0 +1,549 @@
+{
+  "source": {
+    "source": "F:\\Downloads\\Journals.xlsx",
+    "source_sha256": "bdf676203e5aa0bb9fd1ecbd9af7ce9e6ebd5225e90a484a4ae12484b34b493d",
+    "sheet": "Journal",
+    "header_row": 1
+  },
+  "summary": {
+    "faculty_master_count": 19,
+    "faculty_name_variant_count": 64,
+    "total_journal_rows": 138,
+    "unique_excel_claimant_values": 32,
+    "canonical_matches": 9,
+    "strong_variant_matches": 22,
+    "weak_variant_matches": 0,
+    "unmatched_values": 1,
+    "ambiguous_values": 0,
+    "rows_requiring_review": 1,
+    "blank_claimant_rows": 0,
+    "missing_title_rows": 0,
+    "grouped_row_total": 138
+  },
+  "claimants": [
+    {
+      "excel_author_value": "A. Ramakrishna",
+      "normalized_value": "a ramakrishna",
+      "matched_faculty": "Mr. A. Rama Krishna",
+      "employee_id": "VCE306",
+      "match_source": "STRONG_VARIANT",
+      "requires_review": false,
+      "candidates": [],
+      "excel_rows": 2,
+      "source_rows": [
+        80,
+        84
+      ]
+    },
+    {
+      "excel_author_value": "Annavarapu Ananda Kumar",
+      "normalized_value": "annavarapu ananda kumar",
+      "matched_faculty": "Mr. A. Ananda Kumar",
+      "employee_id": "VCE1009",
+      "match_source": "STRONG_VARIANT",
+      "requires_review": false,
+      "candidates": [],
+      "excel_rows": 2,
+      "source_rows": [
+        38,
+        94
+      ]
+    },
+    {
+      "excel_author_value": "Archana Chittari",
+      "normalized_value": "archana chittari",
+      "matched_faculty": null,
+      "employee_id": null,
+      "match_source": "UNMATCHED",
+      "requires_review": true,
+      "candidates": [],
+      "excel_rows": 1,
+      "source_rows": [
+        86
+      ]
+    },
+    {
+      "excel_author_value": "B Praveen Kumar",
+      "normalized_value": "b praveen kumar",
+      "matched_faculty": "B Praveen Kumar",
+      "employee_id": "VCE1476",
+      "match_source": "CANONICAL",
+      "requires_review": false,
+      "candidates": [],
+      "excel_rows": 1,
+      "source_rows": [
+        67
+      ]
+    },
+    {
+      "excel_author_value": "B. Praveen Kumar",
+      "normalized_value": "b praveen kumar",
+      "matched_faculty": "B Praveen Kumar",
+      "employee_id": "VCE1476",
+      "match_source": "CANONICAL",
+      "requires_review": false,
+      "candidates": [],
+      "excel_rows": 9,
+      "source_rows": [
+        108,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        139
+      ]
+    },
+    {
+      "excel_author_value": "Balachandran Praveen Kumar",
+      "normalized_value": "balachandran praveen kumar",
+      "matched_faculty": "B Praveen Kumar",
+      "employee_id": "VCE1476",
+      "match_source": "STRONG_VARIANT",
+      "requires_review": false,
+      "candidates": [],
+      "excel_rows": 1,
+      "source_rows": [
+        72
+      ]
+    },
+    {
+      "excel_author_value": "Balachandran, P. K",
+      "normalized_value": "balachandran pk",
+      "matched_faculty": "B Praveen Kumar",
+      "employee_id": "VCE1476",
+      "match_source": "STRONG_VARIANT",
+      "requires_review": false,
+      "candidates": [],
+      "excel_rows": 1,
+      "source_rows": [
+        33
+      ]
+    },
+    {
+      "excel_author_value": "Balachandran, P. K.",
+      "normalized_value": "balachandran pk",
+      "matched_faculty": "B Praveen Kumar",
+      "employee_id": "VCE1476",
+      "match_source": "STRONG_VARIANT",
+      "requires_review": false,
+      "candidates": [],
+      "excel_rows": 1,
+      "source_rows": [
+        61
+      ]
+    },
+    {
+      "excel_author_value": "Dr. Patil Mounica",
+      "normalized_value": "patil mounica",
+      "matched_faculty": "Patil Mounica",
+      "employee_id": "VCE967",
+      "match_source": "CANONICAL",
+      "requires_review": false,
+      "candidates": [],
+      "excel_rows": 1,
+      "source_rows": [
+        55
+      ]
+    },
+    {
+      "excel_author_value": "Hari Shankar Jain",
+      "normalized_value": "hari shankar jain",
+      "matched_faculty": "Dr. H.S. Jain",
+      "employee_id": "VCE640",
+      "match_source": "STRONG_VARIANT",
+      "requires_review": false,
+      "candidates": [],
+      "excel_rows": 1,
+      "source_rows": [
+        121
+      ]
+    },
+    {
+      "excel_author_value": "Karuppiah N",
+      "normalized_value": "karuppiah n",
+      "matched_faculty": "Dr. N. Karuppiah",
+      "employee_id": "VCE1172",
+      "match_source": "STRONG_VARIANT",
+      "requires_review": false,
+      "candidates": [],
+      "excel_rows": 1,
+      "source_rows": [
+        89
+      ]
+    },
+    {
+      "excel_author_value": "Karuppiah Natarajan",
+      "normalized_value": "karuppiah natarajan",
+      "matched_faculty": "Dr. N. Karuppiah",
+      "employee_id": "VCE1172",
+      "match_source": "STRONG_VARIANT",
+      "requires_review": false,
+      "candidates": [],
+      "excel_rows": 4,
+      "source_rows": [
+        25,
+        64,
+        96,
+        98
+      ]
+    },
+    {
+      "excel_author_value": "Md Asif",
+      "normalized_value": "md asif",
+      "matched_faculty": "Dr. Md. Asif",
+      "employee_id": "VCE085",
+      "match_source": "CANONICAL",
+      "requires_review": false,
+      "candidates": [],
+      "excel_rows": 1,
+      "source_rows": [
+        2
+      ]
+    },
+    {
+      "excel_author_value": "Muruagapermual Krishnamoorthy",
+      "normalized_value": "muruagapermual krishnamoorthy",
+      "matched_faculty": "Dr. Muruga Perumal",
+      "employee_id": "VCE1496",
+      "match_source": "STRONG_VARIANT",
+      "requires_review": false,
+      "candidates": [],
+      "excel_rows": 1,
+      "source_rows": [
+        82
+      ]
+    },
+    {
+      "excel_author_value": "Murugaperumal Krishnamoorthy",
+      "normalized_value": "murugaperumal krishnamoorthy",
+      "matched_faculty": "Dr. Muruga Perumal",
+      "employee_id": "VCE1496",
+      "match_source": "STRONG_VARIANT",
+      "requires_review": false,
+      "candidates": [],
+      "excel_rows": 12,
+      "source_rows": [
+        21,
+        39,
+        44,
+        46,
+        58,
+        68,
+        75,
+        97,
+        99,
+        102,
+        123,
+        136
+      ]
+    },
+    {
+      "excel_author_value": "Murugaperumal Krisnamoorthy",
+      "normalized_value": "murugaperumal krisnamoorthy",
+      "matched_faculty": "Dr. Muruga Perumal",
+      "employee_id": "VCE1496",
+      "match_source": "STRONG_VARIANT",
+      "requires_review": false,
+      "candidates": [],
+      "excel_rows": 1,
+      "source_rows": [
+        76
+      ]
+    },
+    {
+      "excel_author_value": "Murugaperunal Krishnamoorthy",
+      "normalized_value": "murugaperunal krishnamoorthy",
+      "matched_faculty": "Dr. Muruga Perumal",
+      "employee_id": "VCE1496",
+      "match_source": "STRONG_VARIANT",
+      "requires_review": false,
+      "candidates": [],
+      "excel_rows": 1,
+      "source_rows": [
+        73
+      ]
+    },
+    {
+      "excel_author_value": "N. Karuppiah",
+      "normalized_value": "n karuppiah",
+      "matched_faculty": "Dr. N. Karuppiah",
+      "employee_id": "VCE1172",
+      "match_source": "CANONICAL",
+      "requires_review": false,
+      "candidates": [],
+      "excel_rows": 1,
+      "source_rows": [
+        127
+      ]
+    },
+    {
+      "excel_author_value": "N. Srinivas",
+      "normalized_value": "n srinivas",
+      "matched_faculty": "Dr. N. Srinivas",
+      "employee_id": "VCE087",
+      "match_source": "CANONICAL",
+      "requires_review": false,
+      "candidates": [],
+      "excel_rows": 1,
+      "source_rows": [
+        137
+      ]
+    },
+    {
+      "excel_author_value": "NAKKA SRINIVAS",
+      "normalized_value": "nakka srinivas",
+      "matched_faculty": "Dr. N. Srinivas",
+      "employee_id": "VCE087",
+      "match_source": "STRONG_VARIANT",
+      "requires_review": false,
+      "candidates": [],
+      "excel_rows": 1,
+      "source_rows": [
+        93
+      ]
+    },
+    {
+      "excel_author_value": "Natarajan Karuppiah",
+      "normalized_value": "natarajan karuppiah",
+      "matched_faculty": "Dr. N. Karuppiah",
+      "employee_id": "VCE1172",
+      "match_source": "STRONG_VARIANT",
+      "requires_review": false,
+      "candidates": [],
+      "excel_rows": 3,
+      "source_rows": [
+        10,
+        113,
+        119
+      ]
+    },
+    {
+      "excel_author_value": "Patil Mounica",
+      "normalized_value": "patil mounica",
+      "matched_faculty": "Patil Mounica",
+      "employee_id": "VCE967",
+      "match_source": "CANONICAL",
+      "requires_review": false,
+      "candidates": [],
+      "excel_rows": 4,
+      "source_rows": [
+        6,
+        7,
+        37,
+        54
+      ]
+    },
+    {
+      "excel_author_value": "Praveen Kumar B",
+      "normalized_value": "praveen kumar b",
+      "matched_faculty": "B Praveen Kumar",
+      "employee_id": "VCE1476",
+      "match_source": "STRONG_VARIANT",
+      "requires_review": false,
+      "candidates": [],
+      "excel_rows": 4,
+      "source_rows": [
+        8,
+        63,
+        77,
+        81
+      ]
+    },
+    {
+      "excel_author_value": "Praveen Kumar Balachandran",
+      "normalized_value": "praveen kumar balachandran",
+      "matched_faculty": "B Praveen Kumar",
+      "employee_id": "VCE1476",
+      "match_source": "STRONG_VARIANT",
+      "requires_review": false,
+      "candidates": [],
+      "excel_rows": 61,
+      "source_rows": [
+        3,
+        4,
+        5,
+        9,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        22,
+        23,
+        26,
+        27,
+        29,
+        30,
+        31,
+        32,
+        34,
+        35,
+        36,
+        40,
+        41,
+        42,
+        43,
+        48,
+        49,
+        50,
+        53,
+        56,
+        57,
+        59,
+        60,
+        62,
+        70,
+        74,
+        78,
+        79,
+        87,
+        88,
+        90,
+        91,
+        92,
+        95,
+        103,
+        104,
+        105,
+        106,
+        107,
+        109,
+        111,
+        112,
+        114,
+        115,
+        116,
+        117,
+        118,
+        122,
+        126
+      ]
+    },
+    {
+      "excel_author_value": "Praven Kumar Balachandran",
+      "normalized_value": "praven kumar balachandran",
+      "matched_faculty": "B Praveen Kumar",
+      "employee_id": "VCE1476",
+      "match_source": "STRONG_VARIANT",
+      "requires_review": false,
+      "candidates": [],
+      "excel_rows": 1,
+      "source_rows": [
+        66
+      ]
+    },
+    {
+      "excel_author_value": "Ramakrishna, A",
+      "normalized_value": "ramakrishna a",
+      "matched_faculty": "Mr. A. Rama Krishna",
+      "employee_id": "VCE306",
+      "match_source": "STRONG_VARIANT",
+      "requires_review": false,
+      "candidates": [],
+      "excel_rows": 1,
+      "source_rows": [
+        83
+      ]
+    },
+    {
+      "excel_author_value": "Ravivarman Shanmugasundaram",
+      "normalized_value": "ravivarman shanmugasundaram",
+      "matched_faculty": "Dr. S. Ravivarman",
+      "employee_id": "VCE1127",
+      "match_source": "STRONG_VARIANT",
+      "requires_review": false,
+      "candidates": [],
+      "excel_rows": 4,
+      "source_rows": [
+        28,
+        71,
+        124,
+        125
+      ]
+    },
+    {
+      "excel_author_value": "Ravivarman, S.",
+      "normalized_value": "ravivarman s",
+      "matched_faculty": "Dr. S. Ravivarman",
+      "employee_id": "VCE1127",
+      "match_source": "STRONG_VARIANT",
+      "requires_review": false,
+      "candidates": [],
+      "excel_rows": 1,
+      "source_rows": [
+        45
+      ]
+    },
+    {
+      "excel_author_value": "S. Ravivarman",
+      "normalized_value": "s ravivarman",
+      "matched_faculty": "Dr. S. Ravivarman",
+      "employee_id": "VCE1127",
+      "match_source": "CANONICAL",
+      "requires_review": false,
+      "candidates": [],
+      "excel_rows": 5,
+      "source_rows": [
+        13,
+        51,
+        110,
+        128,
+        138
+      ]
+    },
+    {
+      "excel_author_value": "Srinivas Nakka",
+      "normalized_value": "srinivas nakka",
+      "matched_faculty": "Dr. N. Srinivas",
+      "employee_id": "VCE087",
+      "match_source": "STRONG_VARIANT",
+      "requires_review": false,
+      "candidates": [],
+      "excel_rows": 1,
+      "source_rows": [
+        24
+      ]
+    },
+    {
+      "excel_author_value": "T. Anuradha Devi",
+      "normalized_value": "t anuradha devi",
+      "matched_faculty": "Dr. T. Anuradha Devi",
+      "employee_id": "VCE1011",
+      "match_source": "CANONICAL",
+      "requires_review": false,
+      "candidates": [],
+      "excel_rows": 3,
+      "source_rows": [
+        11,
+        47,
+        101
+      ]
+    },
+    {
+      "excel_author_value": "Tellapati Anuradha Devi",
+      "normalized_value": "tellapati anuradha devi",
+      "matched_faculty": "Dr. T. Anuradha Devi",
+      "employee_id": "VCE1011",
+      "match_source": "STRONG_VARIANT",
+      "requires_review": false,
+      "candidates": [],
+      "excel_rows": 6,
+      "source_rows": [
+        52,
+        65,
+        69,
+        85,
+        100,
+        120
+      ]
+    }
+  ],
+  "database_path": "C:\\Users\\silic\\Documents\\GitHub\\faculty-performance-development\\data\\faculty.db",
+  "generated_at": "2026-10-02T05:41:06.910809+00:00"
+}

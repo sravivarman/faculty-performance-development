@@ -1,0 +1,716 @@
+{
+  "doi": "10.1038/s41598-025-10238-0",
+  "title": "Enhanced IoT threat detection using Graph-Regularized neural networks optimized by Sea-Lion algorithm",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Scientific Reports",
+  "publisher": "Springer Science and Business Media LLC",
+  "publication_date": "2025-09-29",
+  "online_publication_date": "2025-09-29",
+  "print_publication_date": null,
+  "volume": "15",
+  "issue": "1",
+  "pages_or_article_number": "33465",
+  "issn": null,
+  "eissn": "2045-2322",
+  "isbn": null,
+  "url": "https://doi.org/10.1038/s41598-025-10238-0",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:28.244307+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            18
+          ]
+        ],
+        "date-time": "2026-07-18T16:11:15Z",
+        "timestamp": 1784391075397,
+        "version": "3.55.0"
+      },
+      "reference-count": 29,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                29
+              ]
+            ],
+            "date-time": "2025-09-29T00:00:00Z",
+            "timestamp": 1759104000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                29
+              ]
+            ],
+            "date-time": "2025-09-29T00:00:00Z",
+            "timestamp": 1759104000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Sci Rep"
+      ],
+      "DOI": "10.1038/s41598-025-10238-0",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            29
+          ]
+        ],
+        "date-time": "2025-09-29T18:13:20Z",
+        "timestamp": 1759169600000
+      },
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "Enhanced IoT threat detection using Graph-Regularized neural networks optimized by Sea-Lion algorithm"
+      ],
+      "prefix": "10.1038",
+      "volume": "15",
+      "author": [
+        {
+          "given": "D. Teja",
+          "family": "Santhosh",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Koganti Krishna",
+          "family": "Jyothi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Koganti",
+          "family": "Srilakshmi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "A.",
+          "family": "Swarupa",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shitharth",
+          "family": "Selvarajan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            29
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "issue": "11",
+          "key": "10238_CR1",
+          "doi-asserted-by": "publisher",
+          "first-page": "8229",
+          "DOI": "10.1109/JIOT.2022.3150363",
+          "volume": "9",
+          "author": "B Ghimire",
+          "year": "2022",
+          "unstructured": "Ghimire, B. & Rawat, D. B. Recent advances on federated learning for cybersecurity and cybersecurity for federated learning for internet of things. IEEE Internet Things J. 9 (11), 8229–8249 (2022).",
+          "journal-title": "IEEE Internet Things J."
+        },
+        {
+          "issue": "12",
+          "key": "10238_CR2",
+          "doi-asserted-by": "publisher",
+          "first-page": "9395",
+          "DOI": "10.1016/j.aej.2022.02.063",
+          "volume": "61",
+          "author": "YK Saheed",
+          "year": "2022",
+          "unstructured": "Saheed, Y. K., Abiodun, A. I., Misra, S., Holone, M. K. & Colomo-Palacios, R. A machine learning-based intrusion detection for detecting internet of things network attacks. Alexandria Eng. J. 61 (12), 9395–9409 (2022).",
+          "journal-title": "Alexandria Eng. J."
+        },
+        {
+          "key": "10238_CR3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kanna, P. R. & Santhi, P. Unified deep learning approach for efficient intrusion detection system using integrated spatial–temporal features. Knowledge-Based Systems, 226, p.107132. (2021).",
+          "DOI": "10.1016/j.knosys.2021.107132"
+        },
+        {
+          "key": "10238_CR4",
+          "doi-asserted-by": "publisher",
+          "first-page": "108495",
+          "DOI": "10.1109/ACCESS.2021.3101650",
+          "volume": "9",
+          "author": "NM Yungaicela-Naula",
+          "year": "2021",
+          "unstructured": "Yungaicela-Naula, N. M., Vargas-Rosales, C. & Perez-Diaz, J. A. SDN-based architecture for transport and application layer DDoS attack detection by using machine and deep learning. IEEE Access. 9, 108495–108512 (2021).",
+          "journal-title": "IEEE Access."
+        },
+        {
+          "key": "10238_CR5",
+          "doi-asserted-by": "publisher",
+          "first-page": "156",
+          "DOI": "10.1016/j.future.2021.06.047",
+          "volume": "125",
+          "author": "MP Novaes",
+          "year": "2021",
+          "unstructured": "Novaes, M. P., Carvalho, L. F., Lloret, J. & ProençaJr, M. L. Adversarial deep learning approach detection and defense against DDoS attacks in SDN environments. Future Generation Comput. Syst. 125, 156–167 (2021).",
+          "journal-title": "Future Generation Comput. Syst."
+        },
+        {
+          "key": "10238_CR6",
+          "doi-asserted-by": "publisher",
+          "first-page": "1",
+          "DOI": "10.1007/s43926-020-00001-4",
+          "volume": "1",
+          "author": "M Kuzlu",
+          "year": "2021",
+          "unstructured": "Kuzlu, M., Fair, C. & Guler, O. Role of artificial intelligence in the internet of things (IoT) cybersecurity. Discover Internet Things. 1, 1–14 (2021).",
+          "journal-title": "Discover Internet Things"
+        },
+        {
+          "key": "10238_CR7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ge, M., Syed, N. F., Fu, X., Baig, Z. & Robles-Kelly, A. Towards a deep learning-driven intrusion detection approach for Internet of Things. Computer Networks, 186, p.107784. (2021).",
+          "DOI": "10.1016/j.comnet.2020.107784"
+        },
+        {
+          "key": "10238_CR8",
+          "doi-asserted-by": "publisher",
+          "first-page": "3749",
+          "DOI": "10.1007/s13369-020-05181-3",
+          "volume": "46",
+          "author": "P Kumar",
+          "year": "2021",
+          "unstructured": "Kumar, P., Gupta, G. P. & Tripathi, R. Toward design of an intelligent cyber attack detection system using hybrid feature reduced approach for Iot networks. Arab. J. Sci. Eng. 46, 3749–3778 (2021).",
+          "journal-title": "Arab. J. Sci. Eng."
+        },
+        {
+          "issue": "5",
+          "key": "10238_CR9",
+          "doi-asserted-by": "publisher",
+          "first-page": "3930",
+          "DOI": "10.1109/JIOT.2021.3100755",
+          "volume": "9",
+          "author": "SI Popoola",
+          "year": "2021",
+          "unstructured": "Popoola, S. I. et al. Federated deep learning for zero-day botnet attack detection in IoT-edge devices. IEEE Internet Things J. 9 (5), 3930–3944 (2021).",
+          "journal-title": "IEEE Internet Things J."
+        },
+        {
+          "key": "10238_CR10",
+          "doi-asserted-by": "publisher",
+          "first-page": "123448",
+          "DOI": "10.1109/ACCESS.2021.3109081",
+          "volume": "9",
+          "author": "A Fatani",
+          "year": "2021",
+          "unstructured": "Fatani, A., AbdElaziz, M., Dahou, A., Al-Qaness, M. A. & Lu, S. IoT intrusion detection system using deep learning and enhanced transient search optimization. IEEE Access. 9, 123448–123464 (2021).",
+          "journal-title": "IEEE Access."
+        },
+        {
+          "key": "10238_CR11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Alkahtani, H. & Aldhyani, T. H. Intrusion detection system to advance internet of things infrastructure-based deep learning algorithms. Complexity, 2021, pp.1–18. (2021).",
+          "DOI": "10.1155/2021/5579851"
+        },
+        {
+          "key": "10238_CR12",
+          "doi-asserted-by": "publisher",
+          "first-page": "146",
+          "DOI": "10.1016/j.comcom.2021.05.024",
+          "volume": "176",
+          "author": "AK Sahu",
+          "year": "2021",
+          "unstructured": "Sahu, A. K., Sharma, S., Tanveer, M. & Raja, R. Internet of things attack detection using hybrid deep learning model. Comput. Commun. 176, 146–154 (2021).",
+          "journal-title": "Comput. Commun."
+        },
+        {
+          "key": "10238_CR13",
+          "doi-asserted-by": "publisher",
+          "first-page": "110",
+          "DOI": "10.1016/j.comcom.2020.12.003",
+          "volume": "166",
+          "author": "P Kumar",
+          "year": "2021",
+          "unstructured": "Kumar, P., Gupta, G. P. & Tripathi, R. An ensemble learning and fog-cloud architecture-driven cyber-attack detection framework for IoMT networks. Comput. Commun. 166, 110–124 (2021).",
+          "journal-title": "Comput. Commun."
+        },
+        {
+          "key": "10238_CR14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Thakur, S., Chakraborty, A., De, R., Kumar, N. & Sarkar, R. Intrusion detection in cyber-physical systems using a generic and domain specific deep autoencoder model. Computers & Electrical Engineering, 91, p.107044. (2021).",
+          "DOI": "10.1016/j.compeleceng.2021.107044"
+        },
+        {
+          "key": "10238_CR15",
+          "doi-asserted-by": "publisher",
+          "first-page": "124379",
+          "DOI": "10.1109/ACCESS.2019.2937347",
+          "volume": "7",
+          "author": "F Ullah",
+          "year": "2019",
+          "unstructured": "Ullah, F. et al. Cyber security threats detection in internet of things using deep learning approach. IEEE Access. 7, 124379–124389 (2019).",
+          "journal-title": "IEEE Access."
+        },
+        {
+          "issue": "10",
+          "key": "10238_CR16",
+          "doi-asserted-by": "publisher",
+          "first-page": "76",
+          "DOI": "10.1109/MCOM.101.2001126",
+          "volume": "59",
+          "author": "K Yu",
+          "year": "2021",
+          "unstructured": "Yu, K. et al. Securing critical infrastructures: deep-learning-based threat detection in IIoT. IEEE Commun. Mag. 59 (10), 76–82 (2021).",
+          "journal-title": "IEEE Commun. Mag."
+        },
+        {
+          "key": "10238_CR17",
+          "doi-asserted-by": "publisher",
+          "first-page": "40281",
+          "DOI": "10.1109/ACCESS.2022.3165809",
+          "volume": "10",
+          "author": "MA Ferrag",
+          "year": "2022",
+          "unstructured": "Ferrag, M. A., Friha, O., Hamouda, D., Maglaras, L. & Janicke, H. Edge-IIoTset: A new comprehensive realistic cyber security dataset of IoT and IIoT applications for centralized and federated learning. IEEE Access. 10, 40281–40306 (2022).",
+          "journal-title": "IEEE Access."
+        },
+        {
+          "key": "10238_CR18",
+          "doi-asserted-by": "publisher",
+          "first-page": "161546",
+          "DOI": "10.1109/ACCESS.2021.3128837",
+          "volume": "9",
+          "author": "YK Saheed",
+          "year": "2021",
+          "unstructured": "Saheed, Y. K. & Arowolo, M. O. Efficient cyber attack detection on the internet of medical things-smart environment based on deep recurrent neural network and machine learning algorithms. IEEE Access. 9, 161546–161554 (2021).",
+          "journal-title": "IEEE Access."
+        },
+        {
+          "key": "10238_CR19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Anthi, E., Williams, L., Rhode, M., Burnap, P. & Wedgbury, A. Adversarial attacks on machine learning cybersecurity defences in industrial control systems. Journal of Information Security and Applications, 58, p.102717. (2021).",
+          "DOI": "10.1016/j.jisa.2020.102717"
+        },
+        {
+          "key": "10238_CR20",
+          "doi-asserted-by": "publisher",
+          "first-page": "78415",
+          "DOI": "10.1109/ACCESS.2021.3083499",
+          "volume": "9",
+          "author": "M Elsisi",
+          "year": "2021",
+          "unstructured": "Elsisi, M. et al. Towards secured online monitoring for digitalized GIS against cyber-attacks based on IoT and machine learning. Ieee Access. 9, 78415–78427 (2021).",
+          "journal-title": "Ieee Access."
+        },
+        {
+          "key": "10238_CR21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Prabhakar, P. et al. Cyber Security of Smart Metering Infrastructure Using Median Absolute Deviation Methodology. Security and Communication Networks, 2022. (2022).",
+          "DOI": "10.1155/2022/6200121"
+        },
+        {
+          "key": "10238_CR22",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Saheed, Y. K., Misra, S. & CPS-IoT-PPDNN A new explainable privacy preserving DNN for resilient anomaly detection in Cyber-Physical Systems-enabled IoT networks, chaos, solitons & fractals, 191, 115939, (2025). https://doi.org/10.1016/j.chaos.2024.115939",
+          "DOI": "10.1016/j.chaos.2024.115939"
+        },
+        {
+          "key": "10238_CR23",
+          "doi-asserted-by": "publisher",
+          "first-page": "100297",
+          "DOI": "10.1016/j.sintl.2024.100297",
+          "volume": "6",
+          "author": "YK Saheed",
+          "year": "2025",
+          "unstructured": "Saheed, Y. K., Omole, A. I. & Sabit, M. O. GA-mADAM-IIoT: A new lightweight threats detection in the industrial IoT via genetic algorithm with attention mechanism and LSTM on multivariate time series sensor data. Sens. Int. 6, 100297 (2025).",
+          "journal-title": "Sens. Int."
+        },
+        {
+          "key": "10238_CR24",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Saheed, Y. K., Chukwuere, J. E. & Ensemble, X. A. I. TL-IoV: A new explainable artificial intelligence ensemble transfer learning for zero-day botnet attack detection in the internet of vehicles, results in engineering, 24, 103171, (2024). https://doi.org/10.1016/j.rineng.2024.103171",
+          "DOI": "10.1016/j.rineng.2024.103171"
+        },
+        {
+          "key": "10238_CR25",
+          "unstructured": "https://www.kaggle.com/datasets/jur1cek/gcj-dataset"
+        },
+        {
+          "key": "10238_CR26",
+          "doi-asserted-by": "publisher",
+          "first-page": "119",
+          "DOI": "10.1109/OJSP.2021.3063076",
+          "volume": "2",
+          "author": "G Deng",
+          "year": "2021",
+          "unstructured": "Deng, G., Galetto, F., Al–nasrawi, M. & Waheed, W. A guided edge-aware smoothing-sharpening filter based on patch interpolation model and generalized gamma distribution. IEEE Open. J. Signal. Process. 2, 119–135 (2021).",
+          "journal-title": "IEEE Open. J. Signal. Process."
+        },
+        {
+          "key": "10238_CR27",
+          "doi-asserted-by": "publisher",
+          "first-page": "108523",
+          "DOI": "10.1016/j.measurement.2020.108523",
+          "volume": "169",
+          "author": "Z Meng",
+          "year": "2021",
+          "unstructured": "Meng, Z., Lv, M., Liu, Z. & Fan, F. General synchroextractingchirplet transform: application to the rotor rub-impact fault diagnosis. Measurement 169, 108523 (2021).",
+          "journal-title": "Measurement"
+        },
+        {
+          "key": "10238_CR28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen, Z. et al. AGNN: Alternating Graph-Regularized Neural Networks To Alleviate Over-Smoothing (IEEE Transactions on Neural Networks and Learning Systems, 2023).",
+          "DOI": "10.1109/TNNLS.2023.3271623"
+        },
+        {
+          "issue": "2",
+          "key": "10238_CR29",
+          "doi-asserted-by": "publisher",
+          "first-page": "585",
+          "DOI": "10.1007/s12083-023-01603-9",
+          "volume": "17",
+          "author": "K Dinesh",
+          "year": "2024",
+          "unstructured": "Dinesh, K. & Santhosh Kumar Svn GWO-SMSLO: grey Wolf optimization based clustering with secured modified sea Lion optimization routing algorithm in wireless sensor networks. Peer-to-Peer Netw. Appl. 17 (2), 585–611 (2024).",
+          "journal-title": "Peer-to-Peer Netw. Appl."
+        }
+      ],
+      "container-title": [
+        "Scientific Reports"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.nature.com/articles/s41598-025-10238-0.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.nature.com/articles/s41598-025-10238-0",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.nature.com/articles/s41598-025-10238-0.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            29
+          ]
+        ],
+        "date-time": "2025-09-29T18:13:24Z",
+        "timestamp": 1759169604000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.nature.com/articles/s41598-025-10238-0"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            29
+          ]
+        ]
+      },
+      "references-count": 29,
+      "journal-issue": {
+        "issue": "1",
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10238"
+      ],
+      "URL": "https://doi.org/10.1038/s41598-025-10238-0",
+      "relation": {},
+      "ISSN": [
+        "2045-2322"
+      ],
+      "issn-type": [
+        {
+          "value": "2045-2322",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            29
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "12 February 2025",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "2 July 2025",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "29 September 2025",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Declarations"
+          }
+        },
+        {
+          "value": "The authors declare no competing interests.",
+          "order": 2,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        },
+        {
+          "value": "The paper is not currently being considered for publication elsewhere.",
+          "order": 3,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Ethical approval"
+          }
+        }
+      ],
+      "article-number": "33465"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "D. Teja Santhosh",
+      "given_name_from_source": "D. Teja",
+      "family_name_from_source": "Santhosh",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Koganti Krishna Jyothi",
+      "given_name_from_source": "Koganti Krishna",
+      "family_name_from_source": "Jyothi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Koganti Srilakshmi",
+      "given_name_from_source": "Koganti",
+      "family_name_from_source": "Srilakshmi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "A. Swarupa",
+      "given_name_from_source": "A.",
+      "family_name_from_source": "Swarupa",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "Shitharth Selvarajan",
+      "given_name_from_source": "Shitharth",
+      "family_name_from_source": "Selvarajan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

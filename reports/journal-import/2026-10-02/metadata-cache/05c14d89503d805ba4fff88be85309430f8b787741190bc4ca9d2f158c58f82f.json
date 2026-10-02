@@ -1,0 +1,778 @@
+{
+  "doi": "10.1080/00051144.2025.2480411",
+  "title": "An intelligent Cuk-Luo fused DC-DC converter for standalone hybrid renewable energy system’s peak load power management",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Automatika",
+  "publisher": "Informa UK Limited",
+  "publication_date": "2025-03-28",
+  "online_publication_date": "2025-03-28",
+  "print_publication_date": "2025-07-03",
+  "volume": "66",
+  "issue": "3",
+  "pages_or_article_number": "353-369",
+  "issn": "0005-1144",
+  "eissn": "1848-3380",
+  "isbn": null,
+  "url": "https://doi.org/10.1080/00051144.2025.2480411",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:44.676399+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            7
+          ]
+        ],
+        "date-time": "2026-06-07T17:19:12Z",
+        "timestamp": 1780852752314,
+        "version": "3.54.1"
+      },
+      "reference-count": 40,
+      "publisher": "Informa UK Limited",
+      "issue": "3",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                28
+              ]
+            ],
+            "date-time": "2025-03-28T00:00:00Z",
+            "timestamp": 1743120000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "www.tandfonline.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Automatika"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            3
+          ]
+        ]
+      },
+      "DOI": "10.1080/00051144.2025.2480411",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            29
+          ]
+        ],
+        "date-time": "2025-03-29T19:19:07Z",
+        "timestamp": 1743275947000
+      },
+      "page": "353-369",
+      "update-policy": "https://doi.org/10.1080/tandf_crossmark_01",
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "title": [
+        "An intelligent Cuk-Luo fused DC-DC converter for standalone hybrid renewable energy system’s peak load power management"
+      ],
+      "prefix": "10.1080",
+      "volume": "66",
+      "author": [
+        {
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Vardhaman College of Engineering",
+              "place": [
+                "India"
+              ]
+            },
+            {
+              "name": "Chennai Institute of Technology",
+              "place": [
+                "Chennai, India"
+              ]
+            },
+            {
+              "name": "Chitkara University",
+              "place": [
+                "Chandigarh, India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "S.",
+          "family": "Vijaya Madhavi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Malla Reddy Engineering College for Women",
+              "place": [
+                "India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Koganti",
+          "family": "Srilakshmi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Sreenidhi University",
+              "place": [
+                "India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sravanthy",
+          "family": "Gaddameedhi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Sreenidhi Institute of Science and Technology",
+              "place": [
+                "India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ramprasad",
+          "family": "Vangalapudi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Sreenidhi Institute of Science and Technology",
+              "place": [
+                "India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Abhinav",
+          "family": "Kumar",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The Islamic University",
+              "place": [
+                "Najaf, Iraq"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shitharth",
+          "family": "Selvarajan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Kabridahar University",
+              "place": [
+                "Somali, Ethiopia"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "301",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            28
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_3_2_2_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijhydene.2021.02.205"
+        },
+        {
+          "key": "e_1_3_2_3_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.compeleceng.2020.106941"
+        },
+        {
+          "key": "e_1_3_2_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egyr.2020.01.006"
+        },
+        {
+          "key": "e_1_3_2_5_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00500-020-04724-y"
+        },
+        {
+          "key": "e_1_3_2_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1155/2019/5672032"
+        },
+        {
+          "key": "e_1_3_2_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/SubVT.2012.6404315"
+        },
+        {
+          "key": "e_1_3_2_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1155/2016/3161060"
+        },
+        {
+          "key": "e_1_3_2_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijhydene.2017.06.006"
+        },
+        {
+          "key": "e_1_3_2_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egypro.2017.03.266"
+        },
+        {
+          "key": "e_1_3_2_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICCEP.2007.384234"
+        },
+        {
+          "issue": "8",
+          "key": "e_1_3_2_12_1",
+          "first-page": "33",
+          "article-title": "Analysis and simulation of hybrid solar- wind renewable energy systems",
+          "volume": "4",
+          "author": "Joga Rao G",
+          "year": "2016",
+          "unstructured": "Joga Rao G, Shrivastava SK, Ranjith VL. Analysis and simulation of hybrid solar- wind renewable energy systems. Int J Innov Res Electr, Electr, Instrum Contr Eng. 2016;4(8):33–38.",
+          "journal-title": "Int J Innov Res Electr, Electr, Instrum Contr Eng"
+        },
+        {
+          "key": "e_1_3_2_13_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egypro.2019.04.012"
+        },
+        {
+          "key": "e_1_3_2_14_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egypro.2017.09.617"
+        },
+        {
+          "key": "e_1_3_2_15_1",
+          "first-page": "232",
+          "article-title": "Modelling and simulation of standalone PV systems with battery super capacitor hybrid energy storage system for a rural household",
+          "volume": "107",
+          "author": "Wong YW",
+          "year": "2016",
+          "unstructured": "Wong YW, Rajkumar RK, Chang LW, et al. Modelling and simulation of standalone PV systems with battery super capacitor hybrid energy storage system for a rural household. Ener Proc. 2016;107:232–236.",
+          "journal-title": "Ener Proc"
+        },
+        {
+          "issue": "10",
+          "key": "e_1_3_2_16_1",
+          "first-page": "4437",
+          "article-title": "Design and implementation of luo converter for electric vehicle applications",
+          "volume": "4",
+          "author": "Manikandan A",
+          "year": "2013",
+          "unstructured": "Manikandan A, Vadivel N. Design and implementation of luo converter for electric vehicle applications. Int J Eng Tren Technol (IJETT). 2013;4(10):4437–4441.",
+          "journal-title": "Int J Eng Tren Technol (IJETT)"
+        },
+        {
+          "key": "e_1_3_2_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1049/ip-epa:20045176"
+        },
+        {
+          "key": "e_1_3_2_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1201/9781315393780"
+        },
+        {
+          "key": "e_1_3_2_19_1",
+          "volume-title": "Power electronics handbook",
+          "author": "Rashid MH.",
+          "year": "2017",
+          "unstructured": "Rashid MH.Power electronics handbook. 4th Edition. Oxford: Butterworth-Heinemann; 2017",
+          "edition": "4"
+        },
+        {
+          "issue": "3",
+          "key": "e_1_3_2_20_1",
+          "first-page": "129",
+          "article-title": "Design and comparative study of three photovoltaic battery charge control algorithms in MATLAB/SIMULINK environment",
+          "volume": "2",
+          "author": "Bhattacharjee A.",
+          "year": "2012",
+          "unstructured": "Bhattacharjee A. Design and comparative study of three photovoltaic battery charge control algorithms in MATLAB/SIMULINK environment. Int J Adv Comput Res. 2012;2(3):129–137.",
+          "journal-title": "Int J Adv Comput Res"
+        },
+        {
+          "key": "e_1_3_2_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egypro.2018.11.065"
+        },
+        {
+          "key": "e_1_3_2_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egypro.2018.11.069"
+        },
+        {
+          "key": "e_1_3_2_23_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/5.4421"
+        },
+        {
+          "issue": "8",
+          "key": "e_1_3_2_24_1",
+          "first-page": "566",
+          "article-title": "State space averaged modelling of basic converter topologies in VSRD",
+          "volume": "2",
+          "author": "Jha V",
+          "year": "2012",
+          "unstructured": "Jha V, Rai P. State space averaged modelling of basic converter topologies in VSRD. Int J Elect, Electron Commun Eng. 2012;2(8):566–575.",
+          "journal-title": "Int J Elect, Electron Commun Eng"
+        },
+        {
+          "key": "e_1_3_2_25_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.17485/ijst/2015/v8iS2/57787"
+        },
+        {
+          "key": "e_1_3_2_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0967-0661(01)00062-4"
+        },
+        {
+          "key": "e_1_3_2_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/PCC.2002.997608"
+        },
+        {
+          "key": "e_1_3_2_28_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jesit.2015.08.001"
+        },
+        {
+          "key": "e_1_3_2_29_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TCSII.2005.859572"
+        },
+        {
+          "issue": "6",
+          "key": "e_1_3_2_30_1",
+          "first-page": "1",
+          "article-title": "Simulation and analysis of solar PV system with hybrid operation of wind power plant with battery operated charge controller",
+          "volume": "4",
+          "author": "Joshi A",
+          "year": "2017",
+          "unstructured": "Joshi A, Vyas DS. Simulation and analysis of solar PV system with hybrid operation of wind power plant with battery operated charge controller. Int J Technol Res Eng. 2017;4(6):1–6.",
+          "journal-title": "Int J Technol Res Eng"
+        },
+        {
+          "key": "e_1_3_2_31_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5370/JEET.2014.9.5.1454"
+        },
+        {
+          "key": "e_1_3_2_32_1",
+          "unstructured": "Prabhala VAK. Thesis on “control and applications of double input dc-dc power electronic converters”; 2010."
+        },
+        {
+          "key": "e_1_3_2_33_1",
+          "unstructured": "Senapati MK Pradhan C Samantaray SR et al. Improved power management control strategy for renewable energy based DC micro-grid with energy storage integration’."
+        },
+        {
+          "key": "e_1_3_2_34_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/JSYST.2020.3020275"
+        },
+        {
+          "key": "e_1_3_2_35_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/oca.2798"
+        },
+        {
+          "key": "e_1_3_2_36_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.apenergy.2023.121261"
+        },
+        {
+          "key": "e_1_3_2_37_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2021.3095973"
+        },
+        {
+          "key": "e_1_3_2_38_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/est2.556"
+        },
+        {
+          "issue": "3",
+          "key": "e_1_3_2_39_1",
+          "first-page": "981",
+          "article-title": "Comparison of non-isolated high gain multi-input DC-DC converters",
+          "volume": "11",
+          "author": "Rajulapati A",
+          "year": "2021",
+          "unstructured": "Rajulapati A, Prabhakar M. Comparison of non-isolated high gain multi-input DC-DC converters. Int J Renew Ener Res. 2021;11(3):981–991.",
+          "journal-title": "Int J Renew Ener Res"
+        },
+        {
+          "issue": "1",
+          "key": "e_1_3_2_40_1",
+          "first-page": "88",
+          "article-title": "A novel hybrid high gain DC-DC converter for renewable energy applications",
+          "volume": "12",
+          "author": "Palleswari YTR.",
+          "year": "2022",
+          "unstructured": "Palleswari YTR. A novel hybrid high gain DC-DC converter for renewable energy applications. Int J Renew Ener Res (IJRER). 2022;12(1):88–96.",
+          "journal-title": "Int J Renew Ener Res (IJRER)"
+        },
+        {
+          "issue": "3",
+          "key": "e_1_3_2_41_1",
+          "first-page": "1160",
+          "article-title": "Modelling and real-time validation of a two – input high – gain DC – DC converter with a reduced number of switches",
+          "volume": "13",
+          "author": "Balamurugan S",
+          "year": "2023",
+          "unstructured": "Balamurugan S, Bairabathina S. Modelling and real-time validation of a two – input high – gain DC – DC converter with a reduced number of switches. Int J Renew Ener Res (IJRER). 2023;13(3):1160–1168.",
+          "journal-title": "Int J Renew Ener Res (IJRER)"
+        }
+      ],
+      "container-title": [
+        "Automatika"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.tandfonline.com/doi/pdf/10.1080/00051144.2025.2480411",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            8
+          ]
+        ],
+        "date-time": "2025-07-08T05:35:35Z",
+        "timestamp": 1751952935000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.tandfonline.com/doi/full/10.1080/00051144.2025.2480411"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            28
+          ]
+        ]
+      },
+      "references-count": 40,
+      "journal-issue": {
+        "issue": "3",
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              3
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1080/00051144.2025.2480411"
+      ],
+      "URL": "https://doi.org/10.1080/00051144.2025.2480411",
+      "relation": {},
+      "ISSN": [
+        "0005-1144",
+        "1848-3380"
+      ],
+      "issn-type": [
+        {
+          "value": "0005-1144",
+          "type": "print"
+        },
+        {
+          "value": "1848-3380",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            28
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "The publishing and review policy for this title is described in its Aims & Scope.",
+          "order": 1,
+          "name": "peerreview_statement",
+          "label": "Peer Review Statement"
+        },
+        {
+          "value": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=taut20",
+          "URL": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=taut20",
+          "order": 2,
+          "name": "aims_and_scope_url",
+          "label": "Aim & Scope"
+        },
+        {
+          "value": "2024-01-09",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2025-03-12",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2025-03-28",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Vardhaman College of Engineering",
+        "Chennai Institute of Technology",
+        "Chitkara University"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "S. Vijaya Madhavi",
+      "given_name_from_source": "S.",
+      "family_name_from_source": "Vijaya Madhavi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Malla Reddy Engineering College for Women"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Koganti Srilakshmi",
+      "given_name_from_source": "Koganti",
+      "family_name_from_source": "Srilakshmi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Sreenidhi University"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Sravanthy Gaddameedhi",
+      "given_name_from_source": "Sravanthy",
+      "family_name_from_source": "Gaddameedhi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Sreenidhi Institute of Science and Technology"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Ramprasad Vangalapudi",
+      "given_name_from_source": "Ramprasad",
+      "family_name_from_source": "Vangalapudi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Sreenidhi Institute of Science and Technology"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "Abhinav Kumar",
+      "given_name_from_source": "Abhinav",
+      "family_name_from_source": "Kumar",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "The Islamic University"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 7,
+      "author_name_from_source": "Shitharth Selvarajan",
+      "given_name_from_source": "Shitharth",
+      "family_name_from_source": "Selvarajan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Kabridahar University"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

@@ -1,0 +1,511 @@
+{
+  "doi": "10.1080/15567036.2024.2434199",
+  "title": "Modular multilevel converter-based hybrid energy storage system for electric vehicles: Design, simulation, and performance evaluation",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Energy Sources, Part A: Recovery, Utilization, and Environmental Effects",
+  "publisher": "Informa UK Limited",
+  "publication_date": "2024-11-25",
+  "online_publication_date": "2024-11-25",
+  "print_publication_date": "2024-12-31",
+  "volume": "46",
+  "issue": "1",
+  "pages_or_article_number": "16777-16793",
+  "issn": "1556-7036",
+  "eissn": "1556-7230",
+  "isbn": null,
+  "url": "https://doi.org/10.1080/15567036.2024.2434199",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:54.357895+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            23
+          ]
+        ],
+        "date-time": "2026-08-23T16:39:25Z",
+        "timestamp": 1787503165230,
+        "version": "build-2736575974"
+      },
+      "reference-count": 27,
+      "publisher": "Informa UK Limited",
+      "issue": "1",
+      "content-domain": {
+        "domain": [
+          "www.tandfonline.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Energy Sources, Part A: Recovery, Utilization, and Environmental Effects"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            31
+          ]
+        ]
+      },
+      "DOI": "10.1080/15567036.2024.2434199",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            25
+          ]
+        ],
+        "date-time": "2024-11-25T06:25:46Z",
+        "timestamp": 1732515946000
+      },
+      "page": "16777-16793",
+      "update-policy": "https://doi.org/10.1080/tandf_crossmark_01",
+      "source": "Crossref",
+      "is-referenced-by-count": 10,
+      "title": [
+        "Modular multilevel converter-based hybrid energy storage system for electric vehicles: Design, simulation, and performance evaluation"
+      ],
+      "prefix": "10.1080",
+      "volume": "46",
+      "author": [
+        {
+          "given": "Saravanan",
+          "family": "Muthampatty Sengottaiyan",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, Mahendra College of Engineering, Salem, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Surendiran",
+          "family": "Subramanian",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, AVS College of Technology, Salem, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ravivarman",
+          "family": "Shanmugasundaram",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, Vardhaman College of Engineering, Telangana, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kamali",
+          "family": "Samudram Manickam",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, Annapoorana Engineering college, Salem, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "301",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            25
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_3_3_2_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.heliyon.2023.e18808"
+        },
+        {
+          "key": "e_1_3_3_3_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/03772063.2020.1729257"
+        },
+        {
+          "key": "e_1_3_3_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egyr.2023.05.068"
+        },
+        {
+          "key": "e_1_3_3_5_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egyr.2022.10.407"
+        },
+        {
+          "key": "e_1_3_3_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/00051144.2019.1684038"
+        },
+        {
+          "key": "e_1_3_3_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jechem.2024.05.027"
+        },
+        {
+          "key": "e_1_3_3_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijhydene.2024.03.235"
+        },
+        {
+          "key": "e_1_3_3_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/B978-0-12-821204-2.00053-2"
+        },
+        {
+          "key": "e_1_3_3_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/15567036.2023.2263397"
+        },
+        {
+          "key": "e_1_3_3_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/B978-0-323-90217-5.00006-X"
+        },
+        {
+          "key": "e_1_3_3_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/01969722.2023.2176588"
+        },
+        {
+          "key": "e_1_3_3_13_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/03772063.2021.1997354"
+        },
+        {
+          "key": "e_1_3_3_14_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/03772063.2021.1941328"
+        },
+        {
+          "key": "e_1_3_3_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.procs.2024.05.036"
+        },
+        {
+          "key": "e_1_3_3_16_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egyr.2024.02.024"
+        },
+        {
+          "key": "e_1_3_3_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.energy.2019.06.077"
+        },
+        {
+          "key": "e_1_3_3_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/B978-0-323-85622-5.00008-0"
+        },
+        {
+          "key": "e_1_3_3_19_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.segan.2023.101112"
+        },
+        {
+          "key": "e_1_3_3_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/15567036.2024.2338870"
+        },
+        {
+          "key": "e_1_3_3_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.est.2023.108860"
+        },
+        {
+          "key": "e_1_3_3_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.aej.2023.10.009"
+        },
+        {
+          "key": "e_1_3_3_23_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.apenergy.2017.06.097"
+        },
+        {
+          "key": "e_1_3_3_24_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/15325008.2022.2055675"
+        },
+        {
+          "key": "e_1_3_3_25_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijhydene.2021.07.130"
+        },
+        {
+          "key": "e_1_3_3_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/15435075.2023.2200545"
+        },
+        {
+          "key": "e_1_3_3_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/1448837X.2024.2309426"
+        },
+        {
+          "key": "e_1_3_3_28_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.epsr.2023.109893"
+        }
+      ],
+      "container-title": [
+        "Energy Sources, Part A: Recovery, Utilization, and Environmental Effects"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.tandfonline.com/doi/pdf/10.1080/15567036.2024.2434199",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            25
+          ]
+        ],
+        "date-time": "2024-11-25T06:25:48Z",
+        "timestamp": 1732515948000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.tandfonline.com/doi/full/10.1080/15567036.2024.2434199"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            25
+          ]
+        ]
+      },
+      "references-count": 27,
+      "journal-issue": {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              31
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1080/15567036.2024.2434199"
+      ],
+      "URL": "https://doi.org/10.1080/15567036.2024.2434199",
+      "relation": {},
+      "ISSN": [
+        "1556-7036",
+        "1556-7230"
+      ],
+      "issn-type": [
+        {
+          "value": "1556-7036",
+          "type": "print"
+        },
+        {
+          "value": "1556-7230",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            25
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "The publishing and review policy for this title is described in its Aims & Scope.",
+          "order": 1,
+          "name": "peerreview_statement",
+          "label": "Peer Review Statement"
+        },
+        {
+          "value": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=ueso20",
+          "URL": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=ueso20",
+          "order": 2,
+          "name": "aims_and_scope_url",
+          "label": "Aim & Scope"
+        },
+        {
+          "value": "2024-06-29",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2024-11-18",
+          "order": 1,
+          "name": "revised",
+          "label": "Revised",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2024-11-20",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2024-11-25",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Saravanan Muthampatty Sengottaiyan",
+      "given_name_from_source": "Saravanan",
+      "family_name_from_source": "Muthampatty Sengottaiyan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering, Mahendra College of Engineering, Salem, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Surendiran Subramanian",
+      "given_name_from_source": "Surendiran",
+      "family_name_from_source": "Subramanian",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering, AVS College of Technology, Salem, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Ravivarman Shanmugasundaram",
+      "given_name_from_source": "Ravivarman",
+      "family_name_from_source": "Shanmugasundaram",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering, Vardhaman College of Engineering, Telangana, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Kamali Samudram Manickam",
+      "given_name_from_source": "Kamali",
+      "family_name_from_source": "Samudram Manickam",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering, Annapoorana Engineering college, Salem, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

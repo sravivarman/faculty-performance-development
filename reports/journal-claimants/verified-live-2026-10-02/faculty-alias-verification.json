@@ -1,0 +1,423 @@
+{
+  "generated_at": "2026-10-02T05:41:06.957623+00:00",
+  "database_paths": {
+    "application": "C:\\Users\\silic\\Documents\\GitHub\\faculty-performance-development\\data\\faculty.db",
+    "faculty_seed": "C:\\Users\\silic\\Documents\\GitHub\\faculty-performance-development\\data\\faculty.db",
+    "faculty_alias_update": "C:\\Users\\silic\\Documents\\GitHub\\faculty-performance-development\\data\\faculty.db",
+    "journal_reconciliation": "C:\\Users\\silic\\Documents\\GitHub\\faculty-performance-development\\data\\faculty.db"
+  },
+  "faculty": [
+    {
+      "employee_id": "VCE1009",
+      "canonical_name": "Mr. A. Ananda Kumar",
+      "active": true,
+      "variant_count": 5,
+      "variants": [
+        {
+          "value": "A. Ananda Kumar",
+          "normalized_value": "a ananda kumar",
+          "strength": "STRONG"
+        },
+        {
+          "value": "Ananda Kumar A",
+          "normalized_value": "ananda kumar a",
+          "strength": "STRONG"
+        },
+        {
+          "value": "A. Anandakumar",
+          "normalized_value": "a anandakumar",
+          "strength": "STRONG"
+        },
+        {
+          "value": "Anandakumar A",
+          "normalized_value": "anandakumar a",
+          "strength": "STRONG"
+        },
+        {
+          "value": "Annavarapu Ananda Kumar",
+          "normalized_value": "annavarapu ananda kumar",
+          "strength": "STRONG"
+        }
+      ]
+    },
+    {
+      "employee_id": "VCE640",
+      "canonical_name": "Dr. H.S. Jain",
+      "active": true,
+      "variant_count": 3,
+      "variants": [
+        {
+          "value": "H.S. Jain",
+          "normalized_value": "hs jain",
+          "strength": "STRONG"
+        },
+        {
+          "value": "Jain H.S.",
+          "normalized_value": "jain hs",
+          "strength": "STRONG"
+        },
+        {
+          "value": "Hari Shankar Jain",
+          "normalized_value": "hari shankar jain",
+          "strength": "STRONG"
+        }
+      ]
+    },
+    {
+      "employee_id": "VCE1172",
+      "canonical_name": "Dr. N. Karuppiah",
+      "active": true,
+      "variant_count": 4,
+      "variants": [
+        {
+          "value": "N. Karuppiah",
+          "normalized_value": "n karuppiah",
+          "strength": "STRONG"
+        },
+        {
+          "value": "Karuppiah N",
+          "normalized_value": "karuppiah n",
+          "strength": "STRONG"
+        },
+        {
+          "value": "Karuppiah Natarajan",
+          "normalized_value": "karuppiah natarajan",
+          "strength": "STRONG"
+        },
+        {
+          "value": "Natarajan Karuppiah",
+          "normalized_value": "natarajan karuppiah",
+          "strength": "STRONG"
+        }
+      ]
+    },
+    {
+      "employee_id": "VCE087",
+      "canonical_name": "Dr. N. Srinivas",
+      "active": true,
+      "variant_count": 4,
+      "variants": [
+        {
+          "value": "N. Srinivas",
+          "normalized_value": "n srinivas",
+          "strength": "STRONG"
+        },
+        {
+          "value": "Srinivas N",
+          "normalized_value": "srinivas n",
+          "strength": "STRONG"
+        },
+        {
+          "value": "NAKKA SRINIVAS",
+          "normalized_value": "nakka srinivas",
+          "strength": "STRONG"
+        },
+        {
+          "value": "Srinivas Nakka",
+          "normalized_value": "srinivas nakka",
+          "strength": "STRONG"
+        }
+      ]
+    },
+    {
+      "employee_id": "VCE1011",
+      "canonical_name": "Dr. T. Anuradha Devi",
+      "active": true,
+      "variant_count": 4,
+      "variants": [
+        {
+          "value": "T. Anuradha Devi",
+          "normalized_value": "t anuradha devi",
+          "strength": "STRONG"
+        },
+        {
+          "value": "Anuradha Devi T",
+          "normalized_value": "anuradha devi t",
+          "strength": "STRONG"
+        },
+        {
+          "value": "T. Anuradha",
+          "normalized_value": "t anuradha",
+          "strength": "STRONG"
+        },
+        {
+          "value": "Tellapati Anuradha Devi",
+          "normalized_value": "tellapati anuradha devi",
+          "strength": "STRONG"
+        }
+      ]
+    },
+    {
+      "employee_id": "VCE1496",
+      "canonical_name": "Dr. Muruga Perumal",
+      "active": true,
+      "variant_count": 7,
+      "variants": [
+        {
+          "value": "Muruga Perumal",
+          "normalized_value": "muruga perumal",
+          "strength": "STRONG"
+        },
+        {
+          "value": "M. Perumal",
+          "normalized_value": "m perumal",
+          "strength": "WEAK"
+        },
+        {
+          "value": "Perumal Muruga",
+          "normalized_value": "perumal muruga",
+          "strength": "STRONG"
+        },
+        {
+          "value": "Murugaperumal Krishnamoorthy",
+          "normalized_value": "murugaperumal krishnamoorthy",
+          "strength": "STRONG"
+        },
+        {
+          "value": "Muruagapermual Krishnamoorthy",
+          "normalized_value": "muruagapermual krishnamoorthy",
+          "strength": "STRONG"
+        },
+        {
+          "value": "Murugaperumal Krisnamoorthy",
+          "normalized_value": "murugaperumal krisnamoorthy",
+          "strength": "STRONG"
+        },
+        {
+          "value": "Murugaperunal Krishnamoorthy",
+          "normalized_value": "murugaperunal krishnamoorthy",
+          "strength": "STRONG"
+        }
+      ]
+    },
+    {
+      "employee_id": "VCE1476",
+      "canonical_name": "B Praveen Kumar",
+      "active": true,
+      "variant_count": 5,
+      "variants": [
+        {
+          "value": "Praveen Kumar Balachandran",
+          "normalized_value": "praveen kumar balachandran",
+          "strength": "STRONG"
+        },
+        {
+          "value": "Praven Kumar Balachandran",
+          "normalized_value": "praven kumar balachandran",
+          "strength": "STRONG"
+        },
+        {
+          "value": "Balachandran Praveen Kumar",
+          "normalized_value": "balachandran praveen kumar",
+          "strength": "STRONG"
+        },
+        {
+          "value": "Balachandran, P. K",
+          "normalized_value": "balachandran pk",
+          "strength": "STRONG"
+        },
+        {
+          "value": "Praveen Kumar B",
+          "normalized_value": "praveen kumar b",
+          "strength": "STRONG"
+        }
+      ]
+    }
+  ],
+  "matching_checks": [
+    {
+      "source_string": "Annavarapu Ananda Kumar",
+      "normalized_value": "annavarapu ananda kumar",
+      "matched_employee_id": "VCE1009",
+      "matched_faculty": "Mr. A. Ananda Kumar",
+      "match_source": "STRONG_VARIANT",
+      "exists_normalized": true,
+      "stored_spelling": "Annavarapu Ananda Kumar"
+    },
+    {
+      "source_string": "Hari Shankar Jain",
+      "normalized_value": "hari shankar jain",
+      "matched_employee_id": "VCE640",
+      "matched_faculty": "Dr. H.S. Jain",
+      "match_source": "STRONG_VARIANT",
+      "exists_normalized": true,
+      "stored_spelling": "Hari Shankar Jain"
+    },
+    {
+      "source_string": "Karuppiah Natarajan",
+      "normalized_value": "karuppiah natarajan",
+      "matched_employee_id": "VCE1172",
+      "matched_faculty": "Dr. N. Karuppiah",
+      "match_source": "STRONG_VARIANT",
+      "exists_normalized": true,
+      "stored_spelling": "Karuppiah Natarajan"
+    },
+    {
+      "source_string": "Natarajan Karuppiah",
+      "normalized_value": "natarajan karuppiah",
+      "matched_employee_id": "VCE1172",
+      "matched_faculty": "Dr. N. Karuppiah",
+      "match_source": "STRONG_VARIANT",
+      "exists_normalized": true,
+      "stored_spelling": "Natarajan Karuppiah"
+    },
+    {
+      "source_string": "NAKKA SRINIVAS",
+      "normalized_value": "nakka srinivas",
+      "matched_employee_id": "VCE087",
+      "matched_faculty": "Dr. N. Srinivas",
+      "match_source": "STRONG_VARIANT",
+      "exists_normalized": true,
+      "stored_spelling": "NAKKA SRINIVAS"
+    },
+    {
+      "source_string": "Nakka Srinivas",
+      "normalized_value": "nakka srinivas",
+      "matched_employee_id": "VCE087",
+      "matched_faculty": "Dr. N. Srinivas",
+      "match_source": "STRONG_VARIANT",
+      "exists_normalized": true,
+      "stored_spelling": "NAKKA SRINIVAS"
+    },
+    {
+      "source_string": "Srinivas Nakka",
+      "normalized_value": "srinivas nakka",
+      "matched_employee_id": "VCE087",
+      "matched_faculty": "Dr. N. Srinivas",
+      "match_source": "STRONG_VARIANT",
+      "exists_normalized": true,
+      "stored_spelling": "Srinivas Nakka"
+    },
+    {
+      "source_string": "Tellapati Anuradha Devi",
+      "normalized_value": "tellapati anuradha devi",
+      "matched_employee_id": "VCE1011",
+      "matched_faculty": "Dr. T. Anuradha Devi",
+      "match_source": "STRONG_VARIANT",
+      "exists_normalized": true,
+      "stored_spelling": "Tellapati Anuradha Devi"
+    },
+    {
+      "source_string": "Murugaperumal Krishnamoorthy",
+      "normalized_value": "murugaperumal krishnamoorthy",
+      "matched_employee_id": "VCE1496",
+      "matched_faculty": "Dr. Muruga Perumal",
+      "match_source": "STRONG_VARIANT",
+      "exists_normalized": true,
+      "stored_spelling": "Murugaperumal Krishnamoorthy"
+    },
+    {
+      "source_string": "Muruagapermual Krishnamoorthy",
+      "normalized_value": "muruagapermual krishnamoorthy",
+      "matched_employee_id": "VCE1496",
+      "matched_faculty": "Dr. Muruga Perumal",
+      "match_source": "STRONG_VARIANT",
+      "exists_normalized": true,
+      "stored_spelling": "Muruagapermual Krishnamoorthy"
+    },
+    {
+      "source_string": "Murugaperumal Krisnamoorthy",
+      "normalized_value": "murugaperumal krisnamoorthy",
+      "matched_employee_id": "VCE1496",
+      "matched_faculty": "Dr. Muruga Perumal",
+      "match_source": "STRONG_VARIANT",
+      "exists_normalized": true,
+      "stored_spelling": "Murugaperumal Krisnamoorthy"
+    },
+    {
+      "source_string": "Murugaperunal Krishnamoorthy",
+      "normalized_value": "murugaperunal krishnamoorthy",
+      "matched_employee_id": "VCE1496",
+      "matched_faculty": "Dr. Muruga Perumal",
+      "match_source": "STRONG_VARIANT",
+      "exists_normalized": true,
+      "stored_spelling": "Murugaperunal Krishnamoorthy"
+    },
+    {
+      "source_string": "Praveen Kumar Balachandran",
+      "normalized_value": "praveen kumar balachandran",
+      "matched_employee_id": "VCE1476",
+      "matched_faculty": "B Praveen Kumar",
+      "match_source": "STRONG_VARIANT",
+      "exists_normalized": true,
+      "stored_spelling": "Praveen Kumar Balachandran"
+    },
+    {
+      "source_string": "Praven Kumar Balachandran",
+      "normalized_value": "praven kumar balachandran",
+      "matched_employee_id": "VCE1476",
+      "matched_faculty": "B Praveen Kumar",
+      "match_source": "STRONG_VARIANT",
+      "exists_normalized": true,
+      "stored_spelling": "Praven Kumar Balachandran"
+    },
+    {
+      "source_string": "Balachandran Praveen Kumar",
+      "normalized_value": "balachandran praveen kumar",
+      "matched_employee_id": "VCE1476",
+      "matched_faculty": "B Praveen Kumar",
+      "match_source": "STRONG_VARIANT",
+      "exists_normalized": true,
+      "stored_spelling": "Balachandran Praveen Kumar"
+    },
+    {
+      "source_string": "Balachandran, P. K",
+      "normalized_value": "balachandran pk",
+      "matched_employee_id": "VCE1476",
+      "matched_faculty": "B Praveen Kumar",
+      "match_source": "STRONG_VARIANT",
+      "exists_normalized": true,
+      "stored_spelling": "Balachandran, P. K"
+    },
+    {
+      "source_string": "Balachandran, P. K.",
+      "normalized_value": "balachandran pk",
+      "matched_employee_id": "VCE1476",
+      "matched_faculty": "B Praveen Kumar",
+      "match_source": "STRONG_VARIANT",
+      "exists_normalized": true,
+      "stored_spelling": "Balachandran, P. K"
+    },
+    {
+      "source_string": "Praveen Kumar B",
+      "normalized_value": "praveen kumar b",
+      "matched_employee_id": "VCE1476",
+      "matched_faculty": "B Praveen Kumar",
+      "match_source": "STRONG_VARIANT",
+      "exists_normalized": true,
+      "stored_spelling": "Praveen Kumar B"
+    }
+  ],
+  "normalization_collisions": {},
+  "summary": {
+    "faculty_master_count": 19,
+    "faculty_name_variant_count": 64,
+    "total_journal_rows": 138,
+    "unique_excel_claimant_values": 32,
+    "canonical_matches": 9,
+    "strong_variant_matches": 22,
+    "weak_variant_matches": 0,
+    "unmatched_values": 1,
+    "ambiguous_values": 0,
+    "rows_requiring_review": 1,
+    "blank_claimant_rows": 0,
+    "missing_title_rows": 0,
+    "grouped_row_total": 138
+  },
+  "remaining_unresolved": [
+    {
+      "excel_author_value": "Archana Chittari",
+      "normalized_value": "archana chittari",
+      "matched_faculty": null,
+      "employee_id": null,
+      "match_source": "UNMATCHED",
+      "requires_review": true,
+      "candidates": [],
+      "excel_rows": 1,
+      "source_rows": [
+        86
+      ]
+    }
+  ],
+  "activities_unchanged": true
+}

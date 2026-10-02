@@ -1,0 +1,803 @@
+{
+  "doi": "10.1007/s11269-026-04725-w",
+  "title": "A Physics-guided Unsupervised Learning Framework for High-impact Heavy Rainfall Prediction in Data-sparse Environments",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Water Resources Management",
+  "publisher": "Springer Science and Business Media LLC",
+  "publication_date": "2026-05-22",
+  "online_publication_date": "2026-05-22",
+  "print_publication_date": null,
+  "volume": "40",
+  "issue": "8",
+  "pages_or_article_number": "349",
+  "issn": "0920-4741",
+  "eissn": "1573-1650",
+  "isbn": null,
+  "url": "https://doi.org/10.1007/s11269-026-04725-w",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:52:38.660101+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            1
+          ]
+        ],
+        "date-time": "2026-09-01T03:13:43Z",
+        "timestamp": 1788232423415,
+        "version": "build-2803163510"
+      },
+      "reference-count": 35,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "8",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                22
+              ]
+            ],
+            "date-time": "2026-05-22T00:00:00Z",
+            "timestamp": 1779408000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                22
+              ]
+            ],
+            "date-time": "2026-05-22T00:00:00Z",
+            "timestamp": 1779408000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Water Resour Manage"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            6
+          ]
+        ]
+      },
+      "DOI": "10.1007/s11269-026-04725-w",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            22
+          ]
+        ],
+        "date-time": "2026-05-22T15:52:44Z",
+        "timestamp": 1779465164000
+      },
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "A Physics-guided Unsupervised Learning Framework for High-impact Heavy Rainfall Prediction in Data-sparse Environments"
+      ],
+      "prefix": "10.1007",
+      "volume": "40",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-7755-5715",
+          "authenticated-orcid": false,
+          "given": "K.",
+          "family": "Karthick",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "S K",
+          "family": "Aruna",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "S.",
+          "family": "Krishnan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "S.",
+          "family": "Ravivarman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "R.",
+          "family": "Manikandan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            22
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "4725_CR1",
+          "doi-asserted-by": "publisher",
+          "first-page": "106133",
+          "DOI": "10.1016/j.envsoft.2024.106133",
+          "volume": "179",
+          "author": "AH Alzraiee",
+          "year": "2024",
+          "unstructured": "Alzraiee AH, Niswonger RG (2024) A probabilistic approach to training machine learning models using noisy data. Environ Model Softw 179:106133. https://doi.org/10.1016/j.envsoft.2024.106133",
+          "journal-title": "Environ Model Softw"
+        },
+        {
+          "key": "4725_CR2",
+          "doi-asserted-by": "publisher",
+          "first-page": "330",
+          "DOI": "10.1016/j.uclim.2017.05.004",
+          "volume": "23",
+          "author": "A Baklanov",
+          "year": "2018",
+          "unstructured": "Baklanov A, Grimmond CSB, Carlson D, Terblanche D, Tang X, Bouchet V, Lee B, Langendijk G, Kolli RK, Hovsepyan A (2018) From urban meteorology, climate and environment research to integrated city services. Urban Clim 23:330–341. https://doi.org/10.1016/j.uclim.2017.05.004",
+          "journal-title": "Urban Clim"
+        },
+        {
+          "key": "4725_CR3",
+          "doi-asserted-by": "publisher",
+          "first-page": "e3022",
+          "DOI": "10.7717/peerj-cs.3022",
+          "volume": "11",
+          "author": "KU Birant",
+          "year": "2025",
+          "unstructured": "Birant KU, Ghasemkhani B, Varlıklar Ö, Birant D (2025) A new machine learning method for rainfall classification: temporal random tree. PeerJ Comput Sci 11:e3022. https://doi.org/10.7717/peerj-cs.3022",
+          "journal-title": "PeerJ Comput Sci"
+        },
+        {
+          "key": "4725_CR4",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Breunig MM, Kriegel HP, Ng RT, Sander J (2000) LOF: identifying density-based local outliers. In: Proceedings of the 2000 ACM SIGMOD international conference on Management of data (SIGMOD ‘00), Association for Computing Machinery 93–104. https://doi.org/10.1145/342009.335388",
+          "DOI": "10.1145/342009.335388"
+        },
+        {
+          "key": "4725_CR6",
+          "doi-asserted-by": "publisher",
+          "first-page": "1",
+          "DOI": "10.1145/1541880.1541882",
+          "volume": "41",
+          "author": "V Chandola",
+          "year": "2009",
+          "unstructured": "Chandola V, Banerjee A, Kumar V (2009) Anomaly detection: A survey. ACM Comput Surv 41:15:1–15",
+          "journal-title": "ACM Comput Surv"
+        },
+        {
+          "key": "4725_CR7",
+          "doi-asserted-by": "publisher",
+          "first-page": "4815",
+          "DOI": "10.1007/s11269-025-04177-8",
+          "volume": "39",
+          "author": "Y Chen",
+          "year": "2025",
+          "unstructured": "Chen Y, Li B, Zhao M et al (2025) Three-step Merging of Daily Multi-satellite Rainfall Estimates Based on Probability Density Function Matching and Dynamic Bayesian Model Averaging. Water Resour Manage 39:4815–4831. https://doi.org/10.1007/s11269-025-04177-8",
+          "journal-title": "Water Resour Manage"
+        },
+        {
+          "key": "4725_CR8",
+          "doi-asserted-by": "publisher",
+          "first-page": "104582",
+          "DOI": "10.1016/j.gloplacha.2024.104582",
+          "volume": "242",
+          "author": "Y Chen",
+          "year": "2024",
+          "unstructured": "Chen Y, Zhang S, Gong G, Chen P, Gan TY, Chen D, Liu J (2024) Impacts of moisture transport on extreme precipitation in the Central Plains Urban Agglomeration, China. Glob Planet Change 242:104582. https://doi.org/10.1016/j.gloplacha.2024.104582",
+          "journal-title": "Glob Planet Change"
+        },
+        {
+          "key": "4725_CR9",
+          "first-page": "25",
+          "volume": "85–86",
+          "author": "F Chiaravalloti",
+          "year": "2024",
+          "unstructured": "Chiaravalloti F, Coscarelli R, Caloiero T (2024) Characterization of 1-hr maximum rainfall values in Calabria, southern Italy, by means of the ERA-5 reanalysis. Eur Water 85–86:25–35",
+          "journal-title": "Eur Water"
+        },
+        {
+          "key": "4725_CR10",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Corfidi S (2016) Forecasting Severe Convective Storms. In: Hans von Storch (ed.), Oxford Research Encyclopedia of Climate Science. https://doi.org/10.1093/acrefore/9780190228620.013.59",
+          "DOI": "10.1093/acrefore/9780190228620.013.59"
+        },
+        {
+          "key": "4725_CR12",
+          "doi-asserted-by": "publisher",
+          "first-page": "1417664",
+          "DOI": "10.3389/fenvs.2024.1417664",
+          "volume": "12",
+          "author": "ESM Elkenawy",
+          "year": "2024",
+          "unstructured": "Elkenawy ESM, Alhussan AA, Eid MM, Ibrahim A (2024) Rainfall classification and forecasting based on a novel voting adaptive dynamic optimization algorithm. Front Environ Sci 12:1417664. https://doi.org/10.3389/fenvs.2024.1417664",
+          "journal-title": "Front Environ Sci"
+        },
+        {
+          "key": "4725_CR13",
+          "unstructured": "Ester M, Kriegel HP, Sander J, Xu X (1996) A density-based algorithm for discovering clusters in large spatial databases with noise. In: Proceedings of the second international conference on knowledge discovery and data mining (KDD’96). AAAI Press 226–231"
+        },
+        {
+          "issue": "7",
+          "key": "4725_CR14",
+          "doi-asserted-by": "publisher",
+          "first-page": "667",
+          "DOI": "10.3390/brainsci15070667",
+          "volume": "15",
+          "author": "CA Frantzidis",
+          "year": "2025",
+          "unstructured": "Frantzidis CA (2025) From Narratives to Diagnosis: A Machine Learning Framework for Classifying Sleep Disorders in Aging Populations: The sleepCare Platform. Brain Sci 15(7):667. https://doi.org/10.3390/brainsci15070667",
+          "journal-title": "Brain Sci"
+        },
+        {
+          "issue": "B",
+          "key": "4725_CR15",
+          "doi-asserted-by": "publisher",
+          "first-page": "128910",
+          "DOI": "10.1016/j.jhydrol.2022.128910",
+          "volume": "617",
+          "author": "T Hoshino",
+          "year": "2023",
+          "unstructured": "Hoshino T, Yamada TJ (2023) Spatiotemporal classification of heavy rainfall patterns to characterize hydrographs in a high-resolution ensemble climate dataset. J Hydrol 617(B):128910. https://doi.org/10.1016/j.jhydrol.2022.128910",
+          "journal-title": "J Hydrol"
+        },
+        {
+          "key": "4725_CR16",
+          "doi-asserted-by": "publisher",
+          "first-page": "8735",
+          "DOI": "10.3390/su16208735",
+          "volume": "16",
+          "author": "G Irankunda",
+          "year": "2024",
+          "unstructured": "Irankunda G, Zhang W, Fernand M, Zhang J (2024) Assessing the Resilience of Critical Infrastructure Facilities toward a Holistic and Theoretical Approach: A Multi-Scenario Evidence and Case Study. Sustainability 16:8735. https://doi.org/10.3390/su16208735",
+          "journal-title": "Sustainability"
+        },
+        {
+          "issue": "3",
+          "key": "4725_CR17",
+          "doi-asserted-by": "publisher",
+          "first-page": "341",
+          "DOI": "10.2307/1267757",
+          "volume": "21",
+          "author": "JE Jackson",
+          "year": "1979",
+          "unstructured": "Jackson JE, Mudholkar GS (1979) Control Procedures for Residuals Associated with Principal Component Analysis. Technometrics 21(3):341–349. https://doi.org/10.2307/1267757",
+          "journal-title": "Technometrics"
+        },
+        {
+          "key": "4725_CR18",
+          "doi-asserted-by": "publisher",
+          "first-page": "412",
+          "DOI": "10.3390/universe11120412",
+          "volume": "11",
+          "author": "CT Kuo",
+          "year": "2025",
+          "unstructured": "Kuo CT, Xu D, Friesen R (2025) A Brief Review of Unsupervised Machine Learning Algorithms in Astronomy: Dimensionality Reduction and Clustering. Universe 11:412. https://doi.org/10.3390/universe11120412",
+          "journal-title": "Universe"
+        },
+        {
+          "key": "4725_CR19",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Liu FT, Ting KM, Zhou ZH (2008) Isolation forest. 2008 Eighth IEEE International Conference on Data Mining 413–422. https://doi.org/10.1109/ICDM.2008.17",
+          "DOI": "10.1109/ICDM.2008.17"
+        },
+        {
+          "key": "4725_CR20",
+          "doi-asserted-by": "publisher",
+          "first-page": "2115",
+          "DOI": "10.3390/su17052115",
+          "volume": "17",
+          "author": "N Lohan",
+          "year": "2025",
+          "unstructured": "Lohan N, Kumar S, Singh V, Gupta RP, Tiwari G (2025) Analyzing an Extreme Rainfall Event in Himachal Pradesh, India, to Contribute to Sustainable Development. Sustainability 17:2115. https://doi.org/10.3390/su17052115",
+          "journal-title": "Sustainability"
+        },
+        {
+          "key": "4725_CR21",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Lutombo H, Maposa D, Nkoane SS (2026) Modelling Extreme Rainfall in KwaZulu-Natal Province of South Africa Using Extreme Value Theory. Math Comput Appl 31(6). https://doi.org/10.3390/mca31010006",
+          "DOI": "10.3390/mca31010006"
+        },
+        {
+          "key": "4725_CR22",
+          "doi-asserted-by": "publisher",
+          "first-page": "1021",
+          "DOI": "10.3390/w15061021",
+          "volume": "15",
+          "author": "L Mdegela",
+          "year": "2023",
+          "unstructured": "Mdegela L, Municio E, De Bock Y, Luhanga E, Leo J, Mannens E (2023) Extreme Rainfall Event Classification Using Machine Learning for Kikuletwa River Floods. Water 15:1021. https://doi.org/10.3390/w15061021",
+          "journal-title": "Water"
+        },
+        {
+          "key": "4725_CR23",
+          "doi-asserted-by": "publisher",
+          "first-page": "454",
+          "DOI": "10.3390/rs17030454",
+          "volume": "17",
+          "author": "T Miftahushudur",
+          "year": "2025",
+          "unstructured": "Miftahushudur T, Sahin HM, Grieve B, Yin H (2025) A Survey of Methods for Addressing Imbalance Data Problems in Agriculture Applications. Remote Sens 17:454. https://doi.org/10.3390/rs17030454",
+          "journal-title": "Remote Sens"
+        },
+        {
+          "key": "4725_CR24",
+          "doi-asserted-by": "publisher",
+          "first-page": "106627",
+          "DOI": "10.1016/j.oregeorev.2025.106627",
+          "volume": "181",
+          "author": "SAA Mirzabozorg",
+          "year": "2025",
+          "unstructured": "Mirzabozorg SAA, Saremi M, DehghanNiri R, Abedi M, Yousefi M, Pour AB, Hezarkhani A, Maghsoudi A (2025) Hyperparameter optimization in unsupervised anomaly detection for mineral prospectivity mapping. Ore Geol Rev 181:106627. https://doi.org/10.1016/j.oregeorev.2025.106627",
+          "journal-title": "Ore Geol Rev"
+        },
+        {
+          "key": "4725_CR26",
+          "doi-asserted-by": "publisher",
+          "first-page": "31758",
+          "DOI": "10.1038/s41598-025-12810-0",
+          "volume": "15",
+          "author": "K Otieno",
+          "year": "2025",
+          "unstructured": "Otieno K, Chaba L, Odhiambo C et al (2025) A systematic approach to modeling monthly maximum temperature and total rainfall in Kenya. Sci Rep 15:31758. https://doi.org/10.1038/s41598-025-12810-0",
+          "journal-title": "Sci Rep"
+        },
+        {
+          "issue": "1",
+          "key": "4725_CR27",
+          "doi-asserted-by": "publisher",
+          "first-page": "162",
+          "DOI": "10.2166/hydro.2023.261",
+          "volume": "26",
+          "author": "R Phillips",
+          "year": "2024",
+          "unstructured": "Phillips R, Johnson KA, Barnes AP, Kjeldsen TR (2024) Identifying the pathways of extreme rainfall in South Africa using storm trajectory analysis and unsupervised machine learning techniques. J Hydroinformatics 26(1):162–174. https://doi.org/10.2166/hydro.2023.261",
+          "journal-title": "J Hydroinformatics"
+        },
+        {
+          "key": "4725_CR28",
+          "first-page": "19",
+          "volume": "28",
+          "author": "BP Poojaashree",
+          "year": "2021",
+          "unstructured": "Poojaashree BP, Bhat HG, Peladdy B (2021) Prediction of freshwater zones using Landsat-8 OLI images and ArcGIS: A case study for Kundapura taluk, Udupi district, Karnataka, India. Water Util J 28:19–39",
+          "journal-title": "Water Util J"
+        },
+        {
+          "key": "4725_CR29",
+          "doi-asserted-by": "publisher",
+          "first-page": "368",
+          "DOI": "10.3390/rs13030368",
+          "volume": "13",
+          "author": "CA Ramezan",
+          "year": "2021",
+          "unstructured": "Ramezan CA, Warner TA, Maxwell AE, Price BS (2021) Effects of training set size on supervised machine-learning land-cover classification of large-area high-resolution remotely sensed data. Remote Sens 13:368. https://doi.org/10.3390/rs13030368",
+          "journal-title": "Remote Sens"
+        },
+        {
+          "key": "4725_CR30",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rousseeuw PJ, Leroy AM (1987) Robust regression and outlier detection. Wiley",
+          "DOI": "10.1002/0471725382"
+        },
+        {
+          "issue": "7",
+          "key": "4725_CR31",
+          "doi-asserted-by": "publisher",
+          "first-page": "1443",
+          "DOI": "10.1162/089976601750264965",
+          "volume": "13",
+          "author": "B Schölkopf",
+          "year": "2001",
+          "unstructured": "Schölkopf B, Platt JC, Shawe-Taylor J, Smola AJ, Williamson RC (2001) Estimating the Support of a High-Dimensional Distribution. Neural Comput 13(7):1443–1471. https://doi.org/10.1162/089976601750264965",
+          "journal-title": "Neural Comput"
+        },
+        {
+          "key": "4725_CR33",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Silva Cruz JD, Blanco C, Oliveira Júnior JFD et al (2025) Prediction of Extreme events in the amazon under the influence of climate and LULC change. Environ Process 12(65). https://doi.org/10.1007/s40710-025-00805-y",
+          "DOI": "10.1007/s40710-025-00805-y"
+        },
+        {
+          "key": "4725_CR34",
+          "doi-asserted-by": "publisher",
+          "first-page": "1889",
+          "DOI": "10.1007/s10618-024-01019-w",
+          "volume": "38",
+          "author": "HL Smith",
+          "year": "2024",
+          "unstructured": "Smith HL, Biggs PJ, French NP et al (2024) Lost in the Forest: Encoding categorical variables and the absent levels problem. Data Min Knowl Disc 38:1889–1908. https://doi.org/10.1007/s10618-024-01019-w",
+          "journal-title": "Data Min Knowl Disc"
+        },
+        {
+          "issue": "6",
+          "key": "4725_CR35",
+          "doi-asserted-by": "publisher",
+          "first-page": "e2117832119",
+          "DOI": "10.1073/pnas.2117832119",
+          "volume": "119",
+          "author": "F Song",
+          "year": "2022",
+          "unstructured": "Song F, Zhang GJ, Ramanathan V, Leung LR (2022) Trends in surface equivalent potential temperature: A more comprehensive metric for global warming and weather extremes. Proc Natl Acad Sci U S A 119(6):e2117832119. https://doi.org/10.1073/pnas.2117832119",
+          "journal-title": "Proc Natl Acad Sci U S A"
+        },
+        {
+          "key": "4725_CR36",
+          "volume-title": "Exploratory Data Analysis",
+          "author": "JW Tukey",
+          "year": "1977",
+          "unstructured": "Tukey JW (1977) Exploratory Data Analysis. Addison-Wesley, Reading, MA"
+        },
+        {
+          "issue": "2",
+          "key": "4725_CR37",
+          "doi-asserted-by": "publisher",
+          "first-page": "109",
+          "DOI": "10.1109/ICJECE.2025.3558882",
+          "volume": "48",
+          "author": "S Turk",
+          "year": "2025",
+          "unstructured": "Turk S (2025) Rainfall Classification Using Machine Learning Algorithms on Data Mining Platforms. IEEE Can J Electr Comput Eng 48(2):109–114. https://doi.org/10.1109/ICJECE.2025.3558882",
+          "journal-title": "IEEE Can J Electr Comput Eng"
+        },
+        {
+          "issue": "C",
+          "key": "4725_CR38",
+          "doi-asserted-by": "publisher",
+          "first-page": "127043",
+          "DOI": "10.1016/j.jhydrol.2021.127043",
+          "volume": "603",
+          "author": "K Xie",
+          "year": "2021",
+          "unstructured": "Xie K, Liu P, Zhang J, Han D, Wang G, Shen C (2021) Physics-guided deep learning for rainfall-runoff modeling by considering extreme events and monotonic relationships. J Hydrol 603(C):127043. https://doi.org/10.1016/j.jhydrol.2021.127043",
+          "journal-title": "J Hydrol"
+        },
+        {
+          "issue": "4",
+          "key": "4725_CR40",
+          "doi-asserted-by": "publisher",
+          "first-page": "954",
+          "DOI": "10.1093/biomet/87.4.954",
+          "volume": "87",
+          "author": "IK Yeo",
+          "year": "2000",
+          "unstructured": "Yeo IK, Johnson RA (2000) A new family of power transformations to improve normality or symmetry. Biometrika 87(4):954–959",
+          "journal-title": "Biometrika"
+        }
+      ],
+      "container-title": [
+        "Water Resources Management"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s11269-026-04725-w.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/article/10.1007/s11269-026-04725-w",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s11269-026-04725-w.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            1
+          ]
+        ],
+        "date-time": "2026-09-01T02:34:52Z",
+        "timestamp": 1788230092000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://link.springer.com/10.1007/s11269-026-04725-w"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            22
+          ]
+        ]
+      },
+      "references-count": 35,
+      "journal-issue": {
+        "issue": "8",
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              6
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "4725"
+      ],
+      "URL": "https://doi.org/10.1007/s11269-026-04725-w",
+      "relation": {},
+      "ISSN": [
+        "0920-4741",
+        "1573-1650"
+      ],
+      "issn-type": [
+        {
+          "value": "0920-4741",
+          "type": "print"
+        },
+        {
+          "value": "1573-1650",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            22
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "6 March 2026",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "5 May 2026",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "22 May 2026",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "Not applicable.",
+          "order": 1,
+          "name": "Ethics",
+          "label": "Ethics Approvals",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Declarations"
+          }
+        },
+        {
+          "value": "Not applicable.",
+          "order": 2,
+          "name": "Ethics",
+          "label": "Consent to Participate",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Declarations"
+          }
+        },
+        {
+          "value": "Not applicable.",
+          "order": 3,
+          "name": "Ethics",
+          "label": "Consent for Publication",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Declarations"
+          }
+        },
+        {
+          "value": "This study did not include any human participants or animals.",
+          "order": 4,
+          "name": "Ethics",
+          "label": "Informed Consent",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Declarations"
+          }
+        },
+        {
+          "value": "The authors declare no conflict of interest.",
+          "order": 5,
+          "name": "Ethics",
+          "label": "Conflict of interest",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Declarations"
+          }
+        }
+      ],
+      "article-number": "349"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "K. Karthick",
+      "given_name_from_source": "K.",
+      "family_name_from_source": "Karthick",
+      "orcid_from_source": "https://orcid.org/0000-0001-7755-5715",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "S K Aruna",
+      "given_name_from_source": "S K",
+      "family_name_from_source": "Aruna",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "S. Krishnan",
+      "given_name_from_source": "S.",
+      "family_name_from_source": "Krishnan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "S. Ravivarman",
+      "given_name_from_source": "S.",
+      "family_name_from_source": "Ravivarman",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "R. Manikandan",
+      "given_name_from_source": "R.",
+      "family_name_from_source": "Manikandan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

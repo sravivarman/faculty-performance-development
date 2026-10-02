@@ -1,0 +1,685 @@
+{
+  "doi": "10.1002/ep.70122",
+  "title": "Optimal sizing and feasibility analysis of hybrid energy microgrid system using multi‐objective moth swarm algorithm",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Environmental Progress &amp; Sustainable Energy",
+  "publisher": "Wiley",
+  "publication_date": "2025-10-06",
+  "online_publication_date": "2025-10-06",
+  "print_publication_date": null,
+  "volume": "45",
+  "issue": "1",
+  "pages_or_article_number": "e70122",
+  "issn": "1944-7442",
+  "eissn": "1944-7450",
+  "isbn": null,
+  "url": "https://doi.org/10.1002/ep.70122",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:25.645533+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            14
+          ]
+        ],
+        "date-time": "2026-02-14T09:15:23Z",
+        "timestamp": 1771060523717,
+        "version": "3.50.1"
+      },
+      "reference-count": 40,
+      "publisher": "Wiley",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                6
+              ]
+            ],
+            "date-time": "2025-10-06T00:00:00Z",
+            "timestamp": 1759708800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                6
+              ]
+            ],
+            "date-time": "2025-10-06T00:00:00Z",
+            "timestamp": 1759708800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "aiche.onlinelibrary.wiley.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Env Prog and Sustain Energy"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            1
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>This work aims at designing and developing a hybrid renewable energy system (HRES) that can accommodate rural sustainability by utilizing locally accessible biomass resources, wind speeds, and solar radiation within concrete communities. An important consequence is that it will enable the best energy‐generating arrangement to be recognized in order to further increase per capita energy availability (EPC) and the standard of life as a whole. The difficulties tackled in the research include which energy sources to choose and which optimization of the system component sizes to determine with the help of a hybrid optimization model where energy balances are based on priorities. System performance was analyzed with multi‐objective Moth Swarm Optimization (MOMSA). The given HRES showed that the share of renewable energy in the system grew by 30% in comparison with the current system and the energy exported into the grid increased by 14%. Feasibility analysis also indicated great gains, such as a System Net Present Cost (NPC) of 53.8 million Indian rupees, a 35/kWh Cost of Energy (COE), maximum Renewable Resource Penetration (RRP), and minimum Power Loss Probability (PLP). These findings demonstrate the possibilities of the system to improve the energy sustainability of the rural areas and meet national energy delivery objectives.</jats:p>",
+      "DOI": "10.1002/ep.70122",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            6
+          ]
+        ],
+        "date-time": "2025-10-06T23:29:53Z",
+        "timestamp": 1759793393000
+      },
+      "update-policy": "https://doi.org/10.1002/crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Optimal sizing and feasibility analysis of hybrid energy microgrid system using multi‐objective moth swarm algorithm"
+      ],
+      "prefix": "10.1002",
+      "volume": "45",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-0203-0700",
+          "authenticated-orcid": false,
+          "given": "Murugaperumal",
+          "family": "Krishnamoorthy",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of EEE Vardhaman College of Engineering  Hyderabad India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3503-609X",
+          "authenticated-orcid": false,
+          "given": "Muraly",
+          "family": "Natarajan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of EEE Karaikal Polytechnic College  Karaikal India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ajay‐D‐Vimal Raj",
+          "family": "Periyanayagam",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of EEE Puducherry Technological University  Puducherry India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Sam Surya",
+          "family": "Ajay",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of CSE Puducherry Technological University  Puducherry India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Hariharan",
+          "family": "Shanmugasundaram",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of CSE Vel Tech Rangarajan Dr.Sagunthala R&amp;D Institute of Science and Technology  Chennai India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Muthukumaran",
+          "family": "Thulasingam",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "NSIC‐Technical Service Center Kushaiguda  Hyderabad India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "311",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            6
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_10_2_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/9781009210058"
+        },
+        {
+          "key": "e_1_2_10_3_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1177/0958305X231177743"
+        },
+        {
+          "key": "e_1_2_10_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijhydene.2023.07.215"
+        },
+        {
+          "key": "e_1_2_10_5_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/15567036.2024.2409947"
+        },
+        {
+          "key": "e_1_2_10_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.rineng.2023.101321"
+        },
+        {
+          "key": "e_1_2_10_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.enconman.2022.115335"
+        },
+        {
+          "key": "e_1_2_10_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/ep.14519"
+        },
+        {
+          "key": "e_1_2_10_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.seta.2022.102328"
+        },
+        {
+          "key": "e_1_2_10_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.energy.2023.128348"
+        },
+        {
+          "key": "e_1_2_10_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.esd.2022.06.012"
+        },
+        {
+          "key": "e_1_2_10_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10653-021-01052-4"
+        },
+        {
+          "key": "e_1_2_10_13_1",
+          "first-page": "1447",
+          "article-title": "Genetic algorithm based techno‐economic optimization of an isolated hybrid energy system",
+          "volume": "8",
+          "author": "Khatri KA",
+          "year": "2023",
+          "journal-title": "CRF"
+        },
+        {
+          "key": "e_1_2_10_14_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.energy.2021.122303"
+        },
+        {
+          "key": "e_1_2_10_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/ep.14544"
+        },
+        {
+          "key": "e_1_2_10_16_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/15567036.2020.1731018"
+        },
+        {
+          "key": "e_1_2_10_17_1",
+          "article-title": "Techno‐economic comparative study of grid‐connected PV/reformer/FC hybrid systems with distinct solar tracking systems",
+          "volume": "18",
+          "author": "Dekkiche M",
+          "year": "2023",
+          "journal-title": "Energy Conv Manage: X"
+        },
+        {
+          "key": "e_1_2_10_18_1",
+          "article-title": "A case study of an optimal detailed analysis of a standalone photovoltaic/battery system for electricity supply in rural and remote areas",
+          "volume": "1",
+          "author": "Zieba Falama R",
+          "year": "2022",
+          "journal-title": "Int Trans Electr Energy Syst"
+        },
+        {
+          "key": "e_1_2_10_19_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s40974-023-00276-7"
+        },
+        {
+          "key": "e_1_2_10_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/est2.419"
+        },
+        {
+          "key": "e_1_2_10_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/app14062659"
+        },
+        {
+          "key": "e_1_2_10_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/ep.14555"
+        },
+        {
+          "key": "e_1_2_10_23_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.asej.2021.101679"
+        },
+        {
+          "key": "e_1_2_10_24_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.solener.2019.07.008"
+        },
+        {
+          "key": "e_1_2_10_25_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.enconman.2024.118783"
+        },
+        {
+          "key": "e_1_2_10_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jclepro.2023.140461"
+        },
+        {
+          "key": "e_1_2_10_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/ijlct/ctae079"
+        },
+        {
+          "key": "e_1_2_10_28_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/est2.551"
+        },
+        {
+          "key": "e_1_2_10_29_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.energy.2020.119605"
+        },
+        {
+          "key": "e_1_2_10_30_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/en16031363"
+        },
+        {
+          "key": "e_1_2_10_31_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.rser.2022.113046"
+        },
+        {
+          "key": "e_1_2_10_32_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1515/ehs-2022-0093"
+        },
+        {
+          "key": "e_1_2_10_33_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/03772063.2020.1787239"
+        },
+        {
+          "key": "e_1_2_10_34_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/INCET61516.2024.10593192"
+        },
+        {
+          "key": "e_1_2_10_35_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.est.2023.109747"
+        },
+        {
+          "key": "e_1_2_10_36_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.enconman.2024.118768"
+        },
+        {
+          "key": "e_1_2_10_37_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijhydene.2024.08.484"
+        },
+        {
+          "key": "e_1_2_10_38_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.solcom.2024.100082"
+        },
+        {
+          "key": "e_1_2_10_39_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11831-023-10037-8"
+        },
+        {
+          "key": "e_1_2_10_40_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/a17100438"
+        },
+        {
+          "key": "e_1_2_10_41_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11227-023-05676-4"
+        }
+      ],
+      "container-title": [
+        "Environmental Progress &amp; Sustainable Energy"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://aiche.onlinelibrary.wiley.com/doi/pdf/10.1002/ep.70122",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://aiche.onlinelibrary.wiley.com/doi/full-xml/10.1002/ep.70122",
+          "content-type": "application/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://aiche.onlinelibrary.wiley.com/doi/pdf/10.1002/ep.70122",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            31
+          ]
+        ],
+        "date-time": "2026-01-31T06:02:15Z",
+        "timestamp": 1769839335000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://aiche.onlinelibrary.wiley.com/doi/10.1002/ep.70122"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            6
+          ]
+        ]
+      },
+      "references-count": 40,
+      "journal-issue": {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              1
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1002/ep.70122"
+      ],
+      "URL": "https://doi.org/10.1002/ep.70122",
+      "archive": [
+        "Portico"
+      ],
+      "relation": {},
+      "ISSN": [
+        "1944-7442",
+        "1944-7450"
+      ],
+      "issn-type": [
+        {
+          "value": "1944-7442",
+          "type": "print"
+        },
+        {
+          "value": "1944-7450",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            6
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2024-09-06",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2025-09-02",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2025-10-06",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ],
+      "article-number": "e70122"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Murugaperumal Krishnamoorthy",
+      "given_name_from_source": "Murugaperumal",
+      "family_name_from_source": "Krishnamoorthy",
+      "orcid_from_source": "https://orcid.org/0000-0002-0203-0700",
+      "affiliation_from_source": [
+        "Department of EEE Vardhaman College of Engineering  Hyderabad India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Muraly Natarajan",
+      "given_name_from_source": "Muraly",
+      "family_name_from_source": "Natarajan",
+      "orcid_from_source": "https://orcid.org/0000-0003-3503-609X",
+      "affiliation_from_source": [
+        "Department of EEE Karaikal Polytechnic College  Karaikal India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Ajay‐D‐Vimal Raj Periyanayagam",
+      "given_name_from_source": "Ajay‐D‐Vimal Raj",
+      "family_name_from_source": "Periyanayagam",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of EEE Puducherry Technological University  Puducherry India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Sam Surya Ajay",
+      "given_name_from_source": "Sam Surya",
+      "family_name_from_source": "Ajay",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of CSE Puducherry Technological University  Puducherry India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Hariharan Shanmugasundaram",
+      "given_name_from_source": "Hariharan",
+      "family_name_from_source": "Shanmugasundaram",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of CSE Vel Tech Rangarajan Dr.Sagunthala R&amp;D Institute of Science and Technology  Chennai India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "Muthukumaran Thulasingam",
+      "given_name_from_source": "Muthukumaran",
+      "family_name_from_source": "Thulasingam",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "NSIC‐Technical Service Center Kushaiguda  Hyderabad India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

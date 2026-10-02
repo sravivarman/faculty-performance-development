@@ -1,0 +1,246 @@
+[
+  {
+    "employee_id": "VCE1127",
+    "name": "Dr. S. Ravivarman",
+    "designation": "Professor",
+    "name_variants": [
+      "S. Ravivarman",
+      "S Ravivarman",
+      "Ravivarman S",
+      "Ravivarman, S.",
+      "Shanmugasundaram Ravivarman",
+      "Ravivarman Shanmugasundaram"
+    ],
+    "weak_variants": []
+  },
+  {
+    "employee_id": "VCE640",
+    "name": "Dr. H.S. Jain",
+    "designation": "Professor",
+    "name_variants": [
+      "H.S. Jain",
+      "H. S. Jain",
+      "HS Jain",
+      "H S Jain",
+      "Jain H.S.",
+      "Jain, H.S."
+    ],
+    "weak_variants": []
+  },
+  {
+    "employee_id": "VCE1172",
+    "name": "Dr. N. Karuppiah",
+    "designation": "Professor",
+    "name_variants": [
+      "N. Karuppiah",
+      "N Karuppiah",
+      "Karuppiah N",
+      "Karuppiah N.",
+      "Karuppiah, N."
+    ],
+    "weak_variants": []
+  },
+  {
+    "employee_id": "VCE085",
+    "name": "Dr. Md. Asif",
+    "designation": "Associate Professor",
+    "name_variants": [
+      "Md. Asif",
+      "Md Asif",
+      "MD Asif",
+      "Asif Md",
+      "Asif, Md",
+      "Asif, Md.",
+      "M. Asif"
+    ],
+    "weak_variants": [
+      "M. Asif"
+    ]
+  },
+  {
+    "employee_id": "VCE1496",
+    "name": "Dr. Muruga Perumal",
+    "designation": "Associate Professor",
+    "name_variants": [
+      "Muruga Perumal",
+      "M. Perumal",
+      "M Perumal",
+      "Perumal Muruga",
+      "Perumal, Muruga"
+    ],
+    "weak_variants": [
+      "M. Perumal",
+      "M Perumal"
+    ]
+  },
+  {
+    "employee_id": "VCE1011",
+    "name": "Dr. T. Anuradha Devi",
+    "designation": "Assistant Professor",
+    "name_variants": [
+      "T. Anuradha Devi",
+      "T Anuradha Devi",
+      "Anuradha Devi T",
+      "Anuradha Devi, T.",
+      "T. Anuradha",
+      "T Anuradha"
+    ],
+    "weak_variants": []
+  },
+  {
+    "employee_id": "VCE087",
+    "name": "Dr. N. Srinivas",
+    "designation": "Assistant Professor",
+    "name_variants": [
+      "N. Srinivas",
+      "N Srinivas",
+      "Srinivas N",
+      "Srinivas N.",
+      "Srinivas, N."
+    ],
+    "weak_variants": []
+  },
+  {
+    "employee_id": "VCE801",
+    "name": "Mr. B. Raja Gopal Reddy",
+    "designation": "Assistant Professor",
+    "name_variants": [
+      "B. Raja Gopal Reddy",
+      "B Raja Gopal Reddy",
+      "Raja Gopal Reddy B",
+      "Raja Gopal Reddy, B.",
+      "B. Raja Gopal",
+      "B Raja Gopal"
+    ],
+    "weak_variants": []
+  },
+  {
+    "employee_id": "VCE306",
+    "name": "Mr. A. Rama Krishna",
+    "designation": "Assistant Professor",
+    "name_variants": [
+      "A. Rama Krishna",
+      "A Rama Krishna",
+      "Rama Krishna A",
+      "Rama Krishna, A.",
+      "A. Ramakrishna",
+      "A Ramakrishna",
+      "Ramakrishna A"
+    ],
+    "weak_variants": []
+  },
+  {
+    "employee_id": "VCE1009",
+    "name": "Mr. A. Ananda Kumar",
+    "designation": "Assistant Professor",
+    "name_variants": [
+      "A. Ananda Kumar",
+      "A Ananda Kumar",
+      "Ananda Kumar A",
+      "Ananda Kumar, A.",
+      "A. Anandakumar",
+      "A Anandakumar",
+      "Anandakumar A"
+    ],
+    "weak_variants": []
+  },
+  {
+    "employee_id": "VCE1430",
+    "name": "Ms. G. Indirarani",
+    "designation": "Assistant Professor",
+    "name_variants": [
+      "G. Indirarani",
+      "G Indirarani",
+      "Indirarani G",
+      "Indirarani G.",
+      "Indirarani, G.",
+      "G. Indira Rani",
+      "G Indira Rani"
+    ],
+    "weak_variants": []
+  },
+  {
+    "employee_id": "VCE1074",
+    "name": "Mr. B. Mohan",
+    "designation": "Assistant Professor",
+    "name_variants": [
+      "B. Mohan",
+      "B Mohan",
+      "Mohan B",
+      "Mohan B.",
+      "Mohan, B."
+    ],
+    "weak_variants": []
+  },
+  {
+    "employee_id": "VCE1199",
+    "name": "Ms. Fatima Unnisa",
+    "designation": "Assistant Professor",
+    "name_variants": [
+      "Fatima Unnisa",
+      "F. Unnisa",
+      "F Unnisa",
+      "Unnisa Fatima",
+      "Unnisa, Fatima"
+    ],
+    "weak_variants": [
+      "F. Unnisa",
+      "F Unnisa"
+    ]
+  },
+  {
+    "employee_id": "VCE1422",
+    "name": "Mr. S. Vinod Reddy",
+    "designation": "Assistant Professor",
+    "name_variants": [
+      "S. Vinod Reddy",
+      "S Vinod Reddy",
+      "Vinod Reddy S",
+      "Vinod Reddy, S.",
+      "S. Vinod",
+      "S Vinod"
+    ],
+    "weak_variants": []
+  },
+  {
+    "employee_id": "VCE792",
+    "name": "Ms. D. Revathi",
+    "designation": "Assistant Professor",
+    "name_variants": [
+      "D. Revathi",
+      "D Revathi",
+      "Revathi D",
+      "Revathi D.",
+      "Revathi, D."
+    ],
+    "weak_variants": []
+  },
+  {
+    "employee_id": "VCE1837",
+    "name": "Mr. B. Balakrishna",
+    "designation": "Assistant Professor",
+    "name_variants": [
+      "B. Balakrishna",
+      "B Balakrishna",
+      "Balakrishna B",
+      "Balakrishna B.",
+      "Balakrishna, B.",
+      "B. Bala Krishna",
+      "B Bala Krishna"
+    ],
+    "weak_variants": []
+  },
+  {
+    "employee_id": "VCE1546",
+    "name": "Ms. G. Swetha",
+    "designation": "Assistant Professor",
+    "name_variants": [
+      "G. Swetha",
+      "G Swetha",
+      "Swetha G",
+      "Swetha G.",
+      "Swetha, G."
+    ],
+    "weak_variants": []
+  }
+]

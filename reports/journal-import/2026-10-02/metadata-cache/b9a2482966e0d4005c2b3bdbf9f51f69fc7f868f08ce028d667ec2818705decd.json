@@ -1,0 +1,1043 @@
+{
+  "doi": "10.1016/j.rineng.2025.105317",
+  "title": "A spatio-temporal fusion-based approach for multi-dimensional classification of Parkinson’s disease progression using multi-modal dataset",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Results in Engineering",
+  "publisher": "Elsevier BV",
+  "publication_date": null,
+  "online_publication_date": null,
+  "print_publication_date": null,
+  "volume": "26",
+  "issue": null,
+  "pages_or_article_number": "105317",
+  "issn": "2590-1230",
+  "eissn": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1016/j.rineng.2025.105317",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:41.929176+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            6
+          ]
+        ],
+        "date-time": "2026-03-06T05:47:54Z",
+        "timestamp": 1772776074985,
+        "version": "3.50.1"
+      },
+      "reference-count": 55,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2025-06-01T00:00:00Z",
+            "timestamp": 1748736000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2025-06-01T00:00:00Z",
+            "timestamp": 1748736000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                12
+              ]
+            ],
+            "date-time": "2025-05-12T00:00:00Z",
+            "timestamp": 1747008000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/100020871",
+          "name": "Abu Dhabi University",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "19300914"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "19300914"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100020871",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Results in Engineering"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            6
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.rineng.2025.105317",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            13
+          ]
+        ],
+        "date-time": "2025-05-13T19:24:00Z",
+        "timestamp": 1747164240000
+      },
+      "page": "105317",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "special_numbering": "C",
+      "title": [
+        "A spatio-temporal fusion-based approach for multi-dimensional classification of Parkinson’s disease progression using multi-modal dataset"
+      ],
+      "prefix": "10.1016",
+      "volume": "26",
+      "author": [
+        {
+          "given": "Vinay",
+          "family": "Kukreja",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Vandana",
+          "family": "Ahuja",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Modafar",
+          "family": "Ati",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Hariharan",
+          "family": "Shanmugasundaram",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Murugaperumal",
+          "family": "Krishnamoorthy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Rishabh",
+          "family": "Sharma",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Abhishek",
+          "family": "Bhattacherjee",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "issue": "1",
+          "key": "10.1016/j.rineng.2025.105317_bib0001",
+          "doi-asserted-by": "crossref",
+          "first-page": "56",
+          "DOI": "10.3389/fninf.2017.00056",
+          "article-title": "Parkinson disease detection from speech articulation neuromechanics",
+          "volume": "11",
+          "author": "Gómez-Vilda",
+          "year": "2017",
+          "journal-title": "Front. Neuroinform."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.rineng.2025.105317_bib0002",
+          "doi-asserted-by": "crossref",
+          "first-page": "204",
+          "DOI": "10.1016/j.parkreldis.2013.10.027",
+          "article-title": "Early detection of wearing off in Parkinson disease: the deep study",
+          "volume": "20",
+          "author": "Stocchi",
+          "year": "2014",
+          "journal-title": "Parkinsonism Relat. Disord."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.rineng.2025.105317_bib0003",
+          "doi-asserted-by": "crossref",
+          "first-page": "505",
+          "DOI": "10.1016/j.bbe.2020.01.003",
+          "article-title": "Automatic Parkinson disease detection at early stages as a pre-diagnosis tool by using classifiers and a small set of vocal features",
+          "volume": "40",
+          "author": "Solana-Lavalle",
+          "year": "2020",
+          "journal-title": "Biocybern. Biomed. Eng."
+        },
+        {
+          "issue": "21",
+          "key": "10.1016/j.rineng.2025.105317_bib0004",
+          "doi-asserted-by": "crossref",
+          "first-page": "1738",
+          "DOI": "10.1212/WNL.0b013e3181c34b47",
+          "article-title": "Validity of the MoCA and MMSE in the detection of MCI and dementia in Parkinson disease",
+          "volume": "73",
+          "author": "Hoops",
+          "year": "2009",
+          "journal-title": "Neurology"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.rineng.2025.105317_bib0005",
+          "article-title": "Deep 1D-convnet for accurate Parkinson disease detection and severity prediction from gait",
+          "volume": "143",
+          "author": "Maachi",
+          "year": "2020",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.rineng.2025.105317_bib0006",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.rineng.2024.103353",
+          "article-title": "An explainable deep learning model for multi-modal MRI grading of IDH-mutant astrocytomas",
+          "volume": "24",
+          "author": "Ayaz",
+          "year": "2024",
+          "journal-title": "Results Eng."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.rineng.2025.105317_bib0007",
+          "doi-asserted-by": "crossref",
+          "first-page": "899",
+          "DOI": "10.1007/s44174-023-00068-x",
+          "article-title": "Artificial intelligence model for parkinson disease detection using machine learning algorithms",
+          "volume": "1",
+          "author": "Yadav",
+          "year": "2023",
+          "journal-title": "Biomed. Mater. Devices"
+        },
+        {
+          "key": "10.1016/j.rineng.2025.105317_bib0008",
+          "series-title": "Proceedings of the International Conference on Electrical and Information Technologies",
+          "first-page": "421",
+          "article-title": "Comparison of classification methods to detect the Parkinson disease",
+          "author": "Bourouhou",
+          "year": "2016"
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.rineng.2025.105317_bib0009",
+          "doi-asserted-by": "crossref",
+          "first-page": "2123",
+          "DOI": "10.3174/ajnr.A3126",
+          "article-title": "Individual detection of patients with Parkinson disease using support vector machine analysis of diffusion tensor imaging data: initial results",
+          "volume": "33",
+          "author": "Haller",
+          "year": "2012",
+          "journal-title": "Am. J. Neuroradiol."
+        },
+        {
+          "key": "10.1016/j.rineng.2025.105317_bib0010",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.media.2024.103213",
+          "article-title": "Alzheimer’s disease diagnosis from multi-modal data via feature inductive learning and dual multilevel graph neural network",
+          "volume": "97",
+          "author": "Lei",
+          "year": "2024",
+          "journal-title": "Med. Image Anal."
+        },
+        {
+          "key": "10.1016/j.rineng.2025.105317_bib0011",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.3389/fnagi.2024.1437707",
+          "article-title": "Detection of freezing of gait in Parkinson’s disease from foot-pressure sensing insoles using a temporal convolutional neural network",
+          "volume": "16",
+          "author": "Park",
+          "year": "2024",
+          "journal-title": "Front. Aging Neurosci."
+        },
+        {
+          "key": "10.1016/j.rineng.2025.105317_bib0012",
+          "doi-asserted-by": "crossref",
+          "first-page": "13",
+          "DOI": "10.1057/s41271-016-0002-7",
+          "article-title": "Transforming our world: implementing the 2030 agenda through sustainable development goal indicators",
+          "volume": "37",
+          "author": "Lee",
+          "year": "2016",
+          "journal-title": "J. Public Health Policy"
+        },
+        {
+          "key": "10.1016/j.rineng.2025.105317_bib0013",
+          "series-title": "Proceedings of the International Conference on Automation and Computing",
+          "first-page": "1",
+          "article-title": "Detection of Parkinson disease in brain MRI using convolutional neural network",
+          "author": "Shah",
+          "year": "2018"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.rineng.2025.105317_bib0014",
+          "doi-asserted-by": "crossref",
+          "first-page": "1165",
+          "DOI": "10.1007/s11307-019-01334-5",
+          "article-title": "Artificial neural network–based prediction of outcome in Parkinson’s disease patients using DaTscan SPECT imaging features",
+          "volume": "21",
+          "author": "Tang",
+          "year": "2019",
+          "journal-title": "Mol. Imaging Biol."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.rineng.2025.105317_bib0015",
+          "first-page": "362",
+          "article-title": "AMEF-Net: Towards an attention and multi-level enhancement fusion for medical image classification in Parkinson’s aided diagnosis",
+          "volume": "7",
+          "author": "Ding",
+          "year": "2024",
+          "journal-title": "IET Comput. Vis."
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.rineng.2025.105317_bib0016",
+          "doi-asserted-by": "crossref",
+          "first-page": "1101",
+          "DOI": "10.1007/s00234-023-03168-z",
+          "article-title": "Deep learning regressor model based on nigrosome MRI in Parkinson syndrome effectively predicts striatal dopamine transporter-SPECT uptake",
+          "volume": "65",
+          "author": "Bae",
+          "year": "2023",
+          "journal-title": "Neuroradiology"
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.rineng.2025.105317_bib0017",
+          "doi-asserted-by": "crossref",
+          "first-page": "5216",
+          "DOI": "10.1109/JBHI.2023.3292452",
+          "article-title": "EEG-Based Parkinson’s disease recognition via attention-based sparse graph convolutional neural network",
+          "volume": "27",
+          "author": "Chang",
+          "year": "2023",
+          "journal-title": "IEEE J. Biomed. Health Inform."
+        },
+        {
+          "key": "10.1016/j.rineng.2025.105317_bib0018",
+          "unstructured": "S. Srivastava, “Genetic algorithm optimized deep learning model for Parkinson disease severity detection,” 2021."
+        },
+        {
+          "key": "10.1016/j.rineng.2025.105317_bib0019",
+          "series-title": "Proceedings of the CAAI International Conference on Artificial Intelligence",
+          "first-page": "477",
+          "article-title": "Intelligence quotient scores prediction in rs-fMRI via graph convolutional regression network",
+          "author": "Zhang",
+          "year": "2022"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.rineng.2025.105317_bib0020",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.57197/JDR-2024-0101",
+          "article-title": "Responsible artificial intelligence for mental health disorders: current applications and future challenges",
+          "volume": "4",
+          "author": "El-Sappagh",
+          "year": "2025",
+          "journal-title": "J. Disabil. Res."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.rineng.2025.105317_bib0021",
+          "first-page": "283",
+          "article-title": "Parkinson’s disease classification based on enhanced ensemble learning and brain MRI",
+          "volume": "18",
+          "author": "Palakayala",
+          "year": "2024",
+          "journal-title": "Majlesi J. Electr. Eng."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.rineng.2025.105317_bib0022",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.patter.2020.100042",
+          "article-title": "Deep learning identifies digital biomarkers for self-reported Parkinson’s disease",
+          "volume": "1",
+          "author": "Zhang",
+          "year": "2020",
+          "journal-title": "Patterns"
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.rineng.2025.105317_bib0023",
+          "doi-asserted-by": "crossref",
+          "first-page": "10389",
+          "DOI": "10.1109/TPAMI.2024.3442811",
+          "article-title": "A new brain network construction paradigm for brain disorder via diffusion-based graph contrastive learning",
+          "volume": "46",
+          "author": "Zong",
+          "year": "2024",
+          "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.rineng.2025.105317_bib0024",
+          "first-page": "11762",
+          "article-title": "Generative AI enables EEG super-resolution via spatio-temporal adaptive diffusion Learning",
+          "volume": "41",
+          "author": "Wang",
+          "year": "2025",
+          "journal-title": "IEEE Trans. Consum. Electron."
+        },
+        {
+          "key": "10.1016/j.rineng.2025.105317_bib0025",
+          "doi-asserted-by": "crossref",
+          "first-page": "4017",
+          "DOI": "10.1109/TNSRE.2023.3323432",
+          "article-title": "Brain structure-function fusing representation learning using adversarial decomposed-VAE for analyzing MCI",
+          "volume": "31",
+          "author": "Zuo",
+          "year": "2023",
+          "journal-title": "IEEE Trans. Neural Syst. Rehabil. Eng."
+        },
+        {
+          "key": "10.1016/j.rineng.2025.105317_bib0026",
+          "doi-asserted-by": "crossref",
+          "first-page": "4601",
+          "DOI": "10.1109/TNSRE.2023.3333952",
+          "article-title": "Alzheimer’s disease prediction via brain structural-functional deep fusing network",
+          "volume": "31",
+          "author": "Zuo",
+          "year": "2023",
+          "journal-title": "IEEE Trans. Neural Syst. Rehabil. Eng."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.rineng.2025.105317_bib0027",
+          "doi-asserted-by": "crossref",
+          "first-page": "527",
+          "DOI": "10.1080/10255842.2022.2072683",
+          "article-title": "Early detection of Parkinson disease using stacking ensemble method",
+          "volume": "26",
+          "author": "Biswas",
+          "year": "2023",
+          "journal-title": "Comput. Methods Biomech. Biomed. Engin."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.rineng.2025.105317_bib0028",
+          "article-title": "Application of nanobiosensor engineering in the diagnosis of neurodegenerative disorders",
+          "volume": "24",
+          "author": "Dhahi",
+          "year": "2024",
+          "journal-title": "Results Eng."
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.rineng.2025.105317_bib0029",
+          "doi-asserted-by": "crossref",
+          "first-page": "620",
+          "DOI": "10.1016/S1474-4422(17)30122-9",
+          "article-title": "Prediction of cognition in Parkinson’s disease with a clinical–genetic score: a longitudinal analysis of nine cohorts",
+          "volume": "16",
+          "author": "Liu",
+          "year": "2017",
+          "journal-title": "Lancet Neurol."
+        },
+        {
+          "key": "10.1016/j.rineng.2025.105317_bib0030",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.rineng.2024.103435",
+          "article-title": "Ensemble deep learning model for protein secondary structure prediction using NLP metrics and explainable AI",
+          "volume": "24",
+          "author": "Vignesh",
+          "year": "2024",
+          "journal-title": "Results Eng."
+        },
+        {
+          "issue": "22",
+          "key": "10.1016/j.rineng.2025.105317_bib0031",
+          "doi-asserted-by": "crossref",
+          "first-page": "16429",
+          "DOI": "10.1007/s00521-023-08508-x",
+          "article-title": "Early diagnosis and clinical score prediction of Parkinson’s disease based on longitudinal neuroimaging data",
+          "volume": "35",
+          "author": "Lei",
+          "year": "2023",
+          "journal-title": "Neural Comput. Appl."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.rineng.2025.105317_bib0032",
+          "doi-asserted-by": "crossref",
+          "first-page": "410",
+          "DOI": "10.1111/bpa.12370",
+          "article-title": "Alpha-synuclein as a biomarker for Parkinson’s disease",
+          "volume": "26",
+          "author": "Atik",
+          "year": "2016",
+          "journal-title": "Brain Pathol."
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.rineng.2025.105317_bib0033",
+          "doi-asserted-by": "crossref",
+          "first-page": "2668",
+          "DOI": "10.1093/brain/awae142",
+          "article-title": "Parkinson’s disease variant detection and disclosure: PD GENEration, a North American study",
+          "volume": "147",
+          "author": "Cook",
+          "year": "2024",
+          "journal-title": "Brain"
+        },
+        {
+          "key": "10.1016/j.rineng.2025.105317_bib0034",
+          "unstructured": "P. P. M. I. (PPMI), “PPMI dataset,” IDA LONI, 2010. https://ida.loni.usc.edu/home/projectPage.jsp?project=PPMI (accessed Oct. 21, 2024)."
+        },
+        {
+          "issue": "30",
+          "key": "10.1016/j.rineng.2025.105317_bib0035",
+          "first-page": "19209",
+          "article-title": "Explainable AI approach for early detection of Parkinson’s disease using PPMI Online data",
+          "volume": "36",
+          "author": "Aggarwal",
+          "year": "2024",
+          "journal-title": "Neural Comput. Appl."
+        },
+        {
+          "issue": "30",
+          "key": "10.1016/j.rineng.2025.105317_bib0036",
+          "doi-asserted-by": "crossref",
+          "first-page": "58",
+          "DOI": "10.1016/j.neucom.2013.01.054",
+          "article-title": "Automatic detection of Parkinsonism using significance measures and component analysis in DaTSCAN imaging",
+          "volume": "126",
+          "author": "Martínez-Murcia",
+          "year": "2014",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.rineng.2025.105317_bib0037",
+          "article-title": "Classification of PPMI MRI scans with voxel-based morphometry and machine learning to assist in the diagnosis of Parkinson’s disease",
+          "volume": "198",
+          "author": "Solana-Lavalle",
+          "year": "2021",
+          "journal-title": "Comput. Methods Programs Biomed."
+        },
+        {
+          "issue": "16",
+          "key": "10.1016/j.rineng.2025.105317_bib0038",
+          "doi-asserted-by": "crossref",
+          "first-page": "48499",
+          "DOI": "10.1007/s11042-023-17582-1",
+          "article-title": "Optimized supervised learning approach to predict Parkinson’s disease with minimal attributes using PPMI datasets",
+          "volume": "83",
+          "author": "Kanagaraj",
+          "year": "2024",
+          "journal-title": "Multimed. Tools Appl."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.rineng.2025.105317_bib0039",
+          "doi-asserted-by": "crossref",
+          "first-page": "171",
+          "DOI": "10.14802/jmd.23271",
+          "article-title": "Comparing MoCA performance in Parkinson’s disease: age and education-adjusted cutoffs vs. machine learning",
+          "volume": "17",
+          "author": "Baek",
+          "year": "2024",
+          "journal-title": "J. Mov. Disord."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.rineng.2025.105317_bib0040",
+          "doi-asserted-by": "crossref",
+          "first-page": "140",
+          "DOI": "10.1038/s41531-022-00404-w",
+          "article-title": "Longitudinal clinical and biomarker characteristics of non-manifesting LRRK2 G2019S carriers in the PPMI cohort",
+          "volume": "8",
+          "author": "Simuni",
+          "year": "2022",
+          "journal-title": "npj Parkinson's Dis."
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.rineng.2025.105317_bib0041",
+          "doi-asserted-by": "crossref",
+          "first-page": "4836",
+          "DOI": "10.1007/s00415-022-11120-z",
+          "article-title": "REM sleep behavior disorder and cerebrospinal fluid alpha-synuclein, amyloid beta, total tau and phosphorylated tau in Parkinson’s disease: a cross-sectional and longitudinal study",
+          "volume": "269",
+          "author": "Nabizadeh",
+          "year": "2022",
+          "journal-title": "J. Neurol."
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.rineng.2025.105317_bib0042",
+          "doi-asserted-by": "crossref",
+          "first-page": "908",
+          "DOI": "10.1016/S1474-4422(17)30328-9",
+          "article-title": "Large-scale identification of clinical and genetic predictors of motor progression in patients with newly diagnosed Parkinson’s disease: a longitudinal cohort study and validation",
+          "volume": "16",
+          "author": "Latourelle",
+          "year": "2017",
+          "journal-title": "Lancet Neurol."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.rineng.2025.105317_bib0043",
+          "doi-asserted-by": "crossref",
+          "first-page": "1539",
+          "DOI": "10.1109/TBME.2022.3222072",
+          "article-title": "Connectivity-based brain parcellation for parkinson’s disease",
+          "volume": "70",
+          "author": "Li",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Biomed. Eng."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.rineng.2025.105317_bib0044",
+          "doi-asserted-by": "crossref",
+          "first-page": "102320",
+          "DOI": "10.1016/j.bspc.2020.102320",
+          "article-title": "Study of functional connectivity of central motor system in Parkinson’s disease using copula theory",
+          "volume": "65",
+          "author": "Ghasemi",
+          "year": "2021",
+          "journal-title": "Biomed. Signal Process. Control"
+        },
+        {
+          "key": "10.1016/j.rineng.2025.105317_bib0045",
+          "series-title": "Proceedings of the International Conference on Smart Applications and Data Analysis",
+          "first-page": "17",
+          "article-title": "Automatic SPECT image processing for Parkinson’s disease early detection",
+          "author": "Boucherouite",
+          "year": "2022"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.rineng.2025.105317_bib0046",
+          "first-page": "388",
+          "article-title": "A survey of detection of Parkinson’s disease using artificial intelligence models with multiple modalities and various data preprocessing techniques",
+          "volume": "13",
+          "author": "Desai",
+          "year": "2024",
+          "journal-title": "J. Educ. Health Promot."
+        },
+        {
+          "key": "10.1016/j.rineng.2025.105317_bib0047",
+          "unstructured": "A. Dadu, “Application of machine learning to the detection and prediction of Parkinson’s disease subtypes,” 2021."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.rineng.2025.105317_bib0048",
+          "doi-asserted-by": "crossref",
+          "first-page": "110",
+          "DOI": "10.1038/s41531-024-00719-w",
+          "article-title": "Digital outcome measures from smartwatch data relate to non-motor features of Parkinson’s disease",
+          "volume": "10",
+          "author": "Schalkamp",
+          "year": "2024",
+          "journal-title": "npj Parkinson's Dis."
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.rineng.2025.105317_bib0049",
+          "doi-asserted-by": "crossref",
+          "first-page": "1241",
+          "DOI": "10.3390/bioengineering10111241",
+          "article-title": "A-GSTCN: an augmented graph structural–temporal convolution network for medication recommendation based on electronic health records",
+          "volume": "10",
+          "author": "Yue",
+          "year": "2023",
+          "journal-title": "Bioengineering"
+        },
+        {
+          "key": "10.1016/j.rineng.2025.105317_bib0050",
+          "series-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+          "first-page": "7482",
+          "article-title": "Multi-task learning using uncertainty to weigh losses for scene geometry and semantics",
+          "author": "Kendall",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.rineng.2025.105317_bib0051",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Agresti, Analysis of ordinal categorical data. 2010.",
+          "DOI": "10.1002/9780470594001"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.rineng.2025.105317_bib0052",
+          "doi-asserted-by": "crossref",
+          "first-page": "109",
+          "DOI": "10.1111/j.2517-6161.1980.tb01109.x",
+          "article-title": "Regression models for ordinal data",
+          "volume": "42",
+          "author": "McCullagh",
+          "year": "1980",
+          "journal-title": "J. R. Stat. Soc. B"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.rineng.2025.105317_bib0053",
+          "doi-asserted-by": "crossref",
+          "first-page": "37",
+          "DOI": "10.1186/s12864-019-6413-7",
+          "article-title": "The advantages of the Matthews correlation coefficient (MCC) over F1 score and accuracy in binary classification evaluation",
+          "volume": "21",
+          "author": "Chicco",
+          "year": "2020",
+          "journal-title": "BMC Genom."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.rineng.2025.105317_bib0054",
+          "first-page": "37",
+          "article-title": "Evaluation: from precision, recall and F-measure to ROC, informedness, markedness & correlation",
+          "volume": "2",
+          "author": "Powers",
+          "year": "2011",
+          "journal-title": "J. Mach. Learn. Technol."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.rineng.2025.105317_bib0055",
+          "first-page": "1728",
+          "article-title": "EFFResNet-ViT: a fusion-based convolutional and vision transformer model for explainable medical image classification",
+          "volume": "6",
+          "author": "Hussain",
+          "year": "2025",
+          "journal-title": "IEEE Access"
+        }
+      ],
+      "container-title": [
+        "Results in Engineering"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2590123025013878?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2590123025013878?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            15
+          ]
+        ],
+        "date-time": "2025-11-15T09:01:27Z",
+        "timestamp": 1763197287000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2590123025013878"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            6
+          ]
+        ]
+      },
+      "references-count": 55,
+      "alternative-id": [
+        "S2590123025013878"
+      ],
+      "URL": "https://doi.org/10.1016/j.rineng.2025.105317",
+      "relation": {},
+      "ISSN": [
+        "2590-1230"
+      ],
+      "issn-type": [
+        {
+          "value": "2590-1230",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            6
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "A spatio-temporal fusion-based approach for multi-dimensional classification of Parkinson’s disease progression using multi-modal dataset",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Results in Engineering",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.rineng.2025.105317",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2025 The Author(s). Published by Elsevier B.V.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "105317"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Vinay Kukreja",
+      "given_name_from_source": "Vinay",
+      "family_name_from_source": "Kukreja",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Vandana Ahuja",
+      "given_name_from_source": "Vandana",
+      "family_name_from_source": "Ahuja",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Modafar Ati",
+      "given_name_from_source": "Modafar",
+      "family_name_from_source": "Ati",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Hariharan Shanmugasundaram",
+      "given_name_from_source": "Hariharan",
+      "family_name_from_source": "Shanmugasundaram",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Murugaperumal Krishnamoorthy",
+      "given_name_from_source": "Murugaperumal",
+      "family_name_from_source": "Krishnamoorthy",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "Rishabh Sharma",
+      "given_name_from_source": "Rishabh",
+      "family_name_from_source": "Sharma",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 7,
+      "author_name_from_source": "Abhishek Bhattacherjee",
+      "given_name_from_source": "Abhishek",
+      "family_name_from_source": "Bhattacherjee",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

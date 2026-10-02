@@ -1,0 +1,698 @@
+{
+  "doi": "10.1155/2024/8933933",
+  "title": "Application of Covariance Matrix Adaptation‐Evolutionary Strategy for Modified Constrained Optimal Power Flow Problem Incorporating Valve Point and Emission Effect",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "International Transactions on Electrical Energy Systems",
+  "publisher": "Wiley",
+  "publication_date": "2024-07-17",
+  "online_publication_date": "2024-07-17",
+  "print_publication_date": null,
+  "volume": "2024",
+  "issue": "1",
+  "pages_or_article_number": "8933933",
+  "issn": "2050-7038",
+  "eissn": "2050-7038",
+  "isbn": null,
+  "url": "https://doi.org/10.1155/2024/8933933",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:08.535758+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            12
+          ]
+        ],
+        "date-time": "2026-08-12T17:19:23Z",
+        "timestamp": 1786555163240,
+        "version": "build-2736575974"
+      },
+      "reference-count": 41,
+      "publisher": "Wiley",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                7,
+                17
+              ]
+            ],
+            "date-time": "2024-07-17T00:00:00Z",
+            "timestamp": 1721174400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 198,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "onlinelibrary.wiley.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "International Transactions on Electrical Energy Systems"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            1
+          ]
+        ]
+      },
+      "abstract": "<jats:p>A prevailing problem in power and energy subsystems is the smooth operation of electric energy systems. This work presents recent, efficient, and reliable evolutionary algorithm for solving the optimal power flow (OPF) analysis. All various practical complex equality and inequality constraints, namely, bus voltages, real powers of the generator buses, tap settings of the transformers and the reactive power generations, shunt compensation, and emission, are considered for the real‐world scenario. Primary feature in a gas power plant that raises a lot of computational shortcomings with nonlinear structure in fuel cost is valve point effect. The existing research works have not factored the valve point effect and lack the accuracy in the fuel cost minimization and do not reflect the various practical complexities such as valve point and emission effects in the OPF problem formulation. This paper, for the first time, introduces modified OPF problem formulation incorporating valve point effect and applies covariance matrix adaptation‐evolution strategy (CMA‐ES) for solving the modified OPF problem. The algorithm is scrutinised and tested on a modified IEEE‐30‐bus platform for various OPF objectives such as cost minimization, transmission loss, and total voltage deviation, subjected to practical constraints. Load flow analysis has been carried out using the Newton–Raphson method. This work aims to lay the foundation in such a way that it can be applicable in a real‐world scenario for any number of buses.</jats:p>",
+      "DOI": "10.1155/2024/8933933",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            17
+          ]
+        ],
+        "date-time": "2024-07-17T11:35:25Z",
+        "timestamp": 1721216125000
+      },
+      "update-policy": "https://doi.org/10.1002/crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "title": [
+        "Application of Covariance Matrix Adaptation‐Evolutionary Strategy for Modified Constrained Optimal Power Flow Problem Incorporating Valve Point and Emission Effect"
+      ],
+      "prefix": "10.1155",
+      "volume": "2024",
+      "author": [
+        {
+          "given": "Hari Krishna Achuthan",
+          "family": "Parthasarathy",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Madhusudan",
+          "family": "Saranathan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4167-9115",
+          "authenticated-orcid": false,
+          "given": "Tamilselvi",
+          "family": "S.",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3325-566X",
+          "authenticated-orcid": false,
+          "given": "Karuppiah",
+          "family": "N.",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1561-1376",
+          "authenticated-orcid": false,
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9958-754X",
+          "authenticated-orcid": false,
+          "given": "Dhanamjayulu",
+          "family": "C.",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3093-6032",
+          "authenticated-orcid": false,
+          "given": "Baseem",
+          "family": "Khan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Thamilmaran",
+          "family": "A.",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "311",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            17
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_10_1_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-540-88965-6_18"
+        },
+        {
+          "key": "e_1_2_10_2_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/ente.201700552"
+        },
+        {
+          "key": "e_1_2_10_3_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijepes.2018.12.008"
+        },
+        {
+          "key": "e_1_2_10_4_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.epsr.2018.07.003"
+        },
+        {
+          "key": "e_1_2_10_5_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijepes.2014.03.039"
+        },
+        {
+          "key": "e_1_2_10_6_2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "MondalA. MaityD. BanerjeeS. andChandaC. K. Solving of economic load dispatch problem with generator constraints using ITLBO technique Proceedings of the 2016 IEEE Students’ Conference on Electrical Electronics and Computer Science (SCEECS) June 2016 Bhopal India 1–6.",
+          "DOI": "10.1109/SCEECS.2016.7509270"
+        },
+        {
+          "key": "e_1_2_10_7_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1049/iet-gtd.2011.0593"
+        },
+        {
+          "key": "e_1_2_10_8_2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "YadavV.andGhoshalS. P. Optimal power flow for IEEE 30 and 118-bus systems using monarch butterfly optimization Proceedings of the 2018 Technologies for Smart-City Energy Security and Power (ICSESP) August 2018 Bhubaneswar India 1–6.",
+          "DOI": "10.1109/ICSESP.2018.8376670"
+        },
+        {
+          "key": "e_1_2_10_9_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/59.192891"
+        },
+        {
+          "key": "e_1_2_10_10_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijepes.2016.02.004"
+        },
+        {
+          "key": "e_1_2_10_11_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/s0142-0615(02)00020-0"
+        },
+        {
+          "key": "e_1_2_10_12_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.enconman.2012.01.017"
+        },
+        {
+          "key": "e_1_2_10_13_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.enconman.2010.08.017"
+        },
+        {
+          "key": "e_1_2_10_14_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijepes.2010.01.010"
+        },
+        {
+          "key": "e_1_2_10_15_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.asoc.2015.11.027"
+        },
+        {
+          "key": "e_1_2_10_16_2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "KimK. S. JungL. H. LeeS. C. andMoonU. C. Security constrained economic dispatch using interior point method Proceedings of the 2006 International Conference on Power System Technology July 2006 Chongqing China 1–6.",
+          "DOI": "10.1109/ICPST.2006.321680"
+        },
+        {
+          "key": "e_1_2_10_17_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/59.801880"
+        },
+        {
+          "key": "e_1_2_10_18_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICNC.2009.477"
+        },
+        {
+          "key": "e_1_2_10_19_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijepes.2013.08.010"
+        },
+        {
+          "key": "e_1_2_10_20_2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "PanyP. K. GhoshalS. P. andMukherjeeV. Collective animal behavior algorithm for optimal reactive power dispatch problems Proceedings of the 2017 IEEE International Conference on Power Control Signals and Instrumentation Engineering (ICPCSI) May 2017 Chennai India 1327–1332.",
+          "DOI": "10.1109/ICPCSI.2017.8391926"
+        },
+        {
+          "key": "e_1_2_10_21_2",
+          "unstructured": "LeetonU. UthitsunthornD. KwannetrU. SinsuphunN. andKulworawanichpongT. Power loss minimization using optimal power flow based on particle swarm optimization Proceedings of the ECTI-CON2010: The 2010 ECTI International Confernce on Electrical Engineering/Electronics Computer Telecommunications and Information Technology October 2010 Bangkok Thailand 440–444."
+        },
+        {
+          "key": "e_1_2_10_22_2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "RizwanaJ. JeevithaR. VenkateshR. andParthibanK. S. Minimization of Fuel Cost in solving the power economic dispatch problem including Transmission Losses by using modified Particle Swarm Optimization Proceedings of the 2015 IEEE International Conference on Computational Intelligence and Computing Research (ICCIC) June 2015 Madurai India 1–4.",
+          "DOI": "10.1109/ICCIC.2015.7435718"
+        },
+        {
+          "key": "e_1_2_10_23_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/ente.202100156"
+        },
+        {
+          "key": "e_1_2_10_24_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/coin.12312"
+        },
+        {
+          "key": "e_1_2_10_25_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.epsr.2020.106786"
+        },
+        {
+          "key": "e_1_2_10_26_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1049/iet-gtd.2011.0055"
+        },
+        {
+          "key": "e_1_2_10_27_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neucom.2013.09.065"
+        },
+        {
+          "key": "e_1_2_10_28_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/s0045-7825(99)00389-8"
+        },
+        {
+          "key": "e_1_2_10_29_2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "HansenN. AugerA. RosR. FinckS. andPošíkP. Comparing results of 31 algorithms from the black-box optimization benchmarking BBOB-2009 Proceedings of the 12th Annual Conference Companion on Genetic and Evolutionary Computation June 2010 Portland CA USA 1689–1696.",
+          "DOI": "10.1145/1830761.1830790"
+        },
+        {
+          "key": "e_1_2_10_30_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.epsr.2004.02.006"
+        },
+        {
+          "key": "e_1_2_10_31_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/3-540-32494-1_4"
+        },
+        {
+          "key": "e_1_2_10_32_2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "AugerA.andHansenN. Tutorial CMA-ES: evolution strategies and covariance matrix adaptation Proceedings of the 14th Annual Conference Companion on Genetic and Evolutionary Computation June 2012 Europe UK 827–848.",
+          "DOI": "10.1145/2330784.2330919"
+        },
+        {
+          "key": "e_1_2_10_33_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijepes.2013.07.019"
+        },
+        {
+          "key": "e_1_2_10_34_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/tpas.1974.293972"
+        },
+        {
+          "key": "e_1_2_10_35_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/15325000252888425"
+        },
+        {
+          "key": "e_1_2_10_36_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/s0142-0615(02)00006-6"
+        },
+        {
+          "key": "e_1_2_10_37_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/tpwrs.2007.907375"
+        },
+        {
+          "key": "e_1_2_10_38_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/tpwrs.2002.1007886"
+        },
+        {
+          "key": "e_1_2_10_39_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijepes.2016.03.028"
+        },
+        {
+          "key": "e_1_2_10_40_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.epsr.2009.12.018"
+        },
+        {
+          "key": "e_1_2_10_41_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1504/ijpec.2010.037630"
+        }
+      ],
+      "container-title": [
+        "International Transactions on Electrical Energy Systems"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1155/2024/8933933",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            24
+          ]
+        ],
+        "date-time": "2024-11-24T08:13:40Z",
+        "timestamp": 1732436020000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://onlinelibrary.wiley.com/doi/10.1155/2024/8933933"
+        }
+      },
+      "subtitle": [],
+      "editor": [
+        {
+          "given": "Salvatore",
+          "family": "Favuzza",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "editor"
+            }
+          ]
+        }
+      ],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            1
+          ]
+        ]
+      },
+      "references-count": 41,
+      "journal-issue": {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              1
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1155/2024/8933933"
+      ],
+      "URL": "https://doi.org/10.1155/2024/8933933",
+      "archive": [
+        "Portico"
+      ],
+      "relation": {},
+      "ISSN": [
+        "2050-7038",
+        "2050-7038"
+      ],
+      "issn-type": [
+        {
+          "value": "2050-7038",
+          "type": "print"
+        },
+        {
+          "value": "2050-7038",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            1
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2023-09-19",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2024-05-09",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2024-07-17",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ],
+      "article-number": "8933933"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Hari Krishna Achuthan Parthasarathy",
+      "given_name_from_source": "Hari Krishna Achuthan",
+      "family_name_from_source": "Parthasarathy",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Madhusudan Saranathan",
+      "given_name_from_source": "Madhusudan",
+      "family_name_from_source": "Saranathan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Tamilselvi S.",
+      "given_name_from_source": "Tamilselvi",
+      "family_name_from_source": "S.",
+      "orcid_from_source": "https://orcid.org/0000-0002-4167-9115",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Karuppiah N.",
+      "given_name_from_source": "Karuppiah",
+      "family_name_from_source": "N.",
+      "orcid_from_source": "https://orcid.org/0000-0003-3325-566X",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": "https://orcid.org/0000-0003-1561-1376",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "Dhanamjayulu C.",
+      "given_name_from_source": "Dhanamjayulu",
+      "family_name_from_source": "C.",
+      "orcid_from_source": "https://orcid.org/0000-0001-9958-754X",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 7,
+      "author_name_from_source": "Baseem Khan",
+      "given_name_from_source": "Baseem",
+      "family_name_from_source": "Khan",
+      "orcid_from_source": "https://orcid.org/0000-0002-3093-6032",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 8,
+      "author_name_from_source": "Thamilmaran A.",
+      "given_name_from_source": "Thamilmaran",
+      "family_name_from_source": "A.",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

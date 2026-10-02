@@ -1,0 +1,757 @@
+{
+  "doi": "10.1007/s00202-025-03043-5",
+  "title": "Experimental validation of hybrid L-shape propagated PV array configuration under realistic shading conditions",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Electrical Engineering",
+  "publisher": "Springer Science and Business Media LLC",
+  "publication_date": "2025-03-16",
+  "online_publication_date": "2025-03-16",
+  "print_publication_date": null,
+  "volume": "107",
+  "issue": "8",
+  "pages_or_article_number": "10507-10523",
+  "issn": "0948-7921",
+  "eissn": "1432-0487",
+  "isbn": null,
+  "url": "https://doi.org/10.1007/s00202-025-03043-5",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:45.551454+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            23
+          ]
+        ],
+        "date-time": "2026-08-23T18:15:58Z",
+        "timestamp": 1787508958520,
+        "version": "build-2736575974"
+      },
+      "reference-count": 31,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "8",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                16
+              ]
+            ],
+            "date-time": "2025-03-16T00:00:00Z",
+            "timestamp": 1742083200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                16
+              ]
+            ],
+            "date-time": "2025-03-16T00:00:00Z",
+            "timestamp": 1742083200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100012639",
+          "name": "Prince Sultan University",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "13354-PSU-2023-PSNU-R-3-1-EI"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "13354-PSU-2023-PSNU-R-3-1-EI"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100012639",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Electr Eng"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            8
+          ]
+        ]
+      },
+      "DOI": "10.1007/s00202-025-03043-5",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            16
+          ]
+        ],
+        "date-time": "2025-03-16T02:41:49Z",
+        "timestamp": 1742092909000
+      },
+      "page": "10507-10523",
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 16,
+      "title": [
+        "Experimental validation of hybrid L-shape propagated PV array configuration under realistic shading conditions"
+      ],
+      "prefix": "10.1007",
+      "volume": "107",
+      "author": [
+        {
+          "given": "S.",
+          "family": "Devakirubakaran",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "M.",
+          "family": "Deepak",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Muhammad Ammirrul Atiqi B. Mohd",
+          "family": "Zainuri",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Umashankar",
+          "family": "Subramaniam",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            16
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "3043_CR1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.techfore.2023.122930",
+          "volume": "198",
+          "author": "ST Bryant",
+          "year": "2024",
+          "unstructured": "Bryant ST, Straker K, Wrigley C (2024) The need for sectoral transition design: a case of the shift to renewable energy. Technol Forecast Soc Change 198:122930. https://doi.org/10.1016/j.techfore.2023.122930",
+          "journal-title": "Technol Forecast Soc Change"
+        },
+        {
+          "key": "3043_CR2",
+          "doi-asserted-by": "publisher",
+          "first-page": "655",
+          "DOI": "10.1016/j.rser.2015.04.070",
+          "volume": "49",
+          "author": "P Viebahn",
+          "year": "2015",
+          "unstructured": "Viebahn P, Soukup O, Samadi S, Teubler J, Wiesen K, Ritthoff M (2015) Assessing the need for critical minerals to shift the German energy system towards a high proportion of renewables. Renew Sustain Energy Rev 49:655–671. https://doi.org/10.1016/j.rser.2015.04.070",
+          "journal-title": "Renew Sustain Energy Rev"
+        },
+        {
+          "key": "3043_CR3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.rser.2023.113923",
+          "volume": "189",
+          "author": "F Wang",
+          "year": "2024",
+          "unstructured": "Wang F, Zhuang L, Cheng S, Zhang Y, Cheng S (2024) Spatiotemporal variation and convergence analysis of China’s regional energy security. Renew Sustain Energy Rev 189:113923. https://doi.org/10.1016/j.rser.2023.113923",
+          "journal-title": "Renew Sustain Energy Rev"
+        },
+        {
+          "key": "3043_CR4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.rser.2020.109967",
+          "volume": "131",
+          "author": "Y Yang",
+          "year": "2020",
+          "unstructured": "Yang Y, Campana PE, Yan J (2020) Potential of unsubsidized distributed solar PV to replace coal-fired power plants, and profits classification in Chinese cities. Renew Sustain Energy Rev 131:109967. https://doi.org/10.1016/j.rser.2020.109967",
+          "journal-title": "Renew Sustain Energy Rev"
+        },
+        {
+          "key": "3043_CR5",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Aghaei M, Kumar NM, Eskandari A, Ahmed H, de Oliveira AKV, Chopra SS (2020) Solar PV systems design and monitoring. In: Photovoltaic solar energy conversion. Elsevier, pp. 117–145. https://doi.org/10.1016/B978-0-12-819610-6.00005-3",
+          "DOI": "10.1016/B978-0-12-819610-6.00005-3"
+        },
+        {
+          "key": "3043_CR6",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Prince Winston D, Ganesan K, B PK, Samithas D, Baladhanautham CB (2020) Experimental investigation on output power enhancement of partial shaded solar photovoltaic system. Energy Sources Part A Recov Utiliz Environ Effects, pp. 1–17. https://doi.org/10.1080/15567036.2020.1779872",
+          "DOI": "10.1080/15567036.2020.1779872"
+        },
+        {
+          "issue": "2",
+          "key": "3043_CR7",
+          "doi-asserted-by": "publisher",
+          "first-page": "248",
+          "DOI": "10.1049/iet-rpg.2016.0590",
+          "volume": "11",
+          "author": "K Lappalainen",
+          "year": "2017",
+          "unstructured": "Lappalainen K, Valkealahti S (2017) Effects of irradiance transition characteristics on the mismatch losses of different electrical PV array configurations. IET Renew Power Gener 11(2):248–254. https://doi.org/10.1049/iet-rpg.2016.0590",
+          "journal-title": "IET Renew Power Gener"
+        },
+        {
+          "key": "3043_CR8",
+          "doi-asserted-by": "publisher",
+          "first-page": "455",
+          "DOI": "10.1016/j.solener.2017.10.001",
+          "volume": "158",
+          "author": "K Lappalainen",
+          "year": "2017",
+          "unstructured": "Lappalainen K, Valkealahti S (2017) Photovoltaic mismatch losses caused by moving clouds. Sol Energy 158:455–461. https://doi.org/10.1016/j.solener.2017.10.001",
+          "journal-title": "Sol Energy"
+        },
+        {
+          "key": "3043_CR9",
+          "doi-asserted-by": "publisher",
+          "first-page": "15081",
+          "DOI": "10.1016/j.egyr.2022.11.014",
+          "volume": "8",
+          "author": "TN Prasad",
+          "year": "2022",
+          "unstructured": "Prasad TN et al (2022) Power management in hybrid ANFIS PID based AC–DC microgrids with EHO based cost optimized droop control strategy. Energy Rep 8:15081–15094. https://doi.org/10.1016/j.egyr.2022.11.014",
+          "journal-title": "Energy Rep"
+        },
+        {
+          "issue": "28",
+          "key": "3043_CR10",
+          "doi-asserted-by": "publisher",
+          "first-page": "72617",
+          "DOI": "10.1007/s11356-023-27261-1",
+          "volume": "30",
+          "author": "B Aljafari",
+          "year": "2023",
+          "unstructured": "Aljafari B, Balachandran PK, Samithas D, Thanikanti SB (2023) Solar photovoltaic converter controller using opposition-based reinforcement learning with butterfly optimization algorithm under partial shading conditions. Environ Sci Pollut Res 30(28):72617–72640. https://doi.org/10.1007/s11356-023-27261-1",
+          "journal-title": "Environ Sci Pollut Res"
+        },
+        {
+          "issue": "1",
+          "key": "3043_CR11",
+          "doi-asserted-by": "publisher",
+          "first-page": "313",
+          "DOI": "10.1109/TEC.2018.2873667",
+          "volume": "34",
+          "author": "VV Ramana",
+          "year": "2019",
+          "unstructured": "Ramana VV, Mudlapur A, Damodaran RV, Venkatesaperumal B, Mishra S (2019) Global peak tracking of photovoltaic array under mismatching conditions using current control. IEEE Trans Energy Convers 34(1):313–320. https://doi.org/10.1109/TEC.2018.2873667",
+          "journal-title": "IEEE Trans Energy Convers"
+        },
+        {
+          "key": "3043_CR12",
+          "doi-asserted-by": "publisher",
+          "first-page": "854",
+          "DOI": "10.1016/j.rser.2017.05.083",
+          "volume": "80",
+          "author": "A Mohapatra",
+          "year": "2017",
+          "unstructured": "Mohapatra A, Nayak B, Das P, Mohanty KB (2017) A review on MPPT techniques of PV system under partial shading condition. Renew Sustain Energy Rev 80:854–867. https://doi.org/10.1016/j.rser.2017.05.083",
+          "journal-title": "Renew Sustain Energy Rev"
+        },
+        {
+          "key": "3043_CR13",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Srinivasan A, Devakirubakaran S, Meenakshi Sundaram B (2020) Mitigation of mismatch losses in solar PV system—two-step reconfiguration approach. Solar energy, vol 206, pp 640–654. https://doi.org/10.1016/j.solener.2020.06.004",
+          "DOI": "10.1016/j.solener.2020.06.004"
+        },
+        {
+          "issue": "22",
+          "key": "3043_CR14",
+          "doi-asserted-by": "publisher",
+          "first-page": "8450",
+          "DOI": "10.3390/en15228450",
+          "volume": "15",
+          "author": "S Alwar",
+          "year": "2022",
+          "unstructured": "Alwar S, Samithas D, Boominathan MS, Balachandran PK, Mihet-Popa L (2022) Performance analysis of thermal image processing-based photovoltaic fault detection and PV array reconfiguration—a detailed experimentation. Energies (Basel) 15(22):8450. https://doi.org/10.3390/en15228450",
+          "journal-title": "Energies (Basel)"
+        },
+        {
+          "key": "3043_CR15",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Thanikanti SB, B PK, D S, Aljafari B, Colak I (2023) A dynamic mismatch loss mitigation algorithm with dual input dual output converter for solar PV systems. Solar energy materials and solar cells, vol 251, p 112163. https://doi.org/10.1016/j.solmat.2022.112163",
+          "DOI": "10.1016/j.solmat.2022.112163"
+        },
+        {
+          "issue": "7",
+          "key": "3043_CR16",
+          "doi-asserted-by": "publisher",
+          "first-page": "3764",
+          "DOI": "10.3390/su14073764",
+          "volume": "14",
+          "author": "M Durango-Flórez",
+          "year": "2022",
+          "unstructured": "Durango-Flórez M, González-Montoya D, Trejos-Grisales LA, Ramos-Paja CA (2022) PV array reconfiguration based on genetic algorithm for maximum power extraction and energy impact analysis. Sustainability 14(7):3764. https://doi.org/10.3390/su14073764",
+          "journal-title": "Sustainability"
+        },
+        {
+          "issue": "1",
+          "key": "3043_CR17",
+          "doi-asserted-by": "publisher",
+          "first-page": "74",
+          "DOI": "10.1109/TSTE.2017.2714905",
+          "volume": "9",
+          "author": "TS Babu",
+          "year": "2018",
+          "unstructured": "Babu TS, Ram JP, Dragicevic T, Miyatake M, Blaabjerg F, Rajasekar N (2018) Particle swarm optimization based solar PV array reconfiguration of the maximum power extraction under partial shading conditions. IEEE Trans Sustain Energy 9(1):74–85. https://doi.org/10.1109/TSTE.2017.2714905",
+          "journal-title": "IEEE Trans Sustain Energy"
+        },
+        {
+          "key": "3043_CR18",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Prince Winston D, Kumaravel S, Praveen Kumar B, Devakirubakaran S (2020) Performance improvement of solar PV array topologies during various partial shading condition. Solar Energy, vol 196, pp 228–242. https://doi.org/10.1016/j.solener.2019.12.007",
+          "DOI": "10.1016/j.solener.2019.12.007"
+        },
+        {
+          "key": "3043_CR19",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Devakirubakaran S, Verma R, Bharatiraja C, Mihet-Popa L (2023) Performance evaluation of static PV array configurations for mitigating mismatch losses. IEEE Access, pp 1–1. https://doi.org/10.1109/ACCESS.2023.3274684",
+          "DOI": "10.1109/ACCESS.2023.3274684"
+        },
+        {
+          "key": "3043_CR20",
+          "doi-asserted-by": "publisher",
+          "first-page": "274",
+          "DOI": "10.1016/j.egyr.2018.03.003",
+          "volume": "4",
+          "author": "SR Pendem",
+          "year": "2018",
+          "unstructured": "Pendem SR, Mikkili S (2018) Modeling, simulation and performance analysis of solar PV array configurations (series, series-parallel and honey-comb) to extract maximum power under partial shading conditions. Energy Rep 4:274–287. https://doi.org/10.1016/j.egyr.2018.03.003",
+          "journal-title": "Energy Rep"
+        },
+        {
+          "key": "3043_CR21",
+          "doi-asserted-by": "publisher",
+          "first-page": "501",
+          "DOI": "10.1016/j.solener.2016.03.058",
+          "volume": "133",
+          "author": "S Mohammadnejad",
+          "year": "2016",
+          "unstructured": "Mohammadnejad S, Khalafi A, Ahmadi SM (2016) Mathematical analysis of total-cross-tied photovoltaic array under partial shading condition and its comparison with other configurations. Sol Energy 133:501–511. https://doi.org/10.1016/j.solener.2016.03.058",
+          "journal-title": "Sol Energy"
+        },
+        {
+          "key": "3043_CR22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.enconman.2023.118034",
+          "volume": "301",
+          "author": "D Ahluwalia",
+          "year": "2024",
+          "unstructured": "Ahluwalia D, Anjum S, Mukherjee V (2024) Comprehensive analysis of line losses and valuation of energy savings in optimized photovoltaic array subjected to partial shadings. Energy Convers Manag 301:118034. https://doi.org/10.1016/j.enconman.2023.118034",
+          "journal-title": "Energy Convers Manag"
+        },
+        {
+          "key": "3043_CR23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.enconman.2023.117211",
+          "volume": "290",
+          "author": "D Ahluwalia",
+          "year": "2023",
+          "unstructured": "Ahluwalia D, Anjum S, Mukherjee V (2023) Boost in energy generation using robust reconfiguration: a novel scheme for photovoltaic array under realistic fractional partial shadings. Energy Convers Manag 290:117211. https://doi.org/10.1016/j.enconman.2023.117211",
+          "journal-title": "Energy Convers Manag"
+        },
+        {
+          "key": "3043_CR24",
+          "doi-asserted-by": "publisher",
+          "first-page": "161",
+          "DOI": "10.1016/j.solener.2020.04.054",
+          "volume": "204",
+          "author": "G Sagar",
+          "year": "2020",
+          "unstructured": "Sagar G, Pathak D, Gaur P, Jain V (2020) A Su Do Ku puzzle based shade dispersion for maximum power enhancement of partially shaded hybrid bridge-link-total-cross-tied PV array. Sol Energy 204:161–180. https://doi.org/10.1016/j.solener.2020.04.054",
+          "journal-title": "Sol Energy"
+        },
+        {
+          "issue": "13",
+          "key": "3043_CR25",
+          "doi-asserted-by": "publisher",
+          "first-page": "4910",
+          "DOI": "10.3390/en16134910",
+          "volume": "16",
+          "author": "C-E Ye",
+          "year": "2023",
+          "unstructured": "Ye C-E, Tai C-C, Huang Y-P (2023) Disperse partial shading effect of photovoltaic array by means of the modified complementary SuDoKu puzzle topology. Energies (Basel) 16(13):4910. https://doi.org/10.3390/en16134910",
+          "journal-title": "Energies (Basel)"
+        },
+        {
+          "key": "3043_CR26",
+          "doi-asserted-by": "publisher",
+          "first-page": "84",
+          "DOI": "10.1016/j.enconman.2017.10.080",
+          "volume": "156",
+          "author": "B Dhanalakshmi",
+          "year": "2018",
+          "unstructured": "Dhanalakshmi B, Rajasekar N (2018) Dominance square based array reconfiguration scheme for power loss reduction in solar PhotoVoltaic (PV) systems. Energy Convers Manag 156:84–102. https://doi.org/10.1016/j.enconman.2017.10.080",
+          "journal-title": "Energy Convers Manag"
+        },
+        {
+          "key": "3043_CR27",
+          "doi-asserted-by": "publisher",
+          "first-page": "897",
+          "DOI": "10.1016/j.enconman.2018.08.077",
+          "volume": "174",
+          "author": "B Dhanalakshmi",
+          "year": "2018",
+          "unstructured": "Dhanalakshmi B, Rajasekar N (2018) A novel Competence Square based PV array reconfiguration technique for solar PV maximum power extraction. Energy Convers Manag 174:897–912. https://doi.org/10.1016/j.enconman.2018.08.077",
+          "journal-title": "Energy Convers Manag"
+        },
+        {
+          "key": "3043_CR28",
+          "doi-asserted-by": "publisher",
+          "first-page": "97661",
+          "DOI": "10.1109/ACCESS.2021.3094736",
+          "volume": "9",
+          "author": "A Srinivasan",
+          "year": "2021",
+          "unstructured": "Srinivasan A et al (2021) L-shape propagated array configuration with dynamic reconfiguration algorithm for enhancing energy conversion rate of partial shaded photovoltaic systems. IEEE Access 9:97661–97674. https://doi.org/10.1109/ACCESS.2021.3094736",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "3043_CR29",
+          "doi-asserted-by": "publisher",
+          "first-page": "123103",
+          "DOI": "10.1109/ACCESS.2021.3109248",
+          "volume": "9",
+          "author": "SK Cherukuri",
+          "year": "2021",
+          "unstructured": "Cherukuri SK et al (2021) Power enhancement in partial shaded photovoltaic system using spiral pattern array configuration scheme. IEEE Access 9:123103–123116. https://doi.org/10.1109/ACCESS.2021.3109248",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "issue": "1",
+          "key": "3043_CR30",
+          "doi-asserted-by": "publisher",
+          "first-page": "24",
+          "DOI": "10.1186/s40068-015-0047-9",
+          "volume": "4",
+          "author": "XH Nguyen",
+          "year": "2015",
+          "unstructured": "Nguyen XH, Nguyen MP (2015) Mathematical modeling of photovoltaic cell/module/arrays with tags in Matlab/Simulink. Environ Syst Res 4(1):24. https://doi.org/10.1186/s40068-015-0047-9",
+          "journal-title": "Environ Syst Res"
+        },
+        {
+          "key": "3043_CR31",
+          "doi-asserted-by": "publisher",
+          "first-page": "292",
+          "DOI": "10.1016/j.solener.2019.03.089",
+          "volume": "184",
+          "author": "T Ma",
+          "year": "2019",
+          "unstructured": "Ma T, Gu W, Shen L, Li M (2019) An improved and comprehensive mathematical model for solar photovoltaic modules under real operating conditions. Sol Energy 184:292–304. https://doi.org/10.1016/j.solener.2019.03.089",
+          "journal-title": "Sol Energy"
+        }
+      ],
+      "container-title": [
+        "Electrical Engineering"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s00202-025-03043-5.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/article/10.1007/s00202-025-03043-5/fulltext.html",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s00202-025-03043-5.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            25
+          ]
+        ],
+        "date-time": "2025-08-25T03:14:31Z",
+        "timestamp": 1756091671000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://link.springer.com/10.1007/s00202-025-03043-5"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            16
+          ]
+        ]
+      },
+      "references-count": 31,
+      "journal-issue": {
+        "issue": "8",
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              8
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "3043"
+      ],
+      "URL": "https://doi.org/10.1007/s00202-025-03043-5",
+      "relation": {},
+      "ISSN": [
+        "0948-7921",
+        "1432-0487"
+      ],
+      "issn-type": [
+        {
+          "value": "0948-7921",
+          "type": "print"
+        },
+        {
+          "value": "1432-0487",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            16
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "15 April 2024",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "25 February 2025",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "16 March 2025",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Declarations"
+          }
+        },
+        {
+          "value": "The authors declare that they have no competing interests.",
+          "order": 2,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Conflict if interest"
+          }
+        }
+      ]
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "S. Devakirubakaran",
+      "given_name_from_source": "S.",
+      "family_name_from_source": "Devakirubakaran",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "M. Deepak",
+      "given_name_from_source": "M.",
+      "family_name_from_source": "Deepak",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Muhammad Ammirrul Atiqi B. Mohd Zainuri",
+      "given_name_from_source": "Muhammad Ammirrul Atiqi B. Mohd",
+      "family_name_from_source": "Zainuri",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Umashankar Subramaniam",
+      "given_name_from_source": "Umashankar",
+      "family_name_from_source": "Subramaniam",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

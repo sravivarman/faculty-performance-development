@@ -1,0 +1,729 @@
+{
+  "doi": "10.1016/j.seppur.2025.136621",
+  "title": "Calcium concentration management in water treatment using FD-RL in hybrid reverse osmosis–membrane distillation systems",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Separation and Purification Technology",
+  "publisher": "Elsevier BV",
+  "publication_date": null,
+  "online_publication_date": null,
+  "print_publication_date": null,
+  "volume": "387",
+  "issue": null,
+  "pages_or_article_number": "136621",
+  "issn": "1383-5866",
+  "eissn": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1016/j.seppur.2025.136621",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:00.008093+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            17
+          ]
+        ],
+        "date-time": "2026-08-17T20:00:40Z",
+        "timestamp": 1786996840841,
+        "version": "build-2736575974"
+      },
+      "reference-count": 30,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                1
+              ]
+            ],
+            "date-time": "2026-04-01T00:00:00Z",
+            "timestamp": 1775001600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                1
+              ]
+            ],
+            "date-time": "2026-04-01T00:00:00Z",
+            "timestamp": 1775001600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                1
+              ]
+            ],
+            "date-time": "2026-04-01T00:00:00Z",
+            "timestamp": 1775001600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-017"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                1
+              ]
+            ],
+            "date-time": "2026-04-01T00:00:00Z",
+            "timestamp": 1775001600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                1
+              ]
+            ],
+            "date-time": "2026-04-01T00:00:00Z",
+            "timestamp": 1775001600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-012"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                1
+              ]
+            ],
+            "date-time": "2026-04-01T00:00:00Z",
+            "timestamp": 1775001600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                1
+              ]
+            ],
+            "date-time": "2026-04-01T00:00:00Z",
+            "timestamp": 1775001600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-004"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Separation and Purification Technology"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            4
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.seppur.2025.136621",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            23
+          ]
+        ],
+        "date-time": "2025-12-23T16:21:57Z",
+        "timestamp": 1766506917000
+      },
+      "page": "136621",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "special_numbering": "C",
+      "title": [
+        "Calcium concentration management in water treatment using FD-RL in hybrid reverse osmosis–membrane distillation systems"
+      ],
+      "prefix": "10.1016",
+      "volume": "387",
+      "author": [
+        {
+          "given": "P.",
+          "family": "Manojkumar",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ravivarman",
+          "family": "Shanmugasundaram",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "S.",
+          "family": "Vanithamani",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "R.",
+          "family": "Ramkumar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "issue": "3",
+          "key": "10.1016/j.seppur.2025.136621_bb0035",
+          "first-page": "1",
+          "article-title": "Smart sensors embedded systems for environmental monitoring system integration",
+          "volume": "2",
+          "author": "Min",
+          "year": "2025",
+          "journal-title": "Journal of Integrated VLSI, Embedded and Computing Technologies"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.seppur.2025.136621_bb0045",
+          "first-page": "33",
+          "article-title": "Smart sensor infrastructure for environmental air quality monitoring",
+          "volume": "12",
+          "author": "Pushpavalli",
+          "year": "2024",
+          "journal-title": "International Journal of Communication and Computer Technologies"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.seppur.2025.136621_bb0005",
+          "doi-asserted-by": "crossref",
+          "first-page": "231",
+          "DOI": "10.3390/electronics8020231",
+          "article-title": "Online tuning of a PID controller with a fuzzy reinforcement learning MAS for flow rate control of a desalination unit",
+          "volume": "8",
+          "author": "Kofinas",
+          "year": "2019",
+          "journal-title": "Electronics"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.seppur.2025.136621_bb0010",
+          "first-page": "67",
+          "article-title": "Energy harvesting techniques for sustainable embedded systems: design and applications",
+          "volume": "2",
+          "author": "Orozco",
+          "year": "2025",
+          "journal-title": "SCCTS Journal of Embedded Systems Design and Applications"
+        },
+        {
+          "key": "10.1016/j.seppur.2025.136621_bb0015",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.apenergy.2022.119184",
+          "article-title": "Novel data-driven energy management of a hybrid photovoltaic–reverse osmosis desalination system using deep reinforcement learning",
+          "volume": "317",
+          "author": "Soleimanzade",
+          "year": "2022",
+          "journal-title": "Appl. Energy"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.seppur.2025.136621_bb0090",
+          "doi-asserted-by": "crossref",
+          "first-page": "21",
+          "DOI": "10.70102/AEEF/V1I1/5",
+          "article-title": "Scientometric review of sustainable land use and management research",
+          "volume": "1",
+          "author": "Ziwei",
+          "year": "2023",
+          "journal-title": "Aquatic Ecosystems and Environmental Frontiers"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.seppur.2025.136621_bb0115",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.9756/IAJSS/V5I2/18100022",
+          "article-title": "Sustainable Fishing Village business model: case study of Kuala Pahang Malaysia",
+          "volume": "5",
+          "author": "Ismail",
+          "year": "2018",
+          "journal-title": "International Academic Journal of Social Sciences"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.seppur.2025.136621_bb0030",
+          "first-page": "66",
+          "article-title": "Efficient water desalination with graphene nanopores obtained using artificial intelligence. Npj 2D",
+          "volume": "5",
+          "author": "Wang",
+          "year": "2021",
+          "journal-title": "Materials and Applications"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.seppur.2025.136621_bb0120",
+          "first-page": "221",
+          "article-title": "Human-computer interaction for aquatic animal tracking and monitoring water quality parameters",
+          "volume": "5",
+          "author": "Savita Chandna",
+          "year": "2025",
+          "journal-title": "International Journal of Aquatic Research and Environmental Studies"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.seppur.2025.136621_bb0020",
+          "first-page": "62",
+          "article-title": "Energy-efficient communication protocols for long-range IoT sensor networks",
+          "volume": "2",
+          "author": "James",
+          "year": "2025",
+          "journal-title": "Journal of Wireless Sensor Networks and IoT"
+        },
+        {
+          "issue": "24",
+          "key": "10.1016/j.seppur.2025.136621_bb0105",
+          "doi-asserted-by": "crossref",
+          "first-page": "57",
+          "DOI": "10.7251/afts.2021.1324.057S",
+          "article-title": "Influence of Roughty of a rectangular Open Channel on flow speeds and water flow",
+          "volume": "1",
+          "author": "Suljić",
+          "year": "2021",
+          "journal-title": "Archives for Technical Sciences"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.seppur.2025.136621_bb0125",
+          "doi-asserted-by": "crossref",
+          "first-page": "234",
+          "DOI": "10.28978/nesciences.1575456",
+          "article-title": "Effective surveillance of water quality in recirculating aquaculture systems through the application of intelligent biosensors",
+          "volume": "9",
+          "author": "Nandy",
+          "year": "2024",
+          "journal-title": "Natural and Engineering Sciences"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.seppur.2025.136621_bb0075",
+          "first-page": "10",
+          "article-title": "Reviewing self-adaptation frameworks for the implementation of Enterprise resource planning systems",
+          "volume": "2",
+          "author": "Alviri",
+          "year": "2015",
+          "journal-title": "International Academic Journal of Innovative Research"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.seppur.2025.136621_bb0025",
+          "first-page": "1",
+          "article-title": "Energy-efficient algorithms for real-time data processing in reconfigurable computing environments",
+          "volume": "2",
+          "author": "Wiśniewski",
+          "year": "2025",
+          "journal-title": "SCCTS Transactions on Reconfigurable Computing"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.seppur.2025.136621_bb0100",
+          "first-page": "22",
+          "article-title": "Designing leisure and water Center of Miandoab with sustainable architecture approach",
+          "volume": "3",
+          "author": "Jafari",
+          "year": "2016",
+          "journal-title": "International Academic Journal of Science and Engineering"
+        },
+        {
+          "key": "10.1016/j.seppur.2025.136621_bb0050",
+          "first-page": "84",
+          "article-title": "Membrane distillation for treatment of brines produced during water desalination: a short review",
+          "volume": "22",
+          "author": "Criscuoli",
+          "year": "2018",
+          "journal-title": "Curr. Opin. Chem. Eng."
+        },
+        {
+          "key": "10.1016/j.seppur.2025.136621_bb0060",
+          "doi-asserted-by": "crossref",
+          "first-page": "94",
+          "DOI": "10.1016/j.desal.2014.10.024",
+          "article-title": "Renewable energy-driven desalination technologies: a comprehensive review on challenges and potential applications of integrated systems",
+          "volume": "356",
+          "author": "Ghaffour",
+          "year": "2015",
+          "journal-title": "Desalination"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.seppur.2025.136621_bb0065",
+          "first-page": "8",
+          "article-title": "Harnessing high-temperature superconducting resonance coils and future perspectives",
+          "volume": "4",
+          "author": "Ulkilan",
+          "year": "2022",
+          "journal-title": "National Journal of Antennas and Propagation"
+        },
+        {
+          "key": "10.1016/j.seppur.2025.136621_bb0040",
+          "article-title": "Smart control of desalination processes: a review of trends, challenges and opportunities",
+          "volume": "491",
+          "author": "Ali",
+          "year": "2020",
+          "journal-title": "Desalination"
+        },
+        {
+          "issue": "7540",
+          "key": "10.1016/j.seppur.2025.136621_bb0070",
+          "doi-asserted-by": "crossref",
+          "first-page": "529",
+          "DOI": "10.1038/nature14236",
+          "article-title": "Human-level control through deep reinforcement learning",
+          "volume": "518",
+          "author": "Mnih",
+          "year": "2015",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "10.1016/j.seppur.2025.136621_bb0110",
+          "article-title": "Reinforcement learning-based control of complex industrial systems: recent advances and future challenges",
+          "volume": "114",
+          "author": "Zhang",
+          "year": "2021",
+          "journal-title": "Control. Eng. Pract."
+        },
+        {
+          "key": "10.1016/j.seppur.2025.136621_bb0095",
+          "article-title": "Energy-efficient control of membrane desalination systems using deep reinforcement learning",
+          "volume": "388",
+          "author": "Qian",
+          "year": "2023",
+          "journal-title": "J. Clean. Prod."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.seppur.2025.136621_bb0055",
+          "first-page": "52",
+          "article-title": "Ultra low potential operated fundamental arithmetic module Design for High-Throughput Applications",
+          "volume": "4",
+          "author": "Smith",
+          "year": "2022",
+          "journal-title": "Journal of VLSI Circuits and Systems"
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.seppur.2025.136621_bb0080",
+          "first-page": "2633",
+          "article-title": "Fuzzy rule-based system augmented deep reinforcement learning: an interpretable framework for complex decision-making",
+          "volume": "28",
+          "author": "Pal",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Fuzzy Syst."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.seppur.2025.136621_bb0130",
+          "doi-asserted-by": "crossref",
+          "first-page": "7624",
+          "DOI": "10.1038/s41467-023-43291-2",
+          "article-title": "Anhydrous interfacial polymerization of sub-1 Å sieving polyamide membrane",
+          "volume": "14",
+          "author": "Zhao",
+          "year": "2023",
+          "journal-title": "Nat. Commun."
+        },
+        {
+          "issue": "23",
+          "key": "10.1016/j.seppur.2025.136621_bb0135",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1002/anie.202402509",
+          "article-title": "Scalable preparation of ultraselective and highly permeable fully aromatic polyamide nanofiltration membranes for antibiotic desalination",
+          "volume": "63",
+          "author": "Liu",
+          "year": "2024",
+          "journal-title": "Angew. Chem. Int. Ed."
+        },
+        {
+          "key": "10.1016/j.seppur.2025.136621_bb0140",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.jenvman.2025.126266",
+          "article-title": "Synergistic TA/(NH4)2SO4 conditioning for sludge dewatering: mechanisms of EPS redistribution and hydrophobic enhancement",
+          "volume": "389",
+          "author": "Deng",
+          "year": "2025",
+          "journal-title": "J. Environ. Manage."
+        },
+        {
+          "key": "10.1016/j.seppur.2025.136621_bb0145",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.watres.2025.124177",
+          "article-title": "A photovoltaic powered ocean-based electrochemical system produces highly oxidizing active substances for simultaneous removal of antibiotics and heavy metals from mariculture wastewater",
+          "volume": "286",
+          "author": "Liu",
+          "year": "2025",
+          "journal-title": "Water Res."
+        },
+        {
+          "key": "10.1016/j.seppur.2025.136621_bb0150",
+          "article-title": "Innovative amorphous calcium carbonate for superior anionic dye adsorption towards near-zero discharge",
+          "volume": "361",
+          "author": "Liu",
+          "year": "2024",
+          "journal-title": "Sep. Purif. Technol."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.seppur.2025.136621_bb0085",
+          "first-page": "62",
+          "article-title": "Performance evaluation of the sustainable supply chain management using a hybrid approach of fuzzy ANP, fuzzy TOPSIS and ISM",
+          "volume": "2",
+          "author": "Shakibi",
+          "year": "2015",
+          "journal-title": "International Academic Journal of Organizational Behavior and Human Resource Management"
+        }
+      ],
+      "container-title": [
+        "Separation and Purification Technology"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S1383586625052189?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S1383586625052189?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            4
+          ]
+        ],
+        "date-time": "2026-02-04T08:18:19Z",
+        "timestamp": 1770193099000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1383586625052189"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            4
+          ]
+        ]
+      },
+      "references-count": 30,
+      "alternative-id": [
+        "S1383586625052189"
+      ],
+      "URL": "https://doi.org/10.1016/j.seppur.2025.136621",
+      "relation": {},
+      "ISSN": [
+        "1383-5866"
+      ],
+      "issn-type": [
+        {
+          "value": "1383-5866",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            4
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Calcium concentration management in water treatment using FD-RL in hybrid reverse osmosis–membrane distillation systems",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Separation and Purification Technology",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.seppur.2025.136621",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2025 Published by Elsevier B.V.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "136621"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "P. Manojkumar",
+      "given_name_from_source": "P.",
+      "family_name_from_source": "Manojkumar",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Ravivarman Shanmugasundaram",
+      "given_name_from_source": "Ravivarman",
+      "family_name_from_source": "Shanmugasundaram",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "S. Vanithamani",
+      "given_name_from_source": "S.",
+      "family_name_from_source": "Vanithamani",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "R. Ramkumar",
+      "given_name_from_source": "R.",
+      "family_name_from_source": "Ramkumar",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

@@ -1,0 +1,608 @@
+{
+  "doi": "10.1177/01445987251366854",
+  "title": "An optimal design of ANNC-PID technique for renewable/ hydrogen energy powered seven-level shunt active power filter Using enhanced lyrebird algorithm",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Energy Exploration &amp; Exploitation",
+  "publisher": "SAGE Publications",
+  "publication_date": "2025-08-11",
+  "online_publication_date": "2025-08-11",
+  "print_publication_date": null,
+  "volume": "44",
+  "issue": "1",
+  "pages_or_article_number": "137-161",
+  "issn": "0144-5987",
+  "eissn": "2048-4054",
+  "isbn": null,
+  "url": "https://doi.org/10.1177/01445987251366854",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:34.602429+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            30
+          ]
+        ],
+        "date-time": "2026-04-30T17:31:51Z",
+        "timestamp": 1777570311263,
+        "version": "3.51.4"
+      },
+      "reference-count": 31,
+      "publisher": "SAGE Publications",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                8,
+                11
+              ]
+            ],
+            "date-time": "2025-08-11T00:00:00Z",
+            "timestamp": 1754870400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                8,
+                11
+              ]
+            ],
+            "date-time": "2025-08-11T00:00:00Z",
+            "timestamp": 1754870400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "journals.sagepub.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Energy Exploration &amp; Exploitation"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            1
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Distribution systems have been significantly impacted in the present scenario by incorporating solar and wind power electronic devices. This work optimally designs the solar PV system (SPVS), battery storage (BS), and fuel cell (FC) sourced seven-level cascade H-bridge converter for shunt active power filter (7L-SHAPF) by selecting the filter resistance and inductance parameters in addition to inductance of boost and buck boost converters of SPVS, BS, and FC by enhanced lyrebird optimization (LOA) called as (ELOA). The multilevel cascaded topology provides superior performances in power quality enhancement. The hybrid control ELOA trained ANNC-PID controller is developed by optimal selection of weights and bias values of artificial neural network controller (ANNC) by reducing mean square error (MSE) to obtain gain values of PID controller. The primary goal is to efficiently handle the current waveforms distortions with DC link voltage balancing, and to reduce the source current total harmonic distortion (THD) of the system connected to the grid that integrates SPVS, FC along with BESS which is denoted as (7L-SHAPF-SFCB). The effectiveness of the developed method is compared with genetic algorithm and artificial bee colony algorithm. The proposed hybrid optimally designed method reduces the THD to 3.53%, 2.44%, 4.15%, and 3.79% which are much lower than those of compared techniques and existing methods available in literature.</jats:p>",
+      "DOI": "10.1177/01445987251366854",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            11
+          ]
+        ],
+        "date-time": "2025-08-11T07:00:36Z",
+        "timestamp": 1754895636000
+      },
+      "page": "137-161",
+      "update-policy": "https://doi.org/10.1177/sage-journals-update-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "An optimal design of ANNC-PID technique for renewable/ hydrogen energy powered seven-level shunt active power filter Using enhanced lyrebird algorithm"
+      ],
+      "prefix": "10.1177",
+      "volume": "44",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-9723-5230",
+          "authenticated-orcid": false,
+          "given": "Koganti",
+          "family": "Srilakshmi",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, Sreenidhi institute of Science and Technology, Hyderabad, TS, India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7786-8420",
+          "authenticated-orcid": false,
+          "given": "Krishnaveni",
+          "family": "Kondreddi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Chaitanya Bharathi Institute of Technology"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8017-5841",
+          "authenticated-orcid": false,
+          "given": "Katragadda",
+          "family": "Swarnasri",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "R.V.R. & J.C. College of Engineering"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1561-1376",
+          "authenticated-orcid": false,
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vardhaman College of Engineering"
+            },
+            {
+              "name": "Department of Electrical and Electronics Engineering, Chennai Institute of Technology, Chennai, Tamilnadu, India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9134-4869",
+          "authenticated-orcid": false,
+          "given": "Muhammad Ammirrul",
+          "family": "Atiqi Mohd Zainuri",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Universiti Kebangsaan Malaysia"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "179",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            11
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_3_2_2_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ifacol.2022.07.287"
+        },
+        {
+          "issue": "16",
+          "key": "e_1_3_2_3_1",
+          "first-page": "86",
+          "article-title": "Power quality enhancement for charging station with moving window min–max algorithm based shunt active power filter",
+          "volume": "8",
+          "author": "Arpitkumar JP",
+          "year": "2022",
+          "unstructured": "Arpitkumar JP, Amit VS (2022) Power quality enhancement for charging station with moving window min–max algorithm based shunt active power filter. Energy Reports 8(16): 86–91.",
+          "journal-title": "Energy Reports"
+        },
+        {
+          "key": "e_1_3_2_4_1",
+          "article-title": "Three novel machine learning-based adaptive controllers for a photovoltaic shunt active power filter performance enhancement",
+          "volume": "24",
+          "author": "Asmae AK",
+          "year": "2024",
+          "unstructured": "Asmae AK, Mohammed O (2024) Three novel machine learning-based adaptive controllers for a photovoltaic shunt active power filter performance enhancement. Scientific African 24: e02171.",
+          "journal-title": "Scientific African"
+        },
+        {
+          "key": "e_1_3_2_5_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijepes.2023.109738"
+        },
+        {
+          "key": "e_1_3_2_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ref.2022.12.006"
+        },
+        {
+          "key": "e_1_3_2_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/biomimetics8060507"
+        },
+        {
+          "issue": "142",
+          "key": "e_1_3_2_8_1",
+          "first-page": "1",
+          "article-title": "Comprehensive review on India’s growth in renewable energy technologies in comparison with other prominent renewable energy based countries",
+          "volume": "3",
+          "author": "Elavarasan RM",
+          "year": "2020",
+          "unstructured": "Elavarasan RM (2020) Comprehensive review on India’s growth in renewable energy technologies in comparison with other prominent renewable energy based countries. Journal of Solar Energy Engineering 3(142): 1–11.",
+          "journal-title": "Journal of Solar Energy Engineering"
+        },
+        {
+          "key": "e_1_3_2_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/su12166596"
+        },
+        {
+          "key": "e_1_3_2_10_1",
+          "first-page": "163",
+          "volume-title": "Artificial intelligence based PV-fed shunt active power filter for IOT applications9th International Conference System Modeling and Advancement in Research Trends (SMART)",
+          "author": "Goswami G",
+          "year": "2020",
+          "unstructured": "Goswami G, Goswami PK (2020) Artificial intelligence based PV-fed shunt active power filter for IOT applications. In: 9th International Conference System Modeling and Advancement in Research Trends (SMART), Moradabad, India, pp.163–168."
+        },
+        {
+          "key": "e_1_3_2_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/electronics8070791"
+        },
+        {
+          "key": "e_1_3_2_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/en14144351"
+        },
+        {
+          "key": "e_1_3_2_13_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.procs.2016.07.356"
+        },
+        {
+          "key": "e_1_3_2_14_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.micpro.2020.103194"
+        },
+        {
+          "key": "e_1_3_2_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2020.2964052"
+        },
+        {
+          "key": "e_1_3_2_16_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.37256/cm.5120242696"
+        },
+        {
+          "key": "e_1_3_2_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egyr.2020.07.007"
+        },
+        {
+          "key": "e_1_3_2_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.swevo.2018.06.008"
+        },
+        {
+          "key": "e_1_3_2_19_1",
+          "first-page": "123132",
+          "article-title": "Enhancing operational efficiency through a control-based approach for hydrogen and battery energy storage systems integration in renewable energy networks",
+          "volume": "248",
+          "author": "Nima K",
+          "unstructured": "Nima K (2025a) Enhancing operational efficiency through a control-based approach for hydrogen and battery energy storage systems integration in renewable energy networks. Renewable Energy 248: 123132.",
+          "journal-title": "Renewable Energy"
+        },
+        {
+          "key": "e_1_3_2_20_1",
+          "first-page": "110481",
+          "article-title": "Finite-time control scheme for effective voltage and frequency regulation in networked microgrids",
+          "volume": "165",
+          "author": "Nima K",
+          "unstructured": "Nima K (2025b) Finite-time control scheme for effective voltage and frequency regulation in networked microgrids. International Journal of Electrical Power & Energy Systems 165: 110481.",
+          "journal-title": "International Journal of Electrical Power & Energy Systems"
+        },
+        {
+          "key": "e_1_3_2_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijepes.2025.110829"
+        },
+        {
+          "key": "e_1_3_2_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.asoc.2024.112645"
+        },
+        {
+          "key": "e_1_3_2_23_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.suscom.2025.101103"
+        },
+        {
+          "key": "e_1_3_2_24_1",
+          "first-page": "3355124",
+          "article-title": "Optimal design and performance investigation of artificial neural network controller for solar- and battery-connected unified power quality conditioner",
+          "volume": "22",
+          "author": "Ramadevi A",
+          "year": "2023",
+          "unstructured": "Ramadevi A, Srilakshmi K, Praveen KB, et al. (2023) Optimal design and performance investigation of artificial neural network controller for solar- and battery-connected unified power quality conditioner. International Journal of Energy Research 22: 3355124.",
+          "journal-title": "International Journal of Energy Research"
+        },
+        {
+          "key": "e_1_3_2_25_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.scs.2018.07.002"
+        },
+        {
+          "issue": "1",
+          "key": "e_1_3_2_26_1",
+          "first-page": "1",
+          "article-title": "ANFIS-fuzzy logic based UPQC in interconnected microgrid distribution systems: Modeling, simulation and implementation",
+          "volume": "21",
+          "author": "Renduchintala UK",
+          "year": "2021",
+          "unstructured": "Renduchintala UK, Pang C, Tatikonda KM, et al. (2021) ANFIS-fuzzy logic based UPQC in interconnected microgrid distribution systems: Modeling, simulation and implementation. The Journal of Engineering 21(1): 1–29.",
+          "journal-title": "The Journal of Engineering"
+        },
+        {
+          "key": "e_1_3_2_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.conengprac.2015.04.013"
+        },
+        {
+          "key": "e_1_3_2_28_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.est.2024.113324"
+        },
+        {
+          "key": "e_1_3_2_29_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-024-71100-3"
+        },
+        {
+          "key": "e_1_3_2_30_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-024-54550-7"
+        },
+        {
+          "key": "e_1_3_2_31_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/00051144.2021.1985703"
+        },
+        {
+          "key": "e_1_3_2_32_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.epsr.2023.109232"
+        }
+      ],
+      "container-title": [
+        "Energy Exploration &amp; Exploitation"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://journals.sagepub.com/doi/pdf/10.1177/01445987251366854",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://journals.sagepub.com/doi/full-xml/10.1177/01445987251366854",
+          "content-type": "application/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://journals.sagepub.com/doi/pdf/10.1177/01445987251366854",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            28
+          ]
+        ],
+        "date-time": "2026-04-28T19:09:17Z",
+        "timestamp": 1777403357000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://journals.sagepub.com/doi/10.1177/01445987251366854"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            11
+          ]
+        ]
+      },
+      "references-count": 31,
+      "journal-issue": {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              1
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1177/01445987251366854"
+      ],
+      "URL": "https://doi.org/10.1177/01445987251366854",
+      "relation": {},
+      "ISSN": [
+        "0144-5987",
+        "2048-4054"
+      ],
+      "issn-type": [
+        {
+          "value": "0144-5987",
+          "type": "print"
+        },
+        {
+          "value": "2048-4054",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            11
+          ]
+        ]
+      }
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Koganti Srilakshmi",
+      "given_name_from_source": "Koganti",
+      "family_name_from_source": "Srilakshmi",
+      "orcid_from_source": "https://orcid.org/0000-0002-9723-5230",
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering, Sreenidhi institute of Science and Technology, Hyderabad, TS, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Krishnaveni Kondreddi",
+      "given_name_from_source": "Krishnaveni",
+      "family_name_from_source": "Kondreddi",
+      "orcid_from_source": "https://orcid.org/0000-0001-7786-8420",
+      "affiliation_from_source": [
+        "Chaitanya Bharathi Institute of Technology"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Katragadda Swarnasri",
+      "given_name_from_source": "Katragadda",
+      "family_name_from_source": "Swarnasri",
+      "orcid_from_source": "https://orcid.org/0000-0002-8017-5841",
+      "affiliation_from_source": [
+        "R.V.R. & J.C. College of Engineering"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": "https://orcid.org/0000-0003-1561-1376",
+      "affiliation_from_source": [
+        "Vardhaman College of Engineering",
+        "Department of Electrical and Electronics Engineering, Chennai Institute of Technology, Chennai, Tamilnadu, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Muhammad Ammirrul Atiqi Mohd Zainuri",
+      "given_name_from_source": "Muhammad Ammirrul",
+      "family_name_from_source": "Atiqi Mohd Zainuri",
+      "orcid_from_source": "https://orcid.org/0000-0001-9134-4869",
+      "affiliation_from_source": [
+        "Universiti Kebangsaan Malaysia"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

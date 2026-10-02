@@ -1,0 +1,374 @@
+{
+  "doi": "10.11591/ijape.v13.i2.pp320-327",
+  "title": "ANFIS-based optimisation for achieving the maximum torque per ampere in induction motor drive with conventional PI",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "International Journal of Applied Power Engineering (IJAPE)",
+  "publisher": "Institute of Advanced Engineering and Science",
+  "publication_date": "2024-06-01",
+  "online_publication_date": "2024-06-01",
+  "print_publication_date": null,
+  "volume": "13",
+  "issue": "2",
+  "pages_or_article_number": "320",
+  "issn": "2252-8792",
+  "eissn": "2722-2624",
+  "isbn": null,
+  "url": "https://doi.org/10.11591/ijape.v13.i2.pp320-327",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:12.777551+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            21
+          ]
+        ],
+        "date-time": "2025-02-21T20:42:59Z",
+        "timestamp": 1740170579927,
+        "version": "3.37.3"
+      },
+      "reference-count": 0,
+      "publisher": "Institute of Advanced Engineering and Science",
+      "issue": "2",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2024-06-01T00:00:00Z",
+            "timestamp": 1717200000000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "IJAPE"
+      ],
+      "abstract": "<jats:p>This research presents an innovative approach to controlling the speed of an induction motor drive by utilizing a combination of neural networks and fuzzy inference systems (ANFIS). The study focuses on computing the rotor's magnetic flux while considering different overshoot and settling criteria for torque and motor speed. The goal is to optimize torque per ampere and generate the necessary torque. The proposed ANFIS-based torque-per-ampere control technique offers a distinctive method applicable to a static induction motor model. This method allows for an increase in stator current while maintaining flexibility and individuality in motor control strategies. It compares various motor vector control methods, specifically focusing on strategies to reduce torque ripple. These strategies include adaptive ANFIS, fuzzy logic control (FLC), and proportional-integral (PI) control. The research highlights the effectiveness of an adaptive ANFIS controller in achieving the most significant reduction in torque ripple within the induction motor system. This proposed problem identification sets the stage for exploring and developing solutions to enhance the performance and efficiency of induction motor drives.</jats:p>",
+      "DOI": "10.11591/ijape.v13.i2.pp320-327",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            4
+          ]
+        ],
+        "date-time": "2024-04-04T12:14:23Z",
+        "timestamp": 1712232863000
+      },
+      "page": "320",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "ANFIS-based optimisation for achieving the maximum torque per ampere in induction motor drive with conventional PI"
+      ],
+      "prefix": "10.11591",
+      "volume": "13",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-2070-1974",
+          "authenticated-orcid": false,
+          "given": "Gurrala Madhusudhana",
+          "family": "Rao",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7149-7868",
+          "authenticated-orcid": false,
+          "given": "Mamidala Vijay",
+          "family": "Karthik",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0009-1714-4944",
+          "authenticated-orcid": false,
+          "given": "Annavarapu Ananda",
+          "family": "Kumar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8584-6560",
+          "authenticated-orcid": false,
+          "given": "Chava Sunil",
+          "family": "Kumar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7142-2073",
+          "authenticated-orcid": false,
+          "given": "Tummeti",
+          "family": "Parameshwar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2233-328X",
+          "authenticated-orcid": false,
+          "given": "Abbaraju Hima",
+          "family": "Bindu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "4858",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            1
+          ]
+        ]
+      },
+      "container-title": [
+        "International Journal of Applied Power Engineering (IJAPE)"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "https://ijape.iaescore.com/index.php/IJAPE/article/viewFile/20525/13186",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://ijape.iaescore.com/index.php/IJAPE/article/viewFile/20525/13186",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            4
+          ]
+        ],
+        "date-time": "2024-04-04T12:14:26Z",
+        "timestamp": 1712232866000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://ijape.iaescore.com/index.php/IJAPE/article/view/20525"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            1
+          ]
+        ]
+      },
+      "references-count": 0,
+      "journal-issue": {
+        "issue": "2",
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              1
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.11591/ijape.v13.i2.pp320-327",
+      "relation": {},
+      "ISSN": [
+        "2722-2624",
+        "2252-8792"
+      ],
+      "issn-type": [
+        {
+          "type": "electronic",
+          "value": "2722-2624"
+        },
+        {
+          "type": "print",
+          "value": "2252-8792"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            1
+          ]
+        ]
+      }
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Gurrala Madhusudhana Rao",
+      "given_name_from_source": "Gurrala Madhusudhana",
+      "family_name_from_source": "Rao",
+      "orcid_from_source": "https://orcid.org/0000-0003-2070-1974",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Mamidala Vijay Karthik",
+      "given_name_from_source": "Mamidala Vijay",
+      "family_name_from_source": "Karthik",
+      "orcid_from_source": "https://orcid.org/0000-0001-7149-7868",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Annavarapu Ananda Kumar",
+      "given_name_from_source": "Annavarapu Ananda",
+      "family_name_from_source": "Kumar",
+      "orcid_from_source": "https://orcid.org/0009-0009-1714-4944",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Chava Sunil Kumar",
+      "given_name_from_source": "Chava Sunil",
+      "family_name_from_source": "Kumar",
+      "orcid_from_source": "https://orcid.org/0000-0002-8584-6560",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Tummeti Parameshwar",
+      "given_name_from_source": "Tummeti",
+      "family_name_from_source": "Parameshwar",
+      "orcid_from_source": "https://orcid.org/0000-0001-7142-2073",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "Abbaraju Hima Bindu",
+      "given_name_from_source": "Abbaraju Hima",
+      "family_name_from_source": "Bindu",
+      "orcid_from_source": "https://orcid.org/0000-0003-2233-328X",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

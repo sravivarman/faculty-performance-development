@@ -1,0 +1,835 @@
+{
+  "doi": "10.3389/fenrg.2024.1400745",
+  "title": "Profit maximization of a wind-integrated deregulated system using V2G techniques and TCSC placement",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Frontiers in Energy Research",
+  "publisher": "Frontiers Media SA",
+  "publication_date": "2024-09-26",
+  "online_publication_date": "2024-09-26",
+  "print_publication_date": null,
+  "volume": "12",
+  "issue": null,
+  "pages_or_article_number": "1400745",
+  "issn": null,
+  "eissn": "2296-598X",
+  "isbn": null,
+  "url": "https://doi.org/10.3389/fenrg.2024.1400745",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:02.190444+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            29
+          ]
+        ],
+        "date-time": "2026-09-29T18:27:23Z",
+        "timestamp": 1790706443301,
+        "version": "4.1.0"
+      },
+      "reference-count": 43,
+      "publisher": "Frontiers Media SA",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                26
+              ]
+            ],
+            "date-time": "2024-09-26T00:00:00Z",
+            "timestamp": 1727308800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "frontiersin.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Front. Energy Res."
+      ],
+      "abstract": "<jats:p>Profit maximization is crucial for both producers and customers in power grids, particularly in deregulated energy markets. By focusing on profit maximization measures, power grids can improve economic viability and sustainability for all stakeholders. The growing demand for electricity in modern civilization poses a significant challenge to the power grid’s ability to meet it. To address these difficulties, the power industry is attempting to integrate renewable sources into existing power facilities. Because of its unpredictable character, the presence of renewable energy in the electricity system becomes increasingly important and adds complexity to the grid. Given the intermittent nature of renewable sources, an energy storage device is required in this scenario. During the low-power use phase, the grid has ample power. Meanwhile, energy storage devices can be utilized to store extra power in the low power demand phase while maintaining the safety and stability of the power network during peak demand periods. V2G (Vehicle-to-Grid) technology is commonly employed to address the uncertainty of renewable resources while maintaining system stability. By using automobiles as transportable storage devices, V2G can make the best use of excess electricity during low-energy hours. Wind energy’s volatility causes imbalances, lowering system profitability. With wind energy integration, power system profitability can be improved by analyzing uncertainties and employing mitigation strategies. To overcome the issue, the research optimizes the use of V2G and TCSC (thyristor-controlled series compensator). V2G permits bidirectional power flow, lowering imbalance pricing (IP) while considering power demand. TCSC can increase the transient stability of transmission lines, hence reducing line faults. TCSC’s involvement in the system increases profitability by lowering congestion expenses. Strategic TCSC placement increases overall profitability. The approach strives to offer efficient, environmentally friendly power at a reasonable price while addressing the needs of both power providers and customers. This study also looks into the effects of V2G mixing on voltage stability, LMP (locational marginal price), and the effectiveness of a TCSC in a deregulated electrical system. MiPower software is used to simulate operation and find the optimal placement of the storage unit within the IEEE 14-bus system.</jats:p>",
+      "DOI": "10.3389/fenrg.2024.1400745",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            26
+          ]
+        ],
+        "date-time": "2024-09-26T00:24:42Z",
+        "timestamp": 1727310282000
+      },
+      "update-policy": "https://doi.org/10.3389/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 4,
+      "title": [
+        "Profit maximization of a wind-integrated deregulated system using V2G techniques and TCSC placement"
+      ],
+      "prefix": "10.3389",
+      "volume": "12",
+      "author": [
+        {
+          "given": "Subhojit",
+          "family": "Dawn",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "A.",
+          "family": "Ramakrishna",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "M.",
+          "family": "Ramesh",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shreya Shree",
+          "family": "Das",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "K. Dhananjay",
+          "family": "Rao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Umit",
+          "family": "Cali",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Taha Selim",
+          "family": "Ustun",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "1965",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            26
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "B1",
+          "doi-asserted-by": "publisher",
+          "first-page": "6507",
+          "DOI": "10.3390/en14206507",
+          "article-title": "Energy management scheduling for microgrids in the virtual power plant system using artificial neural networks",
+          "volume": "14",
+          "author": "Abdolrasol",
+          "year": "2021",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "B2",
+          "doi-asserted-by": "publisher",
+          "first-page": "108694",
+          "DOI": "10.1016/j.est.2023.108694",
+          "article-title": "Energy storage technologies: an integrated survey of developments, global economical/environmental effects, optimal scheduling model, and sustainable adaption policies",
+          "volume": "72",
+          "author": "Amir",
+          "year": "2023",
+          "journal-title": "J. Energy Storage"
+        },
+        {
+          "key": "B3",
+          "doi-asserted-by": "publisher",
+          "first-page": "5320002",
+          "DOI": "10.1155/2023/5320002",
+          "article-title": "Resilient operation of electric vehicles considering grid resiliency and uncertainties",
+          "volume": "2023",
+          "author": "Armaghan",
+          "year": "2023",
+          "journal-title": "Int. Trans. Electr. Energy Syst."
+        },
+        {
+          "key": "B4",
+          "doi-asserted-by": "publisher",
+          "first-page": "2735",
+          "DOI": "10.3390/en14102735",
+          "article-title": "Optimal voltage–frequency regulation in distributed sustainable energy-based hybrid microgrids with integrated resource planning",
+          "volume": "14",
+          "author": "Barik",
+          "year": "2021",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "B5",
+          "doi-asserted-by": "publisher",
+          "first-page": "39431",
+          "DOI": "10.1109/access.2023.3267163",
+          "article-title": "Risk mitigation and profit improvement of a wind-fuel cell hybrid system with TCSC placement",
+          "volume": "11",
+          "author": "Basu",
+          "year": "2023",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "B6",
+          "doi-asserted-by": "publisher",
+          "first-page": "116995",
+          "DOI": "10.1016/j.enconman.2023.116995",
+          "article-title": "Techno-economic assessment of grid and renewable powered electric vehicle charging stations in India using a modified metaheuristic technique",
+          "volume": "284",
+          "author": "Bilal",
+          "year": "2023",
+          "journal-title": "Energy Convers. Manag."
+        },
+        {
+          "key": "B7",
+          "doi-asserted-by": "publisher",
+          "first-page": "8048",
+          "DOI": "10.3390/su13148048",
+          "article-title": "Performance investigation of a solar photovoltaic/diesel generator based hybrid system with cycle charging strategy using BBO algorithm",
+          "volume": "13",
+          "author": "Chauhan",
+          "year": "2021",
+          "journal-title": "Sustainability"
+        },
+        {
+          "key": "B8",
+          "doi-asserted-by": "publisher",
+          "first-page": "266",
+          "DOI": "10.4090/juee.2019.v13n2.266273",
+          "article-title": "Utilization of maximum power in airfoil blade of horizontal Axis wind turbine by the concept of cfd analysis",
+          "volume": "13",
+          "author": "Choubey",
+          "year": "2019",
+          "journal-title": "J. Of Urban and Environ. Eng."
+        },
+        {
+          "key": "B9",
+          "doi-asserted-by": "publisher",
+          "first-page": "8069",
+          "DOI": "10.3390/su14138069",
+          "article-title": "A strategy for system risk mitigation using FACTS devices in a wind incorporated competitive power system",
+          "volume": "14",
+          "author": "Das",
+          "year": "",
+          "journal-title": "Sustainability"
+        },
+        {
+          "key": "B10",
+          "doi-asserted-by": "publisher",
+          "first-page": "5005",
+          "DOI": "10.3390/su14095005",
+          "article-title": "A joint scheduling strategy for wind and solar photovoltaic systems to grasp imbalance cost in competitive market",
+          "volume": "14",
+          "author": "Das",
+          "year": "",
+          "journal-title": "Sustainability"
+        },
+        {
+          "key": "B11",
+          "doi-asserted-by": "publisher",
+          "first-page": "1849",
+          "DOI": "10.3390/pr11061849",
+          "article-title": "Existing stature and possible outlook of renewable power in comprehensive electricity market",
+          "volume": "11",
+          "author": "Das",
+          "year": "2023",
+          "journal-title": "Processes"
+        },
+        {
+          "key": "B12",
+          "doi-asserted-by": "publisher",
+          "first-page": "111812",
+          "DOI": "10.1109/access.2023.3315747",
+          "article-title": "Profit expansion of a solar integrated day-ahead system by placement of TCSC and fuel cell in the presence of disequilibrium price",
+          "volume": "11",
+          "author": "Dawn",
+          "year": "2023",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "B13",
+          "doi-asserted-by": "publisher",
+          "first-page": "190",
+          "DOI": "10.1016/j.ijepes.2016.01.041",
+          "article-title": "Improvement of economic profit by optimal allocation of TCSC and UPFC with wind power generators in double auction competitive power market",
+          "volume": "80",
+          "author": "Dawn",
+          "year": "2016",
+          "journal-title": "Electr. Power Energy Syst."
+        },
+        {
+          "key": "B14",
+          "doi-asserted-by": "publisher",
+          "first-page": "6979",
+          "DOI": "10.3390/su12176979",
+          "article-title": "Active power management of virtual power plant under penetration of central receiver solar thermal-wind using butterfly optimization technique",
+          "volume": "12",
+          "author": "Dey",
+          "year": "2020",
+          "journal-title": "Sustainability"
+        },
+        {
+          "key": "B15",
+          "doi-asserted-by": "publisher",
+          "first-page": "101004",
+          "DOI": "10.1016/j.segan.2023.101004",
+          "article-title": "An initialization-free distributed algorithm for dynamic economic dispatch problems in microgrid: modeling, optimization, and analysis",
+          "volume": "34",
+          "author": "Duana",
+          "year": "2023",
+          "journal-title": "Sustain. Energy, Grids Netw."
+        },
+        {
+          "key": "B16",
+          "doi-asserted-by": "publisher",
+          "first-page": "108094",
+          "DOI": "10.1016/j.ijepes.2022.108094",
+          "article-title": "A unit commitment model for optimal vehicle-to-grid operation in a power system",
+          "volume": "141",
+          "author": "Egbue",
+          "year": "2022",
+          "journal-title": "Electr. Power Energy Syst."
+        },
+        {
+          "key": "B17",
+          "doi-asserted-by": "publisher",
+          "first-page": "517",
+          "DOI": "10.3390/en15020517",
+          "article-title": "Power generation control of renewable energy based hybrid deregulated power system",
+          "volume": "15",
+          "author": "Farooq",
+          "year": "2022",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "B18",
+          "doi-asserted-by": "publisher",
+          "first-page": "189",
+          "DOI": "10.21608/erjeng.2023.239780.1265",
+          "article-title": "Winds of power: data analysis for the relationship between wind speed, gust, and power output",
+          "volume": "7",
+          "author": "Gamel",
+          "year": "2023",
+          "journal-title": "J. Eng. Res."
+        },
+        {
+          "key": "B19",
+          "doi-asserted-by": "publisher",
+          "first-page": "4738",
+          "DOI": "10.3390/en16124738",
+          "article-title": "Hyperparameter bayesian optimization of Gaussian process regression applied in speed-sensorless predictive torque control of an autonomous wind energy conversion system",
+          "volume": "16",
+          "author": "Hamoudi",
+          "year": "2023",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "B20",
+          "doi-asserted-by": "publisher",
+          "first-page": "e2364",
+          "DOI": "10.1002/etep.2364",
+          "article-title": "Optimal scheduling of the plug-in electric vehicles aggregator energy and regulation services based on grid to vehicle",
+          "volume": "27",
+          "author": "Hou",
+          "year": "2017",
+          "journal-title": "Int. Trans. Electr. Energy Syst."
+        },
+        {
+          "key": "B21",
+          "doi-asserted-by": "publisher",
+          "first-page": "123729",
+          "DOI": "10.1016/j.eswa.2024.123729",
+          "article-title": "A multilevel optimization approach for daily scheduling of combined heat and power units with integrated electrical and thermal storage",
+          "volume": "250",
+          "author": "Hu",
+          "year": "2024",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "B22",
+          "doi-asserted-by": "publisher",
+          "first-page": "105873",
+          "DOI": "10.1016/j.ijepes.2020.105873",
+          "article-title": "IEC 61850 based energy management system using plug-in electric vehicles and distributed generators during emergencies",
+          "volume": "119",
+          "author": "Hussain",
+          "year": "",
+          "journal-title": "Int. J. Electr. Power and Energy Syst."
+        },
+        {
+          "key": "B23",
+          "doi-asserted-by": "publisher",
+          "first-page": "5161",
+          "DOI": "10.1109/tie.2019.2927154",
+          "article-title": "Optimal energy routing in microgrids with IEC 61850 based energy routers",
+          "volume": "67",
+          "author": "Hussain",
+          "year": "",
+          "journal-title": "IEEE Trans. Industrial Electron."
+        },
+        {
+          "key": "B24",
+          "doi-asserted-by": "publisher",
+          "first-page": "104632",
+          "DOI": "10.1016/j.scs.2023.104632",
+          "article-title": "Multi-objective long-term expansion planning of electric vehicle infrastructures integrated with wind and solar units under the uncertain environment considering demand side management: a real test case",
+          "volume": "96",
+          "author": "Jirdehi",
+          "year": "2023",
+          "journal-title": "Sustain. Cities Soc."
+        },
+        {
+          "key": "B25",
+          "doi-asserted-by": "publisher",
+          "first-page": "2209",
+          "DOI": "10.3390/electronics9122209",
+          "article-title": "Price based demand response for optimal frequency stabilization in ORC solar thermal based isolated hybrid microgrid under salp swarm technique",
+          "volume": "9",
+          "author": "Latif",
+          "year": "2020",
+          "journal-title": "Electronics"
+        },
+        {
+          "key": "B26",
+          "doi-asserted-by": "publisher",
+          "first-page": "29815",
+          "DOI": "10.1109/jsen.2023.3324441",
+          "article-title": "DGNet: an adaptive lightweight defect detection model for new energy vehicle battery current collector",
+          "volume": "23",
+          "author": "Lei",
+          "year": "2023",
+          "journal-title": "IEEE Sensors J."
+        },
+        {
+          "key": "B27",
+          "doi-asserted-by": "publisher",
+          "first-page": "338",
+          "DOI": "10.1016/j.rser.2014.08.056",
+          "article-title": "A life cycle co-benefits assessment of wind power in China",
+          "volume": "41",
+          "author": "Ma",
+          "year": "2015",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "key": "B28",
+          "doi-asserted-by": "publisher",
+          "first-page": "13856",
+          "DOI": "10.3390/su142113856",
+          "article-title": "Electric vehicle-to-grid (V2G) technologies: impact on the power grid and battery",
+          "volume": "14",
+          "author": "Mojumder",
+          "year": "2022",
+          "journal-title": "Sustainability"
+        },
+        {
+          "key": "B29",
+          "doi-asserted-by": "publisher",
+          "first-page": "2398",
+          "DOI": "10.3390/en12122398",
+          "article-title": "Virtual power plant management in smart grids with XMPP based IEC 61850 communication",
+          "volume": "12",
+          "author": "Nadeem",
+          "year": "2019",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "B30",
+          "doi-asserted-by": "publisher",
+          "first-page": "79",
+          "DOI": "10.3390/jsan12060079",
+          "article-title": "Electric vehicles energy management for vehicle-to-grid 6G-based smart grid networks",
+          "volume": "12",
+          "author": "Naja",
+          "year": "2023",
+          "journal-title": "J. Sens. Actuator Netw."
+        },
+        {
+          "key": "B31",
+          "doi-asserted-by": "publisher",
+          "first-page": "492",
+          "DOI": "10.2478/jee-2023-0057",
+          "article-title": "A virtual synchronous generator control method in microgrid with vehicle-to-grid system",
+          "volume": "74",
+          "author": "Nguyen",
+          "year": "2023",
+          "journal-title": "J. Electr. Eng."
+        },
+        {
+          "key": "B32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.47191/ijmra/v6-i10-37",
+          "article-title": "Enhancement of power systems transient stability with TCSC: a case study of the Nigerian 330 kV, 48-bus network",
+          "volume": "6",
+          "author": "Nkan",
+          "year": "2023",
+          "journal-title": "Int. J. of Multidiscip. Res. and Analysis"
+        },
+        {
+          "key": "B33",
+          "first-page": "1",
+          "article-title": "Performance evaluation of electric vehicle ad-hoc network technologies for charging management",
+          "author": "Nsonga",
+          "year": "2017"
+        },
+        {
+          "key": "B34",
+          "doi-asserted-by": "publisher",
+          "first-page": "2001",
+          "DOI": "10.1109/tla.2021.9827473",
+          "article-title": "A mathematical programming approach for allocation and analysis of TCSC in power transmission systems",
+          "volume": "20",
+          "author": "Pereira",
+          "year": "2022",
+          "journal-title": "IEEE Lat. Am. Trans."
+        },
+        {
+          "key": "B35",
+          "doi-asserted-by": "publisher",
+          "first-page": "58597",
+          "DOI": "10.1109/access.2024.3392432",
+          "article-title": "Optimally tuned gated recurrent unit neural network-based state of health estimation scheme for lithium ion batteries",
+          "volume": "12",
+          "author": "Rao",
+          "year": "2024",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "B36",
+          "doi-asserted-by": "publisher",
+          "first-page": "14287",
+          "DOI": "10.3390/su142114287",
+          "article-title": "Novel COVID-19 based optimization algorithm (C-19BOA) for performance improvement of power systems",
+          "volume": "14",
+          "author": "Safiullah",
+          "year": "2022",
+          "journal-title": "Sustainability"
+        },
+        {
+          "key": "B37",
+          "doi-asserted-by": "publisher",
+          "first-page": "217",
+          "DOI": "10.1016/j.egyr.2021.11.241",
+          "article-title": "Power system operation enhancement using a new hybrid methodology for optimal allocation of FACTS devices",
+          "volume": "8",
+          "author": "Shehata",
+          "year": "2022",
+          "journal-title": "Energy Rep."
+        },
+        {
+          "key": "B38",
+          "doi-asserted-by": "publisher",
+          "first-page": "787",
+          "DOI": "10.1016/j.matpr.2020.05.161",
+          "article-title": "Enhancement of ATC of micro grid by optimal placement of TCSC",
+          "volume": "34",
+          "author": "Singh",
+          "year": "2021",
+          "journal-title": "Mater. Today Proc."
+        },
+        {
+          "key": "B39",
+          "doi-asserted-by": "publisher",
+          "first-page": "6580",
+          "DOI": "10.3390/en15186580",
+          "article-title": "A review on emerging communication and computational technologies for increased use of plug-in electric vehicles",
+          "volume": "15",
+          "author": "Tappeta",
+          "year": "2022",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "B40",
+          "doi-asserted-by": "publisher",
+          "first-page": "3228",
+          "DOI": "10.11591/eei.v12i6.4879",
+          "article-title": "Integration of storage technology oversight: power system and computer engineering analogy",
+          "volume": "12",
+          "author": "Thakre",
+          "year": "2023",
+          "journal-title": "Bull. Electr. Eng. Inf."
+        },
+        {
+          "key": "B41",
+          "unstructured": "Time and date website\n          2024"
+        },
+        {
+          "key": "B42",
+          "doi-asserted-by": "publisher",
+          "first-page": "2493",
+          "DOI": "10.3390/en14092493",
+          "article-title": "IEC-61850-Based communication for integrated EV management in power systems with renewable penetration",
+          "volume": "14",
+          "author": "Ustun",
+          "year": "2021",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "B43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.17159/2413-3051/2022/v33i1a9344",
+          "article-title": "Cost-benefit analysis of wind power integration in distribution networks",
+          "volume": "33",
+          "author": "Zietsman",
+          "year": "2022",
+          "journal-title": "J. Energy South. Afr."
+        }
+      ],
+      "container-title": [
+        "Frontiers in Energy Research"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "https://www.frontiersin.org/articles/10.3389/fenrg.2024.1400745/full",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            26
+          ]
+        ],
+        "date-time": "2024-09-26T00:24:44Z",
+        "timestamp": 1727310284000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.frontiersin.org/articles/10.3389/fenrg.2024.1400745/full"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            26
+          ]
+        ]
+      },
+      "references-count": 43,
+      "alternative-id": [
+        "10.3389/fenrg.2024.1400745"
+      ],
+      "URL": "https://doi.org/10.3389/fenrg.2024.1400745",
+      "relation": {},
+      "ISSN": [
+        "2296-598X"
+      ],
+      "issn-type": [
+        {
+          "value": "2296-598X",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            26
+          ]
+        ]
+      },
+      "article-number": "1400745"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Subhojit Dawn",
+      "given_name_from_source": "Subhojit",
+      "family_name_from_source": "Dawn",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "A. Ramakrishna",
+      "given_name_from_source": "A.",
+      "family_name_from_source": "Ramakrishna",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "M. Ramesh",
+      "given_name_from_source": "M.",
+      "family_name_from_source": "Ramesh",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Shreya Shree Das",
+      "given_name_from_source": "Shreya Shree",
+      "family_name_from_source": "Das",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "K. Dhananjay Rao",
+      "given_name_from_source": "K. Dhananjay",
+      "family_name_from_source": "Rao",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "Umit Cali",
+      "given_name_from_source": "Umit",
+      "family_name_from_source": "Cali",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 7,
+      "author_name_from_source": "Taha Selim Ustun",
+      "given_name_from_source": "Taha Selim",
+      "family_name_from_source": "Ustun",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

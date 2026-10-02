@@ -1,0 +1,586 @@
+{
+  "doi": "10.1002/ese3.70329",
+  "title": "Zero‐DAGNet: A Domain‐Adversarial Graph Network Integrated With POCO for Cyber‐Physical Security in Smart Grid",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Energy Science &amp; Engineering",
+  "publisher": "Wiley",
+  "publication_date": "2025-10-26",
+  "online_publication_date": "2025-10-26",
+  "print_publication_date": null,
+  "volume": "13",
+  "issue": "12",
+  "pages_or_article_number": "6430-6456",
+  "issn": "2050-0505",
+  "eissn": "2050-0505",
+  "isbn": null,
+  "url": "https://doi.org/10.1002/ese3.70329",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:27.354653+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            19
+          ]
+        ],
+        "date-time": "2026-03-19T05:57:54Z",
+        "timestamp": 1773899874261,
+        "version": "3.50.1"
+      },
+      "reference-count": 38,
+      "publisher": "Wiley",
+      "issue": "12",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                26
+              ]
+            ],
+            "date-time": "2025-10-26T00:00:00Z",
+            "timestamp": 1761436800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "scijournals.onlinelibrary.wiley.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Energy Science &amp; Engineering"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            12
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>\n                    Smarter grids depend on Cyber‐Physical Systems (CPS) to merge physical energy distribution networks with computational intelligence, because these systems optimize reliability and sustainability and power delivery efficiency. CPS in smart grids present both enhanced interconnectivity and complexity which creates substantial security challenges because they become exposed to complex cyber‐attacks that harm operational processes and degrade data integrity criteria. The current intrusion detection systems in smart grid environments encounter multiple obstacles when they attempt to detect and counteract security threats effectively. This paper develops an innovative security solution by integrating Zero‐DAGNet with POCO as a solution to combat smart grid security challenges. The Zero‐DAGNet employs domain‐adversarial learning techniques that operate inside a graph‐based deep‐learning structure for identifying complex network entity relationships. The designed structure helps the model adapt to unidentified attack patterns which resolves domain shift problems encountered during intrusion detection operations. The POCO brings forth an innovative optimization technique based on primate cognitive operations that optimizes network parameter settings efficiently. Through this well‐merged structure, the model demonstrates enhanced flexibility and operational performance when operating in dynamic smart grid networks. Results from empirical tests confirm that the combination of Zero‐DAGNet and POCO produces effective outcomes. On ICS and SWaT and CICIDS17 benchmark data sets, the proposed model demonstrates superior performance than traditional and deep‐learning machine‐learning algorithms. Using the ICS data set allows the framework to reach a 99.10% accuracy and a precision of 98.89% while producing a recall of 98.88%, which results in an\n                    <jats:italic>F</jats:italic>\n                    1‐score of 99.08%. It shows improved performance compared to previous solutions. The Zero‐DAGNet + POCO approach demonstrates its capability to deliver resilient and efficient intrusion detection solutions which strengthen the security features of smart grid networks.\n                  </jats:p>",
+      "DOI": "10.1002/ese3.70329",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            26
+          ]
+        ],
+        "date-time": "2025-10-26T07:57:02Z",
+        "timestamp": 1761465422000
+      },
+      "page": "6430-6456",
+      "update-policy": "https://doi.org/10.1002/crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Zero‐DAGNet: A Domain‐Adversarial Graph Network Integrated With POCO for Cyber‐Physical Security in Smart Grid"
+      ],
+      "prefix": "10.1002",
+      "volume": "13",
+      "author": [
+        {
+          "given": "Karpaga Priya",
+          "family": "R",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronic Engineering Saveetha College of Engineering Chennai India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1561-1376",
+          "authenticated-orcid": false,
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronic Engineering Vardhaman College of Engineering Hyderabad Telangana India"
+            },
+            {
+              "name": "Department of Electrical andElectronics Engineering Chennai Institute of Technology  Chennai India"
+            },
+            {
+              "name": "Centre for Research Impact and Outcome, Chitkara University Institute ofEngineering and Technology Chitkara University  Rajpura India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Umawathy",
+          "family": "Techanamurthy",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Engineering Education, Faculty Engineering and Built Environment Universiti Kebangsaan Malaysia  Selangor Malaysia"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Muhammad Ammirrul Atiqi Mohd",
+          "family": "Zainuri",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical, Electronic and Systems Engineering, Faculty of Engineering and Built Environment Universiti Kebangsaan Malaysia  Selangor Malaysia"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "311",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            26
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_11_2_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2025.3545637"
+        },
+        {
+          "key": "e_1_2_11_3_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2025.3537410"
+        },
+        {
+          "key": "e_1_2_11_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1504/IJIDS.2025.144260"
+        },
+        {
+          "key": "e_1_2_11_5_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-981-97-1302-8_1"
+        },
+        {
+          "key": "e_1_2_11_6_1",
+          "first-page": "44",
+          "volume-title": "Cyber Physical System 2.0",
+          "author": "Ezechi C.",
+          "year": "2025"
+        },
+        {
+          "key": "e_1_2_11_7_1",
+          "first-page": "377",
+          "article-title": "An Enhanced Machine Learning Based Data Privacy and Security Mitigation Technique: An Intelligent Federated Learning (FL) Model for Intrusion Detection and Classification System for Cyber‐Physical Systems in Internet of Things (IoTs)",
+          "volume": "3",
+          "author": "Javed M. A.",
+          "year": "2025",
+          "journal-title": "Spectrum of Engineering Sciences"
+        },
+        {
+          "key": "e_1_2_11_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1049/ise2/2654550"
+        },
+        {
+          "key": "e_1_2_11_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-024-70835-3"
+        },
+        {
+          "key": "e_1_2_11_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0316536"
+        },
+        {
+          "key": "e_1_2_11_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TIA.2025.3542717"
+        },
+        {
+          "key": "e_1_2_11_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2025.3526258"
+        },
+        {
+          "key": "e_1_2_11_13_1",
+          "first-page": "221",
+          "volume-title": "Cyber Physical System 2.0",
+          "author": "Jiang Y.",
+          "year": "2025"
+        },
+        {
+          "key": "e_1_2_11_14_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/9781394230600.ch7"
+        },
+        {
+          "key": "e_1_2_11_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2024.3450631"
+        },
+        {
+          "key": "e_1_2_11_16_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/smartcities8010020"
+        },
+        {
+          "key": "e_1_2_11_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1088/2631-8695/adb3f4"
+        },
+        {
+          "key": "e_1_2_11_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TSG.2025.3535949"
+        },
+        {
+          "key": "e_1_2_11_19_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijcip.2025.100742"
+        },
+        {
+          "key": "e_1_2_11_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TICPS.2024.3413607"
+        },
+        {
+          "key": "e_1_2_11_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/spy2.440"
+        },
+        {
+          "issue": "1",
+          "key": "e_1_2_11_22_1",
+          "first-page": "262",
+          "article-title": "Comparative Analysis of Machine Learning Models for Enhancing Cybersecurity on Cyber‐Physical Systems in Smart Grids Against DDoS Attacks",
+          "volume": "2",
+          "author": "Afe I.",
+          "year": "2024",
+          "journal-title": "AUNIC"
+        },
+        {
+          "key": "e_1_2_11_23_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11277-024-11192-2"
+        },
+        {
+          "key": "e_1_2_11_24_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijcip.2024.100674"
+        },
+        {
+          "key": "e_1_2_11_25_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2024.3477714"
+        },
+        {
+          "key": "e_1_2_11_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/ett.5029"
+        },
+        {
+          "key": "e_1_2_11_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.adhoc.2024.103517"
+        },
+        {
+          "key": "e_1_2_11_28_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.engappai.2024.108862"
+        },
+        {
+          "key": "e_1_2_11_29_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/IOTM.001.2400068"
+        },
+        {
+          "key": "e_1_2_11_30_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.23919/JCN.2024.000054"
+        },
+        {
+          "key": "e_1_2_11_31_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1201/9788770046862-8"
+        },
+        {
+          "key": "e_1_2_11_32_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egyr.2024.08.060"
+        },
+        {
+          "key": "e_1_2_11_33_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s41870-024-02128-x"
+        },
+        {
+          "key": "e_1_2_11_34_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11227-023-05511-w"
+        },
+        {
+          "key": "e_1_2_11_35_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41597-024-03311-2"
+        },
+        {
+          "key": "e_1_2_11_36_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.asoc.2024.112118"
+        },
+        {
+          "key": "e_1_2_11_37_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.future.2024.06.051"
+        },
+        {
+          "key": "e_1_2_11_38_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2024.3395991"
+        },
+        {
+          "key": "e_1_2_11_39_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11227-023-05764-5"
+        }
+      ],
+      "container-title": [
+        "Energy Science &amp; Engineering"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://scijournals.onlinelibrary.wiley.com/doi/pdf/10.1002/ese3.70329",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            11
+          ]
+        ],
+        "date-time": "2025-12-11T16:35:31Z",
+        "timestamp": 1765470931000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://scijournals.onlinelibrary.wiley.com/doi/10.1002/ese3.70329"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            26
+          ]
+        ]
+      },
+      "references-count": 38,
+      "journal-issue": {
+        "issue": "12",
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1002/ese3.70329"
+      ],
+      "URL": "https://doi.org/10.1002/ese3.70329",
+      "archive": [
+        "Portico"
+      ],
+      "relation": {},
+      "ISSN": [
+        "2050-0505",
+        "2050-0505"
+      ],
+      "issn-type": [
+        {
+          "value": "2050-0505",
+          "type": "print"
+        },
+        {
+          "value": "2050-0505",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            26
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2025-04-24",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2025-10-09",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2025-10-26",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Karpaga Priya R",
+      "given_name_from_source": "Karpaga Priya",
+      "family_name_from_source": "R",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical and Electronic Engineering Saveetha College of Engineering Chennai India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": "https://orcid.org/0000-0003-1561-1376",
+      "affiliation_from_source": [
+        "Department of Electrical and Electronic Engineering Vardhaman College of Engineering Hyderabad Telangana India",
+        "Department of Electrical andElectronics Engineering Chennai Institute of Technology  Chennai India",
+        "Centre for Research Impact and Outcome, Chitkara University Institute ofEngineering and Technology Chitkara University  Rajpura India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Umawathy Techanamurthy",
+      "given_name_from_source": "Umawathy",
+      "family_name_from_source": "Techanamurthy",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Engineering Education, Faculty Engineering and Built Environment Universiti Kebangsaan Malaysia  Selangor Malaysia"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Muhammad Ammirrul Atiqi Mohd Zainuri",
+      "given_name_from_source": "Muhammad Ammirrul Atiqi Mohd",
+      "family_name_from_source": "Zainuri",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical, Electronic and Systems Engineering, Faculty of Engineering and Built Environment Universiti Kebangsaan Malaysia  Selangor Malaysia"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "path": "C:\\Users\\silic\\Documents\\GitHub\\faculty-performance-development\\data\\faculty.db",
+  "counts": {
+    "publications": 141,
+    "publication_authors": 754,
+    "faculty": 19,
+    "students": 0,
+    "evidence_files": 0,
+    "change_logs": 141
+  },
+  "sha256": "3d09de375dea847095bf62d98f55f4effa665f9ecd4f895f5b25e806cd46c37c"
+}

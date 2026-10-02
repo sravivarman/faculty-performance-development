@@ -1,0 +1,548 @@
+{
+  "doi": "10.1080/15567036.2024.2409947",
+  "title": "Modeling of hybrid renewable resources and comprehensive feasibility analysis of grid interactive energy system for commercial building: a case study",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Energy Sources, Part A: Recovery, Utilization, and Environmental Effects",
+  "publisher": "Informa UK Limited",
+  "publication_date": "2024-10-27",
+  "online_publication_date": "2024-10-27",
+  "print_publication_date": "2024-12-31",
+  "volume": "46",
+  "issue": "1",
+  "pages_or_article_number": "14873-14893",
+  "issn": "1556-7036",
+  "eissn": "1556-7230",
+  "isbn": null,
+  "url": "https://doi.org/10.1080/15567036.2024.2409947",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:57.798382+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            27
+          ]
+        ],
+        "date-time": "2026-08-27T03:40:08Z",
+        "timestamp": 1787802008862,
+        "version": "build-2784847793"
+      },
+      "reference-count": 36,
+      "publisher": "Informa UK Limited",
+      "issue": "1",
+      "content-domain": {
+        "domain": [
+          "www.tandfonline.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Energy Sources, Part A: Recovery, Utilization, and Environmental Effects"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            31
+          ]
+        ]
+      },
+      "DOI": "10.1080/15567036.2024.2409947",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            27
+          ]
+        ],
+        "date-time": "2024-10-27T16:04:07Z",
+        "timestamp": 1730045047000
+      },
+      "page": "14873-14893",
+      "update-policy": "https://doi.org/10.1080/tandf_crossmark_01",
+      "source": "Crossref",
+      "is-referenced-by-count": 4,
+      "title": [
+        "Modeling of hybrid renewable resources and comprehensive feasibility analysis of grid interactive energy system for commercial building: a case study"
+      ],
+      "prefix": "10.1080",
+      "volume": "46",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-6667-5997",
+          "authenticated-orcid": false,
+          "given": "Thulasingam",
+          "family": "Muthukumaran",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of EEE, Puducherry Technological University, Puducherry, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1253-589X",
+          "authenticated-orcid": false,
+          "given": "Ajay D Vimal Raj",
+          "family": "Periyanayagam",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of EEE, Puducherry Technological University, Puducherry, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0203-0700",
+          "authenticated-orcid": false,
+          "given": "Murugaperumal",
+          "family": "Krishnamoorthy",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of EEE, Vardhaman College of Engineering, Hyderabad, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "301",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            27
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_3_2_2_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.apenergy.2017.08.228"
+        },
+        {
+          "key": "e_1_3_2_3_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.32479/ijeep.12652"
+        },
+        {
+          "key": "e_1_3_2_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.resconrec.2016.03.014"
+        },
+        {
+          "key": "e_1_3_2_5_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1155/2022/4400874"
+        },
+        {
+          "key": "e_1_3_2_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.enbuild.2014.05.034"
+        },
+        {
+          "key": "e_1_3_2_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.rser.2014.07.053"
+        },
+        {
+          "key": "e_1_3_2_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.enbuild.2021.111774"
+        },
+        {
+          "key": "e_1_3_2_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.renene.2022.01.013"
+        },
+        {
+          "key": "e_1_3_2_10_1",
+          "first-page": "1",
+          "article-title": "Biogas as an energy option: An overview",
+          "volume": "1",
+          "author": "Gomez C. D. C.",
+          "year": "2013",
+          "unstructured": "Gomez, C. D. C. 2013. Biogas as an energy option: An overview. The Biogas Handbook 1:1–16.",
+          "journal-title": "The Biogas Handbook"
+        },
+        {
+          "key": "e_1_3_2_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egyr.2021.11.280"
+        },
+        {
+          "key": "e_1_3_2_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.seta.2020.100895"
+        },
+        {
+          "issue": "3",
+          "key": "e_1_3_2_13_1",
+          "first-page": "2319",
+          "article-title": "An overview of energy sector in India",
+          "volume": "6",
+          "author": "Kaja N.",
+          "year": "2015",
+          "unstructured": "Kaja, N. 2015. An overview of energy sector in India. International Journal of Scientific Research 6 (3):2319–7064.",
+          "journal-title": "International Journal of Scientific Research"
+        },
+        {
+          "key": "e_1_3_2_14_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/2050-7038.12347"
+        },
+        {
+          "key": "e_1_3_2_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.matpr.2020.06.054"
+        },
+        {
+          "key": "e_1_3_2_16_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.est.2019.04.002"
+        },
+        {
+          "key": "e_1_3_2_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-981-13-8942-9_14"
+        },
+        {
+          "key": "e_1_3_2_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.rser.2013.08.021"
+        },
+        {
+          "key": "e_1_3_2_19_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egyr.2021.11.175"
+        },
+        {
+          "key": "e_1_3_2_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.scs.2018.05.049"
+        },
+        {
+          "key": "e_1_3_2_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.est.2020.101385"
+        },
+        {
+          "key": "e_1_3_2_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5109/4068616"
+        },
+        {
+          "key": "e_1_3_2_23_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00500-020-04724-y"
+        },
+        {
+          "key": "e_1_3_2_24_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/SeFeT55524.2022.9909062"
+        },
+        {
+          "key": "e_1_3_2_25_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/9781119893998.ch2"
+        },
+        {
+          "key": "e_1_3_2_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/2050-7038.13007"
+        },
+        {
+          "key": "e_1_3_2_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.energy.2022.125955"
+        },
+        {
+          "key": "e_1_3_2_28_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00521-022-07889-9"
+        },
+        {
+          "key": "e_1_3_2_29_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.enbuild.2010.08.013"
+        },
+        {
+          "key": "e_1_3_2_30_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.apenergy.2017.09.060"
+        },
+        {
+          "key": "e_1_3_2_31_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/15435075.2021.1948417"
+        },
+        {
+          "key": "e_1_3_2_32_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.renene.2022.04.090"
+        },
+        {
+          "issue": "2",
+          "key": "e_1_3_2_33_1",
+          "first-page": "725",
+          "article-title": "Review and analysis of solar photovoltaic softwares",
+          "volume": "4",
+          "author": "Sharma D. K.",
+          "year": "2014",
+          "unstructured": "Sharma, D. K., V. Verma, and A. Pratap Singh. 2014. Review and analysis of solar photovoltaic softwares. International Journal of Current Engineering and Technology 4 (2):725–31.",
+          "journal-title": "International Journal of Current Engineering and Technology"
+        },
+        {
+          "key": "e_1_3_2_34_1",
+          "first-page": "1000",
+          "article-title": "Residential buildings in India: Energy use projections and savings potentials",
+          "volume": "800",
+          "author": "Shukla Y.",
+          "year": "2014",
+          "unstructured": "Shukla, Y., R. Rawal, and S. Shnapp. 2014. Residential buildings in India: Energy use projections and savings potentials. Growth 800:1000.",
+          "journal-title": "Growth"
+        },
+        {
+          "key": "e_1_3_2_35_1",
+          "unstructured": "Small Wind Electric Systems – NREL. 2023. Small Wind Electric Systems A Guide Produced for the Tennessee Valley Authority. https://www.nrel.gov/docs/fy09osti/35818.pdf."
+        },
+        {
+          "key": "e_1_3_2_36_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICSTM.2015.7225465"
+        },
+        {
+          "key": "e_1_3_2_37_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.enbuild.2010.04.006"
+        }
+      ],
+      "container-title": [
+        "Energy Sources, Part A: Recovery, Utilization, and Environmental Effects"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.tandfonline.com/doi/pdf/10.1080/15567036.2024.2409947",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            27
+          ]
+        ],
+        "date-time": "2024-10-27T16:04:10Z",
+        "timestamp": 1730045050000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.tandfonline.com/doi/full/10.1080/15567036.2024.2409947"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            27
+          ]
+        ]
+      },
+      "references-count": 36,
+      "journal-issue": {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              31
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1080/15567036.2024.2409947"
+      ],
+      "URL": "https://doi.org/10.1080/15567036.2024.2409947",
+      "relation": {},
+      "ISSN": [
+        "1556-7036",
+        "1556-7230"
+      ],
+      "issn-type": [
+        {
+          "value": "1556-7036",
+          "type": "print"
+        },
+        {
+          "value": "1556-7230",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            27
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "The publishing and review policy for this title is described in its Aims & Scope.",
+          "order": 1,
+          "name": "peerreview_statement",
+          "label": "Peer Review Statement"
+        },
+        {
+          "value": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=ueso20",
+          "URL": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=ueso20",
+          "order": 2,
+          "name": "aims_and_scope_url",
+          "label": "Aim & Scope"
+        },
+        {
+          "value": "2024-03-04",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2024-09-22",
+          "order": 1,
+          "name": "revised",
+          "label": "Revised",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2024-09-24",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2024-10-27",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Thulasingam Muthukumaran",
+      "given_name_from_source": "Thulasingam",
+      "family_name_from_source": "Muthukumaran",
+      "orcid_from_source": "https://orcid.org/0000-0002-6667-5997",
+      "affiliation_from_source": [
+        "Department of EEE, Puducherry Technological University, Puducherry, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Ajay D Vimal Raj Periyanayagam",
+      "given_name_from_source": "Ajay D Vimal Raj",
+      "family_name_from_source": "Periyanayagam",
+      "orcid_from_source": "https://orcid.org/0000-0003-1253-589X",
+      "affiliation_from_source": [
+        "Department of EEE, Puducherry Technological University, Puducherry, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Murugaperumal Krishnamoorthy",
+      "given_name_from_source": "Murugaperumal",
+      "family_name_from_source": "Krishnamoorthy",
+      "orcid_from_source": "https://orcid.org/0000-0002-0203-0700",
+      "affiliation_from_source": [
+        "Department of EEE, Vardhaman College of Engineering, Hyderabad, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

@@ -1,0 +1,723 @@
+{
+  "doi": "10.1007/s00202-024-02546-x",
+  "title": "Performance evaluation of PI and FLC controller for shunt active power filters",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Electrical Engineering",
+  "publisher": "Springer Science and Business Media LLC",
+  "publication_date": "2024-07-10",
+  "online_publication_date": "2024-07-10",
+  "print_publication_date": null,
+  "volume": "107",
+  "issue": "1",
+  "pages_or_article_number": "1235-1252",
+  "issn": "0948-7921",
+  "eissn": "1432-0487",
+  "isbn": null,
+  "url": "https://doi.org/10.1007/s00202-024-02546-x",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:10.211491+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            5
+          ]
+        ],
+        "date-time": "2026-02-05T07:19:15Z",
+        "timestamp": 1770275955827,
+        "version": "3.49.0"
+      },
+      "reference-count": 31,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                7,
+                10
+              ]
+            ],
+            "date-time": "2024-07-10T00:00:00Z",
+            "timestamp": 1720569600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                7,
+                10
+              ]
+            ],
+            "date-time": "2024-07-10T00:00:00Z",
+            "timestamp": 1720569600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Electr Eng"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            1
+          ]
+        ]
+      },
+      "DOI": "10.1007/s00202-024-02546-x",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            10
+          ]
+        ],
+        "date-time": "2024-07-10T18:02:10Z",
+        "timestamp": 1720634530000
+      },
+      "page": "1235-1252",
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 7,
+      "title": [
+        "Performance evaluation of PI and FLC controller for shunt active power filters"
+      ],
+      "prefix": "10.1007",
+      "volume": "107",
+      "author": [
+        {
+          "given": "Arulkumar",
+          "family": "Annamalaichamy",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Prince Winston",
+          "family": "David",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ilhami",
+          "family": "Colak",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            10
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "2546_CR1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/00051144.2020.1789402",
+          "author": "S Kumaresan",
+          "year": "2020",
+          "unstructured": "Kumaresan S, Habeebullah Sait H (2020) Design and control of shunt active power filter for power quality improvement of utility powered brushless DC motor drives. Automatika. https://doi.org/10.1080/00051144.2020.1789402",
+          "journal-title": "Automatika"
+        },
+        {
+          "key": "2546_CR2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.epsr.2019.105957",
+          "author": "K Ravinder",
+          "year": "2019",
+          "unstructured": "Ravinder K, Bansal HO (2019) Investigations on shunt active power filter in a PV-wind-FC based hybrid renewable energy system to improve power quality using hardware-in-the-loop testing platform. Electron Power Sys Res. https://doi.org/10.1016/j.epsr.2019.105957",
+          "journal-title": "Electron Power Sys Res"
+        },
+        {
+          "issue": "5",
+          "key": "2546_CR3",
+          "doi-asserted-by": "publisher",
+          "first-page": "1435",
+          "DOI": "10.1007/s00521-020-05027-x",
+          "volume": "33",
+          "author": "AK Mishra",
+          "year": "2021",
+          "unstructured": "Mishra AK, Ray PK, Mallick RK, Mohanty A, Das SR (2021) Adaptive fuzzy controlled hybrid shunt active power filter for power quality enhancement. Neural Comput Appl 33(5):1435–1452. https://doi.org/10.1007/s00521-020-05027-x",
+          "journal-title": "Neural Comput Appl"
+        },
+        {
+          "key": "2546_CR4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1088/2631-8695/ac9cb6",
+          "author": "A Tiwari",
+          "year": "2022",
+          "unstructured": "Tiwari A, Agarwal R (2022) A comparative analysis of PI & FLC based grid connected PV system with power backup to improve power quality. Eng Res Express. https://doi.org/10.1088/2631-8695/ac9cb6",
+          "journal-title": "Eng Res Express"
+        },
+        {
+          "issue": "1",
+          "key": "2546_CR5",
+          "doi-asserted-by": "publisher",
+          "first-page": "163",
+          "DOI": "10.1016/j.isatra.2011.09.004",
+          "volume": "51",
+          "author": "P Karuppanan",
+          "year": "2012",
+          "unstructured": "Karuppanan P, Mahapatra KK (2012) PI and fuzzy logic controllers for shunt active power filter a report. ISA Trans 51(1):163–169. https://doi.org/10.1016/j.isatra.2011.09.004",
+          "journal-title": "ISA Trans"
+        },
+        {
+          "key": "2546_CR6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijepes.2021.106986",
+          "author": "S Echalih",
+          "year": "2021",
+          "unstructured": "Echalih S, Abouloifa A, Lachkar I, Guerrero JM, Hekss Z, Giri F (2021) Hybrid automaton-fuzzy control of single phase dual buck half bridge shunt active power filter for shoot through elimination and power quality improvement. Int J Electron Power Energy Sys. https://doi.org/10.1016/j.ijepes.2021.106986",
+          "journal-title": "Int J Electron Power Energy Sys"
+        },
+        {
+          "key": "2546_CR7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/electronics9040637",
+          "author": "AA Imam",
+          "year": "2020",
+          "unstructured": "Imam AA, Sreerama Kumar R, Al-Turki YA (2020) Modeling and simulation of a pi controlled shunt active power filter for power quality enhancement based on p-q theory. Electronics. https://doi.org/10.3390/electronics9040637",
+          "journal-title": "Electronics"
+        },
+        {
+          "issue": "2",
+          "key": "2546_CR8",
+          "doi-asserted-by": "publisher",
+          "first-page": "147",
+          "DOI": "10.24295/CPSSTPEA.2020.00013",
+          "volume": "5",
+          "author": "BN Rao",
+          "year": "2020",
+          "unstructured": "Rao BN (2020) Development of cascaded multilevel inverter based active power filter with reduced transformers. CPSS Trans Power Electron Appl 5(2):147–157. https://doi.org/10.24295/CPSSTPEA.2020.00013",
+          "journal-title": "CPSS Trans Power Electron Appl"
+        },
+        {
+          "issue": "3",
+          "key": "2546_CR9",
+          "doi-asserted-by": "publisher",
+          "first-page": "199",
+          "DOI": "10.18280/ejee.220301",
+          "volume": "22",
+          "author": "K Djerboub",
+          "year": "2020",
+          "unstructured": "Djerboub K, Allaoui T, Champenois G, Denai M, Habib C (2020) Particle swarm optimization trained artificial neural network to control shunt active power filter based on multilevel flying capacitor inverter. European J Electron Eng 22(3):199–207. https://doi.org/10.18280/ejee.220301",
+          "journal-title": "European J Electron Eng"
+        },
+        {
+          "issue": "5",
+          "key": "2546_CR10",
+          "doi-asserted-by": "publisher",
+          "first-page": "1202",
+          "DOI": "10.1049/iet-gtd.2016.1017",
+          "volume": "11",
+          "author": "H Liao",
+          "year": "2017",
+          "unstructured": "Liao H, Milanović JV (2017) On capability of different FACTS devices to mitigate a range of power quality phenomena. IET Gener Transm Distrib 11(5):1202–1211. https://doi.org/10.1049/iet-gtd.2016.1017",
+          "journal-title": "IET Gener Transm Distrib"
+        },
+        {
+          "issue": "2",
+          "key": "2546_CR11",
+          "doi-asserted-by": "publisher",
+          "first-page": "1270",
+          "DOI": "10.1109/TIE.2019.2899561",
+          "volume": "67",
+          "author": "H Zhai",
+          "year": "2020",
+          "unstructured": "Zhai H et al (2020) An optimal compensation method of shunt active power filters for system-wide voltage quality improvement. IEEE Trans Industr Electron 67(2):1270–1281. https://doi.org/10.1109/TIE.2019.2899561",
+          "journal-title": "IEEE Trans Industr Electron"
+        },
+        {
+          "issue": "2",
+          "key": "2546_CR12",
+          "doi-asserted-by": "publisher",
+          "first-page": "633",
+          "DOI": "10.1007/s40998-020-00384-8",
+          "volume": "45",
+          "author": "M Kalarathi",
+          "year": "2021",
+          "unstructured": "Kalarathi M, Rathina Prabha N (2021) Multilevel parallel active power filter based on ANFIS controller for harmonic alleviation. Iranian J Sci Techno-Trans Electron Eng 45(2):633–644. https://doi.org/10.1007/s40998-020-00384-8",
+          "journal-title": "Iranian J Sci Techno-Trans Electron Eng"
+        },
+        {
+          "issue": "16",
+          "key": "2546_CR13",
+          "doi-asserted-by": "publisher",
+          "first-page": "3511",
+          "DOI": "10.1049/iet-pel.2020.0235",
+          "volume": "13",
+          "author": "V Muneer",
+          "year": "2020",
+          "unstructured": "Muneer V, Bhattacharya A (2020) Eight-switch CHB-based three-level threephase shunt active power filter. IET Power Elect 13(16):3511–3521. https://doi.org/10.1049/iet-pel.2020.0235",
+          "journal-title": "IET Power Elect"
+        },
+        {
+          "issue": "5",
+          "key": "2546_CR14",
+          "doi-asserted-by": "publisher",
+          "first-page": "1309",
+          "DOI": "10.1007/s12555-014-0264-4",
+          "volume": "14",
+          "author": "S Saidi",
+          "year": "2016",
+          "unstructured": "Saidi S, Abbassi R, Chebbi S (2016) Quality improvement of shunt active power filter with direct instantaneous power estimator based on Virtual Flux. Int J Control Autom Syst 14(5):1309–1321. https://doi.org/10.1007/s12555-014-0264-4",
+          "journal-title": "Int J Control Autom Syst"
+        },
+        {
+          "issue": "2",
+          "key": "2546_CR15",
+          "doi-asserted-by": "publisher",
+          "first-page": "361",
+          "DOI": "10.7305/automatika.2016.10.1011",
+          "volume": "57",
+          "author": "S Saldi",
+          "year": "2016",
+          "unstructured": "Saldi S, Abbassi R, Amor N, Chebbi S (2016) Passivity-based direct power control of shunt active filter under distorted grid voltage conditions. Automatika 57(2):361–371. https://doi.org/10.7305/automatika.2016.10.1011",
+          "journal-title": "Automatika"
+        },
+        {
+          "issue": "3",
+          "key": "2546_CR16",
+          "doi-asserted-by": "publisher",
+          "first-page": "1430",
+          "DOI": "10.11591/ijpeds.v11.i3.pp1430-1440",
+          "volume": "11",
+          "author": "MY Lada",
+          "year": "2020",
+          "unstructured": "Lada MY, Radzi MAM, Jasni J, Hizam H, Jidin A, Mohamad SH (2020) Performance of three-phase three-wire cascaded h-bridge multilevel inverter-based shunt active power filter. Int J Power Electron Drive Syst 11(3):1430–1440. https://doi.org/10.11591/ijpeds.v11.i3.pp1430-1440",
+          "journal-title": "Int J Power Electron Drive Syst"
+        },
+        {
+          "key": "2546_CR17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ifacol.2022.07.285",
+          "author": "S Valedsaravi",
+          "year": "2022",
+          "unstructured": "Valedsaravi S, El Aroudi A, Salamero LM (2022) Control of a PV-fed cascaded half-bridge multilevel inverter with shunt active power filter capabilities. IFAC-PapersOnLine. https://doi.org/10.1016/j.ifacol.2022.07.285",
+          "journal-title": "IFAC-PapersOnLine"
+        },
+        {
+          "issue": "5",
+          "key": "2546_CR18",
+          "doi-asserted-by": "publisher",
+          "first-page": "783",
+          "DOI": "10.1007/s12530-022-09465-x",
+          "volume": "14",
+          "author": "H Toopchizadeh",
+          "year": "2023",
+          "unstructured": "Toopchizadeh H, Zallaghi M, Moradi M, Shahmoradi S (2023) An effective shunt active power filter based on novel binary multilevel inverter and optimal type-2 fuzzy system to accurately mitigate harmonic currents. Evol Syst 14(5):783–800. https://doi.org/10.1007/s12530-022-09465-x",
+          "journal-title": "Evol Syst"
+        },
+        {
+          "issue": "1",
+          "key": "2546_CR19",
+          "doi-asserted-by": "publisher",
+          "first-page": "104",
+          "DOI": "10.1007/s40815-018-0547-7",
+          "volume": "21",
+          "author": "M Kala Rathi",
+          "year": "2019",
+          "unstructured": "Kala Rathi M, Rathina Prabha N (2019) Interval Type-2 Fuzzy Logic Controller-Based Multi-level Shunt Active Power Line Conditioner for Harmonic Mitigation. Int J Fuzzy Sys 21(1):104–114. https://doi.org/10.1007/s40815-018-0547-7",
+          "journal-title": "Int J Fuzzy Sys"
+        },
+        {
+          "issue": "3",
+          "key": "2546_CR20",
+          "doi-asserted-by": "publisher",
+          "first-page": "3243",
+          "DOI": "10.1109/JESTPE.2020.3007900",
+          "volume": "9",
+          "author": "S Ouchen",
+          "year": "2021",
+          "unstructured": "Ouchen S, Benbouzid M, Blaabjerg F, Betka A, Steinhart H (2021) Direct power control of shunt active power filter using space vector modulation based on supertwisting sliding mode control. IEEE J Emerg Sel Top Power Electron 9(3):3243–3253. https://doi.org/10.1109/JESTPE.2020.3007900",
+          "journal-title": "IEEE J Emerg Sel Top Power Electron"
+        },
+        {
+          "key": "2546_CR21",
+          "unstructured": "A.Arulkumar, Dr.N.RathinaPrabha, and M.KalaRathI, 2014 PI Controller Based Shunt Active Power Filter with Cascaded Multilevel Inverter, Madurai, Tamil Nadu, India, 2014. [Online]. Available: www.ijirset.com"
+        },
+        {
+          "key": "2546_CR22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/etep.2714",
+          "author": "S Ray",
+          "year": "2019",
+          "unstructured": "Ray S, Gupta N, Gupta RA (2019) Hardware realization of proportional-resonant regulator based advanced current control strategy for cascaded H-bridge inverter based shunt active power filter. Int Trans Electr Energy Sys. https://doi.org/10.1002/etep.2714",
+          "journal-title": "Int Trans Electr Energy Sys"
+        },
+        {
+          "key": "2546_CR23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "P. K. Barik, G. Shankar, and P. K. Sahoo, 2021 DC-Link Capacitor Voltage Stabilization of a Shunt Active Power Filter Using Fuzzy Logic Controller Under Dynamic Loading Condition, In: Proceedings of Symposium on Power Electronic and Renewable Energy Systems Control, S. Mohapatro and J. Kimball, Eds., Singapore: Springer Singapore, 2021, pp. 403–414.",
+          "DOI": "10.1007/978-981-16-1978-6_35"
+        },
+        {
+          "key": "2546_CR24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s12652-019-01660-0",
+          "author": "V Narasimhulu",
+          "year": "2020",
+          "unstructured": "Narasimhulu V, Ashok Kumar DV, Sai Babu C (2020) Computational intelligence based control of cascaded H-bridge multilevel inverter for shunt active power filter application. J Ambient Intell Humaniz Comput. https://doi.org/10.1007/s12652-019-01660-0",
+          "journal-title": "J Ambient Intell Humaniz Comput"
+        },
+        {
+          "issue": "2",
+          "key": "2546_CR25",
+          "doi-asserted-by": "publisher",
+          "first-page": "880",
+          "DOI": "10.1109/TII.2012.2223223",
+          "volume": "9",
+          "author": "M Popescu",
+          "year": "2013",
+          "unstructured": "Popescu M, Bitoleanu A, Suru V (2013) A DSP-based implementation of the p-q theory in active power filtering under nonideal voltage conditions. IEEE Trans Industr Inform 9(2):880–889. https://doi.org/10.1109/TII.2012.2223223",
+          "journal-title": "IEEE Trans Industr Inform"
+        },
+        {
+          "key": "2546_CR26",
+          "doi-asserted-by": "publisher",
+          "unstructured": "R. Sarker, A. Datta, and S. Debnath, 2020 FPGA Implementation of Phase Disposition PWM (PD-PWM) Strategy for Cascaded H-Bridge Multilevel Inverter (CHB-MLI). In: Proceedings of 2020 IEEE Applied Signal Processing Conference, ASPCON 2020, Institute of Electrical and Electronics Engineers Inc., Oct. 2020, pp. 80–84. https://doi.org/10.1109/ASPCON49795.2020.9276676.",
+          "DOI": "10.1109/ASPCON49795.2020.9276676"
+        },
+        {
+          "issue": "6",
+          "key": "2546_CR27",
+          "doi-asserted-by": "publisher",
+          "first-page": "4631",
+          "DOI": "10.1109/TIE.2017.2772209",
+          "volume": "65",
+          "author": "SS Lee",
+          "year": "2018",
+          "unstructured": "Lee SS, Sidorov M, Idris NRN, Heng YE (2018) A symmetrical cascaded compact-module multilevel inverter (CCM-MLI) with pulsewidth modulation. IEEE Trans Industr Electron 65(6):4631–4639. https://doi.org/10.1109/TIE.2017.2772209",
+          "journal-title": "IEEE Trans Industr Electron"
+        },
+        {
+          "key": "2546_CR28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "G. and S. P. K. Barik Prasanta Kumar and Shankar, 2021 DC-Link Capacitor Voltage Stabilization of a Shunt Active Power Filter Using Fuzzy Logic Controller Under Dynamic Loading Condition. In: Proceedings of Symposium on Power Electronic and Renewable Energy Systems Control, J. Mohapatro Sankarsan and Kimball, Ed., Singapore: Springer Singapore, 2021, pp. 403–414.",
+          "DOI": "10.1007/978-981-16-1978-6_35"
+        },
+        {
+          "issue": "03",
+          "key": "2546_CR29",
+          "doi-asserted-by": "publisher",
+          "first-page": "285",
+          "DOI": "10.4236/epe.2011.33036",
+          "volume": "03",
+          "author": "S Mikkili",
+          "year": "2011",
+          "unstructured": "Mikkili S, Panda AK (2011) Instantaneous active and reactive power and current strategies for current harmonics cancellation in 3-ph 4wire SHAF With both PI and Fuzzy controllers. Energy Power Eng 03(03):285–298. https://doi.org/10.4236/epe.2011.33036",
+          "journal-title": "Energy Power Eng"
+        },
+        {
+          "key": "2546_CR30",
+          "unstructured": "S. K. Sharma, V. Gali, and R. Scholar, 2021 Fuzzy Logic based PWM Switching Scheme for Shunt APF under Adverse Supply and Load Conditions"
+        },
+        {
+          "key": "2546_CR31",
+          "unstructured": "C. Han et al., System Integration and Demonstration of a 4.5 MVA STATCOM based on Emitter Turn-Off (ETO) Thyristor and Cascade Multilevel Converter."
+        }
+      ],
+      "container-title": [
+        "Electrical Engineering"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s00202-024-02546-x.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/article/10.1007/s00202-024-02546-x/fulltext.html",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s00202-024-02546-x.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            11
+          ]
+        ],
+        "date-time": "2025-01-11T17:07:45Z",
+        "timestamp": 1736615265000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://link.springer.com/10.1007/s00202-024-02546-x"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            10
+          ]
+        ]
+      },
+      "references-count": 31,
+      "journal-issue": {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              1
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "2546"
+      ],
+      "URL": "https://doi.org/10.1007/s00202-024-02546-x",
+      "relation": {},
+      "ISSN": [
+        "0948-7921",
+        "1432-0487"
+      ],
+      "issn-type": [
+        {
+          "value": "0948-7921",
+          "type": "print"
+        },
+        {
+          "value": "1432-0487",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            10
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "22 January 2024",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "13 June 2024",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "10 July 2024",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Declarations"
+          }
+        },
+        {
+          "value": "The authors have no relevant financial or nonfinancial interests to disclose. The authors declare no conflict of interest.",
+          "order": 2,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Conflict of interest"
+          }
+        },
+        {
+          "value": "The paper is not currently being considered for publication elsewhere.",
+          "order": 3,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Ethical approval"
+          }
+        },
+        {
+          "value": "Not applicable.",
+          "order": 4,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Consent to participate"
+          }
+        },
+        {
+          "value": "Not applicable.",
+          "order": 5,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Consent to publish"
+          }
+        }
+      ]
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Arulkumar Annamalaichamy",
+      "given_name_from_source": "Arulkumar",
+      "family_name_from_source": "Annamalaichamy",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Prince Winston David",
+      "given_name_from_source": "Prince Winston",
+      "family_name_from_source": "David",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Ilhami Colak",
+      "given_name_from_source": "Ilhami",
+      "family_name_from_source": "Colak",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

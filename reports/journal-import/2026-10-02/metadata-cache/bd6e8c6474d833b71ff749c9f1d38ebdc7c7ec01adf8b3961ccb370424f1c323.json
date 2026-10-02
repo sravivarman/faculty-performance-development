@@ -1,0 +1,915 @@
+{
+  "doi": "10.1038/s41598-025-12585-4",
+  "title": "Optimizing control and management of hybrid power system, consisting PV-wind and battery-super capacitor, using COOT algorithm",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Scientific Reports",
+  "publisher": "Springer Science and Business Media LLC",
+  "publication_date": "2025-09-29",
+  "online_publication_date": "2025-09-29",
+  "print_publication_date": null,
+  "volume": "15",
+  "issue": "1",
+  "pages_or_article_number": "33342",
+  "issn": null,
+  "eissn": "2045-2322",
+  "isbn": null,
+  "url": "https://doi.org/10.1038/s41598-025-12585-4",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:29.189894+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            17
+          ]
+        ],
+        "date-time": "2026-09-17T10:30:35Z",
+        "timestamp": 1789641035071,
+        "version": "4.0.0"
+      },
+      "reference-count": 53,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                29
+              ]
+            ],
+            "date-time": "2025-09-29T00:00:00Z",
+            "timestamp": 1759104000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                29
+              ]
+            ],
+            "date-time": "2025-09-29T00:00:00Z",
+            "timestamp": 1759104000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Sci Rep"
+      ],
+      "DOI": "10.1038/s41598-025-12585-4",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            29
+          ]
+        ],
+        "date-time": "2025-09-29T17:39:37Z",
+        "timestamp": 1759167577000
+      },
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 7,
+      "title": [
+        "Optimizing control and management of hybrid power system, consisting PV-wind and battery-super capacitor, using COOT algorithm"
+      ],
+      "prefix": "10.1038",
+      "volume": "15",
+      "author": [
+        {
+          "given": "Abdelkader",
+          "family": "Halmous",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Youcef",
+          "family": "Oubbati",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mohamed",
+          "family": "Lahdeb",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sangeetha",
+          "family": "Kannan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            29
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "12585_CR1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "MG Simoes, CL Lute, AN Alsaleem, DI Brandao, and JA Pomilio, ‘Bidirectional floating interleaved buck-boost DC-DC converter applied to residential PV power systems, In: 2015 Clemson University Power Systems Conference (PSC), Clemson, SC, USA: IEEE 1–8  (2015).",
+          "DOI": "10.1109/PSC.2015.7101675"
+        },
+        {
+          "issue": "38",
+          "key": "12585_CR2",
+          "doi-asserted-by": "publisher",
+          "first-page": "19871",
+          "DOI": "10.1016/j.ijhydene.2021.03.140",
+          "volume": "46",
+          "author": "TR Ayodele",
+          "year": "2021",
+          "unstructured": "Ayodele, T. R., Mosetlhe, T. C., Yusuff, A. A. & Ogunjuyigbe, A. S. O. Off-grid hybrid renewable energy system with hydrogen storage for South African rural community health clinic. Intern. J. Hydrog. Energy 46(38), 19871–19885. https://doi.org/10.1016/j.ijhydene.2021.03.140 (2021).",
+          "journal-title": "Intern. J. Hydrog. Energy"
+        },
+        {
+          "issue": "12",
+          "key": "12585_CR3",
+          "doi-asserted-by": "publisher",
+          "first-page": "1687",
+          "DOI": "10.1007/s42452-019-1743-2",
+          "volume": "1",
+          "author": "I Hamdan",
+          "year": "2019",
+          "unstructured": "Hamdan, I., Maghraby, A. & Noureldeen, O. Stability improvement and control of grid-connected photovoltaic system during faults using supercapacitor. SN Appl. Sci. 1(12), 1687. https://doi.org/10.1007/s42452-019-1743-2 (2019).",
+          "journal-title": "SN Appl. Sci."
+        },
+        {
+          "issue": "2",
+          "key": "12585_CR4",
+          "doi-asserted-by": "publisher",
+          "first-page": "207",
+          "DOI": "10.3390/eng3020016",
+          "volume": "3",
+          "author": "HS Salama",
+          "year": "2022",
+          "unstructured": "Salama, H. S., Kotb, K. M., Vokony, I. & Dán, A. The role of hybrid battery–SMES energy storage in enriching the permanence of PV–Wind DC Microgrids: a Case Study. Eng. 3(2), 207–223. https://doi.org/10.3390/eng3020016 (2022).",
+          "journal-title": "Eng."
+        },
+        {
+          "issue": "6",
+          "key": "12585_CR5",
+          "doi-asserted-by": "publisher",
+          "first-page": "1595",
+          "DOI": "10.3390/en14061595",
+          "volume": "14",
+          "author": "P Gajewski",
+          "year": "2021",
+          "unstructured": "Gajewski, P. & Pieńkowski, K. ‘Control of the hybrid renewable energy system with wind turbine. Photovoltaic panels and battery energy storage’, Energies 14(6), 1595. https://doi.org/10.3390/en14061595 (2021).",
+          "journal-title": "Photovoltaic panels and battery energy storage’, Energies"
+        },
+        {
+          "key": "12585_CR6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "L. Chen etal., ‘Optimization of SMES-battery hybrid energy storage system for wind power smoothing’, In : 2020 IEEE International Conferenceon Applied Superconductivity and Electromagnetic Devices(ASEMD), Tianjin, China: IEEE 1–2. (2020).",
+          "DOI": "10.1109/ASEMD49065.2020.9276307"
+        },
+        {
+          "issue": "1",
+          "key": "12585_CR7",
+          "doi-asserted-by": "publisher",
+          "first-page": "21830",
+          "DOI": "10.1038/s41598-023-49067-4",
+          "volume": "13",
+          "author": "D Rekioua",
+          "year": "2023",
+          "unstructured": "Rekioua, D. et al. Optimization and intelligent power management control for an autonomous hybrid wind turbine photovoltaic diesel generator with batteries. Sci. Rep. 13 (1), 21830. https://doi.org/10.1038/s41598-023-49067-4 (2023).",
+          "journal-title": "Sci. Rep."
+        },
+        {
+          "issue": "5",
+          "key": "12585_CR8",
+          "doi-asserted-by": "publisher",
+          "first-page": "63",
+          "DOI": "10.3390/electronics7050063",
+          "volume": "7",
+          "author": "MA Khan",
+          "year": "2018",
+          "unstructured": "Khan, M. A. et al. A novel Supercapacitor/Lithium-Ion hybrid energy system with a fuzzy Logic-Controlled fast charging and intelligent energy management system. Electronics 7 (5), 63. https://doi.org/10.3390/electronics7050063 (2018).",
+          "journal-title": "Electronics"
+        },
+        {
+          "issue": "19",
+          "key": "12585_CR9",
+          "doi-asserted-by": "publisher",
+          "first-page": "14066",
+          "DOI": "10.3390/su151914066",
+          "volume": "15",
+          "author": "D Rekioua",
+          "year": "2023",
+          "unstructured": "Rekioua, D. et al. Optimized power management approach for photovoltaic systems with hybrid Battery-Supercapacitor storage. Sustainability 15 (19), 14066. https://doi.org/10.3390/su151914066 (2023).",
+          "journal-title": "Sustainability"
+        },
+        {
+          "key": "12585_CR10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "T. Rout, M. K. Maharana, A. Chowdhury, and S. Samal, ‘A comparative study of stand-alone photo-voltaic system with battery storage system and Battery Supercapacitor storage system’, In: 2018 4 th International Conference on Electrical Energy Systems(ICEES), Chennai: IEEE,77–81 (2018)",
+          "DOI": "10.1109/ICEES.2018.8442346"
+        },
+        {
+          "key": "12585_CR11",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Wongdet, P., Marungsri, B. & ‘Hybrid energy storage system in standalone DC microgrid with ramp rate limitation for extending the lifespan of battery’, in, L. Intern. Elect. Eng. Cong. (iEECON). Krabi, Thailand: IEEE 2018, 1–4. https://doi.org/10.1109/IEECON.2018.8712174 (2018).",
+          "DOI": "10.1109/IEECON.2018.8712174"
+        },
+        {
+          "key": "12585_CR12",
+          "doi-asserted-by": "publisher",
+          "first-page": "4951",
+          "DOI": "10.1016/j.egyr.2021.07.040",
+          "volume": "7",
+          "author": "D Toumietal",
+          "year": "2021",
+          "unstructured": "Toumietal, D. Optimal design and analysis of DC–DC converter with maximum power controller for stand-alone PV system. Energy Rep. 7, 4951–4960. https://doi.org/10.1016/j.egyr.2021.07.040 (2021).",
+          "journal-title": "Energy Rep."
+        },
+        {
+          "issue": "12",
+          "key": "12585_CR13",
+          "doi-asserted-by": "publisher",
+          "first-page": "e02862",
+          "DOI": "10.1016/j.heliyon.2019.e02862",
+          "volume": "5",
+          "author": "L Ortiz",
+          "year": "2019",
+          "unstructured": "Ortiz, L. et al. Hybrid AC/DC microgrid test system simulation: grid-connected mode. Heliyon 5(12), e02862. https://doi.org/10.1016/j.heliyon.2019.e02862 (2019).",
+          "journal-title": "Heliyon"
+        },
+        {
+          "key": "12585_CR14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Halmous, A., Oubbati, Y. & Lahdeb, M. ‘Techno-economic study of gridconnected hybrid renewable energy systems optimized by homer pro’, in 2nd International conference on electrical engineering and automatic control. Setif, Algeria: IEEE (2024).",
+          "DOI": "10.1109/ICEEAC61226.2024.10576327"
+        },
+        {
+          "key": "12585_CR15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Y Saidi, A Mezouar, Y Miloud, MA Benmahdjoub, M Yahiaoui, 2019, ‘Modeling and comparative study of speed sensor and sensor-less based on TSR-MPPT method for PMSG-WT applications’, Int. J. Energetica, 32, 6 10.47238/ijeca.v3i2.69.",
+          "DOI": "10.47238/ijeca.v3i2.69"
+        },
+        {
+          "key": "12585_CR16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "B. Meghni, H. Chojaa, and A. Boulmaiz, ‘An Optimal Torque Control based on Intelligent Tracking Range (MPPT-OTC-ANN) for Permanent Magnet Direct Drive WECS’, In: 2020 IEEE 2 nd International Conference on Electronics,Control,Optimization and ComputerScience(ICECOCS), Kenitra, Morocco: IEEE, 1–6. (2020).",
+          "DOI": "10.1109/ICECOCS50124.2020.9314304"
+        },
+        {
+          "issue": "11",
+          "key": "12585_CR17",
+          "doi-asserted-by": "publisher",
+          "first-page": "1187",
+          "DOI": "10.3390/jmse9111187",
+          "volume": "9",
+          "author": "J Pande",
+          "year": "2021",
+          "unstructured": "Pande, J., Nasikkar, P., Kotecha, K. & Varadarajan, V. A review of maximum power point tracking algorithms for wind energy conversion systems. JMSE 9(11), 1187. https://doi.org/10.3390/jmse9111187 (2021).",
+          "journal-title": "JMSE"
+        },
+        {
+          "key": "12585_CR18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. Manna and A. K. Akella, ‘Comparative analysis of various P & O MPPT algorithm for PV system under varying radiation condition’, In: 20211st International Conferenceon Power Electronics and Energy(ICPEE), Bhubaneswar, India: IEEE. 1–6. (2021).",
+          "DOI": "10.1109/ICPEE50452.2021.9358690"
+        },
+        {
+          "issue": "1",
+          "key": "12585_CR19",
+          "doi-asserted-by": "publisher",
+          "first-page": "14",
+          "DOI": "10.1186/s41601-020-00161-z",
+          "volume": "5",
+          "author": "L Shang",
+          "year": "2020",
+          "unstructured": "Shang, L., Guo, H. & Zhu, W. An improved MPPT control strategy based on incremental conductance algorithm. Prot. Control. Mod. Power. Syst. 5(1), 14. https://doi.org/10.1186/s41601-020-00161-z (2020).",
+          "journal-title": "Prot. Control. Mod. Power. Syst."
+        },
+        {
+          "key": "12585_CR20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Safari and S. Mekhilef, ‘Incremental conductance MPPT method for PV systems’, In: 2011 24 th Canadian Conference on Electrical and Computer Engineering (CCECE), Niagara Falls, ON, Canada: IEEE,  2011, 000345–000347. doi: 10.1109/CCECE.2011.6030470.",
+          "DOI": "10.1109/CCECE.2011.6030470"
+        },
+        {
+          "key": "12585_CR21",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Al-Turjman, F., Qadir, Z., Abujubbeh, M. & Batunlu, C. Feasibility analysis of solar photovoltaic-wind hybrid energy system for household applications. Computers & Electrical Engineering , https://doi.org/10.1016/j.compeleceng.2020.106743 (2020).",
+          "DOI": "10.1016/j.compeleceng.2020.106743"
+        },
+        {
+          "key": "12585_CR22",
+          "doi-asserted-by": "publisher",
+          "first-page": "96528",
+          "DOI": "10.1109/ACCESS.2020.2993919",
+          "volume": "8",
+          "author": "AF Tazay",
+          "year": "2020",
+          "unstructured": "Tazay, A. F., Ibrahim, A. M. A., Noureldeen, O. & Hamdan, I. Modeling, Control, and Performance Evaluation of Grid-Tied Hybrid PV/Wind Power Generation System: Case Study of Gabel El-Zeit Region, Egypt. IEEE Access 8, 96528–96542. https://doi.org/10.1109/ACCESS.2020.2993919 (2020).",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "12585_CR23",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Das, B. K. et al. Feasibility and techno-economic analysis of stand-alone and grid-connected PV/Wind/Diesel/Batt hybrid energy system: a case study. Energy Strategy Rev. 37, https://doi.org/10.1016/j.esr.2021.100673 (2021).",
+          "DOI": "10.1016/j.esr.2021.100673"
+        },
+        {
+          "issue": "1",
+          "key": "12585_CR24",
+          "doi-asserted-by": "publisher",
+          "first-page": "96",
+          "DOI": "10.59277/RRST-EE.2023.68.1.16",
+          "volume": "68",
+          "author": "Y Oubbati",
+          "year": "2023",
+          "unstructured": "Oubbati, Y., Oubbati, B. K., Rabhi, A. & Arif, S. ‘Experimental analysis of hybrid energy storagesystem based on nonlinear control strategy’, Revueroumaine des sciences techniques. Serie Électrotechnique et Énergétique 68(1), 96–101 (2023).",
+          "journal-title": "Serie Électrotechnique et Énergétique"
+        },
+        {
+          "issue": "75",
+          "key": "12585_CR25",
+          "doi-asserted-by": "publisher",
+          "first-page": "352",
+          "DOI": "10.19101/IJATEE.2020.762168",
+          "volume": "8",
+          "author": "MM Rana",
+          "year": "2021",
+          "unstructured": "Rana, M. M., Romlie, M. F., Abdullah, M. F., Uddin, M. & Rahman, M. O. Modeling of an isolated microgrid with hybrid PV-BESS system for peak load shaving simulation. IJATEE 8(75), 352–361. https://doi.org/10.19101/IJATEE.2020.762168 (2021).",
+          "journal-title": "IJATEE"
+        },
+        {
+          "issue": "47",
+          "key": "12585_CR26",
+          "doi-asserted-by": "publisher",
+          "first-page": "28171",
+          "DOI": "10.1016/j.ijhydene.2017.08.215",
+          "volume": "42",
+          "author": "I Abadlia",
+          "year": "2017",
+          "unstructured": "Abadlia, I., Adjabi, M. & Bouzeria, H. Sliding mode based power control of grid-connected photovoltaic-hydrogen hybrid system. Intern. J. Hydrog. Energy 42(47), 28171–28182. https://doi.org/10.1016/j.ijhydene.2017.08.215 (2017).",
+          "journal-title": "Intern. J. Hydrog. Energy"
+        },
+        {
+          "key": "12585_CR27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ITCE.2019.8646353",
+          "author": "A-AA Mohamed",
+          "year": "2019",
+          "unstructured": "Mohamed, A.-A.A., Haridy, A. L. & Hemeida, A. M. ‘The Whale Optimization Algorithm based controller for PMSG wind energy generation system’, In: 2019 International Conference on InnovativeTrendsin Computer Engineering(ITCE). Aswan, Egypt: IEEE. 438–443. https://doi.org/10.1109/ITCE.2019.8646353 (2019).",
+          "journal-title": "Aswan, Egypt: IEEE."
+        },
+        {
+          "issue": "4",
+          "key": "12585_CR28",
+          "doi-asserted-by": "publisher",
+          "first-page": "684",
+          "DOI": "10.1007/s42452-020-2439-3",
+          "volume": "2",
+          "author": "MM Mahmoud",
+          "year": "2020",
+          "unstructured": "Mahmoud, M. M., Aly, M. M. & Abdel-Rahim, A.-M.M. Enhancing the dynamic performance of a wind-driven PMSG implementing different optimization techniques. SN Appl. Sci. 2(4), 684. https://doi.org/10.1007/s42452-020-2439-3 (2020).",
+          "journal-title": "SN Appl. Sci."
+        },
+        {
+          "key": "12585_CR29",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Roslan, M. F., Al-Shetwi, A. Q., Hannan, M. A., Ker, P. J. & Zuhdi, A. W. M. Particle swarm optimization algorithm-based PI inverter controller for a grid-connected PV system. PLoS ONE 15(12), e0243581. https://doi.org/10.1371/journal.pone.0243581 (2020).",
+          "DOI": "10.1371/journal.pone.0243581"
+        },
+        {
+          "issue": "1",
+          "key": "12585_CR30",
+          "doi-asserted-by": "publisher",
+          "first-page": "145",
+          "DOI": "10.1109/TSTE.2016.2587828",
+          "volume": "8",
+          "author": "A Merabet",
+          "year": "2017",
+          "unstructured": "Merabet, A., Tawfique Ahmed, K., Ibrahim, H., Beguenane, R. & Ghias, A. M. Y. M. Energy management and control system for laboratory scale microgrid based wind-PV-battery. IEEE Trans. Sustain. Energy 8(1), 145–154. https://doi.org/10.1109/TSTE.2016.2587828 (2017).",
+          "journal-title": "IEEE Trans. Sustain. Energy"
+        },
+        {
+          "issue": "14",
+          "key": "12585_CR31",
+          "doi-asserted-by": "publisher",
+          "first-page": "9551",
+          "DOI": "10.1007/s00500-023-08089-w",
+          "volume": "27",
+          "author": "A Halmous",
+          "year": "2023",
+          "unstructured": "Halmous, A., Oubbati, Y., Lahdeb, M. & Arif, S. Design a new cascade controller PD-P-PID optimized by marine predators algorithm for load frequency control. Soft. Comput. 27(14), 9551–9564. https://doi.org/10.1007/s00500-023-08089-w (2023).",
+          "journal-title": "Soft. Comput."
+        },
+        {
+          "issue": "30",
+          "key": "12585_CR32",
+          "doi-asserted-by": "publisher",
+          "first-page": "19525",
+          "DOI": "10.1016/j.ijhydene.2017.06.006",
+          "volume": "42",
+          "author": "Z Roumila",
+          "year": "2017",
+          "unstructured": "Roumila, Z., Rekioua, D. & Rekioua, T. Energy management based fuzzy logic controller of hybrid system wind/photovoltaic/diesel with storage battery. Intern. J. Hydrog. Energy 42(30), 19525–19535. https://doi.org/10.1016/j.ijhydene.2017.06.006 (2017).",
+          "journal-title": "Intern. J. Hydrog. Energy"
+        },
+        {
+          "key": "12585_CR33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TIE.2024.3519565",
+          "author": "P Pal",
+          "year": "2025",
+          "unstructured": "Pal, P., Behera, R. K. & Muduli, U. R. Feedforward repetitive approach to disturbance rejection in DAB converters for EV charging. IEEE Trans. Ind. Electron. 1–13. https://doi.org/10.1109/TIE.2024.3519565 (2025).",
+          "journal-title": "IEEE Trans. Ind. Electron."
+        },
+        {
+          "issue": "2",
+          "key": "12585_CR34",
+          "doi-asserted-by": "publisher",
+          "first-page": "3303",
+          "DOI": "10.1109/TIA.2025.3532231",
+          "volume": "61",
+          "author": "SK Baksi",
+          "year": "2025",
+          "unstructured": "Baksi, S. K., Behera, R. K. & Muduli, U. R. A comprehensive analysis of enhanced DC-Bus utilization and reduced component count five-level inverter for PV-grid integration. IEEE Trans. Ind. Applicat. 61(2), 3303–3316. https://doi.org/10.1109/TIA.2025.3532231 (2025).",
+          "journal-title": "IEEE Trans. Ind. Applicat."
+        },
+        {
+          "issue": "5",
+          "key": "12585_CR35",
+          "doi-asserted-by": "publisher",
+          "first-page": "7264",
+          "DOI": "10.1109/TIA.2024.3413052",
+          "volume": "60",
+          "author": "MK Senapati",
+          "year": "2024",
+          "unstructured": "Senapati, M. K. et al. Advancing electric vehicle charging ecosystems with intelligent control of DC microgrid stability. IEEE Trans. Ind. Applicat. 60(5), 7264–7278. https://doi.org/10.1109/TIA.2024.3413052 (2024).",
+          "journal-title": "IEEE Trans. Ind. Applicat."
+        },
+        {
+          "issue": "3",
+          "key": "12585_CR36",
+          "doi-asserted-by": "publisher",
+          "first-page": "607",
+          "DOI": "10.1007/s12667-019-00334-2",
+          "volume": "11",
+          "author": "K Tazi",
+          "year": "2020",
+          "unstructured": "Tazi, K., Abbou, M. F. & Abdi, F. Performance analysis of micro-grid designs with local PMSG wind turbines. Energy Syst 11(3), 607–639. https://doi.org/10.1007/s12667-019-00334-2 (2020).",
+          "journal-title": "Energy Syst"
+        },
+        {
+          "issue": "2",
+          "key": "12585_CR37",
+          "doi-asserted-by": "publisher",
+          "first-page": "335",
+          "DOI": "10.1002/we.464",
+          "volume": "15",
+          "author": "VL Okulov",
+          "year": "2012",
+          "unstructured": "Okulov, V. L. & Van Kuik, G. A. M. ‘The Betz-Joukowsky limit: on the contribution to rotor aerodynamics by the British. German and Russian scientific schools: the Betz-Joukowsky limit’, Wind Energ. 15(2), 335–344. https://doi.org/10.1002/we.464 (2012).",
+          "journal-title": "German and Russian scientific schools: the Betz-Joukowsky limit’, Wind Energ."
+        },
+        {
+          "issue": "21",
+          "key": "12585_CR38",
+          "doi-asserted-by": "publisher",
+          "first-page": "5809",
+          "DOI": "10.3390/en13215809",
+          "volume": "13",
+          "author": "T García-Sánchez",
+          "year": "2020",
+          "unstructured": "García-Sánchez, T., Mishra, A. K., Hurtado-Pérez, E., Puché-Panadero, R. & Fernández-Guillamón, A. A controller for optimum electrical power extraction from a small grid-interconnected wind turbine. Energies 13(21), 5809. https://doi.org/10.3390/en13215809 (2020).",
+          "journal-title": "Energies"
+        },
+        {
+          "issue": "4",
+          "key": "12585_CR39",
+          "doi-asserted-by": "publisher",
+          "first-page": "929",
+          "DOI": "10.1109/TEC.2013.2281814",
+          "volume": "28",
+          "author": "H Shariatpanah",
+          "year": "2013",
+          "unstructured": "Shariatpanah, H., Fadaeinedjad, R. & Rashidinejad, M. A new model for PMSG-based wind turbine with yaw control. IEEE Trans. Energy Convers. 28(4), 929–937. https://doi.org/10.1109/TEC.2013.2281814 (2013).",
+          "journal-title": "IEEE Trans. Energy Convers."
+        },
+        {
+          "key": "12585_CR40",
+          "doi-asserted-by": "crossref",
+          "unstructured": "O. Tremblay, L.-A. Dessaint, and A.-I. Dekkiche, ‘A generic battery model for the dynamic simulation of hybrid electric vehicles’, In: 2007 IEEE Vehicle Power and Propulsion Conference, Arlington, TX, USA: IEEE, 2007, 284–289. doi: 10.1109/VPPC.2007.4544139.",
+          "DOI": "10.1109/VPPC.2007.4544139"
+        },
+        {
+          "key": "12585_CR41",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Samrat, N. H., Ahmad, N., Choudhury, I. A. & Taha, Z. Technical study of a standalone photovoltaic–wind energy based hybrid power supply systems for island electrification in Malaysia. PLoS ONE 10(6), https://doi.org/10.1371/journal.pone.0130678 (2015).",
+          "DOI": "10.1371/journal.pone.0130678"
+        },
+        {
+          "issue": "1",
+          "key": "12585_CR42",
+          "doi-asserted-by": "publisher",
+          "first-page": "45",
+          "DOI": "10.1039/C5NH00004A",
+          "volume": "1",
+          "author": "S Kondrat",
+          "year": "2016",
+          "unstructured": "Kondrat, S. & Kornyshev, A. A. Pressing a spring: what does it take to maximize the energy storage in nanoporous supercapacitors?. Nanoscale Horiz. 1(1), 45–52. https://doi.org/10.1039/C5NH00004A (2016).",
+          "journal-title": "Nanoscale Horiz."
+        },
+        {
+          "key": "12585_CR43",
+          "doi-asserted-by": "crossref",
+          "unstructured": "P. Mohammadi, A. Eskandari, J. Milimonfared, J. S. Moghani, ‘LVRT capability enhancement of single-phase grid connected PV array with coupled supercapacitor’, 2018.",
+          "DOI": "10.1109/PEDSTC.2018.8343795"
+        },
+        {
+          "key": "12585_CR44",
+          "doi-asserted-by": "publisher",
+          "first-page": "11",
+          "DOI": "10.1016/j.egypro.2014.07.245",
+          "volume": "54",
+          "author": "K Visweswara",
+          "year": "2014",
+          "unstructured": "Visweswara, K. An Investigation of incremental conductance based maximum power point tracking for photovoltaic system. Energy Procedia 54, 11–20. https://doi.org/10.1016/j.egypro.2014.07.245 (2014).",
+          "journal-title": "Energy Procedia"
+        },
+        {
+          "issue": "1",
+          "key": "12585_CR45",
+          "doi-asserted-by": "publisher",
+          "first-page": "9",
+          "DOI": "10.1186/s43067-022-00050-5",
+          "volume": "9",
+          "author": "FA Mohammed",
+          "year": "2022",
+          "unstructured": "Mohammed, F. A., Bahgat, M. E., Elmasry, S. S. & Sharaf, S. M. Design of a maximum power point tracking-based PID controller for DC converter of stand-alone PV system. Journal of Electrical Systems and Inf Technol 9(1), 9. https://doi.org/10.1186/s43067-022-00050-5 (2022).",
+          "journal-title": "Journal of Electrical Systems and Inf Technol"
+        },
+        {
+          "issue": "2",
+          "key": "12585_CR46",
+          "doi-asserted-by": "publisher",
+          "first-page": "486",
+          "DOI": "10.1109/TIE.2006.870658",
+          "volume": "53",
+          "author": "E Koutroulis",
+          "year": "2006",
+          "unstructured": "Koutroulis, E. & Kalaitzakis, K. Design of a maximum power tracking system for wind-energy-conversion applications. IEEE Trans. Ind. Electron. 53(2), 486–494. https://doi.org/10.1109/TIE.2006.870658 (2006).",
+          "journal-title": "IEEE Trans. Ind. Electron."
+        },
+        {
+          "key": "12585_CR47",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. C. Argyrou, C. Spanias, C. C. Marouchos, S. A. Kalogirou, and P. Christodoulides, ‘Energy management and modeling of a grid-connected BIPV system with battery energy storage’, In: 2019 54 thInternational Universities Power Engineering Conference(UPEC), Bucharest, Romania: IEEE, 2019,. 1–6. doi: 10.1109/UPEC.2019.8893495.",
+          "DOI": "10.1109/UPEC.2019.8893495"
+        },
+        {
+          "key": "12585_CR48",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Haribabu, D., Vangari, A. & Sakamuri, J. N. ‘Dynamics of voltage source converter in a grid connected solar photovoltaic system’, in, InternationalConferenceonIndustrialInstrumentationandControl(ICIC). Pune, India: IEEE 2015, 360–365. https://doi.org/10.1109/IIC.2015.7150768 (2015).",
+          "DOI": "10.1109/IIC.2015.7150768"
+        },
+        {
+          "issue": "4",
+          "key": "12585_CR49",
+          "doi-asserted-by": "publisher",
+          "first-page": "2236",
+          "DOI": "10.3390/app12042236",
+          "volume": "12",
+          "author": "V Kumar",
+          "year": "2022",
+          "unstructured": "Kumar, V. & Yi, K. Single-phase, bidirectional, 7.7 kW totem pole on-board charging/discharging infrastructure. Applied Sci. 12(4), 2236. https://doi.org/10.3390/app12042236 (2022).",
+          "journal-title": "Applied Sci."
+        },
+        {
+          "key": "12585_CR50",
+          "doi-asserted-by": "publisher",
+          "first-page": "683",
+          "DOI": "10.1016/j.solener.2020.06.086",
+          "volume": "207",
+          "author": "N Aouchiche",
+          "year": "2020",
+          "unstructured": "Aouchiche, N. Meta-heuristic optimization algorithms based direct current and DC link voltage controllers for three-phase grid connected photovoltaic inverter. Solar Energy 207, 683–692. https://doi.org/10.1016/j.solener.2020.06.086 (2020).",
+          "journal-title": "Solar Energy"
+        },
+        {
+          "key": "12585_CR51",
+          "doi-asserted-by": "crossref",
+          "unstructured": "I. Naruei and F. Keynia, ‘A new optimization method based on COOT bird natural life model’, Expert Systems with Applications, 183,. 115352. 2021, doi: 10.1016/j.eswa.2021.115352.",
+          "DOI": "10.1016/j.eswa.2021.115352"
+        },
+        {
+          "key": "12585_CR52",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Syed, S. A. & Cheeran, A. N. ‘Modelling and Simulation of Maximum Power Point Tracking Algorithm based PV Array and Utility Grid Interconnected System’, in International Conference on Recent Innovations in Electrical, Electronics & Communication Engineering (ICRIEECE), Bhubaneswar, India: IEEE,. 2018,. 1713–1717., Bhubaneswar, India: IEEE,. 2018,. 1713–1717. (2018). https://doi.org/10.1109/ICRIEECE44171.2018.9009106",
+          "DOI": "10.1109/ICRIEECE44171.2018.9009106"
+        },
+        {
+          "key": "12585_CR53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00202-024-02401-z",
+          "author": "A Halmous",
+          "year": "2024",
+          "unstructured": "Halmous, A., Oubbati, Y. & Lahdeb, M. Control optimization of grid-connected PMSG wind turbine with OOBO algorithm and cascade PI-PID controller. ElectrEng https://doi.org/10.1007/s00202-024-02401-z (2024).",
+          "journal-title": "ElectrEng"
+        }
+      ],
+      "container-title": [
+        "Scientific Reports"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.nature.com/articles/s41598-025-12585-4.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.nature.com/articles/s41598-025-12585-4",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.nature.com/articles/s41598-025-12585-4.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            4
+          ]
+        ],
+        "date-time": "2025-10-04T02:10:52Z",
+        "timestamp": 1759543852000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.nature.com/articles/s41598-025-12585-4"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            29
+          ]
+        ]
+      },
+      "references-count": 53,
+      "journal-issue": {
+        "issue": "1",
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "12585"
+      ],
+      "URL": "https://doi.org/10.1038/s41598-025-12585-4",
+      "relation": {},
+      "ISSN": [
+        "2045-2322"
+      ],
+      "issn-type": [
+        {
+          "value": "2045-2322",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            29
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2 May 2025",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "18 July 2025",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "29 September 2025",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Declarations"
+          }
+        },
+        {
+          "value": "The authors declare no competing interests.",
+          "order": 2,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        }
+      ],
+      "article-number": "33342"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Abdelkader Halmous",
+      "given_name_from_source": "Abdelkader",
+      "family_name_from_source": "Halmous",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Youcef Oubbati",
+      "given_name_from_source": "Youcef",
+      "family_name_from_source": "Oubbati",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Mohamed Lahdeb",
+      "given_name_from_source": "Mohamed",
+      "family_name_from_source": "Lahdeb",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Sangeetha Kannan",
+      "given_name_from_source": "Sangeetha",
+      "family_name_from_source": "Kannan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

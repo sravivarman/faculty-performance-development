@@ -1,0 +1,289 @@
+{
+  "doi": "10.5935/jetia.v12i59.3838",
+  "title": "POWER FACTOR CORRECTION OF UNBALANCED UTILITY ELECTRICAL NETWORK FEED MATRIX CONVERTER-BASED NONLINEAR LOAD THROUGH SERIES ACTIVE FILTERING",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "ITEGAM- Journal of Engineering and Technology for Industrial Applications (ITEGAM-JETIA",
+  "publisher": "GN1 Sistemas e Publicacoes Ltd.",
+  "publication_date": null,
+  "online_publication_date": null,
+  "print_publication_date": null,
+  "volume": "12",
+  "issue": "59",
+  "pages_or_article_number": "2136-2147",
+  "issn": "2447-0228",
+  "eissn": null,
+  "isbn": null,
+  "url": "https://doi.org/10.5935/jetia.v12i59.3838",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:52:29.604985+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            3
+          ]
+        ],
+        "date-time": "2026-07-03T19:15:23Z",
+        "timestamp": 1783106123401,
+        "version": "3.54.6"
+      },
+      "reference-count": 0,
+      "publisher": "GN1 Sistemas e Publicacoes Ltd.",
+      "issue": "59",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "ITEGAM"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "abstract": "<jats:p>To rectify power factor in utility systems, this article proposes a three-phase matrix converter with active filtering. The active filter, instead of being used as a variable impedance that improves the voltage profile and power factor, would be more effective in this situation as a voltage-source compensator. A nonlinear, imbalanced model of the utility system is proposed to improve upon the current linear model. Improving the power factor in utility systems and expanding the dynamical modelling of matrix converters are the primary goals of this effort. By adjusting the PI controller, we can sort the voltage profiles unevenly, reduce harmonics in the source current, and maintain the load voltage at optimal power factor. This article discusses the active filter and its reference-controlled method as a voltage compensator, harmonic suppressor, and power factor corrector. Theoretically, compensatory signals are generated using the synchronous reference frame (SRF) principle. The switches of the voltage source inverter will be turned on and off by the SPWM built. The MATLAB/SIMULINK Toolset is used to implement the dynamical simulations.</jats:p>",
+      "DOI": "10.5935/jetia.v12i59.3838",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            3
+          ]
+        ],
+        "date-time": "2026-07-03T18:16:40Z",
+        "timestamp": 1783102600000
+      },
+      "page": "2136-2147",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "POWER FACTOR CORRECTION OF UNBALANCED UTILITY ELECTRICAL NETWORK FEED MATRIX CONVERTER-BASED NONLINEAR LOAD THROUGH SERIES ACTIVE FILTERING"
+      ],
+      "prefix": "10.5935",
+      "volume": "12",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-8146-0572",
+          "authenticated-orcid": false,
+          "given": "Patil",
+          "family": "Mounica",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0575-471X",
+          "authenticated-orcid": false,
+          "given": "Devineni Gireesh",
+          "family": "Kumar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0008-0213-7226",
+          "authenticated-orcid": false,
+          "given": "Gouthami",
+          "family": "Challa",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3325-566X",
+          "authenticated-orcid": false,
+          "given": "Natarajan",
+          "family": "Karuppiah",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "3948",
+      "published-online": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "container-title": [
+        "ITEGAM- Journal of Engineering and Technology for Industrial Applications (ITEGAM-JETIA"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "https://itegam-jetia.org/journal/index.php/jetia/pt_BR/article/view/3838",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            3
+          ]
+        ],
+        "date-time": "2026-07-03T18:16:52Z",
+        "timestamp": 1783102612000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://itegam-jetia.org/journal/index.php/jetia/pt_BR/article/view/3838"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "references-count": 0,
+      "journal-issue": {
+        "issue": "59",
+        "published-online": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.5935/jetia.v12i59.3838",
+      "relation": {},
+      "ISSN": [
+        "2447-0228"
+      ],
+      "issn-type": [
+        {
+          "value": "2447-0228",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      }
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Patil Mounica",
+      "given_name_from_source": "Patil",
+      "family_name_from_source": "Mounica",
+      "orcid_from_source": "https://orcid.org/0000-0002-8146-0572",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Devineni Gireesh Kumar",
+      "given_name_from_source": "Devineni Gireesh",
+      "family_name_from_source": "Kumar",
+      "orcid_from_source": "https://orcid.org/0000-0003-0575-471X",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Gouthami Challa",
+      "given_name_from_source": "Gouthami",
+      "family_name_from_source": "Challa",
+      "orcid_from_source": "https://orcid.org/0009-0008-0213-7226",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Natarajan Karuppiah",
+      "given_name_from_source": "Natarajan",
+      "family_name_from_source": "Karuppiah",
+      "orcid_from_source": "https://orcid.org/0000-0003-3325-566X",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

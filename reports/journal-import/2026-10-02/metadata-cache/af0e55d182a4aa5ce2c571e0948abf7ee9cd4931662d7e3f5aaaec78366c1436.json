@@ -1,0 +1,273 @@
+{
+  "doi": "10.1504/ijpt.2025.149513",
+  "title": "Advanced control strategy for a wind-hydrogen-battery standalone microgrid under distribution line fault conditions",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "International Journal of Powertrains",
+  "publisher": "Inderscience Publishers",
+  "publication_date": null,
+  "online_publication_date": null,
+  "print_publication_date": null,
+  "volume": "14",
+  "issue": "3",
+  "pages_or_article_number": "264-276",
+  "issn": "1742-4267",
+  "eissn": "1742-4275",
+  "isbn": null,
+  "url": "https://doi.org/10.1504/ijpt.2025.149513",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:21.484668+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            10
+          ]
+        ],
+        "date-time": "2026-09-10T14:17:02Z",
+        "timestamp": 1789049822542,
+        "version": "build-2803163510"
+      },
+      "reference-count": 0,
+      "publisher": "Inderscience Publishers",
+      "issue": "3",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "IJPT"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "DOI": "10.1504/ijpt.2025.149513",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            5
+          ]
+        ],
+        "date-time": "2025-11-05T12:30:44Z",
+        "timestamp": 1762345844000
+      },
+      "page": "264-276",
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Advanced control strategy for a wind-hydrogen-battery standalone microgrid under distribution line fault conditions"
+      ],
+      "prefix": "10.1504",
+      "volume": "14",
+      "author": [
+        {
+          "given": "Pothula",
+          "family": "Jagadeesh",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Asapu",
+          "family": "Siva",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Patil",
+          "family": "Mounica",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Md. Azahar",
+          "family": "Ahmed",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "378",
+      "container-title": [
+        "International Journal of Powertrains"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "http://www.inderscienceonline.com/doi/full/10.1504/IJPT.2025.149513",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            5
+          ]
+        ],
+        "date-time": "2025-11-05T12:30:45Z",
+        "timestamp": 1762345845000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "http://www.inderscience.com/link.php?id=149513"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "references-count": 0,
+      "journal-issue": {
+        "issue": "3",
+        "published-print": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.1504/ijpt.2025.149513",
+      "relation": {},
+      "ISSN": [
+        "1742-4267",
+        "1742-4275"
+      ],
+      "issn-type": [
+        {
+          "value": "1742-4267",
+          "type": "print"
+        },
+        {
+          "value": "1742-4275",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "article-number": "149513"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Pothula Jagadeesh",
+      "given_name_from_source": "Pothula",
+      "family_name_from_source": "Jagadeesh",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Asapu Siva",
+      "given_name_from_source": "Asapu",
+      "family_name_from_source": "Siva",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Patil Mounica",
+      "given_name_from_source": "Patil",
+      "family_name_from_source": "Mounica",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Md. Azahar Ahmed",
+      "given_name_from_source": "Md. Azahar",
+      "family_name_from_source": "Ahmed",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

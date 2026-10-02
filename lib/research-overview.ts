@@ -1,0 +1,12 @@
+export const ACTIVITIES={publications:"Publications",patents:"Patents",books:"Books / Chapters",fdp:"FDP / Workshops / Webinars",certifications:"Certifications",proposals:"Research Proposals",consultancy:"Consultancy"};
+export const OUTCOMES={journal:"Journal Publications",conference:"Conference Publications",patents_granted:"Patents granted",proposals_sanctioned:"Proposals Sanctioned",funds_sanctioned:"Funds Sanctioned",consultancy_revenue:"Consultancy Revenue",faculty_contributors:"Faculty Contributors"};
+export const PUBLICATION_SNAPSHOT={sci_scie:"SCI / SCIE",scopus:"Scopus",web_of_science:"Web of Science",q1:"Q1",q2:"Q2",international:"International Publications",with_students:"Publications with Students"};
+export const PATENT_SNAPSHOT={filed:"Filed",published:"Published",granted:"Granted",with_students:"Patents with Students",interdepartmental:"Interdepartmental Patents",external_collaboration:"External Collaboration Patents"};
+export const FACULTY_COLUMNS={publications_claimed:"Publications Claimed",publications_authored:"Publications Authored",patents_claimed:"Patents Claimed",patents_invented:"Patent Inventor Count",books:"Books / Chapters",fdp:"FDP / Workshops",certifications:"Certifications",proposals:"Proposals",consultancy:"Consultancy",total_activities:"Total Activities"};
+export type Activity={date:string;module:string;id:number;title:string;status:string;faculty:string;faculty_ids:number[];student_ids:number[]};
+export type FacultyRow={id:number;name:string}&Record<keyof typeof FACULTY_COLUMNS,number|null>;
+export type ResearchOverview={activity_totals:Record<string,number|null>;outcomes:Record<string,number|null>;publication_summary:Record<string,number>;patent_summary:Record<string,number>;financial_summary:Record<string,number|null>;faculty_summary:FacultyRow[];faculty_participation:{with_activity:number;without_activity:number};student_summary:Record<string,number>;trend:{month:string;publications:number;patents:number;books:number}[];recent_activity:Activity[];data_quality:Record<string,number>;unavailable_modules:Record<string,string>};
+export const currency=(value:number)=>new Intl.NumberFormat("en-IN",{style:"currency",currency:"INR",maximumFractionDigits:0}).format(value);
+export function moduleLink(module:string,metric:string,range:{from_date:string;to_date:string},extra:Record<string,string>={}){
+  return `/${module}?${new URLSearchParams({...range,metric,...(module==="publications"?{dashboard_only:"true"}:{}),...extra})}`;
+}

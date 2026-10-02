@@ -1,0 +1,721 @@
+{
+  "doi": "10.3389/fenrg.2023.1230641",
+  "title": "Modeling and analysis of the LC filter-integrated quasi Z-source indirect matrix converter for the wind energy conversion system",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Frontiers in Energy Research",
+  "publisher": "Frontiers Media SA",
+  "publication_date": "2023-08-25",
+  "online_publication_date": "2023-08-25",
+  "print_publication_date": null,
+  "volume": "11",
+  "issue": null,
+  "pages_or_article_number": "1230641",
+  "issn": null,
+  "eissn": "2296-598X",
+  "isbn": null,
+  "url": "https://doi.org/10.3389/fenrg.2023.1230641",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:40.536820+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            6
+          ]
+        ],
+        "date-time": "2026-06-06T14:19:47Z",
+        "timestamp": 1780755587288,
+        "version": "3.54.1"
+      },
+      "reference-count": 43,
+      "publisher": "Frontiers Media SA",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                8,
+                25
+              ]
+            ],
+            "date-time": "2023-08-25T00:00:00Z",
+            "timestamp": 1692921600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "frontiersin.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Front. Energy Res."
+      ],
+      "abstract": "<jats:p>A Quasi Z-Source Indirect Matrix Converter (QZSIMC) is proposed in this paper for Permanent Magnet Generator (PMG) based Direct Drive Wind Energy Conversion Systems (DDWECS) to enhance the voltage transfer ratio and also to control the output voltage under various loading conditions. The QZSIMC comprises three Quasi Z-Source (QZS) networks connected between PMG and load through a three-phase Indirect Matrix Converter (IMC). Two different PWM control techniques such as Carrier Based Pulse Width Modulation Technique and Modified Space Vector Pulse Width Modulation Technique are proposed to analyze the performance of QZSIMC. By changing the shoot through time period, the duty ratio of quasi Z-Source network can be increased which in turn increases the boost factor of both QZSIMC without affecting the efficiency of the converter. A closed-loop control system has also been designed to sustain constant parameters at the output. The proposed QZSIMC for PMG based DDWECS along with two different PWM Control Schemes are to be modeled using MATLAB/SIMULINK environment. To validate the simulation results, a 1 kW, 415 V, 50 Hz experimental setup with an FPGA SPARTAN-6 processor has been developed in the laboratory for QZSIMC and the results are investigated based on the parameters such as output voltage, output current, Switching Stress, Boost Factor, inductor current, capacitor voltage, Total Harmonic Distortion.</jats:p>",
+      "DOI": "10.3389/fenrg.2023.1230641",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            25
+          ]
+        ],
+        "date-time": "2023-08-25T12:34:39Z",
+        "timestamp": 1692966879000
+      },
+      "update-policy": "https://doi.org/10.3389/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 10,
+      "title": [
+        "Modeling and analysis of the LC filter-integrated quasi Z-source indirect matrix converter for the wind energy conversion system"
+      ],
+      "prefix": "10.3389",
+      "volume": "11",
+      "author": [
+        {
+          "given": "K. T.",
+          "family": "Maheswari",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "C.",
+          "family": "Kumar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tomonobu",
+          "family": "Senjyu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "1965",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            25
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "B1",
+          "doi-asserted-by": "publisher",
+          "first-page": "3576",
+          "DOI": "10.1049/iet-gtd.2017.0178",
+          "article-title": "Modelling, control, and stability analysis of quasi‐Z‐source matrix converter as the grid interface of a PMSG‐WECS",
+          "volume": "11",
+          "author": "Alizadeh",
+          "year": "2017",
+          "journal-title": "Transm. Distribution"
+        },
+        {
+          "key": "B2",
+          "first-page": "1447",
+          "article-title": "A maximum power control of wind generator system using a permanent magnet synchronous generator and a boost chopper circuit",
+          "volume": "3",
+          "author": "Amei",
+          "year": "2002",
+          "journal-title": "Proc. PCC, Osaka, Jpn."
+        },
+        {
+          "key": "B3",
+          "first-page": "1",
+          "article-title": "A Class of quasi-Z-source inverters",
+          "volume-title": "Proc. Of IEEE industry applications society annual meeting",
+          "author": "Anderson",
+          "year": "2008"
+        },
+        {
+          "key": "B4",
+          "article-title": "Novel MPPT controller for wind turbine driven permanent magnet generator with power converters",
+          "volume": "5",
+          "author": "Bharanikumar",
+          "year": "",
+          "journal-title": "Int. Rev. Electr. Eng."
+        },
+        {
+          "key": "B5",
+          "doi-asserted-by": "publisher",
+          "first-page": "27",
+          "DOI": "10.7158/e10-849.2012.9.1",
+          "article-title": "Modelling and simulation of wind turbine driven axial type permanent magnet generator with Z-source inverter",
+          "volume": "9",
+          "author": "Bharanikumar",
+          "year": "",
+          "journal-title": "Aust. J. Electr. Electron. Eng."
+        },
+        {
+          "key": "B6",
+          "doi-asserted-by": "publisher",
+          "first-page": "251",
+          "DOI": "10.1109/60.766991",
+          "article-title": "An axial-flux permanent-magnet generator for a gearless wind energy system",
+          "volume": "14",
+          "author": "Chalmers",
+          "year": "1999",
+          "journal-title": "IEEE trans. Energy Convers."
+        },
+        {
+          "key": "B7",
+          "doi-asserted-by": "publisher",
+          "first-page": "86",
+          "DOI": "10.1109/tec.2006.889546",
+          "article-title": "An axial-flux permanent-magnet synchronous generator for A direct-coupled wind-turbine system",
+          "volume": "22",
+          "author": "Chan",
+          "year": "2007",
+          "journal-title": "IEEE Trans. Energy Convers."
+        },
+        {
+          "key": "B8",
+          "doi-asserted-by": "publisher",
+          "first-page": "669",
+          "DOI": "10.1080/00207219208925607",
+          "article-title": "Soft-switched matrix converter for high-frequency direct AC-to-AC power conversion",
+          "volume": "72",
+          "author": "Cho",
+          "year": "2013",
+          "journal-title": "Int. J. Electron."
+        },
+        {
+          "key": "B9",
+          "doi-asserted-by": "publisher",
+          "first-page": "6137",
+          "DOI": "10.1109/tpel.2020.3033414",
+          "article-title": "Maximum voltage transfer ratio of matrix converter under DTC with rotating vectors",
+          "volume": "36",
+          "author": "Deng",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Energy Convers."
+        },
+        {
+          "key": "B10",
+          "first-page": "761",
+          "volume-title": "Comparison of generator topologies for direct-drive wind turbines",
+          "author": "Dubois",
+          "year": "1992"
+        },
+        {
+          "key": "B11",
+          "doi-asserted-by": "publisher",
+          "first-page": "64",
+          "DOI": "10.1109/tec.2022.3187419",
+          "article-title": "Dual, three-level, quasi-Z-source, indirect matrix converter for motors with open-ended windings",
+          "volume": "38",
+          "author": "Guo",
+          "year": "2023",
+          "journal-title": "IEEE Trans. Energy Convers."
+        },
+        {
+          "key": "B12",
+          "doi-asserted-by": "publisher",
+          "first-page": "633",
+          "DOI": "10.1049/iet-rpg.2016.0368",
+          "article-title": "Very high gain three-phase indirect matrix converter with two Z-source networks in its structure",
+          "volume": "11",
+          "author": "Hakemi",
+          "year": "2017",
+          "journal-title": "IET Renew. Power Gener."
+        },
+        {
+          "key": "B13",
+          "doi-asserted-by": "publisher",
+          "first-page": "575",
+          "DOI": "10.1109/TPWRD.2012.2229721",
+          "article-title": "Reactive power control of permanent magnet synchronous wind generator with matrix converter",
+          "volume": "28",
+          "author": "Hojabri",
+          "year": "2013",
+          "journal-title": "IEEE Trans. Power Deliv."
+        },
+        {
+          "key": "B14",
+          "first-page": "1621",
+          "article-title": "Comparison of direct and indirect matrix converters in induction motor drive",
+          "author": "Jussila",
+          "year": "2006"
+        },
+        {
+          "key": "B15",
+          "doi-asserted-by": "publisher",
+          "first-page": "139",
+          "DOI": "10.1109/28.821808",
+          "article-title": "AC/AC power conversion based on matrix converter topology with unidirectional switches",
+          "volume": "36",
+          "author": "Kim",
+          "year": "2000",
+          "journal-title": "IEEE Trans. Ind. Appl."
+        },
+        {
+          "key": "B16",
+          "first-page": "1",
+          "article-title": "Single stage power conversion for wind energy system using Ac-ac matrix converter",
+          "volume": "17",
+          "author": "Kumar Ramasamy",
+          "year": "2017",
+          "journal-title": "J. Electr. Eng."
+        },
+        {
+          "key": "B17",
+          "doi-asserted-by": "publisher",
+          "first-page": "641",
+          "DOI": "10.1109/APEC.2012.6165886",
+          "article-title": "Pulse-width-amplitude modulated voltage-fed quasi-Z-source direct matrix converter with maximum constant boost",
+          "volume": "6",
+          "author": "Lei",
+          "year": "2012",
+          "journal-title": "27th Annu. IEEE Appl. Power Electron. Conf. Expo."
+        },
+        {
+          "key": "B18",
+          "first-page": "685",
+          "article-title": "Design optimization and comparison of large direct-drive permanent magnet wind generator systems",
+          "author": "Li",
+          "year": "2007"
+        },
+        {
+          "key": "B19",
+          "first-page": "644",
+          "article-title": "Study on control methods of direct drive wind generation system based on three-phase Z-source inverter",
+          "volume-title": "Ieee int. Conf. Power electronics motion control, IPEMC",
+          "author": "Li",
+          "year": "2009"
+        },
+        {
+          "key": "B20",
+          "doi-asserted-by": "publisher",
+          "first-page": "12874",
+          "DOI": "10.1109/tie.2021.3139177",
+          "article-title": "A low-pass virtual filter for output power smoothing of wind energy conversion systems",
+          "volume": "69",
+          "author": "Liao",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Industrial Electron."
+        },
+        {
+          "key": "B21",
+          "doi-asserted-by": "publisher",
+          "first-page": "1775",
+          "DOI": "10.1002/cta.2032",
+          "article-title": "Simplified quasi-Z source indirect matrix converter: SIMPLIFIED QZS INDIRECT MATRIX CONVERTER fied quasi-Z source matrix converter",
+          "volume": "43",
+          "author": "Liu",
+          "year": "2015",
+          "journal-title": "Intern. J. Circuit Theory Appl."
+        },
+        {
+          "key": "B22",
+          "doi-asserted-by": "publisher",
+          "first-page": "7544",
+          "DOI": "10.1109/tpel.2016.2553582",
+          "article-title": "Modeling, analysis, and parameters design of LC-filter-integrated quasi-Z-source indirect matrix converter",
+          "volume": "31",
+          "author": "Liu",
+          "year": "2016",
+          "journal-title": "IEEE Trans. Power Electron."
+        },
+        {
+          "key": "B23",
+          "doi-asserted-by": "publisher",
+          "first-page": "4039",
+          "DOI": "10.1109/tpel.2012.2188415",
+          "article-title": "Improved modulation schemes for indirect Z-source matrix converter with sinusoidal input and output waveforms",
+          "volume": "27",
+          "author": "Liu",
+          "year": "2012",
+          "journal-title": "IEEE Trans. Power Electron."
+        },
+        {
+          "key": "B24",
+          "first-page": "53",
+          "article-title": "A review on matrix converter topologies for adjustable speed drives",
+          "volume-title": "International journal of innovative Technology and exploring engineering (IJITEE)",
+          "author": "Maheswari",
+          "year": "2019"
+        },
+        {
+          "key": "B25",
+          "doi-asserted-by": "publisher",
+          "first-page": "61",
+          "DOI": "10.1109/tii.2013.2255032",
+          "article-title": "A new SVM method for an indirect matrix converter with common-mode voltage reduction",
+          "volume": "10",
+          "author": "Nguyen",
+          "year": "2014",
+          "journal-title": "IEEE Trans. Ind. Inf."
+        },
+        {
+          "key": "B26",
+          "first-page": "4523",
+          "article-title": "Z-source matrix converter with unity voltage transfer ratio",
+          "volume-title": "Proc. 35th IEEE IECON",
+          "author": "Park",
+          "year": "2009"
+        },
+        {
+          "key": "B27",
+          "doi-asserted-by": "publisher",
+          "first-page": "517",
+          "DOI": "10.1109/tia.2021.3128369",
+          "article-title": "New family of two-to-three-phase AC–AC indirect matrix converters with open-end rectifier stage",
+          "volume": "58",
+          "author": "Ramalho",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Industry Appl."
+        },
+        {
+          "key": "B28",
+          "doi-asserted-by": "publisher",
+          "first-page": "58",
+          "DOI": "10.1109/TIE.2011.2165310",
+          "article-title": "A review of control and modulation methods for matrix converters",
+          "volume": "59",
+          "author": "Rodriguez",
+          "year": "2012",
+          "journal-title": "IEEE Trans. Ind. Electron."
+        },
+        {
+          "key": "B29",
+          "doi-asserted-by": "publisher",
+          "first-page": "6015",
+          "DOI": "10.1109/tpel.2020.3026977",
+          "article-title": "A modulation method to realize sinusoidal line current for bidirectional isolated three-phase AC/DC dual-active-bridge converter based on matrix converter",
+          "volume": "36",
+          "author": "Shigeuchi",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Power Electron."
+        },
+        {
+          "key": "B30",
+          "first-page": "298",
+          "article-title": "Modeling, analysis, and motor drive application of quasi-Z source indirect matrix converter",
+          "volume": "33",
+          "author": "Shuo",
+          "year": "2014",
+          "journal-title": "Int. J. Comput. Math. Electr. Electron. Eng."
+        },
+        {
+          "key": "B31",
+          "first-page": "2440",
+          "article-title": "A novel indirect quasi-Z-source matrix converter applied to induction motor drives",
+          "volume-title": "Proc. IEEE energy convers. Congr. Expo",
+          "author": "Shuo",
+          "year": "2013"
+        },
+        {
+          "key": "B32",
+          "doi-asserted-by": "publisher",
+          "first-page": "699",
+          "DOI": "10.1109/tpel.2014.2313746",
+          "article-title": "Impedance-source networks for electric power conversion part I: A topological review",
+          "volume": "30",
+          "author": "Siwakoti",
+          "year": "2015",
+          "journal-title": "IEEE Trans. Power Electron."
+        },
+        {
+          "key": "B33",
+          "doi-asserted-by": "publisher",
+          "first-page": "1185",
+          "DOI": "10.1080/15325008.2020.1834018",
+          "article-title": "Performance analysis of dual space vector modulation technique-based quasi Z-source direct matrix converter",
+          "volume": "48",
+          "author": "Thangavel",
+          "year": "2020",
+          "journal-title": "Electr. Power Components Syst. Vo."
+        },
+        {
+          "key": "B34",
+          "doi-asserted-by": "publisher",
+          "first-page": "4135",
+          "DOI": "10.1109/tia.2016.2573752",
+          "article-title": "Experimental efficiency comparison between a direct matrix converter and an indirect matrix converter using both Si IGBTs and SiC <sc&gt;mosfet&lt;/sc&gt;s",
+          "volume": "52",
+          "author": "Trentin",
+          "year": "2016",
+          "journal-title": "IEEE Trans. Ind. Appl."
+        },
+        {
+          "key": "B35",
+          "doi-asserted-by": "publisher",
+          "first-page": "1476",
+          "DOI": "10.1109/tpel.2017.2675903",
+          "article-title": "Quasi-Z-source indirect matrix converter fed induction motor drive for flow control of dye in paper mill",
+          "volume": "33",
+          "author": "Vidhya",
+          "year": "2018",
+          "journal-title": "IEEE Trans. Power Electron."
+        },
+        {
+          "key": "B36",
+          "doi-asserted-by": "publisher",
+          "first-page": "1372",
+          "DOI": "10.1109/tpel.2022.3207515",
+          "article-title": "Dual stage single-phase to multiphase matrix converter for variable frequency applications",
+          "volume": "38",
+          "author": "Waghmare",
+          "year": "2023",
+          "journal-title": "IEEE Trans. Energy Convers."
+        },
+        {
+          "key": "B37",
+          "doi-asserted-by": "publisher",
+          "first-page": "276",
+          "DOI": "10.1109/41.993260",
+          "article-title": "Matrix converters; a technology review",
+          "volume": "49",
+          "author": "Wheeler",
+          "year": "2002",
+          "journal-title": "IEEE Trans. Ind. Electron."
+        },
+        {
+          "key": "B38",
+          "doi-asserted-by": "publisher",
+          "first-page": "4779",
+          "DOI": "10.1109/tpel.2021.3123204",
+          "article-title": "The modular current-fed high-frequency isolated matrix converters for wind energy conversion",
+          "volume": "37",
+          "author": "Xu",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Energy Convers."
+        },
+        {
+          "key": "B39",
+          "doi-asserted-by": "publisher",
+          "first-page": "13056",
+          "DOI": "10.1109/TIE.2022.3140524",
+          "article-title": "Voltage-fed isolated matrix-type AC/DC converter for wind energy conversion system",
+          "volume": "69",
+          "author": "Xu",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Industrial Electron."
+        },
+        {
+          "key": "B40",
+          "doi-asserted-by": "publisher",
+          "first-page": "5308",
+          "DOI": "10.1109/TPEL.2013.2292068",
+          "article-title": "Predictive control of a three-level boost converter and an NPC inverter for high-power PMSG-based medium voltage wind energy conversion systems",
+          "volume": "29",
+          "author": "Yaramasu",
+          "year": "2014",
+          "journal-title": "IEEE Trans. Power Electron."
+        },
+        {
+          "key": "B41",
+          "doi-asserted-by": "publisher",
+          "first-page": "162",
+          "DOI": "10.1002/cta.2069",
+          "article-title": "Common mode voltage reduction of quasi-Z source indirect matrix converter",
+          "volume": "44",
+          "author": "You",
+          "year": "2016",
+          "journal-title": "Int. J. Circuit Theory Appl."
+        },
+        {
+          "key": "B42",
+          "first-page": "630",
+          "article-title": "Analysis of direct matrix converter operation under various switching patterns",
+          "author": "Zahra",
+          "year": "2015"
+        },
+        {
+          "key": "B43",
+          "doi-asserted-by": "publisher",
+          "first-page": "294",
+          "DOI": "10.1049/ip-epa:19960410",
+          "article-title": "Simulation of three phase loaded matrix converter",
+          "volume": "143",
+          "author": "Zuckerberg",
+          "year": "1996",
+          "journal-title": "IEEE Proc. Electr. Power Appl."
+        }
+      ],
+      "container-title": [
+        "Frontiers in Energy Research"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "https://www.frontiersin.org/articles/10.3389/fenrg.2023.1230641/full",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            25
+          ]
+        ],
+        "date-time": "2023-08-25T12:34:44Z",
+        "timestamp": 1692966884000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.frontiersin.org/articles/10.3389/fenrg.2023.1230641/full"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            25
+          ]
+        ]
+      },
+      "references-count": 43,
+      "alternative-id": [
+        "10.3389/fenrg.2023.1230641"
+      ],
+      "URL": "https://doi.org/10.3389/fenrg.2023.1230641",
+      "relation": {},
+      "ISSN": [
+        "2296-598X"
+      ],
+      "issn-type": [
+        {
+          "value": "2296-598X",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            25
+          ]
+        ]
+      },
+      "article-number": "1230641"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "K. T. Maheswari",
+      "given_name_from_source": "K. T.",
+      "family_name_from_source": "Maheswari",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "C. Kumar",
+      "given_name_from_source": "C.",
+      "family_name_from_source": "Kumar",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Tomonobu Senjyu",
+      "given_name_from_source": "Tomonobu",
+      "family_name_from_source": "Senjyu",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

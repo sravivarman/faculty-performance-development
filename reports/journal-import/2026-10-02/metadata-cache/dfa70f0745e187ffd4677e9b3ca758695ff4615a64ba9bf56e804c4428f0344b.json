@@ -1,0 +1,759 @@
+{
+  "doi": "10.1038/s41598-024-65202-1",
+  "title": "Experimental analysis of enhanced finite set model predictive control and direct torque control in SRM drives for torque ripple reduction",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Scientific Reports",
+  "publisher": "Springer Science and Business Media LLC",
+  "publication_date": "2024-07-22",
+  "online_publication_date": "2024-07-22",
+  "print_publication_date": null,
+  "volume": "14",
+  "issue": "1",
+  "pages_or_article_number": "16805",
+  "issn": null,
+  "eissn": "2045-2322",
+  "isbn": null,
+  "url": "https://doi.org/10.1038/s41598-024-65202-1",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:07.702822+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            1
+          ]
+        ],
+        "date-time": "2026-09-01T00:20:27Z",
+        "timestamp": 1788222027455,
+        "version": "build-2803163510"
+      },
+      "reference-count": 36,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                7,
+                22
+              ]
+            ],
+            "date-time": "2024-07-22T00:00:00Z",
+            "timestamp": 1721606400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                7,
+                22
+              ]
+            ],
+            "date-time": "2024-07-22T00:00:00Z",
+            "timestamp": 1721606400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Sci Rep"
+      ],
+      "abstract": "<jats:title>Abstract</jats:title><jats:p>The magnet-less switched reluctance motor (SRM) speed-torque characteristics are ideally suited for traction motor drive characteristics and its advantage to minimize the overall cost of on-road EVs. The main drawbacks are torque and flux ripple, which have produced high in low-speed operation. However, the emerging direct torque control (DTC) operated magnitude flux and torque estimation with voltage vectors (VVs) gives high torque ripples due to the selection of effective switching states and sector partition accuracy. On the other hand, the existing model predictive control (MPC) with multiple objective and optimization weighting factors produces high torque ripples due to the system dynamics and constraints. Therefore, existing DTC and MPC can result in high torque ripples. This paper proposed a finite set (FS)-MPC with a single cost function objective without weighting factor: the predicted torque considered to evaluate VVs to minimize the ripples further. The selected optimal VV minimizes the SRM drive torque and flux ripples in steady and dynamic state behaviour. The classical DTC and proposed model were developed, and simulation results were verified using MATLAB/Simulink. The proposed model operated in SRM drives experimental results to prove the effective minimization of torque and flux ripples compared to the existing DTC.</jats:p>",
+      "DOI": "10.1038/s41598-024-65202-1",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            22
+          ]
+        ],
+        "date-time": "2024-07-22T16:02:40Z",
+        "timestamp": 1721664160000
+      },
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 30,
+      "title": [
+        "Experimental analysis of enhanced finite set model predictive control and direct torque control in SRM drives for torque ripple reduction"
+      ],
+      "prefix": "10.1038",
+      "volume": "14",
+      "author": [
+        {
+          "given": "Deepak",
+          "family": "M",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Devakirubakaran",
+          "family": "Samithas",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shitharth",
+          "family": "Selvarajan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            22
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "issue": "6",
+          "key": "65202_CR1",
+          "doi-asserted-by": "publisher",
+          "first-page": "2237",
+          "DOI": "10.1109/TIE.2008.922768",
+          "volume": "55",
+          "author": "A Emadi",
+          "year": "2008",
+          "unstructured": "Emadi, A., Lee, Y. J. & Rajashekara, K. Power electronics and motor drives in electric, hybrid electric, and plug-in hybrid electric vehicles. IEEE Trans. Ind. Electron. 55(6), 2237–2245 (2008).",
+          "journal-title": "IEEE Trans. Ind. Electron."
+        },
+        {
+          "key": "65202_CR2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.apenergy.2019.114264",
+          "volume": "260",
+          "author": "S Feng",
+          "year": "2020",
+          "unstructured": "Feng, S. & Magee, C. L. Technological development of key domains in electric vehicles: Improvement rates, technology trajectories and key assignees. Appl. Energy 260, 114264 (2020).",
+          "journal-title": "Appl. Energy"
+        },
+        {
+          "key": "65202_CR3",
+          "doi-asserted-by": "publisher",
+          "first-page": "255",
+          "DOI": "10.1016/j.matpr.2022.04.480",
+          "volume": "64",
+          "author": "M Deepak",
+          "year": "2022",
+          "unstructured": "Deepak, M., Janaki, G. & Mounica, J. Investigation on airgap selection for switched reluctance motor on low power electric vehicles. Mater. Today Proc. 64, 255–260 (2022).",
+          "journal-title": "Mater. Today Proc."
+        },
+        {
+          "key": "65202_CR4",
+          "doi-asserted-by": "publisher",
+          "first-page": "367",
+          "DOI": "10.1016/j.rser.2015.12.121",
+          "volume": "57",
+          "author": "J-R Riba",
+          "year": "2016",
+          "unstructured": "Riba, J.-R., López-Torres, C., Romeral, L. & Garcia, A. Rare-earth-free propulsion motors for electric vehicles: A technology review. Renew. Sustain. Energy Rev. 57, 367–379 (2016).",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "issue": "3",
+          "key": "65202_CR5",
+          "doi-asserted-by": "publisher",
+          "first-page": "2660",
+          "DOI": "10.1109/TIA.2019.2897965",
+          "volume": "55",
+          "author": "S Li",
+          "year": "2019",
+          "unstructured": "Li, S., Zhang, S., Habetler, T. G. & Harley, R. G. Modeling, design optimization, and applications of switched reluctance machines—A review. IEEE Trans. Ind. Appl. 55(3), 2660–2681 (2019).",
+          "journal-title": "IEEE Trans. Ind. Appl."
+        },
+        {
+          "issue": "4",
+          "key": "65202_CR6",
+          "doi-asserted-by": "publisher",
+          "first-page": "3294",
+          "DOI": "10.1109/TEC.2021.3078547",
+          "volume": "36",
+          "author": "X Sun",
+          "year": "2021",
+          "unstructured": "Sun, X. et al. Multiobjective and multiphysics design optimization of a switched reluctance motor for electric vehicle applications. IEEE Trans. Energy Convers. 36(4), 3294–3304 (2021).",
+          "journal-title": "IEEE Trans. Energy Convers."
+        },
+        {
+          "key": "65202_CR7",
+          "first-page": "621",
+          "volume": "2",
+          "author": "N Akhtar",
+          "year": "2022",
+          "unstructured": "Akhtar, N. & Patil, V. Electric vehicle technology: Trends and challenges. Smart Technol. Energy Environ. Sustain. Dev. 2, 621–637 (2022).",
+          "journal-title": "Smart Technol. Energy Environ. Sustain. Dev."
+        },
+        {
+          "key": "65202_CR8",
+          "doi-asserted-by": "publisher",
+          "first-page": "914",
+          "DOI": "10.1016/j.compeleceng.2017.12.016",
+          "volume": "70",
+          "author": "X Gao",
+          "year": "2018",
+          "unstructured": "Gao, X., Na, R., Jia, C., Wang, X. & Zhou, Y. Multi-objective optimization of switched reluctance motor drive in electric vehicles. Comput. Electr. Eng. 70, 914–930 (2018).",
+          "journal-title": "Comput. Electr. Eng."
+        },
+        {
+          "key": "65202_CR9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/JESTPE.2023.3343732",
+          "author": "M Deepak",
+          "year": "2023",
+          "unstructured": "Deepak, M., Janaki, G., Bharatiraja, C. & Ojo, J. O. An enhanced model predictive direct torque control of SRM drive based on a novel modified switching strategy for low torque ripple. IEEE J. Emerg. Select. Top. Power Electron. https://doi.org/10.1109/JESTPE.2023.3343732 (2023).",
+          "journal-title": "IEEE J. Emerg. Select. Top. Power Electron."
+        },
+        {
+          "issue": "12",
+          "key": "65202_CR10",
+          "doi-asserted-by": "publisher",
+          "first-page": "10055",
+          "DOI": "10.1109/TIE.2019.2962483",
+          "volume": "67",
+          "author": "K Diao",
+          "year": "2020",
+          "unstructured": "Diao, K., Sun, X., Lei, G., Guo, Y. & Zhu, J. Multiobjective system level optimization method for switched reluctance motor drive systems using finite-element model. IEEE Trans. Industr. Electron. 67(12), 10055–10064 (2020).",
+          "journal-title": "IEEE Trans. Industr. Electron."
+        },
+        {
+          "issue": "7",
+          "key": "65202_CR11",
+          "doi-asserted-by": "publisher",
+          "first-page": "7172",
+          "DOI": "10.1109/TVT.2020.2993725",
+          "volume": "69",
+          "author": "B Bilgin",
+          "year": "2020",
+          "unstructured": "Bilgin, B. et al. Making the case for switched reluctance motors for propulsion applications. IEEE Trans. Veh. Technol. 69(7), 7172–7186 (2020).",
+          "journal-title": "IEEE Trans. Veh. Technol."
+        },
+        {
+          "issue": "10",
+          "key": "65202_CR12",
+          "doi-asserted-by": "publisher",
+          "first-page": "9229",
+          "DOI": "10.1109/TIE.2020.3021665",
+          "volume": "68",
+          "author": "W Ding",
+          "year": "2020",
+          "unstructured": "Ding, W., Bian, He., Song, K., Li, Y. & Li, Ke. Enhancement of a 12/4 hybrid-excitation switched reluctance machine with both segmented-stator and-rotor. IEEE Trans. Industr. Electron. 68(10), 9229–9241 (2020).",
+          "journal-title": "IEEE Trans. Industr. Electron."
+        },
+        {
+          "issue": "4",
+          "key": "65202_CR13",
+          "doi-asserted-by": "publisher",
+          "first-page": "1859",
+          "DOI": "10.1109/TEC.2020.2990914",
+          "volume": "35",
+          "author": "G Davarpanah",
+          "year": "2020",
+          "unstructured": "Davarpanah, G. & Faiz, J. A novel structure of switched reluctance machine with higher mean torque and lower torque ripple. IEEE Trans. Energy Convers. 35(4), 1859–1867 (2020).",
+          "journal-title": "IEEE Trans. Energy Convers."
+        },
+        {
+          "key": "65202_CR14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhao, Z., Taghavifar, H., Du, H., Qin, Y., Dong, M., Gu, L. In-wheel motor vibration control for distributed-driven electric vehicles: A review. IEEE Trans. Trans. Electrific. (2021).",
+          "DOI": "10.1109/TTE.2021.3074970"
+        },
+        {
+          "issue": "4",
+          "key": "65202_CR15",
+          "doi-asserted-by": "publisher",
+          "first-page": "909",
+          "DOI": "10.1007/s40998-019-00192-9",
+          "volume": "43",
+          "author": "V Hanaeinejad",
+          "year": "2019",
+          "unstructured": "Hanaeinejad, V. & Abbasian, M. A non-segmental outer rotor switched reluctance machine for in-wheel electric vehicle application. Iran. J. Sci. Technol. Trans. Electric. Eng. 43(4), 909–918 (2019).",
+          "journal-title": "Iran. J. Sci. Technol. Trans. Electric. Eng."
+        },
+        {
+          "key": "65202_CR16",
+          "doi-asserted-by": "publisher",
+          "first-page": "64179",
+          "DOI": "10.1109/ACCESS.2021.3076111",
+          "volume": "9",
+          "author": "M Bilal",
+          "year": "2021",
+          "unstructured": "Bilal, M. et al. Performance improvement of dual stator axial flux spoke type permanent magnet Vernier machine. IEEE Access 9, 64179–64188 (2021).",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "65202_CR17",
+          "doi-asserted-by": "publisher",
+          "first-page": "19078",
+          "DOI": "10.1109/ACCESS.2021.3052828",
+          "volume": "9",
+          "author": "TD Gupta",
+          "year": "2021",
+          "unstructured": "Gupta, T. D. et al. Design modification in single-tooth winding double-stator switched reluctance motor for torque ripple mitigation. IEEE Access 9, 19078–19096 (2021).",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "65202_CR18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Abdollahi, M., Mirsalim, M. Novel e-core double-stator two phase switched reluctance motor with segmental rotor. In 2019 10th International Power Electronics, Drive Systems and Technologies Conference (PEDSTC), pp. 72–77. IEEE, 2019.",
+          "DOI": "10.1109/PEDSTC.2019.8697519"
+        },
+        {
+          "key": "65202_CR19",
+          "first-page": "1657",
+          "volume": "52",
+          "author": "M Deepak",
+          "year": "2022",
+          "unstructured": "Deepak, M., Janaki, G. & Bharatiraja, C. Power electronic converter topologies for switched reluctance motor towards torque ripple analysis. Mater. Today: Proc. 52, 1657–1665 (2022).",
+          "journal-title": "Mater. Today: Proc."
+        },
+        {
+          "key": "65202_CR20",
+          "doi-asserted-by": "publisher",
+          "first-page": "1053",
+          "DOI": "10.1108/COMPEL-11-2020-0362",
+          "volume": "40",
+          "author": "MR Naeimi",
+          "year": "2021",
+          "unstructured": "Naeimi, M. R., Abbaszadeh, K. & Nasiri-Zarandi, R. Torque ripples reduction in a synchronous reluctance motor by rotor parameters optimization. COMPEL-Int. J. Comput. Math. Electric. Electron. Eng. 40, 1053–1066 (2021).",
+          "journal-title": "COMPEL-Int. J. Comput. Math. Electric. Electron. Eng."
+        },
+        {
+          "key": "65202_CR21",
+          "doi-asserted-by": "publisher",
+          "first-page": "191",
+          "DOI": "10.2528/PIERC21022001",
+          "volume": "111",
+          "author": "TD Gupta",
+          "year": "2021",
+          "unstructured": "Gupta, T. D. & Chaudhary, K. Finite element method-based design and analysis of a low torque ripple double-stator switched reluctance motor. Prog. Electromagn. Res. C 111, 191–206 (2021).",
+          "journal-title": "Prog. Electromagn. Res. C"
+        },
+        {
+          "issue": "2",
+          "key": "65202_CR22",
+          "doi-asserted-by": "publisher",
+          "first-page": "1635",
+          "DOI": "10.1109/TPEL.2018.2835773",
+          "volume": "34",
+          "author": "H Li",
+          "year": "2018",
+          "unstructured": "Li, H., Bilgin, B. & Emadi, A. An improved torque sharing function for torque ripple reduction in switched reluctance machines. IEEE Trans. Power Electron. 34(2), 1635–1644 (2018).",
+          "journal-title": "IEEE Trans. Power Electron."
+        },
+        {
+          "issue": "2",
+          "key": "65202_CR23",
+          "doi-asserted-by": "publisher",
+          "first-page": "5371",
+          "DOI": "10.48084/etasr.3389",
+          "volume": "10",
+          "author": "HA Maksoud",
+          "year": "2020",
+          "unstructured": "Maksoud, H. A. Torque ripple minimization of a switched reluctance motor using a torque sharing function based on the overlap control technique. J. Eng. Technol. Appl. Sci. Res. 10(2), 5371–5376 (2020).",
+          "journal-title": "J. Eng. Technol. Appl. Sci. Res."
+        },
+        {
+          "issue": "10",
+          "key": "65202_CR24",
+          "doi-asserted-by": "publisher",
+          "first-page": "9334",
+          "DOI": "10.1109/TIE.2020.3020026",
+          "volume": "68",
+          "author": "X Sun",
+          "year": "2020",
+          "unstructured": "Sun, X., Jiangling, Wu., Lei, G., Guo, Y. & Zhu, J. Torque ripple reduction of SRM drive using improved direct torque control with sliding mode controller and observer. IEEE Trans. Ind. Electron. 68(10), 9334–9345 (2020).",
+          "journal-title": "IEEE Trans. Ind. Electron."
+        },
+        {
+          "key": "65202_CR25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/cta.3897",
+          "author": "M Deepak",
+          "year": "2024",
+          "unstructured": "Deepak, M. & Janaki, G. A new flux and multilevel hysteresis torque band DTC with lookup table-based switched reluctance motor drive to suppress torque ripple. Int. J. Circ. Theor. Appl. https://doi.org/10.1002/cta.3897 (2024).",
+          "journal-title": "Int. J. Circ. Theor. Appl."
+        },
+        {
+          "issue": "11",
+          "key": "65202_CR26",
+          "doi-asserted-by": "publisher",
+          "first-page": "1535",
+          "DOI": "10.1002/tee.23458",
+          "volume": "16",
+          "author": "P Ren",
+          "year": "2021",
+          "unstructured": "Ren, P., Zhu, J., Jing, Z., Guo, Z. & Aide, Xu. Minimization of torque ripple in switched reluctance motor based on MPC and TSF. IEEJ Trans. Electr. Electron. Eng. 16(11), 1535–1543 (2021).",
+          "journal-title": "IEEJ Trans. Electr. Electron. Eng."
+        },
+        {
+          "key": "65202_CR27",
+          "doi-asserted-by": "publisher",
+          "first-page": "68584",
+          "DOI": "10.1109/ACCESS.2019.2917317",
+          "volume": "7",
+          "author": "A Xu",
+          "year": "2019",
+          "unstructured": "Xu, A., Shang, C., Chen, J., Zhu, J. & Han, L. A new control method based on DTC and MPC to reduce torque ripple in SRM. IEEE Access 7, 68584–68593 (2019).",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "65202_CR28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Valencia, D. F., Rotilli Filho, S., Callegaro, A. D., Preindl, M., & Emadi, A. Virtual-flux finite control set model predictive control of switched reluctance motor drives. In IECON 2019–45th Annual Conference of the IEEE Industrial Electronics Society, vol. 1, pp. 1465–1470. IEEE, 2019.",
+          "DOI": "10.1109/IECON.2019.8927295"
+        },
+        {
+          "issue": "13",
+          "key": "65202_CR29",
+          "doi-asserted-by": "publisher",
+          "first-page": "3317",
+          "DOI": "10.3390/en13133317",
+          "volume": "13",
+          "author": "A Anuchin",
+          "year": "2020",
+          "unstructured": "Anuchin, A. et al. Continuous control set model predictive control of a switch reluctance drive using lookup tables. Energies 13(13), 3317 (2020).",
+          "journal-title": "Energies"
+        },
+        {
+          "issue": "4",
+          "key": "65202_CR30",
+          "doi-asserted-by": "publisher",
+          "first-page": "15",
+          "DOI": "10.23919/CJEE.2019.000023",
+          "volume": "5",
+          "author": "M Ma",
+          "year": "2019",
+          "unstructured": "Ma, M., Wang, Z., Yang, Q., Yang, S. & Zhang, X. Vector control strategy of a T-type three-level converter driving a switched reluctance motor. Chine. J. Electric. Eng. 5(4), 15–21 (2019).",
+          "journal-title": "Chine. J. Electric. Eng."
+        },
+        {
+          "issue": "3",
+          "key": "65202_CR31",
+          "doi-asserted-by": "publisher",
+          "first-page": "1193",
+          "DOI": "10.11591/eei.v10i3.3039",
+          "volume": "10",
+          "author": "V Pushparajesh",
+          "year": "2021",
+          "unstructured": "Pushparajesh, V., Nandish, B. M. & Marulasiddappa, H. B. Hybrid intelligent controller-based torque ripple minimization in switched reluctance motor drive. Bull. Electric. Eng. Inform. 10(3), 1193–1203 (2021).",
+          "journal-title": "Bull. Electric. Eng. Inform."
+        },
+        {
+          "issue": "3",
+          "key": "65202_CR32",
+          "first-page": "185",
+          "volume": "8",
+          "author": "S Pratapgiri",
+          "year": "2012",
+          "unstructured": "Pratapgiri, S. & Narsimha, P. P. V. Direct torque control of 4 phase 8/6 switched reluctance motor drive for constant torque load. World J. Model. Simul 8(3), 185–195 (2012).",
+          "journal-title": "World J. Model. Simul"
+        },
+        {
+          "issue": "12",
+          "key": "65202_CR33",
+          "doi-asserted-by": "publisher",
+          "first-page": "12480",
+          "DOI": "10.1109/tie.2021.3130344",
+          "volume": "69",
+          "author": "G Fang",
+          "year": "2022",
+          "unstructured": "Fang, G., Ye, J., Xiao, D., Xia, Z. & Emadi, A. Low-ripple continuous control set model predictive torque control for switched reluctance machines based on equivalent linear SRM model. IEEE Trans. Industr. Electron. 69(12), 12480–12495. https://doi.org/10.1109/tie.2021.3130344 (2022).",
+          "journal-title": "IEEE Trans. Industr. Electron."
+        },
+        {
+          "issue": "5",
+          "key": "65202_CR34",
+          "doi-asserted-by": "publisher",
+          "first-page": "5047",
+          "DOI": "10.1109/tpel.2021.3121589",
+          "volume": "37",
+          "author": "J Rodriguez",
+          "year": "2022",
+          "unstructured": "Rodriguez, J. et al. Latest advances of model predictive control in electrical drives—part II: Applications and benchmarking with classical control methods. IEEE Trans. Power Electron. 37(5), 5047–5061. https://doi.org/10.1109/tpel.2021.3121589 (2022).",
+          "journal-title": "IEEE Trans. Power Electron."
+        },
+        {
+          "key": "65202_CR35",
+          "doi-asserted-by": "publisher",
+          "first-page": "91306",
+          "DOI": "10.1109/access.2022.3202296",
+          "volume": "10",
+          "author": "F Al-Amyal",
+          "year": "2022",
+          "unstructured": "Al-Amyal, F. & Szamel, L. Research on novel hybrid torque sharing function for switched reluctance motors. IEEE Access 10, 91306–91315. https://doi.org/10.1109/access.2022.3202296 (2022).",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "issue": "11",
+          "key": "65202_CR36",
+          "doi-asserted-by": "publisher",
+          "first-page": "9219",
+          "DOI": "10.1016/j.aej.2022.02.039",
+          "volume": "61",
+          "author": "F Al-Amyal",
+          "year": "2022",
+          "unstructured": "Al-Amyal, F., Hamouda, M. & Számel, L. Performance improvement based on adaptive commutation strategy for switched reluctance motors using direct torque control. Alex. Eng. J. 61(11), 9219–9233. https://doi.org/10.1016/j.aej.2022.02.039 (2022).",
+          "journal-title": "Alex. Eng. J."
+        }
+      ],
+      "container-title": [
+        "Scientific Reports"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.nature.com/articles/s41598-024-65202-1.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.nature.com/articles/s41598-024-65202-1",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.nature.com/articles/s41598-024-65202-1.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            22
+          ]
+        ],
+        "date-time": "2024-07-22T16:13:03Z",
+        "timestamp": 1721664783000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.nature.com/articles/s41598-024-65202-1"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            22
+          ]
+        ]
+      },
+      "references-count": 36,
+      "journal-issue": {
+        "issue": "1",
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              12
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "65202"
+      ],
+      "URL": "https://doi.org/10.1038/s41598-024-65202-1",
+      "relation": {},
+      "ISSN": [
+        "2045-2322"
+      ],
+      "issn-type": [
+        {
+          "value": "2045-2322",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            22
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "10 March 2024",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "18 June 2024",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "22 July 2024",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "The authors declare no competing interests.",
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        }
+      ],
+      "article-number": "16805"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Deepak M",
+      "given_name_from_source": "Deepak",
+      "family_name_from_source": "M",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Devakirubakaran Samithas",
+      "given_name_from_source": "Devakirubakaran",
+      "family_name_from_source": "Samithas",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Shitharth Selvarajan",
+      "given_name_from_source": "Shitharth",
+      "family_name_from_source": "Selvarajan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

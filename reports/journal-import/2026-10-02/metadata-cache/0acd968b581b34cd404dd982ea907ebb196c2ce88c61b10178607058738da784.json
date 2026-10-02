@@ -1,0 +1,485 @@
+{
+  "doi": "10.32397/tesea.vol5.n1.557",
+  "title": "Performance improvement of PV systems during dynamic partial shading conditions using optimization algorithms",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Transactions on Energy Systems and Engineering Applications",
+  "publisher": "Universidad Tecnologica de Bolivar",
+  "publication_date": "2024-05-07",
+  "online_publication_date": "2024-05-07",
+  "print_publication_date": null,
+  "volume": "5",
+  "issue": "1",
+  "pages_or_article_number": "1-21",
+  "issn": null,
+  "eissn": "2745-0120",
+  "isbn": null,
+  "url": "https://doi.org/10.32397/tesea.vol5.n1.557",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:16.199288+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            7
+          ]
+        ],
+        "date-time": "2026-05-07T22:11:20Z",
+        "timestamp": 1778191880886,
+        "version": "3.51.4"
+      },
+      "reference-count": 29,
+      "publisher": "Universidad Tecnologica de Bolivar",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                7
+              ]
+            ],
+            "date-time": "2024-05-07T00:00:00Z",
+            "timestamp": 1715040000000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "TESEA"
+      ],
+      "abstract": "<jats:p>PV power plants encounter varying levels of irradiance, temperature fluctuations, and partial shading because of the differences in sunlight conditions. Partial shading can cause an increase in the power loss, leading to a reduction in efficiency. Maximum Power Point Tracking (MPPT) is of utmost importance in the functioning of photovoltaic (PV) systems for electricity generation because it is indispensable for maximizing power extraction from PV modules, thereby increasing the overall power output. In situations where partial shading is present, the utilization of MPPT algorithms to achieve maximum power output becomes complex because of the existence of multiple distinct peak power points, each having a unique local optimum. To overcome this issue, a method is proposed that uses Darts Game Optimization (DGO), a game-based optimization process, to efficiently determine and extract the maximum power from various local optimal peaks. A population-based optimization method known as the Darts Game Optimization algorithm exists. In this approach, the optimization process begins by creating a population of random players. Then, the algorithm iteratively updates and improves the population to search for the best player or solution. In this study, the DGO algorithm was applied to the MPPT process for voltage optimization in the PV procedure. The DC-DC converter is utilized to capture the maximum available power, and the findings demonstrate that the DGO algorithm efficiently identifies the global maximum, resulting in accelerated convergence, reduced settling time, and minimized power oscillation. Through simulations, the feasibility and effectiveness of the DGO centered MPPT approach was confirmed and compared with MPPT algorithms relying on perturb and observe (P&amp;O) and Particle Swarm Optimization (PSO). The simulation results offer compelling evidence that the DGO algorithm, as proposed in this study, proficiently traces the global maximum, thereby substantiating its practicality and efficiency.</jats:p>",
+      "DOI": "10.32397/tesea.vol5.n1.557",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            7
+          ]
+        ],
+        "date-time": "2024-05-07T14:49:22Z",
+        "timestamp": 1715093362000
+      },
+      "page": "1-21",
+      "update-policy": "https://doi.org/10.32397/tesea-crossmark",
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Performance improvement of PV systems during dynamic partial shading conditions using optimization algorithms"
+      ],
+      "prefix": "10.32397",
+      "volume": "5",
+      "author": [
+        {
+          "given": "Keerthi",
+          "family": "Sonam Soma",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Balamurugan",
+          "family": "R.",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3325-566X",
+          "authenticated-orcid": false,
+          "given": "Karuppiah",
+          "family": "N.",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "17094",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            7
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "ref0",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Z. Hongxia, T. Yuqing, and C. Deying. Application of solar photovoltaic generation in the world. MATEC Web of Conferences, 108:14006, 2017.",
+          "DOI": "10.1051/matecconf/201710814006"
+        },
+        {
+          "key": "ref1",
+          "doi-asserted-by": "publisher",
+          "unstructured": "M. H. Mohamed Hariri, M. K. Mat Desa, S. Masri, and M. A. A. Mohd Zainuri. Grid-Connected PV Generation System—Components and Challenges: A Review. Energies, 13(17):4279, aug 19 2020.",
+          "DOI": "10.3390/en13174279"
+        },
+        {
+          "key": "ref2",
+          "doi-asserted-by": "publisher",
+          "unstructured": "J. Prasanth Ram and N. Rajasekar. A new global maximum power point tracking technique for solar photovoltaic (PV) system under partial shading conditions (PSC). Energy, 118:512–525, 1 2017.",
+          "DOI": "10.1016/j.energy.2016.10.084"
+        },
+        {
+          "key": "ref3",
+          "doi-asserted-by": "publisher",
+          "unstructured": "E. Sarika, J. Jacob, S. Sheik Mohammed, and S. Paul. Standalone PV System with Modified VSS P&O MPPT Controller Suitable for Partial Shading Conditions. 2021 7th International Conference on Electrical Energy Systems (ICEES), feb 11 2021.",
+          "DOI": "10.1109/ICEES51510.2021.9383697"
+        },
+        {
+          "key": "ref4",
+          "doi-asserted-by": "publisher",
+          "unstructured": "L. Xu, R. Cheng, and J. Yang. A Modified INC Method for PV String Under Uniform Irradiance and Partially Shaded Conditions. IEEE Access, 8:131340–131351, 2020.",
+          "DOI": "10.1109/ACCESS.2020.3009668"
+        },
+        {
+          "key": "ref5",
+          "doi-asserted-by": "publisher",
+          "unstructured": "R. Bradai, R. Boukenoui, A. Kheldoun, H. Salhi, M. Ghanes, J. P. Barbot, and A. Mellit. Experimental assessment of new fast MPPT algorithm for PV systems under non-uniform irradiance conditions. Applied Energy, 199:416–429, 8 2017.",
+          "DOI": "10.1016/j.apenergy.2017.05.045"
+        },
+        {
+          "key": "ref6",
+          "doi-asserted-by": "publisher",
+          "unstructured": "A. M. S. Furtado, F. Bradaschia, M. C. Cavalcanti, and L. R. Limongi. A Reduced Voltage Range Global Maximum Power Point Tracking Algorithm for Photovoltaic Systems Under Partial Shading Conditions. IEEE Transactions on Industrial Electronics, 65(4):3252–3262, 4 2018.",
+          "DOI": "10.1109/TIE.2017.2750623"
+        },
+        {
+          "key": "ref7",
+          "doi-asserted-by": "publisher",
+          "unstructured": "M. Kermadi, Z. Salam, J. Ahmed, and E. M. Berkouk. An Effective Hybrid Maximum Power Point Tracker of Photovoltaic Arrays for Complex Partial Shading Conditions. IEEE Transactions on Industrial Electronics, 66(9):6990–7000, 9 2019.",
+          "DOI": "10.1109/TIE.2018.2877202"
+        },
+        {
+          "key": "ref8",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Pathy, Subramani, Sridhar, Thamizh Thentral, and Padmanaban. Nature-Inspired MPPT Algorithms for Partially Shaded PV Systems: A Comparative Study. Energies, 12(8):1451, apr 16 2019.",
+          "DOI": "10.3390/en12081451"
+        },
+        {
+          "key": "ref9",
+          "doi-asserted-by": "publisher",
+          "unstructured": "K. S. Tey, S. Mekhilef, M. Seyedmahmoudian, B. Horan, A. T. Oo, and A. Stojcevski. Improved Differential Evolution-Based MPPT Algorithm Using SEPIC for PV Systems Under Partial Shading Conditions and Load Variation. IEEE Transactions on Industrial Informatics, 14(10):4322–4333, 10 2018.",
+          "DOI": "10.1109/TII.2018.2793210"
+        },
+        {
+          "key": "ref10",
+          "doi-asserted-by": "publisher",
+          "unstructured": "P. Megantoro, Y. D. Nugroho, F. Anggara, Suhono, and E. Y. Rusadi. Simulation and Characterization of Genetic Algorithm Implemented on MPPT for PV System under Partial Shading Condition. 2018 3rd International Conference on Information Technology, Information System and Electrical Engineering (ICITISEE), 11 2018.",
+          "DOI": "10.1109/ICITISEE.2018.8721031"
+        },
+        {
+          "key": "ref11",
+          "doi-asserted-by": "publisher",
+          "unstructured": "B. Ji, K. Hata, T. Imura, Y. Hori, S. Honda, S. Shimada, and O. Kawasaki. A Novel Particle Jump Particle Swarm Optimization Method for PV MPPT Control under Partial Shading Conditions. IEEJ Journal of Industry Applications, 9(4):435–443, jul 1 2020.",
+          "DOI": "10.1541/ieejjia.9.435"
+        },
+        {
+          "key": "ref12",
+          "doi-asserted-by": "publisher",
+          "unstructured": "W. Hayder, E. Ogliari, A. Dolara, A. Abid, M. Ben Hamed, and L. Sbita. Improved PSO: A Comparative Study in MPPT Algorithm for PV System Control under Partial Shading Conditions. Energies, 13(8):2035, apr 19 2020.",
+          "DOI": "10.3390/en13082035"
+        },
+        {
+          "key": "ref13",
+          "doi-asserted-by": "publisher",
+          "unstructured": "A. M. Eltamaly. An Improved Cuckoo Search Algorithm for Maximum Power Point Tracking of Photovoltaic Systems under Partial Shading Conditions. Energies, 14(4):953, feb 11 2021.",
+          "DOI": "10.3390/en14040953"
+        },
+        {
+          "key": "ref14",
+          "doi-asserted-by": "publisher",
+          "unstructured": "A. F. Mirza, M. Mansoor, Q. Ling, B. Yin, and M. Y. Javed. A Salp-Swarm Optimization based MPPT technique for harvesting maximum energy from PV systems under partial shading conditions. Energy Conversion and Management, 209:112625, 4 2020.",
+          "DOI": "10.1016/j.enconman.2020.112625"
+        },
+        {
+          "key": "ref15",
+          "doi-asserted-by": "publisher",
+          "unstructured": "K. Guo, L. Cui, M. Mao, L. Zhou, and Q. Zhang. An Improved Gray Wolf Optimizer MPPT Algorithm for PV System With BFBIC Converter Under Partial Shading. IEEE Access, 8:103476–103490, 2020.",
+          "DOI": "10.1109/ACCESS.2020.2999311"
+        },
+        {
+          "key": "ref16",
+          "doi-asserted-by": "publisher",
+          "unstructured": "S. K. Vankadara, S. Chatterjee, P. K. Balachandran, and L. Mihet-Popa. Marine Predator Algorithm (MPA)-Based MPPT Technique for Solar PV Systems under Partial Shading Conditions. Energies, 15(17):6172, aug 25 2022.",
+          "DOI": "10.3390/en15176172"
+        },
+        {
+          "key": "ref17",
+          "doi-asserted-by": "publisher",
+          "unstructured": "M. H. Zafar, N. M. Khan, A. F. Mirza, and M. Mansoor. Bio-inspired optimization algorithms based maximum power point tracking technique for photovoltaic systems under partial shading and complex partial shading conditions. Journal of Cleaner Production, 309:127279, 8 2021.",
+          "DOI": "10.1016/j.jclepro.2021.127279"
+        },
+        {
+          "key": "ref18",
+          "doi-asserted-by": "publisher",
+          "unstructured": "L. Yi, H. Shi, J. Liu, D. Zhou, X. Liu, and J. Zhu. Dynamic Multi-peak MPPT for Photovoltaic Power Generation Under Local Shadows Based on Improved Mayfly Optimization. Journal of Electrical Engineering & Technology, 17(1):39–50, aug 4 2021.",
+          "DOI": "10.1007/s42835-021-00855-w"
+        },
+        {
+          "key": "ref19",
+          "doi-asserted-by": "publisher",
+          "unstructured": "M. A. Sameh, M. I. Marei, M. A. Badr, and M. A. Attia. An Optimized PV Control System Based on the Emperor Penguin Optimizer. Energies, 14(3):751, feb 1 2021.",
+          "DOI": "10.3390/en14030751"
+        },
+        {
+          "key": "ref20",
+          "doi-asserted-by": "publisher",
+          "unstructured": "M. A. Sameh, M. A. Badr, M. I. Mare, and M. A. Attia. Enhancing the Performance of Photovoltaic Systems under Partial Shading Conditions Using Cuttlefish Algorithm. 2019 8th International Conference on Renewable Energy Research and Applications (ICRERA), 11 2019.",
+          "DOI": "10.1109/ICRERA47325.2019.8996562"
+        },
+        {
+          "key": "ref21",
+          "doi-asserted-by": "publisher",
+          "unstructured": "J. S. Bhadoriya and A. R. Gupta. Techno-economic analysis of the DNO operated distribution system for active and reactive power support using modified particle swarm optimisation. International Journal of Ambient Energy, 43(1):7061–7076, apr 22 2022.",
+          "DOI": "10.1080/01430750.2022.2059779"
+        },
+        {
+          "key": "ref22",
+          "doi-asserted-by": "publisher",
+          "unstructured": "J. S. Bhadoriya and A. R. Gupta. A novel transient search optimization for optimal allocation of multiple distributed generator in the radial electrical distribution network. International Journal of Emerging Electric Power Systems, 23(1):23–45, apr 29 2021.",
+          "DOI": "10.1515/ijeeps-2021-0001"
+        },
+        {
+          "key": "ref23",
+          "doi-asserted-by": "publisher",
+          "unstructured": "M. Dehghani, Z. Montazeri, H. Givi, J. Guerrero, and G. Dhiman. Darts Game Optimizer: A New Optimization Technique Based on Darts Game. International Journal of Intelligent Engineering and Systems, 13(5):286–294, oct 31 2020.",
+          "DOI": "10.22266/ijies2020.1031.26"
+        },
+        {
+          "key": "ref24",
+          "doi-asserted-by": "publisher",
+          "unstructured": "K. Tifidat, N. Maouhoub, A. Benahmida, and F. Ezzahra Ait Salah. An accurate approach for modeling I-V characteristics of photovoltaic generators based on the two-diode model. Energy Conversion and Management: X, 14:100205, 5 2022.",
+          "DOI": "10.1016/j.ecmx.2022.100205"
+        },
+        {
+          "key": "ref25",
+          "doi-asserted-by": "publisher",
+          "unstructured": "F. S. Dinniyah, W. Wahab, and M. Alif. Simulation of Buck-Boost Converter for Solar Panels using PID Controller. Energy Procedia, 115:102–113, 6 2017.",
+          "DOI": "10.1016/j.egypro.2017.05.011"
+        },
+        {
+          "key": "ref26",
+          "doi-asserted-by": "publisher",
+          "unstructured": "S. Javed and K. Ishaque. A comprehensive analyses with new findings of different PSO variants for MPPT problem under partial shading. Ain Shams Engineering Journal, 13(5):101680, 9 2022.",
+          "DOI": "10.1016/j.asej.2021.101680"
+        },
+        {
+          "key": "ref27",
+          "doi-asserted-by": "publisher",
+          "unstructured": "J. Ahmed, Z. Salam, M. Kermadi, H. N. Afrouzi, and R. H. Ashique. A skipping adaptive P&O MPPT for fast and efficient tracking under partial shading in PV arrays. International Transactions on Electrical Energy Systems, 31(9), jul 19 2021.",
+          "DOI": "10.1002/2050-7038.13017"
+        },
+        {
+          "key": "ref28",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Z. Ivanovic, B. Blanusa, and M. Knezic. Power loss model for efficiency improvement of boost converter. 2011 XXIII International Symposium on Information, Communication and Automation Technologies, 10 2011.",
+          "DOI": "10.1109/ICAT.2011.6102129"
+        }
+      ],
+      "container-title": [
+        "Transactions on Energy Systems and Engineering Applications"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://revistas.utb.edu.co/tesea/article/download/557/394",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://revistas.utb.edu.co/tesea/article/download/557/394",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            7
+          ]
+        ],
+        "date-time": "2026-05-07T21:50:32Z",
+        "timestamp": 1778190632000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://revistas.utb.edu.co/tesea/article/view/557"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            7
+          ]
+        ]
+      },
+      "references-count": 29,
+      "journal-issue": {
+        "issue": "1",
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              13
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.32397/tesea.vol5.n1.557",
+      "archive": [
+        "Internet Archive"
+      ],
+      "relation": {},
+      "ISSN": [
+        "2745-0120"
+      ],
+      "issn-type": [
+        {
+          "value": "2745-0120",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            7
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2023-12-3",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2024-2-24",
+          "order": 1,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2024-5-7",
+          "order": 2,
+          "name": "published_online",
+          "label": "Published Online",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Keerthi Sonam Soma",
+      "given_name_from_source": "Keerthi",
+      "family_name_from_source": "Sonam Soma",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Balamurugan R.",
+      "given_name_from_source": "Balamurugan",
+      "family_name_from_source": "R.",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Karuppiah N.",
+      "given_name_from_source": "Karuppiah",
+      "family_name_from_source": "N.",
+      "orcid_from_source": "https://orcid.org/0000-0003-3325-566X",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

@@ -1,0 +1,761 @@
+{
+  "doi": "10.1038/s41598-025-26482-3",
+  "title": "Efficiency of a smart parking system in privacy-preserving using multi transaction mode consortium blockchain",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Scientific Reports",
+  "publisher": "Springer Science and Business Media LLC",
+  "publication_date": "2025-11-27",
+  "online_publication_date": "2025-11-27",
+  "print_publication_date": null,
+  "volume": "15",
+  "issue": "1",
+  "pages_or_article_number": "42462",
+  "issn": null,
+  "eissn": "2045-2322",
+  "isbn": null,
+  "url": "https://doi.org/10.1038/s41598-025-26482-3",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:18.026433+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            29
+          ]
+        ],
+        "date-time": "2026-09-29T17:49:28Z",
+        "timestamp": 1790704168893,
+        "version": "4.1.0"
+      },
+      "reference-count": 26,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                27
+              ]
+            ],
+            "date-time": "2025-11-27T00:00:00Z",
+            "timestamp": 1764201600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                27
+              ]
+            ],
+            "date-time": "2025-11-27T00:00:00Z",
+            "timestamp": 1764201600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Sci Rep"
+      ],
+      "DOI": "10.1038/s41598-025-26482-3",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            27
+          ]
+        ],
+        "date-time": "2025-11-27T13:24:43Z",
+        "timestamp": 1764249883000
+      },
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Efficiency of a smart parking system in privacy-preserving using multi transaction mode consortium blockchain"
+      ],
+      "prefix": "10.1038",
+      "volume": "15",
+      "author": [
+        {
+          "given": "Amu",
+          "family": "Durairaj",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Santhi",
+          "family": "Baskaran",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Adithya",
+          "family": "Baskaran",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ranjith",
+          "family": "Janakiraman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Rajesh",
+          "family": "Gundla",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sangeetha",
+          "family": "Kannan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            27
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "issue": "8",
+          "key": "26482_CR1",
+          "doi-asserted-by": "publisher",
+          "first-page": "4962",
+          "DOI": "10.1109/TITS.2020.2984197",
+          "volume": "22",
+          "author": "R Ke",
+          "year": "2021",
+          "unstructured": "Ke, R., Zhuang, Y., Pu, Z. & Wang, Y. A smart, efficient, and reliable parking surveillance system with edge artificial intelligence on IoT devices. IEEE Trans. Intell. Transp. Syst. 22(8), 4962–4974 (2021).",
+          "journal-title": "IEEE Trans. Intell. Transp. Syst."
+        },
+        {
+          "issue": "2",
+          "key": "26482_CR2",
+          "doi-asserted-by": "publisher",
+          "first-page": "1217",
+          "DOI": "10.1109/TITS.2020.2964604",
+          "volume": "22",
+          "author": "SN Ghorpade",
+          "year": "2021",
+          "unstructured": "Ghorpade, S. N., Zennaro, M. & Chaudhari, B. S. GWO model for optimal localization of IoT-enabled sensor nodes in smart parking systems. IEEE Trans. Intell. Transp. Syst. 22(2), 1217–1224 (2021).",
+          "journal-title": "IEEE Trans. Intell. Transp. Syst."
+        },
+        {
+          "issue": "9",
+          "key": "26482_CR3",
+          "doi-asserted-by": "publisher",
+          "first-page": "9355",
+          "DOI": "10.1109/TVT.2021.3098170",
+          "volume": "70",
+          "author": "X Huang",
+          "year": "2021",
+          "unstructured": "Huang, X. et al. FedParking: A federated learning-based parking space estimation with parked vehicle assisted edge computing. IEEE Trans. Veh. Technol. 70(9), 9355–9368 (2021).",
+          "journal-title": "IEEE Trans. Veh. Technol."
+        },
+        {
+          "issue": "1",
+          "key": "26482_CR4",
+          "first-page": "1",
+          "volume": "2",
+          "author": "MZ Oskouei",
+          "year": "2021",
+          "unstructured": "Oskouei, M. Z., Zeinal-Kheiri, S., Mohammadi-Ivatloo, B., Abapour, M. & Mehrjerdi, H. Optimal scheduling of demand response Aggregators in industrial parks based on load disaggregation algorithm. IEEE Syst. J. 2(1), 1–10 (2021).",
+          "journal-title": "IEEE Syst. J."
+        },
+        {
+          "issue": "6",
+          "key": "26482_CR5",
+          "doi-asserted-by": "publisher",
+          "first-page": "6578",
+          "DOI": "10.1109/TVT.2020.2984621",
+          "volume": "69",
+          "author": "C Zhang",
+          "year": "2020",
+          "unstructured": "Zhang, C. et al. HBSFP: Blockchain-enabled smart parking with fairness, reliability and privacy protection. IEEE Trans. Vehicular Technol. 69(6), 6578–6591 (2020).",
+          "journal-title": "IEEE Trans. Vehicular Technol."
+        },
+        {
+          "issue": "24",
+          "key": "26482_CR6",
+          "doi-asserted-by": "publisher",
+          "first-page": "3184",
+          "DOI": "10.3390/electronics10243184",
+          "volume": "10",
+          "author": "M Balfaqih",
+          "year": "2021",
+          "unstructured": "Balfaqih, M., Jabbar, W., Khayyat, M. & Hassan, R. Design and development of smart parking system based on fog computing and Internet of things. Electronics 10(24), 3184 (2021).",
+          "journal-title": "Electronics"
+        },
+        {
+          "issue": "2",
+          "key": "26482_CR7",
+          "doi-asserted-by": "publisher",
+          "first-page": "165",
+          "DOI": "10.1016/j.comcom.2016.03.014",
+          "volume": "89–90",
+          "author": "I Chatzigiannakis",
+          "year": "2016",
+          "unstructured": "Chatzigiannakis, I., Vitaletti, A. & Pyrgelis, A. A privacy-preserving smart parking system using an IoT elliptic curve-based security platform. Comput. Commun. 89–90(2), 165–177 (2016).",
+          "journal-title": "Comput. Commun."
+        },
+        {
+          "key": "26482_CR8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Afzaal, M. F., Rehman, A., Latif, S. and Zafar, N. (2019).ABlockchain based automated formal model for safety and security in smart parking system. In 4th International Conference on Emerging Trends in Engineering, Sciences and Technology (ICEEST), 3(2), pp. 1361,",
+          "DOI": "10.1109/ICEEST48626.2019.8981673"
+        },
+        {
+          "issue": "6",
+          "key": "26482_CR9",
+          "doi-asserted-by": "publisher",
+          "first-page": "6578",
+          "DOI": "10.1109/TVT.2020.2984621",
+          "volume": "69",
+          "author": "C Zhang",
+          "year": "2020",
+          "unstructured": "Zhang, C. et al. BSFP: Blockchain-enabled smart parking with fairness, reliability and privacy protection. IEEE Trans. Veh. Technol. 69(6), 6578–6591 (2020).",
+          "journal-title": "IEEE Trans. Veh. Technol."
+        },
+        {
+          "key": "26482_CR10",
+          "doi-asserted-by": "publisher",
+          "first-page": "108340",
+          "DOI": "10.1016/j.compeleceng.2022.108340",
+          "volume": "103",
+          "author": "M Baza",
+          "year": "2022",
+          "unstructured": "Baza, M. et al. Privacy-preserving Blockchain-assisted private-parking scheme with efficient matching. Comput. Electr. Eng. 103, 108340 (2022).",
+          "journal-title": "Comput. Electr. Eng."
+        },
+        {
+          "key": "26482_CR11",
+          "doi-asserted-by": "publisher",
+          "first-page": "56410",
+          "DOI": "10.1109/ACCESS.2022.3175829",
+          "volume": "10",
+          "author": "AA Khaliq",
+          "year": "2022",
+          "unstructured": "Khaliq, A. A. et al. A secure and privacy preserved parking recommender system using elliptic curve cryptography and local differential privacy. IEEE Access 10, 56410–56426 (2022).",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "issue": "4",
+          "key": "26482_CR12",
+          "doi-asserted-by": "publisher",
+          "first-page": "e4239",
+          "DOI": "10.1002/ett.4239",
+          "volume": "32",
+          "author": "Y Fang",
+          "year": "2021",
+          "unstructured": "Fang, Y. et al. Blockchain-based privacy-preserving valet parking for self-driving vehicles. Trans. Emerg. Telecommun. Technol. 32(4), e4239 (2021).",
+          "journal-title": "Trans. Emerg. Telecommun. Technol."
+        },
+        {
+          "key": "26482_CR13",
+          "doi-asserted-by": "publisher",
+          "first-page": "32089",
+          "DOI": "10.1109/ACCESS.2024.3370857",
+          "volume": "12",
+          "author": "A Chhabra",
+          "year": "2024",
+          "unstructured": "Chhabra, A., Saha, R., Gulshan, K. & Kim, T. Navigating the maze: Exploring blockchain privacy and its information retrieval. IEEE Access 12, 32089–32110 (2024).",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "issue": "20",
+          "key": "26482_CR14",
+          "doi-asserted-by": "publisher",
+          "first-page": "3923",
+          "DOI": "10.32604/cmc.2023.036278",
+          "volume": "75",
+          "author": "T Haritha",
+          "year": "2023",
+          "unstructured": "Haritha, T. & Anitha, A. Asymmetric consortium blockchain and homomorphically polynomial-based PIR for secured smart parking systems. Comput. Mater. Continua 75(20), 3923–3939 (2023).",
+          "journal-title": "Comput. Mater. Continua"
+        },
+        {
+          "key": "26482_CR15",
+          "first-page": "1",
+          "volume": "2",
+          "author": "M Alam",
+          "year": "2018",
+          "unstructured": "Alam, M. et al. Real-time smart parking systems integration in distributed ITS for smart cities. J. Adv. Transp. 2, 1–13 (2018).",
+          "journal-title": "J. Adv. Transp."
+        },
+        {
+          "issue": "3",
+          "key": "26482_CR16",
+          "doi-asserted-by": "publisher",
+          "first-page": "3523",
+          "DOI": "10.32604/cmc.2021.015265",
+          "volume": "67",
+          "author": "A Sant",
+          "year": "2021",
+          "unstructured": "Sant, A., Garg, L., Xuereb, P. & Chakraborty, C. A novel green IoT-based pay-as-You-Go smart parking system. Comput. Mater. Continua 67(3), 3523–3544 (2021).",
+          "journal-title": "Comput. Mater. Continua"
+        },
+        {
+          "key": "26482_CR17",
+          "doi-asserted-by": "publisher",
+          "first-page": "138657",
+          "DOI": "10.1109/ACCESS.2019.2941153",
+          "volume": "7",
+          "author": "Z Cai",
+          "year": "2019",
+          "unstructured": "Cai, Z., Qu, J., Liu, P. & Yu, J. A blockchain smart contract based on light- Weighted quantum blind signature. IEEE Access 7, 138657–138668 (2019).",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "issue": "1",
+          "key": "26482_CR18",
+          "first-page": "34",
+          "volume": "2",
+          "author": "A Wa",
+          "year": "2019",
+          "unstructured": "Wa, A. et al. Privacy-preserving smart parking system using blockchain and private information retrieval. Int. Confer. Smart Appl. Commun. Netw. (SmartNets). 2(1), 34–46 (2019).",
+          "journal-title": "Int. Confer. Smart Appl. Commun. Netw. (SmartNets)."
+        },
+        {
+          "issue": "4",
+          "key": "26482_CR19",
+          "doi-asserted-by": "publisher",
+          "first-page": "103364",
+          "DOI": "10.1016/j.scs.2021.103364",
+          "volume": "76",
+          "author": "SK Singh",
+          "year": "2022",
+          "unstructured": "Singh, S. K., Pan, Y. & Park, J. H. Blockchain-enabled secure framework for energy-efficient smart parking in sustainable city environment. Sustain. Cities Soc. 76(4), 103364 (2022).",
+          "journal-title": "Sustain. Cities Soc."
+        },
+        {
+          "issue": "4",
+          "key": "26482_CR20",
+          "first-page": "12",
+          "volume": "2",
+          "author": "HS Jennath",
+          "year": "2019",
+          "unstructured": "Jennath, H. S. et al. Parkchain: A blockchain powered parking solution for smart cities. Front. Blockchain 2(4), 12–24 (2019).",
+          "journal-title": "Front. Blockchain"
+        },
+        {
+          "issue": "14",
+          "key": "26482_CR21",
+          "doi-asserted-by": "publisher",
+          "first-page": "56",
+          "DOI": "10.1002/dac.4911",
+          "volume": "34",
+          "author": "S Singh",
+          "year": "2021",
+          "unstructured": "Singh, S., Satish, D. & Lakshmi, S. R. Ring signature and improved multi-transaction mode consortium blockchain-based private information retrieval for privacy-preserving smart parking system. Int. J. Commun. Syst. 34(14), 56–72 (2021).",
+          "journal-title": "Int. J. Commun. Syst."
+        },
+        {
+          "issue": "2",
+          "key": "26482_CR22",
+          "doi-asserted-by": "publisher",
+          "first-page": "2721",
+          "DOI": "10.32604/cmc.2022.019880",
+          "volume": "71",
+          "author": "A Ali",
+          "year": "2022",
+          "unstructured": "Ali, A., Pasha, M. F., Ali, J., AlZain, M. A. & Masud, M. An efficient blockchain-based healthcare system using artificial intelligence. Comput. Mater. Continua 71(2), 2721–2738 (2022).",
+          "journal-title": "Comput. Mater. Continua"
+        },
+        {
+          "key": "26482_CR23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kumar, K. K., Karimunnisa, S., Krishna, A., Cherukuri, N. and Basha, C. Z. (2021). An advanced approach for smart parking solution based on Ethereum block chain system. In 2021 Second International Conference on Electronics and Sustainable Communication Systems (ICESC), 3(4), 12–24.",
+          "DOI": "10.1109/ICESC51422.2021.9532882"
+        },
+        {
+          "key": "26482_CR24",
+          "unstructured": "Al Amiri, W., Baza, M., Banawan, K., Mahmoud, M., Alasmary, W. and Akkaya, K., (2021). Privacy-preserving smart parking system using blockchain and private information retrieval. arXiv cryptography & security.1904."
+        },
+        {
+          "issue": "5",
+          "key": "26482_CR25",
+          "doi-asserted-by": "publisher",
+          "first-page": "90",
+          "DOI": "10.3390/fi12050090",
+          "volume": "12",
+          "author": "M Kim",
+          "year": "2020",
+          "unstructured": "Kim, M. & Kim, Y. Multi-blockchain structure for a crowdsensing-based smart parking system. Future Internet 12(5), 90 (2020).",
+          "journal-title": "Future Internet"
+        },
+        {
+          "issue": "2",
+          "key": "26482_CR26",
+          "doi-asserted-by": "publisher",
+          "first-page": "3923",
+          "DOI": "10.32604/cmc.2023.036278",
+          "volume": "75",
+          "author": "T Haritha",
+          "year": "2023",
+          "unstructured": "Haritha, T. & Anitha, A. Asymmetric consortium blockchain and homomorphically polynomial-based PIR for secured smart parking systems. Comput. Mater. Continua 75(2), 3923–3939 (2023).",
+          "journal-title": "Comput. Mater. Continua"
+        }
+      ],
+      "container-title": [
+        "Scientific Reports"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.nature.com/articles/s41598-025-26482-3.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.nature.com/articles/s41598-025-26482-3",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.nature.com/articles/s41598-025-26482-3.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            27
+          ]
+        ],
+        "date-time": "2025-11-27T13:24:46Z",
+        "timestamp": 1764249886000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.nature.com/articles/s41598-025-26482-3"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            27
+          ]
+        ]
+      },
+      "references-count": 26,
+      "journal-issue": {
+        "issue": "1",
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "26482"
+      ],
+      "URL": "https://doi.org/10.1038/s41598-025-26482-3",
+      "relation": {},
+      "ISSN": [
+        "2045-2322"
+      ],
+      "issn-type": [
+        {
+          "value": "2045-2322",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            27
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "1 July 2025",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "29 October 2025",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "27 November 2025",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Declarations"
+          }
+        },
+        {
+          "value": "There is no conflict of Interest.",
+          "order": 2,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        },
+        {
+          "value": "Not applicable.",
+          "order": 3,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Human and animals participants"
+          }
+        },
+        {
+          "value": "All authors agree.",
+          "order": 4,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Ethical approval"
+          }
+        }
+      ],
+      "article-number": "42462"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Amu Durairaj",
+      "given_name_from_source": "Amu",
+      "family_name_from_source": "Durairaj",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Santhi Baskaran",
+      "given_name_from_source": "Santhi",
+      "family_name_from_source": "Baskaran",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Adithya Baskaran",
+      "given_name_from_source": "Adithya",
+      "family_name_from_source": "Baskaran",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Ranjith Janakiraman",
+      "given_name_from_source": "Ranjith",
+      "family_name_from_source": "Janakiraman",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "Rajesh Gundla",
+      "given_name_from_source": "Rajesh",
+      "family_name_from_source": "Gundla",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 7,
+      "author_name_from_source": "Sangeetha Kannan",
+      "given_name_from_source": "Sangeetha",
+      "family_name_from_source": "Kannan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

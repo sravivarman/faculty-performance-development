@@ -1,0 +1,306 @@
+{
+  "doi": "10.23967/j.rimni.2025.10.66625",
+  "title": "Optimization of EV and Green Source Fed Five-Level UPQC for Power Quality and Energy Management Using Fennec Fox Algorithm",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Revista Internacional de Métodos Numéricos para Cálculo y Diseño en Ingeniería",
+  "publisher": "Scipedia, S.L.",
+  "publication_date": null,
+  "online_publication_date": null,
+  "print_publication_date": null,
+  "volume": "41",
+  "issue": "3",
+  "pages_or_article_number": null,
+  "issn": "0213-1315",
+  "eissn": "1886-158X",
+  "isbn": null,
+  "url": "https://doi.org/10.23967/j.rimni.2025.10.66625",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:32.809295+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            2
+          ]
+        ],
+        "date-time": "2026-06-02T00:39:12Z",
+        "timestamp": 1780360752351,
+        "version": "3.54.1"
+      },
+      "reference-count": 0,
+      "publisher": "Scipedia, S.L.",
+      "issue": "3",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "RIMNI"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Distribution systems have been significantly impacted in the present scenario by incorporating solar and wind power electronic devices. This work designs the synchronous reference frame theory (SRFT) based fivelevel cascade H-bridge unified power quality conditioner (UPQC) by optimizing the weights and bias values of the neural network controller (NNC) and the filter parameters using the Fennec fox optimization algorithm (FFOA). The primary goal is to efficiently tackle the power quality difficulties, including voltage distortions, direct current (DC) link capacitor voltage (DLCV) balancing, and to reduce the source current total harmonic distortion (THD) of the system connected to the grid that integrates wind energy system (WES) and solar system, including electric vehicle (EVs) along with battery energy storage system (BESS) which is denoted as (5LU-SWBEV). The study also intends to use a Fuzzy logic controller (FLC) regulation to control the flow of power between the grid, battery storage, EV and renewable sources. However, this facilitates the management of power transfer between solar/wind/battery and the grid and between EVs and consumer loads. Additionally, this integration contributes to a consistent electricity supply, effective demand fulfillment, and efficient use of generated power. The study shows that the optimal UPQC combined with FLC-based power flow management can handle power quality (PQ) issues and accomplish suitable and efficient power sharing.OPEN ACCESS Received: 13/04/2025 Accepted: 09/06/2025 Published: 15/08/2025</jats:p>",
+      "DOI": "10.23967/j.rimni.2025.10.66625",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            18
+          ]
+        ],
+        "date-time": "2025-08-18T10:13:15Z",
+        "timestamp": 1755511995000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Optimization of EV and Green Source Fed Five-Level UPQC for Power Quality and Energy Management Using Fennec Fox Algorithm"
+      ],
+      "prefix": "10.23967",
+      "volume": "41",
+      "author": [
+        {
+          "given": "P.",
+          "family": "Balachandran",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "G.",
+          "family": "Kalpana",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "V.",
+          "family": "Babyshalini",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "K.",
+          "family": "Srilakshmi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "S.",
+          "family": "Singh",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "10055",
+      "published-online": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "container-title": [
+        "Revista Internacional de Métodos Numéricos para Cálculo y Diseño en Ingeniería"
+      ],
+      "original-title": [],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            18
+          ]
+        ],
+        "date-time": "2025-08-18T10:13:16Z",
+        "timestamp": 1755511996000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.scipedia.com/public/Balachandran_et_al_2025a"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "references-count": 0,
+      "journal-issue": {
+        "issue": "3",
+        "published-online": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.23967/j.rimni.2025.10.66625",
+      "relation": {},
+      "ISSN": [
+        "0213-1315",
+        "1886-158X"
+      ],
+      "issn-type": [
+        {
+          "value": "0213-1315",
+          "type": "print"
+        },
+        {
+          "value": "1886-158X",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      }
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "P. Balachandran",
+      "given_name_from_source": "P.",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "G. Kalpana",
+      "given_name_from_source": "G.",
+      "family_name_from_source": "Kalpana",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "V. Babyshalini",
+      "given_name_from_source": "V.",
+      "family_name_from_source": "Babyshalini",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "K. Srilakshmi",
+      "given_name_from_source": "K.",
+      "family_name_from_source": "Srilakshmi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "S. Singh",
+      "given_name_from_source": "S.",
+      "family_name_from_source": "Singh",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

@@ -1,0 +1,619 @@
+{
+  "doi": "10.1155/2023/8063524",
+  "title": "A Design and Development of the Smart Forest Alert Monitoring System Using IoT",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Journal of Sensors",
+  "publisher": "Wiley",
+  "publication_date": "2023-02-08",
+  "online_publication_date": "2023-02-08",
+  "print_publication_date": null,
+  "volume": "2023",
+  "issue": "1",
+  "pages_or_article_number": "8063524",
+  "issn": "1687-725X",
+  "eissn": "1687-7268",
+  "isbn": null,
+  "url": "https://doi.org/10.1155/2023/8063524",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:49.374937+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            25
+          ]
+        ],
+        "date-time": "2026-07-25T00:14:34Z",
+        "timestamp": 1784938474347,
+        "version": "3.55.0"
+      },
+      "reference-count": 29,
+      "publisher": "Wiley",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                2,
+                8
+              ]
+            ],
+            "date-time": "2023-02-08T00:00:00Z",
+            "timestamp": 1675814400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 38,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "onlinelibrary.wiley.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Journal of Sensors"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            1
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Forest is one of the main sources of living organisms. Its needs start from the human breath to usage of the wood. But due to many reasons, area occupied by the forest is reducing every year. The reasons behind these environmental impacts are natural disasters (forest fires), deforestation activities, and unlawful actions. Forest fire could be creating most serious threat to wild animals and resources of human welfares. The primary phenomenon of the wild fire occurrence is circumstance hotness of the forest. The dry and hot atmosphere caused the fire in the forest. The deforestation and smuggling activities are also tridents to the available forest. The main consideration of this article is to detect wildfires in advance and protect forest resources from social crimes through advanced sensor integration in the IoT (Internet of Things) environment. A smart forest alert monitoring system has been proposed in this article to avoid forest mishap over by automated self‐decision‐making protective actions such as parameter measures and alert and implementing the harm mitigation actions related to the hot temperature, humidity, smoke, and smuggling of trees. All the sensors work as per the algorithm designed by the specific application of IoT (Internet of Things). The accurate predictions of the forest fire events and ensuring the forest safety have been tested and verified by a conducted case study on the real forest zone environment.</jats:p>",
+      "DOI": "10.1155/2023/8063524",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            2,
+            8
+          ]
+        ],
+        "date-time": "2023-02-08T20:20:15Z",
+        "timestamp": 1675887615000
+      },
+      "update-policy": "https://doi.org/10.1002/crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 42,
+      "title": [
+        "A Design and Development of the Smart Forest Alert Monitoring System Using IoT"
+      ],
+      "prefix": "10.1155",
+      "volume": "2023",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-0203-0700",
+          "authenticated-orcid": false,
+          "given": "Murugaperumal",
+          "family": "Krishnamoorthy",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Md.",
+          "family": "Asif",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Polamarasetty P.",
+          "family": "Kumar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5168-8683",
+          "authenticated-orcid": false,
+          "given": "Ramakrishna S. S.",
+          "family": "Nuvvula",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3093-6032",
+          "authenticated-orcid": false,
+          "given": "Baseem",
+          "family": "Khan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ilhami",
+          "family": "Colak",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "311",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            2,
+            8
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_8_1_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.compeleceng.2022.108046"
+        },
+        {
+          "key": "e_1_2_8_2_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jnca.2022.103390"
+        },
+        {
+          "key": "e_1_2_8_3_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.aej.2021.10.050"
+        },
+        {
+          "key": "e_1_2_8_4_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/fire3020011"
+        },
+        {
+          "key": "e_1_2_8_5_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/rs11222638"
+        },
+        {
+          "key": "e_1_2_8_6_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.asoc.2021.108282"
+        },
+        {
+          "key": "e_1_2_8_7_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.adhoc.2021.102739"
+        },
+        {
+          "key": "e_1_2_8_8_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ecoinf.2022.101584"
+        },
+        {
+          "key": "e_1_2_8_9_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ecolind.2018.07.012"
+        },
+        {
+          "key": "e_1_2_8_10_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14419/ijet.v7i2.7.10277"
+        },
+        {
+          "key": "e_1_2_8_11_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1155/2014/597368"
+        },
+        {
+          "key": "e_1_2_8_12_2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "RaiP.andRehmanM. ESP32 based smart surveillance system 2019 2nd International Conference on Computing Mathematics and Engineering Technologies (iCoMET) 2019 Sukkur Pakistan 1–3 https://doi.org/10.1109/ICOMET.2019.8673463 2-s2.0-85064107538.",
+          "DOI": "10.1109/ICOMET.2019.8673463"
+        },
+        {
+          "key": "e_1_2_8_13_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/MCOM.2012.6211498"
+        },
+        {
+          "key": "e_1_2_8_14_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/en13143693"
+        },
+        {
+          "key": "e_1_2_8_15_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/s140508057"
+        },
+        {
+          "key": "e_1_2_8_16_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10586-019-02981-7"
+        },
+        {
+          "key": "e_1_2_8_17_2",
+          "first-page": "16295",
+          "article-title": "An autonomous IoT infrastructure for forest fire detection and alerting system",
+          "volume": "119",
+          "author": "Niranjana R.",
+          "year": "2018",
+          "journal-title": "International Journal of Pure and Applied Mathematics"
+        },
+        {
+          "key": "e_1_2_8_18_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14569/IJACSA.2020.0110503"
+        },
+        {
+          "key": "e_1_2_8_19_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-030-40305-8_23"
+        },
+        {
+          "key": "e_1_2_8_20_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/electronics9060893"
+        },
+        {
+          "key": "e_1_2_8_21_2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "DivyaA. KavithanjaliT. andDharshiniP. IoT enabled forest fire detection and early warning system 2019 IEEE International Conference on System Computation Automation and Networking (ICSCAN) 2019 Pondicherry India 1–5 https://doi.org/10.1109/ICSCAN.2019.8878808.",
+          "DOI": "10.1109/ICSCAN.2019.8878808"
+        },
+        {
+          "key": "e_1_2_8_22_2",
+          "first-page": "124",
+          "article-title": "A design and implementation of forest-fires surveillance system based on wireless sensor networks for South Korea mountains",
+          "volume": "6",
+          "author": "Son B.",
+          "year": "2006",
+          "journal-title": "International Journal of Computer Science and Network Security (IJCSNS)"
+        },
+        {
+          "key": "e_1_2_8_23_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3368/le.81.2.284"
+        },
+        {
+          "key": "e_1_2_8_24_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.compenvurbsys.2012.03.002"
+        },
+        {
+          "key": "e_1_2_8_25_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/s7123084"
+        },
+        {
+          "key": "e_1_2_8_26_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/s90301485"
+        },
+        {
+          "key": "e_1_2_8_27_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.proeng.2017.12.034"
+        },
+        {
+          "key": "e_1_2_8_28_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.firesaf.2014.05.015"
+        },
+        {
+          "key": "e_1_2_8_29_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/19475705.2015.1084541"
+        }
+      ],
+      "updated-by": [
+        {
+          "DOI": "10.1155/js/9798760",
+          "type": "retraction",
+          "label": "Retraction",
+          "source": "publisher",
+          "updated": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                9
+              ]
+            ],
+            "date-time": "2025-07-09T00:00:00Z",
+            "timestamp": 1752019200000
+          }
+        }
+      ],
+      "container-title": [
+        "Journal of Sensors"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "http://downloads.hindawi.com/journals/js/2023/8063524.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "http://downloads.hindawi.com/journals/js/2023/8063524.xml",
+          "content-type": "application/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1155/2023/8063524",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            5
+          ]
+        ],
+        "date-time": "2024-08-05T21:25:01Z",
+        "timestamp": 1722893101000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://onlinelibrary.wiley.com/doi/10.1155/2023/8063524"
+        }
+      },
+      "subtitle": [],
+      "editor": [
+        {
+          "given": "Qiang",
+          "family": "Wu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "editor"
+            }
+          ]
+        }
+      ],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            1
+          ]
+        ]
+      },
+      "references-count": 29,
+      "journal-issue": {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              1
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1155/2023/8063524"
+      ],
+      "URL": "https://doi.org/10.1155/2023/8063524",
+      "archive": [
+        "Portico"
+      ],
+      "relation": {
+        "retraction": [
+          {
+            "id-type": "doi",
+            "id": "10.1155/js/9798760",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "ISSN": [
+        "1687-725X",
+        "1687-7268"
+      ],
+      "issn-type": [
+        {
+          "value": "1687-725X",
+          "type": "print"
+        },
+        {
+          "value": "1687-7268",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            1
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2022-09-10",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2023-01-18",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2023-02-08",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ],
+      "article-number": "8063524"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Murugaperumal Krishnamoorthy",
+      "given_name_from_source": "Murugaperumal",
+      "family_name_from_source": "Krishnamoorthy",
+      "orcid_from_source": "https://orcid.org/0000-0002-0203-0700",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Md. Asif",
+      "given_name_from_source": "Md.",
+      "family_name_from_source": "Asif",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Polamarasetty P. Kumar",
+      "given_name_from_source": "Polamarasetty P.",
+      "family_name_from_source": "Kumar",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Ramakrishna S. S. Nuvvula",
+      "given_name_from_source": "Ramakrishna S. S.",
+      "family_name_from_source": "Nuvvula",
+      "orcid_from_source": "https://orcid.org/0000-0001-5168-8683",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Baseem Khan",
+      "given_name_from_source": "Baseem",
+      "family_name_from_source": "Khan",
+      "orcid_from_source": "https://orcid.org/0000-0002-3093-6032",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "Ilhami Colak",
+      "given_name_from_source": "Ilhami",
+      "family_name_from_source": "Colak",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

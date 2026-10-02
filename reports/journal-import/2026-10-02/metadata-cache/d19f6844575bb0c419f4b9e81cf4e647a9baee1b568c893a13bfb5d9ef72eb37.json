@@ -1,0 +1,323 @@
+{
+  "doi": "10.37256/cm.5120242696",
+  "title": "Distribution State Estimation and Its Impact of Load Modeling",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Contemporary Mathematics",
+  "publisher": "Universal Wiser Publisher Pte. Ltd",
+  "publication_date": "2024-02-05",
+  "online_publication_date": "2024-02-05",
+  "print_publication_date": null,
+  "volume": null,
+  "issue": null,
+  "pages_or_article_number": "527-545",
+  "issn": "2705-1064",
+  "eissn": "2705-1056",
+  "isbn": null,
+  "url": "https://doi.org/10.37256/cm.5120242696",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:24.886810+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            7
+          ]
+        ],
+        "date-time": "2025-12-07T21:44:36Z",
+        "timestamp": 1765143876210,
+        "version": "3.40.5"
+      },
+      "reference-count": 0,
+      "publisher": "Universal Wiser Publisher Pte. Ltd",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                2,
+                5
+              ]
+            ],
+            "date-time": "2024-02-05T00:00:00Z",
+            "timestamp": 1707091200000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Contemp. Math."
+      ],
+      "abstract": "<jats:p>To maintain system security and other essential parameters like reliability and quality, continuous monitoring of the system is very important. Considering the distribution network, state estimation (SE) methods can be adopted. The purpose of the method is to identify and estimate unknown variables based on the online measurements of test data. The primary objectives considered in this paper are: To choose the exact SE method and the artificial neural network (back propagation algorithm), which can be used for determination in the islanding mode of distribution network states, the composite load model is considered for the estimation of states and further enhancement. By adopting the system, state variables in terms of error are measured in the 12-bus distribution network with precise measurements and compared with practical values. The SE proposed includes results with the load flow backward-forward sweep method to satisfy the system state variables. Numerical results indicate that the model performs better for error measurement data with states and in the case of state forecasting.</jats:p>",
+      "DOI": "10.37256/cm.5120242696",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            6
+          ]
+        ],
+        "date-time": "2024-02-06T02:03:51Z",
+        "timestamp": 1707185031000
+      },
+      "page": "527-545",
+      "source": "Crossref",
+      "is-referenced-by-count": 6,
+      "title": [
+        "Distribution State Estimation and Its Impact of Load Modeling"
+      ],
+      "prefix": "10.37256",
+      "author": [
+        {
+          "given": "M.",
+          "family": "Laskhmi Swarupa",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "V.",
+          "family": "Ganesh Kumar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "K.",
+          "family": "Sree Latha",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3244-1666",
+          "authenticated-orcid": false,
+          "given": "Manam",
+          "family": "Ravindra",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1561-1376",
+          "authenticated-orcid": false,
+          "given": "B. Praveen",
+          "family": "Kumar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "23474",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            5
+          ]
+        ]
+      },
+      "container-title": [
+        "Contemporary Mathematics"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "https://ojs.wiserpub.com/index.php/CM/article/download/2696/1950",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://ojs.wiserpub.com/index.php/CM/article/download/2696/1950",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            4
+          ]
+        ],
+        "date-time": "2024-07-04T15:24:52Z",
+        "timestamp": 1720106692000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://ojs.wiserpub.com/index.php/CM/article/view/2696"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            5
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.37256/cm.5120242696",
+      "relation": {},
+      "ISSN": [
+        "2705-1056",
+        "2705-1064"
+      ],
+      "issn-type": [
+        {
+          "type": "electronic",
+          "value": "2705-1056"
+        },
+        {
+          "type": "print",
+          "value": "2705-1064"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            5
+          ]
+        ]
+      }
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "M. Laskhmi Swarupa",
+      "given_name_from_source": "M.",
+      "family_name_from_source": "Laskhmi Swarupa",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "V. Ganesh Kumar",
+      "given_name_from_source": "V.",
+      "family_name_from_source": "Ganesh Kumar",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "K. Sree Latha",
+      "given_name_from_source": "K.",
+      "family_name_from_source": "Sree Latha",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Manam Ravindra",
+      "given_name_from_source": "Manam",
+      "family_name_from_source": "Ravindra",
+      "orcid_from_source": "https://orcid.org/0000-0002-3244-1666",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "B. Praveen Kumar",
+      "given_name_from_source": "B. Praveen",
+      "family_name_from_source": "Kumar",
+      "orcid_from_source": "https://orcid.org/0000-0003-1561-1376",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

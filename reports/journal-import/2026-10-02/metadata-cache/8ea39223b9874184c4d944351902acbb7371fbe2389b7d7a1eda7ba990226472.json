@@ -1,0 +1,1663 @@
+{
+  "doi": "10.1016/j.enbuild.2026.117359",
+  "title": "Hybrid AI-IoT-Blockchain frameworks for energy-efficient smart homes: a multidimensional review of technologies, policies, and socioeconomic implications",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Energy and Buildings",
+  "publisher": "Elsevier BV",
+  "publication_date": null,
+  "online_publication_date": null,
+  "print_publication_date": null,
+  "volume": "360",
+  "issue": null,
+  "pages_or_article_number": "117359",
+  "issn": "0378-7788",
+  "eissn": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1016/j.enbuild.2026.117359",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:52:20.498936+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            27
+          ]
+        ],
+        "date-time": "2026-07-27T16:03:03Z",
+        "timestamp": 1785168183520,
+        "version": "3.55.0"
+      },
+      "reference-count": 110,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2026-06-01T00:00:00Z",
+            "timestamp": 1780272000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2026-06-01T00:00:00Z",
+            "timestamp": 1780272000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2026-06-01T00:00:00Z",
+            "timestamp": 1780272000000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-017"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2026-06-01T00:00:00Z",
+            "timestamp": 1780272000000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2026-06-01T00:00:00Z",
+            "timestamp": 1780272000000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-012"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2026-06-01T00:00:00Z",
+            "timestamp": 1780272000000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2026-06-01T00:00:00Z",
+            "timestamp": 1780272000000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-004"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/100022754",
+          "name": "Saveetha School of Engineering",
+          "doi-asserted-by": "publisher",
+          "id": [
+            {
+              "id": "10.13039/100022754",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Energy and Buildings"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            6
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.enbuild.2026.117359",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            21
+          ]
+        ],
+        "date-time": "2026-03-21T15:54:35Z",
+        "timestamp": 1774108475000
+      },
+      "page": "117359",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "special_numbering": "C",
+      "title": [
+        "Hybrid AI-IoT-Blockchain frameworks for energy-efficient smart homes: a multidimensional review of technologies, policies, and socioeconomic implications"
+      ],
+      "prefix": "10.1016",
+      "volume": "360",
+      "author": [
+        {
+          "given": "G.",
+          "family": "Gulothungan",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "T.",
+          "family": "Raja",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yuvarajan",
+          "family": "Devarajan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mahit",
+          "family": "Jain",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Honganur Raju",
+          "family": "Manjunath",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Md",
+          "family": "Asif",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "M.",
+          "family": "Madhusudhan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Satish",
+          "family": "Choudhury",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ravikumar",
+          "family": "Jayabal",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "issue": "3",
+          "key": "10.1016/j.enbuild.2026.117359_b0005",
+          "first-page": "1",
+          "article-title": "Optimizing energy consumption in smart homes using ML techniques",
+          "volume": "9",
+          "author": "Sengaliappan",
+          "year": "2025",
+          "journal-title": "Indian Scientific Journal of Research in Engineering and Management"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.enbuild.2026.117359_b0010",
+          "first-page": "25",
+          "article-title": "Data-driven model for smart home energy prediction using deep and tree-based learning",
+          "volume": "4",
+          "author": "Sindhu Sri",
+          "year": "2025",
+          "journal-title": "Asian Journal of Multidisciplinary Innovations and Management in Computing"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.enbuild.2026.117359_b0015",
+          "doi-asserted-by": "crossref",
+          "first-page": "7",
+          "DOI": "10.35940/ijsce.D3647.13051123",
+          "article-title": "The impact of IoT on smart home energy management",
+          "volume": "13",
+          "author": "Dwivedi",
+          "year": "2023",
+          "journal-title": "International Journal of Soft Computing and Engineering"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0020",
+          "article-title": "Empowering homes through energy efficiency: a comprehensive review of smart home systems and devices",
+          "author": "Singh",
+          "year": "2024",
+          "journal-title": "Int. J. Energy Sect. Manage."
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0025",
+          "article-title": "Smart home energy management systems: a systematic review of architecture, communication, and algorithmic trends",
+          "author": "Siswipraptini",
+          "year": "2024",
+          "journal-title": "Journal of System and Management Sciences"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0030",
+          "article-title": "An adaptive approach to household power control using intelligent grid and ISSA for sustainable energy systems",
+          "volume": "1–16",
+          "author": "Kumar",
+          "year": "2025",
+          "journal-title": "J. Chin. Inst. Eng."
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0035",
+          "article-title": "Tidal-like Concept Drift in RIS-Covered buildings: when Programmable Wireless Environments Meet Human Behaviors",
+          "volume": "1–8",
+          "author": "Wu",
+          "year": "2025",
+          "journal-title": "IEEE Wirel. Commun."
+        },
+        {
+          "issue": "15",
+          "key": "10.1016/j.enbuild.2026.117359_b0040",
+          "doi-asserted-by": "crossref",
+          "first-page": "2631",
+          "DOI": "10.3390/buildings15152631",
+          "article-title": "A review of artificial intelligence and deep learning approaches for resource management in smart buildings",
+          "volume": "15",
+          "author": "Amangeldy",
+          "year": "2025",
+          "journal-title": "Buildings"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.enbuild.2026.117359_b0045",
+          "doi-asserted-by": "crossref",
+          "first-page": "51",
+          "DOI": "10.46501/IJMTST1006010",
+          "article-title": "eSmart home: AI and IoT integration for energy-efficient solar-powered homes",
+          "volume": "10",
+          "author": "Lavanaya",
+          "year": "2024",
+          "journal-title": "International Journal of Modern Trends in Science and Technology"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0050",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.jobe.2023.108232",
+          "article-title": "A comprehensive analysis of small-scale building integrated photovoltaic system for residential buildings: Techno-economic benefits and greenhouse gas mitigation potential",
+          "volume": "82",
+          "author": "Anand",
+          "year": "2024",
+          "journal-title": "Journal of Building Engineering"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0055",
+          "article-title": "Smart grid using IoT",
+          "volume": "580–587",
+          "author": "Chavan",
+          "year": "2024",
+          "journal-title": "International Journal of Advanced Research in Science, Communication and Technology"
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.enbuild.2026.117359_b0060",
+          "doi-asserted-by": "crossref",
+          "first-page": "11344",
+          "DOI": "10.15680/IJIRCCE.2023.1110050",
+          "article-title": "IoT in the energy sector: Revolutionizing energy management and consumption",
+          "volume": "11",
+          "author": "Pateriya",
+          "year": "2023",
+          "journal-title": "International Journal of Innovative Research in Computer and Communication Engineering"
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.enbuild.2026.117359_b0065",
+          "doi-asserted-by": "crossref",
+          "first-page": "412",
+          "DOI": "10.3390/technologies13090412",
+          "article-title": "Redefining transactions, Trust, and Transparency in the Energy Market from Blockchain-Driven Technology",
+          "volume": "13",
+          "author": "Uche-Soria",
+          "year": "2025",
+          "journal-title": "Technologies (basel)"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0070",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.enbuild.2023.113579",
+          "article-title": "Developing occupant-centric smart home thermostats with energy-saving and comfort-improving goals",
+          "volume": "299",
+          "author": "Luo",
+          "year": "2023",
+          "journal-title": "Energ. Buildings"
+        },
+        {
+          "issue": "20",
+          "key": "10.1016/j.enbuild.2026.117359_b0075",
+          "doi-asserted-by": "crossref",
+          "first-page": "19886",
+          "DOI": "10.1109/JSEN.2022.3205017",
+          "article-title": "Energy Consumption Minimization for Data Collection from Wirelessly-Powered IoT Sensors: Session-specific Optimal Design with DRL",
+          "volume": "22",
+          "author": "Xu",
+          "year": "2022",
+          "journal-title": "IEEE Sens. J."
+        },
+        {
+          "issue": "16",
+          "key": "10.1016/j.enbuild.2026.117359_b0080",
+          "doi-asserted-by": "crossref",
+          "first-page": "5543",
+          "DOI": "10.3390/app10165543",
+          "article-title": "Exploring the Impact of a District Sharing strategy on Application Capacity and Carbon Emissions for heating and Cooling with GSHP Systems",
+          "volume": "10",
+          "author": "Zhang",
+          "year": "2020",
+          "journal-title": "Appl. Sci."
+        },
+        {
+          "issue": "20",
+          "key": "10.1016/j.enbuild.2026.117359_b0085",
+          "doi-asserted-by": "crossref",
+          "first-page": "3762",
+          "DOI": "10.3390/buildings15203762",
+          "article-title": "Impact of Facade Photovoltaic Retrofit on Building Carbon Emissions for Residential buildings in Cold Regions",
+          "volume": "15",
+          "author": "Yang",
+          "year": "2025",
+          "journal-title": "Buildings"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0090",
+          "article-title": "A2Tformer: addressing Temporal Bias and Non-Stationarity in Transformer-based IoT Time Series Classification",
+          "volume": "1",
+          "author": "Luo",
+          "year": "2025",
+          "journal-title": "IEEE Internet Things J."
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0095",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.apenergy.2025.127195",
+          "article-title": "Blockchain-based network-constrained peer-to-peer energy trading in a reconfigurable distribution network",
+          "volume": "405",
+          "author": "Ping",
+          "year": "2026",
+          "journal-title": "Appl. Energy"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.enbuild.2026.117359_b0100",
+          "doi-asserted-by": "crossref",
+          "first-page": "44",
+          "DOI": "10.1016/j.oneear.2021.12.010",
+          "article-title": "Characteristics, potentials, and challenges of transdisciplinary research",
+          "volume": "5",
+          "author": "Lawrence",
+          "year": "2022",
+          "journal-title": "One Earth"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0105",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.3233/ATDE240880",
+          "article-title": "A transdisciplinary engineering and systems approach for decarbonizing UK home heating",
+          "author": "Wise",
+          "year": "2024",
+          "journal-title": "Advances in Transdisciplinary Engineering"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.enbuild.2026.117359_b0110",
+          "first-page": "4239",
+          "article-title": "Blockchain and internet of things synergy: Transforming smart grids for the future",
+          "volume": "15",
+          "author": "Bensalah",
+          "year": "2025",
+          "journal-title": "Int. J. Power Electron. Drive Syst."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.enbuild.2026.117359_b0115",
+          "first-page": "157",
+          "article-title": "AI-based energy consumption forecasting in smart grids for future IoT-based energy meters",
+          "volume": "4",
+          "author": "Prashanthi",
+          "year": "2025",
+          "journal-title": "International Journal of Data and Information Management"
+        },
+        {
+          "issue": "22",
+          "key": "10.1016/j.enbuild.2026.117359_b0120",
+          "doi-asserted-by": "crossref",
+          "first-page": "5744",
+          "DOI": "10.3390/en17225744",
+          "article-title": "Blockchain-enabled smart grids for optimized electrical billing and peer-to-peer energy trading",
+          "volume": "17",
+          "author": "Din",
+          "year": "2024",
+          "journal-title": "Energies"
+        },
+        {
+          "issue": "16",
+          "key": "10.1016/j.enbuild.2026.117359_b0125",
+          "doi-asserted-by": "crossref",
+          "first-page": "32366",
+          "DOI": "10.1109/JIOT.2025.3576735",
+          "article-title": "Blockchain-based Verifiable Decentralized Identity for Intelligent Flexible Manufacturing",
+          "volume": "12",
+          "author": "Xu",
+          "year": "2025",
+          "journal-title": "IEEE Internet Things J."
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0130",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.3389/fenrg.2024.1377950",
+          "article-title": "Integration of blockchain with artificial intelligence technologies in the energy sector: a systematic review",
+          "author": "Al Shareef",
+          "year": "2024",
+          "journal-title": "Front. Energy Res."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.enbuild.2026.117359_b0135",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1155/er/5872792",
+          "article-title": "Hybrid Renewable Energy and Smart App‐Based Management for Efficient and Sustainable EV Charging Infrastructure",
+          "volume": "2025",
+          "author": "Alkahtani",
+          "year": "2025",
+          "journal-title": "Int. J. Energy Res."
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.enbuild.2026.117359_b0140",
+          "doi-asserted-by": "crossref",
+          "first-page": "14297",
+          "DOI": "10.1109/JIOT.2025.3525623",
+          "article-title": "A Novel Dynamic Hill Cipher and its applications on Medical IoT",
+          "volume": "12",
+          "author": "Jin",
+          "year": "2025",
+          "journal-title": "IEEE Internet Things J."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.enbuild.2026.117359_b0145",
+          "doi-asserted-by": "crossref",
+          "first-page": "172",
+          "DOI": "10.53022/oarjms.2023.5.2.0020",
+          "article-title": "Internet of things (IoT) in U.S. smart homes: a review assessing advancements in home automation, security implications, and user adaptability",
+          "volume": "5",
+          "author": "Akinade",
+          "year": "2023",
+          "journal-title": "Open Access Research Journal of Multidisciplinary Studies"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.enbuild.2026.117359_b0150",
+          "doi-asserted-by": "crossref",
+          "first-page": "103",
+          "DOI": "10.2478/ijanmc-2025-0009",
+          "article-title": "Edge computing in IoT networks: Enhancing efficiency, reducing latency, and improving scalability",
+          "volume": "10",
+          "author": "Alkilany",
+          "year": "2025",
+          "journal-title": "International Journal of Advanced Network, Monitoring and Controls"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.enbuild.2026.117359_b0155",
+          "article-title": "Challenges in interoperability of IoT devices: Towards a unified standard. International Journal for",
+          "volume": "3",
+          "author": "Sayed",
+          "year": "2021",
+          "journal-title": "Multidiscip. Res."
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0160",
+          "article-title": "Investigating the impact of AI/ML for monitoring and optimizing energy usage in a smart home",
+          "volume": "30–43",
+          "author": "Ikegwu",
+          "year": "2025",
+          "journal-title": "Artificial Intelligence Evolution"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.enbuild.2026.117359_b0165",
+          "doi-asserted-by": "crossref",
+          "first-page": "76",
+          "DOI": "10.24014/ijaidm.v8i1.32791",
+          "article-title": "Performance evaluation of machine learning models for predicting household energy consumption: a comparative study",
+          "volume": "8",
+          "author": "Airlangga",
+          "year": "2024",
+          "journal-title": "Indonesian Journal of Artificial Intelligence and Data Mining"
+        },
+        {
+          "issue": "24",
+          "key": "10.1016/j.enbuild.2026.117359_b0170",
+          "doi-asserted-by": "crossref",
+          "first-page": "6420",
+          "DOI": "10.3390/en17246420",
+          "article-title": "Applications of deep reinforcement learning for home energy management systems: a review",
+          "volume": "17",
+          "author": "Latoń",
+          "year": "2024",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0175",
+          "article-title": "Urban green technology transfer networks and green finance development: evidence from the Yangtze River Delta",
+          "volume": "96",
+          "author": "Hu",
+          "year": "2026",
+          "journal-title": "China. Pacific-Basin Finance Journal"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.enbuild.2026.117359_b0180",
+          "article-title": "Application of blockchain in energy",
+          "volume": "10",
+          "author": "Zhou",
+          "year": "2023",
+          "journal-title": "International Journal of Engineering Technologies and Management Research"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0185",
+          "first-page": "99",
+          "article-title": "Integrating blockchain into energy systems: Unlocking transparency and sustainability. European",
+          "volume": "sge41-07",
+          "author": "Mysak",
+          "year": "2022",
+          "journal-title": "Science"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.enbuild.2026.117359_b0190",
+          "doi-asserted-by": "crossref",
+          "first-page": "694",
+          "DOI": "10.1109/TCC.2025.3559346",
+          "article-title": "Breaking the Edge: Enabling Efficient Neural Network Inference on Integrated Edge Devices",
+          "volume": "13",
+          "author": "Zhang",
+          "year": "2025",
+          "journal-title": "IEEE Trans. Cloud Comput."
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0195",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Goyal, N. K. (2025). Security and privacy in IoT, fog, and blockchain networks. In Advances in Environmental Engineering and Green Technologies (pp. 371-398). doi: 10.4018/979-8-3373-0300-0.ch015.",
+          "DOI": "10.4018/979-8-3373-0300-0.ch015"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0200",
+          "article-title": "Multi-Leader byzantine Fault Tolerance in Blockchain: Performance and Security",
+          "volume": "1",
+          "author": "Liu",
+          "year": "2026",
+          "journal-title": "IEEE Trans. Inf. Forensics Secur."
+        },
+        {
+          "issue": "19",
+          "key": "10.1016/j.enbuild.2026.117359_b0205",
+          "doi-asserted-by": "crossref",
+          "first-page": "4062",
+          "DOI": "10.3390/math11194062",
+          "article-title": "AI- and blockchain-assisted secure data-exchange framework for smart home systems",
+          "volume": "11",
+          "author": "Shah",
+          "year": "2023",
+          "journal-title": "Mathematics"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.enbuild.2026.117359_b0210",
+          "doi-asserted-by": "crossref",
+          "first-page": "4037",
+          "DOI": "10.11591/ijai.v13.i4.pp4037-4044",
+          "article-title": "Internet of things and blockchain integration for security and privacy",
+          "volume": "13",
+          "author": "Kumar",
+          "year": "2024",
+          "journal-title": "IAES International Journal of Artificial Intelligence"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.enbuild.2026.117359_b0215",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.29284/IISAE.1.2.2025.1-7",
+          "article-title": "A lightweight blockchain framework for efficient communication among smart home devices",
+          "volume": "1",
+          "author": "Buvaneswari",
+          "year": "2025",
+          "journal-title": "IISAE"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0220",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gokuldhev, M., Vijayakumar, K., Theresa, M. M., Sudha, K., Nagarajan, S., Prasath, R., & Pajila, P. J. B. (2025). AI and ML for Energy Management. 109-134. doi: 10.4018/979-8-3373-0766-4.ch005.",
+          "DOI": "10.4018/979-8-3373-0766-4.ch005"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0225",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.jclepro.2024.142207",
+          "article-title": "Critical review on fostering sustainable progress: an in-depth evaluation of cleaner production methodologies and pioneering innovations in industrial processes",
+          "volume": "452",
+          "author": "Manikandan",
+          "year": "2024",
+          "journal-title": "J. Clean. Prod."
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0230",
+          "article-title": "Edge AI for smart energy systems: a comprehensive review",
+          "author": "Nguyen",
+          "year": "2025",
+          "journal-title": "IntechOpen"
+        },
+        {
+          "issue": "15",
+          "key": "10.1016/j.enbuild.2026.117359_b0235",
+          "doi-asserted-by": "crossref",
+          "first-page": "3963",
+          "DOI": "10.3390/en18153963",
+          "article-title": "The brain behind the grid: a comprehensive review on advanced control strategies for smart energy management systems",
+          "volume": "18",
+          "author": "Rajendran",
+          "year": "2025",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0240",
+          "doi-asserted-by": "crossref",
+          "first-page": "59",
+          "DOI": "10.54097/8hzgaf51",
+          "article-title": "AIoT in Smart Homes: challenges, Strategic Solutions, and Future Directions",
+          "volume": "87",
+          "author": "Yan",
+          "year": "2024",
+          "journal-title": "Highlights in Science Engineering and Technology"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0245",
+          "article-title": "The next wave of smart living: Consumer trends in AI-enhanced home automation",
+          "author": "Pasupuleti",
+          "year": "2025",
+          "journal-title": "NESX"
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.enbuild.2026.117359_b0250",
+          "doi-asserted-by": "crossref",
+          "first-page": "2334",
+          "DOI": "10.51594/estj.v5i7.1347",
+          "article-title": "Comprehensive analysis of integrating smart grids with renewable energy sources: Technological advancements, economic impacts, and policy frameworks",
+          "volume": "5",
+          "author": "Uzondu",
+          "year": "2024",
+          "journal-title": "Engineering Science & Technology Journal"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0255",
+          "article-title": "Peer-to-peer energy trading: Innovations, regulatory challenges, and the future of decentralized energy systems",
+          "author": "Bassey",
+          "year": "2024",
+          "journal-title": "World Journal of Advanced Research and Reviews"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0260",
+          "article-title": "Towards a blockchain and machine learning-based framework for decentralised energy management",
+          "author": "Luo",
+          "year": "2023",
+          "journal-title": "Energ. Buildings"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0265",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jain, N. (2025). Integrating AI-optimized smart grids with renewable energy for accelerated net-zero transition. In AI-Driven Energy Systems (pp. 417-454). doi: 10.4018/979-8-3373-3226-0.ch015.",
+          "DOI": "10.4018/979-8-3373-3226-0.ch015"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0270",
+          "article-title": "Empowering energy: Legal and regulatory perspectives on blockchain-enabled trading in Malaysia and Australia",
+          "volume": "1–23",
+          "author": "Karisma",
+          "year": "2025",
+          "journal-title": "Asian Journal of Law and Society"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0275",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.measurement.2023.112505",
+          "article-title": "Optimized RNN-based performance prediction of IoT and WSN-oriented smart city application using improved honey badger algorithm",
+          "volume": "210",
+          "author": "Asha",
+          "year": "2023",
+          "journal-title": "Measurement"
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.enbuild.2026.117359_b0280",
+          "doi-asserted-by": "crossref",
+          "first-page": "4461",
+          "DOI": "10.3390/en15124461",
+          "article-title": "Fully Decentralized, Cost-Effective Energy demand Response Management System with a Smart Contracts-based Optimal Power Flow solution for Smart Grids",
+          "volume": "15",
+          "author": "Merrad",
+          "year": "2022",
+          "journal-title": "Energies"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.enbuild.2026.117359_b0285",
+          "doi-asserted-by": "crossref",
+          "first-page": "3680",
+          "DOI": "10.1109/TCE.2024.3372906",
+          "article-title": "Next-Generation Imaging Methodology: an Intelligent Transportation System for Consumer Industry",
+          "volume": "70",
+          "author": "Devarajan",
+          "year": "2024",
+          "journal-title": "IEEE Trans. Consum. Electron."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.enbuild.2026.117359_b0290",
+          "doi-asserted-by": "crossref",
+          "first-page": "3742",
+          "DOI": "10.3390/su15043742",
+          "article-title": "Innovative data-driven energy services and business models in the domestic building sector",
+          "volume": "15",
+          "author": "Aranda",
+          "year": "2023",
+          "journal-title": "Sustainability"
+        },
+        {
+          "issue": "S6",
+          "key": "10.1016/j.enbuild.2026.117359_b0295",
+          "volume": "20",
+          "year": "2024",
+          "journal-title": "Nanotechnology Perceptions"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0300",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Alateef, S., Aldweesh, A., Al-Qerem, A., Alauthman, M., & Al Khaldy, M. (2025). Blockchain for energy financing and investment. In Blockchain Applications in Energy (pp. 19-34). doi: 10.4018/979-8-3373-2439-5.ch002.",
+          "DOI": "10.4018/979-8-3373-2439-5.ch002"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0305",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1371/journal.pone.0289017",
+          "article-title": "Don’t touch that dial: Psychological reactance, transparency, and user acceptance of smart thermostat setting changes",
+          "volume": "18",
+          "author": "Heatherly",
+          "year": "2023",
+          "journal-title": "PLoS One"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0310",
+          "series-title": "In Advances in Human and Social Aspects of Technology",
+          "first-page": "233",
+          "article-title": "Exploring the social model of smart home devices",
+          "author": "Rauf",
+          "year": "2024"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0315",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.enbuild.2024.114416",
+          "article-title": "Blockchain-enabled framework for transactive home energy management with cloud energy storage under uncertainties",
+          "volume": "317",
+          "author": "Salehi",
+          "year": "2024",
+          "journal-title": "Energ. Buildings"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0320",
+          "article-title": "A Systematic Literature Review of the Tension between the GDPR and Public Blockchain Systems",
+          "volume": "abs/2210.04541(2)",
+          "author": "Saglam",
+          "year": "2022",
+          "journal-title": "Blockchain: Res. Appl."
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0325",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.enbuild.2024.113903",
+          "article-title": "Applications of artificial intelligence for energy efficiency throughout the building lifecycle: an overview",
+          "volume": "305",
+          "author": "Yussuf",
+          "year": "2024",
+          "journal-title": "Energ. Buildings"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.enbuild.2026.117359_b0330",
+          "doi-asserted-by": "crossref",
+          "first-page": "1125",
+          "DOI": "10.32628/CSEIT24113369",
+          "article-title": "Federated learning approaches for privacy-preserving threat detection in smart home IoT environments",
+          "volume": "10",
+          "author": "Idika",
+          "year": "2024",
+          "journal-title": "International Journal of Scientific Research in Computer Science, Engineering and Information Technology"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.enbuild.2026.117359_b0335",
+          "article-title": "Bridging the Ethical Gap: Privacy-Preserving Artificial Intelligence in the Age of Pervasive Data. International Journal of Scientific",
+          "volume": "2",
+          "author": "Methuku",
+          "year": "2021",
+          "journal-title": "Advances"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.enbuild.2026.117359_b0340",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1038/s41598-025-88135-9",
+          "article-title": "Intrusion detection in metaverse environment internet of things systems by metaheuristics tuned two level framework",
+          "volume": "15",
+          "author": "Antonijevic",
+          "year": "2025",
+          "journal-title": "Sci. Rep."
+        },
+        {
+          "issue": "05",
+          "key": "10.1016/j.enbuild.2026.117359_b0345",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1142/S0218126621300063",
+          "article-title": "A Survey on internet of things: applications, recent issues, attacks, and Security Mechanisms",
+          "volume": "30",
+          "author": "Uganya",
+          "year": "2020",
+          "journal-title": "Journal of Circuits, Systems and Computers"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0350",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.enbuild.2024.114754",
+          "article-title": "Optimizing energy consumption in smart buildings: a model for efficient energy management and renewable integration",
+          "volume": "323",
+          "author": "Jing",
+          "year": "2024",
+          "journal-title": "Energ. Buildings"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0355",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Allen, J. G., & Loo, J. (2025). Singapore’s evolving AI governance framework. In AI Governance in Asia (pp. 151-168). doi: 10.1017/9781009492553.014.",
+          "DOI": "10.1017/9781009492553.014"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.enbuild.2026.117359_b0360",
+          "doi-asserted-by": "crossref",
+          "first-page": "330",
+          "DOI": "10.1111/ropr.12470",
+          "article-title": "Smart home technology: challenges and opportunities for collaborative governance and policy research",
+          "volume": "39",
+          "author": "Mallinson",
+          "year": "2022",
+          "journal-title": "Rev. Policy Res."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.enbuild.2026.117359_b0365",
+          "doi-asserted-by": "crossref",
+          "first-page": "170",
+          "DOI": "10.1007/s42853-025-00258-z",
+          "article-title": "Investigation of Emerging Technologies in Agriculture: an In-depth look at Smart Farming, Nano-agriculture, AI, and big Data",
+          "volume": "50",
+          "author": "D, C. S., & Devarajan, Y.",
+          "year": "2025",
+          "journal-title": "J. Biosyst. Eng."
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0370",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.engappai.2024.109896",
+          "article-title": "Picture fuzzy compromise ranking of alternatives using distance-to-ideal-solution approach for selecting blockchain technology platforms in logistics firms",
+          "volume": "142",
+          "author": "Rani",
+          "year": "2025",
+          "journal-title": "Eng. Appl. Artif. Intel."
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0375",
+          "article-title": "Advanced controls on energy reliability, flexibility, resilience, and occupant-centric control for smart and energy-efficient buildings—A state-of-the-art review",
+          "author": "Liu",
+          "year": "2023",
+          "journal-title": "Energ. Buildings"
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.enbuild.2026.117359_b0385",
+          "doi-asserted-by": "crossref",
+          "first-page": "9",
+          "DOI": "10.9734/ajrcos/2024/v17i11516",
+          "article-title": "Optimizing Energy Efficiency in Smart Home Automation through Reinforcement Learning and Iot",
+          "volume": "17",
+          "author": "Oseiwe",
+          "year": "2024",
+          "journal-title": "Asian Journal of Research in Computer Science"
+        },
+        {
+          "issue": "16",
+          "key": "10.1016/j.enbuild.2026.117359_b0390",
+          "doi-asserted-by": "crossref",
+          "first-page": "5001",
+          "DOI": "10.3390/s25165001",
+          "article-title": "IoT and Blockchain for support for Smart Contracts through TpM",
+          "volume": "25",
+          "author": "Yamaguti",
+          "year": "2025",
+          "journal-title": "Sensors"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.enbuild.2026.117359_b0395",
+          "doi-asserted-by": "crossref",
+          "first-page": "359",
+          "DOI": "10.3390/s21020359",
+          "article-title": "Hyperledger fabric Blockchain for Securing the Edge internet of things",
+          "volume": "21",
+          "author": "Pajooh",
+          "year": "2021",
+          "journal-title": "Sensors"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0400",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.3390/su16051925",
+          "article-title": "Enhancing Building Energy Efficiency with IoT-Driven Hybrid Deep Learning Models for Accurate Energy Consumption Prediction",
+          "author": "Natarajan",
+          "year": "2024",
+          "journal-title": "Sustainability"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0405",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.3390/su151713203",
+          "article-title": "EnergyAuction: IoT-Blockchain Architecture for Local Peer-to-Peer Energy Trading in a Microgrid",
+          "author": "Condon",
+          "year": "2023",
+          "journal-title": "Sustainability"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.enbuild.2026.117359_b0410",
+          "doi-asserted-by": "crossref",
+          "first-page": "29",
+          "DOI": "10.3992/jgb.19.1.29",
+          "article-title": "Using deep learning to optimize hvac systems in residential buildings",
+          "volume": "19",
+          "author": "Tran",
+          "year": "2024",
+          "journal-title": "Journal of Green Building"
+        },
+        {
+          "issue": "20",
+          "key": "10.1016/j.enbuild.2026.117359_b0415",
+          "doi-asserted-by": "crossref",
+          "first-page": "7623",
+          "DOI": "10.3390/en15207623",
+          "article-title": "Blockchain-based Hardware-in-the-Loop simulation of a Decentralized Controller for Local Energy Communities",
+          "volume": "15",
+          "author": "Galici",
+          "year": "2022",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0420",
+          "doi-asserted-by": "crossref",
+          "first-page": "67",
+          "DOI": "10.1109/MPE.2023.3345827",
+          "article-title": "Pioneering Real-Time Control: the Deployment of a distribution Linear State Estimator at Commonwealth Edison",
+          "volume": "22",
+          "author": "Alvi",
+          "year": "2024",
+          "journal-title": "IEEE Power & Energy Magazine"
+        },
+        {
+          "issue": "13",
+          "key": "10.1016/j.enbuild.2026.117359_b0425",
+          "doi-asserted-by": "crossref",
+          "first-page": "3320",
+          "DOI": "10.3390/en18133320",
+          "article-title": "Occupant-Centric load Optimization in Smart Green Townhouses using Machine Learning",
+          "volume": "18",
+          "author": "Moghimi",
+          "year": "2025",
+          "journal-title": "Energies"
+        },
+        {
+          "issue": "15",
+          "key": "10.1016/j.enbuild.2026.117359_b0430",
+          "doi-asserted-by": "crossref",
+          "first-page": "4854",
+          "DOI": "10.3390/s25154854",
+          "article-title": "A Blockchain-based Secure Data Transaction and Privacy Preservation Scheme in IoT System",
+          "volume": "25",
+          "author": "Wu",
+          "year": "2025",
+          "journal-title": "Sensors"
+        },
+        {
+          "issue": "17",
+          "key": "10.1016/j.enbuild.2026.117359_b0435",
+          "doi-asserted-by": "crossref",
+          "first-page": "5931",
+          "DOI": "10.3390/s21175931",
+          "article-title": "Security and Privacy for Mobile IoT applications using Blockchain",
+          "volume": "21",
+          "author": "Carvalho",
+          "year": "2021",
+          "journal-title": "Sensors"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0440",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.apenergy.2023.121681",
+          "article-title": "Transmission and distribution network-constrained large-scale demand response based on locational customer directrix load for accommodating renewable energy",
+          "author": "Meng",
+          "year": "2023",
+          "journal-title": "Appl. Energy"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0445",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.apenergy.2024.123331",
+          "article-title": "Peer-to-peer multi-period energy market with flexible scheduling on a scalable and cost-effective blockchain",
+          "author": "Huang",
+          "year": "2024",
+          "journal-title": "Appl. Energy"
+        },
+        {
+          "issue": "18",
+          "key": "10.1016/j.enbuild.2026.117359_b0450",
+          "doi-asserted-by": "crossref",
+          "first-page": "6786",
+          "DOI": "10.3390/s22186786",
+          "article-title": "Blockchain Empowered Federated Learning Ecosystem for Securing Consumer IoT Features Analysis",
+          "volume": "22",
+          "author": "Alghamdi",
+          "year": "2022",
+          "journal-title": "Sensors"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.enbuild.2026.117359_b0455",
+          "doi-asserted-by": "crossref",
+          "first-page": "2802",
+          "DOI": "10.3390/smartcities7050109",
+          "article-title": "Cybersecurity in a Scalable Smart City Framework using Blockchain and Federated Learning for internet of things (IoT)",
+          "volume": "7",
+          "author": "Sefati",
+          "year": "2024",
+          "journal-title": "Smart Cities"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.enbuild.2026.117359_b0460",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.6001/energetika.2024.70.1.4",
+          "article-title": "Digital transformation in energy systems: a comprehensive review of AI, IoT, blockchain, and decentralised energy models",
+          "volume": "70",
+          "author": "Radvilė",
+          "year": "2025",
+          "journal-title": "Energetika"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0465",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.37943/16ENNA6243",
+          "article-title": "An analysis of the heterogeneous IoT device network interaction in a cyber-physical system",
+          "author": "Nurgaliyev",
+          "year": "2024",
+          "journal-title": "Scientific Journal of Astana IT University"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0470",
+          "author": "Joshi",
+          "year": "2025",
+          "journal-title": "Federated Learning for Secure and Privacy- Preserving Edge AI in Smart Cities."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.enbuild.2026.117359_b0475",
+          "first-page": "37",
+          "article-title": "Decentralized federated learning with blockchain for privacy-preserving edge AI in smart cities",
+          "volume": "1",
+          "author": "Shompa",
+          "year": "2025",
+          "journal-title": "Journal of next-Gen Systems"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0480",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1049/cmu2.12870",
+          "article-title": "Blockchain-controlled trustworthy federated learning platform for smart homes",
+          "author": "Biswas",
+          "year": "2024",
+          "journal-title": "IET Commun."
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0485",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ishtaiwi, A., Aldweesh, A., Al-Qerem, A., & Alkasassbeh, M. (2025). AI-powered smart contracts for energy grid optimization. In Blockchain Applications in Energy (pp. 235-264). doi: 10.4018/979-8-3373-2439-5.ch011.",
+          "DOI": "10.4018/979-8-3373-2439-5.ch011"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0490",
+          "article-title": "Explainable artificial intelligence (XAI): Enhancing transparency and trust in machine learning models",
+          "author": "Patil",
+          "year": "2025",
+          "journal-title": "SSRN"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0495",
+          "article-title": "Explainable and trustworthy artificial intelligence, machine learning, and deep learning",
+          "author": "Rane",
+          "year": "2024",
+          "journal-title": "In AI for Reliable Systems"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0500",
+          "article-title": "Lightweight privacy and security computing for blockchained federated learning in IoT",
+          "volume": "1–000",
+          "author": "Fan",
+          "year": "2023",
+          "journal-title": "IEEE Internet Things J."
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0505",
+          "article-title": "Explainable AI (XAI) for cloud-based enterprise applications: Building trust and transparency in AI-driven decisions",
+          "volume": "63–71",
+          "author": "Goyal",
+          "year": "2025",
+          "journal-title": "Journal of International Crisis and Risk Communication Research"
+        },
+        {
+          "issue": "24",
+          "key": "10.1016/j.enbuild.2026.117359_b0510",
+          "doi-asserted-by": "crossref",
+          "first-page": "11834",
+          "DOI": "10.3390/app142411834",
+          "article-title": "A scalable and user-friendly framework integrating IoT and digital twins for home energy management systems",
+          "volume": "14",
+          "author": "Stogia",
+          "year": "2024",
+          "journal-title": "Appl. Sci."
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0515",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1017/dce.2024.27",
+          "article-title": "A multi-task deep reinforcement learning-based recommender system for co-optimizing energy, comfort, and air quality in commercial buildings with humans-in-the-loop",
+          "volume": "5",
+          "author": "Xia",
+          "year": "2024",
+          "journal-title": "Data-Centric Eng."
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0520",
+          "article-title": "Energy management based on safe multi-agent reinforcement learning for smart buildings in distribution networks",
+          "volume": "114410",
+          "author": "Sun",
+          "year": "2024",
+          "journal-title": "Energ. Buildings"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0525",
+          "article-title": "Blockchain-based distributed Multi-Agent Reinforcement Learning for Collaborative Multi-Object Tracking Framework",
+          "author": "Shen",
+          "year": "2023",
+          "journal-title": "IEEE Trans. Comput."
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0530",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.inffus.2024.102301",
+          "article-title": "Explainable Artificial Intelligence (XAI) 2.0: a manifesto of open challenges and interdisciplinary research directions",
+          "volume": "106",
+          "author": "Longo",
+          "year": "2024",
+          "journal-title": "Inf. Fusion"
+        },
+        {
+          "issue": "17",
+          "key": "10.1016/j.enbuild.2026.117359_b0535",
+          "doi-asserted-by": "crossref",
+          "first-page": "5265",
+          "DOI": "10.3390/s25175265",
+          "article-title": "AI-Powered Building Ecosystems: a Narrative Mapping Review on the Integration of Digital Twins and LLMs for Proactive Comfort, IEQ, and Energy Management",
+          "volume": "25",
+          "author": "Amangeldy",
+          "year": "2025",
+          "journal-title": "Sensors"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.enbuild.2026.117359_b0540",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.63084/cognexus.v1i01.30",
+          "article-title": "Innovation at the intersection: Exploring the benefits of multidisciplinary collaboration",
+          "volume": "1",
+          "author": "Anwar",
+          "year": "2025",
+          "journal-title": "CogNexus"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0545",
+          "article-title": "Recent emergence and integration of blockchain, internet of things (IoT), and artificial intelligence (AI) and their future directions",
+          "volume": "18",
+          "author": "Tuteja",
+          "year": "2025",
+          "journal-title": "Recent Advances in Electrical & Electronic Engineering"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0550",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sarin, A. B., & Sharma, S. (2024). The synergy of artificial intelligence and green finance for sustainable investment. In Advances in Finance, Accounting, and Economics (pp. 83-100). doi: 10.4018/979-8-3693-7570-9.ch006.",
+          "DOI": "10.4018/979-8-3693-7570-9.ch006"
+        },
+        {
+          "key": "10.1016/j.enbuild.2026.117359_b0555",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.5539/jsd.v17n5p30",
+          "article-title": "The role of artificial intelligence in achieving the United Nations Sustainable Development Goals",
+          "author": "Lainjo",
+          "year": "2024",
+          "journal-title": "Journal of Sustainable Development"
+        }
+      ],
+      "container-title": [
+        "Energy and Buildings"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0378778826004196?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0378778826004196?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            27
+          ]
+        ],
+        "date-time": "2026-07-27T15:52:15Z",
+        "timestamp": 1785167535000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0378778826004196"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            6
+          ]
+        ]
+      },
+      "references-count": 110,
+      "alternative-id": [
+        "S0378778826004196"
+      ],
+      "URL": "https://doi.org/10.1016/j.enbuild.2026.117359",
+      "relation": {},
+      "ISSN": [
+        "0378-7788"
+      ],
+      "issn-type": [
+        {
+          "value": "0378-7788",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            6
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Hybrid AI-IoT-Blockchain frameworks for energy-efficient smart homes: a multidimensional review of technologies, policies, and socioeconomic implications",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Energy and Buildings",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.enbuild.2026.117359",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2026 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "117359"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "G. Gulothungan",
+      "given_name_from_source": "G.",
+      "family_name_from_source": "Gulothungan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "T. Raja",
+      "given_name_from_source": "T.",
+      "family_name_from_source": "Raja",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Yuvarajan Devarajan",
+      "given_name_from_source": "Yuvarajan",
+      "family_name_from_source": "Devarajan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Mahit Jain",
+      "given_name_from_source": "Mahit",
+      "family_name_from_source": "Jain",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Honganur Raju Manjunath",
+      "given_name_from_source": "Honganur Raju",
+      "family_name_from_source": "Manjunath",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "Md Asif",
+      "given_name_from_source": "Md",
+      "family_name_from_source": "Asif",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 7,
+      "author_name_from_source": "M. Madhusudhan",
+      "given_name_from_source": "M.",
+      "family_name_from_source": "Madhusudhan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 8,
+      "author_name_from_source": "Satish Choudhury",
+      "given_name_from_source": "Satish",
+      "family_name_from_source": "Choudhury",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 9,
+      "author_name_from_source": "Ravikumar Jayabal",
+      "given_name_from_source": "Ravikumar",
+      "family_name_from_source": "Jayabal",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

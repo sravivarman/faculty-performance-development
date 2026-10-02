@@ -1,0 +1,346 @@
+{
+  "doi": "10.14419/92vkkc31",
+  "title": "Intelligent Control of BLDC Motors Using Adaptive PID and ANN Techniques",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "International Journal of Basic and Applied Sciences",
+  "publisher": "Science Publishing Corporation",
+  "publication_date": "2025-08-09",
+  "online_publication_date": "2025-08-09",
+  "print_publication_date": null,
+  "volume": "14",
+  "issue": "4",
+  "pages_or_article_number": "242-249",
+  "issn": null,
+  "eissn": "2227-5053",
+  "isbn": null,
+  "url": "https://doi.org/10.14419/92vkkc31",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:35.508213+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            16
+          ]
+        ],
+        "date-time": "2026-09-16T12:12:51Z",
+        "timestamp": 1789560771265,
+        "version": "build-2803163510"
+      },
+      "reference-count": 0,
+      "publisher": "Science Publishing Corporation",
+      "issue": "4",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "IJBAS"
+      ],
+      "DOI": "10.14419/92vkkc31",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            9
+          ]
+        ],
+        "date-time": "2025-08-09T12:14:16Z",
+        "timestamp": 1754741656000
+      },
+      "page": "242-249",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Intelligent Control of BLDC Motors Using Adaptive PID and ANN Techniques"
+      ],
+      "prefix": "10.14419",
+      "volume": "14",
+      "author": [
+        {
+          "given": "Kovvuri Akhil",
+          "family": "Reddy",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "R.",
+          "family": "Manikandan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "S.",
+          "family": "Ravivarman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hayitov Abdulla",
+          "family": "Nurmatovich",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bekzod",
+          "family": "Madaminov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "K.",
+          "family": "Karthick",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "5545",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            9
+          ]
+        ]
+      },
+      "container-title": [
+        "International Journal of Basic and Applied Sciences"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://sciencepubco.com/index.php/IJBAS/article/download/34795/18611",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://sciencepubco.com/index.php/IJBAS/article/download/34795/18611",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        },
+        {
+          "URL": "https://www.sciencepubco.com/index.php/IJBAS/article/download/34795/18611",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            16
+          ]
+        ],
+        "date-time": "2026-09-16T12:00:44Z",
+        "timestamp": 1789560044000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.sciencepubco.com/index.php/IJBAS/article/view/34795"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            9
+          ]
+        ]
+      },
+      "references-count": 0,
+      "journal-issue": {
+        "issue": "4",
+        "published-online": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "34795"
+      ],
+      "URL": "https://doi.org/10.14419/92vkkc31",
+      "relation": {},
+      "ISSN": [
+        "2227-5053"
+      ],
+      "issn-type": [
+        {
+          "value": "2227-5053",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            9
+          ]
+        ]
+      }
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Kovvuri Akhil Reddy",
+      "given_name_from_source": "Kovvuri Akhil",
+      "family_name_from_source": "Reddy",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "R. Manikandan",
+      "given_name_from_source": "R.",
+      "family_name_from_source": "Manikandan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "S. Ravivarman",
+      "given_name_from_source": "S.",
+      "family_name_from_source": "Ravivarman",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Hayitov Abdulla Nurmatovich",
+      "given_name_from_source": "Hayitov Abdulla",
+      "family_name_from_source": "Nurmatovich",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Bekzod Madaminov",
+      "given_name_from_source": "Bekzod",
+      "family_name_from_source": "Madaminov",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "K. Karthick",
+      "given_name_from_source": "K.",
+      "family_name_from_source": "Karthick",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

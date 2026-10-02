@@ -1,0 +1,629 @@
+{
+  "doi": "10.1007/s00202-023-01816-4",
+  "title": "Fault identification scheme for solar photovoltaic array in bridge and honeycomb configuration",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Electrical Engineering",
+  "publisher": "Springer Science and Business Media LLC",
+  "publication_date": "2023-04-11",
+  "online_publication_date": "2023-04-11",
+  "print_publication_date": null,
+  "volume": "105",
+  "issue": "4",
+  "pages_or_article_number": "2443-2460",
+  "issn": "0948-7921",
+  "eissn": "1432-0487",
+  "isbn": null,
+  "url": "https://doi.org/10.1007/s00202-023-01816-4",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:45.895314+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            15
+          ]
+        ],
+        "date-time": "2026-09-15T04:10:07Z",
+        "timestamp": 1789445407652,
+        "version": "build-2803163510"
+      },
+      "reference-count": 21,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "4",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                4,
+                11
+              ]
+            ],
+            "date-time": "2023-04-11T00:00:00Z",
+            "timestamp": 1681171200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                4,
+                11
+              ]
+            ],
+            "date-time": "2023-04-11T00:00:00Z",
+            "timestamp": 1681171200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Electr Eng"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            8
+          ]
+        ]
+      },
+      "DOI": "10.1007/s00202-023-01816-4",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            11
+          ]
+        ],
+        "date-time": "2023-04-11T17:02:53Z",
+        "timestamp": 1681232573000
+      },
+      "page": "2443-2460",
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 16,
+      "title": [
+        "Fault identification scheme for solar photovoltaic array in bridge and honeycomb configuration"
+      ],
+      "prefix": "10.1007",
+      "volume": "105",
+      "author": [
+        {
+          "given": "Sakthivel",
+          "family": "Ganesan",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Prince Winston",
+          "family": "David",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1561-1376",
+          "authenticated-orcid": false,
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tomonobu",
+          "family": "Senjyu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            11
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "1816_CR1",
+          "unstructured": "Planning and Operation offMulti-Carrier Energy Networks. (n.d.). http://www.springer.com/series/4622"
+        },
+        {
+          "key": "1816_CR2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Alwar, S, Devakirubakaran S, Meenakshi SB, Praveen Kumar B, Lucian M-P (2022) Performance analysis of thermal image processing-based photovoltaic fault detection and pv array reconfiguration—a detailed experimentation. Energies 15(22):1–22.",
+          "DOI": "10.3390/en15228450"
+        },
+        {
+          "key": "1816_CR3",
+          "unstructured": "Natarajan, K, Praveen Kumar B, Sampath V (2020) Fault detection of solar PV system using SVM and thermal image processing. Int J Renew Energy Res (IJRER) 10(2):967–977."
+        },
+        {
+          "key": "1816_CR4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Selvaraj T, Ramasubbu R, Giri RV, Soundhariya GS, Karuppiah N, Praveen Kumar B, Prince WD, Shitharth S (2022) Environmental fault diagnosis of solar panels using solar thermal images in multiple convolutional neural networks. Int Trans Electrical Energy Syst.",
+          "DOI": "10.1155/2022/2872925"
+        },
+        {
+          "key": "1816_CR5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Thanikanti SB, Praveen Kumar B, Devakirubakaran S, Belqasem A, Ilhami C (2023) A dynamic mismatch loss mitigation algorithm with dual input dual output converter for solar PV systems. Solar Energy Mater Solar Cells 251:112163.",
+          "DOI": "10.1016/j.solmat.2022.112163"
+        },
+        {
+          "issue": "3",
+          "key": "1816_CR6",
+          "doi-asserted-by": "publisher",
+          "first-page": "864",
+          "DOI": "10.1109/JPHOTOV.2019.2900706",
+          "volume": "9",
+          "author": "DS Pillai",
+          "year": "2019",
+          "unstructured": "Pillai DS, Natarajan R (2019) A compatibility analysis on NEC, IEC, and UL standards for protection against line-line and line-ground faults in PV arrays. IEEE J Photovolt 9(3):864–871. https://doi.org/10.1109/JPHOTOV.2019.2900706",
+          "journal-title": "IEEE J Photovolt"
+        },
+        {
+          "issue": "9",
+          "key": "1816_CR7",
+          "doi-asserted-by": "publisher",
+          "first-page": "8646",
+          "DOI": "10.1109/TPEL.2018.2884292",
+          "volume": "34",
+          "author": "DS Pillai",
+          "year": "2019",
+          "unstructured": "Pillai DS, Rajasekar N (2019) An MPPT-based sensorless line-line and line-ground fault detection technique for pv systems. IEEE Trans Power Electron 34(9):8646–8659. https://doi.org/10.1109/TPEL.2018.2884292",
+          "journal-title": "IEEE Trans Power Electron"
+        },
+        {
+          "issue": "9",
+          "key": "1816_CR8",
+          "doi-asserted-by": "publisher",
+          "first-page": "3784",
+          "DOI": "10.1109/TIE.2012.2205355",
+          "volume": "60",
+          "author": "Y Zhao",
+          "year": "2013",
+          "unstructured": "Zhao Y, de Palma JF, Mosesian J, Lyons R, Lehman B (2013) Line-line fault analysis and protection challenges in solar photovoltaic arrays. IEEE Trans Industr Electron 60(9):3784–3795. https://doi.org/10.1109/TIE.2012.2205355",
+          "journal-title": "IEEE Trans Industr Electron"
+        },
+        {
+          "issue": "3",
+          "key": "1816_CR9",
+          "doi-asserted-by": "publisher",
+          "first-page": "1274",
+          "DOI": "10.1109/TSG.2016.2587244",
+          "volume": "8",
+          "author": "Z Yi",
+          "year": "2017",
+          "unstructured": "Yi Z, Etemadi AH (2017) Fault detection for photovoltaic systems based on multi-resolution signal decomposition and fuzzy inference systems. IEEE Trans Smart Grid 8(3):1274–1283. https://doi.org/10.1109/TSG.2016.2587244",
+          "journal-title": "IEEE Trans Smart Grid"
+        },
+        {
+          "issue": "5",
+          "key": "1816_CR10",
+          "doi-asserted-by": "publisher",
+          "first-page": "1278",
+          "DOI": "10.1109/JPHOTOV.2016.2581478",
+          "volume": "6",
+          "author": "R Hariharan",
+          "year": "2016",
+          "unstructured": "Hariharan R, Chakkarapani M, Saravana Ilango G, Nagamani C (2016) A Method to detect photovoltaic array faults and partial shading in PV systems. IEEE J Photovolt 6(5):1278–1285. https://doi.org/10.1109/JPHOTOV.2016.2581478",
+          "journal-title": "IEEE J Photovolt"
+        },
+        {
+          "issue": "3",
+          "key": "1816_CR11",
+          "doi-asserted-by": "publisher",
+          "first-page": "811",
+          "DOI": "10.1109/JPHOTOV.2019.2896652",
+          "volume": "9",
+          "author": "F Harrou",
+          "year": "2019",
+          "unstructured": "Harrou F, Taghezouit B, Sun Y (2019) Improved κnN-Based monitoring schemes for detecting faults in PV systems. IEEE J Photovolt 9(3):811–821. https://doi.org/10.1109/JPHOTOV.2019.2896652",
+          "journal-title": "IEEE J Photovolt"
+        },
+        {
+          "issue": "1",
+          "key": "1816_CR12",
+          "doi-asserted-by": "publisher",
+          "first-page": "257",
+          "DOI": "10.1109/JPHOTOV.2017.2770159",
+          "volume": "8",
+          "author": "BP Kumar",
+          "year": "2018",
+          "unstructured": "Kumar BP, Ilango GS, Reddy MJB, Chilakapati N (2018) Online fault detection and diagnosis in photovoltaic systems using wavelet packets. IEEE J Photovolt 8(1):257–265. https://doi.org/10.1109/JPHOTOV.2017.2770159",
+          "journal-title": "IEEE J Photovolt"
+        },
+        {
+          "issue": "8",
+          "key": "1816_CR13",
+          "doi-asserted-by": "publisher",
+          "first-page": "7046",
+          "DOI": "10.1109/TPEL.2017.2755592",
+          "volume": "33",
+          "author": "S Roy",
+          "year": "2018",
+          "unstructured": "Roy S, Alam MK, Khan F, Johnson J, Flicker J (2018) An irradiance-independent, robust ground-fault detection scheme for PV arrays based on spread spectrum time-domain reflectometry (SSTDR). IEEE Trans Power Electron 33(8):7046–7057. https://doi.org/10.1109/TPEL.2017.2755592",
+          "journal-title": "IEEE Trans Power Electron"
+        },
+        {
+          "key": "1816_CR14",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Yi Z, Etemadi AH (2017a) Line-to-line fault detection for photovoltaic arrays based on multi-resolution signal decomposition and two-stage support vector machine. IEEE Trans Indus Electron 64(11). https://doi.org/10.1109/TIE.2017.2703681",
+          "DOI": "10.1109/TIE.2017.2703681"
+        },
+        {
+          "key": "1816_CR15",
+          "doi-asserted-by": "publisher",
+          "first-page": "485",
+          "DOI": "10.1016/j.solener.2017.04.043",
+          "volume": "150",
+          "author": "E Garoudja",
+          "year": "2017",
+          "unstructured": "Garoudja E, Harrou F, Sun Y, Kara K, Chouder A, Silvestre S (2017) Statistical fault detection in photovoltaic systems. Sol Energy 150:485–499. https://doi.org/10.1016/j.solener.2017.04.043",
+          "journal-title": "Sol Energy"
+        },
+        {
+          "issue": "1",
+          "key": "1816_CR16",
+          "doi-asserted-by": "publisher",
+          "first-page": "940",
+          "DOI": "10.1109/TPEL.2019.2911594",
+          "volume": "35",
+          "author": "P Jain",
+          "year": "2020",
+          "unstructured": "Jain P, Poon J, Singh JP, Spanos C, Sanders SR, Panda SK (2020) A digital twin approach for fault diagnosis in distributed photovoltaic systems. IEEE Trans Power Electron 35(1):940–956. https://doi.org/10.1109/TPEL.2019.2911594",
+          "journal-title": "IEEE Trans Power Electron"
+        },
+        {
+          "issue": "2",
+          "key": "1816_CR17",
+          "doi-asserted-by": "publisher",
+          "first-page": "644",
+          "DOI": "10.1109/JPHOTOV.2019.2959951",
+          "volume": "10",
+          "author": "BK Karmakar",
+          "year": "2020",
+          "unstructured": "Karmakar BK, Pradhan AK (2020) Detection and classification of faults in solar PV array using thevenin equivalent resistance. IEEE J Photovolt 10(2):644–654. https://doi.org/10.1109/JPHOTOV.2019.2959951",
+          "journal-title": "IEEE J Photovolt"
+        },
+        {
+          "issue": "7",
+          "key": "1816_CR18",
+          "doi-asserted-by": "publisher",
+          "first-page": "5921",
+          "DOI": "10.1109/TIE.2020.2998750",
+          "volume": "68",
+          "author": "BP Kumar",
+          "year": "2021",
+          "unstructured": "Kumar BP, Pillai DS, Rajasekar N, Chakkarapani M, Ilango GS (2021) Identification and localization of array faults with optimized placement of voltage sensors in a PV system. IEEE Trans Ind Electron 68(7):5921–5931. https://doi.org/10.1109/TIE.2020.2998750",
+          "journal-title": "IEEE Trans Ind Electron"
+        },
+        {
+          "issue": "4",
+          "key": "1816_CR19",
+          "doi-asserted-by": "publisher",
+          "first-page": "2945",
+          "DOI": "10.1109/TEC.2021.3062049",
+          "volume": "36",
+          "author": "A Mehmood",
+          "year": "2021",
+          "unstructured": "Mehmood A, Sher HA, Murtaza AF, Al-Haddad K (2021) Fault detection, classification and localization algorithm for photovoltaic array. IEEE Trans Energy Convers 36(4):2945–2955. https://doi.org/10.1109/TEC.2021.3062049",
+          "journal-title": "IEEE Trans Energy Convers"
+        },
+        {
+          "issue": "4",
+          "key": "1816_CR20",
+          "doi-asserted-by": "publisher",
+          "first-page": "1200",
+          "DOI": "10.1109/TSTE.2015.2421447",
+          "volume": "6",
+          "author": "R Platon",
+          "year": "2015",
+          "unstructured": "Platon R, Martel J, Woodruff N, Chau TY (2015) Online fault detection in PV systems. IEEE Trans Sustain Energy 6(4):1200–1207. https://doi.org/10.1109/TSTE.2015.2421447",
+          "journal-title": "IEEE Trans Sustain Energy"
+        },
+        {
+          "key": "1816_CR21",
+          "doi-asserted-by": "publisher",
+          "first-page": "96",
+          "DOI": "10.1016/j.solener.2021.01.011",
+          "volume": "216",
+          "author": "K Yurtseven",
+          "year": "2021",
+          "unstructured": "Yurtseven K, Karatepe E, Deniz E (2021) Sensorless fault detection method for photovoltaic systems through mapping the inherent characteristics of PV plant site: simple and practical. Sol Energy 216:96–110. https://doi.org/10.1016/j.solener.2021.01.011",
+          "journal-title": "Sol Energy"
+        }
+      ],
+      "container-title": [
+        "Electrical Engineering"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s00202-023-01816-4.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/article/10.1007/s00202-023-01816-4/fulltext.html",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s00202-023-01816-4.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            14
+          ]
+        ],
+        "date-time": "2023-07-14T11:06:56Z",
+        "timestamp": 1689332816000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://link.springer.com/10.1007/s00202-023-01816-4"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            11
+          ]
+        ]
+      },
+      "references-count": 21,
+      "journal-issue": {
+        "issue": "4",
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              8
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "1816"
+      ],
+      "URL": "https://doi.org/10.1007/s00202-023-01816-4",
+      "relation": {},
+      "ISSN": [
+        "0948-7921",
+        "1432-0487"
+      ],
+      "issn-type": [
+        {
+          "value": "0948-7921",
+          "type": "print"
+        },
+        {
+          "value": "1432-0487",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            11
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "30 December 2022",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "28 March 2023",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "11 April 2023",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Declarations"
+          }
+        },
+        {
+          "value": "The authors have no relevant financial or non-financial interests to disclose. The authors declare no conflict of interest.",
+          "order": 2,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Conflict of interest"
+          }
+        },
+        {
+          "value": "The paper is not currently being considered for publication elsewhere.",
+          "order": 3,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Ethical approval"
+          }
+        },
+        {
+          "value": "Not applicable.",
+          "order": 4,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Consent to participate"
+          }
+        },
+        {
+          "value": "Not applicable.",
+          "order": 5,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Consent to publish"
+          }
+        }
+      ]
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Sakthivel Ganesan",
+      "given_name_from_source": "Sakthivel",
+      "family_name_from_source": "Ganesan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Prince Winston David",
+      "given_name_from_source": "Prince Winston",
+      "family_name_from_source": "David",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": "https://orcid.org/0000-0003-1561-1376",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Tomonobu Senjyu",
+      "given_name_from_source": "Tomonobu",
+      "family_name_from_source": "Senjyu",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

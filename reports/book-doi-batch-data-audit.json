@@ -1,0 +1,66 @@
+{
+  "database": "C:\\Users\\silic\\Documents\\GitHub\\faculty-performance-development\\data\\faculty.db",
+  "before_preview": {
+    "academic_years": {
+      "rows": 5,
+      "sha256": "30f486edcf25b71fe05bd2414c8d262ab1fc5f618f10f080bdc82c5d5060928b"
+    },
+    "alembic_version": {
+      "rows": 1,
+      "sha256": "0d9f5ccef08102c155f9948b719ad7b0ed3b3ad40ca5194f389d1c7da96e6271"
+    },
+    "book_change_logs": {
+      "rows": 6,
+      "sha256": "e62ff3244729c897ab5680dcadbe5b86c30d0cf7a2cf50a6e5611ef270a5f3b5"
+    },
+    "book_contributors": {
+      "rows": 32,
+      "sha256": "413f951aaa3eb88db08eaa5f826b840b710dadbcf8a213bcf7152b4a2df82af9"
+    },
+    "book_publications": {
+      "rows": 6,
+      "sha256": "4d84a5bc263dfd26f125727dff01150a38fe72e12d6d94d53ca610cec6766dfb"
+    },
+    "change_logs": {
+      "rows": 382,
+      "sha256": "bc37bd80ed39c7d15caf7f7c1e2723c056d44be66135c23ecd9fd527672da933"
+    },
+    "evidence_files": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "faculty": {
+      "rows": 20,
+      "sha256": "3391d44731d5d1b336292a0dfcb7e58d6c143f8c100f1cf9987615a3f2e830ca"
+    },
+    "patent_change_logs": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "patent_inventors": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "patent_status_history": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "patents": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "publication_authors": {
+      "rows": 1789,
+      "sha256": "264b153ec579f510a9700c6decf9a8fe3f2d32ffacb99e6bb04af3f16f48374c"
+    },
+    "publications": {
+      "rows": 325,
+      "sha256": "29cfe0987adb1dffd3dc46358acd8c0666ef5d52aae209a821312ac831583ec7"
+    },
+    "students": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  },
+  "historical_values_preserved": true
+}

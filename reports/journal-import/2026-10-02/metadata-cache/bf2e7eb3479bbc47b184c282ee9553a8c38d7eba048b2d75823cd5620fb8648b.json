@@ -1,0 +1,657 @@
+{
+  "doi": "10.1080/15325008.2024.2330990",
+  "title": "A Novel 21-Level Asymmetric Multilevel Inverter with Reduced Switches for Solar PV Systems",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Electric Power Components and Systems",
+  "publisher": "Informa UK Limited",
+  "publication_date": "2024-04-01",
+  "online_publication_date": "2024-04-01",
+  "print_publication_date": "2025-07-21",
+  "volume": "53",
+  "issue": "12",
+  "pages_or_article_number": "1469-1488",
+  "issn": "1532-5008",
+  "eissn": "1532-5016",
+  "isbn": null,
+  "url": "https://doi.org/10.1080/15325008.2024.2330990",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:20.573850+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            4
+          ]
+        ],
+        "date-time": "2026-08-04T22:56:04Z",
+        "timestamp": 1785884164634,
+        "version": "3.56.0"
+      },
+      "reference-count": 48,
+      "publisher": "Informa UK Limited",
+      "issue": "12",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                4,
+                1
+              ]
+            ],
+            "date-time": "2024-04-01T00:00:00Z",
+            "timestamp": 1711929600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.1080/policies-text-data-mining"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "www.tandfonline.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Electric Power Components and Systems"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            21
+          ]
+        ]
+      },
+      "DOI": "10.1080/15325008.2024.2330990",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            1
+          ]
+        ],
+        "date-time": "2024-04-01T19:01:40Z",
+        "timestamp": 1711998100000
+      },
+      "page": "1469-1488",
+      "update-policy": "https://doi.org/10.1080/tandf_crossmark_01",
+      "source": "Crossref",
+      "is-referenced-by-count": 4,
+      "title": [
+        "A Novel 21-Level Asymmetric Multilevel Inverter with Reduced Switches for Solar PV Systems"
+      ],
+      "prefix": "10.1080",
+      "volume": "53",
+      "author": [
+        {
+          "given": "Niraimathi",
+          "family": "Ramachandran",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, Mohamed Sathak Engineering College",
+              "place": [
+                "Kilakarai, India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Seyezhai",
+          "family": "Ramalingam",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, Sri Sivasubramaniya Nadar College of Engineering",
+              "place": [
+                "Kalavakkam, India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1561-1376",
+          "authenticated-orcid": false,
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, Vardhaman College of Engineering"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tomonobu",
+          "family": "Senjyu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Faculty of Engineering, University of the Ryukyus",
+              "place": [
+                "Okinawa, Japan"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "301",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            1
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_3_4_2_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1364-0321(99)00011-8"
+        },
+        {
+          "key": "e_1_3_4_3_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.rser.2005.11.002"
+        },
+        {
+          "key": "e_1_3_4_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.apenergy.2011.04.042"
+        },
+        {
+          "key": "e_1_3_4_5_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1049/iet-rpg.2014.0215"
+        },
+        {
+          "key": "e_1_3_4_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/PESC.2001.954308"
+        },
+        {
+          "key": "e_1_3_4_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICETECT.2011.5760135"
+        },
+        {
+          "key": "e_1_3_4_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.rser.2017.03.121"
+        },
+        {
+          "key": "e_1_3_4_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPEL.2016.2521803"
+        },
+        {
+          "key": "e_1_3_4_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TII.2018.2790931"
+        },
+        {
+          "key": "e_1_3_4_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TIE.2013.2286559"
+        },
+        {
+          "key": "e_1_3_4_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPEL.2014.2355226"
+        },
+        {
+          "key": "e_1_3_4_13_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TII.2015.2486623"
+        },
+        {
+          "key": "e_1_3_4_14_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TIE.2011.2176691"
+        },
+        {
+          "key": "e_1_3_4_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TIE.2011.2176691"
+        },
+        {
+          "key": "e_1_3_4_16_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TIE.2014.2304919"
+        },
+        {
+          "key": "e_1_3_4_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2021.3105832"
+        },
+        {
+          "key": "e_1_3_4_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/cta.3087"
+        },
+        {
+          "key": "e_1_3_4_19_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2019.2913447"
+        },
+        {
+          "key": "e_1_3_4_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2020.2969551"
+        },
+        {
+          "key": "e_1_3_4_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/electronics10040368"
+        },
+        {
+          "key": "e_1_3_4_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egypro.2017.10.231"
+        },
+        {
+          "key": "e_1_3_4_23_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICA-ACCA.2016.7778467"
+        },
+        {
+          "key": "e_1_3_4_24_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1049/iet-pel.2015.0720"
+        },
+        {
+          "key": "e_1_3_4_25_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.epsr.2017.11.017"
+        },
+        {
+          "key": "e_1_3_4_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/OJIES.2021.3050214"
+        },
+        {
+          "key": "e_1_3_4_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2022.3146256"
+        },
+        {
+          "key": "e_1_3_4_28_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/1448837X.2019.1693884"
+        },
+        {
+          "key": "e_1_3_4_29_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1049/iet-pel.2014.0648"
+        },
+        {
+          "key": "e_1_3_4_30_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/PEDSTC49159.2020.9088508"
+        },
+        {
+          "key": "e_1_3_4_31_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1049/iet-rpg.2016.0895"
+        },
+        {
+          "key": "e_1_3_4_32_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/00207217.2018.1440429"
+        },
+        {
+          "key": "e_1_3_4_33_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1049/iet-pel.2012.0265"
+        },
+        {
+          "key": "e_1_3_4_34_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s13369-016-2217-0"
+        },
+        {
+          "key": "e_1_3_4_35_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TIA.2019.2904923"
+        },
+        {
+          "key": "e_1_3_4_36_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/PESC.1995.474799"
+        },
+        {
+          "key": "e_1_3_4_37_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.rser.2014.08.033"
+        },
+        {
+          "key": "e_1_3_4_38_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.enconman.2015.07.060"
+        },
+        {
+          "key": "e_1_3_4_39_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPEL.2004.830090"
+        },
+        {
+          "key": "e_1_3_4_40_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/electronics11060946"
+        },
+        {
+          "key": "e_1_3_4_41_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00202-010-0187-x"
+        },
+        {
+          "key": "e_1_3_4_42_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.22034/MBT.2019.80844"
+        },
+        {
+          "key": "e_1_3_4_43_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ISIE.2012.6237053"
+        },
+        {
+          "key": "e_1_3_4_44_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.4927008"
+        },
+        {
+          "key": "e_1_3_4_45_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/app12010027"
+        },
+        {
+          "key": "e_1_3_4_46_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2022.3183155"
+        },
+        {
+          "key": "e_1_3_4_47_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.rser.2017.07.017"
+        },
+        {
+          "key": "e_1_3_4_48_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/63.988668"
+        },
+        {
+          "key": "e_1_3_4_49_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/EEIC.2007.4562633"
+        }
+      ],
+      "container-title": [
+        "Electric Power Components and Systems"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.tandfonline.com/doi/pdf/10.1080/15325008.2024.2330990",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.tandfonline.com/doi/full-xml/10.1080/15325008.2024.2330990",
+          "content-type": "application/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.tandfonline.com/doi/pdf/10.1080/15325008.2024.2330990",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            4
+          ]
+        ],
+        "date-time": "2026-08-04T22:41:48Z",
+        "timestamp": 1785883308000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.tandfonline.com/doi/full/10.1080/15325008.2024.2330990"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            1
+          ]
+        ]
+      },
+      "references-count": 48,
+      "journal-issue": {
+        "issue": "12",
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              21
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1080/15325008.2024.2330990"
+      ],
+      "URL": "https://doi.org/10.1080/15325008.2024.2330990",
+      "relation": {},
+      "ISSN": [
+        "1532-5008",
+        "1532-5016"
+      ],
+      "issn-type": [
+        {
+          "value": "1532-5008",
+          "type": "print"
+        },
+        {
+          "value": "1532-5016",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            1
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "The publishing and review policy for this title is described in its Aims & Scope.",
+          "order": 1,
+          "name": "peerreview_statement",
+          "label": "Peer Review Statement"
+        },
+        {
+          "value": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=uemp20",
+          "URL": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=uemp20",
+          "order": 2,
+          "name": "aims_and_scope_url",
+          "label": "Aim & Scope"
+        },
+        {
+          "value": "2023-09-12",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2024-01-18",
+          "order": 1,
+          "name": "revised",
+          "label": "Revised",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2024-03-03",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2024-04-01",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Niraimathi Ramachandran",
+      "given_name_from_source": "Niraimathi",
+      "family_name_from_source": "Ramachandran",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering, Mohamed Sathak Engineering College"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Seyezhai Ramalingam",
+      "given_name_from_source": "Seyezhai",
+      "family_name_from_source": "Ramalingam",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering, Sri Sivasubramaniya Nadar College of Engineering"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": "https://orcid.org/0000-0003-1561-1376",
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering, Vardhaman College of Engineering"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Tomonobu Senjyu",
+      "given_name_from_source": "Tomonobu",
+      "family_name_from_source": "Senjyu",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Faculty of Engineering, University of the Ryukyus"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

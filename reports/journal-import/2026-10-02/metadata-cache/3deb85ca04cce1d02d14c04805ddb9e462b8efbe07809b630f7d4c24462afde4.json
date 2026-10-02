@@ -1,0 +1,610 @@
+{
+  "doi": "10.1109/jiot.2025.3590389",
+  "title": "Syner-Dandelion Optimization Integrated Temporal Recurrent Transformer Network for Accurate Energy Load Forecasting in IoT-Smart Grids",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "IEEE Internet of Things Journal",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "publication_date": "2025-10-15",
+  "online_publication_date": null,
+  "print_publication_date": "2025-10-15",
+  "volume": "12",
+  "issue": "20",
+  "pages_or_article_number": "41752-41770",
+  "issn": null,
+  "eissn": "2372-2541",
+  "isbn": null,
+  "url": "https://doi.org/10.1109/jiot.2025.3590389",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:37.415998+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            8
+          ]
+        ],
+        "date-time": "2026-09-08T20:44:20Z",
+        "timestamp": 1788900260739,
+        "version": "build-2803163510"
+      },
+      "reference-count": 42,
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "issue": "20",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                15
+              ]
+            ],
+            "date-time": "2025-10-15T00:00:00Z",
+            "timestamp": 1760486400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                15
+              ]
+            ],
+            "date-time": "2025-10-15T00:00:00Z",
+            "timestamp": 1760486400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                15
+              ]
+            ],
+            "date-time": "2025-10-15T00:00:00Z",
+            "timestamp": 1760486400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100004515",
+          "name": "Universiti Kebangsaan Malaysia Research",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "DPK-2023-015"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "DPK-2023-015"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100004515",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100004515",
+          "name": "Universiti Kebangsaan Malaysia Research",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "KK-2023-009"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "KK-2023-009"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100004515",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "IEEE Internet Things J."
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            15
+          ]
+        ]
+      },
+      "DOI": "10.1109/jiot.2025.3590389",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            18
+          ]
+        ],
+        "date-time": "2025-07-18T17:46:39Z",
+        "timestamp": 1752860799000
+      },
+      "page": "41752-41770",
+      "source": "Crossref",
+      "is-referenced-by-count": 6,
+      "title": [
+        "Syner-Dandelion Optimization Integrated Temporal Recurrent Transformer Network for Accurate Energy Load Forecasting in IoT-Smart Grids"
+      ],
+      "prefix": "10.1109",
+      "volume": "12",
+      "author": [
+        {
+          "given": "P. M. Jai",
+          "family": "Ganesh",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, Sethu Institute of Technology, Madurai, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "B. Meenakshi",
+          "family": "Sundaram",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, Sethu Institute of Technology, Madurai, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1561-1376",
+          "authenticated-orcid": false,
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, Vardhaman College of Engineering, Hyderabad, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9134-4869",
+          "authenticated-orcid": false,
+          "given": "Muhammad Ammirrul Atiqi Mohd",
+          "family": "Zainuri",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical, Electronic and Systems Engineering, Faculty Engineering and Built Environment, Universiti Kebangsaan Malaysia, Selangor, Malaysia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "263",
+      "reference": [
+        {
+          "key": "ref1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.meaene.2024.100033"
+        },
+        {
+          "key": "ref2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TSG.2025.3536027"
+        },
+        {
+          "key": "ref3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2024.3440631"
+        },
+        {
+          "key": "ref4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TSG.2024.3458989"
+        },
+        {
+          "key": "ref5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.rser.2023.114031"
+        },
+        {
+          "key": "ref6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/en18030486"
+        },
+        {
+          "key": "ref7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/B978-0-443-28951-4.00004-6"
+        },
+        {
+          "key": "ref8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cles.2024.100167"
+        },
+        {
+          "key": "ref9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.apenergy.2024.124485"
+        },
+        {
+          "key": "ref10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/9781394261727.ch7"
+        },
+        {
+          "key": "ref11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.apenergy.2023.122339"
+        },
+        {
+          "key": "ref12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-031-83783-8_20"
+        },
+        {
+          "key": "ref13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.est.2024.114828"
+        },
+        {
+          "key": "ref14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2025.3537407"
+        },
+        {
+          "key": "ref15",
+          "first-page": "1",
+          "article-title": "IoT integrated edge platform for secure industrial application with deep learning",
+          "volume-title": "Human-Centric Computing and Information Sciences",
+          "volume": "13",
+          "author": "Balaji",
+          "year": "2023"
+        },
+        {
+          "key": "ref16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.epsr.2024.111090"
+        },
+        {
+          "key": "ref17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5152/electrica.2024.22107"
+        },
+        {
+          "key": "ref18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4018/979-8-3693-7822-9.ch013"
+        },
+        {
+          "key": "ref19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.energy.2024.131429"
+        },
+        {
+          "key": "ref20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.25195/ijci.v50i1.492"
+        },
+        {
+          "key": "ref21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00202-024-02946-z"
+        },
+        {
+          "key": "ref22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7717/peerj-cs.1795"
+        },
+        {
+          "key": "ref23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2024.3383958"
+        },
+        {
+          "key": "ref24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/03772063.2023.2200397"
+        },
+        {
+          "key": "ref25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tej.2024.107370"
+        },
+        {
+          "key": "ref26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-031-50993-3_3"
+        },
+        {
+          "key": "ref27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TSTE.2021.3105529"
+        },
+        {
+          "key": "ref28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.est.2022.104609"
+        },
+        {
+          "key": "ref29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.heliyon.2023.e17602"
+        },
+        {
+          "key": "ref30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.comcom.2022.12.001"
+        },
+        {
+          "key": "ref31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TIM.2022.3203459"
+        },
+        {
+          "key": "ref32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TIM.2022.3220300"
+        },
+        {
+          "key": "ref33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2020.3029943"
+        },
+        {
+          "key": "ref34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s42162-023-00262-7"
+        },
+        {
+          "key": "ref35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ref.2023.100520"
+        },
+        {
+          "key": "ref36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/s24030882"
+        },
+        {
+          "key": "ref37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/est2.573"
+        },
+        {
+          "key": "ref38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2021.3110960"
+        },
+        {
+          "key": "ref39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.engappai.2022.105075"
+        },
+        {
+          "key": "ref40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1155/2024/2403847"
+        },
+        {
+          "key": "ref41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/JIOT.2024.3385981"
+        },
+        {
+          "key": "ref42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1201/9780429446047"
+        }
+      ],
+      "container-title": [
+        "IEEE Internet of Things Journal"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "http://xplorestaging.ieee.org/ielx8/6488907/11197149/11084771.pdf?arnumber=11084771",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            9
+          ]
+        ],
+        "date-time": "2025-10-09T17:56:17Z",
+        "timestamp": 1760032577000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://ieeexplore.ieee.org/document/11084771/"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            15
+          ]
+        ]
+      },
+      "references-count": 42,
+      "journal-issue": {
+        "issue": "20"
+      },
+      "URL": "https://doi.org/10.1109/jiot.2025.3590389",
+      "relation": {},
+      "ISSN": [
+        "2327-4662",
+        "2372-2541"
+      ],
+      "issn-type": [
+        {
+          "value": "2327-4662",
+          "type": "electronic"
+        },
+        {
+          "value": "2372-2541",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            15
+          ]
+        ]
+      }
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "P. M. Jai Ganesh",
+      "given_name_from_source": "P. M. Jai",
+      "family_name_from_source": "Ganesh",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering, Sethu Institute of Technology, Madurai, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "B. Meenakshi Sundaram",
+      "given_name_from_source": "B. Meenakshi",
+      "family_name_from_source": "Sundaram",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering, Sethu Institute of Technology, Madurai, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": "https://orcid.org/0000-0003-1561-1376",
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering, Vardhaman College of Engineering, Hyderabad, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Muhammad Ammirrul Atiqi Mohd Zainuri",
+      "given_name_from_source": "Muhammad Ammirrul Atiqi Mohd",
+      "family_name_from_source": "Zainuri",
+      "orcid_from_source": "https://orcid.org/0000-0001-9134-4869",
+      "affiliation_from_source": [
+        "Department of Electrical, Electronic and Systems Engineering, Faculty Engineering and Built Environment, Universiti Kebangsaan Malaysia, Selangor, Malaysia"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

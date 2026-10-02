@@ -1,0 +1,691 @@
+{
+  "doi": "10.1038/s41598-026-44649-4",
+  "title": "Enhancing MTC device security in LTE networks for the fast and secure BC-based group handover authentication protocol",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Scientific Reports",
+  "publisher": "Springer Science and Business Media LLC",
+  "publication_date": "2026-03-28",
+  "online_publication_date": "2026-03-28",
+  "print_publication_date": null,
+  "volume": "16",
+  "issue": "1",
+  "pages_or_article_number": "10764",
+  "issn": null,
+  "eissn": "2045-2322",
+  "isbn": null,
+  "url": "https://doi.org/10.1038/s41598-026-44649-4",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:52:47.989668+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            31
+          ]
+        ],
+        "date-time": "2026-03-31T11:11:13Z",
+        "timestamp": 1774955473222,
+        "version": "3.50.1"
+      },
+      "reference-count": 24,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                28
+              ]
+            ],
+            "date-time": "2026-03-28T00:00:00Z",
+            "timestamp": 1774656000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                31
+              ]
+            ],
+            "date-time": "2026-03-31T00:00:00Z",
+            "timestamp": 1774915200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 3,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Sci Rep"
+      ],
+      "DOI": "10.1038/s41598-026-44649-4",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            28
+          ]
+        ],
+        "date-time": "2026-03-28T08:04:27Z",
+        "timestamp": 1774685067000
+      },
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Enhancing MTC device security in LTE networks for the fast and secure BC-based group handover authentication protocol"
+      ],
+      "prefix": "10.1038",
+      "volume": "16",
+      "author": [
+        {
+          "given": "Koganti Krishna",
+          "family": "Jyothi",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Koganti",
+          "family": "Srilakshmi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "M.",
+          "family": "Ragava",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "N. Srinivas",
+          "family": "Rao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Sangeetha",
+          "family": "Kannan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            28
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "issue": "6",
+          "key": "44649_CR1",
+          "doi-asserted-by": "publisher",
+          "first-page": "3713",
+          "DOI": "10.1016/j.jksuci.2020.08.014",
+          "volume": "34",
+          "author": "KK Jyothi",
+          "year": "2022",
+          "unstructured": "Jyothi, K. K. & Chaudhari, S. A novel BC based cluster head authentication protocol for MTCin LTE network: Statistical analysis on attack detection. J. King Saud Univ. Comput. Inf. Sci. 34(6), 3713–3721 (2022).",
+          "journal-title": "J. King Saud Univ. Comput. Inf. Sci."
+        },
+        {
+          "issue": "12",
+          "key": "44649_CR2",
+          "first-page": "1150",
+          "volume": "44",
+          "author": "K Krishna Jyothi",
+          "year": "2019",
+          "unstructured": "Krishna Jyothi, K. & Chaudhari, S. A secure cluster-based authentication and key management protocol for MTCin the LTE network. Int. J. Comput. Appl. 44(12), 1150–1160 (2019).",
+          "journal-title": "Int. J. Comput. Appl."
+        },
+        {
+          "key": "44649_CR3",
+          "unstructured": "Krishna Jyothi, K., Kalyani, G., Srilakshmi, K., Chaudhari, S., Likhitha, M., Sriya, K. An Energy-Efficient Mechanism Using BC Technology for MTCin LTE Network. In: Gunjan, V.K., Kumar, A., Zurada, J.M., Singh, S.N. (eds) Computational Intelligence in Machine Learning. ICCIML 2022. Lecture Notes in Electrical Engineering, vol 1106. Springer (2024)."
+        },
+        {
+          "issue": "1",
+          "key": "44649_CR4",
+          "doi-asserted-by": "publisher",
+          "first-page": "5590",
+          "DOI": "10.1038/s41598-024-55098-2",
+          "volume": "14",
+          "author": "KK Jyothi",
+          "year": "2024",
+          "unstructured": "Jyothi, K. K. et al. A novel optimized neural network model for cyber attack detection using enhanced whale optimization algorithm. Sci. Rep. 14(1), 5590 (2024).",
+          "journal-title": "Sci. Rep."
+        },
+        {
+          "key": "44649_CR5",
+          "doi-asserted-by": "publisher",
+          "first-page": "1394",
+          "DOI": "10.1109/TVT.2023.3303201",
+          "volume": "73",
+          "author": "J Cai",
+          "year": "2023",
+          "unstructured": "Cai, J., Tao, X. & Wang, C. Cooperative authentication scheme for heterogeneous networks based on identity group SignatureandBC. IEEE Trans. Veh. Technol. 73, 1394–1399 (2023).",
+          "journal-title": "IEEE Trans. Veh. Technol."
+        },
+        {
+          "key": "44649_CR6",
+          "doi-asserted-by": "publisher",
+          "first-page": "1346",
+          "DOI": "10.1109/TNSE.2022.3142287",
+          "volume": "9",
+          "author": "S Son",
+          "year": "2022",
+          "unstructured": "Son, S., Lee, J., Park, Y., Park, Y. & Das, A. K. Design of BC-based lightweight V2I handover authentication protocol forVANET. IEEE Trans. Netw. Sci. Eng. 9, 1346–1358 (2022).",
+          "journal-title": "IEEE Trans. Netw. Sci. Eng."
+        },
+        {
+          "key": "44649_CR7",
+          "doi-asserted-by": "publisher",
+          "first-page": "64",
+          "DOI": "10.1109/LNET.2023.3234491",
+          "volume": "5",
+          "author": "MA Shawky",
+          "year": "2023",
+          "unstructured": "Shawky, M. A. et al. Efficient BC-based group key distribution for secure authentication in VANETs. IEEE Netw. Lett. 5, 64–68 (2023).",
+          "journal-title": "IEEE Netw. Lett."
+        },
+        {
+          "key": "44649_CR8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/dac.3934",
+          "volume": "32",
+          "author": "S Gupta",
+          "year": "2019",
+          "unstructured": "Gupta, S., Parne, B. L. & Chaudhari, N. S. SRGH: A secure and robust group-based handover AKA protocol for MTC in LTE-A networks. Int. J. Commun. Syst. 32, e3934 (2019).",
+          "journal-title": "Int. J. Commun. Syst."
+        },
+        {
+          "key": "44649_CR9",
+          "doi-asserted-by": "publisher",
+          "first-page": "457",
+          "DOI": "10.23919/JCIN.2020.9306019",
+          "volume": "5",
+          "author": "S Basudan",
+          "year": "2020",
+          "unstructured": "Basudan, S. LEGA: A lightweight and efficient group authentication protocol for massive machine type communication in 5G networks. J. Commun. Inf. Netw. 5, 457–466 (2020).",
+          "journal-title": "J. Commun. Inf. Netw."
+        },
+        {
+          "key": "44649_CR10",
+          "doi-asserted-by": "publisher",
+          "first-page": "2970",
+          "DOI": "10.1109/TDSC.2022.3198723",
+          "volume": "20",
+          "author": "C Lai",
+          "year": "2022",
+          "unstructured": "Lai, C., Ma, Y., Lu, R., Zhang, Y. & Zheng, D. A novel authentication scheme supporting multiple user access for 5G and beyond. IEEE. Trans. Dependable. Secur. Comput. 20, 2970–2987 (2022).",
+          "journal-title": "IEEE. Trans. Dependable. Secur. Comput."
+        },
+        {
+          "key": "44649_CR11",
+          "doi-asserted-by": "publisher",
+          "first-page": "10277",
+          "DOI": "10.1109/JIOT.2020.3004300",
+          "volume": "7",
+          "author": "Y Aydin",
+          "year": "2020",
+          "unstructured": "Aydin, Y., Kurt, G. K., Ozdemir, E. & Yanikomeroglu, H. A flexible and lightweight group authentication scheme. IEEE. Internet. Things. J. 7, 10277–10287 (2020).",
+          "journal-title": "IEEE. Internet. Things. J."
+        },
+        {
+          "key": "44649_CR12",
+          "first-page": "3491",
+          "volume": "10",
+          "author": "SK Dwivedi",
+          "year": "2023",
+          "unstructured": "Dwivedi, S. K., Amin, R., Vollala, S. & Khan, M. K. B-HAS: BC-assisted efficient handover authentication and secure communication protocol in VANETs. IEEE. Trans. Netw. Sci. Eng. 10, 3491–3504 (2023).",
+          "journal-title": "IEEE. Trans. Netw. Sci. Eng."
+        },
+        {
+          "key": "44649_CR13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.phycom.2023.102005",
+          "volume": "57",
+          "author": "M Soni",
+          "year": "2023",
+          "unstructured": "Soni, M. & Singh, D. K. BC-based group authentication scheme for 6G communication network. Phys. Commun. 57, 102005 (2023).",
+          "journal-title": "Phys. Commun."
+        },
+        {
+          "issue": "1",
+          "key": "44649_CR14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-025-15462-2",
+          "volume": "15",
+          "author": "R Yuvarani",
+          "year": "2025",
+          "unstructured": "Yuvarani, R. et al. Energy-aware cluster head optimization and secure blockchain integration for heterogeneous 6G-enabled IoMT networks. Sci. Rep. 15(1), 30009 (2025).",
+          "journal-title": "Sci. Rep."
+        },
+        {
+          "key": "44649_CR15",
+          "doi-asserted-by": "publisher",
+          "first-page": "2126",
+          "DOI": "10.1109/TVT.2019.2960313",
+          "volume": "69",
+          "author": "R Ma",
+          "year": "2019",
+          "unstructured": "Ma, R., Cao, J., Feng, D., Li, H. & He, S. FTGPHA: Fixed-trajectory group pre-handover authentication mechanism for mobile relays in 5G high-speed rail networks. IEEE. Trans. Veh. Technol. 69, 2126–2140 (2019).",
+          "journal-title": "IEEE. Trans. Veh. Technol."
+        },
+        {
+          "key": "44649_CR16",
+          "first-page": "13956",
+          "volume": "10",
+          "author": "Y Yang",
+          "year": "2023",
+          "unstructured": "Yang, Y. et al. FHAP: Fast handover authentication protocol for high-speed mobile terminals in 5G satellite-terrestrial integrated networks. IEEE Internet Things J. 10, 13956–13973 (2023).",
+          "journal-title": "IEEE Internet Things J."
+        },
+        {
+          "key": "44649_CR17",
+          "doi-asserted-by": "publisher",
+          "first-page": "13876",
+          "DOI": "10.1109/JIOT.2021.3068297",
+          "volume": "8",
+          "author": "Y Aydin",
+          "year": "2021",
+          "unstructured": "Aydin, Y., Kurt, G. K., Ozdemir, E. & Yanikomeroglu, H. Group handover for drone base stations. IEEE. Internet. Things. J. 8, 13876–13887 (2021).",
+          "journal-title": "IEEE. Internet. Things. J."
+        },
+        {
+          "issue": "7",
+          "key": "44649_CR18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/s24072331",
+          "volume": "24",
+          "author": "R Ma",
+          "year": "2024",
+          "unstructured": "Ma, R., Zhou, J. & Ma, M. A BC-assisted security protocol for group handover of MTC devices in 5G wireless networks. Sensors 24(7), 2331 (2024).",
+          "journal-title": "Sensors"
+        },
+        {
+          "issue": "1",
+          "key": "44649_CR19",
+          "first-page": "29",
+          "volume": "4",
+          "author": "Q Kong",
+          "year": "2017",
+          "unstructured": "Kong, Q., Lu, R., Chen, S. & Zhu, H. Achieve secure handover session key management via mobile relay in LTE-Advanced networks. IEEE Internet Things J. 4(1), 29–39 (2017).",
+          "journal-title": "IEEE Internet Things J."
+        },
+        {
+          "issue": "2",
+          "key": "44649_CR20",
+          "doi-asserted-by": "publisher",
+          "first-page": "405",
+          "DOI": "10.1007/s11276-014-0788-9",
+          "volume": "21",
+          "author": "DCK Choi",
+          "year": "2015",
+          "unstructured": "Choi, D. C. K. & Lee, S. Y. A group-based security protocol for machine-type communications in LTE-Advanced. Wirel. Netw. 21(2), 405–419 (2015).",
+          "journal-title": "Wirel. Netw."
+        },
+        {
+          "key": "44649_CR21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "H. M. Pandey, \"Jaya a novel optimization algorithm: What, how and why?,\" 2016 6th International Conference - Cloud System and Big Data Engineering (Confluence), Noida, pp. 728–730, (2016).",
+          "DOI": "10.1109/CONFLUENCE.2016.7508215"
+        },
+        {
+          "key": "44649_CR22",
+          "doi-asserted-by": "publisher",
+          "first-page": "34",
+          "DOI": "10.1016/j.swevo.2013.06.001",
+          "volume": "13",
+          "author": "I Fister",
+          "year": "2013",
+          "unstructured": "Fister, I., Fister, I., Yang, X.-S. & Brest, J. A comprehensive review of firefly algorithms. Swarm Evol. Comput. 13, 34–46 (2013).",
+          "journal-title": "Swarm Evol. Comput."
+        },
+        {
+          "key": "44649_CR23",
+          "doi-asserted-by": "publisher",
+          "first-page": "894",
+          "DOI": "10.1016/j.ijepes.2014.08.016",
+          "volume": "64",
+          "author": "M Basu",
+          "year": "2015",
+          "unstructured": "Basu, M. Group search optimization for economic fuel scheduling. Int. J. Electr. Power Energy Syst. 64, 894–901 (2015).",
+          "journal-title": "Int. J. Electr. Power Energy Syst."
+        },
+        {
+          "key": "44649_CR24",
+          "doi-asserted-by": "publisher",
+          "first-page": "46",
+          "DOI": "10.1016/j.advengsoft.2013.12.007",
+          "volume": "69",
+          "author": "S Mirjalili",
+          "year": "2014",
+          "unstructured": "Mirjalili, S., Mirjalili, S. M. & Lewis, A. Grey wolf optimizer. Adv. Eng. Softw. 69, 46–61 (2014).",
+          "journal-title": "Adv. Eng. Softw."
+        }
+      ],
+      "container-title": [
+        "Scientific Reports"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.nature.com/articles/s41598-026-44649-4",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.nature.com/articles/s41598-026-44649-4.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.nature.com/articles/s41598-026-44649-4.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            31
+          ]
+        ],
+        "date-time": "2026-03-31T10:24:47Z",
+        "timestamp": 1774952687000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.nature.com/articles/s41598-026-44649-4"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            28
+          ]
+        ]
+      },
+      "references-count": 24,
+      "journal-issue": {
+        "issue": "1",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              12
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "44649"
+      ],
+      "URL": "https://doi.org/10.1038/s41598-026-44649-4",
+      "relation": {},
+      "ISSN": [
+        "2045-2322"
+      ],
+      "issn-type": [
+        {
+          "value": "2045-2322",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            28
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "4 July 2025",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "12 March 2026",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "28 March 2026",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Declarations"
+          }
+        },
+        {
+          "value": "The authors declare no competing interests.",
+          "order": 2,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        },
+        {
+          "value": "All authors agree.",
+          "order": 3,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Ethical approval"
+          }
+        }
+      ],
+      "article-number": "10764"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Koganti Krishna Jyothi",
+      "given_name_from_source": "Koganti Krishna",
+      "family_name_from_source": "Jyothi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Koganti Srilakshmi",
+      "given_name_from_source": "Koganti",
+      "family_name_from_source": "Srilakshmi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "M. Ragava",
+      "given_name_from_source": "M.",
+      "family_name_from_source": "Ragava",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "N. Srinivas Rao",
+      "given_name_from_source": "N. Srinivas",
+      "family_name_from_source": "Rao",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "Sangeetha Kannan",
+      "given_name_from_source": "Sangeetha",
+      "family_name_from_source": "Kannan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

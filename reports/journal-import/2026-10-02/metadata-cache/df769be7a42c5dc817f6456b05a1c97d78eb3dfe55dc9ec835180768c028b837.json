@@ -1,0 +1,432 @@
+{
+  "doi": "10.3390/life16081216",
+  "title": "Correction: Kshirsagar et al. Deep Learning Approaches for Prognosis of Automated Skin Disease. Life 2022, 12, 426",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Life",
+  "publisher": "MDPI AG",
+  "publication_date": "2026-07-23",
+  "online_publication_date": "2026-07-23",
+  "print_publication_date": null,
+  "volume": "16",
+  "issue": "8",
+  "pages_or_article_number": "1216",
+  "issn": null,
+  "eissn": "2075-1729",
+  "isbn": null,
+  "url": "https://doi.org/10.3390/life16081216",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:52:32.260372+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            23
+          ]
+        ],
+        "date-time": "2026-07-23T07:04:36Z",
+        "timestamp": 1784790276099,
+        "version": "3.55.0"
+      },
+      "update-to": [
+        {
+          "DOI": "10.3390/life12030426",
+          "type": "correction",
+          "label": "Correction",
+          "source": "publisher",
+          "updated": {
+            "date-parts": [
+              [
+                2022,
+                3,
+                15
+              ]
+            ],
+            "date-time": "2022-03-15T00:00:00Z",
+            "timestamp": 1647302400000
+          }
+        }
+      ],
+      "reference-count": 1,
+      "publisher": "MDPI AG",
+      "issue": "8",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                23
+              ]
+            ],
+            "date-time": "2026-07-23T00:00:00Z",
+            "timestamp": 1784764800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "www.mdpi.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Life"
+      ],
+      "abstract": "<jats:p>Reference Corrections [...]</jats:p>",
+      "DOI": "10.3390/life16081216",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            23
+          ]
+        ],
+        "date-time": "2026-07-23T06:11:42Z",
+        "timestamp": 1784787102000
+      },
+      "page": "1216",
+      "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Correction: Kshirsagar et al. Deep Learning Approaches for Prognosis of Automated Skin Disease. Life 2022, 12, 426"
+      ],
+      "prefix": "10.3390",
+      "volume": "16",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-7381-6284",
+          "authenticated-orcid": false,
+          "given": "Pravin R.",
+          "family": "Kshirsagar",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Artificial Intelligence, G.H. Raisoni College of Engineering, Nagpur 412207, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5034-3034",
+          "authenticated-orcid": false,
+          "given": "Hariprasath",
+          "family": "Manoharan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electronics and Communication Engineering, Panimalar Institute of Technology, Poonamallee, Chennai 600123, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4931-724X",
+          "authenticated-orcid": false,
+          "given": "S.",
+          "family": "Shitharth",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science & Engineering, Kebri Dehar University, Kebri Dahar P.O. Box 250, Ethiopia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0434-8413",
+          "authenticated-orcid": false,
+          "given": "Abdulrhman M.",
+          "family": "Alshareef",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Information Systems, Faculty of Computing and Information Technology, King Abdulaziz University, Jeddah 21589, Saudi Arabia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1231-4491",
+          "authenticated-orcid": false,
+          "given": "Nabeel",
+          "family": "Albishry",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Information Technology, Faculty of Computing and Information Technology, King Abdulaziz University, Jeddah 21589, Saudi Arabia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1561-1376",
+          "authenticated-orcid": false,
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, Vardhaman College of Engineering, Hyderabad 501218, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "1968",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            23
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "ref_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kshirsagar, P.R., Manoharan, H., Shitharth, S., Alshareef, A.M., Albishry, N., and Balachandran, P.K. (2022). Deep Learning Approaches for Prognosis of Automated Skin Disease. Life, 12.",
+          "DOI": "10.3390/life12030426"
+        }
+      ],
+      "container-title": [
+        "Life"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.mdpi.com/2075-1729/16/8/1216/pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            23
+          ]
+        ],
+        "date-time": "2026-07-23T06:19:30Z",
+        "timestamp": 1784787570000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.mdpi.com/2075-1729/16/8/1216"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            23
+          ]
+        ]
+      },
+      "references-count": 1,
+      "journal-issue": {
+        "issue": "8",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              8
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "life16081216"
+      ],
+      "URL": "https://doi.org/10.3390/life16081216",
+      "relation": {},
+      "ISSN": [
+        "2075-1729"
+      ],
+      "issn-type": [
+        {
+          "value": "2075-1729",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            23
+          ]
+        ]
+      }
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Pravin R. Kshirsagar",
+      "given_name_from_source": "Pravin R.",
+      "family_name_from_source": "Kshirsagar",
+      "orcid_from_source": "https://orcid.org/0000-0002-7381-6284",
+      "affiliation_from_source": [
+        "Department of Artificial Intelligence, G.H. Raisoni College of Engineering, Nagpur 412207, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Hariprasath Manoharan",
+      "given_name_from_source": "Hariprasath",
+      "family_name_from_source": "Manoharan",
+      "orcid_from_source": "https://orcid.org/0000-0001-5034-3034",
+      "affiliation_from_source": [
+        "Department of Electronics and Communication Engineering, Panimalar Institute of Technology, Poonamallee, Chennai 600123, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "S. Shitharth",
+      "given_name_from_source": "S.",
+      "family_name_from_source": "Shitharth",
+      "orcid_from_source": "https://orcid.org/0000-0002-4931-724X",
+      "affiliation_from_source": [
+        "Department of Computer Science & Engineering, Kebri Dehar University, Kebri Dahar P.O. Box 250, Ethiopia"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Abdulrhman M. Alshareef",
+      "given_name_from_source": "Abdulrhman M.",
+      "family_name_from_source": "Alshareef",
+      "orcid_from_source": "https://orcid.org/0000-0002-0434-8413",
+      "affiliation_from_source": [
+        "Department of Information Systems, Faculty of Computing and Information Technology, King Abdulaziz University, Jeddah 21589, Saudi Arabia"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Nabeel Albishry",
+      "given_name_from_source": "Nabeel",
+      "family_name_from_source": "Albishry",
+      "orcid_from_source": "https://orcid.org/0000-0002-1231-4491",
+      "affiliation_from_source": [
+        "Department of Information Technology, Faculty of Computing and Information Technology, King Abdulaziz University, Jeddah 21589, Saudi Arabia"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": "https://orcid.org/0000-0003-1561-1376",
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering, Vardhaman College of Engineering, Hyderabad 501218, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

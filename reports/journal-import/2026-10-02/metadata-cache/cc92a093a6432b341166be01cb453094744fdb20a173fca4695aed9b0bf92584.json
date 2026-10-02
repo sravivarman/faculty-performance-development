@@ -1,0 +1,665 @@
+{
+  "doi": "10.1177/11795972251395954",
+  "title": "Hybrid Deep Learning for Brain Tumor Detection: Combining DenseNet and Custom CNN for Enhanced Accuracy",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Biomedical Engineering and Computational Biology",
+  "publisher": "SAGE Publications",
+  "publication_date": "2025-12-11",
+  "online_publication_date": "2025-12-11",
+  "print_publication_date": null,
+  "volume": "16",
+  "issue": null,
+  "pages_or_article_number": "11795972251395954",
+  "issn": "1179-5972",
+  "eissn": "1179-5972",
+  "isbn": null,
+  "url": "https://doi.org/10.1177/11795972251395954",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:08.972559+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            5
+          ]
+        ],
+        "date-time": "2026-08-05T11:06:34Z",
+        "timestamp": 1785927994407,
+        "version": "3.56.0"
+      },
+      "reference-count": 34,
+      "publisher": "SAGE Publications",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                1
+              ]
+            ],
+            "date-time": "2025-12-01T00:00:00Z",
+            "timestamp": 1764547200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc/4.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                1
+              ]
+            ],
+            "date-time": "2025-12-01T00:00:00Z",
+            "timestamp": 1764547200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "journals.sagepub.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Biomed Eng Comput Biol"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            12
+          ]
+        ]
+      },
+      "abstract": "<jats:sec>\n                    <jats:title>Background:</jats:title>\n                    <jats:p>Deep learning in brain tumor detection has become an important breakthrough in medical imaging to facilitate a fast and accurate diagnosis. Conventional models such as VGG, SVM, and common CNNs are competitive, yet fail to provide the sensitivity and specificity needed in real-time diagnosis purposes.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Objectives:</jats:title>\n                    <jats:p>The objective of the proposed study is to generate a hybrid deep learning architecture of the DenseNet and a self-developed Convolutional Neural Network (CNN) in order to increase the classification accuracy, sensitivity, and specificity of a brain tumor detection medical image.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Design:</jats:title>\n                    <jats:p>A Hybrid architecture consisting of DenseNet feature reuse and connectivity with a domain-specific custom CNN is suggested to retrieve high-level semantic and fine-grained features. The design focuses on performance evaluation with respect to the state-of-the-art models and ensemble frameworks.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Methods:</jats:title>\n                    <jats:p>The brain tumor data set was preprocessed, and the augmentation methods, such as translation and rotation, were applied. A training and testing subsets of the dataset were formed. The hybrid approach, formed by DenseNet layers and a self-created CNN model, was implemented and tested. The performance of the model was contrasted with that of other benchmark classifiers such as SVM and VGG, DenseNet (single), CNN ensembles, and Hybrid Ensembles.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Results:</jats:title>\n                    <jats:p>The hybrid DenseNet-Custom CNN model was more accurate and had better classification results than the standard models. In particular, it surpassed the accuracy of SVM (96%), VGG (94%), DenseNet (92%), and Hybrid Ensemble models (~95.2%), while the FPS remained equivalent to SVM and substantially lower than VGG. It proved better sensitivity and specificity with better feature representation and interpretation, as it made more accurate tumor classification.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Conclusion:</jats:title>\n                    <jats:p>Incorporating DenseNet with a custom CNN model can increase the capabilities of brain tumor detection in medical imaging. This hybrid performance can use both general-purpose deep learning and domain-specific feature engineering, and it provides a practical suggestion of the approach that involves a satisfactory solution in the diagnostic sense. It verifies that the combination of more than 2 methods is productive in enhancing the results of medical image classification activities.</jats:p>\n                  </jats:sec>",
+      "DOI": "10.1177/11795972251395954",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            12
+          ]
+        ],
+        "date-time": "2025-12-12T05:01:11Z",
+        "timestamp": 1765515671000
+      },
+      "update-policy": "https://doi.org/10.1177/sage-journals-update-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 6,
+      "title": [
+        "Hybrid Deep Learning for Brain Tumor Detection: Combining DenseNet and Custom CNN for Enhanced Accuracy"
+      ],
+      "prefix": "10.1177",
+      "volume": "16",
+      "author": [
+        {
+          "given": "Alex David",
+          "family": "Swaminathan",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science and Engineering, Vel Tech Rangarajan Dr. Sagunthala R&amp;D Institute of Science and Technology, Chennai, Tamilnadu, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Almas",
+          "family": "Begum",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Saveetha School of Engineering, Saveetha Institute of Medical and Technical Sciences, Chennai, Tamilnadu, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7200-8007",
+          "authenticated-orcid": false,
+          "given": "Karthikeyan",
+          "family": "Ramamoorthy",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of CSE(AI&amp;ML), Vardhaman College of Engineering, Hyderabad, Telangana, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ruth Naveena",
+          "family": "Nadarajan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Mathematics, Hindustan Institute of Technology &amp; Science, Chennai, Tamilnadu, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Senthil",
+          "family": "Krishnamoorthy",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Saveetha School of Engineering, Saveetha Institute of Medical and Technical Sciences, Chennai, Tamilnadu, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronic Engineering, Vardhaman College of Engineering, Hyderabad, Telangana, India"
+            },
+            {
+              "name": "Department of Electrical and Electronics Engineering, Chennai Institute of Technology, Chennai, Tamilnadu, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sangeetha",
+          "family": "Kannan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science and Engineering, Kebri Dehar University, Somali, Ethiopia"
+            },
+            {
+              "name": "Centre for Research Impact and Outcome, Chitkara University Institute of Engineering and Technology, Chitkara University, Rajpura, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "179",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            11
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_3_2_2_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/RBME.2022.3185292"
+        },
+        {
+          "key": "e_1_3_2_3_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s40747-021-00563-y"
+        },
+        {
+          "key": "e_1_3_2_4_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11042-020-08898-3"
+        },
+        {
+          "key": "e_1_3_2_5_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.compmedimag.2021.101940"
+        },
+        {
+          "key": "e_1_3_2_6_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.csbj.2022.08.039"
+        },
+        {
+          "key": "e_1_3_2_7_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s42979-024-02799-0"
+        },
+        {
+          "key": "e_1_3_2_8_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.mehy.2019.109531"
+        },
+        {
+          "key": "e_1_3_2_9_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12911-023-02114-6"
+        },
+        {
+          "key": "e_1_3_2_10_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2022.3184113"
+        },
+        {
+          "key": "e_1_3_2_11_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/ner.13107"
+        },
+        {
+          "key": "e_1_3_2_12_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/JPROC.2021.3054390"
+        },
+        {
+          "key": "e_1_3_2_13_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.patrec.2019.11.017"
+        },
+        {
+          "key": "e_1_3_2_14_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s12652-020-02444-7"
+        },
+        {
+          "key": "e_1_3_2_15_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-981-19-2281-7_47"
+        },
+        {
+          "key": "e_1_3_2_16_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.irbm.2022.05.002"
+        },
+        {
+          "key": "e_1_3_2_17_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2020.2978629"
+        },
+        {
+          "key": "e_1_3_2_18_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/cancers15164172"
+        },
+        {
+          "key": "e_1_3_2_19_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bspc.2024.106149"
+        },
+        {
+          "key": "e_1_3_2_20_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neucom.2022.11.039"
+        },
+        {
+          "issue": "1",
+          "key": "e_1_3_2_21_2",
+          "first-page": "25",
+          "article-title": "Hybridization between deep learning algorithms and neutrosophic theory in medical image processing: a survey",
+          "volume": "45",
+          "author": "Mostafa NN",
+          "year": "2021",
+          "unstructured": "Mostafa NN, Ahmed K, El-Henawy I. Hybridization between deep learning algorithms and neutrosophic theory in medical image processing: a survey. Neutrosophic Sets Syst. 2021;45(1):25.",
+          "journal-title": "Neutrosophic Sets Syst"
+        },
+        {
+          "key": "e_1_3_2_22_2",
+          "first-page": "9",
+          "volume-title": "Deep Learners and Deep Learner Descriptors for Medical Applications",
+          "author": "Antony J",
+          "unstructured": "Antony J, McGuinness K, Moran K, O’Connor NE. Feature learning to automatically assess radiographic knee osteoarthritis severity. In: Nanni L, Brahnam S, Brattin R, Ghidoni S, Jain L, eds. Deep Learners and Deep Learner Descriptors for Medical Applications. Springer Cham; 2020:9-93."
+        },
+        {
+          "key": "e_1_3_2_23_2",
+          "first-page": "75",
+          "volume-title": "Deep Learning for Medical Image Analysis",
+          "author": "Tran M",
+          "unstructured": "Tran M, Vo-Ho VK, Quinn K, Nguyen H, Luu K, Le N. CapsNet for medical image segmentation. In: Zhou SK, Greenspan H, Shen D, eds. Deep Learning for Medical Image Analysis. Academic Press; 2024:75-97."
+        },
+        {
+          "issue": "3",
+          "key": "e_1_3_2_24_2",
+          "first-page": "305",
+          "article-title": "Brain tumor classification in MRI images using genetic algorithm appended CNN",
+          "volume": "30",
+          "author": "Balamurugan T",
+          "year": "2023",
+          "unstructured": "Balamurugan T, Gnanamanoharan E. Brain tumor classification in MRI images using genetic algorithm appended CNN. Comput Assist Methods Eng Sci. 2023;30(3):305-321.",
+          "journal-title": "Comput Assist Methods Eng Sci"
+        },
+        {
+          "key": "e_1_3_2_25_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10462-022-10245-x"
+        },
+        {
+          "key": "e_1_3_2_26_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2174/1573405615666191113122840"
+        },
+        {
+          "key": "e_1_3_2_27_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s42979-020-00214-y"
+        },
+        {
+          "key": "e_1_3_2_28_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1504/IJBIC.2024.136755"
+        },
+        {
+          "issue": "1",
+          "key": "e_1_3_2_29_2",
+          "article-title": "COSCO2: AI-augmented evolutionary algorithm based workload prediction framework for sustainable cloud data centers",
+          "volume": "34",
+          "author": "Karthikeyan R",
+          "year": "2023",
+          "unstructured": "Karthikeyan R, Balamurugan V, Cyriac R, Sundaravadivazhagan B. COSCO2: AI-augmented evolutionary algorithm based workload prediction framework for sustainable cloud data centers. Trans Emerg Telecomm Technol. 2023;34(1):e4652.",
+          "journal-title": "Trans Emerg Telecomm Technol"
+        },
+        {
+          "key": "e_1_3_2_30_2",
+          "article-title": "Preserving resource handiness and exigency-based migration algorithm (PRH-EM) for energy efficient federated cloud management systems",
+          "volume": "2023",
+          "author": "Karthikeyan R",
+          "year": "2023",
+          "unstructured": "Karthikeyan R, Sundaravadivazhagan B, Cyriac R, Balachandran PK, Shitharth S. Preserving resource handiness and exigency-based migration algorithm (PRH-EM) for energy efficient federated cloud management systems. Mob Inf Syst. 2023;2023:7754765-7754811.",
+          "journal-title": "Mob Inf Syst"
+        },
+        {
+          "key": "e_1_3_2_31_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11042-022-13439-1"
+        },
+        {
+          "key": "e_1_3_2_32_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s13534-021-00209-5"
+        },
+        {
+          "key": "e_1_3_2_33_2",
+          "article-title": "TransUNet: transformers make strong encoders for medical image segmentation",
+          "author": "Chen J",
+          "year": "2021",
+          "unstructured": "Chen J, Lu Y, Yu Q, Luo X, Adeli E, Wang Y, Lu L, Yuille AL, Zhou Y. TransUNet: transformers make strong encoders for medical image segmentation. arXiv. 2021;arXiv:2102.04306.",
+          "journal-title": "arXiv"
+        },
+        {
+          "key": "e_1_3_2_34_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.compbiomed.2023.106791"
+        },
+        {
+          "key": "e_1_3_2_35_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/10717544.2022.2154409"
+        }
+      ],
+      "container-title": [
+        "Biomedical Engineering and Computational Biology"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://journals.sagepub.com/doi/pdf/10.1177/11795972251395954",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://journals.sagepub.com/doi/full-xml/10.1177/11795972251395954",
+          "content-type": "application/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://journals.sagepub.com/doi/pdf/10.1177/11795972251395954",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            28
+          ]
+        ],
+        "date-time": "2026-04-28T12:59:14Z",
+        "timestamp": 1777381154000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://journals.sagepub.com/doi/10.1177/11795972251395954"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12
+          ]
+        ]
+      },
+      "references-count": 34,
+      "alternative-id": [
+        "10.1177/11795972251395954"
+      ],
+      "URL": "https://doi.org/10.1177/11795972251395954",
+      "relation": {},
+      "ISSN": [
+        "1179-5972",
+        "1179-5972"
+      ],
+      "issn-type": [
+        {
+          "value": "1179-5972",
+          "type": "print"
+        },
+        {
+          "value": "1179-5972",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            12
+          ]
+        ]
+      },
+      "article-number": "11795972251395954"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Alex David Swaminathan",
+      "given_name_from_source": "Alex David",
+      "family_name_from_source": "Swaminathan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Computer Science and Engineering, Vel Tech Rangarajan Dr. Sagunthala R&amp;D Institute of Science and Technology, Chennai, Tamilnadu, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Almas Begum",
+      "given_name_from_source": "Almas",
+      "family_name_from_source": "Begum",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Saveetha School of Engineering, Saveetha Institute of Medical and Technical Sciences, Chennai, Tamilnadu, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Karthikeyan Ramamoorthy",
+      "given_name_from_source": "Karthikeyan",
+      "family_name_from_source": "Ramamoorthy",
+      "orcid_from_source": "https://orcid.org/0000-0002-7200-8007",
+      "affiliation_from_source": [
+        "Department of CSE(AI&amp;ML), Vardhaman College of Engineering, Hyderabad, Telangana, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Ruth Naveena Nadarajan",
+      "given_name_from_source": "Ruth Naveena",
+      "family_name_from_source": "Nadarajan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Mathematics, Hindustan Institute of Technology &amp; Science, Chennai, Tamilnadu, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Senthil Krishnamoorthy",
+      "given_name_from_source": "Senthil",
+      "family_name_from_source": "Krishnamoorthy",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Saveetha School of Engineering, Saveetha Institute of Medical and Technical Sciences, Chennai, Tamilnadu, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical and Electronic Engineering, Vardhaman College of Engineering, Hyderabad, Telangana, India",
+        "Department of Electrical and Electronics Engineering, Chennai Institute of Technology, Chennai, Tamilnadu, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 7,
+      "author_name_from_source": "Sangeetha Kannan",
+      "given_name_from_source": "Sangeetha",
+      "family_name_from_source": "Kannan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Computer Science and Engineering, Kebri Dehar University, Somali, Ethiopia",
+        "Centre for Research Impact and Outcome, Chitkara University Institute of Engineering and Technology, Chitkara University, Rajpura, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

@@ -1,0 +1,833 @@
+{
+  "doi": "10.1155/2023/1572996",
+  "title": "Finite Impulse Response Filter Design Using Fuzzy Logic-Based Diversity-Controlled Self-Adaptive Differential Evolution",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "International Transactions on Electrical Energy Systems",
+  "publisher": "Wiley",
+  "publication_date": "2023-07-13",
+  "online_publication_date": null,
+  "print_publication_date": "2023-07-13",
+  "volume": "2023",
+  "issue": null,
+  "pages_or_article_number": "1-18",
+  "issn": null,
+  "eissn": "2050-7038",
+  "isbn": null,
+  "url": "https://doi.org/10.1155/2023/1572996",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:41.399724+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            20
+          ]
+        ],
+        "date-time": "2026-02-20T18:36:57Z",
+        "timestamp": 1771612617051,
+        "version": "3.50.1"
+      },
+      "reference-count": 63,
+      "publisher": "Wiley",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                7,
+                13
+              ]
+            ],
+            "date-time": "2023-07-13T00:00:00Z",
+            "timestamp": 1689206400000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "International Transactions on Electrical Energy Systems"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            13
+          ]
+        ]
+      },
+      "abstract": "<jats:p>The design of finite impulse response (FIR) filters involves the estimation of effective filter coefficients, making the designed filter exhibit infinite stopband attenuation and have a flat-shaped passband. The few conventional filter design methods such as impulse response truncation (IRT) and windowing technique exhibit undesirable characteristics owing to the Gibbs phenomenon, thus making them unsuitable for various practical complexities. This research work employs the fuzzy logic-based diversity-controlled self-adaptive differential evolution algorithm (FLDCSaDE) for the design of FIR band stop (BS) and high pass (HP) filters. In order to validate the results of the proposed technique, various population-based evolutionary computing techniques such as the covariance matrix adaptation evolution strategy (CMAES), differential evolution (DE), self-adaptive differential evolution (SaDE), and Jaya algorithm have also been applied for determining the effective filter coefficients. The performance of the various algorithms has been analysed and compared based on the parameters such as stopband attenuation, passband attenuation, and ripples. The simulation results show that the FLDCSaDE algorithm outperforms other evolutionary algorithms having 4% and 1.5% lower ripples than the SaDE algorithm for high pass and band stop filters, respectively. Experimental results depict that the performance of the fuzzy approach causes positioning and tracking accuracy obtained to be improved by 27% and the corresponding false positive rate (FPR) is substantially reduced to 0.11 from the mean amplitude value obtained from the fuzzy approach in the frequency response. The frequency response obtained from the FLDCSaDE algorithm is close to the ideal response of the BS and HP FIR filters.</jats:p>",
+      "DOI": "10.1155/2023/1572996",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            13
+          ]
+        ],
+        "date-time": "2023-07-13T23:50:06Z",
+        "timestamp": 1689292206000
+      },
+      "page": "1-18",
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "Finite Impulse Response Filter Design Using Fuzzy Logic-Based Diversity-Controlled Self-Adaptive Differential Evolution"
+      ],
+      "prefix": "10.1155",
+      "volume": "2023",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-9722-3013",
+          "authenticated-orcid": true,
+          "given": "K.",
+          "family": "Mohaideen Abdul Kadhar",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Centre for Computational Imaging and Machine Vision, Department of Electronics and Communication Engineering, Sri Eswar College of Engineering, Coimbatore, India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0003-0887-7261",
+          "authenticated-orcid": true,
+          "given": "S.",
+          "family": "Rengarajan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, Sri Sivasubramaniya Nadar College of Engineering, Chennai, India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4167-9115",
+          "authenticated-orcid": true,
+          "given": "S.",
+          "family": "Tamilselvi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, Sri Sivasubramaniya Nadar College of Engineering, Chennai, India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3325-566X",
+          "authenticated-orcid": true,
+          "given": "N.",
+          "family": "Karuppiah",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, Vardhaman College of Engineering, Hyderabad, India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1561-1376",
+          "authenticated-orcid": true,
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, Vardhaman College of Engineering, Hyderabad, India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "A.",
+          "family": "Thamilmaran",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Electronics Engineering, Vellore Institute of Technology, Vellore, India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0054-0149",
+          "authenticated-orcid": true,
+          "given": "C.",
+          "family": "Dhanamjayulu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Electronics Engineering, Vellore Institute of Technology, Vellore, India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5082-8311",
+          "authenticated-orcid": true,
+          "given": "Baseem",
+          "family": "Khan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Computer Engineering, Hawassa University, Hawassa 05, Ethiopia"
+            },
+            {
+              "name": "Department of Electrical and Electronic Engineering Technology, Faculty of Engineering and the Built Environment, University of Johannesburg, Johannesburg, South Africa"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "311",
+      "reference": [
+        {
+          "key": "1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/5.0110570"
+        },
+        {
+          "key": "2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/IWCMC48107.2020.9148084"
+        },
+        {
+          "key": "3",
+          "doi-asserted-by": "crossref",
+          "first-page": "191",
+          "DOI": "10.1007/978-3-642-21697-8_25",
+          "article-title": "A new denoising method in seismic data processing based on wienerfilter",
+          "volume": "97",
+          "author": "W. Shi-Wei",
+          "year": "2011",
+          "journal-title": "Electron Signal Process LNEE"
+        },
+        {
+          "key": "4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.prime.2023.100148"
+        },
+        {
+          "key": "5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5120/16972-6823"
+        },
+        {
+          "key": "6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00034-018-0772-1"
+        },
+        {
+          "key": "7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s12652-019-01431-x"
+        },
+        {
+          "key": "8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.aeue.2015.12.012"
+        },
+        {
+          "key": "9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jestch.2015.04.004"
+        },
+        {
+          "key": "10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TCSII.2019.2937343"
+        },
+        {
+          "key": "11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1155/2020/5980504"
+        },
+        {
+          "key": "12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00521-015-2147-x"
+        },
+        {
+          "key": "13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00034-014-9800-y"
+        },
+        {
+          "key": "14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4316/AECE.2015.01003"
+        },
+        {
+          "key": "15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.eswa.2014.03.034"
+        },
+        {
+          "key": "16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jestch.2016.05.013"
+        },
+        {
+          "key": "17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11831-021-09694-4"
+        },
+        {
+          "key": "18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2022.3193396"
+        },
+        {
+          "key": "19",
+          "article-title": "An approach to optimize FIR filter coefficients using GA, PSO and BAT algorithm and their comparative analysis",
+          "author": "P. Das"
+        },
+        {
+          "key": "20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CCWC54503.2022.9720786"
+        },
+        {
+          "key": "21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/MECO.2017.7977216"
+        },
+        {
+          "key": "22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.swevo.2012.05.002"
+        },
+        {
+          "key": "23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jksuci.2011.10.007"
+        },
+        {
+          "key": "24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.isatra.2013.07.009"
+        },
+        {
+          "key": "25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.engappai.2018.01.005"
+        },
+        {
+          "key": "26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/acs.2427"
+        },
+        {
+          "key": "27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.swevo.2023.101296"
+        },
+        {
+          "issue": "5",
+          "key": "28",
+          "article-title": "Jaya-FLANN based adaptive filter for mixed noise suppression from ultrasound images",
+          "volume": "29",
+          "author": "M. Kumar",
+          "year": "2017",
+          "journal-title": "Biomedical Research"
+        },
+        {
+          "key": "29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.knosys.2020.106388"
+        },
+        {
+          "key": "30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.mechmachtheory.2019.06.013"
+        },
+        {
+          "key": "31",
+          "unstructured": "ZhongW.Linear phase FIR digital filter design using differential evolution algorithms2017Windsor, UKUniversity of windsorElectronic Theses and Dissertations, https://scholar.uwindsor.ca/etd/5959"
+        },
+        {
+          "key": "32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.aeue.2019.153019"
+        },
+        {
+          "key": "33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.aeue.2014.07.019"
+        },
+        {
+          "key": "34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CEC.2016.7744107"
+        },
+        {
+          "key": "35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ins.2019.11.046"
+        },
+        {
+          "key": "36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.asoc.2021.107942"
+        },
+        {
+          "key": "37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jocs.2017.07.010"
+        },
+        {
+          "key": "38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00500-020-05527-x"
+        },
+        {
+          "key": "39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0222706"
+        },
+        {
+          "key": "40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.eswa.2015.08.026"
+        },
+        {
+          "key": "41",
+          "article-title": "Adapting arbitrary normal distributionsin evolution strategies: the covariance matrix adaptation",
+          "author": "N. Hansen"
+        },
+        {
+          "key": "42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/app11199136"
+        },
+        {
+          "key": "43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.promfg.2020.02.281"
+        },
+        {
+          "key": "44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11831-021-09585-8"
+        },
+        {
+          "key": "45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5267/j.ijiec.2015.8.004"
+        },
+        {
+          "key": "46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.asoc.2019.105576"
+        },
+        {
+          "key": "47",
+          "first-page": "152",
+          "volume-title": "Adaptive and Self-Adaptive Evolutionary Computation, ‘inComputational Intelligence: A Dynamic System Perspective",
+          "author": "P. J. Angeline",
+          "year": "1995"
+        },
+        {
+          "issue": "1",
+          "key": "48",
+          "first-page": "19",
+          "article-title": "A simple and new optimization algorithm for solving constrained and unconstrainedoptimization problems",
+          "volume": "7",
+          "author": "V. R. J. A. Rao",
+          "year": "2016",
+          "journal-title": "International Journal of Industrial Engineering Computations"
+        },
+        {
+          "key": "49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5267/j.ijiec.2012.03.007"
+        },
+        {
+          "key": "50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.enconman.2017.02.068"
+        },
+        {
+          "key": "51",
+          "first-page": "83",
+          "article-title": "Fuzzy evolutionary algorithms and genetic fuzzy systems: a positive collaboration between evolutionary algorithms and fuzzy systems",
+          "volume-title": "Computational Intelligence—Collaboration, Fusion and Emergence",
+          "author": "H. Herrera",
+          "year": "2009"
+        },
+        {
+          "key": "52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1613/jair.1660"
+        },
+        {
+          "key": "53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/0305215X.2012.713356"
+        },
+        {
+          "key": "54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.eswa.2018.09.025"
+        },
+        {
+          "key": "55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-020-17623-5"
+        },
+        {
+          "key": "56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ISCAS.1999.778872"
+        },
+        {
+          "key": "57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.asej.2018.04.003"
+        },
+        {
+          "key": "58",
+          "volume-title": "Digital Signal Processing",
+          "author": "T. K. Rawat",
+          "year": "2014",
+          "edition": "1"
+        },
+        {
+          "key": "59",
+          "doi-asserted-by": "crossref",
+          "article-title": "Statistical analysis of type-1 and interval type-2 fuzzy logic in dynamic parameter adaptation of the BCO",
+          "author": "L. Amador-Angulo",
+          "DOI": "10.2991/ifsa-eusflat-15.2015.110"
+        },
+        {
+          "key": "60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-030-28917-1_6"
+        },
+        {
+          "key": "61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1155/2013/320489"
+        },
+        {
+          "key": "62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/electronics9040599"
+        },
+        {
+          "key": "63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.11989/JEST.1674-862X.70728080"
+        }
+      ],
+      "container-title": [
+        "International Transactions on Electrical Energy Systems"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "http://downloads.hindawi.com/journals/itees/2023/1572996.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "http://downloads.hindawi.com/journals/itees/2023/1572996.xml",
+          "content-type": "application/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "http://downloads.hindawi.com/journals/itees/2023/1572996.pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            13
+          ]
+        ],
+        "date-time": "2023-07-13T23:50:14Z",
+        "timestamp": 1689292214000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.hindawi.com/journals/itees/2023/1572996/"
+        }
+      },
+      "subtitle": [],
+      "editor": [
+        {
+          "given": "Sheng",
+          "family": "Du",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "editor",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            13
+          ]
+        ]
+      },
+      "references-count": 63,
+      "alternative-id": [
+        "1572996",
+        "1572996"
+      ],
+      "URL": "https://doi.org/10.1155/2023/1572996",
+      "relation": {},
+      "ISSN": [
+        "2050-7038"
+      ],
+      "issn-type": [
+        {
+          "value": "2050-7038",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            13
+          ]
+        ]
+      }
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "K. Mohaideen Abdul Kadhar",
+      "given_name_from_source": "K.",
+      "family_name_from_source": "Mohaideen Abdul Kadhar",
+      "orcid_from_source": "https://orcid.org/0000-0001-9722-3013",
+      "affiliation_from_source": [
+        "Centre for Computational Imaging and Machine Vision, Department of Electronics and Communication Engineering, Sri Eswar College of Engineering, Coimbatore, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "S. Rengarajan",
+      "given_name_from_source": "S.",
+      "family_name_from_source": "Rengarajan",
+      "orcid_from_source": "https://orcid.org/0009-0003-0887-7261",
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering, Sri Sivasubramaniya Nadar College of Engineering, Chennai, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "S. Tamilselvi",
+      "given_name_from_source": "S.",
+      "family_name_from_source": "Tamilselvi",
+      "orcid_from_source": "https://orcid.org/0000-0002-4167-9115",
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering, Sri Sivasubramaniya Nadar College of Engineering, Chennai, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "N. Karuppiah",
+      "given_name_from_source": "N.",
+      "family_name_from_source": "Karuppiah",
+      "orcid_from_source": "https://orcid.org/0000-0003-3325-566X",
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering, Vardhaman College of Engineering, Hyderabad, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": "https://orcid.org/0000-0003-1561-1376",
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering, Vardhaman College of Engineering, Hyderabad, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "A. Thamilmaran",
+      "given_name_from_source": "A.",
+      "family_name_from_source": "Thamilmaran",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "School of Electronics Engineering, Vellore Institute of Technology, Vellore, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 7,
+      "author_name_from_source": "C. Dhanamjayulu",
+      "given_name_from_source": "C.",
+      "family_name_from_source": "Dhanamjayulu",
+      "orcid_from_source": "https://orcid.org/0000-0003-0054-0149",
+      "affiliation_from_source": [
+        "School of Electronics Engineering, Vellore Institute of Technology, Vellore, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 8,
+      "author_name_from_source": "Baseem Khan",
+      "given_name_from_source": "Baseem",
+      "family_name_from_source": "Khan",
+      "orcid_from_source": "https://orcid.org/0000-0002-5082-8311",
+      "affiliation_from_source": [
+        "Department of Electrical and Computer Engineering, Hawassa University, Hawassa 05, Ethiopia",
+        "Department of Electrical and Electronic Engineering Technology, Faculty of Engineering and the Built Environment, University of Johannesburg, Johannesburg, South Africa"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

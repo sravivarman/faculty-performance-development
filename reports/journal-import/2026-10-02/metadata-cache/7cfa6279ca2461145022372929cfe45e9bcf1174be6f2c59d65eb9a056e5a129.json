@@ -1,0 +1,1338 @@
+{
+  "doi": "10.1007/s11356-023-27261-1",
+  "title": "Solar photovoltaic converter controller using opposition-based reinforcement learning with butterfly optimization algorithm under partial shading conditions",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Environmental Science and Pollution Research",
+  "publisher": "Springer Science and Business Media LLC",
+  "publication_date": "2023-05-13",
+  "online_publication_date": "2023-05-13",
+  "print_publication_date": null,
+  "volume": "30",
+  "issue": "28",
+  "pages_or_article_number": "72617-72640",
+  "issn": null,
+  "eissn": "1614-7499",
+  "isbn": null,
+  "url": "https://doi.org/10.1007/s11356-023-27261-1",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:43.312410+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            17
+          ]
+        ],
+        "date-time": "2026-08-17T15:51:28Z",
+        "timestamp": 1786981888643,
+        "version": "build-2736575974"
+      },
+      "reference-count": 88,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "28",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                5,
+                13
+              ]
+            ],
+            "date-time": "2023-05-13T00:00:00Z",
+            "timestamp": 1683936000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                5,
+                13
+              ]
+            ],
+            "date-time": "2023-05-13T00:00:00Z",
+            "timestamp": 1683936000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Environ Sci Pollut Res"
+      ],
+      "DOI": "10.1007/s11356-023-27261-1",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            12
+          ]
+        ],
+        "date-time": "2023-05-12T22:01:53Z",
+        "timestamp": 1683928913000
+      },
+      "page": "72617-72640",
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 51,
+      "title": [
+        "Solar photovoltaic converter controller using opposition-based reinforcement learning with butterfly optimization algorithm under partial shading conditions"
+      ],
+      "prefix": "10.1007",
+      "volume": "30",
+      "author": [
+        {
+          "given": "Belqasem",
+          "family": "Aljafari",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Devakirubakaran",
+          "family": "Samithas",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sudhakar Babu",
+          "family": "Thanikanti",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            13
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "27261_CR1",
+          "unstructured": "Aanesan K, Heck S, Pinner D.  “Solar power. Darkest before dawn,” 2017 [Online]. Available: https://www.semanticscholar.org/paper/Solar-power%3A-Darkest-before-dawn-Aanesen-heck/e42c56b0be121dc5aa89086384fe69757afedcb3"
+        },
+        {
+          "key": "27261_CR2",
+          "doi-asserted-by": "crossref",
+          "first-page": "82",
+          "DOI": "10.1016/j.rser.2018.10.015",
+          "volume": "101",
+          "author": "R Ahmad",
+          "year": "2019",
+          "unstructured": "Ahmad R, Murtaza AF, Sher HA (2019) Power tracking techniques for efficient operation of photovoltaic array in solar applications—a review. Renewable Sustain Energy Rev 101:82–102",
+          "journal-title": "Renewable Sustain Energy Rev"
+        },
+        {
+          "key": "27261_CR3",
+          "doi-asserted-by": "crossref",
+          "first-page": "125465",
+          "DOI": "10.1016/j.jclepro.2020.125465",
+          "volume": "284",
+          "author": "OA Al-Shahri",
+          "year": "2021",
+          "unstructured": "Al-Shahri OA, Ismail FB, Hannan MA, Lipu MH, Al-Shetwi AQ, Begum RA, Al-Muhsen NF, Soujeri E (2021) Solar photovoltaic energy optimization methods, challenges and issues: a comprehensive review. J Clean Prod 284:125465",
+          "journal-title": "J Clean Prod"
+        },
+        {
+          "key": "27261_CR4",
+          "doi-asserted-by": "crossref",
+          "first-page": "2045",
+          "DOI": "10.3390/su13042045",
+          "volume": "13",
+          "author": "M Alaraj",
+          "year": "2021",
+          "unstructured": "Alaraj M, Dube A, Alsaidan I, Rizwan M, Jamil M (2021) Design and development of a proficient converter for solar photovoltaic based sustainable power generating system. Sustainability 13:2045",
+          "journal-title": "Sustainability"
+        },
+        {
+          "key": "27261_CR5",
+          "doi-asserted-by": "crossref",
+          "first-page": "127368",
+          "DOI": "10.1109/ACCESS.2020.3007710",
+          "volume": "8",
+          "author": "A Ali",
+          "year": "2020",
+          "unstructured": "Ali A, Almutairi K, Padmanaban S, Tirth V, Algarni S, Irshad K, Islam S, Zahir MH, Shafiullah M, Malik MZ (2020) Investigation of MPPT techniques under uniform and non-uniform solar irradiation condition–a retrospection. IEEE Access 8:127368–127392",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "27261_CR6",
+          "doi-asserted-by": "crossref",
+          "first-page": "593",
+          "DOI": "10.1016/j.solener.2018.06.109",
+          "volume": "171",
+          "author": "N Aouchiche",
+          "year": "2018",
+          "unstructured": "Aouchiche N, Aitcheikh MS, Becherif M, Ebrahim MA (2018) AIbased global MPPT for partial shaded grid connected PV plant via MFO approach. Solar Energy 171:593–603",
+          "journal-title": "Solar Energy"
+        },
+        {
+          "key": "27261_CR7",
+          "doi-asserted-by": "crossref",
+          "first-page": "715",
+          "DOI": "10.1007/s00500-018-3102-4",
+          "volume": "23",
+          "author": "S Arora",
+          "year": "2019",
+          "unstructured": "Arora S, Singh S (2019) Butterfly optimization algorithm:a novel approach for global optimization. Soft Comput 23:715–734",
+          "journal-title": "Soft Comput"
+        },
+        {
+          "key": "27261_CR8",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Avila L, De Paula M, Trimboli M et al (2020)  Deep reinforcement learning approach for MPPT control of partially shaded PV systems in smart grids. Appl Soft Comput J 97: 106711. https://doi.org/10.1016/j.asoc.2020.106711",
+          "DOI": "10.1016/j.asoc.2020.106711"
+        },
+        {
+          "key": "27261_CR9",
+          "unstructured": "Bank T. W “Population growth (annual %),” [Online]. Available: https://data.worldbank.org/indicator/SP.POP.GROW"
+        },
+        {
+          "issue": "4",
+          "key": "27261_CR10",
+          "doi-asserted-by": "crossref",
+          "first-page": "532",
+          "DOI": "10.1109/JPHOTOV.2012.2202879",
+          "volume": "2",
+          "author": "A Bidram",
+          "year": "2012",
+          "unstructured": "Bidram A, Davoudi A, Balog RS (2012) Control and circuit techniques to mitigate partial shading effects in photovoltaic arrays. IEEE J Photovolt 2(4):532–546",
+          "journal-title": "IEEE J Photovolt"
+        },
+        {
+          "key": "27261_CR11",
+          "doi-asserted-by": "crossref",
+          "first-page": "74",
+          "DOI": "10.3390/a15030074",
+          "volume": "15",
+          "author": "M Bindi",
+          "year": "2022",
+          "unstructured": "Bindi M, Corti F, Aizenberg I, Grasso F, Lozito G, Luchetta A, Piccirilli M, Reatti A (2022) Machine learning-based monitoring of DC-DC converters in photovoltaic applications. Algorithms 15:74",
+          "journal-title": "Algorithms"
+        },
+        {
+          "issue": "6",
+          "key": "27261_CR12",
+          "doi-asserted-by": "crossref",
+          "first-page": "1398",
+          "DOI": "10.3390/en13061398",
+          "volume": "13",
+          "author": "LB Bosman",
+          "year": "2020",
+          "unstructured": "Bosman LB, Leon-Salas WD, Hutzel W, Soto EA (2020) PV System predictive maintenance: challenges, current approaches, and opportunities. Energies 13(6):1398",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "27261_CR13",
+          "doi-asserted-by": "crossref",
+          "first-page": "1802",
+          "DOI": "10.3390/electronics9111802",
+          "volume": "9",
+          "author": "L Bu",
+          "year": "2020",
+          "unstructured": "Bu L, Quan S, Han J, Li F, Li Q, Wang X (2020) On-site traversal fractional open circuit voltage with uninterrupted output power for maximal power point tracking of photovoltaic systems. Electronics 9:1802",
+          "journal-title": "Electronics"
+        },
+        {
+          "key": "27261_CR14",
+          "doi-asserted-by": "publisher",
+          "first-page": "641",
+          "DOI": "10.1016/j.energy.2014.09.063",
+          "volume": "77",
+          "author": "I Capellán-Pérez",
+          "year": "2014",
+          "unstructured": "Capellán-Pérez I, Mediavilla M, de Castro C, Carpintero Ó, Miguel L (2014) Fossil fuel depletion and socio-economic scenarios: an integrated approach. Energy 77:641–666. https://doi.org/10.1016/j.energy.2014.09.063",
+          "journal-title": "Energy"
+        },
+        {
+          "issue": "1",
+          "key": "27261_CR15",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1007/s40866-018-0047-8",
+          "volume": "3",
+          "author": "A Chalh",
+          "year": "2018",
+          "unstructured": "Chalh A, Motahhir S, El Hammoumi A, El Ghzizal A, Derouich A (2018) Study of a low-cost PV emulator for testing MPPT algorithm under fast irradiation and temperature change. Technol Econ Smart Grids Sustain Energy 3(1):1–10",
+          "journal-title": "Technol Econ Smart Grids Sustain Energy"
+        },
+        {
+          "key": "27261_CR16",
+          "doi-asserted-by": "publisher",
+          "first-page": "2769",
+          "DOI": "10.3390/app9132769",
+          "volume": "9",
+          "author": "M Ding",
+          "year": "2019",
+          "unstructured": "Ding M, Lv D, Yang C, Li S, Fang Q, Yang B, Zhang X (2019) Global maximum power point tracking of PV systems under partial shading condition: a transfer reinforcement learning approach. Appl Sci 9:2769. https://doi.org/10.3390/app9132769",
+          "journal-title": "Appl Sci"
+        },
+        {
+          "issue": "1",
+          "key": "27261_CR17",
+          "doi-asserted-by": "crossref",
+          "first-page": "21",
+          "DOI": "10.1109/TSTE.2011.2168245",
+          "volume": "3",
+          "author": "MA Elgendy",
+          "year": "2012",
+          "unstructured": "Elgendy MA, Zahawi B, Atkinson DJ (2012) Assessment of perturb and observe MPPT algorithm implementation techniques for PV pumping applications. IEEE Trans Sustain Energy 3(1):21–31",
+          "journal-title": "IEEE Trans Sustain Energy"
+        },
+        {
+          "issue": "1",
+          "key": "27261_CR18",
+          "doi-asserted-by": "crossref",
+          "first-page": "108",
+          "DOI": "10.1109/TSTE.2012.2202698",
+          "volume": "4",
+          "author": "MA Elgendy",
+          "year": "2013",
+          "unstructured": "Elgendy MA, Zahawi B, Atkinson DJ (2013) Assessment of the incremental conductance maximum power point tracking algorithm. IEEE Trans Sustain Energy 4(1):108–117",
+          "journal-title": "IEEE Trans Sustain Energy"
+        },
+        {
+          "issue": "1",
+          "key": "27261_CR19",
+          "doi-asserted-by": "crossref",
+          "first-page": "189",
+          "DOI": "10.1109/TEC.2014.2331391",
+          "volume": "30",
+          "author": "MA Elgendy",
+          "year": "2015",
+          "unstructured": "Elgendy MA, Zahawi B, Atkinson DJ (2015) Operating characteristics of the P&O algorithm at high perturbation frequencies for standalone PV systems. IEEE Trans Energy Convers 30(1):189–198",
+          "journal-title": "IEEE Trans Energy Convers"
+        },
+        {
+          "issue": "2",
+          "key": "27261_CR20",
+          "doi-asserted-by": "crossref",
+          "first-page": "219",
+          "DOI": "10.1007/s10462-017-9562-6",
+          "volume": "51",
+          "author": "Q Fan",
+          "year": "2019",
+          "unstructured": "Fan Q, Wang W, Yan X (2019) Differential evolution algorithm with strategy adaptation and knowledge-based controlparameters. Artif Intell Rev 51(2):219–253",
+          "journal-title": "Artif Intell Rev"
+        },
+        {
+          "key": "27261_CR21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Farayola AM, Hasan AN, Ali A (2017) Curve fitting polynomial technique compared to ANFIS technique for maximum power point tracking. In: In Proceedings of the 2017 8th International Renewable Energy Congress (IREC), Amman, Jordan, pp 1–6",
+          "DOI": "10.1109/IREC.2017.7926047"
+        },
+        {
+          "key": "27261_CR22",
+          "doi-asserted-by": "crossref",
+          "first-page": "93",
+          "DOI": "10.3103/S0003701X21020080",
+          "volume": "57",
+          "author": "CBN Fapi",
+          "year": "2021",
+          "unstructured": "Fapi CBN, Wira P, Kamta M, Tchakounté H, Colicchio B (2021) Simulation and DSPACE hardware implementation of an improved fractional short-circuit current MPPT algorithm for photovoltaic system. Appl Sol Energy 57:93–106",
+          "journal-title": "Appl Sol Energy"
+        },
+        {
+          "issue": "1",
+          "key": "27261_CR23",
+          "doi-asserted-by": "publisher",
+          "first-page": "36",
+          "DOI": "10.1504/IJBIC.2015.067989",
+          "volume": "7",
+          "author": "I Fister Jr",
+          "year": "2015",
+          "unstructured": "Fister I Jr, Yang X-S, Brest J, Fister D, Fister I (2015) Analysis of randomisation methods in swarm intelligence. Int J Bio-Inspir Com 7(1):36–49. https://doi.org/10.1504/IJBIC.2015.067989",
+          "journal-title": "Int J Bio-Inspir Com"
+        },
+        {
+          "key": "27261_CR24",
+          "doi-asserted-by": "crossref",
+          "first-page": "27",
+          "DOI": "10.1007/978-3-319-02141-6_2",
+          "volume-title": "Cuckoo Search and Firefly Algorithm",
+          "author": "I Fister",
+          "year": "2014",
+          "unstructured": "Fister I, Yang X-S, Brest J (2014) On the randomized firefly algorithm. In: Cuckoo Search and Firefly Algorithm. Springer, pp 27–48"
+        },
+        {
+          "key": "27261_CR25",
+          "doi-asserted-by": "publisher",
+          "first-page": "103476",
+          "DOI": "10.1109/ACCESS.2020.2999311",
+          "volume": "8",
+          "author": "K Guo",
+          "year": "2020",
+          "unstructured": "Guo K, Cui L, Mao M, Zhou L, Zhang Q (2020) An improved gray wolf optimizer MPPT algorithm for PV system with BFBIC converter under partial shading. IEEE Access 8:103476–103490. https://doi.org/10.1109/ACCESS.2020.2999311",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "27261_CR26",
+          "unstructured": "Hassaine L. Mode´ lisation et Simulation d’un Syste`me de Conditionnement de Puissance pour la Poursuite de Puissance Maximale dans les Syste`mesPhotovoltaı¨ques. Algeria: Me´moire de Magister, Ecole Nationale Polytechnique (ENP); Juin 2003."
+        },
+        {
+          "issue": "1",
+          "key": "27261_CR27",
+          "doi-asserted-by": "publisher",
+          "first-page": "265",
+          "DOI": "10.1109/TIE.2018.2829668",
+          "volume": "66",
+          "author": "L Hong",
+          "year": "2019",
+          "unstructured": "Hong L, Yang D, Su W, Lü J, Yu X (2019) An overall distribution particle swarm optimization MPPT algorithm for photovoltaic system under partial shading. IEEE Trans Ind Electron 66(1):265–275. https://doi.org/10.1109/TIE.2018.2829668",
+          "journal-title": "IEEE Trans Ind Electron"
+        },
+        {
+          "key": "27261_CR28",
+          "doi-asserted-by": "publisher",
+          "first-page": "2284",
+          "DOI": "10.3390/en11092284",
+          "volume": "11",
+          "author": "Y-P Huang",
+          "year": "2018",
+          "unstructured": "Huang Y-P, Ye C-E, Chen XA (2018) Modified firefly algorithm with rapid response maximum power point tracking for photovoltaic systems under partial shading conditions. Energies 11:2284. https://doi.org/10.3390/en11092284",
+          "journal-title": "Energies"
+        },
+        {
+          "issue": "2",
+          "key": "27261_CR29",
+          "doi-asserted-by": "crossref",
+          "first-page": "179",
+          "DOI": "10.6113/JPE.2011.11.2.179",
+          "volume": "11",
+          "author": "K Ishaque",
+          "year": "2011",
+          "unstructured": "Ishaque K, Salam Z, Taheri H (2011) Accurate MATLAB simulink PV system simulator based on a two-diode model. J Power Electron 11(2):179–187",
+          "journal-title": "J Power Electron"
+        },
+        {
+          "issue": "6",
+          "key": "27261_CR30",
+          "first-page": "e12020",
+          "volume": "29",
+          "author": "V Jha",
+          "year": "2019",
+          "unstructured": "Jha V, Triar US (2019) A detailed comparative analysis of different photovoltaic array configurations under partial shading conditions. Int Trans Electric Energy Syst 29(6):e12020",
+          "journal-title": "Int Trans Electric Energy Syst"
+        },
+        {
+          "issue": "4",
+          "key": "27261_CR31",
+          "doi-asserted-by": "crossref",
+          "first-page": "1001",
+          "DOI": "10.1109/TPEL.2010.2089537",
+          "volume": "26",
+          "author": "Y Ji",
+          "year": "2011",
+          "unstructured": "Ji Y, Jung D, Kim J, Kim J, Lee T, Won C (2011) A real maximum power point tracking method for mismatching compensation in PV array under partially shaded conditions. IEEE Trans Power Electron 26(4):1001–1009",
+          "journal-title": "IEEE Trans Power Electron"
+        },
+        {
+          "key": "27261_CR32",
+          "doi-asserted-by": "publisher",
+          "first-page": "700",
+          "DOI": "10.3390/app10020700",
+          "volume": "10",
+          "author": "C Kalogerakis",
+          "year": "2020",
+          "unstructured": "Kalogerakis C, Koutroulis E, Lagoudakis MG (2020) Global MPPT based on machine-learning for PV arrays operating under partial shading conditions. Appl Sci 10:700. https://doi.org/10.3390/app10020700",
+          "journal-title": "Appl Sci"
+        },
+        {
+          "key": "27261_CR33",
+          "doi-asserted-by": "crossref",
+          "first-page": "3144",
+          "DOI": "10.3390/su13063511",
+          "volume": "13",
+          "author": "N Kanagaraj",
+          "year": "2021",
+          "unstructured": "Kanagaraj N (2021) Photovoltaic and thermoelectric generator combined hybrid energy system with an enhanced maximum power point tracking technique for higher energy conversion efficiency. Sustainability 13:3144",
+          "journal-title": "Sustainability"
+        },
+        {
+          "key": "27261_CR34",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Khan NM, Khan UA, Zafar MH (2021) Maximum power point tracking of PV system under uniform irradiance and partial shading conditions using machine learning algorithm trained by sailfish optimizer. In: 2021 4th International Conference on Energy Conservation and Efficiency (ICECE), Lahore, Pakistan, pp 1–6. https://doi.org/10.1109/ICECE51984.2021.9406288",
+          "DOI": "10.1109/ICECE51984.2021.9406288"
+        },
+        {
+          "issue": "2",
+          "key": "27261_CR35",
+          "doi-asserted-by": "crossref",
+          "first-page": "468",
+          "DOI": "10.1109/TSTE.2016.2606421",
+          "volume": "8",
+          "author": "RBA Koad",
+          "year": "2017",
+          "unstructured": "Koad RBA, Zobaa AF, El-Shahat A (2017) A novel MPPT algorithm based on particle swarm optimization for photovoltaic systems. IEEE Trans Sustain Energy 8(2):468–476",
+          "journal-title": "IEEE Trans Sustain Energy"
+        },
+        {
+          "issue": "2",
+          "key": "27261_CR36",
+          "doi-asserted-by": "crossref",
+          "first-page": "184",
+          "DOI": "10.1109/JPHOTOV.2012.2183578",
+          "volume": "2",
+          "author": "E Koutroulis",
+          "year": "2012",
+          "unstructured": "Koutroulis E, Blaabjerg F (2012) A new technique for tracking the global maximum power point of PV arrays operating under partial-shading conditions. IEEE J Photovolt 2(2):184–190",
+          "journal-title": "IEEE J Photovolt"
+        },
+        {
+          "issue": "6",
+          "key": "27261_CR37",
+          "doi-asserted-by": "crossref",
+          "first-page": "5734",
+          "DOI": "10.1109/TIA.2017.2725954",
+          "volume": "53",
+          "author": "N Kumar",
+          "year": "2017",
+          "unstructured": "Kumar N, Hussain I, Singh B, Panigrahi BK (2017a) Maximum power peak detection of partially shaded PV panel by using intelligent monkey king evolution algorithm. IEEE Trans Ind Appl 53(6):5734–5743",
+          "journal-title": "IEEE Trans Ind Appl"
+        },
+        {
+          "issue": "3",
+          "key": "27261_CR38",
+          "doi-asserted-by": "crossref",
+          "first-page": "1204",
+          "DOI": "10.1109/TSTE.2017.2669525",
+          "volume": "8",
+          "author": "N Kumar",
+          "year": "2017",
+          "unstructured": "Kumar N, Hussain I, Singh B, Panigrahi BK (2017b) MPPT in dynamic condition of partially shaded PV system by using WODE technique. IEEE Trans Sustain Energy 8(3):1204–1214",
+          "journal-title": "IEEE Trans Sustain Energy"
+        },
+        {
+          "issue": "1",
+          "key": "27261_CR39",
+          "doi-asserted-by": "crossref",
+          "first-page": "265",
+          "DOI": "10.1109/TIE.2018.2829668",
+          "volume": "66",
+          "author": "H Li",
+          "year": "2018",
+          "unstructured": "Li H, Yang D, Su W, Lü J, Yu X (2018) An overall distribution particle swarm optimization MPPT algorithm for photovoltaic system under partial shading. IEEE Trans Ind Electron 66(1):265–275",
+          "journal-title": "IEEE Trans Ind Electron"
+        },
+        {
+          "issue": "4",
+          "key": "27261_CR40",
+          "doi-asserted-by": "crossref",
+          "first-page": "429",
+          "DOI": "10.1049/ip-gtd:19951858",
+          "volume": "142",
+          "author": "CF Lu",
+          "year": "1995",
+          "unstructured": "Lu CF, Liu CC, Wu CJ (1995) Dynamic modeling of battery energy storage system and application to power system stability. IEE Proc Gener Transm Distrib 142(4):429–435",
+          "journal-title": "IEE Proc Gener Transm Distrib"
+        },
+        {
+          "key": "27261_CR41",
+          "doi-asserted-by": "publisher",
+          "first-page": "936",
+          "DOI": "10.3390/en12050936",
+          "volume": "12",
+          "author": "DN Luta",
+          "year": "2019",
+          "unstructured": "Luta DN, Raji AK (2019) Fuzzy rule-based and particle swarm optimisation MPPT techniques for a fuel cell stack. Energies 12:936. https://doi.org/10.3390/en12050936",
+          "journal-title": "Energies"
+        },
+        {
+          "issue": "1",
+          "key": "27261_CR42",
+          "doi-asserted-by": "crossref",
+          "first-page": "173",
+          "DOI": "10.1109/TEC.2011.2175928",
+          "volume": "27",
+          "author": "A Maki",
+          "year": "2012",
+          "unstructured": "Maki A, Valkealahti S (2012) Power losses in long string and parallel connected short strings of series-connected silicon-based photovoltaic modules due to partial shading conditions. IEEE Trans Energy Convers 27(1):173–183",
+          "journal-title": "IEEE Trans Energy Convers"
+        },
+        {
+          "issue": "4",
+          "key": "27261_CR43",
+          "doi-asserted-by": "publisher",
+          "first-page": "4832",
+          "DOI": "10.1109/JESTPE.2022.3150008",
+          "volume": "10",
+          "author": "SG Malla",
+          "year": "2022",
+          "unstructured": "Malla SG, Malla P, Malla JMR, Singla R, Choudekar P, Koilada R, Sahu MK (2022) Whale optimization algorithm for PV based water pumping system driven by BLDC motor using sliding mode controller. IEEE J Emerg Sel Top Power Electron 10(4):4832–4844. https://doi.org/10.1109/JESTPE.2022.3150008",
+          "journal-title": "IEEE J Emerg Sel Top Power Electron"
+        },
+        {
+          "key": "27261_CR44",
+          "doi-asserted-by": "crossref",
+          "first-page": "265",
+          "DOI": "10.1016/j.enconman.2015.03.068",
+          "volume": "97",
+          "author": "H Mamur",
+          "year": "2015",
+          "unstructured": "Mamur H, Ahiska R (2015) Application of a DC–DC boost converter with maximum power point tracking for low power thermoelectric generators. Energy Convers Manag 97:265–272",
+          "journal-title": "Energy Convers Manag"
+        },
+        {
+          "key": "27261_CR45",
+          "doi-asserted-by": "crossref",
+          "first-page": "e12543",
+          "DOI": "10.1002/2050-7038.12543",
+          "volume": "30",
+          "author": "DK Mathi",
+          "year": "2020",
+          "unstructured": "Mathi DK, Chinthamalla R (2020) A hybrid global maximum power point tracking method based on butterfly particle swarm optimization and perturb and observe algorithms for a photovoltaic system under partially shaded conditions. Int Trans Electr Energ Syst 30:e12543",
+          "journal-title": "Int Trans Electr Energ Syst"
+        },
+        {
+          "issue": "3-4",
+          "key": "27261_CR46",
+          "doi-asserted-by": "crossref",
+          "first-page": "107",
+          "DOI": "10.1016/S0079-6727(00)00003-3",
+          "volume": "24",
+          "author": "T Markvart",
+          "year": "2000",
+          "unstructured": "Markvart T (2000) Light harvesting for quantum solar energy conversion. Prog Quantum Electron 24(3-4):107–186",
+          "journal-title": "Prog Quantum Electron"
+        },
+        {
+          "key": "27261_CR47",
+          "doi-asserted-by": "publisher",
+          "first-page": "89",
+          "DOI": "10.1016/j.epsr.2018.05.005",
+          "volume": "162",
+          "author": "AD Martin",
+          "year": "2018",
+          "unstructured": "Martin AD, Vazquez JR, Cano JM (2018) MPPT in PV systems under partial shading conditions using artificial vision. Electr Power Syst Res 162:89–98. https://doi.org/10.1016/j.epsr.2018.05.005",
+          "journal-title": "Electr Power Syst Res"
+        },
+        {
+          "key": "27261_CR48",
+          "doi-asserted-by": "publisher",
+          "first-page": "392",
+          "DOI": "10.1109/OJIES.2022.3179284",
+          "volume": "3",
+          "author": "IS Millah",
+          "year": "2022",
+          "unstructured": "Millah IS, Chang PC, Teshome DF, Subroto RK, Lian KL, Lin JF (2022) An enhanced grey wolf optimization algorithm for photovoltaic maximum power point tracking control under partial shading conditions. IEEE Open J Ind Electron 3:392–408. https://doi.org/10.1109/OJIES.2022.3179284",
+          "journal-title": "IEEE Open J Ind Electron"
+        },
+        {
+          "issue": "1",
+          "key": "27261_CR49",
+          "doi-asserted-by": "crossref",
+          "first-page": "181",
+          "DOI": "10.1109/TSTE.2015.2482120",
+          "volume": "7",
+          "author": "S Mohanty",
+          "year": "2016",
+          "unstructured": "Mohanty S, Subudhi B, Ray PK (2016) A new MPPT design using grey wolf optimization technique for photovoltaic system under partial shading conditions. IEEE Trans Sustain Energy 7(1):181–188",
+          "journal-title": "IEEE Trans Sustain Energy"
+        },
+        {
+          "issue": "1",
+          "key": "27261_CR50",
+          "doi-asserted-by": "crossref",
+          "first-page": "181",
+          "DOI": "10.1109/TSTE.2015.2482120",
+          "volume": "7",
+          "author": "S Mohanty",
+          "year": "2015",
+          "unstructured": "Mohanty S, Subudhi B, Ray PK (2015) A new MPPT design using grey wolf optimization technique for photovoltaic system under partial shading conditions. IEEE Trans Sustain Energy 7(1):181–188",
+          "journal-title": "IEEE Trans Sustain Energy"
+        },
+        {
+          "key": "27261_CR51",
+          "doi-asserted-by": "publisher",
+          "first-page": "4555",
+          "DOI": "10.1007/s00521-021-06611-5",
+          "volume": "34",
+          "author": "A Mokhtar",
+          "year": "2022",
+          "unstructured": "Mokhtar A, Rezk H (2022) An improved fuzzy logic control-based MPPT method to enhance the performance of PEM fuel cell system. Neural Comput & Applic 34:4555–4566. https://doi.org/10.1007/s00521-021-06611-5",
+          "journal-title": "Neural Comput & Applic"
+        },
+        {
+          "key": "27261_CR52",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Motahhir S, El Ghzizal A, Sebti S, Derouich A (2018a) Modeling of photovoltaic system with modified incremental conductance algorithm for fast changes of irradiance. Int J Photoenergy 13:1-13.",
+          "DOI": "10.1155/2018/3286479"
+        },
+        {
+          "key": "27261_CR53",
+          "doi-asserted-by": "crossref",
+          "first-page": "34",
+          "DOI": "10.1016/j.egyr.2018.04.003",
+          "volume": "4",
+          "author": "S Motahhir",
+          "year": "2018",
+          "unstructured": "Motahhir S, El Hammoumi A, El Ghzizal A (2018b) Photovoltaic system with quantitative comparative between an improved MPPT and existing INC and P&O methods under fast varying of solar irradiation. Energy Reports 4:34–350",
+          "journal-title": "Energy Reports"
+        },
+        {
+          "key": "27261_CR54",
+          "first-page": "1",
+          "volume-title": "In 2015 3rd International Renewable and Sustainable Energy Conference (IRSEC)",
+          "author": "S Motahhir",
+          "year": "2015",
+          "unstructured": "Motahhir S, El Ghzizal A, Sebti S, Derouich A (2015) Proposal and implementation of a novel perturb and observe algorithm using embedded software. In: In 2015 3rd International Renewable and Sustainable Energy Conference (IRSEC). IEEE, pp 1–5"
+        },
+        {
+          "key": "27261_CR55",
+          "doi-asserted-by": "crossref",
+          "first-page": "355",
+          "DOI": "10.1016/j.jclepro.2018.08.246",
+          "volume": "204",
+          "author": "S Motahhir",
+          "year": "2018",
+          "unstructured": "Motahhir S, AbdelilahChalh AEG, Derouich A (2018c) Development of a low-cost PV system using an improve INC algorithm and a PV panel Proteus model. J Clean Prod 204:355–365",
+          "journal-title": "J Clean Prod"
+        },
+        {
+          "issue": "10",
+          "key": "27261_CR56",
+          "doi-asserted-by": "crossref",
+          "first-page": "3456",
+          "DOI": "10.1109/TIE.2009.2039450",
+          "volume": "57",
+          "author": "TL Nguyen",
+          "year": "2010",
+          "unstructured": "Nguyen TL, Low K (2010) A global maximum power point tracking scheme employing direct search algorithm for photovoltaic systems. IEEE Trans Ind Electron 57(10):3456–3467",
+          "journal-title": "IEEE Trans Ind Electron"
+        },
+        {
+          "key": "27261_CR57",
+          "doi-asserted-by": "publisher",
+          "first-page": "7205",
+          "DOI": "10.3390/su14127205",
+          "volume": "14",
+          "author": "JS Oliver",
+          "year": "2022",
+          "unstructured": "Oliver JS, David PW, Balachandran PK, Mihet-Popa L (2022) Analysis of grid-interactive PV-fed BLDC pump using optimized MPPT in DC–DC converters. Sustainability 14:7205. https://doi.org/10.3390/su14127205",
+          "journal-title": "Sustainability"
+        },
+        {
+          "issue": "1",
+          "key": "27261_CR58",
+          "doi-asserted-by": "publisher",
+          "first-page": "524",
+          "DOI": "10.1109/TSTE.2020.3009054",
+          "volume": "12",
+          "author": "A Ostadrahimi",
+          "year": "2021",
+          "unstructured": "Ostadrahimi A, Mahmoud Y (2021) Novel spline-MPPT technique for photovoltaic systems under uniform irradiance and partial shading conditions. IEEE Trans Sustain Energy 12(1):524–532. https://doi.org/10.1109/TSTE.2020.3009054",
+          "journal-title": "IEEE Trans Sustain Energy"
+        },
+        {
+          "issue": "4",
+          "key": "27261_CR59",
+          "doi-asserted-by": "crossref",
+          "first-page": "1689",
+          "DOI": "10.1109/TIE.2008.917118",
+          "volume": "55",
+          "author": "H Patel",
+          "year": "2008",
+          "unstructured": "Patel H, Agarwal V (2008) Maximum power point tracking scheme for PV systems operating under partially shaded conditions. IEEE Trans Ind Electron 55(4):1689–1698",
+          "journal-title": "IEEE Trans Ind Electron"
+        },
+        {
+          "key": "27261_CR60",
+          "doi-asserted-by": "crossref",
+          "first-page": "2708",
+          "DOI": "10.3390/en11102708",
+          "volume": "11",
+          "author": "TT Pei",
+          "year": "2018",
+          "unstructured": "Pei TT, Hao XH, Gu Q (2018) A novel global maximum power point tracking strategy based on modified flower pollination algorithm for photovoltaic systems under non-uniform irradiation and temperature conditions. Energies 11:2708",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "27261_CR61",
+          "doi-asserted-by": "publisher",
+          "first-page": "26090",
+          "DOI": "10.1109/ACCESS.2022.3156124",
+          "volume": "10",
+          "author": "I Pervez",
+          "year": "2022",
+          "unstructured": "Pervez I, Antoniadis C, Massoud Y (2022) A reduced search space exploration metaheuristic algorithm for MPPT. IEEE Access 10:26090–26100. https://doi.org/10.1109/ACCESS.2022.3156124",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "27261_CR62",
+          "doi-asserted-by": "publisher",
+          "first-page": "3039",
+          "DOI": "10.3390/s20113039",
+          "volume": "20",
+          "author": "BC Phan",
+          "year": "2020",
+          "unstructured": "Phan BC, Lai Y-C, Lin CE (2020) A deep reinforcement learning-based MPPT control for PV systems under partial shading condition. Sensors 20:3039. https://doi.org/10.3390/s20113039",
+          "journal-title": "Sensors"
+        },
+        {
+          "key": "27261_CR63",
+          "doi-asserted-by": "crossref",
+          "first-page": "37",
+          "DOI": "10.1016/j.solener.2018.12.008",
+          "volume": "178",
+          "author": "D Pilakkat",
+          "year": "2019",
+          "unstructured": "Pilakkat D, Kanthalakshmi S (2019) An improved P&O algorithm integrated with artificial bee colony for photovoltaic systems under partial shading conditions. Solar Energy 178:37–47",
+          "journal-title": "Solar Energy"
+        },
+        {
+          "key": "27261_CR64",
+          "doi-asserted-by": "crossref",
+          "first-page": "1910",
+          "DOI": "10.1016/j.egyr.2020.07.019",
+          "volume": "6",
+          "author": "D Pilakkat",
+          "year": "2020",
+          "unstructured": "Pilakkat D, Kanthalakshmi S (2020) Single phase PV system operating under partially shaded conditions with ABC-PO as MPPT algorithm for grid connected applications. Energy Reports 6:1910–1921",
+          "journal-title": "Energy Reports"
+        },
+        {
+          "issue": "6283",
+          "key": "27261_CR65",
+          "doi-asserted-by": "crossref",
+          "first-page": "aad4424",
+          "DOI": "10.1126/science.aad4424",
+          "volume": "352",
+          "author": "A Polman",
+          "year": "2018",
+          "unstructured": "Polman A, Knight M, Garnett E, Ehrler B, Sinke W (2018) Photovoltaic materials: present efficiencies and future challenges. Science 352(6283):aad4424",
+          "journal-title": "Science"
+        },
+        {
+          "issue": "1",
+          "key": "27261_CR66",
+          "doi-asserted-by": "crossref",
+          "first-page": "167",
+          "DOI": "10.3390/en12010167",
+          "volume": "12",
+          "author": "N Priyadarshi",
+          "year": "2019",
+          "unstructured": "Priyadarshi N, Ramachandaramurthy V, Padmanaban S, Azam F (2019) An ant colony optimized MPPT for standalone hybrid PV-wind power system with single Cuk converter. Energies 12(1):167",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "27261_CR67",
+          "doi-asserted-by": "publisher",
+          "first-page": "330",
+          "DOI": "10.1016/j.energy.2013.08.022",
+          "volume": "62",
+          "author": "K Punitha",
+          "year": "2013",
+          "unstructured": "Punitha K, Devaraj D, Sakthivel S (2013) Artificial neural network based modified incremental conductance algorithm for maximum power point tracking in photovoltaic system under partial shading conditions. Energy 62:330–340. https://doi.org/10.1016/j.energy.2013.08.022",
+          "journal-title": "Energy"
+        },
+        {
+          "key": "27261_CR68",
+          "doi-asserted-by": "crossref",
+          "first-page": "103328",
+          "DOI": "10.1016/j.engappai.2019.103328",
+          "volume": "87",
+          "author": "MH Qais",
+          "year": "2020",
+          "unstructured": "Qais MH, Hasanien HM, Alghuwainem S (2020) Whale optimization algorithm-based Sugeno fuzzy logic controller for fault ride-through improvement of grid-connected variable speed wind generators. Eng Appl Artif Intell 87:103328",
+          "journal-title": "Eng Appl Artif Intell"
+        },
+        {
+          "key": "27261_CR69",
+          "first-page": "100556",
+          "volume": "36",
+          "author": "H Rezk",
+          "year": "2019",
+          "unstructured": "Rezk H, Abdelkareem MA, Ghenai C (2019) Performance evaluation and optimal design of stand-alone solar pv-battery system for irrigation in isolated regions: a case study in al minya (egypt). Sustain Energy Technol Assess 36:100556",
+          "journal-title": "Sustain Energy Technol Assess"
+        },
+        {
+          "key": "27261_CR70",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Seyedmahmoudian M, Soon TK, Horan B, Ghandhari A, Mekhilef S, Stojcevski A (2019) New ARMO-based MPPT technique to minimize tracking time and fluctuation at output of PV systems under rapidly changing shading conditions. IEEE Trans Ind Inform, 1-1. https://doi.org/10.1109/TII.2019.2895066",
+          "DOI": "10.1109/TII.2019.2895066"
+        },
+        {
+          "issue": "1",
+          "key": "27261_CR71",
+          "doi-asserted-by": "crossref",
+          "first-page": "89",
+          "DOI": "10.1109/TSTE.2012.2202294",
+          "volume": "4",
+          "author": "B Subudhi",
+          "year": "2013",
+          "unstructured": "Subudhi B, Pradhan R (2013) A comparative study on maximum power point tracking techniques for photovoltaic power systems. IEEE Trans Sustain Energy 4(1):89–98",
+          "journal-title": "IEEE Trans Sustain Energy"
+        },
+        {
+          "issue": "9",
+          "key": "27261_CR72",
+          "doi-asserted-by": "publisher",
+          "first-page": "6709",
+          "DOI": "10.1016/j.ijhydene.2020.11.121.",
+          "volume": "46",
+          "author": "S Srinivasan",
+          "year": "2021",
+          "unstructured": "Srinivasan S, Tiwari R, Krishnamoorthy M, Lalitha MP, Raj KK (2021) Neural network based MPPT control with reconfigured quadratic boost converter for fuel cell application. Int J Hydrog Energy 46(9):6709–6719. https://doi.org/10.1016/j.ijhydene.2020.11.121.",
+          "journal-title": "Int J Hydrog Energy"
+        },
+        {
+          "issue": "2",
+          "key": "27261_CR73",
+          "doi-asserted-by": "publisher",
+          "first-page": "640",
+          "DOI": "10.1109/JPHOTOV.2017.2649600",
+          "volume": "7",
+          "author": "T Shiqing",
+          "year": "2017",
+          "unstructured": "Shiqing T, Sun Y, Chen Y, Zhao Y, Yang Y, Szeto W (2017) An enhanced MPPT method combining fractional-order and fuzzy logic control. in IEEE Journal of Photovoltaics 7(2):640–650. https://doi.org/10.1109/JPHOTOV.2017.2649600",
+          "journal-title": "in IEEE Journal of Photovoltaics"
+        },
+        {
+          "key": "27261_CR74",
+          "doi-asserted-by": "crossref",
+          "first-page": "82",
+          "DOI": "10.1109/ISIEA.2010.5679492",
+          "volume-title": "In 2010 IEEE symposium on industrial electronics and applications (ISIEA)",
+          "author": "H Taheri",
+          "year": "2010",
+          "unstructured": "Taheri H, Salam Z, Ishaque K (2010) A novel maximum power point tracking control of photovoltaic system under partial and rapidly fluctuating shadow conditions using differential evolution. In: In 2010 IEEE symposium on industrial electronics and applications (ISIEA). IEEE, pp 82–87"
+        },
+        {
+          "key": "27261_CR75",
+          "doi-asserted-by": "crossref",
+          "first-page": "116491",
+          "DOI": "10.1016/j.energy.2019.116491",
+          "volume": "191",
+          "author": "JC Teo",
+          "year": "2020",
+          "unstructured": "Teo JC, Tan RH, Mok VH, Ramachandaramurthy VK, Tan C (2020) Impact of bypass diode forward voltage on maximum power of a photovoltaic system under partial shading conditions. Energy 191:116491",
+          "journal-title": "Energy"
+        },
+        {
+          "key": "27261_CR76",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tey KS, Mekhilef S, Yang HT, Chuang MK (2014) A differential evolution based MPPT method for photovoltaic modules under partial shading conditions. Int J Photoenergy, 1-11.",
+          "DOI": "10.1155/2014/945906"
+        },
+        {
+          "issue": "10",
+          "key": "27261_CR77",
+          "doi-asserted-by": "crossref",
+          "first-page": "4322",
+          "DOI": "10.1109/TII.2018.2793210",
+          "volume": "14",
+          "author": "S Tey",
+          "year": "2018",
+          "unstructured": "Tey S, Mekhilef S, Seyedmahmoudian M, Horan B, Oo AT, Stojcevski A (2018) Improved differential evolution-basedMPPT algorithm using SEPIC for PV systems under partial shading conditions and load variation. IEEE Trans Ind Inform 14(10):4322–4333",
+          "journal-title": "IEEE Trans Ind Inform"
+        },
+        {
+          "key": "27261_CR78",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tizhoosh HR (2006) Opposition-based reinforcement learning. J Adv Comput Intell Intell Inform 10, 578-585.",
+          "DOI": "10.20965/jaciii.2006.p0578"
+        },
+        {
+          "issue": "5",
+          "key": "27261_CR79",
+          "doi-asserted-by": "publisher",
+          "first-page": "2472",
+          "DOI": "10.1007/s13198-022-01658-6",
+          "volume": "13",
+          "author": "SK Vankadara",
+          "year": "2022",
+          "unstructured": "Vankadara SK, Chatterjee S, Balachandran PK (2022a) An accurate analytical modeling of solar photovoltaic system considering Rs and Rsh under partial shaded condition. Int J Syst Assur EngManag 13(5):2472–2481. https://doi.org/10.1007/s13198-022-01658-6",
+          "journal-title": "Int J Syst Assur EngManag"
+        },
+        {
+          "key": "27261_CR80",
+          "doi-asserted-by": "publisher",
+          "first-page": "6172",
+          "DOI": "10.3390/en15176172",
+          "volume": "15",
+          "author": "SK Vankadara",
+          "year": "2022",
+          "unstructured": "Vankadara SK, Chatterjee S, Balachandran PK, Mihet-Popa L (2022b) Marine predator algorithm (MPA)-based MPPT technique for solar PV systems under partial shading Conditions. Energies 15:6172. https://doi.org/10.3390/en15176172",
+          "journal-title": "Energies"
+        },
+        {
+          "issue": "10",
+          "key": "27261_CR81",
+          "doi-asserted-by": "crossref",
+          "first-page": "2472",
+          "DOI": "10.3390/en13102472",
+          "volume": "13",
+          "author": "RG Vieira",
+          "year": "2020",
+          "unstructured": "Vieira RG, de Araújo FM, Dhimish M, Guerra MI (2020) A comprehensive review on bypass diode application on photovoltaic modules. Energies 13(10):2472",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "27261_CR82",
+          "first-page": "1",
+          "volume-title": "In Proceedings of the 2007 European Conference on Power Electronics and Applications",
+          "author": "MA Vitorino",
+          "year": "2007",
+          "unstructured": "Vitorino MA, Hartmann LV, Lima AM, Corrêa MB (2007) Using the model of the solar cell for determining the maximum power point of photovoltaic systems. In: In Proceedings of the 2007 European Conference on Power Electronics and Applications. IEEE, Aalborg, Denmark, pp 1–10"
+        },
+        {
+          "key": "27261_CR83",
+          "doi-asserted-by": "crossref",
+          "first-page": "101",
+          "DOI": "10.1016/j.asoc.2017.10.039",
+          "volume": "62",
+          "author": "ZQ Wu",
+          "year": "2018",
+          "unstructured": "Wu ZQ, Yu DQ (2018) Application of improved bat algorithm for solar PV maximum power point tracking under partially shaded condition. Appl Soft Comput 62:101–109",
+          "journal-title": "Appl Soft Comput"
+        },
+        {
+          "key": "27261_CR84",
+          "doi-asserted-by": "publisher",
+          "first-page": "1079",
+          "DOI": "10.1016/j.energy.2019.03.053",
+          "volume": "174",
+          "author": "X Zhang",
+          "year": "2019",
+          "unstructured": "Zhang X, Li S, He T, Yang B, Yu T, Li H, Lin J, Sun L (2019) Memetic reinforcement learning based maximum power point tracking design for PV systems under partial shading condition. Energy 174:1079–1090. https://doi.org/10.1016/j.energy.2019.03.053",
+          "journal-title": "Energy"
+        },
+        {
+          "key": "27261_CR85",
+          "doi-asserted-by": "crossref",
+          "first-page": "48",
+          "DOI": "10.1016/j.ijleo.2018.05.037",
+          "volume": "169",
+          "author": "OW Yin",
+          "year": "2018",
+          "unstructured": "Yin OW, Babu BC (2018) Simple and easy approach for mathematical analysis of photovoltaic (PV) module under normal and partial shading conditions. Optik 169:48–61",
+          "journal-title": "Optik"
+        },
+        {
+          "key": "27261_CR86",
+          "doi-asserted-by": "publisher",
+          "first-page": "121432",
+          "DOI": "10.1109/ACCESS.2019.2937600",
+          "volume": "7",
+          "author": "D Yousri",
+          "year": "2019",
+          "unstructured": "Yousri D, Babu TS, Allam D, Ramachandaramurthy VK, Etiba MB (2019a) A novel chaotic flower pollination algorithm for global maximum power point tracking for photovoltaic system under partial shading conditions. IEEE Access 7:121432–121445. https://doi.org/10.1109/ACCESS.2019.2937600",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "27261_CR87",
+          "doi-asserted-by": "crossref",
+          "first-page": "9805",
+          "DOI": "10.1016/j.egyr.2022.07.153",
+          "volume": "8",
+          "author": "D Yousri",
+          "year": "2022",
+          "unstructured": "Yousri D, El-Saadany EF, Shaker Y, Babu TS, Zobaa AF, Allam D (2022) Mitigating mismatch power loss of series–parallel and total-cross-tied array configurations using novel enhanced heterogeneous hunger games search optimizer. Energy Reports 8:9805–9827",
+          "journal-title": "Energy Reports"
+        },
+        {
+          "key": "27261_CR88",
+          "doi-asserted-by": "publisher",
+          "first-page": "3548",
+          "DOI": "10.3390/en12183548",
+          "volume": "12",
+          "author": "D Yousri",
+          "year": "2019",
+          "unstructured": "Yousri D, Babu TS, Allam D, Ramachandaramurthy VK, Beshr E, Eteiba MB (2019b) Fractional chaos maps with flower pollination algorithm for partial shading mitigation of photovoltaic systems. Energies 12:3548. https://doi.org/10.3390/en12183548",
+          "journal-title": "Energies"
+        }
+      ],
+      "container-title": [
+        "Environmental Science and Pollution Research"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s11356-023-27261-1.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/article/10.1007/s11356-023-27261-1/fulltext.html",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s11356-023-27261-1.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            10
+          ]
+        ],
+        "date-time": "2023-06-10T04:37:06Z",
+        "timestamp": 1686371826000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://link.springer.com/10.1007/s11356-023-27261-1"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            13
+          ]
+        ]
+      },
+      "references-count": 88,
+      "journal-issue": {
+        "issue": "28",
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              6
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "27261"
+      ],
+      "URL": "https://doi.org/10.1007/s11356-023-27261-1",
+      "relation": {},
+      "ISSN": [
+        "1614-7499"
+      ],
+      "issn-type": [
+        {
+          "value": "1614-7499",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            13
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "25 November 2022",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "23 April 2023",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "13 May 2023",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Declarations"
+          }
+        },
+        {
+          "value": "The paper is not currently being considered for publication elsewhere.",
+          "order": 2,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Ethical approval"
+          }
+        },
+        {
+          "value": "Not applicable",
+          "order": 3,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Consent to participate"
+          }
+        },
+        {
+          "value": "Not applicable",
+          "order": 4,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Consent for publication"
+          }
+        },
+        {
+          "value": "The authors declare no competing interests.",
+          "order": 5,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        }
+      ]
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Belqasem Aljafari",
+      "given_name_from_source": "Belqasem",
+      "family_name_from_source": "Aljafari",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Devakirubakaran Samithas",
+      "given_name_from_source": "Devakirubakaran",
+      "family_name_from_source": "Samithas",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Sudhakar Babu Thanikanti",
+      "given_name_from_source": "Sudhakar Babu",
+      "family_name_from_source": "Thanikanti",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

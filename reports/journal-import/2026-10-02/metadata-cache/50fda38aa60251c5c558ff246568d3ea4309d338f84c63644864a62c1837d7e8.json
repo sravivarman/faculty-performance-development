@@ -1,0 +1,626 @@
+{
+  "doi": "10.1002/ese3.70113",
+  "title": "Solar FaultNet: Advanced Fault Detection and Classification in Solar PV Systems Using SwinProba‐GeNet and BaBa Optimizer Models",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Energy Science &amp; Engineering",
+  "publisher": "Wiley",
+  "publication_date": "2025-04-29",
+  "online_publication_date": "2025-04-29",
+  "print_publication_date": null,
+  "volume": "13",
+  "issue": "7",
+  "pages_or_article_number": "3551-3568",
+  "issn": "2050-0505",
+  "eissn": "2050-0505",
+  "isbn": null,
+  "url": "https://doi.org/10.1002/ese3.70113",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:42.880571+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            29
+          ]
+        ],
+        "date-time": "2026-05-29T19:18:24Z",
+        "timestamp": 1780082304172,
+        "version": "3.54.0"
+      },
+      "reference-count": 50,
+      "publisher": "Wiley",
+      "issue": "7",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                29
+              ]
+            ],
+            "date-time": "2025-04-29T00:00:00Z",
+            "timestamp": 1745884800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "scijournals.onlinelibrary.wiley.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Energy Science &amp; Engineering"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            7
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title><jats:p>Detection of faults in solar photovoltaic (PV) systems is an important concern to guarantee that renewable energy source generation keeps its efficiency and reliability. It directly affects the development of sustainable development goals (SDGs), especially those on affordable and clean energy and climate action. However, most of the existing research studies related to fault detection methods have suffered from low accuracy, higher error rates, and time‐consuming processes when dealing with complex fault types in real‐time. The work is therefore targeted at trying to address these challenges in the development of an efficient and reliable model that could be applicable in the fault detection for solar PV systems. It also proposes the Solar FaultNet‐a novel deep learning‐based approach that significantly improves fault detection performance in solar PV systems and integrates the model with state‐of‐the‐art ML techniques like CNN and LSTM to capture inherent complex patterns and interdependencies of fault data. Besides, the proposed model outperforms conventional machine‐learning algorithms and state‐of‐the‐art deep‐ learning models for better performance by yielding higher accuracy, precision, recall, F1‐score, and low error rate on various fault types such as PV array faults, inverter faults, grid synchronization faults, and environmental faults. Experimental results show that Solar FaultNet outperforms the existing state‐of‐the‐art machine‐learning algorithms and deep‐learning architectures, achieving a precision of 99.1%, recall of 99%, F1‐score of 98.9%, and an error rate as low as 0.018%. In addition, the model enjoys high efficiency at 15 s training time and 25 s testing time in handling various types of faults such as PV array faults, inverter faults, grid synchronization faults, and environmental faults.</jats:p>",
+      "DOI": "10.1002/ese3.70113",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            30
+          ]
+        ],
+        "date-time": "2025-04-30T01:11:12Z",
+        "timestamp": 1745975472000
+      },
+      "page": "3551-3568",
+      "update-policy": "https://doi.org/10.1002/crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 4,
+      "title": [
+        "Solar FaultNet: Advanced Fault Detection and Classification in Solar PV Systems Using SwinProba‐GeNet and BaBa Optimizer Models"
+      ],
+      "prefix": "10.1002",
+      "volume": "13",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-1561-1376",
+          "authenticated-orcid": false,
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Electrical, Electronic and Systems Engineering, Faculty Engineering and Built Environment UniversitiKebangsaan Malaysia Selangor Malaysia"
+            },
+            {
+              "name": "Department of Electrical and Electronics Engineering Vardhaman College of Engineering Hyderabad India"
+            },
+            {
+              "name": "Department of Electrical and Electronics Engineering Chennai Institute of Technology Chennai India"
+            },
+            {
+              "name": "Centre for Research Impact and Outcome Chitkara University Institute of Engineering and Technology, Chitkara University Rajpura India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9134-4869",
+          "authenticated-orcid": false,
+          "given": "Muhammad Ammirrul Atiqi Mohd",
+          "family": "Zainuri",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical, Electronic and Systems Engineering, Faculty Engineering and Built Environment UniversitiKebangsaan Malaysia Selangor Malaysia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4378-5111",
+          "authenticated-orcid": false,
+          "given": "Faisal",
+          "family": "Alsaif",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical Engineering, College of Engineering King Saud University Riyadh Saudi Arabia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "311",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            29
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_10_2_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.rineng.2024.102622"
+        },
+        {
+          "key": "e_1_2_10_3_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.enconman.2024.118076"
+        },
+        {
+          "key": "e_1_2_10_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jclepro.2024.140944"
+        },
+        {
+          "key": "e_1_2_10_5_1",
+          "first-page": "50",
+          "article-title": "Deep Learning Approaches for Crack Detection in Solar PV Panels",
+          "volume": "1",
+          "author": "Umar S.",
+          "year": "2024",
+          "journal-title": "International Journal of Advanced Engineering Technologies and Innovations"
+        },
+        {
+          "key": "e_1_2_10_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ref.2023.100530"
+        },
+        {
+          "key": "e_1_2_10_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.epsr.2023.109881"
+        },
+        {
+          "key": "e_1_2_10_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1049/rpg2.12755"
+        },
+        {
+          "key": "e_1_2_10_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/ep.14049"
+        },
+        {
+          "key": "e_1_2_10_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.engappai.2024.107866"
+        },
+        {
+          "key": "e_1_2_10_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/designs4030032"
+        },
+        {
+          "key": "e_1_2_10_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/en15093151"
+        },
+        {
+          "key": "e_1_2_10_13_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/solar4030016"
+        },
+        {
+          "key": "e_1_2_10_14_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.apenergy.2023.122184"
+        },
+        {
+          "key": "e_1_2_10_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.scs.2021.103538"
+        },
+        {
+          "key": "e_1_2_10_16_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.35552/anujr.a.32.1.1542"
+        },
+        {
+          "key": "e_1_2_10_17_1",
+          "first-page": "1",
+          "article-title": "Hybrid Energy System for Dier El Balah Quarantine Center in Gaza Strip, Palestine",
+          "volume": "2021",
+          "author": "El‐Khozonadar H. J.",
+          "year": "2021",
+          "journal-title": "International Conference on Electric Power Engineering – Palestine (ICEPE‐ P)"
+        },
+        {
+          "key": "e_1_2_10_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.56578/peet030201"
+        },
+        {
+          "key": "e_1_2_10_19_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.engappai.2023.107836"
+        },
+        {
+          "key": "e_1_2_10_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijepes.2023.109616"
+        },
+        {
+          "key": "e_1_2_10_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.eswa.2022.118551"
+        },
+        {
+          "key": "e_1_2_10_22_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "H. J.El‐Khozenadar M.Albardawil M.Asfour I.Abu‐Khater andY. F.Nassar DC Off‐Grid PV System to Supply Electricity to 50 Boats at Gaza Seaport in2023 8th International Engineering Conference on Renewable Energy & Sustainability (ieCRES) 2023 pp.1–5.",
+          "DOI": "10.1109/ieCRES57315.2023.10209467"
+        },
+        {
+          "key": "e_1_2_10_23_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M.Pa M. N.Uddin andN.Rezaei “An Adaptive Neuro‐fuzzy Model‐Based Algorithm For Fault Detection in PV Systems ” IEEE Transactions on Industry Applications 2023.",
+          "DOI": "10.1109/IAS54023.2022.9940046"
+        },
+        {
+          "key": "e_1_2_10_24_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/en16041947"
+        },
+        {
+          "key": "e_1_2_10_25_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2023.3285768"
+        },
+        {
+          "key": "e_1_2_10_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2023.3295113"
+        },
+        {
+          "key": "e_1_2_10_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jare.2021.03.015"
+        },
+        {
+          "key": "e_1_2_10_28_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/00207721.2021.1998722"
+        },
+        {
+          "key": "e_1_2_10_29_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1049/esi2.12144"
+        },
+        {
+          "key": "e_1_2_10_30_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.renene.2020.04.042"
+        },
+        {
+          "key": "e_1_2_10_31_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1515/revce-2017-0069"
+        },
+        {
+          "key": "e_1_2_10_32_1",
+          "first-page": "1",
+          "article-title": "Novel Bootstrap‐Based Discriminant NPE Integrated With Orthogonal LPP for Fault Diagnosis",
+          "volume": "72",
+          "author": "Zhang N.",
+          "year": "2023",
+          "journal-title": "IEEE Transactions on Instrumentation and Measurement"
+        },
+        {
+          "key": "e_1_2_10_33_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/JSEN.2021.3082294"
+        },
+        {
+          "key": "e_1_2_10_34_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.apenergy.2023.122138"
+        },
+        {
+          "key": "e_1_2_10_35_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.prime.2024.100549"
+        },
+        {
+          "key": "e_1_2_10_36_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/su16146042"
+        },
+        {
+          "key": "e_1_2_10_37_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/su15108348"
+        },
+        {
+          "key": "e_1_2_10_38_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.solener.2022.11.018"
+        },
+        {
+          "key": "e_1_2_10_39_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2023.3284545"
+        },
+        {
+          "key": "e_1_2_10_40_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/en16227680"
+        },
+        {
+          "key": "e_1_2_10_41_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.solener.2022.12.037"
+        },
+        {
+          "key": "e_1_2_10_42_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.nexus.2023.100257"
+        },
+        {
+          "key": "e_1_2_10_43_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2022.3166477"
+        },
+        {
+          "key": "e_1_2_10_44_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3103/S0003701X23601667"
+        },
+        {
+          "key": "e_1_2_10_45_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s13762-022-04226-4"
+        },
+        {
+          "key": "e_1_2_10_46_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TIE.2024.3363768"
+        },
+        {
+          "key": "e_1_2_10_47_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1109/TIM.2024.3488158",
+          "article-title": "An Adaptive Defect‐Aware Attention Network for Accurate PCB‐Defect Detection",
+          "volume": "73",
+          "author": "Liu X.",
+          "year": "2024",
+          "journal-title": "IEEE Transactions on Instrumentation and Measurement"
+        },
+        {
+          "key": "e_1_2_10_48_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-024-69890-7"
+        },
+        {
+          "key": "e_1_2_10_49_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/en17112642"
+        },
+        {
+          "key": "e_1_2_10_50_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/atmos15101250"
+        },
+        {
+          "key": "e_1_2_10_51_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1155/2022/2697303"
+        }
+      ],
+      "container-title": [
+        "Energy Science &amp; Engineering"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://scijournals.onlinelibrary.wiley.com/doi/pdf/10.1002/ese3.70113",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            15
+          ]
+        ],
+        "date-time": "2025-10-15T16:01:33Z",
+        "timestamp": 1760544093000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://scijournals.onlinelibrary.wiley.com/doi/10.1002/ese3.70113"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            29
+          ]
+        ]
+      },
+      "references-count": 50,
+      "journal-issue": {
+        "issue": "7",
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              7
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1002/ese3.70113"
+      ],
+      "URL": "https://doi.org/10.1002/ese3.70113",
+      "archive": [
+        "Portico"
+      ],
+      "relation": {},
+      "ISSN": [
+        "2050-0505",
+        "2050-0505"
+      ],
+      "issn-type": [
+        {
+          "value": "2050-0505",
+          "type": "print"
+        },
+        {
+          "value": "2050-0505",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            29
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2024-11-25",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2025-04-07",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2025-04-29",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": "https://orcid.org/0000-0003-1561-1376",
+      "affiliation_from_source": [
+        "Department of Electrical, Electronic and Systems Engineering, Faculty Engineering and Built Environment UniversitiKebangsaan Malaysia Selangor Malaysia",
+        "Department of Electrical and Electronics Engineering Vardhaman College of Engineering Hyderabad India",
+        "Department of Electrical and Electronics Engineering Chennai Institute of Technology Chennai India",
+        "Centre for Research Impact and Outcome Chitkara University Institute of Engineering and Technology, Chitkara University Rajpura India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Muhammad Ammirrul Atiqi Mohd Zainuri",
+      "given_name_from_source": "Muhammad Ammirrul Atiqi Mohd",
+      "family_name_from_source": "Zainuri",
+      "orcid_from_source": "https://orcid.org/0000-0001-9134-4869",
+      "affiliation_from_source": [
+        "Department of Electrical, Electronic and Systems Engineering, Faculty Engineering and Built Environment UniversitiKebangsaan Malaysia Selangor Malaysia"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Faisal Alsaif",
+      "given_name_from_source": "Faisal",
+      "family_name_from_source": "Alsaif",
+      "orcid_from_source": "https://orcid.org/0000-0003-4378-5111",
+      "affiliation_from_source": [
+        "Department of Electrical Engineering, College of Engineering King Saud University Riyadh Saudi Arabia"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

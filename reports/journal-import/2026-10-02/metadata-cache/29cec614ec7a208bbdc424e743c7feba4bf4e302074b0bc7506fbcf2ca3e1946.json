@@ -1,0 +1,601 @@
+{
+  "doi": "10.3389/fenrg.2024.1335111",
+  "title": "Modeling and simulation of a Renzoku puzzle pattern-based PV array configuration for a partially shaded PV system",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Frontiers in Energy Research",
+  "publisher": "Frontiers Media SA",
+  "publication_date": "2024-03-01",
+  "online_publication_date": "2024-03-01",
+  "print_publication_date": null,
+  "volume": "12",
+  "issue": null,
+  "pages_or_article_number": "1335111",
+  "issn": null,
+  "eissn": "2296-598X",
+  "isbn": null,
+  "url": "https://doi.org/10.3389/fenrg.2024.1335111",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:21.440210+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            24
+          ]
+        ],
+        "date-time": "2026-09-24T16:37:59Z",
+        "timestamp": 1790267879794,
+        "version": "4.1.0"
+      },
+      "reference-count": 26,
+      "publisher": "Frontiers Media SA",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                3,
+                1
+              ]
+            ],
+            "date-time": "2024-03-01T00:00:00Z",
+            "timestamp": 1709251200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "frontiersin.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Front. Energy Res."
+      ],
+      "abstract": "<jats:p>The world depends heavily on electrical energy for accessing technologies. For the generation of electricity, technology can utilize renewable energy sources like solar energy and wind energy. Solar photovoltaic (PV) systems occupy space among consumers due to their feasibility, flexibility, cost, and simple implementation procedures. The solar PV system experiences many factors causing power loss like partial shading, hotspots, and diode failure. In this work, a new static PV array configuration, named Renzoku puzzle pattern-based array configuration, is proposed. This proposed configuration technique was designed to overcome the drawbacks of the previously proposed array configurations in terms of power generation, fewer mismatch losses, a high shade-dispersion rate, and consistent performance under any level of partial shading. The proposed array configuration has been validated using both simulation and hardware. The simulation is carried out in a 9 × 9 PV array in MATLAB/Simulink<jats:sup>®</jats:sup>. The performance analysis, results, and corresponding characteristic curves are presented in this manuscript.</jats:p>",
+      "DOI": "10.3389/fenrg.2024.1335111",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2024-03-01T04:42:47Z",
+        "timestamp": 1709268167000
+      },
+      "update-policy": "https://doi.org/10.3389/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 10,
+      "title": [
+        "Modeling and simulation of a Renzoku puzzle pattern-based PV array configuration for a partially shaded PV system"
+      ],
+      "prefix": "10.3389",
+      "volume": "12",
+      "author": [
+        {
+          "given": "Belqasem",
+          "family": "Aljafari",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Devakirubakaran",
+          "family": "Samithas",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sudhakar Babu",
+          "family": "Thanikanti",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nnamdi I.",
+          "family": "Nwulu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "1965",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            1
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "B1",
+          "doi-asserted-by": "crossref",
+          "first-page": "117",
+          "DOI": "10.1016/B978-0-12-819610-6.00005-3",
+          "article-title": "Solar PV systems design and monitoring",
+          "volume-title": "Photovoltaic solar energy conversion",
+          "author": "Aghaei",
+          "year": "2020"
+        },
+        {
+          "key": "B2",
+          "doi-asserted-by": "publisher",
+          "first-page": "e16041",
+          "DOI": "10.1016/j.heliyon.2023.e16041",
+          "article-title": "Power enhanced solar PV array configuration based on calcudoku puzzle pattern for partial shaded PV system",
+          "volume": "9",
+          "author": "Aljafari",
+          "year": "2023",
+          "journal-title": "Heliyon"
+        },
+        {
+          "key": "B3",
+          "doi-asserted-by": "publisher",
+          "first-page": "8450",
+          "DOI": "10.3390/en15228450",
+          "article-title": "Performance analysis of thermal image processing-based photovoltaic fault detection and PV array reconfiguration—a detailed experimentation",
+          "volume": "15",
+          "author": "Alwar",
+          "year": "2022",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "B4",
+          "doi-asserted-by": "publisher",
+          "first-page": "74",
+          "DOI": "10.1109/TSTE.2017.2714905",
+          "article-title": "Particle swarm optimization based solar PV array reconfiguration of the maximum power extraction under partial shading conditions",
+          "volume": "9",
+          "author": "Babu",
+          "year": "2018",
+          "journal-title": "IEEE Trans. Sustain. Energy"
+        },
+        {
+          "key": "B5",
+          "doi-asserted-by": "publisher",
+          "first-page": "122930",
+          "DOI": "10.1016/j.techfore.2023.122930",
+          "article-title": "The need for sectoral transition design: a case of the shift to renewable energy",
+          "volume": "198",
+          "author": "Bryant",
+          "year": "2024",
+          "journal-title": "Technol. Forecast. Soc. Change"
+        },
+        {
+          "key": "B6",
+          "doi-asserted-by": "publisher",
+          "first-page": "123103",
+          "DOI": "10.1109/ACCESS.2021.3109248",
+          "article-title": "Power enhancement in partial shaded photovoltaic system using spiral pattern array configuration scheme",
+          "volume": "9",
+          "author": "Cherukuri",
+          "year": "2021",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "B7",
+          "doi-asserted-by": "publisher",
+          "first-page": "1",
+          "DOI": "10.1109/ACCESS.2023.3274684",
+          "article-title": "Performance evaluation of static PV array configurations for mitigating mismatch losses",
+          "author": "Devakirubakaran",
+          "year": "2023",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "B8",
+          "doi-asserted-by": "publisher",
+          "first-page": "897",
+          "DOI": "10.1016/j.enconman.2018.08.077",
+          "article-title": "A novel Competence Square based PV array reconfiguration technique for solar PV maximum power extraction",
+          "volume": "174",
+          "author": "Dhanalakshmi",
+          "year": "",
+          "journal-title": "Energy Convers. Manag."
+        },
+        {
+          "key": "B9",
+          "doi-asserted-by": "publisher",
+          "first-page": "84",
+          "DOI": "10.1016/j.enconman.2017.10.080",
+          "article-title": "Dominance square based array reconfiguration scheme for power loss reduction in solar PhotoVoltaic (PV) systems",
+          "volume": "156",
+          "author": "Dhanalakshmi",
+          "year": "",
+          "journal-title": "Energy Convers. Manag."
+        },
+        {
+          "key": "B10",
+          "doi-asserted-by": "publisher",
+          "first-page": "3764",
+          "DOI": "10.3390/su14073764",
+          "article-title": "PV array reconfiguration based on genetic algorithm for maximum power extraction and energy impact analysis",
+          "volume": "14",
+          "author": "Durango-Flórez",
+          "year": "2022",
+          "journal-title": "Sustainability"
+        },
+        {
+          "key": "B11",
+          "doi-asserted-by": "publisher",
+          "first-page": "248",
+          "DOI": "10.1049/iet-rpg.2016.0590",
+          "article-title": "Effects of irradiance transition characteristics on the mismatch losses of different electrical PV array configurations",
+          "volume": "11",
+          "author": "Lappalainen",
+          "year": "2017",
+          "journal-title": "IET Renew. Power Gener."
+        },
+        {
+          "key": "B12",
+          "doi-asserted-by": "publisher",
+          "first-page": "292",
+          "DOI": "10.1016/j.solener.2019.03.089",
+          "article-title": "An improved and comprehensive mathematical model for solar photovoltaic modules under real operating conditions",
+          "volume": "184",
+          "author": "Ma",
+          "year": "2019",
+          "journal-title": "Sol. Energy"
+        },
+        {
+          "key": "B13",
+          "doi-asserted-by": "publisher",
+          "first-page": "501",
+          "DOI": "10.1016/j.solener.2016.03.058",
+          "article-title": "Mathematical analysis of total-cross-tied photovoltaic array under partial shading condition and its comparison with other configurations",
+          "volume": "133",
+          "author": "Mohammadnejad",
+          "year": "2016",
+          "journal-title": "Sol. Energy"
+        },
+        {
+          "key": "B14",
+          "doi-asserted-by": "publisher",
+          "first-page": "24",
+          "DOI": "10.1186/s40068-015-0047-9",
+          "article-title": "Mathematical modeling of photovoltaic cell/module/arrays with tags in Matlab/Simulink",
+          "volume": "4",
+          "author": "Nguyen",
+          "year": "2015",
+          "journal-title": "Environ. Syst. Res."
+        },
+        {
+          "key": "B15",
+          "doi-asserted-by": "publisher",
+          "first-page": "274",
+          "DOI": "10.1016/j.egyr.2018.03.003",
+          "article-title": "Modeling, simulation and performance analysis of solar PV array configurations (Series, Series–Parallel and Honey-Comb) to extract maximum power under Partial Shading Conditions",
+          "volume": "4",
+          "author": "Pendem",
+          "year": "2018",
+          "journal-title": "Energy Rep."
+        },
+        {
+          "key": "B16",
+          "doi-asserted-by": "publisher",
+          "first-page": "15081",
+          "DOI": "10.1016/j.egyr.2022.11.014",
+          "article-title": "Power management in hybrid ANFIS PID based AC–DC microgrids with EHO based cost optimized droop control strategy",
+          "volume": "8",
+          "author": "Prasad",
+          "year": "2022",
+          "journal-title": "Energy Rep."
+        },
+        {
+          "key": "B17",
+          "doi-asserted-by": "publisher",
+          "first-page": "1",
+          "DOI": "10.1080/15567036.2020.1779872",
+          "article-title": "Experimental investigation on output power enhancement of partial shaded solar photovoltaic system",
+          "volume": "17",
+          "author": "Prince Winston",
+          "year": "",
+          "journal-title": "Energy Sources, Part A Recovery, Util. Environ. Eff."
+        },
+        {
+          "key": "B18",
+          "doi-asserted-by": "publisher",
+          "first-page": "228",
+          "DOI": "10.1016/j.solener.2019.12.007",
+          "article-title": "Performance improvement of solar PV array topologies during various partial shading conditions",
+          "volume": "196",
+          "author": "Prince Winston",
+          "year": "",
+          "journal-title": "Sol. Energy"
+        },
+        {
+          "key": "B19",
+          "doi-asserted-by": "publisher",
+          "first-page": "161",
+          "DOI": "10.1016/j.solener.2020.04.054",
+          "article-title": "A Su Do Ku puzzle based shade dispersion for maximum power enhancement of partially shaded hybrid bridge-link-total-cross-tied PV array",
+          "volume": "204",
+          "author": "Sagar",
+          "year": "2020",
+          "journal-title": "Sol. Energy"
+        },
+        {
+          "key": "B20",
+          "doi-asserted-by": "publisher",
+          "first-page": "640",
+          "DOI": "10.1016/j.solener.2020.06.004",
+          "article-title": "Mitigation of mismatch losses in solar PV system – two-step reconfiguration approach",
+          "volume": "206",
+          "author": "Srinivasan",
+          "year": "2020",
+          "journal-title": "Sol. Energy"
+        },
+        {
+          "key": "B21",
+          "doi-asserted-by": "publisher",
+          "first-page": "97661",
+          "DOI": "10.1109/ACCESS.2021.3094736",
+          "article-title": "L-shape propagated array configuration with dynamic reconfiguration algorithm for enhancing energy conversion rate of partial shaded photovoltaic systems",
+          "volume": "9",
+          "author": "Srinivasan",
+          "year": "2021",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "B22",
+          "doi-asserted-by": "publisher",
+          "first-page": "112163",
+          "DOI": "10.1016/j.solmat.2022.112163",
+          "article-title": "A dynamic mismatch loss mitigation algorithm with dual input dual output converter for solar PV systems",
+          "volume": "251",
+          "author": "Thanikanti",
+          "year": "2023",
+          "journal-title": "Sol. Energy Mater. Sol. Cells"
+        },
+        {
+          "key": "B23",
+          "doi-asserted-by": "publisher",
+          "first-page": "655",
+          "DOI": "10.1016/j.rser.2015.04.070",
+          "article-title": "Assessing the need for critical minerals to shift the German energy system towards a high proportion of renewables",
+          "volume": "49",
+          "author": "Viebahn",
+          "year": "2015",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "key": "B24",
+          "doi-asserted-by": "publisher",
+          "first-page": "113923",
+          "DOI": "10.1016/j.rser.2023.113923",
+          "article-title": "Spatiotemporal variation and convergence analysis of China’s regional energy security",
+          "volume": "189",
+          "author": "Wang",
+          "year": "2024",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "key": "B25",
+          "doi-asserted-by": "publisher",
+          "first-page": "109967",
+          "DOI": "10.1016/j.rser.2020.109967",
+          "article-title": "Potential of unsubsidized distributed solar PV to replace coal-fired power plants, and profits classification in Chinese cities",
+          "volume": "131",
+          "author": "Yang",
+          "year": "2020",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "key": "B26",
+          "doi-asserted-by": "publisher",
+          "first-page": "4910",
+          "DOI": "10.3390/en16134910",
+          "article-title": "Disperse partial shading effect of photovoltaic array by means of the modified complementary SuDoKu puzzle topology",
+          "volume": "16",
+          "author": "Ye",
+          "year": "2023",
+          "journal-title": "Energies"
+        }
+      ],
+      "container-title": [
+        "Frontiers in Energy Research"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "https://www.frontiersin.org/articles/10.3389/fenrg.2024.1335111/full",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2024-03-01T04:42:50Z",
+        "timestamp": 1709268170000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.frontiersin.org/articles/10.3389/fenrg.2024.1335111/full"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            1
+          ]
+        ]
+      },
+      "references-count": 26,
+      "alternative-id": [
+        "10.3389/fenrg.2024.1335111"
+      ],
+      "URL": "https://doi.org/10.3389/fenrg.2024.1335111",
+      "relation": {},
+      "ISSN": [
+        "2296-598X"
+      ],
+      "issn-type": [
+        {
+          "value": "2296-598X",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            1
+          ]
+        ]
+      },
+      "article-number": "1335111"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Belqasem Aljafari",
+      "given_name_from_source": "Belqasem",
+      "family_name_from_source": "Aljafari",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Devakirubakaran Samithas",
+      "given_name_from_source": "Devakirubakaran",
+      "family_name_from_source": "Samithas",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Sudhakar Babu Thanikanti",
+      "given_name_from_source": "Sudhakar Babu",
+      "family_name_from_source": "Thanikanti",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Nnamdi I. Nwulu",
+      "given_name_from_source": "Nnamdi I.",
+      "family_name_from_source": "Nwulu",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

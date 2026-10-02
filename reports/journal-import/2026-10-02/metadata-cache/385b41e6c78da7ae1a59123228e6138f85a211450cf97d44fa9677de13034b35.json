@@ -1,0 +1,281 @@
+{
+  "doi": "10.11591/ijece.v14i2.pp1251-1262",
+  "title": "Feasibility analysis and modeling of a solar hybrid system for residential electric vehicle charging",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "International Journal of Electrical and Computer Engineering (IJECE)",
+  "publisher": "Institute of Advanced Engineering and Science",
+  "publication_date": "2024-04-01",
+  "online_publication_date": "2024-04-01",
+  "print_publication_date": null,
+  "volume": "14",
+  "issue": "2",
+  "pages_or_article_number": "1251",
+  "issn": "2088-8708",
+  "eissn": "2722-2578",
+  "isbn": null,
+  "url": "https://doi.org/10.11591/ijece.v14i2.pp1251-1262",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:19.710508+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            30
+          ]
+        ],
+        "date-time": "2025-12-30T11:10:48Z",
+        "timestamp": 1767093048032,
+        "version": "3.37.3"
+      },
+      "reference-count": 0,
+      "publisher": "Institute of Advanced Engineering and Science",
+      "issue": "2",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                4,
+                1
+              ]
+            ],
+            "date-time": "2024-04-01T00:00:00Z",
+            "timestamp": 1711929600000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "IJECE"
+      ],
+      "abstract": "<jats:p>The process of transforming sunshine energy into electrical power is known as solar power generation. Photovoltaic (PV) technology has recently proved its cost-effectiveness and low environmental impact in generating power. The key goals of this study are to develop a solar PV system for charging electric vehicles (EVs) while utilizing the residential apartment's current domestic power supply. This study focuses on modeling grid-interactive solar PV systems for charging EVs inside a 40-unit residential apartment complex. The Solar Pro tool is used to do the techno-economic analysis of the modeled PV system. The research investigates the installation of a rooftop solar plant devoted to delivering electricity to EV charging devices on a real-time five-story residential building. The performance of the PV plant is tested under a variety of scenarios, including EV loading, shadow mapping, and local meteorological conditions. The PV plant's size is optimized at 150 kW, taking into consideration economic aspects as well as the actual proportions of the structure. In addition, the MiPower tool is used to do a load flow study of the modeled system, which includes both the grid and the PV system. This research evaluates line losses, line loading, and voltage levels at each bus at maximum loading circumstances.</jats:p>",
+      "DOI": "10.11591/ijece.v14i2.pp1251-1262",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            26
+          ]
+        ],
+        "date-time": "2024-01-26T04:42:27Z",
+        "timestamp": 1706244147000
+      },
+      "page": "1251",
+      "source": "Crossref",
+      "is-referenced-by-count": 4,
+      "title": [
+        "Feasibility analysis and modeling of a solar hybrid system for residential electric vehicle charging"
+      ],
+      "prefix": "10.11591",
+      "volume": "14",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-6667-5997",
+          "authenticated-orcid": false,
+          "given": "Muthukumaran",
+          "family": "Thulasingam",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1253-589X",
+          "authenticated-orcid": false,
+          "given": "Ajay D. Vimal",
+          "family": "Raj Periyanayagam",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0203-0700",
+          "authenticated-orcid": false,
+          "given": "Murugaperumal",
+          "family": "Krishnamoorthy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "4858",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            1
+          ]
+        ]
+      },
+      "container-title": [
+        "International Journal of Electrical and Computer Engineering (IJECE)"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "https://ijece.iaescore.com/index.php/IJECE/article/viewFile/34034/17203",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://ijece.iaescore.com/index.php/IJECE/article/viewFile/34034/17203",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            26
+          ]
+        ],
+        "date-time": "2024-01-26T04:44:46Z",
+        "timestamp": 1706244286000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://ijece.iaescore.com/index.php/IJECE/article/view/34034"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            1
+          ]
+        ]
+      },
+      "references-count": 0,
+      "journal-issue": {
+        "issue": "2",
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              1
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.11591/ijece.v14i2.pp1251-1262",
+      "relation": {},
+      "ISSN": [
+        "2722-2578",
+        "2088-8708"
+      ],
+      "issn-type": [
+        {
+          "type": "electronic",
+          "value": "2722-2578"
+        },
+        {
+          "type": "print",
+          "value": "2088-8708"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            1
+          ]
+        ]
+      }
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Muthukumaran Thulasingam",
+      "given_name_from_source": "Muthukumaran",
+      "family_name_from_source": "Thulasingam",
+      "orcid_from_source": "https://orcid.org/0000-0002-6667-5997",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Ajay D. Vimal Raj Periyanayagam",
+      "given_name_from_source": "Ajay D. Vimal",
+      "family_name_from_source": "Raj Periyanayagam",
+      "orcid_from_source": "https://orcid.org/0000-0003-1253-589X",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Murugaperumal Krishnamoorthy",
+      "given_name_from_source": "Murugaperumal",
+      "family_name_from_source": "Krishnamoorthy",
+      "orcid_from_source": "https://orcid.org/0000-0002-0203-0700",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "database_path": "C:\\Users\\silic\\Documents\\GitHub\\faculty-performance-development\\data\\faculty.db",
+  "backup_path": "C:\\Users\\silic\\Documents\\GitHub\\faculty-performance-development\\data\\backups\\pre_bibtex_conference_20261002_124655.db",
+  "integrity": "ok",
+  "all_existing_rows_and_fields_preserved": true,
+  "counts": {
+    "academic_years": 5,
+    "students": 0,
+    "change_logs": 133,
+    "publication_authors": 721,
+    "patents": 0,
+    "patent_change_logs": 0,
+    "patent_inventors": 0,
+    "patent_status_history": 0,
+    "publications": 133,
+    "book_publications": 0,
+    "book_change_logs": 0,
+    "book_contributors": 0,
+    "evidence_files": 0,
+    "faculty": 19
+  },
+  "historical_publications_preserved": 125,
+  "source_types": {
+    "DOI": 8,
+    "HISTORICAL_EXCEL": 125
+  }
+}

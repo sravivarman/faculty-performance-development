@@ -1,0 +1,622 @@
+{
+  "doi": "10.1177/01445987251390554",
+  "title": "Chimp algorithm based Solar-Hydrogen energy powered UPQC for distribution system",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Energy Exploration &amp; Exploitation",
+  "publisher": "SAGE Publications",
+  "publication_date": "2025-11-27",
+  "online_publication_date": "2025-11-27",
+  "print_publication_date": null,
+  "volume": "44",
+  "issue": "2",
+  "pages_or_article_number": "923-945",
+  "issn": "0144-5987",
+  "eissn": "2048-4054",
+  "isbn": null,
+  "url": "https://doi.org/10.1177/01445987251390554",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:15.040164+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            1
+          ]
+        ],
+        "date-time": "2026-07-01T16:05:35Z",
+        "timestamp": 1782921935394,
+        "version": "3.54.5"
+      },
+      "reference-count": 32,
+      "publisher": "SAGE Publications",
+      "issue": "2",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                27
+              ]
+            ],
+            "date-time": "2025-11-27T00:00:00Z",
+            "timestamp": 1764201600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc/4.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                27
+              ]
+            ],
+            "date-time": "2025-11-27T00:00:00Z",
+            "timestamp": 1764201600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "journals.sagepub.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Energy Exploration &amp; Exploitation"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            3
+          ]
+        ]
+      },
+      "abstract": "<jats:p>The incorporation of green energy sources into the network, along with the introduction of power electrical devices to regulate loads that are not linear, has significantly influenced power quality (PQ). Nevertheless, PQ is the primary challenge when integrating inconsistent power from renewable sources. Here, the reduced switch converter is selected for the Unified Power Quality Conditioner (UPQC) that is incorporated with the Solar PV Generation System (SPVGS), hydrogen Fuel cell (FC), and Battery Energy Storage Systems (BESS) to handle PQ problems effectively. This paper suggests a hybrid scheme that has the advantageous characteristics of a neural network controller (NNC), Proportional integral derivative controller (PIDC) and Fuzzy logic controller (FLC). NNC with Synchronous reference frame theory (dq) is adopted to generate the reference signals. Additionally, a meta-heuristic-based chimp algorithm (ChOA) is adapted to design the optimized FLC-PIDC hybrid controller for regulating the DC Link voltage (DLV), resistance, inductance, and capacitance variables of filters, proportional integral controller (PIC) gain values of FC and BESS. The primary goal of the suggested approach is to maintain a stable DLV despite fluctuations in both load and SPVGS. The system also seeks to reduce fluctuations in the load voltage and supply current, as well as to reduce sag, interruption, swell, and imbalances caused by variations in the source voltage. Testing the developed mode with four case studies each with a load like nonlinear, balanced, and unbalanced and grid voltage variations with variable irradiation was done to assess its performance. On the other hand, to validate the proposed technique the comparison analysis is conducted using conventional PIC. The proposed approach effectively decreases the total harmonic distortion (THD) to 2.30%, 2.63%, 2.79%, and 2.64%. These values are notably lower than those achieved by other methods in the literature.</jats:p>",
+      "DOI": "10.1177/01445987251390554",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            27
+          ]
+        ],
+        "date-time": "2025-11-27T17:57:11Z",
+        "timestamp": 1764266231000
+      },
+      "page": "923-945",
+      "update-policy": "https://doi.org/10.1177/sage-journals-update-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Chimp algorithm based Solar-Hydrogen energy powered UPQC for distribution system"
+      ],
+      "prefix": "10.1177",
+      "volume": "44",
+      "author": [
+        {
+          "given": "Koganti",
+          "family": "Srilakshmi",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Sreenidhi Institute of Science and Technology"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Srinivasa Rao",
+          "family": "Gummadi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Velagapudi Ramakrishna Siddhartha Engineering College, Siddhartha Academy of Higher Education (Deemed to Be University) Kanuru"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nagaraju",
+          "family": "Valluri",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Sreenidhi Institute of Science and Technology"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1561-1376",
+          "authenticated-orcid": false,
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vardhaman College of Engineering"
+            },
+            {
+              "name": "Chennai Institute of Technology"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kannan",
+          "family": "Sangeetha",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Kebri Dehar University"
+            },
+            {
+              "name": "Centre for Research Impact and Outcome, Chitkara University Institute of Engineering and Technology, Chitkara University, Punjab, Rajpura, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "179",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            27
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_3_3_2_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/su15043710"
+        },
+        {
+          "key": "e_1_3_3_3_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.asej.2025.103540"
+        },
+        {
+          "key": "e_1_3_3_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/electronics9040637"
+        },
+        {
+          "key": "e_1_3_3_5_1",
+          "first-page": "1",
+          "article-title": "Power quality improvement using a shunt active power filter for grid connected photovoltaic generation system",
+          "author": "Bagi SM",
+          "year": "2020",
+          "unstructured": "Bagi SM, Kudchi FN, Bagewadi S (2020) Power quality improvement using a shunt active power filter for grid connected photovoltaic generation system. IEEE Bangalore Humanitarian Technology Conference (B-HTC), Vijiyapur, India: 1–4.",
+          "journal-title": "IEEE Bangalore Humanitarian Technology Conference (B-HTC), Vijiyapur, India"
+        },
+        {
+          "key": "e_1_3_3_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/electronics8010042"
+        },
+        {
+          "key": "e_1_3_3_7_1",
+          "article-title": "A comprehensive review on issues, investigations, control and protection trends, technical challenges and future directions for microgrid technology",
+          "volume": "30",
+          "author": "Choudhury S",
+          "year": "2020",
+          "unstructured": "Choudhury S (2020) A comprehensive review on issues, investigations, control and protection trends, technical challenges and future directions for microgrid technology. International Transaction Electrical Energy System 30: e12446.",
+          "journal-title": "International Transaction Electrical Energy System"
+        },
+        {
+          "key": "e_1_3_3_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/en15197074"
+        },
+        {
+          "key": "e_1_3_3_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/en12204009"
+        },
+        {
+          "key": "e_1_3_3_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPEL.2017.2698439"
+        },
+        {
+          "key": "e_1_3_3_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/electronics11060919"
+        },
+        {
+          "key": "e_1_3_3_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.rser.2021.110898"
+        },
+        {
+          "key": "e_1_3_3_13_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPEL.2022.3217964"
+        },
+        {
+          "issue": "21",
+          "key": "e_1_3_3_14_1",
+          "first-page": "13992",
+          "article-title": "Optimal design of an artificial intelligence controller for solar-battery integrated UPQC in three phase distribution networks",
+          "volume": "14",
+          "author": "Koganti S",
+          "unstructured": "Koganti S, Canavoy NS, Praveen KB, et al. (2022b) Optimal design of an artificial intelligence controller for solar-battery integrated UPQC in three phase distribution networks. Sustainability 14(21): 13992.",
+          "journal-title": "Sustainability"
+        },
+        {
+          "issue": "5",
+          "key": "e_1_3_3_15_1",
+          "first-page": "599",
+          "article-title": "Design of UPQC with solar PV and battery storage systems for power quality improvement",
+          "volume": "56",
+          "author": "Koganti S",
+          "year": "2023",
+          "unstructured": "Koganti S, Krishna J, Kalyani G, et al. (2023) Design of UPQC with solar PV and battery storage systems for power quality improvement. Cybernetics and Systems: An International Journal 56(5): 599–628.",
+          "journal-title": "Cybernetics and Systems: An International Journal"
+        },
+        {
+          "key": "e_1_3_3_16_1",
+          "first-page": "107116",
+          "article-title": "Design of soccer league optimization based hybrid controller for solar-battery integrated UPQC",
+          "volume": "10",
+          "author": "Koganti S",
+          "unstructured": "Koganti S, Nakka S, Praveen KB, et al. (2022a) Design of soccer league optimization based hybrid controller for solar-battery integrated UPQC. IEEE Access 10: 107116–107136.",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "issue": "4",
+          "key": "e_1_3_3_17_1",
+          "first-page": "243",
+          "article-title": "A modified PV-wind-PEMFCS-based hybrid UPQC system with combined DVR/STATCOM operation by harmonic compensation",
+          "volume": "41",
+          "author": "Krishna S",
+          "year": "2020",
+          "unstructured": "Krishna S, Debashis C, Goswami SK (2020) A modified PV-wind-PEMFCS-based hybrid UPQC system with combined DVR/STATCOM operation by harmonic compensation. International Journal of Modeling and Simulation 41(4): 243–255.",
+          "journal-title": "International Journal of Modeling and Simulation"
+        },
+        {
+          "issue": "19",
+          "key": "e_1_3_3_18_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "2419",
+          "DOI": "10.1080/15567036.2021.1902430",
+          "article-title": "Hybrid renewable energy based smart grid system for reactive power management and voltage profile enhancement using artificial neural network",
+          "volume": "43",
+          "author": "Kumar C",
+          "year": "2021",
+          "unstructured": "Kumar C, Jaisiva S, Clement RA, et al. (2021) Hybrid renewable energy based smart grid system for reactive power management and voltage profile enhancement using artificial neural network. Energy Sources, Part A: Recovery, Utilization, and Environmental Effects 43(19): 2419–2442.",
+          "journal-title": "Energy Sources, Part A: Recovery, Utilization, and Environmental Effects"
+        },
+        {
+          "key": "e_1_3_3_19_1",
+          "first-page": "1",
+          "article-title": "Control of a DFIG based WECS with optimized PI controllers via a duplicate PSO algorithm",
+          "author": "Labdai S",
+          "year": "2019",
+          "unstructured": "Labdai S, Hemici B, Bounara N, et al. (2019) Control of a DFIG based WECS with optimized PI controllers via a duplicate PSO algorithm. International Conference on Control, Automation and Diagnosis, Grenoble, France: pp.1–6.",
+          "journal-title": "International Conference on Control, Automation and Diagnosis, Grenoble, France"
+        },
+        {
+          "key": "e_1_3_3_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/axioms12050420"
+        },
+        {
+          "key": "e_1_3_3_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2020.2997056"
+        },
+        {
+          "key": "e_1_3_3_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1049/rpg2.12317"
+        },
+        {
+          "issue": "8",
+          "key": "e_1_3_3_23_1",
+          "first-page": "1773",
+          "article-title": "Enhancement of power quality issues for a hybrid AC/DC microgrid based on optimization methods",
+          "volume": "6",
+          "author": "Nima K",
+          "year": "2022",
+          "unstructured": "Nima K, Salwa E, Rasoul B, et al. (2022) Enhancement of power quality issues for a hybrid AC/DC microgrid based on optimization methods. IET Renewable Power Generation 6(8): 1773–1791.",
+          "journal-title": "IET Renewable Power Generation"
+        },
+        {
+          "key": "e_1_3_3_24_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/en15186825"
+        },
+        {
+          "key": "e_1_3_3_25_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3233/JIFS-171236"
+        },
+        {
+          "key": "e_1_3_3_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/15567036.2021.1943068"
+        },
+        {
+          "key": "e_1_3_3_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/a15080256"
+        },
+        {
+          "key": "e_1_3_3_28_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/en15124371"
+        },
+        {
+          "key": "e_1_3_3_29_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TSG.2018.2812712"
+        },
+        {
+          "key": "e_1_3_3_30_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/en14092702"
+        },
+        {
+          "key": "e_1_3_3_31_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/en10122038"
+        },
+        {
+          "key": "e_1_3_3_32_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/electronics8070791"
+        },
+        {
+          "key": "e_1_3_3_33_1",
+          "first-page": "1",
+          "article-title": "Control method for power quality compensation based on levenberg-marquardt optimized BP neural networks",
+          "author": "Zhou M",
+          "year": "2006",
+          "unstructured": "Zhou M, Wan J, Wei ZQ, et al. (2006) Control method for power quality compensation based on levenberg-marquardt optimized BP neural networks. CES/IEEE 5th International Power Electronics and Motion Control Conference: 1–4.",
+          "journal-title": "CES/IEEE 5th International Power Electronics and Motion Control Conference"
+        }
+      ],
+      "container-title": [
+        "Energy Exploration &amp; Exploitation"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://journals.sagepub.com/doi/pdf/10.1177/01445987251390554",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://journals.sagepub.com/doi/full-xml/10.1177/01445987251390554",
+          "content-type": "application/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://journals.sagepub.com/doi/pdf/10.1177/01445987251390554",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            28
+          ]
+        ],
+        "date-time": "2026-04-28T19:09:22Z",
+        "timestamp": 1777403362000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://journals.sagepub.com/doi/10.1177/01445987251390554"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            27
+          ]
+        ]
+      },
+      "references-count": 32,
+      "journal-issue": {
+        "issue": "2",
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              3
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1177/01445987251390554"
+      ],
+      "URL": "https://doi.org/10.1177/01445987251390554",
+      "relation": {},
+      "ISSN": [
+        "0144-5987",
+        "2048-4054"
+      ],
+      "issn-type": [
+        {
+          "value": "0144-5987",
+          "type": "print"
+        },
+        {
+          "value": "2048-4054",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            27
+          ]
+        ]
+      }
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Koganti Srilakshmi",
+      "given_name_from_source": "Koganti",
+      "family_name_from_source": "Srilakshmi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Sreenidhi Institute of Science and Technology"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Srinivasa Rao Gummadi",
+      "given_name_from_source": "Srinivasa Rao",
+      "family_name_from_source": "Gummadi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Velagapudi Ramakrishna Siddhartha Engineering College, Siddhartha Academy of Higher Education (Deemed to Be University) Kanuru"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Nagaraju Valluri",
+      "given_name_from_source": "Nagaraju",
+      "family_name_from_source": "Valluri",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Sreenidhi Institute of Science and Technology"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": "https://orcid.org/0000-0003-1561-1376",
+      "affiliation_from_source": [
+        "Vardhaman College of Engineering",
+        "Chennai Institute of Technology"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Kannan Sangeetha",
+      "given_name_from_source": "Kannan",
+      "family_name_from_source": "Sangeetha",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Kebri Dehar University",
+        "Centre for Research Impact and Outcome, Chitkara University Institute of Engineering and Technology, Chitkara University, Punjab, Rajpura, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

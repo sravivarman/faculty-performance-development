@@ -1,0 +1,782 @@
+{
+  "doi": "10.1088/2631-8695/ae6999",
+  "title": "COBAD-FIR: a hybrid coati-badger optimization framework for power-efficient FIR coefficient enhancement in VLSI systems",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Engineering Research Express",
+  "publisher": "IOP Publishing",
+  "publication_date": "2026-05-01",
+  "online_publication_date": "2026-05-20",
+  "print_publication_date": "2026-05-01",
+  "volume": "8",
+  "issue": "10",
+  "pages_or_article_number": "105216",
+  "issn": null,
+  "eissn": "2631-8695",
+  "isbn": null,
+  "url": "https://doi.org/10.1088/2631-8695/ae6999",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:52:40.758329+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            20
+          ]
+        ],
+        "date-time": "2026-05-20T08:11:30Z",
+        "timestamp": 1779264690016,
+        "version": "3.51.4"
+      },
+      "reference-count": 28,
+      "publisher": "IOP Publishing",
+      "issue": "10",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                20
+              ]
+            ],
+            "date-time": "2026-05-20T00:00:00Z",
+            "timestamp": 1779235200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 19,
+          "URL": "https://publishingsupport.iopscience.iop.org/iop-standard/v1"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                20
+              ]
+            ],
+            "date-time": "2026-05-20T00:00:00Z",
+            "timestamp": 1779235200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 19,
+          "URL": "https://iopscience.iop.org/info/page/text-and-data-mining"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "iopscience.iop.org"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Eng. Res. Express"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            1
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Among the fundamental requirements of VLSI-based digital signal processing systems is the improvement of filtering coefficients, which is directly connected with accuracy of frequency response, numerical stability, switching activity, and power consumption in fixed-point-based considerations. Because of this, it is of the utmost importance to design the optimization strategies of coefficients that can be jointly applied to the signal fidelity and VLSI criteria. To address such problems, the present paper proposes a COatiBAdger Hybrid Adaptive Design (COBAD) model of the FIR coefficient enhancement. In this paper, a new hybrid algorithm, the COBAD-FIR algorithm, coati optimization algorithm and honey badger algorithm to optimize the FIR filter coefficients are proposed, but with the objective of providing signal as well as VLSI efficiency. Its key contribution is a quantization- and switching-aware multi-objective fitness function that makes it possible to design FIRs with low-power and hardware-friendly designs. The introduction of quantization-sensitive and switching-activity-sensitive objectives in the optimization problem, and the ensuing coefficient generation, is one of novelty, and can now be software-implemented in hardware-efficient ways, and implemented macroscopically in VLSI technology. The performance of the suggested method is warranted by simulation. A FIR filter based on COBAD has a passband ripple of 0.028dB, stopband attenuation of 57 dB, quantization error of 0.006 and index of reduced switching activities of 0.32 that are even better than eight of the optimization methods available.</jats:p>",
+      "DOI": "10.1088/2631-8695/ae6999",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            6
+          ]
+        ],
+        "date-time": "2026-05-06T22:56:51Z",
+        "timestamp": 1778108211000
+      },
+      "page": "105216",
+      "update-policy": "https://doi.org/10.1088/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "COBAD-FIR: a hybrid coati-badger optimization framework for power-efficient FIR coefficient enhancement in VLSI systems"
+      ],
+      "prefix": "10.1088",
+      "volume": "8",
+      "author": [
+        {
+          "given": "Karunakaran",
+          "family": "S",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "RMK Engineering College"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1561-1376",
+          "authenticated-orcid": true,
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vardhaman College of Engineering"
+            },
+            {
+              "name": "Chennai Institute of Technology"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Vinoop",
+          "family": "Kanna",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "St Francis College"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Subhav",
+          "family": "Singh",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Chitkara University"
+            },
+            {
+              "name": "Sharda University"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "266",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            20
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "erxae6999bib1",
+          "doi-asserted-by": "publisher",
+          "first-page": "14",
+          "DOI": "10.1007/s10470-025-02407-y",
+          "type": "journal-article",
+          "article-title": "Development of arithmetic optimized low-visibility image enhancement VLSI architecture with saturation-aware transmission map estimation",
+          "volume": "124",
+          "author": "Rao",
+          "year": "2025",
+          "journal-title": "Analog Integr. Circuits Signal Process."
+        },
+        {
+          "key": "erxae6999bib2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1088/2631-8695/acecdc",
+          "type": "journal-article",
+          "article-title": "A glitch free variability resistant high speed and low power sense amplifier based flip flop for digital sequential circuits",
+          "volume": "5",
+          "author": "Shah",
+          "year": "2023",
+          "journal-title": "Eng. Res. Express"
+        },
+        {
+          "key": "erxae6999bib3",
+          "doi-asserted-by": "publisher",
+          "first-page": "55",
+          "DOI": "10.1615/TelecomRadEng.2025056312",
+          "type": "journal-article",
+          "article-title": "VLSI design and implementation of CIC (cascaded integrator comb) filter",
+          "volume": "84",
+          "author": "Babu",
+          "year": "2025",
+          "journal-title": "Telecommun. Radio Eng."
+        },
+        {
+          "key": "erxae6999bib4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.measurement.2025.116691",
+          "type": "journal-article",
+          "article-title": "Area efficient low power VLSI of 2048-point pipelined radix 16 MDC/FFT processer for brain tumour detection using optimized deep dilated convolutional neural network",
+          "volume": "246",
+          "author": "Tanguturi",
+          "year": "2025",
+          "journal-title": "Measurement"
+        },
+        {
+          "key": "erxae6999bib5",
+          "doi-asserted-by": "publisher",
+          "first-page": "1",
+          "DOI": "10.1109/TVLSI.2026.3671706",
+          "type": "journal-article",
+          "article-title": "Enhanced-throughput antithetic sample generation architecture for Monte Carlo simulation",
+          "volume": "34",
+          "author": "Choi",
+          "year": "2026",
+          "journal-title": "IEEE Trans. Very Large Scale Integr. (VLSI) Syst."
+        },
+        {
+          "key": "erxae6999bib6",
+          "doi-asserted-by": "publisher",
+          "first-page": "192210",
+          "DOI": "10.1109/ACCESS.2025.3630684",
+          "type": "journal-article",
+          "article-title": "Enhancing PPG signal integrity using manta ray foraging optimization-based adaptive filtering",
+          "volume": "13",
+          "author": "Mogadati",
+          "year": "2025",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "erxae6999bib7",
+          "doi-asserted-by": "publisher",
+          "first-page": "1",
+          "DOI": "10.1080/02533839.2025.2557225",
+          "type": "journal-article",
+          "article-title": "Hybrid quantum-classical framework for optimizing low-power VLSI circuits in IoTdevices",
+          "volume": "49",
+          "author": "Manan Mujahid",
+          "year": "2025",
+          "journal-title": "J. Chin. Inst. Eng."
+        },
+        {
+          "key": "erxae6999bib8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1049/cds2/5545245",
+          "type": "journal-article",
+          "article-title": "An FSM‐enabled reconfigurable debugging approach for area‐optimized FIR filters on FPGA platforms",
+          "volume": "2026",
+          "author": "Anumothu",
+          "year": "2026",
+          "journal-title": "IET Circuits Devices Syst."
+        },
+        {
+          "key": "erxae6999bib9",
+          "doi-asserted-by": "publisher",
+          "first-page": "763",
+          "DOI": "10.1109/TVLSI.2024.3356161",
+          "type": "journal-article",
+          "article-title": "A fast design optimization of on-chip equalizing links using particle swarm optimization",
+          "volume": "32",
+          "author": "Song",
+          "year": "2024",
+          "journal-title": "IEEE Trans. Very Large Scale Integr. (VLSI) Syst."
+        },
+        {
+          "key": "erxae6999bib10",
+          "doi-asserted-by": "publisher",
+          "first-page": "205",
+          "DOI": "10.1504/IJBIC.2025.146918",
+          "type": "journal-article",
+          "article-title": "Enhancing circuit adaptability in VLSI using hybrid optimisation for functional unit selection and resource allocation in high-level synthesis",
+          "volume": "25",
+          "author": "Rani",
+          "year": "2025",
+          "journal-title": "Int. J. Bio-Inspired Comput."
+        },
+        {
+          "key": "erxae6999bib11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1088/2631-8695/ad8068",
+          "type": "journal-article",
+          "article-title": "Performance analysis of meta-heuristic optimization techniques for multi-objective VLSI circuit partitioning",
+          "volume": "6",
+          "author": "Roy",
+          "year": "2024",
+          "journal-title": "Eng. Res. Express"
+        },
+        {
+          "key": "erxae6999bib12",
+          "doi-asserted-by": "publisher",
+          "first-page": "125",
+          "DOI": "10.1007/s11063-024-11495-2",
+          "type": "journal-article",
+          "article-title": "Power optimization in wireless sensor network using VLSI technique on FPGA platform",
+          "volume": "56",
+          "author": "Leelakrishnan",
+          "year": "2024",
+          "journal-title": "Neural Process. Lett."
+        },
+        {
+          "key": "erxae6999bib13",
+          "doi-asserted-by": "publisher",
+          "first-page": "31009",
+          "DOI": "10.48084/etasr.12837",
+          "type": "journal-article",
+          "article-title": "Optimal IIR filter design and FPGA realization",
+          "volume": "16",
+          "author": "Eddla",
+          "year": "2026",
+          "journal-title": "Eng. Technol. Appl. Sci. Res."
+        },
+        {
+          "key": "erxae6999bib14",
+          "doi-asserted-by": "publisher",
+          "first-page": "3",
+          "DOI": "10.1007/s10470-025-02532-8",
+          "type": "journal-article",
+          "article-title": "Approximate median filter architecture with optimized comparator logic for real-time image denoising on FPGA",
+          "volume": "126",
+          "author": "Anbumani",
+          "year": "2026",
+          "journal-title": "Analog Integr. Circuits Signal Process."
+        },
+        {
+          "key": "erxae6999bib15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-024-65849-w",
+          "type": "journal-article",
+          "article-title": "Certain investigation on hybrid neural network method for classification of ECG signal with the suitable a FIR filter",
+          "volume": "14",
+          "author": "Jayaraman Rajendiran",
+          "year": "2024",
+          "journal-title": "Sci. Rep."
+        },
+        {
+          "key": "erxae6999bib16",
+          "doi-asserted-by": "publisher",
+          "first-page": "136238",
+          "DOI": "10.1109/ACCESS.2024.3462952",
+          "type": "journal-article",
+          "article-title": "Automatic optimal design method for circuit sizing based on CNN surrogate model assisted differential evolution algorithm",
+          "volume": "12",
+          "author": "Tang",
+          "year": "2024",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "erxae6999bib17",
+          "doi-asserted-by": "publisher",
+          "first-page": "399",
+          "DOI": "10.1007/s10470-023-02201-8",
+          "type": "journal-article",
+          "article-title": "Energy efficient enhanced all pass transformation fostered variable digital filter design based on approximate adder and approximate multiplier for eradicating sensor nodes noise",
+          "volume": "118",
+          "author": "Raja",
+          "year": "2024",
+          "journal-title": "Analog Integr. Circuits Signal Process."
+        },
+        {
+          "key": "erxae6999bib18",
+          "doi-asserted-by": "publisher",
+          "first-page": "3551",
+          "DOI": "10.3390/electronics13173551",
+          "type": "journal-article",
+          "article-title": "Optimal realization of distributed arithmetic-based MAC adaptive FIR filter architecture incorporating radix-4 and radix-8 computation",
+          "volume": "13",
+          "author": "James",
+          "year": "2024",
+          "journal-title": "Electronics"
+        },
+        {
+          "key": "erxae6999bib19",
+          "doi-asserted-by": "publisher",
+          "first-page": "70",
+          "DOI": "10.31838/jvcs/06.01.12",
+          "type": "journal-article",
+          "article-title": "Design and optimization of a high-speed VLSI architecture for integrated FIR filters in advanced digital signal processing applications",
+          "volume": "6",
+          "author": "Lofandri",
+          "year": "2024",
+          "journal-title": "J. VLSI Circuits Syst."
+        },
+        {
+          "key": "erxae6999bib20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-981-97-5786-2_36",
+          "type": "journal-article",
+          "article-title": "Enhanced VLSI architecture for MAC-based FIR filters in biomedical image processing using optimized random residual group duck swarm coupled attention network",
+          "volume": "228",
+          "author": "Priyanka",
+          "year": "2025",
+          "journal-title": "Measurement"
+        },
+        {
+          "key": "erxae6999bib21",
+          "doi-asserted-by": "publisher",
+          "first-page": "54",
+          "DOI": "10.1109/OJSP.2025.3650439",
+          "type": "journal-article",
+          "article-title": "Closed-form least-squares design of fast-convolution based variable-bandwidth FIR filters",
+          "volume": "7",
+          "author": "Moryakova",
+          "year": "2026",
+          "journal-title": "IEEE Open J. Signal Process."
+        },
+        {
+          "key": "erxae6999bib22",
+          "doi-asserted-by": "publisher",
+          "first-page": "13",
+          "DOI": "10.1007/s10470-025-02490-1",
+          "type": "journal-article",
+          "article-title": "Low-power FIR filter pruning using secretary bird optimization for hardware-efficient signal processing",
+          "volume": "125",
+          "author": "Theivanathan",
+          "year": "2025",
+          "journal-title": "Analog Integr. Circuits Signal Process."
+        },
+        {
+          "key": "erxae6999bib23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.vlsi.2025.102433",
+          "type": "journal-article",
+          "article-title": "An area and power efficient VLSI architecture for epileptic seizure detection using transpose form retimed delayed LMS filter and spiking neural networks",
+          "volume": "103",
+          "author": "Ponnuraj",
+          "year": "2025",
+          "journal-title": "Integration"
+        },
+        {
+          "key": "erxae6999bib24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.vlsi.2025.102631",
+          "type": "journal-article",
+          "article-title": "Advanced fault diagnosis in analog and digital VLSI circuits utilizing multi-anchor space-aware temporal convolutional neural network for efficient circuit reliability assessment",
+          "volume": "107",
+          "author": "Arivalagan",
+          "year": "2025",
+          "journal-title": "Integration"
+        },
+        {
+          "key": "erxae6999bib25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.vlsi.2025.102344",
+          "type": "journal-article",
+          "article-title": "All pass transformation based variable digital filter design using low power approximate floating point adder and low power compressor based approximate multiplier",
+          "volume": "102",
+          "author": "Thilagavathi",
+          "year": "2025",
+          "journal-title": "Integration"
+        },
+        {
+          "key": "erxae6999bib26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-025-87175-5",
+          "type": "journal-article",
+          "article-title": "Design of infinite impulse response maximally flat stable digital filter with low group delay",
+          "volume": "15",
+          "author": "Yi",
+          "year": "2025",
+          "journal-title": "Sci. Rep."
+        },
+        {
+          "key": "erxae6999bib27",
+          "doi-asserted-by": "publisher",
+          "first-page": "59",
+          "DOI": "10.1007/s10470-025-02468-z",
+          "type": "journal-article",
+          "article-title": "Optimization of performance parameters of differential ring oscillator using Taguchi DoE and Pareto ANOVA techniques for fast-setting PLL frequency synthesizer",
+          "volume": "124",
+          "author": "Singhal",
+          "year": "2025",
+          "journal-title": "Analog Integr. Circuits Signal Process."
+        },
+        {
+          "key": "erxae6999bib28",
+          "doi-asserted-by": "publisher",
+          "first-page": "1",
+          "DOI": "10.1007/s00034-025-03452-8",
+          "type": "journal-article",
+          "article-title": "High-throughput and area-efficient VLSI architectures for functional link adaptive filters",
+          "author": "Ganjimala",
+          "year": "2025",
+          "journal-title": "Circuits Syst. Signal Process."
+        }
+      ],
+      "container-title": [
+        "Engineering Research Express"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/ae6999",
+          "content-type": "text/html",
+          "content-version": "am",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/ae6999/pdf",
+          "content-type": "application/pdf",
+          "content-version": "am",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/ae6999",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/ae6999/pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/ae6999/pdf",
+          "content-type": "application/pdf",
+          "content-version": "am",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/ae6999/pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/ae6999/pdf",
+          "content-type": "application/pdf",
+          "content-version": "am",
+          "intended-application": "similarity-checking"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/ae6999/pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            20
+          ]
+        ],
+        "date-time": "2026-05-20T07:45:22Z",
+        "timestamp": 1779263122000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/ae6999"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            1
+          ]
+        ]
+      },
+      "references-count": 28,
+      "journal-issue": {
+        "issue": "10",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              20
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              1
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.1088/2631-8695/ae6999",
+      "relation": {},
+      "ISSN": [
+        "2631-8695"
+      ],
+      "issn-type": [
+        {
+          "value": "2631-8695",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            1
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "COBAD-FIR: a hybrid coati-badger optimization framework for power-efficient FIR coefficient enhancement in VLSI systems",
+          "name": "article_title",
+          "label": "Article Title"
+        },
+        {
+          "value": "Engineering Research Express",
+          "name": "journal_title",
+          "label": "Journal Title"
+        },
+        {
+          "value": "paper",
+          "name": "article_type",
+          "label": "Article Type"
+        },
+        {
+          "value": "© 2026 IOP Publishing Ltd. All rights, including for text and data mining, AI training, and similar technologies, are reserved.",
+          "name": "copyright_information",
+          "label": "Copyright Information"
+        },
+        {
+          "value": "2026-02-15",
+          "name": "date_received",
+          "label": "Date Received",
+          "group": {
+            "name": "publication_dates",
+            "label": "Publication dates"
+          }
+        },
+        {
+          "value": "2026-05-06",
+          "name": "date_accepted",
+          "label": "Date Accepted",
+          "group": {
+            "name": "publication_dates",
+            "label": "Publication dates"
+          }
+        },
+        {
+          "value": "2026-05-20",
+          "name": "date_epub",
+          "label": "Online publication date",
+          "group": {
+            "name": "publication_dates",
+            "label": "Publication dates"
+          }
+        }
+      ]
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Karunakaran S",
+      "given_name_from_source": "Karunakaran",
+      "family_name_from_source": "S",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "RMK Engineering College"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": "https://orcid.org/0000-0003-1561-1376",
+      "affiliation_from_source": [
+        "Vardhaman College of Engineering",
+        "Chennai Institute of Technology"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Vinoop Kanna",
+      "given_name_from_source": "Vinoop",
+      "family_name_from_source": "Kanna",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "St Francis College"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Subhav Singh",
+      "given_name_from_source": "Subhav",
+      "family_name_from_source": "Singh",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Chitkara University",
+        "Sharda University"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

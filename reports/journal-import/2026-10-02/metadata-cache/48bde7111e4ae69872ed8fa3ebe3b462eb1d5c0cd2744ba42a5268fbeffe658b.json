@@ -1,0 +1,521 @@
+{
+  "doi": "10.1002/ese3.70354",
+  "title": "A Static Kropki Puzzle Pattern‐Based Shade Dispersion Technique for a Partially Shaded Photovoltaic Array",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Energy Science &amp; Engineering",
+  "publisher": "Wiley",
+  "publication_date": "2025-11-10",
+  "online_publication_date": "2025-11-10",
+  "print_publication_date": null,
+  "volume": "14",
+  "issue": "1",
+  "pages_or_article_number": "289-299",
+  "issn": "2050-0505",
+  "eissn": "2050-0505",
+  "isbn": null,
+  "url": "https://doi.org/10.1002/ese3.70354",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:19.552923+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T02:43:25Z",
+        "timestamp": 1768445005778,
+        "version": "3.49.0"
+      },
+      "reference-count": 20,
+      "publisher": "Wiley",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                10
+              ]
+            ],
+            "date-time": "2025-11-10T00:00:00Z",
+            "timestamp": 1762732800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                10
+              ]
+            ],
+            "date-time": "2025-11-10T00:00:00Z",
+            "timestamp": 1762732800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "scijournals.onlinelibrary.wiley.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Energy Science &amp; Engineering"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            1
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>Partial shading is crucial in reducing the performance of the photovoltaic (PV) array. The static reconfiguration is a viable option for alleviating the partial shading. The scattering of shade relies on its puzzle pattern. This research proposes a static Kropki puzzle‐based reconfiguration to scatter the shade effectively, thereby alleviating the consequence of partial shading. The Kropki puzzle pattern offers the benefits of simple rules and faster execution. The position of the panels is modified in accordance with the Kropki puzzle pattern and tested experimentally on a 4 × 4 total‐cross‐tied array. The Kropki reconfiguration is validated by relating to total‐cross‐tied, Sudoku, Skyscraper, and Odd–Even configurations by performance parameters. Overall, the experimental results show that the Kropki puzzle has superior shade capability and improved PE by 54% compared to conventional TCT.</jats:p>",
+      "DOI": "10.1002/ese3.70354",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            11
+          ]
+        ],
+        "date-time": "2025-11-11T06:54:18Z",
+        "timestamp": 1762844058000
+      },
+      "page": "289-299",
+      "update-policy": "https://doi.org/10.1002/crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "A Static Kropki Puzzle Pattern‐Based Shade Dispersion Technique for a Partially Shaded Photovoltaic Array"
+      ],
+      "prefix": "10.1002",
+      "volume": "14",
+      "author": [
+        {
+          "given": "Palpandian",
+          "family": "Murugesan",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering AAA College of Engineering and Technology Sivakasi Tamil Nadu India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Hariharasudhan",
+          "family": "Thangaraj",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering M. Kumarasamy College of Engineering, Thalavapalayam Karur Tamil Nadu India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1561-1376",
+          "authenticated-orcid": false,
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering Vardhaman College of Engineering Hyderabad Telangana India"
+            },
+            {
+              "name": "Department of Electrical and Electronics Engineering Chennai Institute of Technology Chennai Tamilnadu India"
+            },
+            {
+              "name": "Centre for Research Impact and Outcome, Chitkara University Institute of Engineering and Technology Chitkara University Rajpura Punjab India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Muhammad Ammirrul Atiqi Mohd",
+          "family": "Zainuri",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical, Electronic and Systems Engineering, Faculty Engineering and Built Environment Universiti Kebangsaan Malaysia  Selangor Malaysia"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "311",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            10
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_9_2_1",
+          "volume-title": "Tracking SDG7: The Energy Progress Report, 2020",
+          "author": "IEA, IRENA, UNSD, World Bank, WHO",
+          "year": "2020"
+        },
+        {
+          "key": "e_1_2_9_3_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/en18092221"
+        },
+        {
+          "key": "e_1_2_9_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1049/rpg2.70005"
+        },
+        {
+          "key": "e_1_2_9_5_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TEC.2022.3178278"
+        },
+        {
+          "key": "e_1_2_9_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/15567036.2021.1945710"
+        },
+        {
+          "key": "e_1_2_9_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1088/1742-6596/3011/1/012083"
+        },
+        {
+          "key": "e_1_2_9_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1155/2012/120214"
+        },
+        {
+          "key": "e_1_2_9_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijleo.2023.170559"
+        },
+        {
+          "key": "e_1_2_9_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TSTE.2012.2230033"
+        },
+        {
+          "key": "e_1_2_9_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.rser.2019.04.037"
+        },
+        {
+          "key": "e_1_2_9_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.17485/ijst/2015/v8i35/87397"
+        },
+        {
+          "key": "e_1_2_9_13_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.solener.2016.05.045"
+        },
+        {
+          "key": "e_1_2_9_14_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/B978-0-323-95108-1.00011-2"
+        },
+        {
+          "key": "e_1_2_9_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.energy.2019.115917"
+        },
+        {
+          "key": "e_1_2_9_16_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.solener.2019.01.076"
+        },
+        {
+          "key": "e_1_2_9_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.aej.2022.06.009"
+        },
+        {
+          "issue": "1",
+          "key": "e_1_2_9_18_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1155/2023/8685976",
+          "article-title": "Atom Search Optimization‐Based PV Array Reconfiguration Technique under Partial Shading Condition",
+          "volume": "2023",
+          "author": "Li D.",
+          "year": "2023",
+          "journal-title": "International Transactions on Electrical Energy Systems"
+        },
+        {
+          "key": "e_1_2_9_19_1",
+          "first-page": "2356",
+          "volume-title": "2010 Chinese Control and Decision Conference",
+          "author": "Liu Y.",
+          "year": "2010"
+        },
+        {
+          "key": "e_1_2_9_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.solener.2023.111949"
+        },
+        {
+          "key": "e_1_2_9_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.solener.2020.06.004"
+        }
+      ],
+      "container-title": [
+        "Energy Science &amp; Engineering"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://scijournals.onlinelibrary.wiley.com/doi/pdf/10.1002/ese3.70354",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://scijournals.onlinelibrary.wiley.com/doi/full-xml/10.1002/ese3.70354",
+          "content-type": "application/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://scijournals.onlinelibrary.wiley.com/doi/pdf/10.1002/ese3.70354",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            14
+          ]
+        ],
+        "date-time": "2026-01-14T15:54:14Z",
+        "timestamp": 1768406054000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://scijournals.onlinelibrary.wiley.com/doi/10.1002/ese3.70354"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            10
+          ]
+        ]
+      },
+      "references-count": 20,
+      "journal-issue": {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              1
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1002/ese3.70354"
+      ],
+      "URL": "https://doi.org/10.1002/ese3.70354",
+      "archive": [
+        "Portico"
+      ],
+      "relation": {},
+      "ISSN": [
+        "2050-0505",
+        "2050-0505"
+      ],
+      "issn-type": [
+        {
+          "value": "2050-0505",
+          "type": "print"
+        },
+        {
+          "value": "2050-0505",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            10
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2025-04-16",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2025-10-28",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2025-11-10",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Palpandian Murugesan",
+      "given_name_from_source": "Palpandian",
+      "family_name_from_source": "Murugesan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering AAA College of Engineering and Technology Sivakasi Tamil Nadu India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Hariharasudhan Thangaraj",
+      "given_name_from_source": "Hariharasudhan",
+      "family_name_from_source": "Thangaraj",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering M. Kumarasamy College of Engineering, Thalavapalayam Karur Tamil Nadu India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": "https://orcid.org/0000-0003-1561-1376",
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering Vardhaman College of Engineering Hyderabad Telangana India",
+        "Department of Electrical and Electronics Engineering Chennai Institute of Technology Chennai Tamilnadu India",
+        "Centre for Research Impact and Outcome, Chitkara University Institute of Engineering and Technology Chitkara University Rajpura Punjab India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Muhammad Ammirrul Atiqi Mohd Zainuri",
+      "given_name_from_source": "Muhammad Ammirrul Atiqi Mohd",
+      "family_name_from_source": "Zainuri",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical, Electronic and Systems Engineering, Faculty Engineering and Built Environment Universiti Kebangsaan Malaysia  Selangor Malaysia"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

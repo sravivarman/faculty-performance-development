@@ -1,0 +1,735 @@
+{
+  "doi": "10.1007/s10668-024-05066-7",
+  "title": "Integrated renewable electrification system modeling and tri-objective optimization analysis for net zero energy institutional building: a simulated case study of green hydrogen production",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Environment, Development and Sustainability",
+  "publisher": "Springer Science and Business Media LLC",
+  "publication_date": "2024-06-18",
+  "online_publication_date": "2024-06-18",
+  "print_publication_date": null,
+  "volume": "28",
+  "issue": "2",
+  "pages_or_article_number": "3955-3984",
+  "issn": null,
+  "eissn": "1573-2975",
+  "isbn": null,
+  "url": "https://doi.org/10.1007/s10668-024-05066-7",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:15.295419+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            3
+          ]
+        ],
+        "date-time": "2026-08-03T13:24:15Z",
+        "timestamp": 1785763455706,
+        "version": "3.56.0"
+      },
+      "reference-count": 31,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "2",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                6,
+                18
+              ]
+            ],
+            "date-time": "2024-06-18T00:00:00Z",
+            "timestamp": 1718668800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                6,
+                18
+              ]
+            ],
+            "date-time": "2024-06-18T00:00:00Z",
+            "timestamp": 1718668800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Environ Dev Sustain"
+      ],
+      "DOI": "10.1007/s10668-024-05066-7",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            18
+          ]
+        ],
+        "date-time": "2024-06-18T11:00:09Z",
+        "timestamp": 1718708409000
+      },
+      "page": "3955-3984",
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 13,
+      "title": [
+        "Integrated renewable electrification system modeling and tri-objective optimization analysis for net zero energy institutional building: a simulated case study of green hydrogen production"
+      ],
+      "prefix": "10.1007",
+      "volume": "28",
+      "author": [
+        {
+          "given": "S.",
+          "family": "Rajasekaran",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Murugaperumal",
+          "family": "Krishnamoorthy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Suresh",
+          "family": "Srinivasan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Pramod Kumar",
+          "family": "Gouda",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            18
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "5066_CR1",
+          "doi-asserted-by": "publisher",
+          "first-page": "228858",
+          "DOI": "10.1016/j.jpowsour.2020.228858",
+          "volume": "481",
+          "author": "F Aubras",
+          "year": "2021",
+          "unstructured": "Aubras, F., Rhandi, M., Deseure, J., Kadjo, A. J., Bessafi, M., Majasan, J., Grondin-Perez, B., Druart, F., & Chabriat, J. P. (2021). Dimensionless approach of a polymer electrolyte membrane water electrolysis: Advanced analytical modelling. Journal of Power Sources, 481, 228858.",
+          "journal-title": "Journal of Power Sources"
+        },
+        {
+          "key": "5066_CR2",
+          "doi-asserted-by": "publisher",
+          "first-page": "123090",
+          "DOI": "10.1016/j.energy.2021.123090",
+          "volume": "245",
+          "author": "MI Aydin",
+          "year": "2022",
+          "unstructured": "Aydin, M. I., & Dincer, I. (2022). An assessment study on various clean hydrogen production methods. Energy, 245, 123090.",
+          "journal-title": "Energy"
+        },
+        {
+          "issue": "18",
+          "key": "5066_CR3",
+          "doi-asserted-by": "publisher",
+          "first-page": "8466",
+          "DOI": "10.1016/j.biortech.2011.06.020",
+          "volume": "102",
+          "author": "MK Cohce",
+          "year": "2011",
+          "unstructured": "Cohce, M. K., Dincer, I., & Rosen, M. A. (2011). Energy and exergy analyses of a biomass-based hydrogen production system. Bioresource Technology, 102(18), 8466–8474.",
+          "journal-title": "Bioresource Technology"
+        },
+        {
+          "key": "5066_CR4",
+          "doi-asserted-by": "publisher",
+          "first-page": "589",
+          "DOI": "10.1016/j.renene.2022.10.131",
+          "volume": "202",
+          "author": "J Dar",
+          "year": "2023",
+          "unstructured": "Dar, J., & Asif, M. (2023). Environmental feasibility of a gradual shift from fossil fuels to renewable energy in India: Evidence from multiple structural breaks cointegration. Renewable Energy, 202, 589–601.",
+          "journal-title": "Renewable Energy"
+        },
+        {
+          "key": "5066_CR5",
+          "volume-title": "Renewable hydrogen production",
+          "author": "İ Dinçer",
+          "year": "2021",
+          "unstructured": "Dinçer, İ, & Ishaq, H. (2021). Renewable hydrogen production. Elsevier."
+        },
+        {
+          "issue": "2",
+          "key": "5066_CR6",
+          "first-page": "13",
+          "volume": "11",
+          "author": "S Durgalakshmi",
+          "year": "2019",
+          "unstructured": "Durgalakshmi, S., & Janani, R. (2019). Energy efficient/green buildings and their related issues–a literature review. J. Archit. Technol, 11(2), 13–19.",
+          "journal-title": "J. Archit. Technol"
+        },
+        {
+          "key": "5066_CR7",
+          "doi-asserted-by": "publisher",
+          "first-page": "100921",
+          "DOI": "10.1016/j.esr.2022.100921",
+          "volume": "43",
+          "author": "HH Gandhi",
+          "year": "2022",
+          "unstructured": "Gandhi, H. H., Hoex, B., & Hallam, B. J. (2022). Strategic investment risks threatening India’s renewable energy ambition. Energy Strategy Reviews, 43, 100921.",
+          "journal-title": "Energy Strategy Reviews"
+        },
+        {
+          "key": "5066_CR8",
+          "doi-asserted-by": "publisher",
+          "first-page": "113240",
+          "DOI": "10.1016/j.enconman.2020.113240",
+          "volume": "223",
+          "author": "Y Gu",
+          "year": "2020",
+          "unstructured": "Gu, Y., Chen, Q., Xue, J., Tang, Z., Sun, Y., & Wu, Q. (2020). Comparative techno-economic study of solar energy integrated hydrogen supply pathways for hydrogen refueling stations in China. Energy Conversion and Management, 223, 113240.",
+          "journal-title": "Energy Conversion and Management"
+        },
+        {
+          "issue": "32",
+          "key": "5066_CR9",
+          "doi-asserted-by": "publisher",
+          "first-page": "15869",
+          "DOI": "10.1016/j.ijhydene.2020.01.037",
+          "volume": "45",
+          "author": "H Ishaq",
+          "year": "2020",
+          "unstructured": "Ishaq, H., & Dincer, I. (2020). Evaluation of a wind energy based system for co-generation of hydrogen and methanol production. International Journal of Hydrogen Energy, 45(32), 15869–15877.",
+          "journal-title": "International Journal of Hydrogen Energy"
+        },
+        {
+          "key": "5066_CR10",
+          "doi-asserted-by": "publisher",
+          "first-page": "230106",
+          "DOI": "10.1016/j.jpowsour.2021.230106",
+          "volume": "506",
+          "author": "D Jang",
+          "year": "2021",
+          "unstructured": "Jang, D., Choi, W., Cho, H. S., Cho, W. C., Kim, C. H., & Kang, S. (2021). Numerical modeling and analysis of the temperature effect on the performance of an alkaline water electrolysis system. Journal of Power Sources, 506, 230106.",
+          "journal-title": "Journal of Power Sources"
+        },
+        {
+          "key": "5066_CR11",
+          "doi-asserted-by": "publisher",
+          "first-page": "468",
+          "DOI": "10.1016/j.cej.2015.06.038",
+          "volume": "280",
+          "author": "DH Kim",
+          "year": "2015",
+          "unstructured": "Kim, D. H., Kim, S. H., & Byun, J. Y. (2015). A microreactor with metallic catalyst support for hydrogen production by partial oxidation of dimethyl ether. Chemical Engineering Journal, 280, 468–474.",
+          "journal-title": "Chemical Engineering Journal"
+        },
+        {
+          "issue": "11",
+          "key": "5066_CR12",
+          "doi-asserted-by": "publisher",
+          "first-page": "1286",
+          "DOI": "10.3390/e22111286",
+          "volume": "22",
+          "author": "A Martínez-Rodríguez",
+          "year": "2020",
+          "unstructured": "Martínez-Rodríguez, A., & Abánades, A. (2020). Comparative analysis of energy and exergy performance of hydrogen production methods. Entropy, 22(11), 1286.",
+          "journal-title": "Entropy"
+        },
+        {
+          "issue": "12",
+          "key": "5066_CR13",
+          "doi-asserted-by": "publisher",
+          "first-page": "7266",
+          "DOI": "10.1016/j.ijhydene.2019.08.206",
+          "volume": "45",
+          "author": "L Mosca",
+          "year": "2020",
+          "unstructured": "Mosca, L., Jimenez, J. A., Wassie, S. A., Gallucci, F., Palo, E., Colozzi, M., Taraschi, S., & Galdieri, G. (2020). Process design for green hydrogen production. International Journal of Hydrogen Energy, 45(12), 7266–7277.",
+          "journal-title": "International Journal of Hydrogen Energy"
+        },
+        {
+          "key": "5066_CR14",
+          "doi-asserted-by": "publisher",
+          "first-page": "109448",
+          "DOI": "10.1016/j.asoc.2022.109448",
+          "volume": "128",
+          "author": "A Motaghedi-Larijani",
+          "year": "2022",
+          "unstructured": "Motaghedi-Larijani, A. (2022). Solving the number of cross-dock open doors optimization problem by combination of NSGA-II and multi-objective simulated annealing. Applied Soft Computing, 128, 109448.",
+          "journal-title": "Applied Soft Computing"
+        },
+        {
+          "issue": "16",
+          "key": "5066_CR15",
+          "doi-asserted-by": "publisher",
+          "first-page": "7996",
+          "DOI": "10.1016/j.ijhydene.2019.02.002",
+          "volume": "44",
+          "author": "K Murugaperumal",
+          "year": "2019",
+          "unstructured": "Murugaperumal, K., & Raj, P. A. (2019a). Energy storage based MG connected system for optimal management of energy: An ANFMDA technique. International Journal of Hydrogen Energy, 44(16), 7996–8010.",
+          "journal-title": "International Journal of Hydrogen Energy"
+        },
+        {
+          "key": "5066_CR16",
+          "doi-asserted-by": "publisher",
+          "first-page": "1068",
+          "DOI": "10.1016/j.solener.2019.07.008",
+          "volume": "188",
+          "author": "K Murugaperumal",
+          "year": "2019",
+          "unstructured": "Murugaperumal, K., & Raj, P. A. (2019b). Feasibility design and techno-economic analysis of hybrid renewable energy system for rural electrification. Solar Energy, 188, 1068–1083.",
+          "journal-title": "Solar Energy"
+        },
+        {
+          "issue": "2",
+          "key": "5066_CR17",
+          "doi-asserted-by": "publisher",
+          "first-page": "25",
+          "DOI": "10.1520/SSMS20180017",
+          "volume": "2",
+          "author": "GS Ogumerem",
+          "year": "2018",
+          "unstructured": "Ogumerem, G. S., & Pistikopoulos, E. N. (2018). Dynamic modeling and explicit control of a pem water electrolysis process. Smart and Sustainable Manufacturing Systems, 2(2), 25–43.",
+          "journal-title": "Smart and Sustainable Manufacturing Systems"
+        },
+        {
+          "key": "5066_CR18",
+          "doi-asserted-by": "publisher",
+          "first-page": "153",
+          "DOI": "10.1016/j.apenergy.2016.03.051",
+          "volume": "171",
+          "author": "AS Ogunjuyigbe",
+          "year": "2016",
+          "unstructured": "Ogunjuyigbe, A. S., Ayodele, T. R., & Akinola, O. A. (2016). Optimal allocation and sizing of PV/Wind/Split-diesel/Battery hybrid energy system for minimizing life cycle cost, carbon emission and dump energy of remote residential building. Applied Energy, 171, 153–171.",
+          "journal-title": "Applied Energy"
+        },
+        {
+          "issue": "32",
+          "key": "5066_CR19",
+          "doi-asserted-by": "publisher",
+          "first-page": "14393",
+          "DOI": "10.1016/j.ijhydene.2022.02.214",
+          "volume": "47",
+          "author": "C Park",
+          "year": "2022",
+          "unstructured": "Park, C., Koo, M., Woo, J., Hong, B. I., & Shin, J. (2022). Economic valuation of green hydrogen charging compared to gray hydrogen charging: The case of South Korea. International Journal of Hydrogen Energy, 47(32), 14393–14403.",
+          "journal-title": "International Journal of Hydrogen Energy"
+        },
+        {
+          "issue": "46",
+          "key": "5066_CR20",
+          "doi-asserted-by": "publisher",
+          "first-page": "25378",
+          "DOI": "10.1016/j.ijhydene.2020.06.238",
+          "volume": "45",
+          "author": "M Prewitz",
+          "year": "2020",
+          "unstructured": "Prewitz, M., Bardenhagen, A., & Beck, R. (2020). Hydrogen as the fuel of the future in aircrafts–challenges and opportunities. International Journal of Hydrogen Energy, 45(46), 25378–25385.",
+          "journal-title": "International Journal of Hydrogen Energy"
+        },
+        {
+          "key": "5066_CR21",
+          "doi-asserted-by": "publisher",
+          "first-page": "89",
+          "DOI": "10.1016/j.jclepro.2018.12.124",
+          "volume": "213",
+          "author": "D Torregrossa",
+          "year": "2019",
+          "unstructured": "Torregrossa, D., & Capitanescu, F. (2019). Optimization models to save energy and enlarge the operational life of water pumping systems. Journal of Cleaner Production, 213, 89–98.",
+          "journal-title": "Journal of Cleaner Production"
+        },
+        {
+          "issue": "1",
+          "key": "5066_CR22",
+          "doi-asserted-by": "publisher",
+          "first-page": "104",
+          "DOI": "10.1016/j.joule.2023.12.004",
+          "volume": "8",
+          "author": "F Ueckerdt",
+          "year": "2023",
+          "unstructured": "Ueckerdt, F., Verpoort, P., Anantharaman, R., Bauer, C., Beck, F., Longden, T., & Roussanaly, S. (2023). On the cost competitiveness of blue and green hydrogen. Joule, 8(1), 104–128.",
+          "journal-title": "Joule"
+        },
+        {
+          "key": "5066_CR23",
+          "doi-asserted-by": "publisher",
+          "first-page": "344",
+          "DOI": "10.1016/j.jpowsour.2018.11.050",
+          "volume": "412",
+          "author": "J Wang",
+          "year": "2019",
+          "unstructured": "Wang, J., Wang, T., Yu, L., Wei, T., Hu, X., Ye, Z., Wang, Z., Buckley, C. E., Yao, J., Marnellos, G. E., & Dong, D. (2019). Catalytic CeO2 washcoat over microchanneled supporting cathodes of solid oxide electrolysis cells for efficient and stable CO2 reduction. Journal of Power Sources, 412, 344–349.",
+          "journal-title": "Journal of Power Sources"
+        },
+        {
+          "issue": "7",
+          "key": "5066_CR24",
+          "doi-asserted-by": "publisher",
+          "first-page": "2421",
+          "DOI": "10.1016/j.eswa.2012.10.058",
+          "volume": "40",
+          "author": "V Yannibelli",
+          "year": "2013",
+          "unstructured": "Yannibelli, V., & Amandi, A. (2013). Hybridizing a multi-objective simulated annealing algorithm with a multi-objective evolutionary algorithm to solve a multi-objective project scheduling problem. Expert Systems with Applications, 40(7), 2421–2434.",
+          "journal-title": "Expert Systems with Applications"
+        },
+        {
+          "key": "5066_CR25",
+          "doi-asserted-by": "publisher",
+          "first-page": "278",
+          "DOI": "10.1016/j.enconman.2017.04.084",
+          "volume": "145",
+          "author": "J Yao",
+          "year": "2017",
+          "unstructured": "Yao, J., Kraussler, M., Benedikt, F., & Hofbauer, H. (2017). Techno-economic assessment of hydrogen production based on dual fluidized bed biomass steam gasification, biogas steam reforming, and alkaline water electrolysis processes. Energy Conversion and Management, 145, 278–292.",
+          "journal-title": "Energy Conversion and Management"
+        },
+        {
+          "key": "5066_CR26",
+          "doi-asserted-by": "publisher",
+          "first-page": "123317",
+          "DOI": "10.1016/j.fuel.2022.123317",
+          "volume": "316",
+          "author": "M Younas",
+          "year": "2022",
+          "unstructured": "Younas, M., Shafique, S., Hafeez, A., Javed, F., & Rehman, F. (2022). An overview of hydrogen production: Current status, potential, and challenges. Fuel, 316, 123317.",
+          "journal-title": "Fuel"
+        },
+        {
+          "issue": "41",
+          "key": "5066_CR27",
+          "doi-asserted-by": "publisher",
+          "first-page": "21261",
+          "DOI": "10.1016/j.ijhydene.2021.04.016",
+          "volume": "46",
+          "author": "M Yu",
+          "year": "2021",
+          "unstructured": "Yu, M., Wang, K., & Vredenburg, H. (2021). Insights into low-carbon hydrogen production methods: Green, blue and aqua hydrogen. International Journal of Hydrogen Energy, 46(41), 21261–21273.",
+          "journal-title": "International Journal of Hydrogen Energy"
+        },
+        {
+          "key": "5066_CR28",
+          "doi-asserted-by": "publisher",
+          "first-page": "964",
+          "DOI": "10.1016/j.solener.2018.07.094",
+          "volume": "173",
+          "author": "G Zhang",
+          "year": "2018",
+          "unstructured": "Zhang, G., Wu, B., Maleki, A., & Zhang, W. (2018). Simulated annealing-chaotic search algorithm based optimization of reverse osmosis hybrid desalination system driven by wind and solar energies. Solar Energy, 173, 964–975.",
+          "journal-title": "Solar Energy"
+        },
+        {
+          "issue": "2",
+          "key": "5066_CR29",
+          "doi-asserted-by": "publisher",
+          "first-page": "2728",
+          "DOI": "10.1109/TIA.2021.3093841",
+          "volume": "58",
+          "author": "K Zhang",
+          "year": "2021",
+          "unstructured": "Zhang, K., Zhou, B., Or, S. W., Li, C., Chung, C. Y., & Voropai, N. (2021). Optimal coordinated control of multi-renewable-to-hydrogen production system for hydrogen fueling stations. IEEE Transactions on Industry Applications, 58(2), 2728–2739.",
+          "journal-title": "IEEE Transactions on Industry Applications"
+        },
+        {
+          "key": "5066_CR30",
+          "doi-asserted-by": "publisher",
+          "first-page": "122029",
+          "DOI": "10.1016/j.energy.2021.122029",
+          "volume": "238",
+          "author": "J Zhao",
+          "year": "2021",
+          "unstructured": "Zhao, J., Patwary, A. K., Qayyum, A., Alharthi, M., Bashir, F., Mohsin, M., Hanif, I., & Abbas, Q. (2021). Fueling the future with green economy: An Integration of its determinants from renewable sources. Energy, 238, 122029.",
+          "journal-title": "Energy"
+        },
+        {
+          "issue": "6",
+          "key": "5066_CR31",
+          "doi-asserted-by": "publisher",
+          "first-page": "1121",
+          "DOI": "10.1016/j.engappai.2012.03.012",
+          "volume": "25",
+          "author": "I Zidi",
+          "year": "2012",
+          "unstructured": "Zidi, I., Mesghouni, K., Zidi, K., & Ghedira, K. (2012). A multi-objective simulated annealing for the multi-criteria dial a ride problem. Engineering Applications of Artificial Intelligence, 25(6), 1121–1131.",
+          "journal-title": "Engineering Applications of Artificial Intelligence"
+        }
+      ],
+      "container-title": [
+        "Environment, Development and Sustainability"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s10668-024-05066-7.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/article/10.1007/s10668-024-05066-7",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s10668-024-05066-7.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            17
+          ]
+        ],
+        "date-time": "2026-03-17T19:07:04Z",
+        "timestamp": 1773774424000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://link.springer.com/10.1007/s10668-024-05066-7"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            18
+          ]
+        ]
+      },
+      "references-count": 31,
+      "journal-issue": {
+        "issue": "2",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              2
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "5066"
+      ],
+      "URL": "https://doi.org/10.1007/s10668-024-05066-7",
+      "relation": {},
+      "ISSN": [
+        "1573-2975"
+      ],
+      "issn-type": [
+        {
+          "value": "1573-2975",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            18
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "25 January 2024",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "18 May 2024",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "18 June 2024",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Declarations"
+          }
+        },
+        {
+          "value": "Not applicable.",
+          "order": 2,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Conflict of interest"
+          }
+        },
+        {
+          "value": "This article does not contain any studies with human participants performed by any of the authors.",
+          "order": 3,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Ethical approval"
+          }
+        }
+      ]
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "S. Rajasekaran",
+      "given_name_from_source": "S.",
+      "family_name_from_source": "Rajasekaran",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Murugaperumal Krishnamoorthy",
+      "given_name_from_source": "Murugaperumal",
+      "family_name_from_source": "Krishnamoorthy",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Suresh Srinivasan",
+      "given_name_from_source": "Suresh",
+      "family_name_from_source": "Srinivasan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Pramod Kumar Gouda",
+      "given_name_from_source": "Pramod Kumar",
+      "family_name_from_source": "Gouda",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

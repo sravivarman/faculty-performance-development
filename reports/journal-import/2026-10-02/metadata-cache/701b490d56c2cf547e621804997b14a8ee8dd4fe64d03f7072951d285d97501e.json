@@ -1,0 +1,466 @@
+{
+  "doi": "10.32397/tesea.vol5.n2.641",
+  "title": "IOT based intelligent energy monitoring of grid connected hybrid systems and controlling of loads using PLC",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Transactions on Energy Systems and Engineering Applications",
+  "publisher": "Universidad Tecnologica de Bolivar",
+  "publication_date": "2024-09-11",
+  "online_publication_date": "2024-09-11",
+  "print_publication_date": null,
+  "volume": "5",
+  "issue": "2",
+  "pages_or_article_number": "1-15",
+  "issn": null,
+  "eissn": "2745-0120",
+  "isbn": null,
+  "url": "https://doi.org/10.32397/tesea.vol5.n2.641",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:03.980672+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            4
+          ]
+        ],
+        "date-time": "2026-08-04T15:38:26Z",
+        "timestamp": 1785857906188,
+        "version": "3.56.0"
+      },
+      "reference-count": 26,
+      "publisher": "Universidad Tecnologica de Bolivar",
+      "issue": "2",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                11
+              ]
+            ],
+            "date-time": "2024-09-11T00:00:00Z",
+            "timestamp": 1726012800000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "TESEA"
+      ],
+      "abstract": "<jats:p>Nowadays IOT becoming popularize in all the application especially in the power system network for data monitoring from the Hybrid power distribution system. Because of easy adaptability of IOT technology, it find its place in data monitoring for the remote system and data can also be logged in the cloud server for analysis of the system under surveillance. By having data enabled IOT system, which will make the complete system smarter in terms of monitoring and analysis of the performance of the power distribution network. In these research paper, concept IOT technology for data monitoring of grid connected Hybrid system consist of PV source for the typical educational institute was developed and implemented in the campus. Apart from the data monitoring, controlling of the critical loads connected to this hybrid system was developed using Programmable Logic Controller (PLC). The MyQtt based cloud server was used to store the data pushed from the IOT device and user interactive mobile Application was developed using MIT inventor to monitor the data in the mobile itself, the command from the Mobile app was given to the PLC to control the loads. The energy data from the Multi-function energy meter (MFM) is pushed to PLC through gateway of Raspberry Pi. In this paper, Raspberry PI was used as IOT device and ILC 131 ETH PLC was used to control the loads. Performance of IOT device along with PLC was monitored for 3 months and results obtained were satisfactory.</jats:p>",
+      "DOI": "10.32397/tesea.vol5.n2.641",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            12
+          ]
+        ],
+        "date-time": "2024-09-12T07:08:34Z",
+        "timestamp": 1726124914000
+      },
+      "page": "1-15",
+      "update-policy": "https://doi.org/10.32397/tesea-crossmark",
+      "source": "Crossref",
+      "is-referenced-by-count": 6,
+      "title": [
+        "IOT based intelligent energy monitoring of grid connected hybrid systems and controlling of loads using PLC"
+      ],
+      "prefix": "10.32397",
+      "volume": "5",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-6667-5997",
+          "authenticated-orcid": false,
+          "given": "Muthukumaran",
+          "family": "Thulasingam",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ajay D Vimal Raj.",
+          "family": "P",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0203-0700",
+          "authenticated-orcid": false,
+          "given": "Muruagapermual",
+          "family": "Krishnamoorthy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "17094",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            11
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "ref0",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[1] MohammedSamdani Shaik, Dipam Shah, Raghuram Chetty, and Rahul R Marathe. A lorawan based open source iot solution for monitoring rural electrification policy. January 2020.",
+          "DOI": "10.1109/comsnets48256.2020.9027490"
+        },
+        {
+          "key": "ref1",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[2] José Miguel Paredes-Parra, Antonio Javier García-Sánchez, Antonio Mateo-Aroca, and Angel Molina-Garcia. An alternative internet-of-things solution based on lora for pv power plants: Data monitoring and management. Energies, 12(5):881, March 2019.",
+          "DOI": "10.3390/en12050881"
+        },
+        {
+          "key": "ref2",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[3] Ascensión López-Vargas, Manuel Fuentes, and Marta Vivar. Current challenges for the advanced mass scale monitoring of solar home systems: A review. Renewable Energy, 163:2098–2114, January 2021.",
+          "DOI": "10.1016/j.renene.2020.09.111"
+        },
+        {
+          "key": "ref3",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[4] J.E. Shuda, A.J. Rix, and M.J. Booysen. Towards module-level performance and health monitoring of solar pv plants using lora wireless sensor networks. 2018 IEEE PES/IAS PowerAfrica, June 2018.",
+          "DOI": "10.1109/powerafrica.2018.8521179"
+        },
+        {
+          "key": "ref4",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[5] Neeraj Kumar Gupta, Aditya Kumar Singh, Ashish D. Thombre, and Kirti Pal. Smart solar energy management to power computer lab in rural areas. November 2018.",
+          "DOI": "10.1109/cipech.2018.8724133"
+        },
+        {
+          "key": "ref5",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[6] Congduc Pham, Abdur Rahim, and Philippe Cousin. Low-cost, long-range open iot for smarter rural african villages. September 2016.",
+          "DOI": "10.1109/isc2.2016.7580823"
+        },
+        {
+          "key": "ref6",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[7] P. Papageorgas, D. Piromalis, K. Antonakoglou, G. Vokas, D. Tseles, and K.G. Arvanitis. Smart solar panels: In-situ monitoring of photovoltaic panels based on wired and wireless sensor networks. Energy Procedia, 36:535–545, January 2013.",
+          "DOI": "10.1016/j.egypro.2013.07.062"
+        },
+        {
+          "key": "ref7",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[8] Venkat Subramanian Arumuga Perumal, Krishnamoorthy Baskaran, and Suleman Khalid Rai. Implementation of effective and low-cost building monitoring system(bms) using raspberry pi. Energy Procedia, 143:179–185, December 2017.",
+          "DOI": "10.1016/j.egypro.2017.12.668"
+        },
+        {
+          "key": "ref8",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[9] Mani Dheeraj Mudaliar and N. Sivakumar. Iot based real time energy monitoring system using raspberry pi. Internet of Things, 12:100292, December 2020.",
+          "DOI": "10.1016/j.iot.2020.100292"
+        },
+        {
+          "key": "ref9",
+          "unstructured": "[10] K COKAFOR,G.Ononiwu, Udechukwu Precious, and A. C Godis. Development of arduino based iot metering system for on-demand energy monitoring. 2017."
+        },
+        {
+          "key": "ref10",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[11] Sanket Thakare, Akshay Shriyan, Vikas Thale, Prakash Yasarp, and Keerthi Unni. Implementation of an energy monitoring and control device based on iot. December 2016.",
+          "DOI": "10.1109/indicon.2016.7839066"
+        },
+        {
+          "key": "ref11",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[12] Swati Arora, Aditi Thakur, Abinash Singh, Sahil Rana, and Dhawan Singh. A review on smart energy meters and their market trends. November 2022.",
+          "DOI": "10.1109/icetems56252.2022.10093455"
+        },
+        {
+          "key": "ref12",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[13] J. Bennilo Fernandes, Sangeetha Dp, G. Padmapriya, and K. Sekar. Iot based energy assistive meter to analyse the electricity usage in commercial and household uses via wirelessly in a cloud network. December 2022.",
+          "DOI": "10.1109/icpects56089.2022.10046793"
+        },
+        {
+          "key": "ref13",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[14] Michael Opoku Agyeman, Zainab Al-Waisi, and Igla Hoxha. Design and implementation of an iot-based energy monitoring system for managing smart homes. June 2019.",
+          "DOI": "10.1109/fmec.2019.8795363"
+        },
+        {
+          "key": "ref14",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[15] Amam Hossain Bagdadee, Li Zhang, and Md. Saddam Hossain Remus. A brief review of the iot-based energy management system in the smart industry. Advances in Intelligent Systems and Computing, page 443–459, January 2020.",
+          "DOI": "10.1007/978-981-15-0199-9_38"
+        },
+        {
+          "key": "ref15",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[16] L. Niranjan, Husna Tabassum, B. Sreekantha, T. Pushpa, and Mantri Gayatri. Design and Implementation of Smart Home Automation System Using the Proteus Design Tool, page 95–106. January 2023.",
+          "DOI": "10.1007/978-981-19-8497-6_10"
+        },
+        {
+          "key": "ref16",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[17] Wajdi Alhakami. Computational study of security risk evaluation in energy management and control systems based on a fuzzy mcdm method. Processes, 11(5):1366, April 2023.",
+          "DOI": "10.3390/pr11051366"
+        },
+        {
+          "key": "ref17",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[18] None Jixuan Zheng, David Wenzhong Gao, and None Li Lin. Smart meters in smart grid: An overview. April 2013.",
+          "DOI": "10.1109/greentech.2013.17"
+        },
+        {
+          "key": "ref18",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[19] Souhaib Ben Taieb, Raphael Huser, Rob J. Hyndman, and Marc G. Genton. Forecasting uncertainty in electricity smart meter data by boosting additive quantile regression. IEEE Transactions on Smart Grid, 7(5):2448–2455, September 2016.",
+          "DOI": "10.1109/tsg.2016.2527820"
+        },
+        {
+          "key": "ref19",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[20] Julius Quarshie Azasoo, Eric Kuada, Kwame Osei Boateng, and Michael Opoku Agyeman. An algorithm for micro-load shedding in generation constrained electricity distribution network. June 2017.",
+          "DOI": "10.1109/powerafrica.2017.7991257"
+        },
+        {
+          "key": "ref20",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[21] P. Mathiyalagan, A. Shanmugapriya, and A. V. Geethu. Smart meter data analytics using r and hadoop. May 2017.",
+          "DOI": "10.1109/eit.2017.8053438"
+        },
+        {
+          "key": "ref21",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[22] Tiefeng Zhang, Guangquan Zhang, Jie Lu, Xiaopu Feng, and Wanchun Yang. A new index and classification approach for load pattern analysis of large electricity customers. IEEE Transactions on Power Systems, 27(1):153–160, February 2012.",
+          "DOI": "10.1109/tpwrs.2011.2167524"
+        },
+        {
+          "key": "ref22",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[23] Giovanni Battista Gaggero, Mario Marchese, Aya Moheddine, and Fabio Patrone. A possible smart metering system evolution for rural and remote areas employing unmanned aerial vehicles and internet of things in smart grids. Sensors, 21(5):1627, February 2021.",
+          "DOI": "10.3390/s21051627"
+        },
+        {
+          "key": "ref23",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[24] Yasir Saleem, Noel Crespi, Mubashir Husain Rehmani, and Rebecca Copeland. Internet of things-aided smart grid: Technologies, architectures, applications, prototypes, and future research directions. IEEE Access, 7:62962–63003, January 2019.",
+          "DOI": "10.1109/access.2019.2913984"
+        },
+        {
+          "key": "ref24",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[25] Murugaperumal Krishnamoorthy, Md. Asif, Polamarasetty P. Kumar, Ramakrishna S. S. Nuvvula, Baseem Khan, and Ilhami Colak. A design and development of the smart forest alert monitoring system using iot. Journal of Sensors, 2023:1–12, February 2023.",
+          "DOI": "10.1155/2023/8063524"
+        },
+        {
+          "key": "ref25",
+          "unstructured": "[26] Ilc 131 eth- controller- 2700973 | phoenix contact."
+        }
+      ],
+      "container-title": [
+        "Transactions on Energy Systems and Engineering Applications"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://revistas.utb.edu.co/tesea/article/download/641/409",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://revistas.utb.edu.co/tesea/article/download/641/409",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            7
+          ]
+        ],
+        "date-time": "2026-05-07T21:50:49Z",
+        "timestamp": 1778190649000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://revistas.utb.edu.co/tesea/article/view/641"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            11
+          ]
+        ]
+      },
+      "references-count": 26,
+      "journal-issue": {
+        "issue": "2",
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              31
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.32397/tesea.vol5.n2.641",
+      "archive": [
+        "Internet Archive"
+      ],
+      "relation": {},
+      "ISSN": [
+        "2745-0120"
+      ],
+      "issn-type": [
+        {
+          "value": "2745-0120",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            11
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2024-3-7",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2024-7-14",
+          "order": 1,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2024-9-11",
+          "order": 2,
+          "name": "published_online",
+          "label": "Published Online",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ],
+      "article-number": "641"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Muthukumaran Thulasingam",
+      "given_name_from_source": "Muthukumaran",
+      "family_name_from_source": "Thulasingam",
+      "orcid_from_source": "https://orcid.org/0000-0002-6667-5997",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Ajay D Vimal Raj. P",
+      "given_name_from_source": "Ajay D Vimal Raj.",
+      "family_name_from_source": "P",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Muruagapermual Krishnamoorthy",
+      "given_name_from_source": "Muruagapermual",
+      "family_name_from_source": "Krishnamoorthy",
+      "orcid_from_source": "https://orcid.org/0000-0002-0203-0700",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

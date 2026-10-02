@@ -1,0 +1,651 @@
+{
+  "doi": "10.3389/fenrg.2024.1325865",
+  "title": "Green energy-sourced AI-controlled multilevel UPQC parameter selection using football game optimization",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Frontiers in Energy Research",
+  "publisher": "Frontiers Media SA",
+  "publication_date": "2024-02-19",
+  "online_publication_date": "2024-02-19",
+  "print_publication_date": null,
+  "volume": "12",
+  "issue": null,
+  "pages_or_article_number": "1325865",
+  "issn": null,
+  "eissn": "2296-598X",
+  "isbn": null,
+  "url": "https://doi.org/10.3389/fenrg.2024.1325865",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:27.524226+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            1
+          ]
+        ],
+        "date-time": "2026-07-01T16:05:36Z",
+        "timestamp": 1782921936200,
+        "version": "3.54.5"
+      },
+      "reference-count": 34,
+      "publisher": "Frontiers Media SA",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                2,
+                19
+              ]
+            ],
+            "date-time": "2024-02-19T00:00:00Z",
+            "timestamp": 1708300800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "frontiersin.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Front. Energy Res."
+      ],
+      "abstract": "<jats:p>The power quality (PQ) has been significantly affected by the integration of intermittent non-conventional sources (NCS) into the local distribution system in addition to the adoption of power electronic technologies to regulate non-linear loads. This article combines the H-bridge cascade five-level unified power quality conditioner (5L-UPQC) with the wind power generation system (WPGS), solar photovoltaic power generation system (SPVGS), and battery storage system (BSS) as an effective approach to address PQ problems. The utilization of the Levenberg–Marquardt backpropagation (LMBP)-trained Artificial neural network controller (ANNC) in the UPQC is recommended for generating appropriate reference signals for the converters. This eliminates the requirement for conventional complex conversions, such as abc, dq0, and αβ. Moreover, the artificial neuro-fuzzy interface system (ANFIS) is recommended for achieving a DC-link balance. Football game optimization (FBGO) is utilized to determine the optimal shunt and series filter characteristics. The major objectives of the proposed system are to reduce the current waveform irregularities, resulting in a decrease in the total harmonic distortion (THD), an enhancement in the power factor (PF), the mitigation of supply voltage imbalances and disturbances, and the maintenance of a steady direct-current link capacitor voltage (DLCV), despite the variations in the load, solar irradiation, and wind velocity. The efficiency of the suggested strategy is assessed using four case studies that involve different loads, variable wind velocities, and source voltage balancing conditions. Based on the simulation studies and obtained results, the suggested method significantly decreases the THD to values of 2.91%, 3.63%, 3.75%, and 3.50%. Additionally, it achieves a power factor of unity, which is considerably lower compared to other multilevel schemes that use the traditional symmetrical reference frame (SRF) and instantaneous reactive power (pq) methods. This design has been executed using the MATLAB/Simulink program.</jats:p>",
+      "DOI": "10.3389/fenrg.2024.1325865",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            19
+          ]
+        ],
+        "date-time": "2024-02-19T04:43:03Z",
+        "timestamp": 1708317783000
+      },
+      "update-policy": "https://doi.org/10.3389/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 9,
+      "title": [
+        "Green energy-sourced AI-controlled multilevel UPQC parameter selection using football game optimization"
+      ],
+      "prefix": "10.3389",
+      "volume": "12",
+      "author": [
+        {
+          "given": "Koganti",
+          "family": "Srilakshmi",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gummadi Srinivasa",
+          "family": "Rao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tomonobu",
+          "family": "Senjyu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "1965",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            19
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "B1",
+          "doi-asserted-by": "publisher",
+          "first-page": "4531",
+          "DOI": "10.3390/en15134531",
+          "article-title": "A novel single-phase shunt active power filter with a cost function based model predictive current control technique",
+          "volume": "15",
+          "author": "Belqasem",
+          "year": "2022",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "B2",
+          "doi-asserted-by": "publisher",
+          "first-page": "2419",
+          "DOI": "10.1080/15567036.2021.1902430",
+          "article-title": "Hybrid renewable energy based smart grid system for reactive power management and voltage profile enhancement using artificial neural network",
+          "volume": "43",
+          "author": "Chandrasekaran",
+          "year": "2021",
+          "journal-title": "Energy Sources, Part A Recovery, Util. Environ. Eff."
+        },
+        {
+          "key": "B3",
+          "doi-asserted-by": "publisher",
+          "first-page": "7074",
+          "DOI": "10.3390/en15197074",
+          "article-title": "Design and control of three-phase power system with wind power using unified power quality conditioner",
+          "volume": "15",
+          "author": "DheyaaIed",
+          "year": "2022",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "B4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.5085028",
+          "article-title": "Optimal controller for mitigation of harmonics in hybrid shunt active power filter connected distribution system: an EGOANN technique",
+          "volume": "11",
+          "author": "Ganesan",
+          "year": "2019",
+          "journal-title": "J. Renew. Sustain. Energy"
+        },
+        {
+          "key": "B5",
+          "doi-asserted-by": "publisher",
+          "first-page": "919",
+          "DOI": "10.3390/electronics11060919",
+          "article-title": "New modulation technique in smart grid interfaced multilevel UPQC-PV controlled via fuzzy logic controller",
+          "volume": "11",
+          "author": "Hassan",
+          "year": "2022",
+          "journal-title": "Electronics"
+        },
+        {
+          "key": "B6",
+          "doi-asserted-by": "publisher",
+          "first-page": "637",
+          "DOI": "10.3390/electronics9040637",
+          "article-title": "Modeling and simulation of a PI controlled shunt active power filter for power quality enhancement based on P-Q theory",
+          "volume": "9",
+          "author": "Imam",
+          "year": "2020",
+          "journal-title": "Electronics"
+        },
+        {
+          "key": "B7",
+          "doi-asserted-by": "publisher",
+          "first-page": "110898",
+          "DOI": "10.1016/j.rser.2021.110898",
+          "article-title": "Improvement of harmonic conditions in the AC/DC microgrids with the presence of filter compensation modules",
+          "volume": "143",
+          "author": "Khosravi",
+          "year": "2021",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "key": "B8",
+          "doi-asserted-by": "publisher",
+          "first-page": "3765",
+          "DOI": "10.1109/TPEL.2022.3217964",
+          "article-title": "A new approach to enhance the operation of M-UPQC proportional-integral multiresonant controller based on the optimization methods for a stand-alone AC microgrid",
+          "volume": "38",
+          "author": "Khosravi",
+          "year": "2023",
+          "journal-title": "IEEE Trans. Power Electron."
+        },
+        {
+          "key": "B9",
+          "doi-asserted-by": "publisher",
+          "first-page": "13992",
+          "DOI": "10.3390/su142113992",
+          "article-title": "Optimal design of an artificial intelligence controller for solar-battery integrated UPQC in three phase distribution networks",
+          "volume": "14",
+          "author": "Koganti",
+          "year": "2022",
+          "journal-title": "Sustainability"
+        },
+        {
+          "key": "B10",
+          "doi-asserted-by": "publisher",
+          "first-page": "256",
+          "DOI": "10.3390/a15080256",
+          "article-title": "Design of multi-objective-based artificial intelligence controller for wind/battery-connected shunt active power filter",
+          "volume": "15",
+          "author": "KogantiKrishna",
+          "year": "2022",
+          "journal-title": "Algorithms"
+        },
+        {
+          "key": "B11",
+          "doi-asserted-by": "publisher",
+          "first-page": "4371",
+          "DOI": "10.3390/en15124371",
+          "article-title": "Intelligent tuned hybrid power filter with fuzzy-PI control",
+          "volume": "15",
+          "author": "Lin",
+          "year": "2022",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "B12",
+          "doi-asserted-by": "publisher",
+          "first-page": "103511",
+          "DOI": "10.1109/ACCESS.2020.2997056",
+          "article-title": "Construction and performance investigation of three phase solar PV and battery energy storage system integrated UPQC",
+          "volume": "8",
+          "author": "Mansoor",
+          "year": "2023",
+          "journal-title": "IEEE Accesses"
+        },
+        {
+          "key": "B13",
+          "doi-asserted-by": "publisher",
+          "first-page": "494",
+          "DOI": "10.3390/electronics12030494",
+          "article-title": "Comparative performance of UPQC control system based on PI-GWO, fractional order controllers, and reinforcement learning agent",
+          "volume": "12",
+          "author": "Marcel",
+          "year": "2023",
+          "journal-title": "Electronics"
+        },
+        {
+          "key": "B14",
+          "doi-asserted-by": "publisher",
+          "first-page": "74497",
+          "DOI": "10.1109/access.2020.2988611",
+          "article-title": "PSO-GWO optimized fractional order PID based hybrid shunt active power filter for power quality improvements",
+          "volume": "8",
+          "author": "Mishra",
+          "year": "2020",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "B15",
+          "doi-asserted-by": "publisher",
+          "first-page": "74497",
+          "DOI": "10.1109/access.2020.2988611",
+          "article-title": "PS-O-GW-O optimized fractional order PID based hybrid shunt active power filter for power quality improvements",
+          "volume": "8",
+          "author": "Mishra",
+          "year": "2022",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "B16",
+          "doi-asserted-by": "publisher",
+          "first-page": "2260",
+          "DOI": "10.1016/j.aej.2021.07.012",
+          "article-title": "Intelligent fuzzy-based controllers for voltage stability enhancement of AC-DC micro-grid with D-STATCOM",
+          "volume": "61",
+          "author": "NafehHeikalEl-Sehiemy",
+          "year": "2022",
+          "journal-title": "D-STATCOM"
+        },
+        {
+          "key": "B17",
+          "doi-asserted-by": "publisher",
+          "first-page": "6825",
+          "DOI": "10.3390/en15186825",
+          "article-title": "Neural network controlled solar PV battery powered unified power quality conditioner for grid connected operation",
+          "volume": "15",
+          "author": "Okech",
+          "year": "2022",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "B18",
+          "doi-asserted-by": "publisher",
+          "first-page": "749",
+          "DOI": "10.3233/jifs-171236",
+          "article-title": "Grid integration of renewable energy sources (RES) for power quality improvement using adaptive fuzzy logic controller based series hybrid active power filter (SHAPF)",
+          "volume": "35",
+          "author": "Pazhanimuthu",
+          "year": "2018",
+          "journal-title": "J. Intelligent Fuzzy Syst."
+        },
+        {
+          "key": "B19",
+          "doi-asserted-by": "publisher",
+          "first-page": "1",
+          "DOI": "10.1080/15567036.2021.1943068",
+          "article-title": "A novel control scheme for PV/wt/FC/battery to power quality enhancement in micro grid system: a hybrid technique",
+          "author": "Rajesh",
+          "year": "2021",
+          "journal-title": "Energy Sources, Part A Recovery, Util. Environ. Eff."
+        },
+        {
+          "key": "B20",
+          "doi-asserted-by": "publisher",
+          "first-page": "1",
+          "DOI": "10.1155/2023/3355124",
+          "article-title": "Optimal design and performance investigation of artificial neural network controller for solar- and battery-connected unified power quality conditioner",
+          "volume": "2023",
+          "author": "Ramadevi",
+          "year": "2023",
+          "journal-title": "Int. J. Energy Res."
+        },
+        {
+          "key": "B21",
+          "doi-asserted-by": "publisher",
+          "first-page": "6",
+          "DOI": "10.1049/tje2.12005",
+          "article-title": "ANFIS-Fuzzy logic based UPQC in interconnected microgrid distribution systems: modeling, simulation and implementation",
+          "volume": "2021",
+          "author": "Renduchintala",
+          "year": "2021",
+          "journal-title": "J. Eng."
+        },
+        {
+          "key": "B22",
+          "doi-asserted-by": "publisher",
+          "first-page": "522",
+          "DOI": "10.1016/j.swevo.2018.06.008",
+          "article-title": "Optimal design of shunt active power filter for power quality enhancement using predator-prey based firefly optimization",
+          "volume": "44",
+          "author": "Sahithullah",
+          "year": "2019",
+          "journal-title": "Swarm Evol. Comput."
+        },
+        {
+          "key": "B23",
+          "doi-asserted-by": "publisher",
+          "first-page": "153",
+          "DOI": "10.1016/j.conengprac.2015.04.013",
+          "article-title": "Experimental investigations on ant colony optimized pi control algorithm for shunt active power filter to improve power quality",
+          "volume": "42",
+          "author": "Sakthivel",
+          "year": "2015",
+          "journal-title": "Control Eng. Pract."
+        },
+        {
+          "key": "B24",
+          "doi-asserted-by": "publisher",
+          "first-page": "243",
+          "DOI": "10.1080/02286203.2020.1727134",
+          "article-title": "A modified PV-wind-PEMFCS-based hybrid UPQC system with combined DVR/STATCOM operation by harmonic compensation",
+          "volume": "41",
+          "author": "Sarker",
+          "year": "2020",
+          "journal-title": "Int. J. Model. Simul."
+        },
+        {
+          "key": "B25",
+          "doi-asserted-by": "publisher",
+          "first-page": "279",
+          "DOI": "10.1049/gtd2.12020",
+          "article-title": "Biogeography based optimization strategy for UPQC PI tuning on full order adaptive observer based control",
+          "volume": "15",
+          "author": "Sayed",
+          "year": "2021",
+          "journal-title": "IET Generation, Transm. Distribution"
+        },
+        {
+          "key": "B26",
+          "doi-asserted-by": "publisher",
+          "first-page": "1",
+          "DOI": "10.1080/01969722.2023.2175144",
+          "article-title": "Design of UPQC with solar PV and battery storage systems for power quality improvement",
+          "author": "Srilakshmi",
+          "year": "2023",
+          "journal-title": "Cybern. Syst. Int. J."
+        },
+        {
+          "key": "B27",
+          "doi-asserted-by": "publisher",
+          "first-page": "107116",
+          "DOI": "10.1109/access.2022.3211504",
+          "article-title": "Design of soccer league optimization based hybrid controller for solar-battery integrated UPQC",
+          "volume": "10",
+          "author": "Srilakshmi",
+          "year": "2022",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "B28",
+          "doi-asserted-by": "publisher",
+          "first-page": "1475",
+          "DOI": "10.1016/j.aej.2017.03.027",
+          "article-title": "Implementation of artificial neural network based controller for a five-level converter based UPQC",
+          "volume": "57",
+          "author": "Sudheer",
+          "year": "2017",
+          "journal-title": "Alexandria Eng. J."
+        },
+        {
+          "key": "B29",
+          "first-page": "13",
+          "article-title": "The unified power quality conditioner control method based on the equivalent conductance signals of the compensated load",
+          "author": "Szromba",
+          "year": "2020",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "B30",
+          "doi-asserted-by": "publisher",
+          "first-page": "4009",
+          "DOI": "10.3390/en12204009",
+          "article-title": "Control strategy of intergrated photovoltaic-UPQC system for DC-bus voltage stability and voltage sags compensation",
+          "volume": "12",
+          "author": "Yang",
+          "year": "2019",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "B31",
+          "doi-asserted-by": "publisher",
+          "first-page": "2038",
+          "DOI": "10.3390/en10122038",
+          "article-title": "Control algorithms of shunt active power filter for harmonics mitigation: a review",
+          "volume": "10",
+          "author": "Yap",
+          "year": "2017",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "B32",
+          "doi-asserted-by": "publisher",
+          "first-page": "791",
+          "DOI": "10.3390/electronics8070791",
+          "article-title": "Shunt active power filter: a review on phase synchronization control techniques",
+          "volume": "8",
+          "author": "Yap",
+          "year": "2019",
+          "journal-title": "Electronics"
+        },
+        {
+          "key": "B33",
+          "doi-asserted-by": "publisher",
+          "first-page": "2702",
+          "DOI": "10.3390/en14092702",
+          "article-title": "Impedance matching-based power flow analysis for UPQC in three-phase four-wire systems",
+          "volume": "14",
+          "author": "Zhao",
+          "year": "2021",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "B34",
+          "article-title": "Control method for power quality compensation based on levenberg-marquardt optimized BP neural networks",
+          "author": "Zhou",
+          "year": "2006"
+        }
+      ],
+      "container-title": [
+        "Frontiers in Energy Research"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "https://www.frontiersin.org/articles/10.3389/fenrg.2024.1325865/full",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            19
+          ]
+        ],
+        "date-time": "2024-02-19T04:43:06Z",
+        "timestamp": 1708317786000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.frontiersin.org/articles/10.3389/fenrg.2024.1325865/full"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            19
+          ]
+        ]
+      },
+      "references-count": 34,
+      "alternative-id": [
+        "10.3389/fenrg.2024.1325865"
+      ],
+      "URL": "https://doi.org/10.3389/fenrg.2024.1325865",
+      "relation": {},
+      "ISSN": [
+        "2296-598X"
+      ],
+      "issn-type": [
+        {
+          "value": "2296-598X",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            19
+          ]
+        ]
+      },
+      "article-number": "1325865"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Koganti Srilakshmi",
+      "given_name_from_source": "Koganti",
+      "family_name_from_source": "Srilakshmi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Gummadi Srinivasa Rao",
+      "given_name_from_source": "Gummadi Srinivasa",
+      "family_name_from_source": "Rao",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Tomonobu Senjyu",
+      "given_name_from_source": "Tomonobu",
+      "family_name_from_source": "Senjyu",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

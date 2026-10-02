@@ -1,0 +1,643 @@
+{
+  "doi": "10.1155/2024/6611240",
+  "title": "Multiobjective Neuro-Fuzzy Controller Design and Selection of Filter Parameters of UPQC Using Predator Prey Firefly and Enhanced Harmony Search Optimization",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "International Transactions on Electrical Energy Systems",
+  "publisher": "Wiley",
+  "publication_date": "2024-03-19",
+  "online_publication_date": null,
+  "print_publication_date": "2024-03-19",
+  "volume": "2024",
+  "issue": null,
+  "pages_or_article_number": "1-21",
+  "issn": null,
+  "eissn": "2050-7038",
+  "isbn": null,
+  "url": "https://doi.org/10.1155/2024/6611240",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:23.197604+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            24
+          ]
+        ],
+        "date-time": "2026-04-24T15:41:15Z",
+        "timestamp": 1777045275908,
+        "version": "3.51.4"
+      },
+      "reference-count": 32,
+      "publisher": "Wiley",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                3,
+                19
+              ]
+            ],
+            "date-time": "2024-03-19T00:00:00Z",
+            "timestamp": 1710806400000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "International Transactions on Electrical Energy Systems"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            19
+          ]
+        ]
+      },
+      "abstract": "<jats:p>This research introduces a unified power quality conditioner (UPQC) that integrates solar photovoltaic (PV) system and battery energy systems (SBES) to address power quality (PQ) issues. The reference signals for voltage source converters of UPQC are produced by the Levenberg–Marquardt back propagation (LMBP) trained artificial neural network control (ANNC). This method removes the necessity for conventional dq0, abc complex shifting. Moreover, the optimal choice of parameters for the adaptive neuro-fuzzy inference system (ANFIS) was achieved through the integration of the enhanced harmony search algorithm (EHSA) and the predator-prey-based firefly algorithm (PPFA) in the form of the hybrid metaheuristic algorithm (PPF-EHSA). In addition, the algorithm is employed to optimize the selection of resistance and inductance values for the filters in UPQC. The primary objective of the ANNC with predator-prey-based firefly algorithm and enhanced harmony search algorithm (PPF-EHSA) is to enhance the stability of the DC-link capacitor voltage (DLCV) with reduced settling time amid changes in load, solar irradiation (G), and temperature (T). Moreover, the algorithm seeks to achieve a reduction in total harmonic distortion (THD) and enhance power factor (PF). The method also focuses on mitigating fluctuations such as swell, harmonics, and sag and also unbalances at the grid voltage. The proposed approach is examined through four distinct cases involving various permutations of loads and sun irradiation (G). However, in order to demonstrate the performance of the suggested approach, a comparison is conducted with the ant colony and genetic algorithms, i.e., (ACA) (GA), as well as the standard methods of synchronous reference frame (SRF) and instantaneous active and reactive power theory (p-q). The results clearly demonstrate that the proposed method exhibits a reduced mean square error (MSE) of 0.02107 and a lower total harmonic distortion (THD) of 2.06% compared to alternative methods.</jats:p>",
+      "DOI": "10.1155/2024/6611240",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            19
+          ]
+        ],
+        "date-time": "2024-03-19T21:05:09Z",
+        "timestamp": 1710882309000
+      },
+      "page": "1-21",
+      "source": "Crossref",
+      "is-referenced-by-count": 13,
+      "title": [
+        "Multiobjective Neuro-Fuzzy Controller Design and Selection of Filter Parameters of UPQC Using Predator Prey Firefly and Enhanced Harmony Search Optimization"
+      ],
+      "prefix": "10.1155",
+      "volume": "2024",
+      "author": [
+        {
+          "given": "Koganti",
+          "family": "Srilakshmi",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, Sreenidhi Institute of Science and Technology, Hyderabad, Telangana 501301, India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Gummadi Srinivasa",
+          "family": "Rao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronic Engineering, Velagapudi Ramakrishna Siddhartha Engineering College, Kanuru, Vijayawada, Andhra Pradesh, India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Katragadda",
+          "family": "Swarnasri",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, R.V.R. and J.C. College of Engineering, Guntur, AP, India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Sai Ram",
+          "family": "Inkollu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, Dhanekula Institute of Engineering and Technology, Vijayawada, AP 521139, India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Krishnaveni",
+          "family": "Kondreddi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, Chaitanya Bharathi Institute of Technology, Hyderabad, Telangana, India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering, Vardhaman College of Engineering, Hyderabad, TS 501218, India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9958-754X",
+          "authenticated-orcid": true,
+          "given": "C.",
+          "family": "Dhanamjayulu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Electrical Engineering, Vellore Institute of Technology, Vellore, India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8655-173X",
+          "authenticated-orcid": true,
+          "given": "Baseem",
+          "family": "Khan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Computer Engineering, Hawassa University, Hawassa 05, Ethiopia"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "311",
+      "reference": [
+        {
+          "key": "1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/en12204009"
+        },
+        {
+          "key": "2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.24018/ejece.2021.5.5.361"
+        },
+        {
+          "key": "3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jesit.2017.11.001"
+        },
+        {
+          "key": "4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/math10121989"
+        },
+        {
+          "key": "5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.asej.2017.09.004"
+        },
+        {
+          "key": "6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/en10122038"
+        },
+        {
+          "key": "7",
+          "first-page": "14",
+          "article-title": "A grid-connected solar PV/wind turbine based hybrid energy system using ANFIS controller for hybrid series active power filter to improve the power quality",
+          "volume-title": "International Transactions on Electrical Energy Systems",
+          "author": "P. Cholamuthu"
+        },
+        {
+          "key": "8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1155/2022/9374638"
+        },
+        {
+          "key": "9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/en15186825"
+        },
+        {
+          "key": "10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2020.2988611"
+        },
+        {
+          "key": "11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/15567036.2021.1902430"
+        },
+        {
+          "key": "12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/01969722.2023.2175144"
+        },
+        {
+          "key": "13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/02286203.2020.1727134"
+        },
+        {
+          "key": "14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/electronics8070791"
+        },
+        {
+          "key": "15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/electronics12030494"
+        },
+        {
+          "key": "16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1049/gtd2.12020"
+        },
+        {
+          "key": "17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1049/tje2.12005"
+        },
+        {
+          "key": "18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/15567036.2021.1943068"
+        },
+        {
+          "key": "19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3233/jifs-171236"
+        },
+        {
+          "key": "20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/su142113992"
+        },
+        {
+          "key": "21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/electronics11060919"
+        },
+        {
+          "key": "22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2022.3211504"
+        },
+        {
+          "key": "23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.aej.2017.03.027"
+        },
+        {
+          "key": "24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijepes.2022.108114"
+        },
+        {
+          "key": "25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.energy.2023.129680"
+        },
+        {
+          "key": "26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijepes.2022.108244"
+        },
+        {
+          "key": "27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.apenergy.2021.118018"
+        },
+        {
+          "key": "28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.segan.2023.101004"
+        },
+        {
+          "key": "29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egyr.2023.06.022"
+        },
+        {
+          "key": "30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TITS.2023.3268324"
+        },
+        {
+          "key": "31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPWRD.2022.3147835"
+        },
+        {
+          "key": "32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-023-49067-4"
+        }
+      ],
+      "container-title": [
+        "International Transactions on Electrical Energy Systems"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "http://downloads.hindawi.com/journals/itees/2024/6611240.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "http://downloads.hindawi.com/journals/itees/2024/6611240.xml",
+          "content-type": "application/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "http://downloads.hindawi.com/journals/itees/2024/6611240.pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            19
+          ]
+        ],
+        "date-time": "2024-03-19T21:05:11Z",
+        "timestamp": 1710882311000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.hindawi.com/journals/itees/2024/6611240/"
+        }
+      },
+      "subtitle": [],
+      "editor": [
+        {
+          "given": "Julio C.",
+          "family": "Rosas-Caro",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "editor",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            19
+          ]
+        ]
+      },
+      "references-count": 32,
+      "alternative-id": [
+        "6611240",
+        "6611240"
+      ],
+      "URL": "https://doi.org/10.1155/2024/6611240",
+      "relation": {},
+      "ISSN": [
+        "2050-7038"
+      ],
+      "issn-type": [
+        {
+          "value": "2050-7038",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            19
+          ]
+        ]
+      }
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Koganti Srilakshmi",
+      "given_name_from_source": "Koganti",
+      "family_name_from_source": "Srilakshmi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering, Sreenidhi Institute of Science and Technology, Hyderabad, Telangana 501301, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Gummadi Srinivasa Rao",
+      "given_name_from_source": "Gummadi Srinivasa",
+      "family_name_from_source": "Rao",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical and Electronic Engineering, Velagapudi Ramakrishna Siddhartha Engineering College, Kanuru, Vijayawada, Andhra Pradesh, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Katragadda Swarnasri",
+      "given_name_from_source": "Katragadda",
+      "family_name_from_source": "Swarnasri",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering, R.V.R. and J.C. College of Engineering, Guntur, AP, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Sai Ram Inkollu",
+      "given_name_from_source": "Sai Ram",
+      "family_name_from_source": "Inkollu",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering, Dhanekula Institute of Engineering and Technology, Vijayawada, AP 521139, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Krishnaveni Kondreddi",
+      "given_name_from_source": "Krishnaveni",
+      "family_name_from_source": "Kondreddi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering, Chaitanya Bharathi Institute of Technology, Hyderabad, Telangana, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering, Vardhaman College of Engineering, Hyderabad, TS 501218, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 7,
+      "author_name_from_source": "C. Dhanamjayulu",
+      "given_name_from_source": "C.",
+      "family_name_from_source": "Dhanamjayulu",
+      "orcid_from_source": "https://orcid.org/0000-0001-9958-754X",
+      "affiliation_from_source": [
+        "School of Electrical Engineering, Vellore Institute of Technology, Vellore, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 8,
+      "author_name_from_source": "Baseem Khan",
+      "given_name_from_source": "Baseem",
+      "family_name_from_source": "Khan",
+      "orcid_from_source": "https://orcid.org/0000-0002-8655-173X",
+      "affiliation_from_source": [
+        "Department of Electrical and Computer Engineering, Hawassa University, Hawassa 05, Ethiopia"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

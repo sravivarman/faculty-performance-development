@@ -1,0 +1,823 @@
+{
+  "doi": "10.1002/ese3.70474",
+  "title": "Performance Comparison of Monocrystalline, Polycrystalline, Low Concentrated, and Bifacial PV Modules in a Particular Geographic Location of South India",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Energy Science &amp; Engineering",
+  "publisher": "Wiley",
+  "publication_date": "2026-02-12",
+  "online_publication_date": "2026-02-12",
+  "print_publication_date": null,
+  "volume": "14",
+  "issue": "5",
+  "pages_or_article_number": "2414-2428",
+  "issn": "2050-0505",
+  "eissn": "2050-0505",
+  "isbn": null,
+  "url": "https://doi.org/10.1002/ese3.70474",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:52:57.581782+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            22
+          ]
+        ],
+        "date-time": "2026-05-22T14:08:46Z",
+        "timestamp": 1779458926635,
+        "version": "3.53.1"
+      },
+      "reference-count": 54,
+      "publisher": "Wiley",
+      "issue": "5",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                12
+              ]
+            ],
+            "date-time": "2026-02-12T00:00:00Z",
+            "timestamp": 1770854400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                12
+              ]
+            ],
+            "date-time": "2026-02-12T00:00:00Z",
+            "timestamp": 1770854400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "scijournals.onlinelibrary.wiley.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Energy Science &amp; Engineering"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            5
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>This study presents a performance comparison of four commercially available photovoltaic (PV) modules: polycrystalline PV module (PPVM), monocrystalline PV module (MPVM), low‐concentrated PV module (LPVM), and bifacial PV module (BPVM). The experiment was conducted to investigate the effects of irradiation and temperature on PV modules in the same geographic location. The study results showed that the module's performance exhibits strong dependence on irradiation and temperature. The module's operating temperature has a significant impact on the efficiency. The performance ratio and module efficiency show an increasing trend with increasing irradiation. The P.U. power of BPVM was 4% more than that of PPVM and LPVM and 11% more than MPVM. At both low and high irradiation levels, the BPVM module showed better efficiency. At the highest irradiation, the module efficiency of BPVM was 51.2% higher than that of PPVM and 64% higher than that of LPVM and MPVM. The performance ratio of BPVM is 3% higher than PPVM, 7% higher than LPVM, and 11% higher than MPVM. Compared with PPVM, MPVM, and LPVM, the BPVM has improved P.U. power, module efficiency (22.79%), and performance ratio by 64%, 60%, and 70%, respectively. The experimental results show that selecting an optimal PV module for a given location enhances its efficiency.</jats:p>",
+      "DOI": "10.1002/ese3.70474",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            13
+          ]
+        ],
+        "date-time": "2026-02-13T06:38:47Z",
+        "timestamp": 1770964727000
+      },
+      "page": "2414-2428",
+      "update-policy": "https://doi.org/10.1002/crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Performance Comparison of Monocrystalline, Polycrystalline, Low Concentrated, and Bifacial PV Modules in a Particular Geographic Location of South India"
+      ],
+      "prefix": "10.1002",
+      "volume": "14",
+      "author": [
+        {
+          "given": "Meenatchi Sundaram",
+          "family": "Palanisamy",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering Kamaraj College of Engineering and Technology Virudhunagar Tamil Nadu India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Prince Winston",
+          "family": "David",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering Kamaraj College of Engineering and Technology Virudhunagar Tamil Nadu India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Palpandian",
+          "family": "Murugesan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering AAA College of Engineering and Technology Sivakasi Tamil Nadu India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1561-1376",
+          "authenticated-orcid": false,
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Departmentof Electrical and Electronics Engineering Vardhaman College of Engineering Hyderabad Telangana India"
+            },
+            {
+              "name": "Department of Electrical and Electronics Engineering Chennai Institute of Technology Chennai Tamilnadu India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Pravin",
+          "family": "Murugesan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Departmentof Electrical and Electronics Engineering National Institute of Technology Tiruchirapalli Tamil Nadu India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Muhammad Ammirrul Atiqi",
+          "family": "Mohd Zainuri",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical, Electronic and Systems Engineering, Faculty Engineering and Built Environment Universiti Kebangsaan Malaysia Bangi Selangor Malaysia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mattia",
+          "family": "Braggio",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Mechanical, Chemical and Material Engineering University of Cagliari Cagliari Italy"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Vigneselvan",
+          "family": "Sivasubramaniyam",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Mechanical, Chemical and Material Engineering University of Cagliari Cagliari Italy"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "311",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            12
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_12_2_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egyr.2020.09.006"
+        },
+        {
+          "key": "e_1_2_12_3_1",
+          "unstructured": "P.Mints SPV Market Research Update (2018)."
+        },
+        {
+          "key": "e_1_2_12_4_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. W.Glunz R.Preu andD.Biro Crystalline Silicon Solar Cells: State‐of‐the‐Art and Future Developments(Vol. 1) (Elsevier Ltd. 2012).",
+          "DOI": "10.1016/B978-0-08-087872-0.00117-7"
+        },
+        {
+          "key": "e_1_2_12_5_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.gloei.2020.03.004"
+        },
+        {
+          "key": "e_1_2_12_6_1",
+          "unstructured": "Photovoltaic (PV) Module Performance Testing and Energy Rating—Part 1: Irradiance and Temperature Performance Measurements and Power Rating accessed on October 01 2022 https://webstore.iec.ch/preview/info_iec61853-1%7bed1.0%7db.pdf."
+        },
+        {
+          "key": "e_1_2_12_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5767/anurs.cmat.110202.en.155P"
+        },
+        {
+          "key": "e_1_2_12_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/en14237935"
+        },
+        {
+          "key": "e_1_2_12_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.rser.2010.11.032"
+        },
+        {
+          "key": "e_1_2_12_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.renene.2011.11.046"
+        },
+        {
+          "key": "e_1_2_12_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.energy.2013.12.013"
+        },
+        {
+          "key": "e_1_2_12_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.solener.2014.02.006"
+        },
+        {
+          "key": "e_1_2_12_13_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "B.Sopori P.Basnyat S.Shet V.Mehta J.Binns andJ.Appel “Understanding Light‐Induced Degradation of c‐Si Solar Cells ” Proceedings of the 38th IEEE Photovoltaic Specialists Conference (PVSC) Austin TX USA June 3–8 2012.",
+          "DOI": "10.1109/PVSC.2012.6317798"
+        },
+        {
+          "key": "e_1_2_12_14_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.solmat.2014.09.034"
+        },
+        {
+          "key": "e_1_2_12_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0927-0248(00)00408-6"
+        },
+        {
+          "key": "e_1_2_12_16_1",
+          "unstructured": "S.GorjianandA.Shukla Photovoltaic Solar Energy Conversion: Technologies Applications and Environmental Impacts(2020)."
+        },
+        {
+          "key": "e_1_2_12_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.solmat.2009.06.001"
+        },
+        {
+          "key": "e_1_2_12_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pip.3171"
+        },
+        {
+          "key": "e_1_2_12_19_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.5061809"
+        },
+        {
+          "key": "e_1_2_12_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-11341-3"
+        },
+        {
+          "key": "e_1_2_12_21_1",
+          "unstructured": "A.Woyte M.Richter D.Moser S.Mau N.Reich andU.Jahn Analytical Monitoring of Grid‐Connected Photovoltaic Systems—Good Practices for Monitoring and Performance Analysis(International Energy Agency (IEA) 2014) 90."
+        },
+        {
+          "key": "e_1_2_12_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.solmat.2013.06.011"
+        },
+        {
+          "key": "e_1_2_12_23_1",
+          "unstructured": "B.Zinsser G.Makrides W.Schmitt G.Georghiou andJ.Werner “Annual Energy Yield of 13 Photovoltaic Technologies in Germany and in Cyprus ” Proceedings of the 22nd European Photovoltaic Solar Energy Conference Milano Italy September 3–7 2007."
+        },
+        {
+          "key": "e_1_2_12_24_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "R.Ruther J.Del Cueto G.Tamizh‐Mani andB.Roedern “Performance Test of Amorphous Silicon Modules in Different Climates‐Year Four: Progress in Understanding Exposure History Stabilization Effects ” Proceedings of the 33rd IEEE Photovoltaic Specialists Conference San Diego CA USA May 11–16 2008 1–5.",
+          "DOI": "10.1109/PVSC.2008.4922773"
+        },
+        {
+          "key": "e_1_2_12_25_1",
+          "unstructured": "R.Søndenå Boron‐Oxygen‐Related Degradation in Multicrystalline Silicon Wafers www.pv-tech.org."
+        },
+        {
+          "key": "e_1_2_12_26_1",
+          "unstructured": "Comparative Study of ILB‐ENSOL Modules at Difference Irradiation and Temperature Range www.ilbhelios.com."
+        },
+        {
+          "key": "e_1_2_12_27_1",
+          "unstructured": "S.Krauter P.Grunow andS.Lehmann “The Real Challenges for Photovoltaic Modules ” Proceedings of the 25th Anniversary of PASAN Neuchatel Switzerland June 12 2009."
+        },
+        {
+          "key": "e_1_2_12_28_1",
+          "unstructured": "H.Mohring “Optimized Procedures for Characterization of Module Energy Field ” Proceedings of the Integrated Project Performance Final Forum European Commission Malaga Spain December 11 2009."
+        },
+        {
+          "key": "e_1_2_12_29_1",
+          "first-page": "615",
+          "article-title": "High‐Concentration PV Using III‐V Solar Cells",
+          "volume": "1",
+          "author": "Bett A. W.",
+          "year": "2007",
+          "journal-title": "Conference Record of the 2006 IEEE 4th World Conference on Photovoltaic Energy Conversion, WCPEC‐4"
+        },
+        {
+          "key": "e_1_2_12_30_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14716/ijtech.v7i2.2983"
+        },
+        {
+          "key": "e_1_2_12_31_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.rser.2010.11.046"
+        },
+        {
+          "key": "e_1_2_12_32_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/JPHOTOV.2014.2364406"
+        },
+        {
+          "key": "e_1_2_12_33_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/JPHOTOV.2019.2945185"
+        },
+        {
+          "key": "e_1_2_12_34_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egypro.2015.07.051"
+        },
+        {
+          "key": "e_1_2_12_35_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/JPHOTOV.2014.2364406"
+        },
+        {
+          "key": "e_1_2_12_36_1",
+          "unstructured": "S. A.Peláez “Bifacial Solar Panels System Design Modeling and Performance” (Ph.D. thesis University of Arizona 2019)."
+        },
+        {
+          "key": "e_1_2_12_37_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "L.Burnham D.Riley B.Walker andJ. M.Pearce “Performance of Bifacial Photovoltaic Modules on a Dual‐Axis Tracker in a High‐Latitude High‐Albedo Environment ” Proceedings of the IEEE Photovoltaic Specialists Conference Chicago IL USA June 16–21 (2019) 1320–1327.",
+          "DOI": "10.1109/PVSC40753.2019.8980964"
+        },
+        {
+          "key": "e_1_2_12_38_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/JPHOTOV.2018.2819676"
+        },
+        {
+          "key": "e_1_2_12_39_1",
+          "volume-title": "A Detailed Performance Model for Bifacial PV Modules (No. SAND2017‐11013C)",
+          "author": "Hansen C.",
+          "year": "2017"
+        },
+        {
+          "key": "e_1_2_12_40_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0927-0248(97)00003-2"
+        },
+        {
+          "key": "e_1_2_12_41_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0960-1481(99)00018-X"
+        },
+        {
+          "issue": "3",
+          "key": "e_1_2_12_42_1",
+          "article-title": "Fieldtest Analysis of PV System Output Characteristics Focusing on Module Temperature",
+          "volume": "75",
+          "author": "Nishioka K.",
+          "year": "2003",
+          "journal-title": "Solar Energy Materials & Solar Cells"
+        },
+        {
+          "key": "e_1_2_12_43_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.solener.2003.07.026"
+        },
+        {
+          "key": "e_1_2_12_44_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.solmat.2006.07.014"
+        },
+        {
+          "key": "e_1_2_12_45_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.renene.2008.12.005"
+        },
+        {
+          "key": "e_1_2_12_46_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.renene.2009.12.002"
+        },
+        {
+          "key": "e_1_2_12_47_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.17159/2413-3051/2011/v22i3a3218"
+        },
+        {
+          "key": "e_1_2_12_48_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.energy.2013.05.068"
+        },
+        {
+          "key": "e_1_2_12_49_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.solener.2014.08.015"
+        },
+        {
+          "key": "e_1_2_12_50_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.enconman.2015.02.039"
+        },
+        {
+          "key": "e_1_2_12_51_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.energy.2016.02.133"
+        },
+        {
+          "key": "e_1_2_12_52_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.renene.2019.06.160"
+        },
+        {
+          "key": "e_1_2_12_53_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.apenergy.2020.115839"
+        },
+        {
+          "key": "e_1_2_12_54_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.enconman.2022.116223"
+        },
+        {
+          "key": "e_1_2_12_55_1",
+          "article-title": "Comparison of Performance Measurements of Photovoltaic Modules During Winter Months in Taxila, Pakistan",
+          "volume": "2014",
+          "author": "Muhammad Anser Bashir H. M. A.",
+          "year": "2014",
+          "journal-title": "International Journal of Photoenergy"
+        }
+      ],
+      "container-title": [
+        "Energy Science &amp; Engineering"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://scijournals.onlinelibrary.wiley.com/doi/pdf/10.1002/ese3.70474",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://scijournals.onlinelibrary.wiley.com/doi/full-xml/10.1002/ese3.70474",
+          "content-type": "application/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://scijournals.onlinelibrary.wiley.com/doi/pdf/10.1002/ese3.70474",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            22
+          ]
+        ],
+        "date-time": "2026-05-22T13:46:35Z",
+        "timestamp": 1779457595000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://scijournals.onlinelibrary.wiley.com/doi/10.1002/ese3.70474"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            12
+          ]
+        ]
+      },
+      "references-count": 54,
+      "journal-issue": {
+        "issue": "5",
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              5
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1002/ese3.70474"
+      ],
+      "URL": "https://doi.org/10.1002/ese3.70474",
+      "archive": [
+        "Portico"
+      ],
+      "relation": {},
+      "ISSN": [
+        "2050-0505",
+        "2050-0505"
+      ],
+      "issn-type": [
+        {
+          "value": "2050-0505",
+          "type": "print"
+        },
+        {
+          "value": "2050-0505",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            12
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2025-07-22",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2026-02-05",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2026-02-12",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Meenatchi Sundaram Palanisamy",
+      "given_name_from_source": "Meenatchi Sundaram",
+      "family_name_from_source": "Palanisamy",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering Kamaraj College of Engineering and Technology Virudhunagar Tamil Nadu India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Prince Winston David",
+      "given_name_from_source": "Prince Winston",
+      "family_name_from_source": "David",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering Kamaraj College of Engineering and Technology Virudhunagar Tamil Nadu India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Palpandian Murugesan",
+      "given_name_from_source": "Palpandian",
+      "family_name_from_source": "Murugesan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering AAA College of Engineering and Technology Sivakasi Tamil Nadu India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": "https://orcid.org/0000-0003-1561-1376",
+      "affiliation_from_source": [
+        "Departmentof Electrical and Electronics Engineering Vardhaman College of Engineering Hyderabad Telangana India",
+        "Department of Electrical and Electronics Engineering Chennai Institute of Technology Chennai Tamilnadu India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Pravin Murugesan",
+      "given_name_from_source": "Pravin",
+      "family_name_from_source": "Murugesan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Departmentof Electrical and Electronics Engineering National Institute of Technology Tiruchirapalli Tamil Nadu India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "Muhammad Ammirrul Atiqi Mohd Zainuri",
+      "given_name_from_source": "Muhammad Ammirrul Atiqi",
+      "family_name_from_source": "Mohd Zainuri",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical, Electronic and Systems Engineering, Faculty Engineering and Built Environment Universiti Kebangsaan Malaysia Bangi Selangor Malaysia"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 7,
+      "author_name_from_source": "Mattia Braggio",
+      "given_name_from_source": "Mattia",
+      "family_name_from_source": "Braggio",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Mechanical, Chemical and Material Engineering University of Cagliari Cagliari Italy"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 8,
+      "author_name_from_source": "Vigneselvan Sivasubramaniyam",
+      "given_name_from_source": "Vigneselvan",
+      "family_name_from_source": "Sivasubramaniyam",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Mechanical, Chemical and Material Engineering University of Cagliari Cagliari Italy"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

@@ -1,0 +1,692 @@
+{
+  "doi": "10.3390/su151813773",
+  "title": "Design and Development of Optimal and Deep-Learning-Based Demand Response Technologies for Residential Hybrid Renewable Energy Management System",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Sustainability",
+  "publisher": "MDPI AG",
+  "publication_date": "2023-09-15",
+  "online_publication_date": "2023-09-15",
+  "print_publication_date": null,
+  "volume": "15",
+  "issue": "18",
+  "pages_or_article_number": "13773",
+  "issn": null,
+  "eissn": "2071-1050",
+  "isbn": null,
+  "url": "https://doi.org/10.3390/su151813773",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:37.892003+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            25
+          ]
+        ],
+        "date-time": "2026-08-25T15:45:16Z",
+        "timestamp": 1787672716815,
+        "version": "build-2736575974"
+      },
+      "reference-count": 33,
+      "publisher": "MDPI AG",
+      "issue": "18",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                9,
+                15
+              ]
+            ],
+            "date-time": "2023-09-15T00:00:00Z",
+            "timestamp": 1694736000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "All-India Council for Technical Education, New Delhi, India, under Research Promotion Scheme",
+          "award": [
+            "8-119/FDC/RPS (POLICY-1)/2019-20"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "8-119/FDC/RPS (POLICY-1)/2019-20"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Sustainability"
+      ],
+      "abstract": "<jats:p>The principal goal of this study is to conduct a techno-economic analysis of hybrid energy generation designs for residential-form houses in urban areas. Various possibilities for a form house electrification system are created and simulated in order to determine an optimum ideal configuration for meeting residential load demand with an increase in energy capacity and minimal investment. Using NREL’s HOMER optimization tool, a case-study-based virtual HRE model is developed. Pre-assessment data and relevant operation constraints are used to build the system’s objective functions. The instantaneous energy balance algorithm technique is used to solve the multi-objective function. The overall optimization procedure is sandwiched between two supporting advanced approaches, pre- and post-operations. The development of an optimal techno-economic hybrid energy generation system for the smooth fulfillment of urban load demand is aided by novel deep belief network (NDBN)-based pre-stage load demand predictions and an analysis of the necessary demand side management (DSM)practicing code for utility efficiency improvements in post-stage simulations.</jats:p>",
+      "DOI": "10.3390/su151813773",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            17
+          ]
+        ],
+        "date-time": "2023-09-17T06:12:21Z",
+        "timestamp": 1694931141000
+      },
+      "page": "13773",
+      "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 16,
+      "title": [
+        "Design and Development of Optimal and Deep-Learning-Based Demand Response Technologies for Residential Hybrid Renewable Energy Management System"
+      ],
+      "prefix": "10.3390",
+      "volume": "15",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-0203-0700",
+          "authenticated-orcid": false,
+          "given": "Murugaperumal",
+          "family": "Krishnamoorthy",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of EEE, Vardhaman College of Engineering, Hyderabad 501218, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "P. Ajay-D-Vimal",
+          "family": "Raj",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of EEE, Puducherry Technological University, Puducherry 605014, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "N. P.",
+          "family": "Subramaniam",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of EEE, Puducherry Technological University, Puducherry 605014, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7745-0059",
+          "authenticated-orcid": false,
+          "given": "M.",
+          "family": "Sudhakaran",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of EEE, Puducherry Technological University, Puducherry 605014, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0001-8224-4994",
+          "authenticated-orcid": false,
+          "given": "Arulselvi",
+          "family": "Ramasamy",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of CSE, Vardhaman College of Engineering, Hyderabad 501218, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "1968",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            15
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "ref_1",
+          "unstructured": "(2020, May 01). International Energy Agency. Available online: https://www.iea.org/reports/global-energy-review-2020."
+        },
+        {
+          "key": "ref_2",
+          "unstructured": "(2020, April 25). Ministry of New and Renewable Energy, Available online: https://mnre.gov.in/img/documents/uploads/file_f-1585710569965.pdf."
+        },
+        {
+          "key": "ref_3",
+          "doi-asserted-by": "crossref",
+          "first-page": "1548",
+          "DOI": "10.1016/j.apenergy.2019.05.005",
+          "article-title": "Assessment of on-site steady electricity generation from hybrid renewable energy systems in Chile",
+          "volume": "250",
+          "author": "Camargo",
+          "year": "2019",
+          "journal-title": "Appl. Energy"
+        },
+        {
+          "key": "ref_4",
+          "doi-asserted-by": "crossref",
+          "first-page": "853",
+          "DOI": "10.1016/j.energy.2018.11.028",
+          "article-title": "The concept of use of PV/WT/FC hybrid power generation system for smoothing the energy profile of the consumer",
+          "volume": "167",
+          "author": "Ceran",
+          "year": "2019",
+          "journal-title": "Energy"
+        },
+        {
+          "key": "ref_5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gabbar, H.A., and Abdussami, M.R. (2019, January 12–14). Feasibility Analysis of Grid-Connected Nuclear-Renewable Micro Hybrid Energy System. Proceedings of the 2019 IEEE 7th International Conference on Smart Energy Grid Engineering (SEGE), Oshawa, ON, Canada.",
+          "DOI": "10.1109/SEGE.2019.8859925"
+        },
+        {
+          "key": "ref_6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kong, W., Teng, L., Zhang, S., Zhang, D., Liu, X., and Shao, B. (2018, January 7–11). A power peak load shifting mixing with solar energy solution for hybrid energy system of the telecommunication base station. Proceedings of the 2018 IEEE International Telecommunications Energy Conference (INTELEC), Turino, Italy.",
+          "DOI": "10.1109/INTLEC.2018.8612415"
+        },
+        {
+          "key": "ref_7",
+          "doi-asserted-by": "crossref",
+          "first-page": "47332",
+          "DOI": "10.1109/ACCESS.2018.2867276",
+          "article-title": "Multi-objective optimization of hybrid renewable energy system using reformed electric system cascade analysis for islanding and grid connected modes of operation",
+          "volume": "6",
+          "author": "Singh",
+          "year": "2018",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "ref_8",
+          "doi-asserted-by": "crossref",
+          "first-page": "1117",
+          "DOI": "10.1049/joe.2018.8578",
+          "article-title": "Construction of an example system for AC/DC hybrid power grid with high-proportion renewable energy",
+          "volume": "2019",
+          "author": "Zhao",
+          "year": "2019",
+          "journal-title": "J. Eng."
+        },
+        {
+          "key": "ref_9",
+          "doi-asserted-by": "crossref",
+          "first-page": "8681",
+          "DOI": "10.1109/ACCESS.2019.2963584",
+          "article-title": "Intelligent Energy Management for Off-Grid Renewable Hybrid System Using Multi-Agent Approach",
+          "volume": "8",
+          "author": "Sami",
+          "year": "2020",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "ref_10",
+          "doi-asserted-by": "crossref",
+          "first-page": "2354",
+          "DOI": "10.1049/joe.2018.8546",
+          "article-title": "Optimal planning of renewable energy source and energy storage in a medium-and low-voltage distributed AC/DC system in China",
+          "volume": "2019",
+          "author": "Huang",
+          "year": "2019",
+          "journal-title": "J. Eng."
+        },
+        {
+          "key": "ref_11",
+          "doi-asserted-by": "crossref",
+          "first-page": "6229",
+          "DOI": "10.1109/TPWRS.2018.2833496",
+          "article-title": "Optimal scheduling of biogas–solar–wind renewable portfolio for multicarrier energy supplies",
+          "volume": "33",
+          "author": "Zhou",
+          "year": "2018",
+          "journal-title": "IEEE Trans. Power Syst."
+        },
+        {
+          "key": "ref_12",
+          "doi-asserted-by": "crossref",
+          "first-page": "5786",
+          "DOI": "10.1109/TSG.2017.2696982",
+          "article-title": "Multi objective generation portfolio of hybrid energy generating station for mobile emergency power supplies",
+          "volume": "9",
+          "author": "Zhou",
+          "year": "2017",
+          "journal-title": "IEEE Trans. Smart Grid"
+        },
+        {
+          "key": "ref_13",
+          "doi-asserted-by": "crossref",
+          "first-page": "594",
+          "DOI": "10.1016/j.egyr.2020.01.013",
+          "article-title": "Modelling and optimization of an off-grid hybrid renewable energy system for electrification in a rural area",
+          "volume": "6",
+          "author": "Suresh",
+          "year": "2020",
+          "journal-title": "Energy Rep."
+        },
+        {
+          "key": "ref_14",
+          "doi-asserted-by": "crossref",
+          "first-page": "109691",
+          "DOI": "10.1016/j.rser.2019.109691",
+          "article-title": "A critical analysis on hybrid renewable energy modeling tools: An emerging opportunity to include social indicators to optimize systems in small communities",
+          "volume": "122",
+          "author": "Cuesta",
+          "year": "2020",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "key": "ref_15",
+          "doi-asserted-by": "crossref",
+          "first-page": "117133",
+          "DOI": "10.1016/j.energy.2020.117133",
+          "article-title": "Resilience of standalone hybrid renewable energy systems: The role of storage capacity",
+          "volume": "196",
+          "author": "Kosai",
+          "year": "2020",
+          "journal-title": "Energy"
+        },
+        {
+          "key": "ref_16",
+          "doi-asserted-by": "crossref",
+          "first-page": "114026",
+          "DOI": "10.1016/j.apenergy.2019.114026",
+          "article-title": "Hybrid pumped hydro and battery storage for renewable energy-based power supply system",
+          "volume": "257",
+          "author": "Javed",
+          "year": "2020",
+          "journal-title": "Appl. Energy"
+        },
+        {
+          "key": "ref_17",
+          "doi-asserted-by": "crossref",
+          "first-page": "015501",
+          "DOI": "10.1063/1.5048446",
+          "article-title": "Optimal power flow control of hybrid renewable energy system with energy storage: A WOANN strategy",
+          "volume": "11",
+          "author": "Venkatesan",
+          "year": "2019",
+          "journal-title": "J. Renew. Sustain. Energy"
+        },
+        {
+          "key": "ref_18",
+          "doi-asserted-by": "crossref",
+          "first-page": "7996",
+          "DOI": "10.1016/j.ijhydene.2019.02.002",
+          "article-title": "Energy storage-based MG connected system for optimal management of energy: An ANFMDA technique",
+          "volume": "44",
+          "author": "Murugaperumal",
+          "year": "2019",
+          "journal-title": "Int. J. Hydrogen Energy"
+        },
+        {
+          "key": "ref_19",
+          "doi-asserted-by": "crossref",
+          "first-page": "4935",
+          "DOI": "10.1016/j.egyr.2022.03.197",
+          "article-title": "Optimal sizing of smart hybrid renewable energy system using different optimization algorithms",
+          "volume": "8",
+          "author": "Mahmoud",
+          "year": "2022",
+          "journal-title": "Energy Rep."
+        },
+        {
+          "key": "ref_20",
+          "doi-asserted-by": "crossref",
+          "first-page": "13051",
+          "DOI": "10.1007/s00500-020-04724-y",
+          "article-title": "Optimum design and analysis of HRES for rural electrification: A case study of Korkadu district",
+          "volume": "24",
+          "author": "Krishnamoorthy",
+          "year": "2020",
+          "journal-title": "Soft Comput."
+        },
+        {
+          "key": "ref_21",
+          "unstructured": "Cho, M.Y., Hwang, J.C., and Chen, C.S. (1995, January 21–23). Customer short term load forecasting by using ARIMA transfer function model. Proceedings of the 1995 International Conference on Energy Management and Power Delivery EMPD’95, Singapore."
+        },
+        {
+          "key": "ref_22",
+          "unstructured": "Ouyang, T., He, Y., Li, H., Sun, Z., and Baek, S. (2017). A deep learning framework for short-term power load forecasting. arXiv."
+        },
+        {
+          "key": "ref_23",
+          "doi-asserted-by": "crossref",
+          "first-page": "2531",
+          "DOI": "10.1016/j.eswa.2009.08.019",
+          "article-title": "Power load forecasting using support vector machine and ant colony optimization",
+          "volume": "37",
+          "author": "Niu",
+          "year": "2010",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "ref_24",
+          "doi-asserted-by": "crossref",
+          "first-page": "858",
+          "DOI": "10.1109/59.496166",
+          "article-title": "A neural network short term load forecasting model for the Greek power system",
+          "volume": "11",
+          "author": "Bakirtzis",
+          "year": "1996",
+          "journal-title": "IEEE Trans. Power Syst."
+        },
+        {
+          "key": "ref_25",
+          "doi-asserted-by": "crossref",
+          "first-page": "314",
+          "DOI": "10.1049/iet-gtd.2010.0355",
+          "article-title": "Real-time transient stability assessment model using extreme learning machine",
+          "volume": "5",
+          "author": "Xu",
+          "year": "2011",
+          "journal-title": "IET Gener. Transm. Distrib."
+        },
+        {
+          "key": "ref_26",
+          "unstructured": "Deepica, S., Kalavathi, S., Angelin Blessy, J., and Maria Manuel Vianny, D. (2022). Hybrid Intelligent Approaches for Smart Energy: Practical Applications, Wiley."
+        },
+        {
+          "key": "ref_27",
+          "doi-asserted-by": "crossref",
+          "first-page": "268",
+          "DOI": "10.1016/j.rser.2016.08.005",
+          "article-title": "Recent developments of control strategies for wind energy conversion systems",
+          "volume": "66",
+          "author": "Tiwari",
+          "year": "2016",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "key": "ref_28",
+          "doi-asserted-by": "crossref",
+          "first-page": "e14038",
+          "DOI": "10.1002/ep.14038",
+          "article-title": "Optimal design and development of renewable based multi-energy system for village sustainability: A case study simulation",
+          "volume": "42",
+          "author": "Pushpabala",
+          "year": "2023",
+          "journal-title": "Environ. Prog. Sustain. Energy"
+        },
+        {
+          "key": "ref_29",
+          "doi-asserted-by": "crossref",
+          "first-page": "345",
+          "DOI": "10.1016/j.egypro.2018.04.062",
+          "article-title": "Analysis of MISO Super Lift Negative Output Luo Converter with MPPT for DC Grid Connected Hybrid PV/Wind System",
+          "volume": "145",
+          "author": "Kumar",
+          "year": "2018",
+          "journal-title": "Energy Procedia"
+        },
+        {
+          "key": "ref_30",
+          "doi-asserted-by": "crossref",
+          "first-page": "115815",
+          "DOI": "10.1016/j.energy.2019.07.145",
+          "article-title": "Integrated energy management system employing pre-emptive priority-based load scheduling (PEPLS) approach at residential premises",
+          "volume": "186",
+          "author": "Murugaperumal",
+          "year": "2019",
+          "journal-title": "Energy"
+        },
+        {
+          "key": "ref_31",
+          "doi-asserted-by": "crossref",
+          "first-page": "3695",
+          "DOI": "10.1007/s00521-019-04130-y",
+          "article-title": "Multilayer perceptron for short-term load forecasting: From global to local approach",
+          "volume": "32",
+          "author": "Dudek",
+          "year": "2020",
+          "journal-title": "Neural Comput. Appl."
+        },
+        {
+          "key": "ref_32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Dash, S.K., and Patel, D. (2015, January 15–17). Short-term electric load forecasting using Extreme Learning Machine-a case study of Indian power market. Proceedings of the 2015 IEEE Power, Communication and Information Technology Conference (PCITC), Bhubaneswar, India.",
+          "DOI": "10.1109/PCITC.2015.7438135"
+        },
+        {
+          "key": "ref_33",
+          "doi-asserted-by": "crossref",
+          "first-page": "119969",
+          "DOI": "10.1016/j.energy.2021.119969",
+          "article-title": "Support vector regression with asymmetric loss for optimal electric load forecasting",
+          "volume": "223",
+          "author": "Wu",
+          "year": "2021",
+          "journal-title": "Energy"
+        }
+      ],
+      "container-title": [
+        "Sustainability"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.mdpi.com/2071-1050/15/18/13773/pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            10
+          ]
+        ],
+        "date-time": "2025-10-10T20:51:42Z",
+        "timestamp": 1760129502000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.mdpi.com/2071-1050/15/18/13773"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            15
+          ]
+        ]
+      },
+      "references-count": 33,
+      "journal-issue": {
+        "issue": "18",
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              9
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "su151813773"
+      ],
+      "URL": "https://doi.org/10.3390/su151813773",
+      "relation": {},
+      "ISSN": [
+        "2071-1050"
+      ],
+      "issn-type": [
+        {
+          "value": "2071-1050",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            15
+          ]
+        ]
+      }
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Murugaperumal Krishnamoorthy",
+      "given_name_from_source": "Murugaperumal",
+      "family_name_from_source": "Krishnamoorthy",
+      "orcid_from_source": "https://orcid.org/0000-0002-0203-0700",
+      "affiliation_from_source": [
+        "Department of EEE, Vardhaman College of Engineering, Hyderabad 501218, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "P. Ajay-D-Vimal Raj",
+      "given_name_from_source": "P. Ajay-D-Vimal",
+      "family_name_from_source": "Raj",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of EEE, Puducherry Technological University, Puducherry 605014, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "N. P. Subramaniam",
+      "given_name_from_source": "N. P.",
+      "family_name_from_source": "Subramaniam",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of EEE, Puducherry Technological University, Puducherry 605014, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "M. Sudhakaran",
+      "given_name_from_source": "M.",
+      "family_name_from_source": "Sudhakaran",
+      "orcid_from_source": "https://orcid.org/0000-0001-7745-0059",
+      "affiliation_from_source": [
+        "Department of EEE, Puducherry Technological University, Puducherry 605014, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Arulselvi Ramasamy",
+      "given_name_from_source": "Arulselvi",
+      "family_name_from_source": "Ramasamy",
+      "orcid_from_source": "https://orcid.org/0009-0001-8224-4994",
+      "affiliation_from_source": [
+        "Department of CSE, Vardhaman College of Engineering, Hyderabad 501218, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

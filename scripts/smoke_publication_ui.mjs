@@ -1,0 +1,25 @@
+// Read-only production UI smoke test: create previews, never save publications.
+import {chromium} from '@playwright/test';
+const browser=await chromium.launch({channel:'msedge',headless:true});
+const page=await browser.newPage({viewport:{width:1366,height:900}});
+const failures=[];page.on('pageerror',e=>failures.push(e.message));
+const records=await (await page.request.get('http://127.0.0.1:8000/publications?include_inactive=true')).json();
+await page.goto('http://127.0.0.1:3000/publications/new');
+await page.getByRole('button',{name:'BibTeX',exact:true}).click();
+await page.getByLabel('Enrich missing fields using DOI metadata').uncheck();
+await page.getByLabel('BibTeX content').fill('@inproceedings{preview,author={Karuppiah, N and Asif, Md},title={Read-only conference preview},booktitle={Energy Proceedings},eventtitle={Smart Energy 2026},date={2026-10-02},year={2026},address={Chennai}}');
+await page.getByRole('button',{name:'Parse BibTeX',exact:true}).click();
+const entry=page.locator('.bibtex-entry');
+await entry.getByRole('radio',{name:'Claiming faculty: N Karuppiah',exact:true}).check();
+await entry.getByText('Review status: READY',{exact:true}).waitFor();
+await page.screenshot({path:'test-results/live-bibtex-preview.png',fullPage:false});
+await entry.getByLabel('Conference name',{exact:true}).scrollIntoViewIfNeeded();
+await page.screenshot({path:'test-results/live-conference-fields.png',fullPage:false});
+await page.setViewportSize({width:390,height:844});
+await entry.getByLabel('Conference name',{exact:true}).scrollIntoViewIfNeeded();
+if(await page.evaluate(()=>document.documentElement.scrollWidth)>390) throw Error('Mobile viewport overflow');
+await page.screenshot({path:'test-results/live-conference-mobile.png',fullPage:false});
+const after=await (await page.request.get('http://127.0.0.1:8000/publications?include_inactive=true')).json();
+if(records.length!==after.length || failures.length) throw Error(JSON.stringify({before:records.length,after:after.length,failures}));
+console.log(`Production preview and mobile layout verified; ${after.length} existing records unchanged.`);
+await browser.close();

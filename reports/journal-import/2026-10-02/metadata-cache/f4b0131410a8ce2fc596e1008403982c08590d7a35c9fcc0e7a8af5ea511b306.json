@@ -1,0 +1,554 @@
+{
+  "doi": "10.32397/tesea.vol5.n2.571",
+  "title": "Design of PV fed single-switch transformer less topology powered electric vehicle",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Transactions on Energy Systems and Engineering Applications",
+  "publisher": "Universidad Tecnologica de Bolivar",
+  "publication_date": "2024-07-31",
+  "online_publication_date": "2024-07-31",
+  "print_publication_date": null,
+  "volume": "5",
+  "issue": "2",
+  "pages_or_article_number": "1-23",
+  "issn": null,
+  "eissn": "2745-0120",
+  "isbn": null,
+  "url": "https://doi.org/10.32397/tesea.vol5.n2.571",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:55:39.764626+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            7
+          ]
+        ],
+        "date-time": "2026-05-07T22:11:21Z",
+        "timestamp": 1778191881304,
+        "version": "3.51.4"
+      },
+      "reference-count": 27,
+      "publisher": "Universidad Tecnologica de Bolivar",
+      "issue": "2",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                7,
+                31
+              ]
+            ],
+            "date-time": "2024-07-31T00:00:00Z",
+            "timestamp": 1722384000000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "TESEA"
+      ],
+      "abstract": "<jats:p>As a result of an increase in the availability of resources that were not harmful to the environment, solar energy applications shot to popularity. Photovoltaic cells power systems that necessitate DC-DC converters because of their low voltage output. This investigation uses photovoltaic cells (PV) to power a high-voltage gain design with just one switch and no transformer. The proposed circuit utilizes a single regulated switch, which contributes to a reduction in switching losses. It requires fundamental pulse regulation. The network used a switched capacitor cell and an LC passive filter to provide an accurate step-up voltage. We can obtain the equation for the step-up voltage gain from the steady-state continuous conduction mode. The equations used for the theoretical design of converters include energy. To show that the topology is comparable with other modern converters that have been published, a comparison was made between it and other converters. In order to validate the converter's effectiveness, simulations built in MATLAB and Simulink are used.</jats:p>",
+      "DOI": "10.32397/tesea.vol5.n2.571",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            1
+          ]
+        ],
+        "date-time": "2024-08-01T06:35:42Z",
+        "timestamp": 1722494142000
+      },
+      "page": "1-23",
+      "update-policy": "https://doi.org/10.32397/tesea-crossmark",
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "Design of PV fed single-switch transformer less topology powered electric vehicle"
+      ],
+      "prefix": "10.32397",
+      "volume": "5",
+      "author": [
+        {
+          "given": "Jeetender",
+          "family": "Vemula",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "family": "E. Vidya Sagar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "family": "Tellapati Anuradha Devi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "family": "Gundala Srinivasa Rao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "family": "Rekha Rangam",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "family": "S. Venkata Rami Reddy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "17094",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            31
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "ref0",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[1] Wuhua Li and Xiangning He. Review of nonisolated high-step-up dc/dc converters in photovoltaic grid-connected applications. IEEE Transactions on Industrial Electronics, 58(4):1239–1250, April 2011.",
+          "DOI": "10.1109/tie.2010.2049715"
+        },
+        {
+          "key": "ref1",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[2] T. Sreekanth, N. Lakshminarasamma, and Mahesh K. Mishra. A single-stage grid-connected high gain buck–boost inverter with maximum power point tracking. IEEE Transactions on Energy Conversion, 32(1):330–339, March 2017.",
+          "DOI": "10.1109/tec.2016.2633365"
+        },
+        {
+          "key": "ref2",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[3] Sandeep Anand, Saikrishna Kashyap Gundlapalli, and B. G. Fernandes. Transformer-less grid feeding current source inverter for solar photovoltaic system. IEEE Transactions on Industrial Electronics, 61(10):5334–5344, October 2014.",
+          "DOI": "10.1109/tie.2014.2300038"
+        },
+        {
+          "key": "ref3",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[4] Rohit Suryadevara and Leila Parsa. Full-bridge zcs-converter-based high-gain modular dc-dc converter for pv integration with medium-voltage dc grids. IEEE Transactions on Energy Conversion, 34(1):302–312, March 2019.",
+          "DOI": "10.1109/tec.2018.2878964"
+        },
+        {
+          "key": "ref4",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[5] Roger Gules, Walter Meneghette Dos Santos, Flavio Aparecido Dos Reis, Eduardo Felix Ribeiro Romaneli, and Alceu Andre Badin. A modified sepic converter with high static gain for renewable applications. IEEE Transactions on Power Electronics, 29(11):5860–5871, November 2014.",
+          "DOI": "10.1109/tpel.2013.2296053"
+        },
+        {
+          "key": "ref5",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[6] Neyyala Raju, N. Murali Mohan, and Vijay Kumar. A switched-inductor switched-capacitor based ultra-gain boost converter: analysis and design. TESEA, Transactions on Energy Systems and Engineering Applications, 5(1):1–20, February 2024.",
+          "DOI": "10.32397/tesea.vol5.n1.549"
+        },
+        {
+          "key": "ref6",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[7] Gang Wu, Xinbo Ruan, and Zhihong Ye. Nonisolated high step-up dc–dc converters adopting switched-capacitor cell. IEEE Transactions on Industrial Electronics, 62(1):383–393, January 2015.",
+          "DOI": "10.1109/tie.2014.2327000"
+        },
+        {
+          "key": "ref7",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[8] L Sri Sivani, L Nagi Reddy, BK SubbaRao, and A Pandian. A new single switch ac/dc converter with extended voltage conversion ratio for smps applications. Int. Journal of Innovative Technology and Exploring Engineering, 8(3):68–72, 2019.",
+          "DOI": "10.30534/ijeter/2020/26842020"
+        },
+        {
+          "key": "ref8",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[9] Farzad Mohammadzadeh Shahir, Ebrahim Babaei, and Murtaza Farsadi. Voltage-lift technique based nonisolated boost dc–dc converter: Analysis and design. IEEE Transactions on Power Electronics, 33(7):5917–5926, July 2018.",
+          "DOI": "10.1109/tpel.2017.2740843"
+        },
+        {
+          "key": "ref9",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[10] Qian Li, Yigeng Huangfu, Liangcai Xu, Jiang Wei, Rui Ma, Dongdong Zhao, and Fei Gao. An improved floating interleaved boost converter with the zero-ripple input current for fuel cell applications. IEEE Transactions on Energy Conversion, 34(4):2168–2179, December 2019.",
+          "DOI": "10.1109/tec.2019.2936416"
+        },
+        {
+          "key": "ref10",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[11] M. Lakshmi and S. Hemamalini. Nonisolated high gain dc–dc converter for dc microgrids. IEEE Transactions on Industrial Electronics, 65(2):1205–1212, February 2018.",
+          "DOI": "10.1109/tie.2017.2733463"
+        },
+        {
+          "key": "ref11",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[12] B. Nagi Reddy, K. Badrinath Shetty, Radhika Jalli, K. Akhila, K. Sai Prudhviraj, and Vadthya Jagan. Reduced redundant power processing in dc-dc converters: A comprehensive review. February 2024.",
+          "DOI": "10.1109/parc59193.2024.10486338"
+        },
+        {
+          "key": "ref12",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[13] J.C. Rosas-Caro, J.M. Ramirez, F.Z. Peng, and A. Valderrabano. A dc–dc multilevel boost converter. IET Power Electronics, 3(1):129, January 2010.",
+          "DOI": "10.1049/iet-pel.2008.0253"
+        },
+        {
+          "key": "ref13",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[14] Mohammad Reza Banaei, Hossein Ardi, and Amir Farakhor. Analysis and implementation of a new single-switch buck–boost dc/dc converter. IET Power Electronics, 7(7):1906–1914, July 2014.",
+          "DOI": "10.1049/iet-pel.2013.0762"
+        },
+        {
+          "key": "ref14",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[15] Ping Wang, Lei Zhou, Yun Zhang, Jing Li, and Mark Sumner. Input-parallel output-series dc-dc boost converter with a wide input voltage range, for fuel cell vehicles. IEEE Transactions on Vehicular Technology, 66(9):7771–7781, September 2017.",
+          "DOI": "10.1109/tvt.2017.2688324"
+        },
+        {
+          "key": "ref15",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[16] Lukas Muller and Jonathan W. Kimball. High gain dc–dc converter based on the cockcroft–walton multiplier. IEEE Transactions on Power Electronics, 31(9):6405–6415, September 2016.",
+          "DOI": "10.1109/tpel.2015.2505678"
+        },
+        {
+          "key": "ref16",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[17] Nagi Reddy B, Sahithi Priya Kosika, Manish Patel Gadam, Jagadhishwar Banoth, Ashok Banoth, and Srikanth Koundinya. Analysis of positive output buck-boost topology with extended conversion ratio. Journal of Energy Systems, 6(1):62–83, March 2022.",
+          "DOI": "10.30521/jes.952692"
+        },
+        {
+          "key": "ref17",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[18] Kerui Li, Yafei Hu, and Adrian Ioinovici. Generation of the large dc gain step-up nonisolated converters in conjunction with renewable energy sources starting from a proposed geometric structure. IEEE Transactions on Power Electronics, 32(7):5323–5340, July 2017.",
+          "DOI": "10.1109/tpel.2016.2609501"
+        },
+        {
+          "key": "ref18",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[19] Faqiang Wang. A novel quadratic boost converter with low current and voltage stress on power switch for fuel-cell system applications. Renewable Energy, 115:836–845, January 2018.",
+          "DOI": "10.1016/j.renene.2017.08.032"
+        },
+        {
+          "key": "ref19",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[20] Neng Zhang, Guidong Zhang, KhayWai See, and Bo Zhang. A single-switch quadratic buck–boost converter with continuous input port current and continuous output port current. IEEE Transactions on Power Electronics, 33(5):4157–4166, May 2018.",
+          "DOI": "10.1109/tpel.2017.2717462"
+        },
+        {
+          "key": "ref20",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[21] Yun Zhang, Heyu Liu, Jing Li, Mark Sumner, and Changliang Xia. Dc–dc boost converter with a wide input range and high voltage gain for fuel cell vehicles. IEEE Transactions on Power Electronics, 34(5):4100–4111, May 2019.",
+          "DOI": "10.1109/tpel.2018.2858443"
+        },
+        {
+          "key": "ref21",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[22] Yuanwei Gu, Yanfeng Chen, Bo Zhang, Dongyuan Qiu, and Fan Xie. High step-up dc-dc converter with active switched lc-network for photovoltaic systems. IEEE Transactions on Energy Conversion, 34(1):321–329, 2018.",
+          "DOI": "10.1109/tec.2018.2876725"
+        },
+        {
+          "key": "ref22",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[23] Marcos Antonio Salvador, Telles Brunelli Lazzarin, and Roberto Francisco Coelho. High step-up dc–dc converter with active switched-inductor and passive switched-capacitor networks. IEEE Transactions on Industrial Electronics, 65(7):5644–5654, July 2018.",
+          "DOI": "10.1109/tie.2017.2782239"
+        },
+        {
+          "key": "ref23",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[24] Ebrahim Babaei, Hamed Mashinchi Maheri, Mehran Sabahi, and Seyed Hossein Hosseini. Extendable nonisolated high gain dc–dc converter based on active–passive inductor cells. IEEE Transactions on Industrial Electronics, 65(12):9478–9487, December 2018.",
+          "DOI": "10.1109/tie.2018.2807367"
+        },
+        {
+          "key": "ref24",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[25] B. Nagi Reddy, G. Vinay Kumar, B. Vinay Kumar, B. Jhansi, B. Sandeep, and K. Sarada. Fuel cell based ultra-voltage gain boost converter for electric vehicle applications. TESEA, Transactions on Energy Systems and Engineering Applications, 4(1):68–90, June 2023.",
+          "DOI": "10.32397/tesea.vol4.n1.519"
+        },
+        {
+          "key": "ref25",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[26] Mohammad Maalandish, Seyed Hossein Hosseini, Tohid Jalilzadeh, and Naser Vosoughi. High step-up dc–dc converter using one switch and lower losses for photovoltaic applications. IET Power Electronics, 11(13):2081–2092, September 2018.",
+          "DOI": "10.1049/iet-pel.2018.5400"
+        },
+        {
+          "key": "ref26",
+          "doi-asserted-by": "publisher",
+          "unstructured": "[27] Farzad Mohammadzadeh Shahir, Ebrahim Babaei, and Murtaza Farsadi. Extended topology for a boost dc–dc converter. IEEE Transactions on Power Electronics, 34(3):2375–2384, March 2019.",
+          "DOI": "10.1109/tpel.2018.2840683"
+        }
+      ],
+      "container-title": [
+        "Transactions on Energy Systems and Engineering Applications"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://revistas.utb.edu.co/tesea/article/download/571/401",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://revistas.utb.edu.co/tesea/article/download/571/401",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            7
+          ]
+        ],
+        "date-time": "2026-05-07T21:50:48Z",
+        "timestamp": 1778190648000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://revistas.utb.edu.co/tesea/article/view/571"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            31
+          ]
+        ]
+      },
+      "references-count": 27,
+      "journal-issue": {
+        "issue": "2",
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              31
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.32397/tesea.vol5.n2.571",
+      "archive": [
+        "Internet Archive"
+      ],
+      "relation": {},
+      "ISSN": [
+        "2745-0120"
+      ],
+      "issn-type": [
+        {
+          "value": "2745-0120",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            31
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2023-10-15",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2024-6-8",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2024-7-31",
+          "order": 2,
+          "name": "published_online",
+          "label": "Published Online",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ],
+      "article-number": "571"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Jeetender Vemula",
+      "given_name_from_source": "Jeetender",
+      "family_name_from_source": "Vemula",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "E. Vidya Sagar",
+      "given_name_from_source": null,
+      "family_name_from_source": "E. Vidya Sagar",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Tellapati Anuradha Devi",
+      "given_name_from_source": null,
+      "family_name_from_source": "Tellapati Anuradha Devi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Gundala Srinivasa Rao",
+      "given_name_from_source": null,
+      "family_name_from_source": "Gundala Srinivasa Rao",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Rekha Rangam",
+      "given_name_from_source": null,
+      "family_name_from_source": "Rekha Rangam",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "S. Venkata Rami Reddy",
+      "given_name_from_source": null,
+      "family_name_from_source": "S. Venkata Rami Reddy",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

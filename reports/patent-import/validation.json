@@ -1,0 +1,199 @@
+{
+  "database": "C:\\Users\\silic\\Documents\\GitHub\\faculty-performance-development\\data\\faculty.db",
+  "before_import_backup": "C:\\Users\\silic\\Documents\\GitHub\\faculty-performance-development\\data\\backups\\pre_patent_import_20261003_002952.db",
+  "other_table_values_preserved": [
+    "academic_years",
+    "students",
+    "change_logs",
+    "publication_authors",
+    "publications",
+    "book_publications",
+    "book_change_logs",
+    "book_contributors",
+    "evidence_files",
+    "faculty"
+  ],
+  "counts": {
+    "patents": 9,
+    "patent_inventors": 55,
+    "publications": 325,
+    "faculty": 20,
+    "book_publications": 28
+  },
+  "CY2026_patent_totals": {
+    "unique": 9,
+    "filed": 0,
+    "published": 8,
+    "granted": 1,
+    "with_students": 0,
+    "interdepartmental": 0,
+    "external_collaboration": 5,
+    "unique_faculty": 16,
+    "unique_students": 0
+  },
+  "faculty_attribution": [
+    {
+      "faculty": {
+        "id": 7,
+        "name": "Dr. Muruga Perumal",
+        "employee_id": "VCE1496",
+        "designation": "Associate Professor"
+      },
+      "claimed": 2,
+      "invented": 2
+    },
+    {
+      "faculty": {
+        "id": 5,
+        "name": "Dr. N. Karuppiah",
+        "employee_id": "VCE1172",
+        "designation": "Professor"
+      },
+      "claimed": 3,
+      "invented": 3
+    },
+    {
+      "faculty": {
+        "id": 9,
+        "name": "Dr. N. Srinivas",
+        "employee_id": "VCE087",
+        "designation": "Assistant Professor"
+      },
+      "claimed": 2,
+      "invented": 2
+    },
+    {
+      "faculty": {
+        "id": 2,
+        "name": "Dr. Patil Mounica",
+        "employee_id": "VCE967",
+        "designation": "Assistant Professor"
+      },
+      "claimed": 5,
+      "invented": 5
+    },
+    {
+      "faculty": {
+        "id": 3,
+        "name": "Dr. S. Ravivarman",
+        "employee_id": "VCE1127",
+        "designation": "Professor"
+      },
+      "claimed": 2,
+      "invented": 2
+    },
+    {
+      "faculty": {
+        "id": 8,
+        "name": "Dr. T. Anuradha Devi",
+        "employee_id": "VCE1011",
+        "designation": "Assistant Professor"
+      },
+      "claimed": 4,
+      "invented": 4
+    },
+    {
+      "faculty": {
+        "id": 12,
+        "name": "Mr. A. Ananda Kumar",
+        "employee_id": "VCE1009",
+        "designation": "Assistant Professor"
+      },
+      "claimed": 1,
+      "invented": 1
+    },
+    {
+      "faculty": {
+        "id": 11,
+        "name": "Mr. A. Rama Krishna",
+        "employee_id": "VCE306",
+        "designation": "Assistant Professor"
+      },
+      "claimed": 1,
+      "invented": 1
+    },
+    {
+      "faculty": {
+        "id": 18,
+        "name": "Mr. B. Balakrishna",
+        "employee_id": "VCE1837",
+        "designation": "Assistant Professor"
+      },
+      "claimed": 2,
+      "invented": 2
+    },
+    {
+      "faculty": {
+        "id": 14,
+        "name": "Mr. B. Mohan",
+        "employee_id": "VCE1074",
+        "designation": "Assistant Professor"
+      },
+      "claimed": 2,
+      "invented": 2
+    },
+    {
+      "faculty": {
+        "id": 10,
+        "name": "Mr. B. Raja Gopal Reddy",
+        "employee_id": "VCE801",
+        "designation": "Assistant Professor"
+      },
+      "claimed": 4,
+      "invented": 4
+    },
+    {
+      "faculty": {
+        "id": 16,
+        "name": "Mr. S. Vinod Reddy",
+        "employee_id": "VCE1422",
+        "designation": "Assistant Professor"
+      },
+      "claimed": 2,
+      "invented": 2
+    },
+    {
+      "faculty": {
+        "id": 17,
+        "name": "Ms. D. Revathi",
+        "employee_id": "VCE792",
+        "designation": "Assistant Professor"
+      },
+      "claimed": 1,
+      "invented": 1
+    },
+    {
+      "faculty": {
+        "id": 15,
+        "name": "Ms. Fatima Unnisa",
+        "employee_id": "VCE1199",
+        "designation": "Assistant Professor"
+      },
+      "claimed": 1,
+      "invented": 1
+    },
+    {
+      "faculty": {
+        "id": 13,
+        "name": "Ms. G. Indirarani",
+        "employee_id": "VCE1430",
+        "designation": "Assistant Professor"
+      },
+      "claimed": 1,
+      "invented": 1
+    },
+    {
+      "faculty": {
+        "id": 20,
+        "name": "Ms. K Haleema",
+        "employee_id": "VCE1219",
+        "designation": "Assistant Professor"
+      },
+      "claimed": 1,
+      "invented": 1
+    }
+  ],
+  "research_patent_total": 9,
+  "integrity": "ok",
+  "foreign_key_violations": 0
+}

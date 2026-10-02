@@ -1,0 +1,965 @@
+{
+  "doi": "10.1007/s00202-024-02586-3",
+  "title": "IntDEM: an intelligent deep optimized energy management system for IoT-enabled smart grid applications",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Electrical Engineering",
+  "publisher": "Springer Science and Business Media LLC",
+  "publication_date": "2024-07-24",
+  "online_publication_date": "2024-07-24",
+  "print_publication_date": null,
+  "volume": "107",
+  "issue": "2",
+  "pages_or_article_number": "1925-1947",
+  "issn": "0948-7921",
+  "eissn": "1432-0487",
+  "isbn": null,
+  "url": "https://doi.org/10.1007/s00202-024-02586-3",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:06.768546+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            20
+          ]
+        ],
+        "date-time": "2026-08-20T14:59:53Z",
+        "timestamp": 1787237993874,
+        "version": "build-2736575974"
+      },
+      "reference-count": 55,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "2",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                7,
+                24
+              ]
+            ],
+            "date-time": "2024-07-24T00:00:00Z",
+            "timestamp": 1721779200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                7,
+                24
+              ]
+            ],
+            "date-time": "2024-07-24T00:00:00Z",
+            "timestamp": 1721779200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Electr Eng"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            2
+          ]
+        ]
+      },
+      "DOI": "10.1007/s00202-024-02586-3",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            23
+          ]
+        ],
+        "date-time": "2024-07-23T23:30:40Z",
+        "timestamp": 1721777440000
+      },
+      "page": "1925-1947",
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 26,
+      "title": [
+        "IntDEM: an intelligent deep optimized energy management system for IoT-enabled smart grid applications"
+      ],
+      "prefix": "10.1007",
+      "volume": "107",
+      "author": [
+        {
+          "given": "P. M. Jai",
+          "family": "Ganesh",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "B. Meenakshi",
+          "family": "Sundaram",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gouse Baig",
+          "family": "Mohammad",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            24
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "2586_CR1",
+          "first-page": "581",
+          "volume": "12",
+          "author": "AYB Ahmad",
+          "year": "2024",
+          "unstructured": "Ahmad AYB, William P, Uike D, Murgai A, Bajaj K, Deepak A et al (2024) Framework for sustainable energy management using smart grid panels integrated with machine learning and IOT based approach. Int J Intell Syst Appl Eng 12:581–590",
+          "journal-title": "Int J Intell Syst Appl Eng"
+        },
+        {
+          "key": "2586_CR2",
+          "doi-asserted-by": "crossref",
+          "first-page": "59",
+          "DOI": "10.1038/s41597-023-02846-0",
+          "volume": "11",
+          "author": "C Quesada",
+          "year": "2024",
+          "unstructured": "Quesada C, Astigarraga L, Merveille C, Borges CE (2024) An electricity smart meter dataset of Spanish households: insights into consumption patterns. Sci Data 11:59",
+          "journal-title": "Sci Data"
+        },
+        {
+          "key": "2586_CR3",
+          "doi-asserted-by": "crossref",
+          "first-page": "441",
+          "DOI": "10.1007/s12273-023-1074-5",
+          "volume": "17",
+          "author": "MK Akbar",
+          "year": "2024",
+          "unstructured": "Akbar MK, Amayri M, Bouguila N (2024) A novel non-intrusive load monitoring technique using semi-supervised deep learning framework for smart grid. Build Simul 17:441–457",
+          "journal-title": "Build Simul"
+        },
+        {
+          "key": "2586_CR4",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.apenergy.2023.122413",
+          "volume": "357",
+          "author": "M Peplinski",
+          "year": "2024",
+          "unstructured": "Peplinski M, Dilkina B, Chen M, Silva SJ, Ban-Weiss GA, Sanders KT (2024) A machine learning framework to estimate residential electricity demand based on smart meter electricity, climate, building characteristics, and socioeconomic datasets. Appl Energy 357:122413",
+          "journal-title": "Appl Energy"
+        },
+        {
+          "key": "2586_CR5",
+          "doi-asserted-by": "crossref",
+          "first-page": "23504",
+          "DOI": "10.1109/ACCESS.2024.3358182",
+          "volume": "12",
+          "author": "MM Asiri",
+          "year": "2024",
+          "unstructured": "Asiri MM, Aldehim G, Alotaibi F, Alnfiai MM, Assiri M, Mahmud A (2024) Short-term load forecasting in smart grids using hybrid deep learning. IEEE Access 12:23504",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "2586_CR6",
+          "volume": "25",
+          "author": "LAC Ahakonye",
+          "year": "2024",
+          "unstructured": "Ahakonye LAC, Nwakanma CI, Lee J-M, Kim D-S (2024) Low computational cost convolutional neural network for smart grid frequency stability prediction. Internet Things 25:101086",
+          "journal-title": "Internet Things"
+        },
+        {
+          "key": "2586_CR7",
+          "doi-asserted-by": "crossref",
+          "first-page": "652",
+          "DOI": "10.1109/JESTIE.2024.3350537",
+          "volume": "5",
+          "author": "H-T Zhang",
+          "year": "2024",
+          "unstructured": "Zhang H-T, Wang Z, Liu X, Zhou W, Ding Y, Li Y et al (2024) Power network smart meter data driven cross-task transfer learning for resident characteristics estimation. IEEE J Emerg Sel Top Ind Electron 5:652",
+          "journal-title": "IEEE J Emerg Sel Top Ind Electron"
+        },
+        {
+          "key": "2586_CR8",
+          "doi-asserted-by": "crossref",
+          "first-page": "e8091",
+          "DOI": "10.1002/cpe.8091",
+          "volume": "36",
+          "author": "A Vakili",
+          "year": "2024",
+          "unstructured": "Vakili A, Al-Khafaji HMR, Darbandi M, Heidari A, Jafari Navimipour N, Unal M (2024) A new service composition method in the cloud-based Internet of Things environment using a grey wolf optimization algorithm and MapReduce framework. Concurr Comput Pract Exp 36:e8091",
+          "journal-title": "Concurr Comput Pract Exp"
+        },
+        {
+          "key": "2586_CR9",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1520",
+          "DOI": "10.1002/widm.1520",
+          "volume": "14",
+          "author": "A Heidari",
+          "year": "2024",
+          "unstructured": "Heidari A, Jafari Navimipour N, Dag H, Unal M (2024) Deepfake detection using deep learning methods: A systematic and comprehensive review. Wiley Interdiscip Rev Data Min Knowl Discov 14:e1520",
+          "journal-title": "Wiley Interdiscip Rev Data Min Knowl Discov"
+        },
+        {
+          "key": "2586_CR10",
+          "doi-asserted-by": "crossref",
+          "first-page": "e26397",
+          "DOI": "10.1016/j.heliyon.2024.e26397",
+          "volume": "10",
+          "author": "M Nutakki",
+          "year": "2024",
+          "unstructured": "Nutakki M, Mandava S (2024) Optimizing home energy management: Robust and efficient solutions powered by attention networks. Heliyon 10:e26397",
+          "journal-title": "Heliyon"
+        },
+        {
+          "key": "2586_CR11",
+          "doi-asserted-by": "crossref",
+          "first-page": "117",
+          "DOI": "10.1016/j.aej.2024.02.033",
+          "volume": "92",
+          "author": "A Raza",
+          "year": "2024",
+          "unstructured": "Raza A, Jingzhao L, Ghadi Y, Adnan M, Ali M (2024) Smart home energy management systems: research challenges and survey. Alex Eng J 92:117–170",
+          "journal-title": "Alex Eng J"
+        },
+        {
+          "key": "2586_CR12",
+          "doi-asserted-by": "publisher",
+          "first-page": "2708",
+          "DOI": "10.1109/TCE.2023.3319374",
+          "volume": "70",
+          "author": "GG Devarajan",
+          "year": "2024",
+          "unstructured": "Devarajan GG, Nagarajan SM, Daniel A, Vignesh T, Kaluri R (2024) Consumer product recommendation system using adapted PSO with federated learning method. IEEE Trans Consum Electron 70:2708–2715. https://doi.org/10.1109/TCE.2023.3319374",
+          "journal-title": "IEEE Trans Consum Electron"
+        },
+        {
+          "key": "2586_CR13",
+          "doi-asserted-by": "crossref",
+          "first-page": "1073",
+          "DOI": "10.1007/s12559-024-10255-7",
+          "volume": "16",
+          "author": "A Heidari",
+          "year": "2024",
+          "unstructured": "Heidari A, Navimipour NJ, Dag H, Talebi S, Unal M (2024) A novel blockchain-based deepfake detection method using federated and deep learning models. Cognit Comput 16:1073",
+          "journal-title": "Cognit Comput"
+        },
+        {
+          "key": "2586_CR14",
+          "doi-asserted-by": "crossref",
+          "first-page": "5757",
+          "DOI": "10.1007/s00521-023-09366-3",
+          "volume": "36",
+          "author": "Z Amiri",
+          "year": "2024",
+          "unstructured": "Amiri Z, Heidari A, Navimipour NJ, Esmaeilpour M, Yazdani Y (2024) The deep learning applications in IoT-based bio-and medical informatics: a systematic literature review. Neural Comput Appl 36:5757–5797",
+          "journal-title": "Neural Comput Appl"
+        },
+        {
+          "key": "2586_CR15",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.enbuild.2023.113022",
+          "volume": "288",
+          "author": "N Mounir",
+          "year": "2023",
+          "unstructured": "Mounir N, Ouadi H, Jrhilifa I (2023) Short-term electric load forecasting using an EMD-BI-LSTM approach for smart grid energy management system. Energy Build 288:113022",
+          "journal-title": "Energy Build"
+        },
+        {
+          "key": "2586_CR16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10586-024-04351-4",
+          "author": "A Heidari",
+          "year": "2024",
+          "unstructured": "Heidari A, Shishehlou H, Darbandi M, Navimipour NJ, Yalcin S (2024) A reliable method for data aggregation on the industrial Internet of Things using a hybrid optimization algorithm and density correlation degree. Clust Comput. https://doi.org/10.1007/s10586-024-04351-4",
+          "journal-title": "Clust Comput"
+        },
+        {
+          "key": "2586_CR17",
+          "doi-asserted-by": "publisher",
+          "first-page": "1",
+          "DOI": "10.1145/3571728",
+          "volume": "55",
+          "author": "A Heidari",
+          "year": "2023",
+          "unstructured": "Heidari A, Jafari Navimipour N, Unal M, Zhang G (2023) Machine learning applications in internet-of-drones: systematic review, recent deployments, and open issues. ACM Comput Surv 55:1–45. https://doi.org/10.1145/3571728",
+          "journal-title": "ACM Comput Surv"
+        },
+        {
+          "key": "2586_CR18",
+          "volume": "35",
+          "author": "Z Amiri",
+          "year": "2024",
+          "unstructured": "Amiri Z, Heidari A, Zavvar M, Navimipour NJ, Esmaeilpour M (2024) The applications of nature-inspired algorithms in Internet of Things-based healthcare service: a systematic literature review. Trans Emerg Telecommun Technol 35:e4969",
+          "journal-title": "Trans Emerg Telecommun Technol"
+        },
+        {
+          "key": "2586_CR19",
+          "doi-asserted-by": "crossref",
+          "first-page": "284",
+          "DOI": "10.1080/15435075.2022.2038610",
+          "volume": "20",
+          "author": "A Fakhar",
+          "year": "2023",
+          "unstructured": "Fakhar A, Haidar AM, Abdullah M, Das N (2023) Smart grid mechanism for green energy management: a comprehensive review. Int J Green Energy 20:284–308",
+          "journal-title": "Int J Green Energy"
+        },
+        {
+          "key": "2586_CR20",
+          "volume": "279",
+          "author": "SU Khan",
+          "year": "2023",
+          "unstructured": "Khan SU, Khan N, Ullah FUM, Kim MJ, Lee MY, Baik SW (2023) Towards intelligent building energy management: AI-based framework for power consumption and generation forecasting. Energy Build 279:112705",
+          "journal-title": "Energy Build"
+        },
+        {
+          "key": "2586_CR21",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.est.2022.106412",
+          "volume": "58",
+          "author": "P Balakumar",
+          "year": "2023",
+          "unstructured": "Balakumar P, Vinopraba T, Chandrasekaran K (2023) Deep learning based real time demand side management controller for smart building integrated with renewable energy and energy storage system. J Energy Storage 58:106412",
+          "journal-title": "J Energy Storage"
+        },
+        {
+          "key": "2586_CR22",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1186/s41601-023-00319-5",
+          "volume": "8",
+          "author": "F Ahsan",
+          "year": "2023",
+          "unstructured": "Ahsan F, Dana NH, Sarker SK, Li L, Muyeen S, Ali MF et al (2023) Data-driven next-generation smart grid towards sustainable energy evolution: techniques and technology review. Prot Control Mod Power Syst 8:1–42",
+          "journal-title": "Prot Control Mod Power Syst"
+        },
+        {
+          "key": "2586_CR23",
+          "volume": "333",
+          "author": "Y Li",
+          "year": "2023",
+          "unstructured": "Li Y, Bu F, Li Y, Long C (2023) Optimal scheduling of island integrated energy systems considering multi-uncertainties and hydrothermal simultaneous transmission: A deep reinforcement learning approach. Appl Energy 333:120540",
+          "journal-title": "Appl Energy"
+        },
+        {
+          "key": "2586_CR24",
+          "doi-asserted-by": "crossref",
+          "first-page": "2321",
+          "DOI": "10.1109/TSTE.2021.3090463",
+          "volume": "12",
+          "author": "Y Li",
+          "year": "2021",
+          "unstructured": "Li Y, Han M, Yang Z, Li G (2021) Coordinating flexible demand response and renewable uncertainties for scheduling of community integrated energy systems with an electric vehicle charging station: a bi-level approach. IEEE Trans Sustain Energy 12:2321–2331",
+          "journal-title": "IEEE Trans Sustain Energy"
+        },
+        {
+          "key": "2586_CR25",
+          "doi-asserted-by": "crossref",
+          "first-page": "159",
+          "DOI": "10.1109/TSTE.2021.3105529",
+          "volume": "13",
+          "author": "Y Li",
+          "year": "2021",
+          "unstructured": "Li Y, Wang R, Yang Z (2021) Optimal scheduling of isolated microgrids using automated reinforcement learning-based multi-period forecasting. IEEE Trans Sustain Energy 13:159–169",
+          "journal-title": "IEEE Trans Sustain Energy"
+        },
+        {
+          "key": "2586_CR26",
+          "doi-asserted-by": "crossref",
+          "first-page": "289",
+          "DOI": "10.3390/sym15020289",
+          "volume": "15",
+          "author": "F Ucar",
+          "year": "2023",
+          "unstructured": "Ucar F (2023) A comprehensive analysis of smart grid stability prediction along with explainable artificial intelligence. Symmetry 15:289",
+          "journal-title": "Symmetry"
+        },
+        {
+          "key": "2586_CR27",
+          "doi-asserted-by": "crossref",
+          "first-page": "e17602",
+          "DOI": "10.1016/j.heliyon.2023.e17602",
+          "volume": "9",
+          "author": "MB Begum",
+          "year": "2023",
+          "unstructured": "Begum MB, Deepa N, Uddin M, Kaluri R, Abdelhaq M, Alsaqour R (2023) An efficient and secure compression technique for data protection using burrows-wheeler transform algorithm. Heliyon 9:e17602",
+          "journal-title": "Heliyon"
+        },
+        {
+          "key": "2586_CR28",
+          "doi-asserted-by": "crossref",
+          "first-page": "10",
+          "DOI": "10.1016/j.comcom.2022.12.001",
+          "volume": "199",
+          "author": "ES Babu",
+          "year": "2023",
+          "unstructured": "Babu ES, Barthwal A, Kaluri R (2023) Sec-edge: trusted blockchain system for enabling the identification and authentication of edge based 5G networks. Comput Commun 199:10–29",
+          "journal-title": "Comput Commun"
+        },
+        {
+          "key": "2586_CR29",
+          "first-page": "1",
+          "volume": "71",
+          "author": "J Song",
+          "year": "2022",
+          "unstructured": "Song J, Mingotti A, Zhang J, Peretto L, Wen H (2022) Fast iterative-interpolated DFT phasor estimator considering out-of-band interference. IEEE Trans Instrum Meas 71:1–14",
+          "journal-title": "IEEE Trans Instrum Meas"
+        },
+        {
+          "key": "2586_CR30",
+          "first-page": "1",
+          "volume": "71",
+          "author": "J Song",
+          "year": "2022",
+          "unstructured": "Song J, Mingotti A, Zhang J, Peretto L, Wen H (2022) Accurate damping factor and frequency estimation for damped real-valued sinusoidal signals. IEEE Trans Instrum Meas 71:1–4",
+          "journal-title": "IEEE Trans Instrum Meas"
+        },
+        {
+          "key": "2586_CR31",
+          "doi-asserted-by": "crossref",
+          "first-page": "4",
+          "DOI": "10.1186/s42162-023-00262-7",
+          "volume": "6",
+          "author": "MS Bakare",
+          "year": "2023",
+          "unstructured": "Bakare MS, Abdulkarim A, Zeeshan M, Shuaibu AN (2023) A comprehensive overview on demand side energy management towards smart grids: challenges, solutions, and future direction. Energy Inform 6:4",
+          "journal-title": "Energy Inform"
+        },
+        {
+          "key": "2586_CR32",
+          "doi-asserted-by": "crossref",
+          "first-page": "185059",
+          "DOI": "10.1109/ACCESS.2020.3029943",
+          "volume": "8",
+          "author": "W Ahmed",
+          "year": "2020",
+          "unstructured": "Ahmed W, Ansari H, Khan B, Ullah Z, Ali SM, Mehmood CAA et al (2020) Machine learning based energy management model for smart grid and renewable energy districts. IEEE Access 8:185059–185078",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "2586_CR33",
+          "doi-asserted-by": "crossref",
+          "first-page": "3170",
+          "DOI": "10.1109/JIOT.2020.3013306",
+          "volume": "8",
+          "author": "T Han",
+          "year": "2020",
+          "unstructured": "Han T, Muhammad K, Hussain T, Lloret J, Baik SW (2020) An efficient deep learning framework for intelligent energy management in IoT networks. IEEE Internet Things J 8:3170–3179",
+          "journal-title": "IEEE Internet Things J"
+        },
+        {
+          "key": "2586_CR34",
+          "doi-asserted-by": "crossref",
+          "first-page": "184797902110329",
+          "DOI": "10.1177/18479790211032920",
+          "volume": "13",
+          "author": "M Meliani",
+          "year": "2021",
+          "unstructured": "Meliani M, Barkany AE, Abbassi IE, Darcherif AM, Mahmoudi M (2021) Energy management in the smart grid: state-of-the-art and future trends. Int J Eng Bus Manag 13:18479790211032920",
+          "journal-title": "Int J Eng Bus Manag"
+        },
+        {
+          "key": "2586_CR35",
+          "doi-asserted-by": "crossref",
+          "first-page": "85454",
+          "DOI": "10.1109/ACCESS.2020.2991067",
+          "volume": "8",
+          "author": "M Alazab",
+          "year": "2020",
+          "unstructured": "Alazab M, Khan S, Krishnan SSR, Pham Q-V, Reddy MPK, Gadekallu TR (2020) A multidirectional LSTM model for predicting the stability of a smart grid. IEEE Access 8:85454–85463",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "2586_CR36",
+          "doi-asserted-by": "crossref",
+          "first-page": "4067",
+          "DOI": "10.1002/er.4883",
+          "volume": "44",
+          "author": "SK Rathor",
+          "year": "2020",
+          "unstructured": "Rathor SK, Saxena D (2020) Energy management system for smart grid: an overview and key issues. Int J Energy Res 44:4067–4109",
+          "journal-title": "Int J Energy Res"
+        },
+        {
+          "key": "2586_CR37",
+          "doi-asserted-by": "crossref",
+          "first-page": "106232",
+          "DOI": "10.1016/j.epsr.2020.106232",
+          "volume": "182",
+          "author": "S Aslam",
+          "year": "2020",
+          "unstructured": "Aslam S, Khalid A, Javaid N (2020) Towards efficient energy management in smart grids considering microgrids with day-ahead energy forecasting. Electr Power Syst Res 182:106232",
+          "journal-title": "Electr Power Syst Res"
+        },
+        {
+          "key": "2586_CR38",
+          "doi-asserted-by": "crossref",
+          "first-page": "125439",
+          "DOI": "10.1109/ACCESS.2021.3110960",
+          "volume": "9",
+          "author": "SA Nabavi",
+          "year": "2021",
+          "unstructured": "Nabavi SA, Motlagh NH, Zaidan MA, Aslani A, Zakeri B (2021) Deep learning in energy modeling: application in smart buildings with distributed energy generation. IEEE Access 9:125439–125461",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "2586_CR39",
+          "doi-asserted-by": "crossref",
+          "first-page": "54558",
+          "DOI": "10.1109/ACCESS.2021.3071269",
+          "volume": "9",
+          "author": "M Massaoudi",
+          "year": "2021",
+          "unstructured": "Massaoudi M, Abu-Rub H, Refaat SS, Chihi I, Oueslati FS (2021) Deep learning in smart grid technology: a review of recent advancements and future prospects. IEEE Access 9:54558–54578",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "2586_CR40",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.rser.2021.110992",
+          "volume": "144",
+          "author": "S Aslam",
+          "year": "2021",
+          "unstructured": "Aslam S, Herodotou H, Mohsin SM, Javaid N, Ashraf N, Aslam S (2021) A survey on deep learning methods for power load and renewable energy forecasting in smart microgrids. Renew Sustain Energy Rev 144:110992",
+          "journal-title": "Renew Sustain Energy Rev"
+        },
+        {
+          "key": "2586_CR41",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.rser.2023.114023",
+          "volume": "189",
+          "author": "Z Zheng",
+          "year": "2024",
+          "unstructured": "Zheng Z, Shafique M, Luo X, Wang S (2024) A systematic review towards integrative energy management of smart grids and urban energy systems. Renew Sustain Energy Rev 189:114023",
+          "journal-title": "Renew Sustain Energy Rev"
+        },
+        {
+          "key": "2586_CR42",
+          "volume": "38",
+          "author": "V Vivek",
+          "year": "2024",
+          "unstructured": "Vivek V, Bhatnagar S (2024) Efficient energy management in smart grids with finite horizon Q-learning. Sustain Energy Grids Netw 38:101277",
+          "journal-title": "Sustain Energy Grids Netw"
+        },
+        {
+          "key": "2586_CR43",
+          "doi-asserted-by": "crossref",
+          "first-page": "110166",
+          "DOI": "10.1016/j.dib.2024.110166",
+          "volume": "53",
+          "author": "RA Ramadan",
+          "year": "2024",
+          "unstructured": "Ramadan RA (2024) Internet of Things dataset for home renewable energy management. Data Brief 53:110166",
+          "journal-title": "Data Brief"
+        },
+        {
+          "key": "2586_CR44",
+          "doi-asserted-by": "crossref",
+          "first-page": "2672",
+          "DOI": "10.3390/en13102672",
+          "volume": "13",
+          "author": "I Kiprijanovska",
+          "year": "2020",
+          "unstructured": "Kiprijanovska I, Stankoski S, Ilievski I, Jovanovski S, Gams M, Gjoreski H (2020) Houseec: day-ahead household electrical energy consumption forecasting using deep learning. Energies 13:2672",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "2586_CR45",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1049/cit2.12060",
+          "volume": "7",
+          "author": "A Gasparin",
+          "year": "2022",
+          "unstructured": "Gasparin A, Lukovic S, Alippi C (2022) Deep learning for time series forecasting: The electric load case. CAAI Trans Intell Technol 7:1–25",
+          "journal-title": "CAAI Trans Intell Technol"
+        },
+        {
+          "key": "2586_CR46",
+          "doi-asserted-by": "publisher",
+          "first-page": "5714",
+          "DOI": "10.1109/JSYST.2023.3309324",
+          "volume": "17",
+          "author": "J Kumar",
+          "year": "2023",
+          "unstructured": "Kumar J, Saxena D, Singh AK, Vasilakos AV (2023) A quantum controlled-NOT neural network-based load forecast and management model for smart grid. IEEE Syst J 17:5714–5725. https://doi.org/10.1109/JSYST.2023.3309324",
+          "journal-title": "IEEE Syst J"
+        },
+        {
+          "key": "2586_CR47",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.egyai.2021.100071",
+          "volume": "4",
+          "author": "I Antonopoulos",
+          "year": "2021",
+          "unstructured": "Antonopoulos I, Robu V, Couraud B, Flynn D (2021) Data-driven modelling of energy demand response behaviour based on a large-scale residential trial. Energy and AI 4:100071",
+          "journal-title": "Energy and AI"
+        },
+        {
+          "key": "2586_CR48",
+          "doi-asserted-by": "crossref",
+          "first-page": "1404",
+          "DOI": "10.3390/en16031404",
+          "volume": "16",
+          "author": "F Dewangan",
+          "year": "2023",
+          "unstructured": "Dewangan F, Abdelaziz AY, Biswal M (2023) Load forecasting models in smart grid using smart meter information: a review. Energies 16:1404",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "2586_CR49",
+          "doi-asserted-by": "crossref",
+          "first-page": "4703",
+          "DOI": "10.1109/TII.2019.2942353",
+          "volume": "16",
+          "author": "Y Yang",
+          "year": "2019",
+          "unstructured": "Yang Y, Li W, Gulliver TA, Li S (2019) Bayesian deep learning-based probabilistic load forecasting in smart grids. IEEE Trans Industr Inf 16:4703–4713",
+          "journal-title": "IEEE Trans Industr Inf"
+        },
+        {
+          "key": "2586_CR50",
+          "doi-asserted-by": "crossref",
+          "first-page": "1084",
+          "DOI": "10.1016/j.egyr.2022.07.139",
+          "volume": "8",
+          "author": "I Amalou",
+          "year": "2022",
+          "unstructured": "Amalou I, Mouhni N, Abdali A (2022) Multivariate time series prediction by RNN architectures for energy consumption forecasting. Energy Rep 8:1084–1091",
+          "journal-title": "Energy Rep"
+        },
+        {
+          "key": "2586_CR51",
+          "doi-asserted-by": "crossref",
+          "first-page": "1918",
+          "DOI": "10.1049/gtd2.12828",
+          "volume": "17",
+          "author": "PK Yadav",
+          "year": "2023",
+          "unstructured": "Yadav PK, Bhasker R, Stonier AA, Peter G, Vijayakumar A, Ganji V (2023) Machine learning based load prediction in smart-grid under different contract scenario. IET Gener Transm Distrib 17:1918–1931",
+          "journal-title": "IET Gener Transm Distrib"
+        },
+        {
+          "key": "2586_CR52",
+          "doi-asserted-by": "crossref",
+          "first-page": "4799",
+          "DOI": "10.1016/j.egyr.2023.03.116",
+          "volume": "9",
+          "author": "A Alhendi",
+          "year": "2023",
+          "unstructured": "Alhendi A, Al-Sumaiti AS, Marzband M, Kumar R, Diab AAZ (2023) Short-term load and price forecasting using artificial neural network with enhanced Markov chain for ISO New England. Energy Rep 9:4799–4815",
+          "journal-title": "Energy Rep"
+        },
+        {
+          "key": "2586_CR53",
+          "unstructured": "Aurangzeb K DBSCAN-based energy users clustering for performance enhancement of deep learning model. J Intell Fuzzy Syst 1–19"
+        },
+        {
+          "key": "2586_CR54",
+          "doi-asserted-by": "crossref",
+          "first-page": "16885",
+          "DOI": "10.3390/su152416885",
+          "volume": "15",
+          "author": "MD Alanazi",
+          "year": "2023",
+          "unstructured": "Alanazi MD, Saeed A, Islam M, Habib S, Sherazi HI, Khan S et al (2023) Enhancing short-term electrical load forecasting for sustainable energy management in low-carbon buildings. Sustainability 15:16885",
+          "journal-title": "Sustainability"
+        },
+        {
+          "key": "2586_CR55",
+          "volume": "356",
+          "author": "ZA Khan",
+          "year": "2024",
+          "unstructured": "Khan ZA, Khan SA, Hussain T, Baik SW (2024) DSPM: Dual sequence prediction model for efficient energy management in micro-grid. Appl Energy 356:122339",
+          "journal-title": "Appl Energy"
+        }
+      ],
+      "container-title": [
+        "Electrical Engineering"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s00202-024-02586-3.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/article/10.1007/s00202-024-02586-3/fulltext.html",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s00202-024-02586-3.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            26
+          ]
+        ],
+        "date-time": "2025-02-26T02:41:54Z",
+        "timestamp": 1740537714000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://link.springer.com/10.1007/s00202-024-02586-3"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            24
+          ]
+        ]
+      },
+      "references-count": 55,
+      "journal-issue": {
+        "issue": "2",
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              2
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "2586"
+      ],
+      "URL": "https://doi.org/10.1007/s00202-024-02586-3",
+      "relation": {},
+      "ISSN": [
+        "0948-7921",
+        "1432-0487"
+      ],
+      "issn-type": [
+        {
+          "value": "0948-7921",
+          "type": "print"
+        },
+        {
+          "value": "1432-0487",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            24
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "21 March 2024",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "1 July 2024",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "24 July 2024",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Declarations"
+          }
+        },
+        {
+          "value": "The authors have no relevant financial or nonfinancial interests to disclose. The authors declare no conflict of interest.",
+          "order": 2,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Conflict of interest"
+          }
+        },
+        {
+          "value": "The paper is not currently being considered for publication elsewhere.",
+          "order": 3,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Ethical approval"
+          }
+        }
+      ]
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "P. M. Jai Ganesh",
+      "given_name_from_source": "P. M. Jai",
+      "family_name_from_source": "Ganesh",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "B. Meenakshi Sundaram",
+      "given_name_from_source": "B. Meenakshi",
+      "family_name_from_source": "Sundaram",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Gouse Baig Mohammad",
+      "given_name_from_source": "Gouse Baig",
+      "family_name_from_source": "Mohammad",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

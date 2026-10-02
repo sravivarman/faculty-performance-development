@@ -1,0 +1,959 @@
+{
+  "doi": "10.1371/journal.pone.0300145",
+  "title": "Hybrid optimal-FOPID based UPQC for reducing harmonics and compensate load power in renewable energy sources grid connected system",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "PLOS ONE",
+  "publisher": "Public Library of Science (PLoS)",
+  "publication_date": "2024-05-14",
+  "online_publication_date": "2024-05-14",
+  "print_publication_date": null,
+  "volume": "19",
+  "issue": "5",
+  "pages_or_article_number": "e0300145",
+  "issn": null,
+  "eissn": "1932-6203",
+  "isbn": null,
+  "url": "https://doi.org/10.1371/journal.pone.0300145",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:18.828291+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            28
+          ]
+        ],
+        "date-time": "2026-01-28T22:15:21Z",
+        "timestamp": 1769638521408,
+        "version": "3.49.0"
+      },
+      "reference-count": 37,
+      "publisher": "Public Library of Science (PLoS)",
+      "issue": "5",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                14
+              ]
+            ],
+            "date-time": "2024-05-14T00:00:00Z",
+            "timestamp": 1715644800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "Deanship of Scientific Research",
+          "award": [
+            "NBU-FFR-2024-2484-02"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "NBU-FFR-2024-2484-02"
+              ]
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100000780",
+          "name": "European Union",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "CZ.10.03.01/00/22_003/0000048"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "CZ.10.03.01/00/22_003/0000048"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000780",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "name": "National Centre for Energy II",
+          "award": [
+            "TN02000025"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "TN02000025"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "www.plosone.org"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "PLoS ONE"
+      ],
+      "abstract": "<jats:p>Integration of renewable energy sources (RES) to the grid in today’s electrical system is being encouraged to meet the increase in demand of electrical power and also overcome the environmental related problems by reducing the usage of fossil fuels. Power Quality (PQ) is a critical problem that could have an effect on utilities and consumers. PQ issues in the modern electric power system were turned on by a linkage of RES, smart grid technologies and widespread usage of power electronics equipment. Unified Power Quality Conditioner (UPQC) is widely employed for solving issues with the distribution grid caused by anomalous voltage, current, or frequency. To enhance UPQC performance, Fractional Order Proportional Integral Derivative (FOPID) is developed; nevertheless, a number of tuning parameters restricts its performance. The best solution for the FOPID controller problem is found by using a Coati Optimization Algorithm (COA) and Osprey Optimization Algorithm (OOA) are combined to make a hybrid optimization CO-OA algorithm approach to mitigate these problems. This paper proposes an improved FOPID controller to reduce PQ problems while taking load power into account. In the suggested model, a RES is connected to the grid system to supply the necessary load demand during the PQ problems period. Through the use of an enhanced FOPID controller, both current and voltage PQ concerns are separately modified. The pulse signal of UPQC was done using the optimal controller, which analyzes the error value of reference value and actual value to generate pulses. The integrated design mitigates PQ issues in a system at non-linear load and linear load conditions. The proposed model provides THD of 12.15% and 0.82% at the sag period, 10.18% and 0.48% at the swell period, and 10.07% and 1.01% at the interruption period of non-linear load condition. A comparison between the FOPID controller and the traditional PI controller was additionally taken. The results showed that the recommended improved FOPID controller for UPQC has been successful in reducing the PQ challenges in the grid-connected RESs system.</jats:p>",
+      "DOI": "10.1371/journal.pone.0300145",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2024-05-14T17:34:21Z",
+        "timestamp": 1715708061000
+      },
+      "page": "e0300145",
+      "update-policy": "https://doi.org/10.1371/journal.pone.corrections_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 4,
+      "title": [
+        "Hybrid optimal-FOPID based UPQC for reducing harmonics and compensate load power in renewable energy sources grid connected system"
+      ],
+      "prefix": "10.1371",
+      "volume": "19",
+      "author": [
+        {
+          "given": "T. Anuradha",
+          "family": "Devi",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4776-5524",
+          "authenticated-orcid": true,
+          "given": "G. Srinivasa",
+          "family": "Rao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "T. Anil",
+          "family": "Kumar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "B. Srikanth",
+          "family": "Goud",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1941-0766",
+          "authenticated-orcid": true,
+          "given": "Ch.",
+          "family": "Rami Reddy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Mbadjoun Wapet Daniel",
+          "family": "Eutyche",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3463-6096",
+          "authenticated-orcid": true,
+          "given": "Flah",
+          "family": "Aymen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8268-8878",
+          "authenticated-orcid": true,
+          "given": "Claude Ziad",
+          "family": "El-Bayedh",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Habib",
+          "family": "Kraiem",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0508-8518",
+          "authenticated-orcid": true,
+          "given": "Vojtech",
+          "family": "Blazek",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "340",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            14
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "issue": "10",
+          "key": "pone.0300145.ref001",
+          "doi-asserted-by": "crossref",
+          "first-page": "11647",
+          "DOI": "10.1109/TPEL.2021.3069862",
+          "article-title": "Direct Harmonic Current Control Scheme for Dual Three-Phase PMSM Drive System",
+          "volume": "36",
+          "author": "S. Liu",
+          "year": "2021",
+          "journal-title": "IEEE Transactions on Power Electronics"
+        },
+        {
+          "issue": "11",
+          "key": "pone.0300145.ref002",
+          "doi-asserted-by": "crossref",
+          "first-page": "13933",
+          "DOI": "10.1109/TPEL.2023.3309308",
+          "article-title": "Robust Model Predictive Current Control for a Nine-Phase Open-End Winding PMSM With High Computational Efficiency",
+          "volume": "38",
+          "author": "X. Song",
+          "year": "2023",
+          "journal-title": "IEEE Transactions on Power Electronics"
+        },
+        {
+          "key": "pone.0300145.ref003",
+          "doi-asserted-by": "crossref",
+          "first-page": "583",
+          "DOI": "10.1016/j.egyr.2023.03.071",
+          "article-title": "Voltage and frequency stabilization control strategy of virtual synchronous generator based on small signal model",
+          "volume": "9",
+          "author": "X. Zhang",
+          "year": "2023",
+          "journal-title": "Energy Reports"
+        },
+        {
+          "issue": "9",
+          "key": "pone.0300145.ref004",
+          "doi-asserted-by": "crossref",
+          "first-page": "9169",
+          "DOI": "10.1109/TIE.2022.3215451",
+          "article-title": "Model Predictive Control-Based Dual-Mode Operation of an Energy-Stored Quasi-Z-Source Photovoltaic Power System",
+          "volume": "70",
+          "author": "Y. Liu",
+          "year": "2023",
+          "journal-title": "IEEE Transactions on Industrial Electronics"
+        },
+        {
+          "key": "pone.0300145.ref005",
+          "article-title": "A Fast and Accurate Calculation Method of Line Breaking Power Flow Based on Taylor Expansion",
+          "volume": "10",
+          "author": "S. Li",
+          "year": "2022",
+          "journal-title": "Frontiers in Energy Research"
+        },
+        {
+          "key": "pone.0300145.ref006",
+          "article-title": "Differential Low-Temperature AC Breakdown between Synthetic Ester and Mineral Oils: Insights from both Molecular Dynamics and Quantum Mechanics",
+          "author": "S. Li",
+          "year": "2023",
+          "journal-title": "IEEE Transactions on Dielectrics and Electrical Insulation"
+        },
+        {
+          "issue": "9",
+          "key": "pone.0300145.ref007",
+          "doi-asserted-by": "crossref",
+          "first-page": "8777",
+          "DOI": "10.1109/TIE.2020.3013537",
+          "article-title": "Scaling-Basis Chirplet Transform",
+          "volume": "68",
+          "author": "M. Li",
+          "year": "2021",
+          "journal-title": "IEEE Transactions on Industrial Electronics"
+        },
+        {
+          "issue": "6",
+          "key": "pone.0300145.ref008",
+          "doi-asserted-by": "crossref",
+          "first-page": "7084",
+          "DOI": "10.1109/JESTPE.2022.3168655",
+          "article-title": "Improved Weak Grids Synchronization Unit for Passivity Enhancement of Grid-Connected Inverter",
+          "volume": "10",
+          "author": "X. Lin",
+          "year": "2022",
+          "journal-title": "IEEE Journal of Emerging and Selected Topics in Power Electronics"
+        },
+        {
+          "key": "pone.0300145.ref009",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1109/TIM.2022.3220300",
+          "article-title": "Accurate Damping Factor and Frequency Estimation for Damped Real-Valued Sinusoidal Signals",
+          "volume": "71",
+          "author": "J. Song",
+          "year": "2022",
+          "journal-title": "IEEE Transactions on Instrumentation and Measurement"
+        },
+        {
+          "issue": "2",
+          "key": "pone.0300145.ref010",
+          "doi-asserted-by": "crossref",
+          "first-page": "1671",
+          "DOI": "10.1109/JESTPE.2021.3105557",
+          "article-title": "Design of a double-side flux modulation permanent magnet machine for servo application",
+          "volume": "10",
+          "author": "Y. Gao",
+          "year": "2021",
+          "journal-title": "IEEE Journal of Emerging and Selected Topics in Power Electronics"
+        },
+        {
+          "issue": "2",
+          "key": "pone.0300145.ref011",
+          "doi-asserted-by": "crossref",
+          "first-page": "1689",
+          "DOI": "10.1109/TIA.2022.3228509",
+          "article-title": "Magnetic Field Analysis of Surface-Mounted Permanent Magnet Motors Based on an Improved Conformal Mapping Method",
+          "volume": "59",
+          "author": "Z. Ding",
+          "year": "2023",
+          "journal-title": "IEEE Transactions on Industry Applications"
+        },
+        {
+          "key": "pone.0300145.ref012",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sunitha, D., Bhaskar, M. A., Anjana, S. V., Kumar, V. S., & Dash, S. S. (2019, November). Power Quality Enhancement with Wind Energy Coupled UPQC with Adaptive Controller. In 2019 8th International Conference on Renewable Energy Research and Applications (ICRERA) (pp. 898–903).",
+          "DOI": "10.1109/ICRERA47325.2019.8997101"
+        },
+        {
+          "issue": "4",
+          "key": "pone.0300145.ref013",
+          "doi-asserted-by": "crossref",
+          "first-page": "480",
+          "DOI": "10.1080/00051144.2019.1645401",
+          "article-title": "Simulation and experiment of algorithm and circuit design for UPQC",
+          "volume": "60",
+          "author": "M. Yang",
+          "year": "2019",
+          "journal-title": "Automatika"
+        },
+        {
+          "key": "pone.0300145.ref014",
+          "doi-asserted-by": "crossref",
+          "first-page": "5279",
+          "DOI": "10.1007/s12652-020-01855-w",
+          "article-title": "Fault mitigation through multi converter UPQC with hysteresis controller in grid connected wind system",
+          "volume": "11",
+          "author": "P. Chaudhary",
+          "year": "2020",
+          "journal-title": "Journal of Ambient Intelligence and Humanized Computing"
+        },
+        {
+          "issue": "18",
+          "key": "pone.0300145.ref015",
+          "doi-asserted-by": "crossref",
+          "first-page": "5812",
+          "DOI": "10.3390/en14185812",
+          "article-title": "Power quality improvement in HRES grid connected system with FOPID based atom search optimization technique",
+          "volume": "14",
+          "author": "C. R. Reddy",
+          "year": "2021",
+          "journal-title": "Energies"
+        },
+        {
+          "issue": "20",
+          "key": "pone.0300145.ref016",
+          "doi-asserted-by": "crossref",
+          "first-page": "11194",
+          "DOI": "10.3390/su132011194",
+          "article-title": "Power Quality Improvement Using Distributed Power Flow Controller with BWO-Based FOPID Controller",
+          "volume": "13",
+          "author": "B. S. Goud",
+          "year": "2021",
+          "journal-title": "Sustainability"
+        },
+        {
+          "issue": "11",
+          "key": "pone.0300145.ref017",
+          "doi-asserted-by": "crossref",
+          "first-page": "e13120",
+          "DOI": "10.1002/2050-7038.13120",
+          "article-title": "Improving Voltage Profile and Reducing Power Losses Based on Reconfiguration and Optimal Placement of UPQC in the Network by Considering System Reliability Indices",
+          "volume": "31",
+          "author": "M. Dashtdar",
+          "year": "2021a",
+          "journal-title": "Int. Trans. Electr. Energy Syst"
+        },
+        {
+          "issue": "1",
+          "key": "pone.0300145.ref018",
+          "first-page": "19",
+          "article-title": "Comparison of various control strategies for UPQC to mitigate PQ issues",
+          "volume": "102",
+          "author": "M. Rajendran",
+          "year": "2021",
+          "journal-title": "Journal of The Institution of Engineers (India): Series B"
+        },
+        {
+          "issue": "4A",
+          "key": "pone.0300145.ref019",
+          "article-title": "Power quality improvement using Cuckoo search based multilevel facts controller",
+          "volume": "10",
+          "author": "S. R. BUDI",
+          "year": "2022",
+          "journal-title": "Journal of Engineering Research"
+        },
+        {
+          "key": "pone.0300145.ref020",
+          "article-title": "The Improved Unified Power Quality Conditioner with the Modular Multilevel Converter for Power Quality Improvement",
+          "author": "T. M. Thentral",
+          "year": "2022",
+          "journal-title": "International Transactions on Electrical Energy Systems, 2022"
+        },
+        {
+          "issue": "5",
+          "key": "pone.0300145.ref021",
+          "doi-asserted-by": "crossref",
+          "first-page": "2353",
+          "DOI": "10.1080/03772063.2021.1888325",
+          "article-title": "ANFIS-based power quality improvement by photovoltaic integrated UPQC at distribution system",
+          "volume": "69",
+          "author": "S. S. Dheeban",
+          "year": "2023",
+          "journal-title": "IETE Journal of Research"
+        },
+        {
+          "key": "pone.0300145.ref022",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cao, J.Y., Liang, J. and Cao, B.G., 2005, August. Optimization of fractional order PID controllers based on genetic algorithms. In 2005 international conference on machine learning and cybernetics (Vol. 9, pp. 5686–5689).",
+          "DOI": "10.1109/ICMLC.2005.1527950"
+        },
+        {
+          "issue": "1",
+          "key": "pone.0300145.ref023",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.21608/kjis.2023.216661.1013",
+          "article-title": "A hybrid of Information gain and a Coati Optimization Algorithm for gene selection in microarray gene expression data classification",
+          "volume": "4",
+          "author": "S. Osama",
+          "year": "2023",
+          "journal-title": "Kafrelsheikh Journal of Information Sciences"
+        },
+        {
+          "key": "pone.0300145.ref024",
+          "doi-asserted-by": "crossref",
+          "first-page": "1126450",
+          "DOI": "10.3389/fmech.2022.1126450",
+          "article-title": "Osprey optimization algorithm: A new bio-inspired metaheuristic algorithm for solving engineering optimization problems",
+          "volume": "8",
+          "author": "M. Dehghani",
+          "year": "2023",
+          "journal-title": "Frontiers in Mechanical Engineering"
+        },
+        {
+          "key": "pone.0300145.ref025",
+          "article-title": "Power enhancement in PV arrays under partial shaded conditions with different array configuration",
+          "author": "S. Ganesan",
+          "year": "2024",
+          "journal-title": "Heliyon"
+        },
+        {
+          "key": "pone.0300145.ref026",
+          "first-page": "1",
+          "article-title": "Optimization of ANFIS controller for solar/battery sources fed UPQC using an hybrid algorithm",
+          "author": "K. Srilakshmi",
+          "year": "2024",
+          "journal-title": "Electrical Engineering"
+        },
+        {
+          "key": "pone.0300145.ref027",
+          "first-page": "106859",
+          "volume-title": "IEEE Access",
+          "author": "N. F. Ibrahim",
+          "year": "2023"
+        },
+        {
+          "issue": "5",
+          "key": "pone.0300145.ref028",
+          "doi-asserted-by": "crossref",
+          "first-page": "420",
+          "DOI": "10.3390/axioms12050420",
+          "article-title": "Application of Whale Optimization Algorithm Based FOPI Controllers for STATCOM and UPQC to Mitigate Harmonics and Voltage Instability in Modern Distribution Power Grids",
+          "volume": "12",
+          "author": "M. M. Mahmoud",
+          "year": "2023",
+          "journal-title": "Axioms"
+        },
+        {
+          "issue": "6",
+          "key": "pone.0300145.ref029",
+          "doi-asserted-by": "crossref",
+          "first-page": "5209",
+          "DOI": "10.3390/su15065209",
+          "article-title": "Modeling, Simulation, and Experimental Validation of a Novel MPPT for Hybrid Renewable Sources Integrated with UPQC: An Application of Jellyfish Search Optimizer",
+          "volume": "15",
+          "author": "A. H. Elmetwaly",
+          "year": "2023",
+          "journal-title": "Sustainability"
+        },
+        {
+          "issue": "4",
+          "key": "pone.0300145.ref030",
+          "doi-asserted-by": "crossref",
+          "first-page": "3710",
+          "DOI": "10.3390/su15043710",
+          "article-title": "Unified Power Quality Conditioner Using Recent Optimization Technique: A Case Study in Cairo Airport, Egypt",
+          "volume": "15",
+          "author": "S. E. Abdel Mohsen",
+          "year": "2023",
+          "journal-title": "Sustainability"
+        },
+        {
+          "issue": "4",
+          "key": "pone.0300145.ref031",
+          "doi-asserted-by": "crossref",
+          "first-page": "5165",
+          "DOI": "10.1109/TTE.2022.3194034",
+          "article-title": "Adaptive Dynamic Surface Control With Disturbance Observers for Battery/Supercapacitor-Based Hybrid Energy Sources in Electric Vehicles",
+          "volume": "9",
+          "author": "X. Zhang",
+          "year": "2023",
+          "journal-title": "IEEE Transactions on Transportation Electrification"
+        },
+        {
+          "issue": "6",
+          "key": "pone.0300145.ref032",
+          "doi-asserted-by": "crossref",
+          "first-page": "7319",
+          "DOI": "10.1109/TPEL.2020.3041653",
+          "article-title": "L2-Gain Adaptive Robust Control for Hybrid Energy Storage System in Electric Vehicles",
+          "volume": "36",
+          "author": "X. Zhang",
+          "year": "2021",
+          "journal-title": "IEEE Transactions on Power Electronics"
+        },
+        {
+          "key": "pone.0300145.ref033",
+          "doi-asserted-by": "crossref",
+          "first-page": "368",
+          "DOI": "10.1016/j.egyr.2023.06.022",
+          "article-title": "A review on microgrid decentralized energy/voltage control structures and methods",
+          "volume": "10",
+          "author": "M. Shirkhani",
+          "year": "2023",
+          "journal-title": "Energy Reports"
+        },
+        {
+          "key": "pone.0300145.ref034",
+          "article-title": "Harmonic Transfer Function Based Single-Input Single-Output Impedance Modeling of LCCHVDC Systems",
+          "author": "Y. Wang",
+          "year": "2023",
+          "journal-title": "Journal of Modern Power Systems and Clean Energy"
+        },
+        {
+          "issue": "5",
+          "key": "pone.0300145.ref035",
+          "doi-asserted-by": "crossref",
+          "first-page": "4212",
+          "DOI": "10.1109/TPWRD.2022.3147835",
+          "article-title": "A Comprehensive Investigation On the Selection of High-Pass Harmonic Filters",
+          "volume": "37",
+          "author": "Y. Wang",
+          "year": "2022",
+          "journal-title": "IEEE Transactions on Power Delivery"
+        },
+        {
+          "key": "pone.0300145.ref036",
+          "first-page": "101004",
+          "article-title": "An initialization-free distributed algorithm for dynamic economic dispatch problems in microgrid: Modeling, optimization and analysis. Sustainable Energy",
+          "volume": "34",
+          "author": "Y. Duan",
+          "year": "2023",
+          "journal-title": "Grids and Networks"
+        },
+        {
+          "issue": "2",
+          "key": "pone.0300145.ref037",
+          "doi-asserted-by": "crossref",
+          "first-page": "421",
+          "DOI": "10.35833/MPCE.2021.000318",
+          "article-title": "Sampled Value Attack Detection for Busbar Differential Protection Based on a Negative Selection Immune System",
+          "volume": "11",
+          "author": "J. Mo",
+          "year": "2023",
+          "journal-title": "Journal of Modern Power Systems and Clean Energy"
+        }
+      ],
+      "updated-by": [
+        {
+          "DOI": "10.1371/journal.pone.0305301",
+          "type": "correction",
+          "label": "Correction",
+          "source": "publisher",
+          "updated": {
+            "date-parts": [
+              [
+                2024,
+                6,
+                6
+              ]
+            ],
+            "date-time": "2024-06-06T00:00:00Z",
+            "timestamp": 1717632000000
+          }
+        }
+      ],
+      "container-title": [
+        "PLOS ONE"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://dx.plos.org/10.1371/journal.pone.0300145",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            19
+          ]
+        ],
+        "date-time": "2024-11-19T00:18:53Z",
+        "timestamp": 1731975533000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://dx.plos.org/10.1371/journal.pone.0300145"
+        }
+      },
+      "subtitle": [],
+      "editor": [
+        {
+          "given": "Dhanamjayulu",
+          "family": "C",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "editor",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            14
+          ]
+        ]
+      },
+      "references-count": 37,
+      "journal-issue": {
+        "issue": "5",
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              5,
+              14
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.1371/journal.pone.0300145",
+      "relation": {
+        "correction": [
+          {
+            "id-type": "doi",
+            "id": "10.1371/journal.pone.0305301",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "ISSN": [
+        "1932-6203"
+      ],
+      "issn-type": [
+        {
+          "value": "1932-6203",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            14
+          ]
+        ]
+      }
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "T. Anuradha Devi",
+      "given_name_from_source": "T. Anuradha",
+      "family_name_from_source": "Devi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "G. Srinivasa Rao",
+      "given_name_from_source": "G. Srinivasa",
+      "family_name_from_source": "Rao",
+      "orcid_from_source": "https://orcid.org/0000-0002-4776-5524",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "T. Anil Kumar",
+      "given_name_from_source": "T. Anil",
+      "family_name_from_source": "Kumar",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "B. Srikanth Goud",
+      "given_name_from_source": "B. Srikanth",
+      "family_name_from_source": "Goud",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Ch. Rami Reddy",
+      "given_name_from_source": "Ch.",
+      "family_name_from_source": "Rami Reddy",
+      "orcid_from_source": "https://orcid.org/0000-0003-1941-0766",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "Mbadjoun Wapet Daniel Eutyche",
+      "given_name_from_source": "Mbadjoun Wapet Daniel",
+      "family_name_from_source": "Eutyche",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 7,
+      "author_name_from_source": "Flah Aymen",
+      "given_name_from_source": "Flah",
+      "family_name_from_source": "Aymen",
+      "orcid_from_source": "https://orcid.org/0000-0002-3463-6096",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 8,
+      "author_name_from_source": "Claude Ziad El-Bayedh",
+      "given_name_from_source": "Claude Ziad",
+      "family_name_from_source": "El-Bayedh",
+      "orcid_from_source": "https://orcid.org/0000-0002-8268-8878",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 9,
+      "author_name_from_source": "Habib Kraiem",
+      "given_name_from_source": "Habib",
+      "family_name_from_source": "Kraiem",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 10,
+      "author_name_from_source": "Vojtech Blazek",
+      "given_name_from_source": "Vojtech",
+      "family_name_from_source": "Blazek",
+      "orcid_from_source": "https://orcid.org/0000-0003-0508-8518",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

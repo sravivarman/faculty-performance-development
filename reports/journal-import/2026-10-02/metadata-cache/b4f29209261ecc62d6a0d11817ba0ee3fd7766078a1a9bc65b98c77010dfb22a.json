@@ -1,0 +1,721 @@
+{
+  "doi": "10.1088/2631-8695/ae4f5a",
+  "title": "Deep learning empowered cyber-physical intelligence system for resilient renewable aware IoT integrated smart grid systems",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Engineering Research Express",
+  "publisher": "IOP Publishing",
+  "publication_date": "2026-03-01",
+  "online_publication_date": "2026-03-18",
+  "print_publication_date": "2026-03-01",
+  "volume": "8",
+  "issue": "6",
+  "pages_or_article_number": "065211",
+  "issn": null,
+  "eissn": "2631-8695",
+  "isbn": null,
+  "url": "https://doi.org/10.1088/2631-8695/ae4f5a",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:52:56.346104+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            1
+          ]
+        ],
+        "date-time": "2026-07-01T00:13:24Z",
+        "timestamp": 1782864804377,
+        "version": "3.54.5"
+      },
+      "reference-count": 26,
+      "publisher": "IOP Publishing",
+      "issue": "6",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                18
+              ]
+            ],
+            "date-time": "2026-03-18T00:00:00Z",
+            "timestamp": 1773792000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 17,
+          "URL": "https://publishingsupport.iopscience.iop.org/iop-standard/v1"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                18
+              ]
+            ],
+            "date-time": "2026-03-18T00:00:00Z",
+            "timestamp": 1773792000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 17,
+          "URL": "https://iopscience.iop.org/info/page/text-and-data-mining"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "iopscience.iop.org"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Eng. Res. Express"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            1
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Smart Grid-IoT powered energy systems have been quick to adopt renewable sources, and this has not only led to a change in how energy is generated and distributed but also to the distribution of more environmentally friendly, reliable, and locally managed solutions. Currently, the intrusion detection in the Smart Grid–IoT research suffers from many problems. Most of them have low accuracy when dealing with high dimensionality data of the Smart Grid–IoT environment. These issues lead to difficulties in managing temporally correlated data and, moreover, the current approach is not capable of real-time processing and does not easily adapt to new attack patterns. To put it simply, not only a majority of the security issues require the creation of an effective, scalable, and intelligent security framework but they also require the protection of cyber-physical systems for the modern renewable energy ones. This paper proposes a Reformer Integrated Variational Architecture (RIVA) integrated with Crested Stride Tuning and Estimation Principle (C-STEP) for ensuring security and robustness in smart grid - IoT systems. RIVA is an attention transformer sequentially built upon the variational auto encoder basis that operates severely on the dependencies of spatiotemporal data streams of IoT and Smart Grid. The performance of the proposed work is validated using the Gotham-2025, SWaT, CICIDS 2017 datasets, and the results stated that the model gets 0.99 scores for accuracy, precision, recall, and F1 when compared to other transformer, hybrid, and conventional deep learning approaches practically without exceptions which clearly it outperforms them.</jats:p>",
+      "DOI": "10.1088/2631-8695/ae4f5a",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            9
+          ]
+        ],
+        "date-time": "2026-03-09T22:56:11Z",
+        "timestamp": 1773096971000
+      },
+      "page": "065211",
+      "update-policy": "https://doi.org/10.1088/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Deep learning empowered cyber-physical intelligence system for resilient renewable aware IoT integrated smart grid systems"
+      ],
+      "prefix": "10.1088",
+      "volume": "8",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-0984-5099",
+          "authenticated-orcid": true,
+          "given": "R",
+          "family": "Karpaga Priya",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3325-566X",
+          "authenticated-orcid": true,
+          "given": "Natarajan",
+          "family": "Karuppiah",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8254-7741",
+          "authenticated-orcid": true,
+          "given": "Harivardhagini",
+          "family": "Subhadra",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1561-1376",
+          "authenticated-orcid": true,
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "266",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            18
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "erxae4f5abib1",
+          "doi-asserted-by": "publisher",
+          "first-page": "5203",
+          "DOI": "10.1109/TII.2025.3552699",
+          "type": "journal-article",
+          "article-title": "Multistage adversarial game for cyber-physical attacks protection of smart grids",
+          "volume": "21",
+          "author": "Shang",
+          "year": "2025",
+          "journal-title": "IEEE Trans. Ind. Inf."
+        },
+        {
+          "key": "erxae4f5abib2",
+          "doi-asserted-by": "publisher",
+          "first-page": "25",
+          "DOI": "10.63125/pyd1x841",
+          "type": "journal-article",
+          "article-title": "IoT-enabled condition monitoring in power distribution systems: a review of scada-based automation, real-time data analytics, and cyber-physical security challenges",
+          "volume": "1",
+          "author": "Nuruzzaman",
+          "year": "2025",
+          "journal-title": "Journal of Sustainable Development and Policy"
+        },
+        {
+          "key": "erxae4f5abib3",
+          "first-page": "1",
+          "type": "journal-article",
+          "article-title": "Overview of smart cyber-physical power systems: fundamentals, challenges, and solutions",
+          "volume": "1",
+          "author": "Parizad",
+          "year": "2025",
+          "journal-title": "Smart Cyber-Physical Power Systems: Fundamental Concepts, Challenges, and Solutions"
+        },
+        {
+          "key": "erxae4f5abib4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.meaene.2024.100031",
+          "type": "journal-article",
+          "article-title": "Integration of smart grid with industry 5.0: applications, challenges and solutions",
+          "volume": "5",
+          "author": "Mazhar",
+          "year": "2025",
+          "journal-title": "Measurement: Energy"
+        },
+        {
+          "key": "erxae4f5abib5",
+          "doi-asserted-by": "publisher",
+          "first-page": "141",
+          "DOI": "10.3390/en18010141",
+          "type": "journal-article",
+          "article-title": "Security of smart grid: cybersecurity issues, potential cyberattacks, major incidents, and future directions",
+          "volume": "18",
+          "author": "Alomari",
+          "year": "2025",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "erxae4f5abib6",
+          "first-page": "301",
+          "type": "book",
+          "article-title": "Securing vehicle-to-grid communications: a cyber-physical approach",
+          "author": "Pandey",
+          "year": "2025"
+        },
+        {
+          "key": "erxae4f5abib7",
+          "doi-asserted-by": "publisher",
+          "first-page": "5392",
+          "DOI": "10.1109/TSG.2025.3587512",
+          "type": "journal-article",
+          "article-title": "Quantum computing for reliability assessment of SCADA with continuous penetration testing and high penetration of cyber-physical attacks",
+          "volume": "16",
+          "author": "Alvarez-Alvarado",
+          "year": "2025",
+          "journal-title": "IEEE Trans. Smart Grid"
+        },
+        {
+          "key": "erxae4f5abib8",
+          "first-page": "129",
+          "type": "conference-proceedings",
+          "article-title": "HyLLM-IDS: a conceptual hybrid llm-assisted intrusion detection framework for cyber-physical systems",
+          "author": "Muhammad",
+          "year": "2025"
+        },
+        {
+          "key": "erxae4f5abib9",
+          "doi-asserted-by": "publisher",
+          "first-page": "5017",
+          "DOI": "10.3390/en18185017",
+          "type": "journal-article",
+          "article-title": "Cybersecurity of smart grids: requirements, threats, and countermeasures",
+          "volume": "18",
+          "author": "Szczepaniuk",
+          "year": "2025",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "erxae4f5abib10",
+          "doi-asserted-by": "publisher",
+          "first-page": "3617",
+          "DOI": "10.3390/s25123617",
+          "type": "journal-article",
+          "article-title": "Federated learning and EEL-Levy optimization in CPS shieldnet fusion: a new paradigm for cyber–physical security",
+          "volume": "25",
+          "author": "Manogaran",
+          "year": "2025",
+          "journal-title": "Sensors"
+        },
+        {
+          "key": "erxae4f5abib11",
+          "doi-asserted-by": "publisher",
+          "first-page": "111454",
+          "DOI": "10.1109/ACCESS.2025.3580856",
+          "type": "journal-article",
+          "article-title": "Cyber resilience of electric vehicle charging in smart grids: the dutch case",
+          "volume": "13",
+          "author": "Hijgenaar",
+          "year": "2025",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "erxae4f5abib12",
+          "doi-asserted-by": "publisher",
+          "first-page": "23597",
+          "DOI": "10.1109/ACCESS.2025.3537410",
+          "type": "journal-article",
+          "article-title": "Artificial intelligence and physics-based anomaly detection in the smart grid: a survey",
+          "volume": "13",
+          "author": "Gaggero",
+          "year": "2025",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "erxae4f5abib13",
+          "doi-asserted-by": "publisher",
+          "first-page": "756",
+          "DOI": "10.3390/electronics13040756",
+          "type": "journal-article",
+          "article-title": "Enhancing security for IoT-based smart renewable energy remote monitoring systems",
+          "volume": "13",
+          "author": "Rekeraho",
+          "year": "2024",
+          "journal-title": "Electronics"
+        },
+        {
+          "key": "erxae4f5abib14",
+          "doi-asserted-by": "publisher",
+          "first-page": "1",
+          "DOI": "10.1080/15325008.2024.2346790",
+          "type": "journal-article",
+          "article-title": "Advanced machine learning-driven security and anomaly identification in inverter-based cyber-physical microgrids",
+          "author": "Gokulraj",
+          "year": "2024",
+          "journal-title": "Electric Power Components and Systems"
+        },
+        {
+          "key": "erxae4f5abib15",
+          "doi-asserted-by": "publisher",
+          "first-page": "16398",
+          "DOI": "10.1109/JIOT.2024.3354045",
+          "type": "journal-article",
+          "article-title": "The role of deep learning in advancing proactive cybersecurity measures for smart grid networks: a survey",
+          "volume": "11",
+          "author": "Abdi",
+          "year": "2024",
+          "journal-title": "IEEE Internet of Things Journal"
+        },
+        {
+          "key": "erxae4f5abib16",
+          "doi-asserted-by": "publisher",
+          "first-page": "318",
+          "DOI": "10.3390/fi17070318",
+          "type": "journal-article",
+          "article-title": "Toward secure smart grid systems: risks, threats, challenges, and future directions",
+          "volume": "17",
+          "author": "Yaacoub",
+          "year": "2025",
+          "journal-title": "Future Internet"
+        },
+        {
+          "key": "erxae4f5abib17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.suscom.2025.101221",
+          "type": "journal-article",
+          "article-title": "A resilient IoT-enabled framework using hybrid decision tree and wavelet transform for secure and sustainable photovoltaic energy management",
+          "volume": "48",
+          "author": "Elsisi",
+          "year": "2025",
+          "journal-title": "Sustainable Computing: Informatics and Systems"
+        },
+        {
+          "key": "erxae4f5abib18",
+          "doi-asserted-by": "publisher",
+          "first-page": "238",
+          "DOI": "10.1007/s10586-024-04964-9",
+          "type": "journal-article",
+          "article-title": "Intrusion detection in smart grids using artificial intelligence-based ensemble modelling",
+          "volume": "28",
+          "author": "Alsirhani",
+          "year": "2025",
+          "journal-title": "Cluster Computing"
+        },
+        {
+          "key": "erxae4f5abib19",
+          "doi-asserted-by": "publisher",
+          "first-page": "653",
+          "DOI": "10.13052/jcsm2245-1439.1436",
+          "type": "journal-article",
+          "article-title": "Research on the intrusion detection model for power internet of things combining deep belief network and BiLSTM",
+          "volume": "14",
+          "author": "Bi",
+          "year": "2025",
+          "journal-title": "Journal of Cyber Security and Mobility"
+        },
+        {
+          "key": "erxae4f5abib20",
+          "doi-asserted-by": "publisher",
+          "first-page": "12",
+          "DOI": "10.26438/ijsrnsc.v13i2.268",
+          "type": "journal-article",
+          "article-title": "Privacy-preserving deep reinforcement learning for secure resource orchestration in cyber-physical systems",
+          "volume": "13",
+          "author": "Yogi",
+          "year": "2025",
+          "journal-title": "International Journal of Scientific Research in Network Security and Communication"
+        },
+        {
+          "key": "erxae4f5abib21",
+          "first-page": "1",
+          "type": "journal-article",
+          "article-title": "Tomtit-raven evolutionary selector-reinforced attention-driven: a high-performance and computationally efficient cyber threat detection framework for smart grids",
+          "volume": "0",
+          "author": "Karpaga",
+          "year": "2025",
+          "journal-title": "Energy Science & Engineering"
+        },
+        {
+          "key": "erxae4f5abib22",
+          "doi-asserted-by": "publisher",
+          "first-page": "6430",
+          "DOI": "10.1002/ese3.70329",
+          "type": "journal-article",
+          "article-title": "Zero-DAGNet: a domain-adversarial graph network integrated with POCO for cyber-physical security in smart grid",
+          "volume": "13",
+          "author": "Karpaga",
+          "year": "2025",
+          "journal-title": "Energy Science & Engineering"
+        },
+        {
+          "key": "erxae4f5abib23",
+          "first-page": "1",
+          "type": "journal-article",
+          "article-title": "Trustworthy iot infrastructures: privacy-preserving federated learning with efficient secure aggregation for cybersecurity",
+          "author": "Kumar",
+          "year": "2024"
+        },
+        {
+          "key": "erxae4f5abib24",
+          "doi-asserted-by": "publisher",
+          "first-page": "1253",
+          "DOI": "10.3390/agriculture15121253",
+          "type": "journal-article",
+          "article-title": "A vulnerable-by-design IoT sensor framework for cybersecurity in smart agriculture",
+          "volume": "15",
+          "author": "Pasca",
+          "year": "2025",
+          "journal-title": "Agriculture"
+        },
+        {
+          "key": "erxae4f5abib25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.csa.2025.100096",
+          "type": "journal-article",
+          "article-title": "Survey of deep learning approaches for securing industrial control systems: a comparative analysis",
+          "volume": "3",
+          "author": "Aslam",
+          "year": "2025",
+          "journal-title": "Cyber Security and Applications"
+        },
+        {
+          "key": "erxae4f5abib26",
+          "first-page": "22",
+          "type": "journal-article",
+          "article-title": "Enhanced hybrid ML framework for smart grid attack detection",
+          "volume": "11",
+          "author": "Harini",
+          "year": "2025",
+          "journal-title": "Macaw International Journal of Advanced Research in Computer Science and Engineering"
+        }
+      ],
+      "container-title": [
+        "Engineering Research Express"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/ae4f5a",
+          "content-type": "text/html",
+          "content-version": "am",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/ae4f5a/pdf",
+          "content-type": "application/pdf",
+          "content-version": "am",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/ae4f5a",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/ae4f5a/pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/ae4f5a/pdf",
+          "content-type": "application/pdf",
+          "content-version": "am",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/ae4f5a/pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/ae4f5a/pdf",
+          "content-type": "application/pdf",
+          "content-version": "am",
+          "intended-application": "similarity-checking"
+        },
+        {
+          "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/ae4f5a/pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            10
+          ]
+        ],
+        "date-time": "2026-04-10T11:40:56Z",
+        "timestamp": 1775821256000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://iopscience.iop.org/article/10.1088/2631-8695/ae4f5a"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            1
+          ]
+        ]
+      },
+      "references-count": 26,
+      "journal-issue": {
+        "issue": "6",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              18
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              1
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.1088/2631-8695/ae4f5a",
+      "relation": {},
+      "ISSN": [
+        "2631-8695"
+      ],
+      "issn-type": [
+        {
+          "value": "2631-8695",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            1
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Deep learning empowered cyber-physical intelligence system for resilient renewable aware IoT integrated smart grid systems",
+          "name": "article_title",
+          "label": "Article Title"
+        },
+        {
+          "value": "Engineering Research Express",
+          "name": "journal_title",
+          "label": "Journal Title"
+        },
+        {
+          "value": "paper",
+          "name": "article_type",
+          "label": "Article Type"
+        },
+        {
+          "value": "© 2026 IOP Publishing Ltd. All rights, including for text and data mining, AI training, and similar technologies, are reserved.",
+          "name": "copyright_information",
+          "label": "Copyright Information"
+        },
+        {
+          "value": "2025-11-11",
+          "name": "date_received",
+          "label": "Date Received",
+          "group": {
+            "name": "publication_dates",
+            "label": "Publication dates"
+          }
+        },
+        {
+          "value": "2026-03-09",
+          "name": "date_accepted",
+          "label": "Date Accepted",
+          "group": {
+            "name": "publication_dates",
+            "label": "Publication dates"
+          }
+        },
+        {
+          "value": "2026-03-18",
+          "name": "date_epub",
+          "label": "Online publication date",
+          "group": {
+            "name": "publication_dates",
+            "label": "Publication dates"
+          }
+        }
+      ]
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "R Karpaga Priya",
+      "given_name_from_source": "R",
+      "family_name_from_source": "Karpaga Priya",
+      "orcid_from_source": "https://orcid.org/0000-0002-0984-5099",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Natarajan Karuppiah",
+      "given_name_from_source": "Natarajan",
+      "family_name_from_source": "Karuppiah",
+      "orcid_from_source": "https://orcid.org/0000-0003-3325-566X",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Harivardhagini Subhadra",
+      "given_name_from_source": "Harivardhagini",
+      "family_name_from_source": "Subhadra",
+      "orcid_from_source": "https://orcid.org/0000-0002-8254-7741",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": "https://orcid.org/0000-0003-1561-1376",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

@@ -1,0 +1,543 @@
+{
+  "doi": "10.1002/ese3.70340",
+  "title": "Optimal Battery‐Based Adaptive Reconfiguration Technique for a Partially Shaded Photovoltaic Array",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Energy Science &amp; Engineering",
+  "publisher": "Wiley",
+  "publication_date": "2025-12-12",
+  "online_publication_date": "2025-12-12",
+  "print_publication_date": null,
+  "volume": "14",
+  "issue": "1",
+  "pages_or_article_number": "99-128",
+  "issn": "2050-0505",
+  "eissn": "2050-0505",
+  "isbn": null,
+  "url": "https://doi.org/10.1002/ese3.70340",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:05.983018+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            30
+          ]
+        ],
+        "date-time": "2026-06-30T15:33:51Z",
+        "timestamp": 1782833631363,
+        "version": "3.54.5"
+      },
+      "reference-count": 25,
+      "publisher": "Wiley",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                12
+              ]
+            ],
+            "date-time": "2025-12-12T00:00:00Z",
+            "timestamp": 1765497600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                12
+              ]
+            ],
+            "date-time": "2025-12-12T00:00:00Z",
+            "timestamp": 1765497600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "scijournals.onlinelibrary.wiley.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Energy Science &amp; Engineering"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            1
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>Partial shading is a significant concern that causes a current mismatch between rows, resulting in local power peaks. Dynamic reconfiguration methods may not completely eradicate the current mismatch. Hence, a battery of similar capacity injects a compensation current to nullify the current mismatch. The main limitation of this approach is the selection of a battery with a similar capacity for all the rows. To address this shortcoming, the proposed study introduces the experimental verification of the optimal section of the battery‐based adaptive reconfiguration (OBAR) technique is verified on 4 × 4 total‐cross‐tied PV array to reduce the current mismatch. The OBAR is implemented in two steps: initially, the adaptive reconfiguration technique is performed by switching circuit 1 to reduce the current mismatch. The OBAR algorithm monitors the existence of a current mismatch; if the mismatch persists, the switching circuit 2 selects the battery of suitable capacity from a battery bank of three ranges: 0.5 Ah and 18 V, 1 Ah and 18 V, and 1.5 Ah and 18 V based on the current mismatch. The OBAR is tested experimentally, and its performance is related to that of the total cross‐tied array, adaptive reconfiguration, and battery‐based current mismatch reduction technique. The experimental results reveal that the battery of 0.50 Ah is the optimal selection with a power enhancement of 67% to nullify the current mismatch. The economic analysis of the OBAR indicates its viability and it can be prolonged to PV array of any size.</jats:p>",
+      "DOI": "10.1002/ese3.70340",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            13
+          ]
+        ],
+        "date-time": "2025-12-13T01:08:43Z",
+        "timestamp": 1765588123000
+      },
+      "page": "99-128",
+      "update-policy": "https://doi.org/10.1002/crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Optimal Battery‐Based Adaptive Reconfiguration Technique for a Partially Shaded Photovoltaic Array"
+      ],
+      "prefix": "10.1002",
+      "volume": "14",
+      "author": [
+        {
+          "given": "Palpandian",
+          "family": "Murugesan",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering AAA College of Engineering and Technology Sivakasi Tamil Nadu India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Prince Winston",
+          "family": "David",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering Kamaraj College of Engineering and Technology Virudhunagar Tamil Nadu India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1561-1376",
+          "authenticated-orcid": false,
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Electronics Engineering Vardhaman College of Engineering Hyderabad Telangana India"
+            },
+            {
+              "name": "Department of Electrical and Electronics Engineering Chennai Institute of Technology Chennai Tamilnadu India"
+            },
+            {
+              "name": "Centre for Research Impact and Outcome Chitkara University Institute of Engineering and Technology, Chitkara University Rajpura Punjab India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Muhammad Ammirrul Atiqi Mohd",
+          "family": "Zainuri",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical, Electronic and Systems Engineering, Faculty of Engineering and Built Environment Universiti Kebangsaan Malaysia Bangi Selangor Malaysia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "311",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            12
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_9_2_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1504/IJETP.2015.069816"
+        },
+        {
+          "key": "e_1_2_9_3_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.strueco.2019.12.009"
+        },
+        {
+          "key": "e_1_2_9_4_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "P.Denholm M.O'Connell G.Brinkman andJ.Jorgenson(2015).Overgeneration From Solar Energy in California. A Field Guide to the Duck Chart (No. NREL/TP‐6A20‐65023). National Renewable Energy Lab (NREL) Golden CO (United States).",
+          "DOI": "10.2172/1226167"
+        },
+        {
+          "key": "e_1_2_9_5_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "I.Sajid A.Sarwar M.Tariq et al. (2024). An MPPT Method Using Phasor Particle Swarm Optimization for PV‐Based Generation System Under Varying Irradiance Conditions. IET Renewable Power Generation.",
+          "DOI": "10.1049/rpg2.13158"
+        },
+        {
+          "key": "e_1_2_9_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TEC.2006.874230"
+        },
+        {
+          "key": "e_1_2_9_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.rser.2018.04.094"
+        },
+        {
+          "key": "e_1_2_9_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2022.3142168"
+        },
+        {
+          "key": "e_1_2_9_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/03772063.2021.1986151"
+        },
+        {
+          "key": "e_1_2_9_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/15435075.2018.1529577"
+        },
+        {
+          "key": "e_1_2_9_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1115/1.4041930"
+        },
+        {
+          "key": "e_1_2_9_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijleo.2023.170559"
+        },
+        {
+          "key": "e_1_2_9_13_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TSTE.2012.2230033"
+        },
+        {
+          "key": "e_1_2_9_14_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TEC.2019.2921625"
+        },
+        {
+          "key": "e_1_2_9_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/03772063.2021.1944333"
+        },
+        {
+          "key": "e_1_2_9_16_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2021.3076608"
+        },
+        {
+          "key": "e_1_2_9_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.solener.2019.01.076"
+        },
+        {
+          "key": "e_1_2_9_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/etep.2556"
+        },
+        {
+          "key": "e_1_2_9_19_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00202-020-01016-4"
+        },
+        {
+          "key": "e_1_2_9_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.energy.2023.127063"
+        },
+        {
+          "key": "e_1_2_9_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/EPEC47565.2019.9074818"
+        },
+        {
+          "key": "e_1_2_9_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.solener.2018.07.014"
+        },
+        {
+          "key": "e_1_2_9_23_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.energy.2022.124795"
+        },
+        {
+          "key": "e_1_2_9_24_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TIE.2008.924169"
+        },
+        {
+          "issue": "3",
+          "key": "e_1_2_9_25_1",
+          "first-page": "10",
+          "article-title": "Couple Matching Best Generation Algorithm for Partially Shaded Photovoltaic Systems",
+          "volume": "16",
+          "author": "Srinivasan A.",
+          "year": "2016",
+          "journal-title": "Journal of Electrical Engineering"
+        },
+        {
+          "key": "e_1_2_9_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.apenergy.2024.122942"
+        }
+      ],
+      "container-title": [
+        "Energy Science &amp; Engineering"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://scijournals.onlinelibrary.wiley.com/doi/pdf/10.1002/ese3.70340",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://scijournals.onlinelibrary.wiley.com/doi/full-xml/10.1002/ese3.70340",
+          "content-type": "application/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://scijournals.onlinelibrary.wiley.com/doi/pdf/10.1002/ese3.70340",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            14
+          ]
+        ],
+        "date-time": "2026-01-14T15:52:28Z",
+        "timestamp": 1768405948000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://scijournals.onlinelibrary.wiley.com/doi/10.1002/ese3.70340"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            12
+          ]
+        ]
+      },
+      "references-count": 25,
+      "journal-issue": {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              1
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1002/ese3.70340"
+      ],
+      "URL": "https://doi.org/10.1002/ese3.70340",
+      "archive": [
+        "Portico"
+      ],
+      "relation": {},
+      "ISSN": [
+        "2050-0505",
+        "2050-0505"
+      ],
+      "issn-type": [
+        {
+          "value": "2050-0505",
+          "type": "print"
+        },
+        {
+          "value": "2050-0505",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            12
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2025-05-22",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2025-10-16",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2025-12-12",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Palpandian Murugesan",
+      "given_name_from_source": "Palpandian",
+      "family_name_from_source": "Murugesan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering AAA College of Engineering and Technology Sivakasi Tamil Nadu India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Prince Winston David",
+      "given_name_from_source": "Prince Winston",
+      "family_name_from_source": "David",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering Kamaraj College of Engineering and Technology Virudhunagar Tamil Nadu India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": "https://orcid.org/0000-0003-1561-1376",
+      "affiliation_from_source": [
+        "Department of Electrical and Electronics Engineering Vardhaman College of Engineering Hyderabad Telangana India",
+        "Department of Electrical and Electronics Engineering Chennai Institute of Technology Chennai Tamilnadu India",
+        "Centre for Research Impact and Outcome Chitkara University Institute of Engineering and Technology, Chitkara University Rajpura Punjab India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Muhammad Ammirrul Atiqi Mohd Zainuri",
+      "given_name_from_source": "Muhammad Ammirrul Atiqi Mohd",
+      "family_name_from_source": "Zainuri",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of Electrical, Electronic and Systems Engineering, Faculty of Engineering and Built Environment Universiti Kebangsaan Malaysia Bangi Selangor Malaysia"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

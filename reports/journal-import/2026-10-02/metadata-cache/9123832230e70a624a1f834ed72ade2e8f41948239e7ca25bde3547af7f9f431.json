@@ -1,0 +1,707 @@
+{
+  "doi": "10.1080/15567036.2025.2505196",
+  "title": "Experimental investigation of baffle inclination on the efficiency of a square-baffled solar air heater",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Energy Sources, Part A: Recovery, Utilization, and Environmental Effects",
+  "publisher": "Informa UK Limited",
+  "publication_date": "2025-06-20",
+  "online_publication_date": "2025-06-20",
+  "print_publication_date": "2025-12-12",
+  "volume": "47",
+  "issue": "2",
+  "pages_or_article_number": "2505196",
+  "issn": "1556-7036",
+  "eissn": "1556-7230",
+  "isbn": null,
+  "url": "https://doi.org/10.1080/15567036.2025.2505196",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:39.962429+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            17
+          ]
+        ],
+        "date-time": "2026-08-17T22:56:20Z",
+        "timestamp": 1787007380693,
+        "version": "build-2736575974"
+      },
+      "reference-count": 33,
+      "publisher": "Informa UK Limited",
+      "issue": "2",
+      "funder": [
+        {
+          "DOI": "10.13039/501100004515",
+          "name": "Universiti Kebangsaan Malaysia",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "KK-2023-009"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "KK-2023-009"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100004515",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "www.tandfonline.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Energy Sources, Part A: Recovery, Utilization, and Environmental Effects"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            12
+          ]
+        ]
+      },
+      "DOI": "10.1080/15567036.2025.2505196",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            20
+          ]
+        ],
+        "date-time": "2025-06-20T13:11:46Z",
+        "timestamp": 1750425106000
+      },
+      "update-policy": "https://doi.org/10.1080/tandf_crossmark_01",
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Experimental investigation of baffle inclination on the efficiency of a square-baffled solar air heater"
+      ],
+      "prefix": "10.1080",
+      "volume": "47",
+      "author": [
+        {
+          "given": "Vijayakumar",
+          "family": "Rajendran",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Chennai Institute of Technology",
+              "place": [
+                "Chennai, India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Vinoth Kumar",
+          "family": "Selvaraj",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vellore Institute of Technology",
+              "place": [
+                "Chennai, India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1556-2180",
+          "authenticated-orcid": false,
+          "given": "Jeyanthi",
+          "family": "Subramanian",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vellore Institute of Technology",
+              "place": [
+                "Chennai, India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kalaiselvi",
+          "family": "Panneerselvam",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "AAA College of Engineering and Technology",
+              "place": [
+                "Sivakasi, India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Devakirubakaran",
+          "family": "Samithas",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "SRM Institute of Science and Technology",
+              "place": [
+                "Kattankulathur, India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1561-1376",
+          "authenticated-orcid": false,
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vardhaman College of Engineering",
+              "place": [
+                "Hyderabad, India"
+              ]
+            },
+            {
+              "name": "Chitkara University",
+              "place": [
+                "Rajpura, India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Muhammad Ammirrul Atiqi Mohd",
+          "family": "Zainuri",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Universiti Kebangsaan Malaysia",
+              "place": [
+                "Bangi, Malaysia"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "301",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            20
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_3_4_2_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.psep.2020.11.020"
+        },
+        {
+          "key": "e_1_3_4_3_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.clet.2024.100777"
+        },
+        {
+          "key": "e_1_3_4_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.aej.2024.04.019"
+        },
+        {
+          "key": "e_1_3_4_5_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.csite.2024.104570"
+        },
+        {
+          "key": "e_1_3_4_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.clet.2023.100703"
+        },
+        {
+          "key": "e_1_3_4_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.clet.2024.100727"
+        },
+        {
+          "key": "e_1_3_4_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.solener.2024.112499"
+        },
+        {
+          "key": "e_1_3_4_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/15567036.2023.2273973"
+        },
+        {
+          "key": "e_1_3_4_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.csite.2024.104580"
+        },
+        {
+          "key": "e_1_3_4_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.csite.2024.104780"
+        },
+        {
+          "key": "e_1_3_4_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11356-023-28646-y"
+        },
+        {
+          "key": "e_1_3_4_13_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.csite.2022.102664"
+        },
+        {
+          "key": "e_1_3_4_14_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egyr.2023.06.031"
+        },
+        {
+          "key": "e_1_3_4_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.csite.2024.104104"
+        },
+        {
+          "key": "e_1_3_4_16_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.solener.2021.08.004"
+        },
+        {
+          "key": "e_1_3_4_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11356-023-30896-9"
+        },
+        {
+          "key": "e_1_3_4_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.renene.2008.09.015"
+        },
+        {
+          "key": "e_1_3_4_19_1",
+          "first-page": "161",
+          "article-title": "Swastik Acharya, a numerical analysis of baffled solar air heater",
+          "volume": "7",
+          "author": "Kumar V.",
+          "year": "2023",
+          "unstructured": "Kumar, V. 2023. Swastik Acharya, a numerical analysis of baffled solar air heater. Springer Nature 7:161–72.",
+          "journal-title": "Springer Nature"
+        },
+        {
+          "key": "e_1_3_4_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cles.2022.100046"
+        },
+        {
+          "key": "e_1_3_4_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tsep.2023.102322"
+        },
+        {
+          "key": "e_1_3_4_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijmecsci.2021.106607"
+        },
+        {
+          "key": "e_1_3_4_23_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.csite.2021.101486"
+        },
+        {
+          "key": "e_1_3_4_24_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11356-023-27814-4"
+        },
+        {
+          "key": "e_1_3_4_25_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.solener.2017.10.087"
+        },
+        {
+          "key": "e_1_3_4_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.enbenv.2022.09.002"
+        },
+        {
+          "key": "e_1_3_4_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egypro.2017.11.213"
+        },
+        {
+          "key": "e_1_3_4_28_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.desal.2016.06.021"
+        },
+        {
+          "key": "e_1_3_4_29_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.renene.2024.120588"
+        },
+        {
+          "key": "e_1_3_4_30_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.54905/disssi/v20i53/e21ije1649"
+        },
+        {
+          "key": "e_1_3_4_31_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.54905/disssi.v21i55.e4ije1679"
+        },
+        {
+          "key": "e_1_3_4_32_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tsep.2023.102146"
+        },
+        {
+          "key": "e_1_3_4_33_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1088/1742-6596/2818/1/012022"
+        },
+        {
+          "key": "e_1_3_4_34_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/5.0226491"
+        }
+      ],
+      "container-title": [
+        "Energy Sources, Part A: Recovery, Utilization, and Environmental Effects"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.tandfonline.com/doi/pdf/10.1080/15567036.2025.2505196",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            15
+          ]
+        ],
+        "date-time": "2025-12-15T15:48:05Z",
+        "timestamp": 1765813685000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.tandfonline.com/doi/full/10.1080/15567036.2025.2505196"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            20
+          ]
+        ]
+      },
+      "references-count": 33,
+      "journal-issue": {
+        "issue": "2",
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              12
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1080/15567036.2025.2505196"
+      ],
+      "URL": "https://doi.org/10.1080/15567036.2025.2505196",
+      "relation": {},
+      "ISSN": [
+        "1556-7036",
+        "1556-7230"
+      ],
+      "issn-type": [
+        {
+          "value": "1556-7036",
+          "type": "print"
+        },
+        {
+          "value": "1556-7230",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            20
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "The publishing and review policy for this title is described in its Aims & Scope.",
+          "order": 1,
+          "name": "peerreview_statement",
+          "label": "Peer Review Statement"
+        },
+        {
+          "value": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=ueso20",
+          "URL": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=ueso20",
+          "order": 2,
+          "name": "aims_and_scope_url",
+          "label": "Aim & Scope"
+        },
+        {
+          "value": "2024-11-23",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2025-05-01",
+          "order": 1,
+          "name": "revised",
+          "label": "Revised",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2025-05-06",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2025-06-20",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ],
+      "article-number": "2505196"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Vijayakumar Rajendran",
+      "given_name_from_source": "Vijayakumar",
+      "family_name_from_source": "Rajendran",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Chennai Institute of Technology"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Vinoth Kumar Selvaraj",
+      "given_name_from_source": "Vinoth Kumar",
+      "family_name_from_source": "Selvaraj",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Vellore Institute of Technology"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Jeyanthi Subramanian",
+      "given_name_from_source": "Jeyanthi",
+      "family_name_from_source": "Subramanian",
+      "orcid_from_source": "https://orcid.org/0000-0003-1556-2180",
+      "affiliation_from_source": [
+        "Vellore Institute of Technology"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Kalaiselvi Panneerselvam",
+      "given_name_from_source": "Kalaiselvi",
+      "family_name_from_source": "Panneerselvam",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "AAA College of Engineering and Technology"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Devakirubakaran Samithas",
+      "given_name_from_source": "Devakirubakaran",
+      "family_name_from_source": "Samithas",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "SRM Institute of Science and Technology"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": "https://orcid.org/0000-0003-1561-1376",
+      "affiliation_from_source": [
+        "Vardhaman College of Engineering",
+        "Chitkara University"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 7,
+      "author_name_from_source": "Muhammad Ammirrul Atiqi Mohd Zainuri",
+      "given_name_from_source": "Muhammad Ammirrul Atiqi Mohd",
+      "family_name_from_source": "Zainuri",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Universiti Kebangsaan Malaysia"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "doi": "10.20508/ijrer.v14i2.15017.g8900",
+  "title": "Development of AI-Controller for Solar /Battery Fed H-Bridge Cascaded Multilevel Converter UPQC under Different Loading Conditions",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "International Journal of Renewable Energy Research",
+  "publisher": "International Journal of Renewable Energy Research",
+  "publication_date": null,
+  "online_publication_date": null,
+  "print_publication_date": null,
+  "volume": null,
+  "issue": "V14i2",
+  "pages_or_article_number": null,
+  "issn": null,
+  "eissn": "1309-0127",
+  "isbn": null,
+  "url": "https://doi.org/10.20508/ijrer.v14i2.15017.g8900",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:13.607004+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            30
+          ]
+        ],
+        "date-time": "2026-09-30T16:03:04Z",
+        "timestamp": 1790784184163,
+        "version": "4.1.0"
+      },
+      "reference-count": 0,
+      "publisher": "International Journal of Renewable Energy Research",
+      "issue": "V14i2",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "IJRER"
+      ],
+      "DOI": "10.20508/ijrer.v14i2.15017.g8900",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            5
+          ]
+        ],
+        "date-time": "2024-07-05T10:50:29Z",
+        "timestamp": 1720176629000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Development of AI-Controller for Solar /Battery Fed H-Bridge Cascaded Multilevel Converter UPQC under Different Loading Conditions"
+      ],
+      "prefix": "10.20508",
+      "member": "8406",
+      "published-online": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      },
+      "container-title": [
+        "International Journal of Renewable Energy Research"
+      ],
+      "original-title": [],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            30
+          ]
+        ],
+        "date-time": "2026-09-30T15:08:45Z",
+        "timestamp": 1790780925000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://ijrer.org/index.php/ijrer/article/view/15017"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      },
+      "references-count": 0,
+      "journal-issue": {
+        "issue": "V14i2",
+        "published-online": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.20508/ijrer.v14i2.15017.g8900",
+      "relation": {},
+      "ISSN": [
+        "1309-0127"
+      ],
+      "issn-type": [
+        {
+          "value": "1309-0127",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      }
+    }
+  },
+  "indexing": [],
+  "authors": []
+}

@@ -1,0 +1,16 @@
+{
+  "path": "C:\\Users\\silic\\Documents\\GitHub\\faculty-performance-development\\data\\faculty.db",
+  "counts": {
+    "publications": 159,
+    "publication_authors": 852,
+    "change_logs": 169
+  },
+  "sha256": "caeaa56b63948f8ae3c5f419082bb773b8a7e8b650e4963c847a7e9e55951f9b",
+  "unchanged": true,
+  "backend_tests": 212,
+  "readiness_tests": 15,
+  "browser_tests": 10,
+  "production_build": "passed",
+  "live_app": "passed",
+  "schema_migration": "none"
+}

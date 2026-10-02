@@ -1,0 +1,823 @@
+{
+  "doi": "10.1038/s41598-024-54550-7",
+  "title": "Development of renewable energy fed three-level hybrid active filter for EV charging station load using Jaya grey wolf optimization",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Scientific Reports",
+  "publisher": "Springer Science and Business Media LLC",
+  "publication_date": "2024-02-23",
+  "online_publication_date": "2024-02-23",
+  "print_publication_date": null,
+  "volume": "14",
+  "issue": "1",
+  "pages_or_article_number": "4429",
+  "issn": null,
+  "eissn": "2045-2322",
+  "isbn": null,
+  "url": "https://doi.org/10.1038/s41598-024-54550-7",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:28.354495+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            30
+          ]
+        ],
+        "date-time": "2026-09-30T00:32:45Z",
+        "timestamp": 1790728365288,
+        "version": "4.1.0"
+      },
+      "reference-count": 27,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                2,
+                23
+              ]
+            ],
+            "date-time": "2024-02-23T00:00:00Z",
+            "timestamp": 1708646400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                2,
+                23
+              ]
+            ],
+            "date-time": "2024-02-23T00:00:00Z",
+            "timestamp": 1708646400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Sci Rep"
+      ],
+      "abstract": "<jats:title>Abstract</jats:title><jats:p>This work develops a hybrid active power filter (HAPF) in this article to operate in conjunction with the energy storage system (ESS), wind power generation system (WPGS), and solar energy system (SES). It employs three level shunt voltage source converters (VSC) connected to the DC-bus. Optimization of the gain values of the fractional-order proportional integral derivative controller (FOPIDC) and parameter values of the HAPF is achieved using the Jaya grey wolf hybrid algorithm (GWJA). The primary objectives of this study, aimed at enhancing power quality (PQ), include: (1) ensuring swift stabilization of DC link capacitor voltage (DCLCV); (2) reducing harmonics and improving power factor (PF); (3) maintaining satisfactory performance under different combinations of loads like EV charging load, non linear load and solar irradiation conditions. The proposed controller's performance is evaluated through three test scenarios featuring different load configurations and irradiation levels. Additionally, the HAPF is subjected to design using other optimization algorithms such as genetic algorithm (GA), particle swarm optimization (PSO), and ant colony optimization (ACO) to assess their respective contributions to PQ improvement.</jats:p>",
+      "DOI": "10.1038/s41598-024-54550-7",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            23
+          ]
+        ],
+        "date-time": "2024-02-23T06:02:31Z",
+        "timestamp": 1708668151000
+      },
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 40,
+      "title": [
+        "Development of renewable energy fed three-level hybrid active filter for EV charging station load using Jaya grey wolf optimization"
+      ],
+      "prefix": "10.1038",
+      "volume": "14",
+      "author": [
+        {
+          "given": "Koganti",
+          "family": "Srilakshmi",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "D. Teja",
+          "family": "Santosh",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alapati",
+          "family": "Ramadevi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ganesh Prasad",
+          "family": "Reddy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Aravindhababu",
+          "family": "Palanivelu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ilhami",
+          "family": "Colak",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "C.",
+          "family": "Dhanamjayulu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ravi Kumar",
+          "family": "Chinthaginjala",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Baseem",
+          "family": "Khan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            23
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "54550_CR1",
+          "doi-asserted-by": "publisher",
+          "first-page": "4027",
+          "DOI": "10.1109/TIE.2020.2984439",
+          "volume": "5",
+          "author": "S Devassy",
+          "year": "2020",
+          "unstructured": "Devassy, S. & Singh, B. Performance analysis of solar PV array and battery-integrated unified power quality conditioner for microgrid systems. IEEE Trans. Industr. Electron. 5, 4027–4035. https://doi.org/10.1109/TIE.2020.2984439 (2020).",
+          "journal-title": "IEEE Trans. Industr. Electron."
+        },
+        {
+          "key": "54550_CR2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/03772063.2021.1888325",
+          "author": "SS Dheeban",
+          "year": "2021",
+          "unstructured": "Dheeban, S. S. & Muthu Selvan, N. B. ANFIS-based power quality improvementby photovoltaic integrated UPQC at the distribution system. IETE J. Res. https://doi.org/10.1080/03772063.2021.1888325 (2021).",
+          "journal-title": "IETE J. Res."
+        },
+        {
+          "issue": "58",
+          "key": "54550_CR3",
+          "doi-asserted-by": "publisher",
+          "first-page": "201",
+          "DOI": "10.1109/TIA.2021.3131404",
+          "volume": "1",
+          "author": "P Ray",
+          "year": "2022",
+          "unstructured": "Ray, P., Ray, P. K. & Dash, S. K. Power quality enhancement and power flow analysis of a PV integrated UPQC system in a distribution network. IEEE Trans. Ind. Appl. 1(58), 201–11. https://doi.org/10.1109/TIA.2021.3131404 (2022).",
+          "journal-title": "IEEE Trans. Ind. Appl."
+        },
+        {
+          "key": "54550_CR4",
+          "doi-asserted-by": "publisher",
+          "first-page": "42125",
+          "DOI": "10.1109/ACCESS.2021.3064906",
+          "volume": "9",
+          "author": "AE Tawfiq",
+          "year": "2021",
+          "unstructured": "Tawfiq, A. E., El-Raouf, M. O. A., Mosaad, M. I., Gawad, A. F. A. & Farahat, M. A. E. Optimal reliability study of grid-connected PV systems using evolutionary computing techniques. IEEE Access 9, 42125–39. https://doi.org/10.1109/ACCESS.2021.3064906 (2021).",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "issue": "01",
+          "key": "54550_CR5",
+          "doi-asserted-by": "publisher",
+          "first-page": "1941021",
+          "DOI": "10.1142/S0219691319410212",
+          "volume": "18",
+          "author": "MR Mohanraj",
+          "year": "2020",
+          "unstructured": "Mohanraj, M. R. & Prakash, R. A unified power quality conditioner for power quality improvement in distributed generation network using adaptive distributed power balanced control (ADPBC). Int. J. Wavel. Multi-resolut. Inform. Process. 18(01), 1941021 (2020).",
+          "journal-title": "Int. J. Wavel. Multi-resolut. Inform. Process."
+        },
+        {
+          "key": "54550_CR6",
+          "doi-asserted-by": "publisher",
+          "first-page": "6445",
+          "DOI": "10.1007/s12652-020-02253-y",
+          "volume": "12",
+          "author": "V Vinothkumar",
+          "year": "2021",
+          "unstructured": "Vinothkumar, V. & Kanimozhi, R. Power flow control and power quality analysis in power distribution system using UPQC based cascaded multi-level inverter with predictive phase dispersion modulation method. J. Ambient Intell. Hum. Comput. 12, 6445–6463 (2021).",
+          "journal-title": "J. Ambient Intell. Hum. Comput."
+        },
+        {
+          "issue": "2",
+          "key": "54550_CR7",
+          "first-page": "1",
+          "volume": "5",
+          "author": "S Jaber",
+          "year": "2021",
+          "unstructured": "Jaber, S. & Shakir, A. M. Design and simulation of a boost-microinverter for optimized photovoltaic system performance. International Journal of Smart Grid 5(2), 1–9 (2021).",
+          "journal-title": "International Journal of Smart Grid"
+        },
+        {
+          "issue": "4",
+          "key": "54550_CR8",
+          "first-page": "243",
+          "volume": "41",
+          "author": "K Sarker",
+          "year": "2020",
+          "unstructured": "Sarker, K., Chatterjee, D. & Goswami, S. K. A modified PV-wind-PEMFCS-based hybrid UPQC system with combined DVR/STATCOM operation by harmonic compensation. Int. J. Model. Simul. World Sci. 41(4), 243–255 (2020).",
+          "journal-title": "Int. J. Model. Simul. World Sci."
+        },
+        {
+          "key": "54550_CR9",
+          "doi-asserted-by": "publisher",
+          "first-page": "103511",
+          "DOI": "10.1109/ACCESS.2020.2997056",
+          "volume": "8",
+          "author": "MA Mansor",
+          "year": "2020",
+          "unstructured": "Mansor, M. A., Hasan, K. & Othman, M. M. Construction and performance investigation of three-phase solar PV and battery energy storage system integrated UPQC. IEEE Access 8, 103511–103538. https://doi.org/10.1109/ACCESS.2020.2997056 (2020).",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "54550_CR10",
+          "unstructured": "Sarita, N. S., Reddy, S. S., & Sujatha, P. Control strategies for power quality enrichment in Distribution network using UPQC. Material Today Proceedings, (2021)."
+        },
+        {
+          "key": "54550_CR11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Das, S. R., Ray, P. K., Mohanty, A., & Panda, G. Power quality enhancement in PV and battery storage based microgrid using hybrid active filter. 2020 3rd International Conference on Energy, Power and Environment: Towards Clean Energy Technologies, (2021).",
+          "DOI": "10.1109/ICEPE50861.2021.9404453"
+        },
+        {
+          "issue": "19",
+          "key": "54550_CR12",
+          "first-page": "2419",
+          "volume": "43",
+          "author": "K Chandrasekaran",
+          "year": "2021",
+          "unstructured": "Chandrasekaran, K., Selvaraj, J., Amaladoss, C. R. & Veerapan, L. Hybrid renewable energy based smart grid system for reactive power management and voltage profile enhancement using artificial neural network. Energy Sour. Part A Recov. Util. Environ. Effects 43(19), 2419–2442 (2021).",
+          "journal-title": "Energy Sour. Part A Recov. Util. Environ. Effects"
+        },
+        {
+          "issue": "1",
+          "key": "54550_CR13",
+          "first-page": "1",
+          "volume": "21",
+          "author": "UK Renduchintala",
+          "year": "2021",
+          "unstructured": "Renduchintala, U. K., Pang, C., Tatikonda, K. M. & Yang, L. ANFIS-fuzzy logic based UPQC in interconnected microgrid distribution systems: Modeling, simulation and implementation. J. Eng. 21(1), 1–29 (2021).",
+          "journal-title": "J. Eng."
+        },
+        {
+          "issue": "1",
+          "key": "54550_CR14",
+          "doi-asserted-by": "publisher",
+          "first-page": "749",
+          "DOI": "10.3233/JIFS-171236",
+          "volume": "35",
+          "author": "C Pazhanimuthu",
+          "year": "2018",
+          "unstructured": "Pazhanimuthu, C. & Ramesh, S. Grid integration of renewable energy sources (RES) for power quality improvement using adaptive fuzzy logic controller-based series hybrid active power filter (SHAPF). J. Intell. Fuzzy Syst. 35(1), 749–766 (2018).",
+          "journal-title": "J. Intell. Fuzzy Syst."
+        },
+        {
+          "key": "54550_CR15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Krishna, V. K., Dash, S. K., & Geshma, K. R. Development and analysis of power quality by using fuel cell based shunt active power filter. 2020 2nd International Conference on Innovative Mechanisms for Industry Applications (ICIMIA), (2020).",
+          "DOI": "10.1109/ICIMIA48430.2020.9074886"
+        },
+        {
+          "key": "54550_CR16",
+          "doi-asserted-by": "publisher",
+          "first-page": "2260",
+          "DOI": "10.1016/j.aej.2021.07.012",
+          "volume": "61",
+          "author": "A Abdelnasser",
+          "year": "2022",
+          "unstructured": "Abdelnasser, A., Nafeh, A. H., El-Sehiemy Ragab, A. & Waleed, A. A. S. Intelligent fuzzy-based controllers for voltage stability enhancement of AC-DC micro-grid with D-STATCOM. Alex. Eng. J. 61, 2260–2293 (2022).",
+          "journal-title": "Alex. Eng. J."
+        },
+        {
+          "key": "54550_CR17",
+          "doi-asserted-by": "publisher",
+          "first-page": "279",
+          "DOI": "10.1049/gtd2.12020",
+          "volume": "15",
+          "author": "JA Sayed",
+          "year": "2021",
+          "unstructured": "Sayed, J. A., Sabha, R. A. & Ranjan, K. J. Biogeography based optimization strategy for UPQC PI tuning on full order adaptive observer-based control. IET Gener. Transm. Distrib. 15, 279–293 (2021).",
+          "journal-title": "IET Gener. Transm. Distrib."
+        },
+        {
+          "key": "54550_CR18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/15567036.2021.1943068",
+          "author": "P Rajesh",
+          "year": "2021",
+          "unstructured": "Rajesh, P., Shajin, F. H. & Umasankar, L. A novel control scheme for PV/WT/FC/battery to power quality enhancement in micro grid system: a hybrid technique. Energy Sour. Part A Recovery Util. Environ. Effects https://doi.org/10.1080/15567036.2021.1943068 (2021).",
+          "journal-title": "Energy Sour. Part A Recovery Util. Environ. Effects"
+        },
+        {
+          "issue": "4",
+          "key": "54550_CR19",
+          "doi-asserted-by": "publisher",
+          "first-page": "2709",
+          "DOI": "10.1016/j.asej.2017.09.004",
+          "volume": "9",
+          "author": "VV Nagireddy",
+          "year": "2018",
+          "unstructured": "Nagireddy, V. V., Kota, V. R. & Kumar, D. A. Hybrid fuzzy back-propagation control scheme for multilevel unified power quality conditioner. Ain Shams Eng. J. 9(4), 2709–2724 (2018).",
+          "journal-title": "Ain Shams Eng. J."
+        },
+        {
+          "issue": "5",
+          "key": "54550_CR20",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.24018/ejece.2021.5.5.354",
+          "volume": "5",
+          "author": "F Nkado",
+          "year": "2021",
+          "unstructured": "Nkado, F., Nkado, F., Oladeji, I. & Zamora, R. Optimal design and performance analysis of solar PV integrated UPQC for distribution network. EJECE, Eur. J. Electr. Eng. Comput. Sci. 5(5), 1–8 (2021).",
+          "journal-title": "EJECE, Eur. J. Electr. Eng. Comput. Sci."
+        },
+        {
+          "key": "54550_CR21",
+          "doi-asserted-by": "publisher",
+          "first-page": "46",
+          "DOI": "10.1016/j.advengsoft",
+          "volume": "69",
+          "author": "S Mirjalili",
+          "year": "2014",
+          "unstructured": "Mirjalili, S., Mirjalili, S. M. & Lewis, A. Grey wolf optimizer. Adv. Eng. Softw. 69, 46–61. https://doi.org/10.1016/j.advengsoft (2014).",
+          "journal-title": "Adv. Eng. Softw."
+        },
+        {
+          "key": "54550_CR22",
+          "doi-asserted-by": "publisher",
+          "first-page": "763",
+          "DOI": "10.1007/s11831-021-09585-8",
+          "volume": "29",
+          "author": "RA Zitar",
+          "year": "2022",
+          "unstructured": "Zitar, R. A. et al. An intensive and comprehensive overview of JAYA algorithm, its versions and applications. Arch. Comput. Methods Eng. 29, 763–792. https://doi.org/10.1007/s11831-021-09585-8 (2022).",
+          "journal-title": "Arch. Comput. Methods Eng."
+        },
+        {
+          "key": "54550_CR23",
+          "doi-asserted-by": "publisher",
+          "first-page": "74497",
+          "DOI": "10.1109/ACCESS.2020.2988611",
+          "volume": "8",
+          "author": "AK Mishra",
+          "year": "2020",
+          "unstructured": "Mishra, A. K. et al. PSO-GWO optimized fractional order PID based hybrid shunt active power filter for power quality improvements. IEEE Access 8, 74497–74512. https://doi.org/10.1109/ACCESS.2020.2988611 (2020).",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "54550_CR24",
+          "doi-asserted-by": "publisher",
+          "first-page": "1435",
+          "DOI": "10.1007/s00521-020-05027-x",
+          "volume": "33",
+          "author": "AK Mishra",
+          "year": "2021",
+          "unstructured": "Mishra, A. K. et al. Adaptive fuzzy controlled hybrid shunt active power filter for power quality enhancement. Neural Comput. Appl. 33, 1435–1452. https://doi.org/10.1007/s00521-020-05027-x (2021).",
+          "journal-title": "Neural Comput. Appl."
+        },
+        {
+          "issue": "22",
+          "key": "54550_CR25",
+          "doi-asserted-by": "publisher",
+          "first-page": "3826",
+          "DOI": "10.3390/electronics11223826",
+          "volume": "11",
+          "author": "SR Das",
+          "year": "2022",
+          "unstructured": "Das, S. R., Mishra, A. K., Ray, P. K., Salkuti, S. R. & Kim, S.-C. Application of artificial intelligent techniques for power quality improvement in hybrid microgrid system. Electronics. 11(22), 3826. https://doi.org/10.3390/electronics11223826 (2022).",
+          "journal-title": "Electronics."
+        },
+        {
+          "key": "54550_CR26",
+          "doi-asserted-by": "publisher",
+          "first-page": "468",
+          "DOI": "10.1007/s40815-022-01382-0",
+          "volume": "25",
+          "author": "AK Mishra",
+          "year": "2023",
+          "unstructured": "Mishra, A. K. et al. IFGO Optimized Self-adaptive Fuzzy-PID Controlled HSAPF for PQ Enhancement. Int. J. Fuzzy Syst. 25, 468–484. https://doi.org/10.1007/s40815-022-01382-0 (2023).",
+          "journal-title": "Int. J. Fuzzy Syst."
+        },
+        {
+          "issue": "1",
+          "key": "54550_CR27",
+          "doi-asserted-by": "publisher",
+          "first-page": "527",
+          "DOI": "10.1007/s00500-023-08286-7",
+          "volume": "28",
+          "author": "PK Ray",
+          "year": "2024",
+          "unstructured": "Ray, P. K. et al. DT-CWT and type-2 fuzzy-HSAPF for harmonic compensation in distribution system soft computing—a fusion of foundations. Methodol. Appl. 28(1), 527–539. https://doi.org/10.1007/s00500-023-08286-7 (2024).",
+          "journal-title": "Methodol. Appl."
+        }
+      ],
+      "container-title": [
+        "Scientific Reports"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.nature.com/articles/s41598-024-54550-7.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.nature.com/articles/s41598-024-54550-7",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.nature.com/articles/s41598-024-54550-7.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            8
+          ]
+        ],
+        "date-time": "2024-08-08T08:03:12Z",
+        "timestamp": 1723104192000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.nature.com/articles/s41598-024-54550-7"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            23
+          ]
+        ]
+      },
+      "references-count": 27,
+      "journal-issue": {
+        "issue": "1",
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              12
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "54550"
+      ],
+      "URL": "https://doi.org/10.1038/s41598-024-54550-7",
+      "relation": {},
+      "ISSN": [
+        "2045-2322"
+      ],
+      "issn-type": [
+        {
+          "value": "2045-2322",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            23
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "14 December 2023",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "14 February 2024",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "23 February 2024",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "The authors declare no competing interests.",
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        }
+      ],
+      "article-number": "4429"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Koganti Srilakshmi",
+      "given_name_from_source": "Koganti",
+      "family_name_from_source": "Srilakshmi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "D. Teja Santosh",
+      "given_name_from_source": "D. Teja",
+      "family_name_from_source": "Santosh",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Alapati Ramadevi",
+      "given_name_from_source": "Alapati",
+      "family_name_from_source": "Ramadevi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Ganesh Prasad Reddy",
+      "given_name_from_source": "Ganesh Prasad",
+      "family_name_from_source": "Reddy",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "Aravindhababu Palanivelu",
+      "given_name_from_source": "Aravindhababu",
+      "family_name_from_source": "Palanivelu",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 7,
+      "author_name_from_source": "Ilhami Colak",
+      "given_name_from_source": "Ilhami",
+      "family_name_from_source": "Colak",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 8,
+      "author_name_from_source": "C. Dhanamjayulu",
+      "given_name_from_source": "C.",
+      "family_name_from_source": "Dhanamjayulu",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 9,
+      "author_name_from_source": "Ravi Kumar Chinthaginjala",
+      "given_name_from_source": "Ravi Kumar",
+      "family_name_from_source": "Chinthaginjala",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 10,
+      "author_name_from_source": "Baseem Khan",
+      "given_name_from_source": "Baseem",
+      "family_name_from_source": "Khan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

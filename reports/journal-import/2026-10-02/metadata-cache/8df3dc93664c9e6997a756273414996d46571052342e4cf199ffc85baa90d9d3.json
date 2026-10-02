@@ -1,0 +1,645 @@
+{
+  "doi": "10.1016/j.measen.2024.101192",
+  "title": "Elevating sustainability with a multi-renewable hydrogen generation system empowered by machine learning and multi-objective optimization",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Measurement: Sensors",
+  "publisher": "Elsevier BV",
+  "publication_date": null,
+  "online_publication_date": null,
+  "print_publication_date": null,
+  "volume": "33",
+  "issue": null,
+  "pages_or_article_number": "101192",
+  "issn": "2665-9174",
+  "eissn": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1016/j.measen.2024.101192",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:17.081549+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            23
+          ]
+        ],
+        "date-time": "2026-09-23T16:06:36Z",
+        "timestamp": 1790179596798,
+        "version": "4.1.0"
+      },
+      "reference-count": 22,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2024-06-01T00:00:00Z",
+            "timestamp": 1717200000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2024-06-01T00:00:00Z",
+            "timestamp": 1717200000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                4,
+                30
+              ]
+            ],
+            "date-time": "2024-04-30T00:00:00Z",
+            "timestamp": 1714435200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Measurement: Sensors"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            6
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.measen.2024.101192",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            6
+          ]
+        ],
+        "date-time": "2024-05-06T22:01:34Z",
+        "timestamp": 1715032894000
+      },
+      "page": "101192",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 15,
+      "special_numbering": "C",
+      "title": [
+        "Elevating sustainability with a multi-renewable hydrogen generation system empowered by machine learning and multi-objective optimization"
+      ],
+      "prefix": "10.1016",
+      "volume": "33",
+      "author": [
+        {
+          "given": "K.",
+          "family": "Naveena",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0203-0700",
+          "authenticated-orcid": false,
+          "given": "Murugaperumal",
+          "family": "Krishnamoorthy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "N.",
+          "family": "Karuppiah",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Pramod Kumar",
+          "family": "Gouda",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shanmugasundaram",
+          "family": "Hariharan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "K.",
+          "family": "Saravanan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ajay",
+          "family": "Kumar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "issue": "1",
+          "key": "10.1016/j.measen.2024.101192_bib1",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.13057/asianjagric/g060103",
+          "article-title": "Influence of climate change on agricultural sustainability in India: a state-wise panel data analysis",
+          "volume": "6",
+          "author": "Singh",
+          "year": "2022",
+          "journal-title": "Asian J. Agric."
+        },
+        {
+          "key": "10.1016/j.measen.2024.101192_bib2",
+          "series-title": "Harnessing Green Hydrogen Opportunities for Deep Decarbonisation in India: a Report by NITI Aayog in June",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.measen.2024.101192_bib3",
+          "unstructured": "https://www.investindia.gov.in/sector/renewable-energyreleasedbynationalinvestmentpromotionandfacilityagency."
+        },
+        {
+          "key": "10.1016/j.measen.2024.101192_bib4",
+          "series-title": "2010 International Conference on Environmental Engineering and Applications, Singapore",
+          "first-page": "49",
+          "article-title": "A study on renewable energy resources in India",
+          "author": "Ashwin Kumar",
+          "year": "2010"
+        },
+        {
+          "key": "10.1016/j.measen.2024.101192_bib5",
+          "series-title": "Hybrid Energy Systems: Driving Reliable Renewable Sources of Energy Storage",
+          "first-page": "105",
+          "article-title": "Types of renewable energy",
+          "author": "Zohuri",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.measen.2024.101192_bib6",
+          "doi-asserted-by": "crossref",
+          "first-page": "99",
+          "DOI": "10.1007/s40684-015-0013-z",
+          "article-title": "Optimization of hybrid renewable energy power systems: a review",
+          "volume": "2",
+          "author": "Bhandari",
+          "year": "2015",
+          "journal-title": "Int. J. Precision Eng. Manuf.-Green Technol."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.measen.2024.101192_bib7",
+          "doi-asserted-by": "crossref",
+          "first-page": "4110",
+          "DOI": "10.1002/er.4930",
+          "article-title": "Hydrogen from solar energy, a clean energy carrier from a sustainable source of energy",
+          "volume": "44",
+          "author": "Hosseini",
+          "year": "2020",
+          "journal-title": "Int. J. Energy Res."
+        },
+        {
+          "key": "10.1016/j.measen.2024.101192_bib8",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.rser.2019.109620",
+          "article-title": "Hydrogen as an energy vector",
+          "volume": "120",
+          "author": "Abdin",
+          "year": "2020",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "key": "10.1016/j.measen.2024.101192_bib9",
+          "article-title": "Optimum design of hybrid renewable energy system through load forecasting and different operating strategies for rural electrification",
+          "volume": "37",
+          "author": "Murugaperumal",
+          "year": "2020",
+          "journal-title": "Sustain. Energy Technol. Assessments"
+        },
+        {
+          "key": "10.1016/j.measen.2024.101192_bib10",
+          "article-title": "Hybrid renewable energy source optimization using black widow optimization techniques with uncertainty constraints",
+          "volume": "31",
+          "author": "Divya",
+          "year": "2024",
+          "journal-title": "Measur.: Sensors"
+        },
+        {
+          "key": "10.1016/j.measen.2024.101192_bib11",
+          "article-title": "Three-stage multi-objective feature selection with distributed ensemble machine and deep learning for processing of complex and large datasets",
+          "volume": "28",
+          "author": "Babu",
+          "year": "2023",
+          "journal-title": "Measur.: Sensors"
+        },
+        {
+          "key": "10.1016/j.measen.2024.101192_bib12",
+          "article-title": "Estimation of biogas production potential and greenhouse gas emissions reduction for sustainable energy management using intelligent computing technique",
+          "volume": "25",
+          "author": "Afotey",
+          "year": "2023",
+          "journal-title": "Measur.: Sensors"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.measen.2024.101192_bib13",
+          "first-page": "2196",
+          "article-title": "Performance optimization of a Rooftop Hybridized Solar PV-AC Grid assisted power system for peak load management",
+          "volume": "2",
+          "author": "Perumal",
+          "year": "2012",
+          "journal-title": "Int. J. Eng. Res. Afr."
+        },
+        {
+          "key": "10.1016/j.measen.2024.101192_bib14",
+          "doi-asserted-by": "crossref",
+          "first-page": "31191",
+          "DOI": "10.1109/ACCESS.2021.3060290",
+          "article-title": "On short-term load forecasting using machine learning techniques and a novel parallel deep LSTM-CNN approach",
+          "volume": "9",
+          "author": "Farsi",
+          "year": "2021",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.measen.2024.101192_bib15",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.apenergy.2021.116452",
+          "article-title": "A review of machine learning in building load prediction",
+          "volume": "285",
+          "author": "Zhang",
+          "year": "2021",
+          "journal-title": "Appl. Energy"
+        },
+        {
+          "key": "10.1016/j.measen.2024.101192_bib16",
+          "doi-asserted-by": "crossref",
+          "first-page": "19",
+          "DOI": "10.1016/j.dsm.2021.12.002",
+          "article-title": "Machine learning-based approach: global trends, research directions, and regulatory standpoints",
+          "volume": "4",
+          "author": "Pugliese",
+          "year": "2021",
+          "journal-title": "Data Sci. Manag."
+        },
+        {
+          "key": "10.1016/j.measen.2024.101192_bib17",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.enconman.2020.113649",
+          "article-title": "Green hydrogen in Europe–A regional assessment: substituting existing production with electrolysis powered by renewables",
+          "volume": "228",
+          "author": "Kakoulaki",
+          "year": "2021",
+          "journal-title": "Energy Convers. Manag."
+        },
+        {
+          "key": "10.1016/j.measen.2024.101192_bib18",
+          "series-title": "Handbook of Moth-Flame Optimization Algorithm",
+          "first-page": "79",
+          "article-title": "Multi-objective moth-flame optimization algorithm for engineering problems",
+          "author": "Khodadadi",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.measen.2024.101192_bib19",
+          "first-page": "S110",
+          "article-title": "Optimization and designing of hybrid power system using HOMER pro",
+          "volume": "47",
+          "author": "Khalil",
+          "year": "2021",
+          "journal-title": "Mater. Today: Proc."
+        },
+        {
+          "issue": "13",
+          "key": "10.1016/j.measen.2024.101192_bib20",
+          "doi-asserted-by": "crossref",
+          "first-page": "7735",
+          "DOI": "10.3390/su14137735",
+          "article-title": "Techno-economic analysis and optimisation of campus grid-connected hybrid renewable energy system using HOMER grid",
+          "volume": "14",
+          "author": "Riayatsyah",
+          "year": "2022",
+          "journal-title": "Sustainability"
+        },
+        {
+          "key": "10.1016/j.measen.2024.101192_bib21",
+          "article-title": "Experimental study on self-excited induction generator for small-scale isolated rural electricity applications",
+          "volume": "18",
+          "author": "Krishna",
+          "year": "2023",
+          "journal-title": "Resul. Eng."
+        },
+        {
+          "key": "10.1016/j.measen.2024.101192_bib22",
+          "article-title": "Experimental study on excitation phenomena of renewable energy source driven induction generator for isolated rural community loads",
+          "volume": "21",
+          "author": "Krishna",
+          "year": "2024",
+          "journal-title": "Resul. Eng."
+        }
+      ],
+      "container-title": [
+        "Measurement: Sensors"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2665917424001685?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2665917424001685?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            23
+          ]
+        ],
+        "date-time": "2026-09-23T15:41:04Z",
+        "timestamp": 1790178064000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2665917424001685"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            6
+          ]
+        ]
+      },
+      "references-count": 22,
+      "alternative-id": [
+        "S2665917424001685"
+      ],
+      "URL": "https://doi.org/10.1016/j.measen.2024.101192",
+      "relation": {},
+      "ISSN": [
+        "2665-9174"
+      ],
+      "issn-type": [
+        {
+          "value": "2665-9174",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            6
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Elevating sustainability with a multi-renewable hydrogen generation system empowered by machine learning and multi-objective optimization",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Measurement: Sensors",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.measen.2024.101192",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2024 The Authors. Published by Elsevier Ltd.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "101192"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "K. Naveena",
+      "given_name_from_source": "K.",
+      "family_name_from_source": "Naveena",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Murugaperumal Krishnamoorthy",
+      "given_name_from_source": "Murugaperumal",
+      "family_name_from_source": "Krishnamoorthy",
+      "orcid_from_source": "https://orcid.org/0000-0002-0203-0700",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "N. Karuppiah",
+      "given_name_from_source": "N.",
+      "family_name_from_source": "Karuppiah",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Pramod Kumar Gouda",
+      "given_name_from_source": "Pramod Kumar",
+      "family_name_from_source": "Gouda",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Shanmugasundaram Hariharan",
+      "given_name_from_source": "Shanmugasundaram",
+      "family_name_from_source": "Hariharan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "K. Saravanan",
+      "given_name_from_source": "K.",
+      "family_name_from_source": "Saravanan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 7,
+      "author_name_from_source": "Ajay Kumar",
+      "given_name_from_source": "Ajay",
+      "family_name_from_source": "Kumar",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

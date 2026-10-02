@@ -1,0 +1,765 @@
+{
+  "doi": "10.1007/s13198-023-02238-y",
+  "title": "Automated approach to design predictive PI control scheme for gain margin specification",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "International Journal of System Assurance Engineering and Management",
+  "publisher": "Springer Science and Business Media LLC",
+  "publication_date": "2024-01-21",
+  "online_publication_date": "2024-01-21",
+  "print_publication_date": null,
+  "volume": "15",
+  "issue": "6",
+  "pages_or_article_number": "2230-2237",
+  "issn": "0975-6809",
+  "eissn": "0976-4348",
+  "isbn": null,
+  "url": "https://doi.org/10.1007/s13198-023-02238-y",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:34.426686+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            6
+          ]
+        ],
+        "date-time": "2026-03-06T06:52:54Z",
+        "timestamp": 1772779974723,
+        "version": "3.50.1"
+      },
+      "reference-count": 29,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "6",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                1,
+                21
+              ]
+            ],
+            "date-time": "2024-01-21T00:00:00Z",
+            "timestamp": 1705795200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                1,
+                21
+              ]
+            ],
+            "date-time": "2024-01-21T00:00:00Z",
+            "timestamp": 1705795200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Int J Syst Assur Eng Manag"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            6
+          ]
+        ]
+      },
+      "DOI": "10.1007/s13198-023-02238-y",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            21
+          ]
+        ],
+        "date-time": "2024-01-21T13:01:31Z",
+        "timestamp": 1705842091000
+      },
+      "page": "2230-2237",
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 4,
+      "title": [
+        "Automated approach to design predictive PI control scheme for gain margin specification"
+      ],
+      "prefix": "10.1007",
+      "volume": "15",
+      "author": [
+        {
+          "given": "Ramaveerapathiran",
+          "family": "Arun",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Rathinam",
+          "family": "Muniraj",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3325-566X",
+          "authenticated-orcid": false,
+          "given": "Natarajan",
+          "family": "Karuppiah",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Balachandran Praveen",
+          "family": "Kumar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Krishnamoorthy",
+          "family": "Murugaperumal",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            21
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "issue": "5",
+          "key": "2238_CR1",
+          "doi-asserted-by": "publisher",
+          "first-page": "3316",
+          "DOI": "10.1080/03772063.2020.1756934",
+          "volume": "68",
+          "author": "K Chandrasekaran",
+          "year": "2022",
+          "unstructured": "Chandrasekaran K, Mohanty M, Golla M, Venkadesan A, Simon SP (2022) Dynamic MPPT controller using cascade neural network for a wind power conversion system with energy management. IETE J Res 68(5):3316–3330. https://doi.org/10.1080/03772063.2020.1756934",
+          "journal-title": "IETE J Res"
+        },
+        {
+          "key": "2238_CR2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/03772063.2022.2061609",
+          "author": "Z Farooq",
+          "year": "2022",
+          "unstructured": "Farooq Z, Rahman A, Lone SA (2022) Multi-stage fractional-order controller for frequency mitigation of EV-based hybrid power system. IETE J Res. https://doi.org/10.1080/03772063.2022.2061609",
+          "journal-title": "IETE J Res"
+        },
+        {
+          "key": "2238_CR3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/03772063.2022.2073275",
+          "author": "R Femi",
+          "year": "2022",
+          "unstructured": "Femi R, Raja SR, Shenbagalakshmi R (2022) Performance comparison of optimization algorithm tuned PID controllers in positive output re-lift luo converter operation for electric vehicle applications. IETE J Res. https://doi.org/10.1080/03772063.2022.2073275",
+          "journal-title": "IETE J Res"
+        },
+        {
+          "issue": "1",
+          "key": "2238_CR4",
+          "doi-asserted-by": "publisher",
+          "first-page": "194",
+          "DOI": "10.1080/03772063.2019.1595183",
+          "volume": "68",
+          "author": "ZR Forooshani",
+          "year": "2022",
+          "unstructured": "Forooshani ZR, Siahi M, Ramezani A (2022) Adaptive type-2 fuzzy control for regulation of glucose level in type 1 diabetes. IETE J Res 68(1):194–204. https://doi.org/10.1080/03772063.2019.1595183",
+          "journal-title": "IETE J Res"
+        },
+        {
+          "key": "2238_CR5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/03772063.2021.2012277",
+          "author": "RV Franklin",
+          "year": "2021",
+          "unstructured": "Franklin RV, Abdul Kareem PF (2021) Frequency regulation in conventional, deregulated and microgrid systems: a review on designs, strategies, techniques and related aspects. IETE J Res. https://doi.org/10.1080/03772063.2021.2012277",
+          "journal-title": "IETE J Res"
+        },
+        {
+          "issue": "6",
+          "key": "2238_CR6",
+          "doi-asserted-by": "publisher",
+          "first-page": "4544",
+          "DOI": "10.1080/03772063.2020.1799872",
+          "volume": "68",
+          "author": "A Guendouzi",
+          "year": "2022",
+          "unstructured": "Guendouzi A, Hamerlain M, Saadia N (2022) A robust adaptive nonlinear control design via geometric approach for a quadrotor. IETE J Res 68(6):4544–4554. https://doi.org/10.1080/03772063.2020.1799872",
+          "journal-title": "IETE J Res"
+        },
+        {
+          "issue": "6",
+          "key": "2238_CR7",
+          "doi-asserted-by": "publisher",
+          "first-page": "749",
+          "DOI": "10.1016/0967-0661(96)00065-2",
+          "volume": "4",
+          "author": "T Hägglund",
+          "year": "1996",
+          "unstructured": "Hägglund T (1996) An industrial dead-time compensating PI controller. Control Eng Practice 4(6):749–756",
+          "journal-title": "Control Eng Practice"
+        },
+        {
+          "issue": "3",
+          "key": "2238_CR8",
+          "doi-asserted-by": "publisher",
+          "first-page": "497",
+          "DOI": "10.1016/0005-1098(94)00130-B",
+          "volume": "31",
+          "author": "WK Ho",
+          "year": "1995",
+          "unstructured": "Ho WK, Hang CC, Cao L (1995) Tuning of PID controllers based on gain and phase margin specifications. Automatica 31(3):497–502",
+          "journal-title": "Automatica"
+        },
+        {
+          "issue": "11",
+          "key": "2238_CR9",
+          "doi-asserted-by": "publisher",
+          "first-page": "195",
+          "DOI": "10.1016/S0967-0661(01)00065-X",
+          "volume": "9",
+          "author": "A Ingimundarson",
+          "year": "2001",
+          "unstructured": "Ingimundarson A, Hägglund T (2001) Robust tuning procedures of dead time compensating controllers. Control Eng Pract 9(11):195–1208",
+          "journal-title": "Control Eng Pract"
+        },
+        {
+          "key": "2238_CR10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/03772063.2021.1958070",
+          "author": "KS Kavin",
+          "year": "2021",
+          "unstructured": "Kavin KS, Subha Karuvelam P (2021) PV-based grid interactive PMBLDC electric vehicle with high gain interleaved DC-DC SEPIC converter. IETE J Res. https://doi.org/10.1080/03772063.2021.1958070",
+          "journal-title": "IETE J Res"
+        },
+        {
+          "issue": "20",
+          "key": "2238_CR11",
+          "doi-asserted-by": "publisher",
+          "first-page": "4391",
+          "DOI": "10.1021/ie010142h",
+          "volume": "40",
+          "author": "WL Luyben",
+          "year": "2001",
+          "unstructured": "Luyben WL (2001) Getting more information from relay-feedback tests. Ind Eng Chem Res 40(20):4391–4402",
+          "journal-title": "Ind Eng Chem Res"
+        },
+        {
+          "key": "2238_CR12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/03772063.2021.1910578",
+          "author": "AR Maafi",
+          "year": "2021",
+          "unstructured": "Maafi AR, Etemadi Haghighi S, Mahmoodabadi MJ (2021) Pareto optimal design of a fuzzy adaptive hierarchical sliding-mode controller for an X-Z inverted pendulum system. IETE J Res. https://doi.org/10.1080/03772063.2021.1910578",
+          "journal-title": "IETE J Res"
+        },
+        {
+          "issue": "5",
+          "key": "2238_CR13",
+          "doi-asserted-by": "publisher",
+          "first-page": "3638",
+          "DOI": "10.1080/03772063.2020.1772129",
+          "volume": "68",
+          "author": "MJ Mahmoodabadi",
+          "year": "2022",
+          "unstructured": "Mahmoodabadi MJ, Javanbakht M (2022) Optimum design of an adaptive fuzzy controller as active suspension for a quarter-car model. IETE J Res 68(5):3638–3646. https://doi.org/10.1080/03772063.2020.1772129",
+          "journal-title": "IETE J Res"
+        },
+        {
+          "issue": "2",
+          "key": "2238_CR14",
+          "doi-asserted-by": "publisher",
+          "first-page": "93",
+          "DOI": "10.1016/j.jprocont.2006.09.005",
+          "volume": "17",
+          "author": "S Majhi",
+          "year": "2007",
+          "unstructured": "Majhi S (2007) Relay based identification of processes with time delay. J Process Control 17(2):93–101",
+          "journal-title": "J Process Control"
+        },
+        {
+          "issue": "6",
+          "key": "2238_CR15",
+          "doi-asserted-by": "publisher",
+          "first-page": "4577",
+          "DOI": "10.1080/03772063.2020.1800522",
+          "volume": "68",
+          "author": "M Montazeri",
+          "year": "2022",
+          "unstructured": "Montazeri M, Yousefi MR, Shojaei K, Shahgholian G (2022) Design of fast variable structure adaptive fuzzy control for nonlinear state-delay systems with uncertainty. IETE J Res 68(6):4577–4589. https://doi.org/10.1080/03772063.2020.1800522",
+          "journal-title": "IETE J Res"
+        },
+        {
+          "issue": "07",
+          "key": "2238_CR16",
+          "first-page": "211",
+          "volume": "7",
+          "author": "M Nilesh",
+          "year": "2020",
+          "unstructured": "Nilesh M, Prasad M, Sabitha R, Raghavender KV, Gupta V (2020) An efficient reactive join nested loop machine learning inputs in autonomous smart grid environment. Eur J Mol Clin Med 7(07):211–218",
+          "journal-title": "Eur J Mol Clin Med"
+        },
+        {
+          "issue": "1",
+          "key": "2238_CR17",
+          "doi-asserted-by": "publisher",
+          "first-page": "38",
+          "DOI": "10.1016/j.jprocont.2008.02.003",
+          "volume": "19",
+          "author": "JE Normey-Rico",
+          "year": "2009",
+          "unstructured": "Normey-Rico JE, Camacho EF (2009) Unified approach for robust dead-time compensator design. J Process Control 19(1):38–47",
+          "journal-title": "J Process Control"
+        },
+        {
+          "issue": "6",
+          "key": "2238_CR18",
+          "doi-asserted-by": "publisher",
+          "first-page": "801",
+          "DOI": "10.1016/S0967-0661(97)00064-6",
+          "volume": "5",
+          "author": "JE Normey-Rico",
+          "year": "1997",
+          "unstructured": "Normey-Rico JE, Bordons C, Camacho EF (1997) Improving the robustness of dead-time compensating PI controllers. Contr Eng Pract 5(6):801–810",
+          "journal-title": "Contr Eng Pract"
+        },
+        {
+          "key": "2238_CR19",
+          "doi-asserted-by": "publisher",
+          "first-page": "124403",
+          "DOI": "10.1016/j.energy.2022.124403",
+          "volume": "254",
+          "author": "M Panda",
+          "year": "2022",
+          "unstructured": "Panda M, Nayak YK (2022) Impact analysis of renewable energy distributed generation in deregulated electricity markets: a context of transmission congestion problem. Energy 254:124403. https://doi.org/10.1016/j.energy.2022.124403",
+          "journal-title": "Energy"
+        },
+        {
+          "key": "2238_CR20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/03772063.2022.2083025",
+          "author": "LMV Pankaj",
+          "year": "2022",
+          "unstructured": "Pankaj LMV, Kasibhatla RS, Vijaya Santhi R (2022) FPGA-based statechart controller for MPPT of a photovoltaic system. IETE J Res. https://doi.org/10.1080/03772063.2022.2083025",
+          "journal-title": "IETE J Res"
+        },
+        {
+          "issue": "1",
+          "key": "2238_CR21",
+          "doi-asserted-by": "publisher",
+          "first-page": "69",
+          "DOI": "10.1080/03772063.2017.1407269",
+          "volume": "65",
+          "author": "G Prabhakar",
+          "year": "2019",
+          "unstructured": "Prabhakar G, Selvaperumal S, Nedumal Pugazhenthi P (2019) Fuzzy PD plus I control-based adaptive cruise control system in simulation and real-time environment. IETE J Res 65(1):69–79",
+          "journal-title": "IETE J Res"
+        },
+        {
+          "issue": "2",
+          "key": "2238_CR22",
+          "doi-asserted-by": "publisher",
+          "first-page": "177",
+          "DOI": "10.1515/ijeeps-2020-0228",
+          "volume": "22",
+          "author": "NK Saxena",
+          "year": "2021",
+          "unstructured": "Saxena NK, Kumar A, Gupta V (2021) Enhancement of system performance using STATCOM as dynamic compensator with squirrel cage induction generator (SCIG) based microgrid. Int J Emerg Electr Power Syst 22(2):177–189. https://doi.org/10.1515/ijeeps-2020-0228",
+          "journal-title": "Int J Emerg Electr Power Syst"
+        },
+        {
+          "key": "2238_CR23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-981-16-7472-3_3",
+          "volume-title": "Renewable energy towards smart grid lecture notes in electrical engineering",
+          "author": "NK Saxena",
+          "year": "2022",
+          "unstructured": "Saxena NK, Gupta V, Rajput RS, Kumar A, Gupta AR (2022) Reactive power requirement for operating wind-driven micro grid in the presence of several proportions and classes of static load. In: Kumar A, Srivastava SC, Singh SN (eds) Renewable energy towards smart grid lecture notes in electrical engineering, vol 823. Springer, Singapore. https://doi.org/10.1007/978-981-16-7472-3_3"
+        },
+        {
+          "key": "2238_CR24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/03772063.2021.1984319",
+          "author": "S Senthil Kumar",
+          "year": "2021",
+          "unstructured": "Senthil Kumar S, Anitha G (2021) Fuzzy logic-based self-tuning PID controllers using parameters adaptive method for stabilization of a two-axis seeker gimbal. IETE J Res. https://doi.org/10.1080/03772063.2021.1984319",
+          "journal-title": "IETE J Res"
+        },
+        {
+          "key": "2238_CR25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/03772063.2021.1920481",
+          "author": "MAB Siddique",
+          "year": "2021",
+          "unstructured": "Siddique MAB, Asad A, Asif RM, Rehman AU, Sadiq MT, Ullah I (2021) Implementation of incremental conductance MPPT algorithm with integral regulator by using boost converter in grid-connected PV array. IETE J Res. https://doi.org/10.1080/03772063.2021.1920481",
+          "journal-title": "IETE J Res"
+        },
+        {
+          "issue": "1",
+          "key": "2238_CR26",
+          "first-page": "217",
+          "volume": "53",
+          "author": "OJM Smith",
+          "year": "1957",
+          "unstructured": "Smith OJM (1957) Closed control of loops with dead Time. Chem Eng Progress 53(1):217–219",
+          "journal-title": "Chem Eng Progress"
+        },
+        {
+          "issue": "5",
+          "key": "2238_CR27",
+          "doi-asserted-by": "publisher",
+          "first-page": "3487",
+          "DOI": "10.1080/03772063.2020.1768906",
+          "volume": "68",
+          "author": "P Swethamarai",
+          "year": "2022",
+          "unstructured": "Swethamarai P, Lakshmi P (2022) Adaptive-fuzzy fractional order PID controller-based active suspension for vibration control. IETE J Res 68(5):3487–3502. https://doi.org/10.1080/03772063.2020.1768906",
+          "journal-title": "IETE J Res"
+        },
+        {
+          "issue": "33",
+          "key": "2238_CR28",
+          "doi-asserted-by": "publisher",
+          "first-page": "11646",
+          "DOI": "10.1021/ie401395x",
+          "volume": "52",
+          "author": "BC Torrico",
+          "year": "2013",
+          "unstructured": "Torrico BC, Cavalcante MU, Braga APS, Normey-Rico JE, Albuquerque AAM (2013) Simple tuning rules for dead-time compensation of stable, integrative, and unstable first-order dead-time processes. Ind Eng Chem Res 52(33):11646–11654",
+          "journal-title": "Ind Eng Chem Res"
+        },
+        {
+          "issue": "2",
+          "key": "2238_CR29",
+          "doi-asserted-by": "publisher",
+          "first-page": "375",
+          "DOI": "10.1021/ie960412+",
+          "volume": "36",
+          "author": "QG Wang",
+          "year": "1997",
+          "unstructured": "Wang QG, Hang CC, Zou B (1997) Low-order modeling from relay feedback. Ind Eng Chem Res 36(2):375–381",
+          "journal-title": "Ind Eng Chem Res"
+        }
+      ],
+      "container-title": [
+        "International Journal of System Assurance Engineering and Management"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s13198-023-02238-y.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/article/10.1007/s13198-023-02238-y/fulltext.html",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s13198-023-02238-y.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            14
+          ]
+        ],
+        "date-time": "2024-06-14T16:16:31Z",
+        "timestamp": 1718381791000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://link.springer.com/10.1007/s13198-023-02238-y"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            21
+          ]
+        ]
+      },
+      "references-count": 29,
+      "journal-issue": {
+        "issue": "6",
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              6
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "2238"
+      ],
+      "URL": "https://doi.org/10.1007/s13198-023-02238-y",
+      "relation": {},
+      "ISSN": [
+        "0975-6809",
+        "0976-4348"
+      ],
+      "issn-type": [
+        {
+          "value": "0975-6809",
+          "type": "print"
+        },
+        {
+          "value": "0976-4348",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            21
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "7 January 2022",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "7 August 2023",
+          "order": 2,
+          "name": "revised",
+          "label": "Revised",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "24 December 2023",
+          "order": 3,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "21 January 2024",
+          "order": 4,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Declarations"
+          }
+        },
+        {
+          "value": "All authors certify that they have no affiliations with or involvement in any organization or entity with any financial interest or non-financial interest in the subject matter or materials discussed in this manuscript.",
+          "order": 2,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Conflict of interest"
+          }
+        },
+        {
+          "value": "Not applicable.",
+          "order": 3,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Human and animals rights"
+          }
+        },
+        {
+          "value": "Not applicable for this research.",
+          "order": 4,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Informed consent"
+          }
+        }
+      ]
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Ramaveerapathiran Arun",
+      "given_name_from_source": "Ramaveerapathiran",
+      "family_name_from_source": "Arun",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Rathinam Muniraj",
+      "given_name_from_source": "Rathinam",
+      "family_name_from_source": "Muniraj",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Natarajan Karuppiah",
+      "given_name_from_source": "Natarajan",
+      "family_name_from_source": "Karuppiah",
+      "orcid_from_source": "https://orcid.org/0000-0003-3325-566X",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Balachandran Praveen Kumar",
+      "given_name_from_source": "Balachandran Praveen",
+      "family_name_from_source": "Kumar",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Krishnamoorthy Murugaperumal",
+      "given_name_from_source": "Krishnamoorthy",
+      "family_name_from_source": "Murugaperumal",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

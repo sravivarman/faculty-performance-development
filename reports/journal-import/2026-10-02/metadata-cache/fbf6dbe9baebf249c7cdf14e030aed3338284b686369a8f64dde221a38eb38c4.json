@@ -1,0 +1,331 @@
+{
+  "doi": "10.1504/ijpt.2026.151998",
+  "title": "Innovative energy control strategy for standalone SPV-DG-battery power systems employing fractional order PID controllers",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "International Journal of Powertrains",
+  "publisher": "Inderscience Publishers",
+  "publication_date": null,
+  "online_publication_date": null,
+  "print_publication_date": null,
+  "volume": "15",
+  "issue": "1",
+  "pages_or_article_number": "40-60",
+  "issn": "1742-4267",
+  "eissn": "1742-4275",
+  "isbn": null,
+  "url": "https://doi.org/10.1504/ijpt.2026.151998",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:52:55.037426+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            3
+          ]
+        ],
+        "date-time": "2026-03-03T15:42:57Z",
+        "timestamp": 1772552577628,
+        "version": "3.50.1"
+      },
+      "reference-count": 0,
+      "publisher": "Inderscience Publishers",
+      "issue": "1",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "IJPT"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "DOI": "10.1504/ijpt.2026.151998",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            3
+          ]
+        ],
+        "date-time": "2026-03-03T12:30:54Z",
+        "timestamp": 1772541054000
+      },
+      "page": "40-60",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Innovative energy control strategy for standalone SPV-DG-battery power systems employing fractional order PID controllers"
+      ],
+      "prefix": "10.1504",
+      "volume": "15",
+      "author": [
+        {
+          "given": "Mohammed Azahar",
+          "family": "Ahmed",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Gudavalli",
+          "family": "Madhavi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Vemulapalli",
+          "family": "Harika",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Srinivas",
+          "family": "Nakka",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Mahammed Majahar",
+          "family": "Hussain",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Pothula",
+          "family": "Jagadeesh",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "378",
+      "container-title": [
+        "International Journal of Powertrains"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "http://www.inderscienceonline.com/doi/full/10.1504/IJPT.2026.151998",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            3
+          ]
+        ],
+        "date-time": "2026-03-03T12:30:55Z",
+        "timestamp": 1772541055000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "http://www.inderscience.com/link.php?id=151998"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "references-count": 0,
+      "journal-issue": {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.1504/ijpt.2026.151998",
+      "relation": {},
+      "ISSN": [
+        "1742-4267",
+        "1742-4275"
+      ],
+      "issn-type": [
+        {
+          "value": "1742-4267",
+          "type": "print"
+        },
+        {
+          "value": "1742-4275",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "article-number": "151998"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Mohammed Azahar Ahmed",
+      "given_name_from_source": "Mohammed Azahar",
+      "family_name_from_source": "Ahmed",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Gudavalli Madhavi",
+      "given_name_from_source": "Gudavalli",
+      "family_name_from_source": "Madhavi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Vemulapalli Harika",
+      "given_name_from_source": "Vemulapalli",
+      "family_name_from_source": "Harika",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Srinivas Nakka",
+      "given_name_from_source": "Srinivas",
+      "family_name_from_source": "Nakka",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Mahammed Majahar Hussain",
+      "given_name_from_source": "Mahammed Majahar",
+      "family_name_from_source": "Hussain",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "Pothula Jagadeesh",
+      "given_name_from_source": "Pothula",
+      "family_name_from_source": "Jagadeesh",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

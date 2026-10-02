@@ -1,0 +1,405 @@
+{
+  "doi": "10.32397/tesea.vol7.n1.707",
+  "title": "Harmonic mitigation of PV-based resonant Cuk converter using lightning search optimization",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Transactions on Energy Systems and Engineering Applications",
+  "publisher": "Universidad Tecnologica de Bolivar",
+  "publication_date": "2026-06-02",
+  "online_publication_date": "2026-06-02",
+  "print_publication_date": null,
+  "volume": "7",
+  "issue": "1",
+  "pages_or_article_number": "1-15",
+  "issn": null,
+  "eissn": "2745-0120",
+  "isbn": null,
+  "url": "https://doi.org/10.32397/tesea.vol7.n1.707",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:52:35.793611+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            2
+          ]
+        ],
+        "date-time": "2026-06-02T16:04:03Z",
+        "timestamp": 1780416243091,
+        "version": "3.54.1"
+      },
+      "reference-count": 16,
+      "publisher": "Universidad Tecnologica de Bolivar",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                2
+              ]
+            ],
+            "date-time": "2026-06-02T00:00:00Z",
+            "timestamp": 1780358400000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Trans. Energy Syst. Eng. Appl."
+      ],
+      "abstract": "<jats:p>In today’s situation, renewable power is an important one, mainly owing to the shortage of fossil fuels. One of the future’s non-conventional energy sources is solar power. But the changing weather condition introduces problems of power quality like harmonic fluctuation, voltage dip, reliability troubles and deviations in voltage waveform, which affect the stability of the entire grid. In this work, the PV (photovoltaic) panel is linked with the grid via a ZVT (Zero Voltage Transition) - ZCT (Zero Current Transition) CUK Converter and a 3-level 3ϕ Voltage Source Inverter (VSI). Here the converter’s conduction loss and switching loss were eliminated using the ZVT–ZCT principle. Here the resonant components are placed in diagonal as switches. This one to one placement will reduce the conduction loss and switching loss in the converter. Converter switching is done by using MPPT (Maximum Power Point Tracking) - based Incremental Conductance-Integral Regulator algorithm and the Inverter Switching is done by using PI tuned Optimization. This work proposes Lightning Search Optimization (LSA) with VSI (Voltage Source Inverter) to solve harmonic problems in the Renewable energy system. MATLAB / Simulink is used to simulate the proposed system. This proposed Optimization technique is employed to lessen the THD by 0.349% and increase the system efficiency to 99.35%. The Quasi Resonant Cascade converter is compared with the Resonant LUO, BOOST and SEPIC converters.</jats:p>",
+      "DOI": "10.32397/tesea.vol7.n1.707",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            2
+          ]
+        ],
+        "date-time": "2026-06-02T15:10:57Z",
+        "timestamp": 1780413057000
+      },
+      "page": "1-15",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Harmonic mitigation of PV-based resonant Cuk converter using lightning search optimization"
+      ],
+      "prefix": "10.32397",
+      "volume": "7",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-0224-9657",
+          "authenticated-orcid": false,
+          "given": "Ulaganathan",
+          "family": "M",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3158-2125",
+          "authenticated-orcid": false,
+          "given": "Muniraj",
+          "family": "R",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3325-566X",
+          "authenticated-orcid": false,
+          "given": "Karuppiah",
+          "family": "N",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8146-0572",
+          "authenticated-orcid": false,
+          "given": "Mounica",
+          "family": "Patil",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "17094",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            2
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "14163",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhiliang Zhang et al. Analysis and decoupling design of a 30 MHz resonant SEPIC converter. IEEE Transactions on Power Electronics, 31(6):4536–4548, 2015.",
+          "DOI": "10.1109/TPEL.2015.2472479"
+        },
+        {
+          "key": "14164",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. Jayaprakash et al. Comparison of solar based closed loop DC-DC converter using PID and ANN control for shunt motor drive. International Journal of Power Electronics and Drive Systems, 10(3):1324, 2019.",
+          "DOI": "10.11591/ijpeds.v10.i3.pp1324-1328"
+        },
+        {
+          "key": "14165",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yuqi Wei, Quanming Luo, and Alan Mantooth. Overview of modulation strategies for LLC resonant converter. IEEE Transactions on Power Electronics, 35(10):10423–10443, 2020.",
+          "DOI": "10.1109/TPEL.2020.2975392"
+        },
+        {
+          "key": "14166",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ngoc Dat Dao and Dong-Choon Lee. High-efficiency hybrid LLC resonant converter for on-board chargers of plug-in electric vehicles. IEEE Transactions on Power Electronics, 35(8):8324–8334, 2020.",
+          "DOI": "10.1109/TPEL.2020.2968084"
+        },
+        {
+          "key": "14167",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jingying Hu et al. High-frequency resonant SEPIC converter with wide input and output voltage ranges. IEEE Transactions on Power Electronics, 27(1):189–200, 2012.",
+          "DOI": "10.1109/TPEL.2011.2149543"
+        },
+        {
+          "key": "14168",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cheng-Yu Tang et al. An optimal frequency-modulated hybrid MPPT algorithm for the LLC resonant converter in PV power applications. IEEE Transactions on Power Electronics, 37(1):944–954, 2022.",
+          "DOI": "10.1109/TPEL.2021.3094676"
+        },
+        {
+          "key": "14169",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Junjun Deng et al. Frequency and parameter combined tuning method of LCC–LCC compensated resonant converter with wide coupling variation for EV wireless charger. IEEE Journal of Emerging and Selected Topics in Power Electronics, 10(1):956–968, 2022.",
+          "DOI": "10.1109/JESTPE.2021.3077459"
+        },
+        {
+          "key": "14170",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. R. Espinoza and G. Joos. Current-source converter online pattern generator switching frequency minimization. IEEE Transactions on Industrial Electronics, 44(2):198–206, 1997.",
+          "DOI": "10.1109/41.564158"
+        },
+        {
+          "key": "14171",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rahul Pandey and Bhim Singh. A power-factor-corrected LLC resonant converter for electric vehicle charger using Cuk converter. IEEE Transactions on Industry Applications, 55(6):6278–6286, 2019.",
+          "DOI": "10.1109/TIA.2019.2934059"
+        },
+        {
+          "key": "14172",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ashish Shrivastava and Bhim Singh. PFC Cuk converter based electronic ballast for an 18 W compact fluorescent lamp. In 2010 5th International Conference on Industrial and Information Systems. IEEE, 2010.",
+          "DOI": "10.1109/ICIINFS.2010.5578671"
+        },
+        {
+          "key": "14173",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Shouxiang Li, Yifei Zheng, and Keyue Ma Smedley. A family of step-up resonant switched-capacitor converters with a continuously adjustable conversion ratio. IEEE Transactions on Power Electronics, 34(1):378–390, 2019.",
+          "DOI": "10.1109/TPEL.2018.2812198"
+        },
+        {
+          "key": "14174",
+          "doi-asserted-by": "crossref",
+          "unstructured": "B. R. Lin and C. L. Huang. Zero voltage switching active clamp buck-boost stage Cuk converter. IET Electric Power Applications, 1(2):173–182, 2007.",
+          "DOI": "10.1049/iet-epa:20060157"
+        },
+        {
+          "key": "14175",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Laith Abualigah et al. Lightning search algorithm: a comprehensive survey. Applied Intelligence, 51:2353–2376, 2021.",
+          "DOI": "10.1007/s10489-020-01947-2"
+        },
+        {
+          "key": "14176",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Daocheng Huang, Shu Ji, and Fred C. Lee. LLC resonant converter with matrix transformer. IEEE Transactions on Power Electronics, 29(8):4339–4347, 2014.",
+          "DOI": "10.1109/TPEL.2013.2292676"
+        },
+        {
+          "key": "14177",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mangesh Borage, Sunil Tiwari, and Swarna Kotaiah. Analysis and design of an LCL-T resonant converter as a constant-current power supply. IEEE Transactions on Industrial Electronics, 52(6):1547–1554, 2005.",
+          "DOI": "10.1109/TIE.2005.858729"
+        },
+        {
+          "key": "14178",
+          "doi-asserted-by": "crossref",
+          "unstructured": "B. Reddy, G. Kumar, B. Kumar, B. Jhansi, B. Sandeep, and Sarada Kota. Fuel cell based ultra-voltage gain boost converter for electric vehicle applications. Transactions on Energy Systems and Engineering Applications, 4(1):68–90, 2023.",
+          "DOI": "10.32397/tesea.vol4.n1.519"
+        }
+      ],
+      "container-title": [
+        "Transactions on Energy Systems and Engineering Applications"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "https://revistas.utb.edu.co/tesea/article/download/707/480",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://revistas.utb.edu.co/tesea/article/download/707/480",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            2
+          ]
+        ],
+        "date-time": "2026-06-02T15:11:10Z",
+        "timestamp": 1780413070000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://revistas.utb.edu.co/tesea/article/view/707"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            2
+          ]
+        ]
+      },
+      "references-count": 16,
+      "journal-issue": {
+        "issue": "1",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              9
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.32397/tesea.vol7.n1.707",
+      "relation": {},
+      "ISSN": [
+        "2745-0120"
+      ],
+      "issn-type": [
+        {
+          "value": "2745-0120",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            2
+          ]
+        ]
+      }
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Ulaganathan M",
+      "given_name_from_source": "Ulaganathan",
+      "family_name_from_source": "M",
+      "orcid_from_source": "https://orcid.org/0000-0002-0224-9657",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Muniraj R",
+      "given_name_from_source": "Muniraj",
+      "family_name_from_source": "R",
+      "orcid_from_source": "https://orcid.org/0000-0002-3158-2125",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Karuppiah N",
+      "given_name_from_source": "Karuppiah",
+      "family_name_from_source": "N",
+      "orcid_from_source": "https://orcid.org/0000-0003-3325-566X",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Mounica Patil",
+      "given_name_from_source": "Mounica",
+      "family_name_from_source": "Patil",
+      "orcid_from_source": "https://orcid.org/0000-0002-8146-0572",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

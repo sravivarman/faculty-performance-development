@@ -1,0 +1,662 @@
+{
+  "doi": "10.1016/j.heliyon.2024.e23992",
+  "title": "Power enhancement in PV arrays under partial shaded conditions with different array configuration",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Heliyon",
+  "publisher": "Elsevier BV",
+  "publication_date": null,
+  "online_publication_date": null,
+  "print_publication_date": null,
+  "volume": "10",
+  "issue": "2",
+  "pages_or_article_number": "e23992",
+  "issn": "2405-8440",
+  "eissn": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1016/j.heliyon.2024.e23992",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:30.953828+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            21
+          ]
+        ],
+        "date-time": "2026-08-21T13:09:04Z",
+        "timestamp": 1787317744422,
+        "version": "build-2736575974"
+      },
+      "reference-count": 30,
+      "publisher": "Elsevier BV",
+      "issue": "2",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2024-01-01T00:00:00Z",
+            "timestamp": 1704067200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2024-01-01T00:00:00Z",
+            "timestamp": 1704067200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                1,
+                2
+              ]
+            ],
+            "date-time": "2024-01-02T00:00:00Z",
+            "timestamp": 1704153600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 1,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "cell.com",
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Heliyon"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            1
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.heliyon.2024.e23992",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            11
+          ]
+        ],
+        "date-time": "2024-01-11T02:46:59Z",
+        "timestamp": 1704941219000
+      },
+      "page": "e23992",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 27,
+      "title": [
+        "Power enhancement in PV arrays under partial shaded conditions with different array configuration"
+      ],
+      "prefix": "10.1016",
+      "volume": "10",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-5184-8541",
+          "authenticated-orcid": false,
+          "given": "Sakthivel",
+          "family": "Ganesan",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Prince Winston",
+          "family": "David",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1561-1376",
+          "authenticated-orcid": false,
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ilhami",
+          "family": "Colak",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "issue": "4",
+          "key": "10.1016/j.heliyon.2024.e23992_bib1",
+          "doi-asserted-by": "crossref",
+          "first-page": "485",
+          "DOI": "10.1177/0144598716650552",
+          "article-title": "Review on recent trend of solar photovoltaic technology",
+          "volume": "34",
+          "author": "Gul",
+          "year": "2016",
+          "journal-title": "Energy Explor. Exploit."
+        },
+        {
+          "issue": "17",
+          "key": "10.1016/j.heliyon.2024.e23992_bib2",
+          "doi-asserted-by": "crossref",
+          "first-page": "1881",
+          "DOI": "10.1080/15325008.2017.1378949",
+          "article-title": "Priority-based energy management technique for integration of solar PV, battery, and fuel cell systems in an autonomous DC microgrid",
+          "volume": "45",
+          "author": "Azharuddin Shamshuddin",
+          "year": "2017",
+          "journal-title": "Elec. Power Compon. Syst."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e23992_bib3",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.enconman.2020.113385",
+          "article-title": "A novel objective function with artificial ecosystem-based optimization for relieving the mismatching power loss of large-scale photovoltaic array",
+          "volume": "225",
+          "author": "Yousri",
+          "year": "2020",
+          "journal-title": "Energy Convers. Manag."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.heliyon.2024.e23992_bib4",
+          "doi-asserted-by": "crossref",
+          "first-page": "3024",
+          "DOI": "10.1109/JSYST.2020.3003255",
+          "article-title": "Improved Perturb and observation maximum power point tracking technique for solar photovoltaic power generation systems",
+          "volume": "15",
+          "author": "Manoharan",
+          "year": "2021",
+          "journal-title": "IEEE Syst. J."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e23992_bib5",
+          "doi-asserted-by": "crossref",
+          "first-page": "911",
+          "DOI": "10.1016/j.renene.2019.02.030",
+          "article-title": "Development of photovoltaic technologies for global impact",
+          "volume": "138",
+          "author": "Sinke",
+          "year": "2019",
+          "journal-title": "Renew. Energy"
+        },
+        {
+          "issue": "18",
+          "key": "10.1016/j.heliyon.2024.e23992_bib6",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.3390/en12183548",
+          "article-title": "Fractional chaos maps with flower pollination algorithm for partial shading mitigation of photovoltaic systems",
+          "volume": "12",
+          "author": "Yousri",
+          "year": "2019",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e23992_bib7",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1155/2012/120214",
+          "article-title": "A comprehensive review and analysis of solar photovoltaic array configurations under partial shaded conditions",
+          "volume": "2012",
+          "author": "Ramaprabha",
+          "year": "2012",
+          "journal-title": "Int. J. Photoenergy"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e23992_bib8",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1007/s00202-023-01816-4",
+          "article-title": "Fault identification scheme for solar photovoltaic array in bridge and honeycomb configuration",
+          "author": "Ganesan",
+          "year": "2023",
+          "journal-title": "Electr. Eng."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e23992_bib9",
+          "article-title": "Solar photovoltaic system performance improvement using a new fault identification technique",
+          "author": "Ganesan",
+          "year": "2023",
+          "journal-title": "Elec. Power Compon. Syst."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e23992_bib10",
+          "article-title": "Maximum power enhancement in solar PV modules through modified TCT interconnection method",
+          "volume": "60",
+          "author": "Suriya kala",
+          "year": "2023",
+          "journal-title": "Sustain. Energy Technol. Assessments"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e23992_bib11",
+          "series-title": "Static and Dynamic Reconfiguration Approaches for Mitigation of Partial Shading Influence in Photovoltaic Arrays",
+          "author": "Ajmal",
+          "year": "2023"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e23992_bib12",
+          "article-title": "Photovoltaic array reconfiguration under partial shading conditions for maximum power extraction via knight's tour technique",
+          "author": "Rezazadeh",
+          "year": "2022",
+          "journal-title": "J Ambient IntellHumanizComput, Sep."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e23992_bib13",
+          "article-title": "Madan mohan malaviya university of technology, north Dakota state university, institute of electrical and Electronics engineers. Uttar pradesh section, IEEE industry applications society, and institute of electrical and Electronics engineers, ICE3-2020",
+          "author": "Soni",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e23992_bib14",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.solener.2019.02.057",
+          "article-title": "Reconfiguration strategies for reducing partial shading effects in photovoltaic arrays: state of the art",
+          "volume": "182",
+          "author": "Sai Krishna",
+          "year": "2019",
+          "journal-title": "Sol. Energy"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e23992_bib15",
+          "first-page": "2015",
+          "article-title": "Photovoltaic array reconfiguration strategy for maximization of energy production",
+          "author": "Vicente",
+          "year": "2015",
+          "journal-title": "Int. J. Photoenergy"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.heliyon.2024.e23992_bib16",
+          "first-page": "36",
+          "article-title": "Automatic PV array reconfiguration under partial shading conditions",
+          "volume": "4",
+          "author": "Siddiq",
+          "year": "2023",
+          "journal-title": "Abdulrahman Ikram Siddiq /NTU Journal of Renewable Energy"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e23992_bib17",
+          "author": "Hariharasudhan"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e23992_bib18",
+          "series-title": "RELIABILITY EVALUATION OF SOLAR PHOTOVOLTAIC ARRAYS †",
+          "author": "Gautam",
+          "year": "2002"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e23992_bib19",
+          "doi-asserted-by": "crossref",
+          "first-page": "336",
+          "DOI": "10.1016/j.solener.2017.12.004",
+          "article-title": "Analysis and comparison of different PV array configurations under partial shading conditions",
+          "volume": "160",
+          "author": "Bingöl",
+          "year": "2018",
+          "journal-title": "Sol. Energy"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e23992_bib20",
+          "doi-asserted-by": "crossref",
+          "first-page": "97661",
+          "DOI": "10.1109/ACCESS.2021.3094736",
+          "article-title": "L-shape propagated array configuration with dynamic reconfiguration algorithm for enhancing energy conversion rate of partial shaded photovoltaic systems",
+          "volume": "9",
+          "author": "Srinivasan",
+          "year": "2021",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e23992_bib21",
+          "doi-asserted-by": "crossref",
+          "first-page": "123103",
+          "DOI": "10.1109/ACCESS.2021.3109248",
+          "article-title": "Power enhancement in partial shaded photovoltaic system using spiral pattern array configuration scheme",
+          "volume": "9",
+          "author": "Cherukuri",
+          "year": "2021",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e23992_bib22",
+          "series-title": "Analysis of Mismatch Losses Arising from Crystalline and Amorphous Silicon PV Panels",
+          "author": "Paul",
+          "year": "2012"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.heliyon.2024.e23992_bib23",
+          "doi-asserted-by": "crossref",
+          "first-page": "302",
+          "DOI": "10.1109/TEC.2007.914308",
+          "article-title": "MATLAB-based modeling to study the effects of partial shading on PV array characteristics",
+          "volume": "23",
+          "author": "Patel",
+          "year": "2008",
+          "journal-title": "IEEE Trans. Energy Convers."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e23992_bib24",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.energy.2019.116491",
+          "article-title": "Impact of bypass diode forward voltage on maximum power of a photovoltaic system under partial shading conditions",
+          "volume": "191",
+          "author": "Teo",
+          "year": "2020",
+          "journal-title": "Energy"
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.heliyon.2024.e23992_bib25",
+          "doi-asserted-by": "crossref",
+          "first-page": "912",
+          "DOI": "10.1049/iet-rpg.2016.0902",
+          "article-title": "Experimental investigation of the effect of partial shading on photovoltaic performance",
+          "volume": "11",
+          "author": "Al Mamun",
+          "year": "2017",
+          "journal-title": "IET Renew. Power Gener."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.heliyon.2024.e23992_bib26",
+          "doi-asserted-by": "crossref",
+          "first-page": "405",
+          "DOI": "10.1109/JPHOTOV.2013.2282736",
+          "article-title": "A simple bipolar transistor-based bypass approach for photovoltaic modules",
+          "volume": "4",
+          "author": "Dalessandro",
+          "year": "2014",
+          "journal-title": "IEEE J. Photovoltaics"
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e23992_bib27",
+          "doi-asserted-by": "crossref",
+          "first-page": "430",
+          "DOI": "10.1016/j.solener.2019.02.010",
+          "article-title": "A bypass circuit for avoiding the hot spot in PV modules",
+          "volume": "181",
+          "author": "Guerriero",
+          "year": "2019",
+          "journal-title": "Sol. Energy"
+        },
+        {
+          "issue": "18",
+          "key": "10.1016/j.heliyon.2024.e23992_bib28",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.3390/en12183548",
+          "article-title": "Fractional chaos maps with flower pollination algorithm for partial shading mitigation of photovoltaic systems",
+          "volume": "12",
+          "author": "Yousri",
+          "year": "2019",
+          "journal-title": "Energies"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.heliyon.2024.e23992_bib29",
+          "doi-asserted-by": "crossref",
+          "first-page": "3240",
+          "DOI": "10.1109/TIE.2017.2736484",
+          "article-title": "A novel and fast MPPT method suitable for both fast changing and partially shaded conditions",
+          "volume": "65",
+          "author": "Peng",
+          "year": "2018",
+          "journal-title": "IEEE Trans. Ind. Electron."
+        },
+        {
+          "key": "10.1016/j.heliyon.2024.e23992_bib30",
+          "series-title": "Advances in Intelligent Systems and Computing",
+          "doi-asserted-by": "crossref",
+          "first-page": "79",
+          "DOI": "10.1007/978-81-322-2656-7_8",
+          "article-title": "Fireworks algorithm-based maximum power point tracking for uniform irradiation as well as under partial shading condition",
+          "author": "Sangeetha",
+          "year": "2016"
+        }
+      ],
+      "container-title": [
+        "Heliyon"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2405844024000239?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2405844024000239?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            13
+          ]
+        ],
+        "date-time": "2026-07-13T08:16:24Z",
+        "timestamp": 1783930584000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2405844024000239"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            1
+          ]
+        ]
+      },
+      "references-count": 30,
+      "journal-issue": {
+        "issue": "2",
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              1
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "S2405844024000239"
+      ],
+      "URL": "https://doi.org/10.1016/j.heliyon.2024.e23992",
+      "relation": {},
+      "ISSN": [
+        "2405-8440"
+      ],
+      "issn-type": [
+        {
+          "value": "2405-8440",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            1
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Power enhancement in PV arrays under partial shaded conditions with different array configuration",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Heliyon",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.heliyon.2024.e23992",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2024 The Authors. Published by Elsevier Ltd.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "e23992"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Sakthivel Ganesan",
+      "given_name_from_source": "Sakthivel",
+      "family_name_from_source": "Ganesan",
+      "orcid_from_source": "https://orcid.org/0000-0002-5184-8541",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Prince Winston David",
+      "given_name_from_source": "Prince Winston",
+      "family_name_from_source": "David",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": "https://orcid.org/0000-0003-1561-1376",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Ilhami Colak",
+      "given_name_from_source": "Ilhami",
+      "family_name_from_source": "Colak",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

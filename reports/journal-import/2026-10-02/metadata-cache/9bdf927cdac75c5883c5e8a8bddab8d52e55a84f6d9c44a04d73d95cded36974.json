@@ -1,0 +1,799 @@
+{
+  "doi": "10.1038/s41598-024-55098-2",
+  "title": "A novel optimized neural network model for cyber attack detection using enhanced whale optimization algorithm",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Scientific Reports",
+  "publisher": "Springer Science and Business Media LLC",
+  "publication_date": "2024-03-07",
+  "online_publication_date": "2024-03-07",
+  "print_publication_date": null,
+  "volume": "14",
+  "issue": "1",
+  "pages_or_article_number": "5590",
+  "issn": null,
+  "eissn": "2045-2322",
+  "isbn": null,
+  "url": "https://doi.org/10.1038/s41598-024-55098-2",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:22.335097+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            23
+          ]
+        ],
+        "date-time": "2026-09-23T14:24:25Z",
+        "timestamp": 1790173465018,
+        "version": "4.1.0"
+      },
+      "reference-count": 26,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                3,
+                7
+              ]
+            ],
+            "date-time": "2024-03-07T00:00:00Z",
+            "timestamp": 1709769600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                3,
+                7
+              ]
+            ],
+            "date-time": "2024-03-07T00:00:00Z",
+            "timestamp": 1709769600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Sci Rep"
+      ],
+      "abstract": "<jats:title>Abstract</jats:title><jats:p>Cybersecurity is critical in today’s digitally linked and networked society. There is no way to overestimate the importance of cyber security as technology develops and becomes more pervasive in our daily lives. Cybersecurity is essential to people’s protection. One type of cyberattack known as “credential stuffing” involves using previously acquired usernames and passwords by attackers to access user accounts on several websites without authorization. This is feasible as a lot of people use the same passwords and usernames on several different websites. Maintaining the security of online accounts requires defence against credential-stuffing attacks. The problems of credential stuffing attacks, failure detection, and prediction can be handled by the suggested EWOA-ANN model. Here, a novel optimization approach known as Enhanced Whale Optimization Algorithm (EWOA) is put on to train the neural network. The effectiveness of the suggested attack identification model has been demonstrated, and an empirical comparison will be carried out with respect to specific security analysis.</jats:p>",
+      "DOI": "10.1038/s41598-024-55098-2",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            7
+          ]
+        ],
+        "date-time": "2024-03-07T07:02:09Z",
+        "timestamp": 1709794929000
+      },
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 33,
+      "title": [
+        "A novel optimized neural network model for cyber attack detection using enhanced whale optimization algorithm"
+      ],
+      "prefix": "10.1038",
+      "volume": "14",
+      "author": [
+        {
+          "given": "Koganti Krishna",
+          "family": "Jyothi",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Subba Reddy",
+          "family": "Borra",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Koganti",
+          "family": "Srilakshmi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ganesh Prasad",
+          "family": "Reddy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ilhami",
+          "family": "Colak",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "C.",
+          "family": "Dhanamjayulu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ravikumar",
+          "family": "Chinthaginjala",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Baseem",
+          "family": "Khan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            7
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "55098_CR1",
+          "doi-asserted-by": "publisher",
+          "first-page": "41457",
+          "DOI": "10.1109/ACCESS.2022.3166628",
+          "volume": "10",
+          "author": "OT Taofeek",
+          "year": "2022",
+          "unstructured": "Taofeek, O. T. et al. A cognitive deception model for generating fake documents to curb data exfiltration in networks during cyber-attacks. IEEE Access 10, 41457–41476 (2022).",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "issue": "8",
+          "key": "55098_CR2",
+          "doi-asserted-by": "publisher",
+          "first-page": "462",
+          "DOI": "10.3390/info14080462",
+          "volume": "14",
+          "author": "M Alawida",
+          "year": "2023",
+          "unstructured": "Alawida, M. et al. A comprehensive study of ChatGPT: Advancements, limitations, and ethical considerations in natural language processing and cybersecurity. Information 14(8), 462 (2023).",
+          "journal-title": "Information"
+        },
+        {
+          "key": "55098_CR3",
+          "doi-asserted-by": "publisher",
+          "first-page": "20952",
+          "DOI": "10.1038/s41598-023-48310-2",
+          "volume": "13",
+          "author": "IJ Onu",
+          "year": "2023",
+          "unstructured": "Onu, I. J. et al. Author correction: Detection of Ponzi scheme on Ethereum using machine learning algorithms. Sci. Rep. 13, 20952 (2023).",
+          "journal-title": "Sci. Rep."
+        },
+        {
+          "issue": "31",
+          "key": "55098_CR4",
+          "doi-asserted-by": "publisher",
+          "first-page": "23063",
+          "DOI": "10.1007/s00521-023-08857-7",
+          "volume": "35",
+          "author": "AE Omolara",
+          "year": "2023",
+          "unstructured": "Omolara, A. E., Alawida, M. & Abiodun, O. I. Drone cybersecurity issues, solutions, trend insights and future perspectives: A survey. Neural Comput. Appl. 35(31), 23063–23101 (2023).",
+          "journal-title": "Neural Comput. Appl."
+        },
+        {
+          "key": "55098_CR5",
+          "doi-asserted-by": "publisher",
+          "first-page": "2163",
+          "DOI": "10.1007/s12652-019-01248-8",
+          "volume": "11",
+          "author": "PK Panda",
+          "year": "2019",
+          "unstructured": "Panda, P. K. & Chattopadhyay, S. An improved authentication and security scheme for LTE/LTE-A networks. J. Ambient Intell. Humaniz. Comput. 11, 2163–2185. https://doi.org/10.1007/s12652-019-01248-8 (2019).",
+          "journal-title": "J. Ambient Intell. Humaniz. Comput."
+        },
+        {
+          "issue": "4",
+          "key": "55098_CR6",
+          "doi-asserted-by": "publisher",
+          "first-page": "861",
+          "DOI": "10.1007/s10586-013-0259-6",
+          "volume": "16",
+          "author": "W Zhang",
+          "year": "2013",
+          "unstructured": "Zhang, W., Zhang, Y., Chen, J., Li, H. & Wang, Y. End-to-end security scheme for machine type communication based on generic authentication architecture. Cluster Comput. 16(4), 861–871. https://doi.org/10.1007/s10586-013-0259-6 (2013).",
+          "journal-title": "Cluster Comput."
+        },
+        {
+          "key": "55098_CR7",
+          "doi-asserted-by": "publisher",
+          "first-page": "101883",
+          "DOI": "10.1016/j.adhoc.2019.101883",
+          "volume": "91",
+          "author": "Z Alavikia",
+          "year": "2019",
+          "unstructured": "Alavikia, Z. & Ghasemi, A. Pool resource management based on early collision detection in random access of massive MTC over LTE. Ad Hoc Netw. 91, 101883. https://doi.org/10.1016/j.adhoc.2019.101883 (2019).",
+          "journal-title": "Ad Hoc Netw."
+        },
+        {
+          "key": "55098_CR8",
+          "doi-asserted-by": "publisher",
+          "first-page": "152",
+          "DOI": "10.1016/j.comcom.2018.08.002",
+          "volume": "129",
+          "author": "Z Alavikia",
+          "year": "2018",
+          "unstructured": "Alavikia, Z. & Ghasemi, A. Random multiple data packets transmission scheme in LTE-based machine-type communications. Comput. Commun. 129, 152–165. https://doi.org/10.1016/j.comcom.2018.08.002 (2018).",
+          "journal-title": "Comput. Commun."
+        },
+        {
+          "key": "55098_CR9",
+          "doi-asserted-by": "publisher",
+          "first-page": "222",
+          "DOI": "10.1016/j.comnet.2018.01.044",
+          "volume": "141",
+          "author": "M Tavana",
+          "year": "2018",
+          "unstructured": "Tavana, M., Rahmati, A. & Shah-Mansouri, V. Congestion control with adaptive access class barring for LTE M2M overload using Kalman filters. Comput. Netw. 141, 222–233. https://doi.org/10.1016/j.comnet.2018.01.044 (2018).",
+          "journal-title": "Comput. Netw."
+        },
+        {
+          "key": "55098_CR10",
+          "doi-asserted-by": "publisher",
+          "first-page": "1",
+          "DOI": "10.1016/j.comnet.2019.107071",
+          "volume": "169",
+          "author": "SN Swain",
+          "year": "2020",
+          "unstructured": "Swain, S. N. & Murthy, C. S. R. A novel collision aware network assisted device discovery scheme empowering massive D2D communications in 3GPP LTE-A networks. Comput. Netw. 169, 1–63. https://doi.org/10.1016/j.comnet.2019.107071 (2020).",
+          "journal-title": "Comput. Netw."
+        },
+        {
+          "key": "55098_CR11",
+          "doi-asserted-by": "publisher",
+          "first-page": "29",
+          "DOI": "10.1016/j.pmcj.2018.11.002",
+          "volume": "52",
+          "author": "J-M Liang",
+          "year": "2019",
+          "unstructured": "Liang, J.-M., Chang, P.-Y. & Chen, J.-J. Energy-efficient scheduling scheme with spatial and temporal aggregation for small and massive transmissions in LTE-M networks. Pervasive Mob. Comput. 52, 29–45. https://doi.org/10.1016/j.pmcj.2018.11.002 (2019).",
+          "journal-title": "Pervasive Mob. Comput."
+        },
+        {
+          "key": "55098_CR12",
+          "doi-asserted-by": "publisher",
+          "first-page": "1",
+          "DOI": "10.1016/j.micpro.2019.102899",
+          "volume": "72",
+          "author": "L Cavo",
+          "year": "2020",
+          "unstructured": "Cavo, L., Fuhrmann, S. & Liu, L. Design of an area efficient crypto processor for 3GPP-LTE NB-IoT devices. Microprocess. Microsyst. 72, 1–22. https://doi.org/10.1016/j.micpro.2019.102899 (2020).",
+          "journal-title": "Microprocess. Microsyst."
+        },
+        {
+          "key": "55098_CR13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cie.2020.107086",
+          "volume": "153",
+          "author": "S Chakraborty",
+          "year": "2021",
+          "unstructured": "Chakraborty, S. et al. A novel enhanced whale optimization algorithm for global optimization. Comput. Ind. Eng. 153, 107086 (2021).",
+          "journal-title": "Comput. Ind. Eng."
+        },
+        {
+          "key": "55098_CR14",
+          "first-page": "10217",
+          "volume": "34",
+          "author": "OI Abiodun",
+          "year": "2022",
+          "unstructured": "Abiodun, O. I. et al. Data provenance for cloud forensic investigations, security, challenges, solutions and future perspectives: A survey. J. King Saud Univ. Comput. Inf. Sci. 34, 10217–10245 (2022).",
+          "journal-title": "J. King Saud Univ. Comput. Inf. Sci."
+        },
+        {
+          "key": "55098_CR15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cose.2021.102494",
+          "volume": "112",
+          "author": "AE Omolara",
+          "year": "2022",
+          "unstructured": "Omolara, A. E. et al. The internet of things security: A survey encompassing unexplored areas and new insights. Comput. Secur. 112, 102494 (2022).",
+          "journal-title": "Comput. Secur."
+        },
+        {
+          "issue": "11",
+          "key": "55098_CR16",
+          "doi-asserted-by": "publisher",
+          "first-page": "e00938",
+          "DOI": "10.1016/j.heliyon.2018.e00938",
+          "volume": "4",
+          "author": "OI Abiodun",
+          "year": "2018",
+          "unstructured": "Abiodun, O. I. et al. State-of-the-art in artificial neural network applications: A survey. Heliyon 4(11), e00938 (2018).",
+          "journal-title": "Heliyon"
+        },
+        {
+          "key": "55098_CR17",
+          "first-page": "8176",
+          "volume": "34",
+          "author": "M Alawida",
+          "year": "2022",
+          "unstructured": "Alawida, M. et al. A deeper look into cybersecurity issues in the wake of Covid-19: A survey. J. King Saud Univ. Comput. Inf. Sci. 34, 8176–8206 (2022).",
+          "journal-title": "J. King Saud Univ. Comput. Inf. Sci."
+        },
+        {
+          "key": "55098_CR18",
+          "doi-asserted-by": "publisher",
+          "first-page": "93",
+          "DOI": "10.1016/j.jnca.2018.01.010",
+          "volume": "107",
+          "author": "MK Giluka",
+          "year": "2018",
+          "unstructured": "Giluka, M. K., Pasca, T. V., Priyadarshi, T. & Tamma, B. R. Enhanced class dynamic priority scheduling to support uplink IoT traffic in LTE-A networks. J. Netw. Comput. Appl. 107, 93–112. https://doi.org/10.1016/j.jnca.2018.01.010 (2018).",
+          "journal-title": "J. Netw. Comput. Appl."
+        },
+        {
+          "key": "55098_CR19",
+          "doi-asserted-by": "publisher",
+          "first-page": "46",
+          "DOI": "10.1016/j.advengsoft.2013.12.007",
+          "volume": "69",
+          "author": "S Mirjalili",
+          "year": "2014",
+          "unstructured": "Mirjalili, S., Mirjalili, S. M. & Lewis, A. Grey wolf optimizer. Adv. Eng. Softw. 69, 46–61 (2014).",
+          "journal-title": "Adv. Eng. Softw."
+        },
+        {
+          "key": "55098_CR20",
+          "doi-asserted-by": "publisher",
+          "first-page": "66",
+          "DOI": "10.1016/j.comnet.2016.02.007",
+          "volume": "99",
+          "author": "H Lai",
+          "year": "2016",
+          "unstructured": "Lai, H., Lu, R., Zheng, D., Li, H. & Shen, X. S. GLARM: Group-based lightweight authentication scheme for resource-constrained machine to machine communications. Comput. Netw. 99, 66–81. https://doi.org/10.1016/j.comnet.2016.02.007 (2016).",
+          "journal-title": "Comput. Netw."
+        },
+        {
+          "issue": "3",
+          "key": "55098_CR21",
+          "doi-asserted-by": "publisher",
+          "first-page": "944",
+          "DOI": "10.1016/j.jestch.2017.04.004",
+          "volume": "20",
+          "author": "KV Deshpande",
+          "year": "2017",
+          "unstructured": "Deshpande, K. V. & Rajesh, A. Investigation on IMCP based clustering in LTE-M communication for smart metering applications. Eng. Sci. Technol. Int. J. 20(3), 944–955. https://doi.org/10.1016/j.jestch.2017.04.004 (2017).",
+          "journal-title": "Eng. Sci. Technol. Int. J."
+        },
+        {
+          "key": "55098_CR22",
+          "doi-asserted-by": "publisher",
+          "first-page": "131",
+          "DOI": "10.1016/j.comcom.2018.06.007",
+          "volume": "127",
+          "author": "JF Bukhari",
+          "year": "2018",
+          "unstructured": "Bukhari, J. F., Park, J.-H. & Yoon, W. Providing multicast services over SDN-evolved LTE network: Architecture, procedures and performance analysis. Comput. Commun. 127, 131–145. https://doi.org/10.1016/j.comcom.2018.06.007 (2018).",
+          "journal-title": "Comput. Commun."
+        },
+        {
+          "key": "55098_CR23",
+          "doi-asserted-by": "publisher",
+          "first-page": "877",
+          "DOI": "10.1016/j.compeleceng.2018.01.011",
+          "volume": "72",
+          "author": "SA Priyadharshini",
+          "year": "2018",
+          "unstructured": "Priyadharshini, S. A. & Bhuvaneswari, P. T. V. Regression model for handover control parameter configuration in LTE-A networks. Comput. Electr. Eng. 72, 877–893. https://doi.org/10.1016/j.compeleceng.2018.01.011 (2018).",
+          "journal-title": "Comput. Electr. Eng."
+        },
+        {
+          "key": "55098_CR24",
+          "doi-asserted-by": "publisher",
+          "first-page": "19",
+          "DOI": "10.5267/j.ijiec.2015.8.004",
+          "volume": "7",
+          "author": "R Venkata Rao",
+          "year": "2016",
+          "unstructured": "Venkata Rao, R. Jaya: A simple and new optimization algorithm for solving constrained and unconstrained optimization problems. Int. J. Ind. Eng. Comput. 7, 19–34. https://doi.org/10.5267/j.ijiec.2015.8.004 (2016).",
+          "journal-title": "Int. J. Ind. Eng. Comput."
+        },
+        {
+          "key": "55098_CR25",
+          "doi-asserted-by": "publisher",
+          "first-page": "34",
+          "DOI": "10.1016/j.swevo.2013.06.001",
+          "volume": "13",
+          "author": "I Fister",
+          "year": "2013",
+          "unstructured": "Fister, I., Fister, I. Jr., Yang, X.-S. & Brest, J. A comprehensive review of firefly algorithms. Swarm Evolut. Comput. 13, 34–46 (2013).",
+          "journal-title": "Swarm Evolut. Comput."
+        },
+        {
+          "issue": "2–3",
+          "key": "55098_CR26",
+          "first-page": "258",
+          "volume": "9",
+          "author": "K Jyothi",
+          "year": "2019",
+          "unstructured": "Jyothi, K. Cluster-based authentication for machine type communication in LTE network using elliptic curve cryptography. Int. J. Cloud Comput. 9(2–3), 258–284 (2019).",
+          "journal-title": "Int. J. Cloud Comput."
+        }
+      ],
+      "container-title": [
+        "Scientific Reports"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.nature.com/articles/s41598-024-55098-2.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.nature.com/articles/s41598-024-55098-2",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.nature.com/articles/s41598-024-55098-2.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            8
+          ]
+        ],
+        "date-time": "2024-08-08T08:03:30Z",
+        "timestamp": 1723104210000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.nature.com/articles/s41598-024-55098-2"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            7
+          ]
+        ]
+      },
+      "references-count": 26,
+      "journal-issue": {
+        "issue": "1",
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              12
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "55098"
+      ],
+      "URL": "https://doi.org/10.1038/s41598-024-55098-2",
+      "relation": {},
+      "ISSN": [
+        "2045-2322"
+      ],
+      "issn-type": [
+        {
+          "value": "2045-2322",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            7
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "14 December 2023",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "20 February 2024",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "7 March 2024",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "The authors declare no competing interests.",
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        }
+      ],
+      "article-number": "5590"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Koganti Krishna Jyothi",
+      "given_name_from_source": "Koganti Krishna",
+      "family_name_from_source": "Jyothi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Subba Reddy Borra",
+      "given_name_from_source": "Subba Reddy",
+      "family_name_from_source": "Borra",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Koganti Srilakshmi",
+      "given_name_from_source": "Koganti",
+      "family_name_from_source": "Srilakshmi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Ganesh Prasad Reddy",
+      "given_name_from_source": "Ganesh Prasad",
+      "family_name_from_source": "Reddy",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "Ilhami Colak",
+      "given_name_from_source": "Ilhami",
+      "family_name_from_source": "Colak",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 7,
+      "author_name_from_source": "C. Dhanamjayulu",
+      "given_name_from_source": "C.",
+      "family_name_from_source": "Dhanamjayulu",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 8,
+      "author_name_from_source": "Ravikumar Chinthaginjala",
+      "given_name_from_source": "Ravikumar",
+      "family_name_from_source": "Chinthaginjala",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 9,
+      "author_name_from_source": "Baseem Khan",
+      "given_name_from_source": "Baseem",
+      "family_name_from_source": "Khan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

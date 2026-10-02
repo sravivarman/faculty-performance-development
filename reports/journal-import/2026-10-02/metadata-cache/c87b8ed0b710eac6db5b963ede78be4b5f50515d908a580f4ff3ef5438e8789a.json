@@ -1,0 +1,563 @@
+{
+  "doi": "10.1155/etep/7935636",
+  "title": "Optimal Design of AI Controller for Fuel Cell and Renewable Energy Integrated Parallel Inverters Using Lyre Bird Algorithm",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "International Transactions on Electrical Energy Systems",
+  "publisher": "Wiley",
+  "publication_date": "2026-04-23",
+  "online_publication_date": "2026-04-23",
+  "print_publication_date": null,
+  "volume": "2026",
+  "issue": "1",
+  "pages_or_article_number": "7935636",
+  "issn": "2050-7038",
+  "eissn": "2050-7038",
+  "isbn": null,
+  "url": "https://doi.org/10.1155/etep/7935636",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:55:37.939251+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            24
+          ]
+        ],
+        "date-time": "2026-04-24T06:36:56Z",
+        "timestamp": 1777012616317,
+        "version": "3.51.4"
+      },
+      "reference-count": 22,
+      "publisher": "Wiley",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                23
+              ]
+            ],
+            "date-time": "2026-04-23T00:00:00Z",
+            "timestamp": 1776902400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 112,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2026-01-01T00:00:00Z",
+            "timestamp": 1767225600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "onlinelibrary.wiley.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "International Transactions on Electrical Energy Systems"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            1
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Power electronic devices are used to integrate clean energy systems (CES) like wind, solar, and other energy sources into the grid to meet the load demand. The parallel operated‐inverters (POI) can improve the power capacity and reliability of power electronic systems. When employing the standard droop control approach during a load change with varying feeder impedances, the primary disadvantage is the uneven distribution of power among the inverters. Furthermore, circulating currents (CC) flow between these POI, resulting in distortions in the current waveform and common‐mode voltage (CMV) and degrading the system performance. A novel approach is used in this work to address multiple objectives, such as (a) uniform power sharing between the two VSIs, (b) efficient CC and CMV minimization, (c) maintaining constant DC link voltage (CDCLV) under various solar power with constant temperature, and (d) reduction of THD. The improved droop control (IDC) approach is featured in this work along with an optimized artificial neural network controller (ANNC) with the lyrebird optimization algorithm (LOA). The performance of the suggested configuration is executed in MATLAB/Simulink under balanced and unbalanced load conditions. Additionally, a comparative analysis is conducted between controllers such as the proportional integral controller (PIC), fuzzy logic controller (FLC), and sliding mode controller (SMC), to demonstrate the effectiveness of the proposed controller.</jats:p>",
+      "DOI": "10.1155/etep/7935636",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            24
+          ]
+        ],
+        "date-time": "2026-04-24T05:41:06Z",
+        "timestamp": 1777009266000
+      },
+      "update-policy": "https://doi.org/10.1002/crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Optimal Design of AI Controller for Fuel Cell and Renewable Energy Integrated Parallel Inverters Using Lyre Bird Algorithm"
+      ],
+      "prefix": "10.1155",
+      "volume": "2026",
+      "author": [
+        {
+          "given": "Sravanthy",
+          "family": "Gaddameedhi",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "N. Uday",
+          "family": "Kumar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "N.",
+          "family": "Susheela",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Koganti",
+          "family": "Srilakshmi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1561-1376",
+          "authenticated-orcid": false,
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4931-724X",
+          "authenticated-orcid": false,
+          "given": "Shitharth",
+          "family": "Selvarajan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "311",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            23
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_10_1_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/electronics9111927"
+        },
+        {
+          "key": "e_1_2_10_2_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/electronics13030486"
+        },
+        {
+          "key": "e_1_2_10_3_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1049/iet-gtd.2018.0051"
+        },
+        {
+          "key": "e_1_2_10_4_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/s23146269"
+        },
+        {
+          "key": "e_1_2_10_5_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/tpel.2016.2569597"
+        },
+        {
+          "key": "e_1_2_10_6_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TIE.2020.2969068"
+        },
+        {
+          "key": "e_1_2_10_7_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TIA.2023.3244531"
+        },
+        {
+          "key": "e_1_2_10_8_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TIA.2023.3303862"
+        },
+        {
+          "key": "e_1_2_10_9_2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "PengZ. HuangH. YangL. LiuW. ChenS. andZhangY. Adaptive Voltage Compensation and Recovery Strategy for Improving Power Sharing in Island Microgrids 2022 IEEE 9th International Conference on Power Electronics Systems and Applications (PESA) 2022 Hong Kong 1–7 https://doi.org/10.1109/PESA55501.2022.10038376.",
+          "DOI": "10.1109/PESA55501.2022.10038376"
+        },
+        {
+          "key": "e_1_2_10_10_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.23919/CJEE.2023.000021"
+        },
+        {
+          "key": "e_1_2_10_11_2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "NdehS. G. EbotB. J. AkawungA. F. KhanN. D. andEmmanuelT. Decentralized Droop Control Strategies for Parallel-Connected Distributed Generators in an AC Islanded Microgrid: A Review 2023 7th International Conference on Green Energy and Applications (ICGEA) 2023 Singapore 83–90 https://doi.org/10.1109/ICGEA57077.2023.10126012.",
+          "DOI": "10.1109/ICGEA57077.2023.10126012"
+        },
+        {
+          "key": "e_1_2_10_12_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TSG.2022.3208752"
+        },
+        {
+          "key": "e_1_2_10_13_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TIE.2022.3167141"
+        },
+        {
+          "key": "e_1_2_10_14_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/app13126989"
+        },
+        {
+          "key": "e_1_2_10_15_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/tpwrs.2016.2621033"
+        },
+        {
+          "key": "e_1_2_10_16_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/15325008.2018.1466215"
+        },
+        {
+          "key": "e_1_2_10_17_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.est.2024.113324"
+        },
+        {
+          "key": "e_1_2_10_18_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/03772063.2024.2370959"
+        },
+        {
+          "key": "e_1_2_10_19_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/01969722.2023.2175144"
+        },
+        {
+          "key": "e_1_2_10_20_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1155/2024/6611240"
+        },
+        {
+          "key": "e_1_2_10_21_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fenrg.2024.1370412"
+        },
+        {
+          "key": "e_1_2_10_22_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fenrg.2024.1325865"
+        }
+      ],
+      "container-title": [
+        "International Transactions on Electrical Energy Systems"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1155/etep/7935636",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1155/etep/7935636",
+          "content-type": "application/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1155/etep/7935636",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            24
+          ]
+        ],
+        "date-time": "2026-04-24T05:41:08Z",
+        "timestamp": 1777009268000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://onlinelibrary.wiley.com/doi/10.1155/etep/7935636"
+        }
+      },
+      "subtitle": [],
+      "editor": [
+        {
+          "given": "Mingxuan",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "editor",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            1
+          ]
+        ]
+      },
+      "references-count": 22,
+      "journal-issue": {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              1
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1155/etep/7935636"
+      ],
+      "URL": "https://doi.org/10.1155/etep/7935636",
+      "archive": [
+        "Portico"
+      ],
+      "relation": {},
+      "ISSN": [
+        "2050-7038",
+        "2050-7038"
+      ],
+      "issn-type": [
+        {
+          "value": "2050-7038",
+          "type": "print"
+        },
+        {
+          "value": "2050-7038",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            1
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2025-03-17",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2026-02-13",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2026-04-23",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ],
+      "article-number": "7935636"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Sravanthy Gaddameedhi",
+      "given_name_from_source": "Sravanthy",
+      "family_name_from_source": "Gaddameedhi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "N. Uday Kumar",
+      "given_name_from_source": "N. Uday",
+      "family_name_from_source": "Kumar",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "N. Susheela",
+      "given_name_from_source": "N.",
+      "family_name_from_source": "Susheela",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Koganti Srilakshmi",
+      "given_name_from_source": "Koganti",
+      "family_name_from_source": "Srilakshmi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": "https://orcid.org/0000-0003-1561-1376",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "Shitharth Selvarajan",
+      "given_name_from_source": "Shitharth",
+      "family_name_from_source": "Selvarajan",
+      "orcid_from_source": "https://orcid.org/0000-0002-4931-724X",
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

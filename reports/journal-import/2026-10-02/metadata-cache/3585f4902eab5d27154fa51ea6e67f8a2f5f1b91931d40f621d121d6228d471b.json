@@ -1,0 +1,525 @@
+{
+  "doi": "10.1080/02533839.2026.2683483",
+  "title": "Optimizing power output in solar PV systems using hybrid coupling strategies",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Journal of the Chinese Institute of Engineers",
+  "publisher": "Informa UK Limited",
+  "publication_date": "2026-07-19",
+  "online_publication_date": "2026-07-19",
+  "print_publication_date": null,
+  "volume": null,
+  "issue": null,
+  "pages_or_article_number": "1-20",
+  "issn": "0253-3839",
+  "eissn": "2158-7299",
+  "isbn": null,
+  "url": "https://doi.org/10.1080/02533839.2026.2683483",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:52:22.761350+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            20
+          ]
+        ],
+        "date-time": "2026-07-20T06:04:12Z",
+        "timestamp": 1784527452330,
+        "version": "3.55.0"
+      },
+      "reference-count": 25,
+      "publisher": "Informa UK Limited",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                19
+              ]
+            ],
+            "date-time": "2026-07-19T00:00:00Z",
+            "timestamp": 1784419200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.1080/policies-text-data-mining"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "www.tandfonline.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Journal of the Chinese Institute of Engineers"
+      ],
+      "DOI": "10.1080/02533839.2026.2683483",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            20
+          ]
+        ],
+        "date-time": "2026-07-20T05:47:21Z",
+        "timestamp": 1784526441000
+      },
+      "page": "1-20",
+      "update-policy": "https://doi.org/10.1080/tandf_crossmark_01",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Optimizing power output in solar PV systems using hybrid coupling strategies"
+      ],
+      "prefix": "10.1080",
+      "author": [
+        {
+          "given": "Nithya Kalyani",
+          "family": "Solaisamy",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Renganayagi Varatharaj College of Engineering",
+              "place": [
+                "Sivakasi, India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Prince Winston",
+          "family": "David",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Kamaraj College of Engineering and Technology",
+              "place": [
+                "Virudhunagar, India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1561-1376",
+          "authenticated-orcid": false,
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vardhaman College of Engineering",
+              "place": [
+                "Hyderabad, India"
+              ]
+            },
+            {
+              "name": "Chennai Institute of Technology",
+              "place": [
+                "Chennai, India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Muhammad Ammirrul Atiqi",
+          "family": "Mohd Zainuri",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Universiti Kebangsaan Malaysia",
+              "place": [
+                "Bangi, Malaysia"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "301",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            19
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_3_4_2_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ecmx.2022.100343"
+        },
+        {
+          "key": "e_1_3_4_3_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-023-49278-9"
+        },
+        {
+          "key": "e_1_3_4_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/app9132769"
+        },
+        {
+          "key": "e_1_3_4_5_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.energy.2013.04.009"
+        },
+        {
+          "key": "e_1_3_4_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.rser.2023.114160"
+        },
+        {
+          "key": "e_1_3_4_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egyr.2021.02.051"
+        },
+        {
+          "key": "e_1_3_4_8_1",
+          "volume-title": "2013 International Conference on Clean Energy and Technology (CEAT)",
+          "author": "Huynh D. C.",
+          "year": "2013",
+          "unstructured": "Huynh, D. C., T. M. Nguyen, M. W. Dunnigan, and M. A. Mueller. 2013. “Comparison Between Open- and Closed-Loop Trackers of a Solar Photovoltaic System.” In 2013 International Conference on Clean Energy and Technology (CEAT), Langkawi, Malaysia, 18–20 November 2013: 128–133. New York: IEEE."
+        },
+        {
+          "key": "e_1_3_4_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.prime.2023.100264"
+        },
+        {
+          "key": "e_1_3_4_10_1",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1787/6dcd2e15-en",
+          "volume-title": "Renewable Power Generation Costs in 2021",
+          "author": "IRENA (International Renewable Energy Agency)",
+          "year": "2021",
+          "unstructured": "IRENA (International Renewable Energy Agency). 2021. Renewable Power Generation Costs in 2021. Abu Dhabi, United Arab Emirates: International Renewable Energy Agency."
+        },
+        {
+          "key": "e_1_3_4_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.rser.2021.110754"
+        },
+        {
+          "key": "e_1_3_4_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-025-94106-x"
+        },
+        {
+          "key": "e_1_3_4_13_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.solener.2019.01.076"
+        },
+        {
+          "key": "e_1_3_4_14_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.solener.2021.03.032"
+        },
+        {
+          "key": "e_1_3_4_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/etep.2556"
+        },
+        {
+          "key": "e_1_3_4_16_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2021.3076608"
+        },
+        {
+          "key": "e_1_3_4_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.egyr.2020.11.035"
+        },
+        {
+          "key": "e_1_3_4_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.17577/IJERTV9IS070244"
+        },
+        {
+          "key": "e_1_3_4_19_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ecmx.2024.100711"
+        },
+        {
+          "key": "e_1_3_4_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.energy.2023.127807"
+        },
+        {
+          "key": "e_1_3_4_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/oca.2798"
+        },
+        {
+          "key": "e_1_3_4_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TCE.2025.3532660"
+        },
+        {
+          "key": "e_1_3_4_23_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/en6010128"
+        },
+        {
+          "key": "e_1_3_4_24_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.renene.2025.122883"
+        },
+        {
+          "key": "e_1_3_4_25_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.solener.2019.12.007"
+        },
+        {
+          "key": "e_1_3_4_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.54097/cvfd9m83"
+        }
+      ],
+      "container-title": [
+        "Journal of the Chinese Institute of Engineers"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.tandfonline.com/doi/pdf/10.1080/02533839.2026.2683483",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.tandfonline.com/doi/full-xml/10.1080/02533839.2026.2683483",
+          "content-type": "application/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.tandfonline.com/doi/pdf/10.1080/02533839.2026.2683483",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            20
+          ]
+        ],
+        "date-time": "2026-07-20T05:47:22Z",
+        "timestamp": 1784526442000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.tandfonline.com/doi/full/10.1080/02533839.2026.2683483"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            19
+          ]
+        ]
+      },
+      "references-count": 25,
+      "alternative-id": [
+        "10.1080/02533839.2026.2683483"
+      ],
+      "URL": "https://doi.org/10.1080/02533839.2026.2683483",
+      "relation": {},
+      "ISSN": [
+        "0253-3839",
+        "2158-7299"
+      ],
+      "issn-type": [
+        {
+          "value": "0253-3839",
+          "type": "print"
+        },
+        {
+          "value": "2158-7299",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            19
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "The publishing and review policy for this title is described in its Aims & Scope.",
+          "order": 1,
+          "name": "peerreview_statement",
+          "label": "Peer Review Statement"
+        },
+        {
+          "value": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=tcie20",
+          "URL": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=tcie20",
+          "order": 2,
+          "name": "aims_and_scope_url",
+          "label": "Aim & Scope"
+        },
+        {
+          "value": "2025-08-19",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2026-05-28",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2026-07-19",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Nithya Kalyani Solaisamy",
+      "given_name_from_source": "Nithya Kalyani",
+      "family_name_from_source": "Solaisamy",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Renganayagi Varatharaj College of Engineering"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Prince Winston David",
+      "given_name_from_source": "Prince Winston",
+      "family_name_from_source": "David",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Kamaraj College of Engineering and Technology"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": "https://orcid.org/0000-0003-1561-1376",
+      "affiliation_from_source": [
+        "Vardhaman College of Engineering",
+        "Chennai Institute of Technology"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Muhammad Ammirrul Atiqi Mohd Zainuri",
+      "given_name_from_source": "Muhammad Ammirrul Atiqi",
+      "family_name_from_source": "Mohd Zainuri",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Universiti Kebangsaan Malaysia"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

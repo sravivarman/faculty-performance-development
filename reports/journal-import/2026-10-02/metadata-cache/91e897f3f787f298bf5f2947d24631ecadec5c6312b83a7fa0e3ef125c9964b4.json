@@ -1,0 +1,659 @@
+{
+  "doi": "10.1016/j.est.2026.122307",
+  "title": "A comprehensive analysis of different battery balancing methods for energy storage systems",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Journal of Energy Storage",
+  "publisher": "Elsevier BV",
+  "publication_date": null,
+  "online_publication_date": null,
+  "print_publication_date": null,
+  "volume": "165",
+  "issue": null,
+  "pages_or_article_number": "122307",
+  "issn": "2352-152X",
+  "eissn": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1016/j.est.2026.122307",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:52:42.478907+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            15
+          ]
+        ],
+        "date-time": "2026-05-15T19:13:34Z",
+        "timestamp": 1778872414034,
+        "version": "3.51.4"
+      },
+      "reference-count": 22,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                1
+              ]
+            ],
+            "date-time": "2026-07-01T00:00:00Z",
+            "timestamp": 1782864000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                1
+              ]
+            ],
+            "date-time": "2026-07-01T00:00:00Z",
+            "timestamp": 1782864000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                1
+              ]
+            ],
+            "date-time": "2026-07-01T00:00:00Z",
+            "timestamp": 1782864000000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-017"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                1
+              ]
+            ],
+            "date-time": "2026-07-01T00:00:00Z",
+            "timestamp": 1782864000000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                1
+              ]
+            ],
+            "date-time": "2026-07-01T00:00:00Z",
+            "timestamp": 1782864000000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-012"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                1
+              ]
+            ],
+            "date-time": "2026-07-01T00:00:00Z",
+            "timestamp": 1782864000000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                1
+              ]
+            ],
+            "date-time": "2026-07-01T00:00:00Z",
+            "timestamp": 1782864000000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-004"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Journal of Energy Storage"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            7
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.est.2026.122307",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            24
+          ]
+        ],
+        "date-time": "2026-04-24T12:00:39Z",
+        "timestamp": 1777032039000
+      },
+      "page": "122307",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "special_numbering": "C",
+      "title": [
+        "A comprehensive analysis of different battery balancing methods for energy storage systems"
+      ],
+      "prefix": "10.1016",
+      "volume": "165",
+      "author": [
+        {
+          "given": "Sakthivel",
+          "family": "Ganesan",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Prince Winston",
+          "family": "David",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Hariharasudhan",
+          "family": "Thangaraj",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "issue": "16",
+          "key": "10.1016/j.est.2026.122307_bb0005",
+          "article-title": "SOC and SOH joint estimation of the power batteries based on fuzzy unscented Kalman filtering algorithm",
+          "volume": "12",
+          "author": "Zeng",
+          "year": "2019",
+          "journal-title": "Energies (Basel)"
+        },
+        {
+          "key": "10.1016/j.est.2026.122307_bb0010",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.est.2020.101830",
+          "article-title": "A fast capacity estimation method based on open circuit voltage estimation for LiNixCoyMn1-x-y battery assessing in electric vehicles",
+          "volume": "32",
+          "author": "Zhou",
+          "year": "2020",
+          "journal-title": "J. Energy Storage"
+        },
+        {
+          "key": "10.1016/j.est.2026.122307_bb0015",
+          "doi-asserted-by": "crossref",
+          "first-page": "3008",
+          "DOI": "10.1016/j.egypro.2019.01.974",
+          "article-title": "Online estimation and error analysis of both SOC and SOH of lithium-ion battery based on DEKF method",
+          "author": "Fang",
+          "year": "2019",
+          "journal-title": "Energy Procedia"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.est.2026.122307_bb0020",
+          "doi-asserted-by": "crossref",
+          "first-page": "3227",
+          "DOI": "10.1109/TIE.2018.2842782",
+          "article-title": "A battery management system with a Lebesgue-sampling-based extended Kalman filter",
+          "volume": "66",
+          "author": "Yan",
+          "year": "2019",
+          "journal-title": "IEEE Trans. Ind. Electron."
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.est.2026.122307_bb0025",
+          "doi-asserted-by": "crossref",
+          "first-page": "16593",
+          "DOI": "10.1109/TVT.2024.3427683",
+          "article-title": "Enhancing energy management strategy for battery electric vehicles: incorporating cell balancing and multi-agent twin delayed deep deterministic policy gradient architecture",
+          "volume": "73",
+          "author": "Lotfy",
+          "year": "2024",
+          "journal-title": "IEEE Trans. Veh. Technol."
+        },
+        {
+          "key": "10.1016/j.est.2026.122307_bb0030",
+          "doi-asserted-by": "crossref",
+          "first-page": "86166",
+          "DOI": "10.1109/ACCESS.2021.3089032",
+          "article-title": "A comprehensive review of available battery datasets, RUL prediction approaches, and advanced battery management",
+          "volume": "9",
+          "author": "Hasib",
+          "year": "2021",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.est.2026.122307_bb0035",
+          "doi-asserted-by": "crossref",
+          "first-page": "262",
+          "DOI": "10.1016/j.jpowsour.2014.07.116",
+          "article-title": "A support vector machine-based state-of-health estimation method for lithium-ion batteries under electric vehicle operation",
+          "volume": "270",
+          "author": "Klass",
+          "year": "2014",
+          "journal-title": "J. Power Sources"
+        },
+        {
+          "key": "10.1016/j.est.2026.122307_bb0040",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.rser.2020.110227",
+          "article-title": "Advancement of lithium-ion battery cells voltage equalization techniques: a review",
+          "author": "Das",
+          "year": "2020",
+          "journal-title": "Renew. Sust. Energ. Rev."
+        },
+        {
+          "key": "10.1016/j.est.2026.122307_bb0045",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.est.2024.111255",
+          "article-title": "An intelligent active equalization control strategy based on deep reinforcement learning for Lithium-ion battery pack",
+          "volume": "86",
+          "author": "Xia",
+          "year": "2024",
+          "journal-title": "J. Energy Storage"
+        },
+        {
+          "key": "10.1016/j.est.2026.122307_bb0050",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.jclepro.2020.122877",
+          "article-title": "Internet of things (IoT): opportunities, issues and challenges towards a smart and sustainable future",
+          "volume": "274",
+          "author": "Nižetić",
+          "year": "2020",
+          "journal-title": "J. Clean. Prod."
+        },
+        {
+          "key": "10.1016/j.est.2026.122307_bb0055",
+          "doi-asserted-by": "crossref",
+          "first-page": "102784",
+          "DOI": "10.1109/ACCESS.2024.3430318",
+          "article-title": "Energy balance control of multi group Lithium ion batteries under internet of things technology",
+          "volume": "12",
+          "author": "Yang",
+          "year": "2024",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.est.2026.122307_bb0060",
+          "doi-asserted-by": "crossref",
+          "first-page": "4444",
+          "DOI": "10.1109/TPEL.2016.2584925",
+          "article-title": "Topology, modeling, and Design of Switched-Capacitor-Based Cell Balancing Systems and Their Balancing Exploration",
+          "volume": "32",
+          "author": "Ye",
+          "year": "2017",
+          "journal-title": "IEEE Trans. Power Electron."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.est.2026.122307_bb0065",
+          "doi-asserted-by": "crossref",
+          "first-page": "733",
+          "DOI": "10.1109/TEC.2020.2968364",
+          "article-title": "Design balancing Systems for Supercapacitors Based on their stochastic model",
+          "volume": "35",
+          "author": "Martin Ibanez",
+          "year": "2020",
+          "journal-title": "IEEE Transactions on Energy Conversion"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.est.2026.122307_bb0070",
+          "doi-asserted-by": "crossref",
+          "first-page": "977",
+          "DOI": "10.1109/JESTPE.2015.2418339",
+          "article-title": "Modeling and analysis of series-parallel switched-capacitor voltage equalizer for battery/supercapacitor strings",
+          "volume": "3",
+          "author": "Ye",
+          "year": "2015",
+          "journal-title": "IEEE J Emerg Sel Top Power Electron"
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.est.2026.122307_bb0075",
+          "doi-asserted-by": "crossref",
+          "first-page": "3720",
+          "DOI": "10.1109/TPEL.2011.2148178",
+          "article-title": "Diode-clamped three-level inverter-based battery/supercapacitor direct integration scheme for renewable energy systems",
+          "volume": "26",
+          "author": "Jayasinghe",
+          "year": "2011",
+          "journal-title": "IEEE Trans. Power Electron."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.est.2026.122307_bb0080",
+          "doi-asserted-by": "crossref",
+          "first-page": "2277",
+          "DOI": "10.1109/TIE.2008.918401",
+          "article-title": "Double-tiered switched-capacitor battery charge equalization technique",
+          "volume": "55",
+          "author": "Baughman",
+          "year": "2008",
+          "journal-title": "IEEE Trans. Ind. Electron."
+        },
+        {
+          "key": "10.1016/j.est.2026.122307_bb0085",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.compeleceng.2024.109930",
+          "article-title": "A lithium-ion battery SOH estimation method based on temporal pattern attention mechanism and CNN-LSTM model",
+          "volume": "122",
+          "author": "Huang",
+          "year": "2025",
+          "journal-title": "Comput. Electr. Eng."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.est.2026.122307_bb0090",
+          "doi-asserted-by": "crossref",
+          "first-page": "4130",
+          "DOI": "10.1109/TVT.2018.2880085",
+          "article-title": "A novel fractional order model for state of charge estimation in lithium ion batteries",
+          "volume": "68",
+          "author": "Xiong",
+          "year": "2018",
+          "journal-title": "IEEE Trans. Veh. Technol."
+        },
+        {
+          "key": "10.1016/j.est.2026.122307_bb0095",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.ijepes.2023.109233",
+          "article-title": "A vision transformer-based deep neural network for state of health estimation of lithium-ion batteries",
+          "volume": "152",
+          "author": "Chen",
+          "year": "2023",
+          "journal-title": "Int. J. Electr. Power Energy Syst."
+        },
+        {
+          "key": "10.1016/j.est.2026.122307_bb0100",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.energy.2023.127734",
+          "article-title": "Hybrid deep neural network with dimension attention for state-of-health estimation of lithium-ion batteries",
+          "volume": "278",
+          "author": "Bao",
+          "year": "2023",
+          "journal-title": "Energy"
+        },
+        {
+          "key": "10.1016/j.est.2026.122307_bb0105",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.energy.2022.125234",
+          "article-title": "SOH prediction of lithium battery based on IC curve feature and BP neural network",
+          "volume": "261",
+          "author": "Wen",
+          "year": "2022",
+          "journal-title": "Energy"
+        },
+        {
+          "key": "10.1016/j.est.2026.122307_bb0110",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.est.2022.105046",
+          "article-title": "State-of-health estimation of lithium-ion batteries based on improved long short-term memory algorithm",
+          "volume": "53",
+          "author": "Gong",
+          "year": "2022",
+          "journal-title": "J. Energy Storage"
+        }
+      ],
+      "container-title": [
+        "Journal of Energy Storage"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2352152X26019717?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2352152X26019717?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            15
+          ]
+        ],
+        "date-time": "2026-05-15T18:59:56Z",
+        "timestamp": 1778871596000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2352152X26019717"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            7
+          ]
+        ]
+      },
+      "references-count": 22,
+      "alternative-id": [
+        "S2352152X26019717"
+      ],
+      "URL": "https://doi.org/10.1016/j.est.2026.122307",
+      "relation": {},
+      "ISSN": [
+        "2352-152X"
+      ],
+      "issn-type": [
+        {
+          "value": "2352-152X",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            7
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "A comprehensive analysis of different battery balancing methods for energy storage systems",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Journal of Energy Storage",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.est.2026.122307",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2026 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "122307"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Sakthivel Ganesan",
+      "given_name_from_source": "Sakthivel",
+      "family_name_from_source": "Ganesan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Prince Winston David",
+      "given_name_from_source": "Prince Winston",
+      "family_name_from_source": "David",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Hariharasudhan Thangaraj",
+      "given_name_from_source": "Hariharasudhan",
+      "family_name_from_source": "Thangaraj",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

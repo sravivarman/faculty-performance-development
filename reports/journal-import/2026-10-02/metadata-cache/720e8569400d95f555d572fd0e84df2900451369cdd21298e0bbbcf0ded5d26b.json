@@ -1,0 +1,357 @@
+{
+  "doi": "10.52783/jns.v14.3148",
+  "title": "To Measure The Effectiveness Of Image Classification Using Support Vector Machine And Extreme Learning Machine",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Journal of Neonatal Surgery",
+  "publisher": "Skyler Publication",
+  "publication_date": "2025-04-07",
+  "online_publication_date": "2025-04-07",
+  "print_publication_date": null,
+  "volume": "14",
+  "issue": "12S",
+  "pages_or_article_number": "243-254",
+  "issn": null,
+  "eissn": "2226-0439",
+  "isbn": null,
+  "url": "https://doi.org/10.52783/jns.v14.3148",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:39.053553+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            25
+          ]
+        ],
+        "date-time": "2025-04-25T04:23:36Z",
+        "timestamp": 1745555016420,
+        "version": "3.40.4"
+      },
+      "reference-count": 0,
+      "publisher": "Skyler Publication",
+      "issue": "12S",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                7
+              ]
+            ],
+            "date-time": "2025-04-07T00:00:00Z",
+            "timestamp": 1743984000000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "J Neonatal Surg"
+      ],
+      "abstract": "<jats:p>In agricultural field, the most popular research area is disease identification and classification. The plant disease identification using the image analysis method reduces farmers relying on growers to safeguard farm goods. Recognition and Categorization of Rice crop Leaf Disease detection using a Novel Technique is presented in this paper. The designedmodelcomprises four major phases: pre-processing, segmentation, feature engineering and leaf disease cauterization. Primarily, the input imagesdimension is cropped and resized into pixels to decrease the memory usage and computation power of the image. The black color in the RGB designindicates the pixel value and the imagebackground (non-diseased portion) was eliminated. The K-means clustering algorithm segments the disease-affected leaf disease parts. Color (standard deviation and mean) and texture features (energy, correlation, contrast, and homogeneity) are extracted. The Support Vector Machine (SVM) based Extreme Learning Machine (ELM) model classifies the paddy leaves into two classes that is either healthy or unhealthy. The implementation process is handled in Google Colab. The proposed method demonstrated superior results compared to other state-of-art techniques.</jats:p>",
+      "DOI": "10.52783/jns.v14.3148",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            24
+          ]
+        ],
+        "date-time": "2025-04-24T20:43:49Z",
+        "timestamp": 1745527429000
+      },
+      "page": "243-254",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "To Measure The Effectiveness Of Image Classification Using Support Vector Machine And Extreme Learning Machine"
+      ],
+      "prefix": "10.63682",
+      "volume": "14",
+      "author": [
+        {
+          "given": "D. Krishna",
+          "family": "Madhuri",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "R.",
+          "family": "Sundar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "R. Ganesh",
+          "family": "Babu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Tholkapiyan. M",
+          "family": "Tholkapiyan. M",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Patil",
+          "family": "Mounica",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Nagendar",
+          "family": "Yamsani",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "53067",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            7
+          ]
+        ]
+      },
+      "container-title": [
+        "Journal of Neonatal Surgery"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "https://jneonatalsurg.com/index.php/jns/article/download/3148/2831",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://jneonatalsurg.com/index.php/jns/article/download/3148/2831",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            24
+          ]
+        ],
+        "date-time": "2025-04-24T22:27:51Z",
+        "timestamp": 1745533671000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://jneonatalsurg.com/index.php/jns/article/view/3148"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            7
+          ]
+        ]
+      },
+      "references-count": 0,
+      "journal-issue": {
+        "issue": "12S",
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              3
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.52783/jns.v14.3148",
+      "relation": {},
+      "ISSN": [
+        "2226-0439"
+      ],
+      "issn-type": [
+        {
+          "value": "2226-0439",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            7
+          ]
+        ]
+      }
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "D. Krishna Madhuri",
+      "given_name_from_source": "D. Krishna",
+      "family_name_from_source": "Madhuri",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "R. Sundar",
+      "given_name_from_source": "R.",
+      "family_name_from_source": "Sundar",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "R. Ganesh Babu",
+      "given_name_from_source": "R. Ganesh",
+      "family_name_from_source": "Babu",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Tholkapiyan. M Tholkapiyan. M",
+      "given_name_from_source": "Tholkapiyan. M",
+      "family_name_from_source": "Tholkapiyan. M",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Patil Mounica",
+      "given_name_from_source": "Patil",
+      "family_name_from_source": "Mounica",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 6,
+      "author_name_from_source": "Nagendar Yamsani",
+      "given_name_from_source": "Nagendar",
+      "family_name_from_source": "Yamsani",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

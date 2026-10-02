@@ -1,0 +1,618 @@
+{
+  "doi": "10.1080/02533839.2025.2574459",
+  "title": "Modified war strategy algorithm for optimal control and design of solar fed UPQC and power system state estimation problems",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Journal of the Chinese Institute of Engineers",
+  "publisher": "Informa UK Limited",
+  "publication_date": "2025-12-02",
+  "online_publication_date": "2025-12-02",
+  "print_publication_date": "2026-07-04",
+  "volume": "49",
+  "issue": "5",
+  "pages_or_article_number": "1418-1434",
+  "issn": "0253-3839",
+  "eissn": "2158-7299",
+  "isbn": null,
+  "url": "https://doi.org/10.1080/02533839.2025.2574459",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:10.333314+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            1
+          ]
+        ],
+        "date-time": "2026-07-01T16:05:36Z",
+        "timestamp": 1782921936598,
+        "version": "3.54.5"
+      },
+      "reference-count": 23,
+      "publisher": "Informa UK Limited",
+      "issue": "5",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                2
+              ]
+            ],
+            "date-time": "2025-12-02T00:00:00Z",
+            "timestamp": 1764633600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.1080/policies-text-data-mining"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100004515",
+          "name": "Universiti Kebangsaan Malaysia",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "DPK#2023#015"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "DPK#2023#015"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100004515",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "www.tandfonline.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Journal of the Chinese Institute of Engineers"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            4
+          ]
+        ]
+      },
+      "DOI": "10.1080/02533839.2025.2574459",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            2
+          ]
+        ],
+        "date-time": "2025-12-02T13:13:12Z",
+        "timestamp": 1764681192000
+      },
+      "page": "1418-1434",
+      "update-policy": "https://doi.org/10.1080/tandf_crossmark_01",
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Modified war strategy algorithm for optimal control and design of solar fed UPQC and power system state estimation problems"
+      ],
+      "prefix": "10.1080",
+      "volume": "49",
+      "author": [
+        {
+          "given": "Shanmugapriya",
+          "family": "Subramaniyan",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "SRM Institute of Science and Technology",
+              "place": [
+                "Kattankulathur, Chennai, India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "N.",
+          "family": "Vasantha Gowri",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Chaitanya Bharathi Institute of Technology",
+              "place": [
+                "Hyderabad, India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9723-5230",
+          "authenticated-orcid": false,
+          "given": "Koganti",
+          "family": "Srilakshmi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Sreenidhi Institute of Science and Technology",
+              "place": [
+                "Hyderabad, India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1561-1376",
+          "authenticated-orcid": false,
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vardhaman College of Engineering",
+              "place": [
+                "Hyderbad, India"
+              ]
+            },
+            {
+              "name": "Chennai Institute of Technology",
+              "place": [
+                "Chennai, India"
+              ]
+            },
+            {
+              "name": "Chitkara University Institute of Engineering and Technology, Chitkara University",
+              "place": [
+                "Rajpura, India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9134-4869",
+          "authenticated-orcid": false,
+          "given": "Muhammad AmmirrulAtiqi",
+          "family": "Mohd Zainuri",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Faculty of Engineering and Built Environment, universitikebangsaan Malaysia",
+              "place": [
+                "Bangi, Malaysia"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "301",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            2
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_3_2_2_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/15325000802084687"
+        },
+        {
+          "key": "e_1_3_2_3_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00500-018-3102-4"
+        },
+        {
+          "key": "e_1_3_2_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACCESS.2022.3153493"
+        },
+        {
+          "issue": "2",
+          "key": "e_1_3_2_5_1",
+          "first-page": "177",
+          "article-title": "Flying Squirrel Optimizer (FSO): A Novel SI-Based Optimization Algorithm for Engineering Problems",
+          "volume": "11",
+          "author": "Azizyan G.",
+          "year": "2019",
+          "unstructured": "Azizyan, G., F. Miarnaeimi1, M. Rashki, and N. Shabakhty. 2019. “Flying Squirrel Optimizer (FSO): A Novel SI-Based Optimization Algorithm for Engineering Problems.” Iranian Journal of Optimization 11 (2): 177–205. https://journals.iau.ir/article_663726_4b26123914a0ee9bc0d79ad766a6c89e.pdf.",
+          "journal-title": "Iranian Journal of Optimization"
+        },
+        {
+          "key": "e_1_3_2_6_1",
+          "first-page": "134",
+          "volume-title": "In Proceedings of the first European conference on artificial life",
+          "author": "Colorni A.",
+          "year": "1991",
+          "unstructured": "Colorni, A., M. Dorigo, and V. Maniezzo. 1991. “Distributed Optimization by Ant Colonies.” In Proceedings of the first European conference on artificial life, Paris, France: 134–142. Elsevier."
+        },
+        {
+          "key": "e_1_3_2_7_1",
+          "volume-title": "In Proceedings of the 4th International Conference on Genetic Algorithms",
+          "author": "Davis L.",
+          "year": "1991",
+          "unstructured": "Davis, L. 1991. “Bit-Climbing, Representational Bias, and Test Suite Design.” In Proceedings of the 4th International Conference on Genetic Algorithms, edited by R. K. Belew, L. B. Booker, San Diego, CA, USA, July 1991: 18–23. Burlington, Massachusetts: Morgan Kaufmann."
+        },
+        {
+          "key": "e_1_3_2_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/MHS.1995.494215"
+        },
+        {
+          "key": "e_1_3_2_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1287/ijoc.1.3.190"
+        },
+        {
+          "key": "e_1_3_2_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.future.2019.02.028"
+        },
+        {
+          "key": "e_1_3_2_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/scientificamerican0792-66"
+        },
+        {
+          "key": "e_1_3_2_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijepes.2025.110481"
+        },
+        {
+          "key": "e_1_3_2_13_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.renene.2025.123132"
+        },
+        {
+          "key": "e_1_3_2_14_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.asoc.2024.112645"
+        },
+        {
+          "key": "e_1_3_2_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPEL.2022.3217964"
+        },
+        {
+          "key": "e_1_3_2_16_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.220.4598.671"
+        },
+        {
+          "key": "e_1_3_2_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.future.2017.10.052"
+        },
+        {
+          "key": "e_1_3_2_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arXiv.math/0102188"
+        },
+        {
+          "key": "e_1_3_2_19_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ins.2011.08.006"
+        },
+        {
+          "key": "e_1_3_2_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fenrg.2023.1342085"
+        },
+        {
+          "key": "e_1_3_2_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-024-54550-7"
+        },
+        {
+          "key": "e_1_3_2_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1008202821328"
+        },
+        {
+          "key": "e_1_3_2_23_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.compeleceng.2019.106547"
+        },
+        {
+          "key": "e_1_3_2_24_1",
+          "volume-title": "Nature-Inspired Metaheuristic Algorithms Second Edition",
+          "author": "Yang X. S.",
+          "year": "2016",
+          "unstructured": "Yang, X. S. 2016. Nature-Inspired Metaheuristic Algorithms Second Edition. UK: Luniver Press."
+        }
+      ],
+      "container-title": [
+        "Journal of the Chinese Institute of Engineers"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.tandfonline.com/doi/pdf/10.1080/02533839.2025.2574459",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.tandfonline.com/doi/full-xml/10.1080/02533839.2025.2574459",
+          "content-type": "application/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.tandfonline.com/doi/pdf/10.1080/02533839.2025.2574459",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T06:03:03Z",
+        "timestamp": 1782280983000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.tandfonline.com/doi/full/10.1080/02533839.2025.2574459"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            2
+          ]
+        ]
+      },
+      "references-count": 23,
+      "journal-issue": {
+        "issue": "5",
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              4
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1080/02533839.2025.2574459"
+      ],
+      "URL": "https://doi.org/10.1080/02533839.2025.2574459",
+      "relation": {},
+      "ISSN": [
+        "0253-3839",
+        "2158-7299"
+      ],
+      "issn-type": [
+        {
+          "value": "0253-3839",
+          "type": "print"
+        },
+        {
+          "value": "2158-7299",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            2
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "The publishing and review policy for this title is described in its Aims & Scope.",
+          "order": 1,
+          "name": "peerreview_statement",
+          "label": "Peer Review Statement"
+        },
+        {
+          "value": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=tcie20",
+          "URL": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=tcie20",
+          "order": 2,
+          "name": "aims_and_scope_url",
+          "label": "Aim & Scope"
+        },
+        {
+          "value": "2025-04-14",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2025-09-24",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2025-12-02",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Shanmugapriya Subramaniyan",
+      "given_name_from_source": "Shanmugapriya",
+      "family_name_from_source": "Subramaniyan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "SRM Institute of Science and Technology"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "N. Vasantha Gowri",
+      "given_name_from_source": "N.",
+      "family_name_from_source": "Vasantha Gowri",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Chaitanya Bharathi Institute of Technology"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Koganti Srilakshmi",
+      "given_name_from_source": "Koganti",
+      "family_name_from_source": "Srilakshmi",
+      "orcid_from_source": "https://orcid.org/0000-0002-9723-5230",
+      "affiliation_from_source": [
+        "Sreenidhi Institute of Science and Technology"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": "https://orcid.org/0000-0003-1561-1376",
+      "affiliation_from_source": [
+        "Vardhaman College of Engineering",
+        "Chennai Institute of Technology",
+        "Chitkara University Institute of Engineering and Technology, Chitkara University"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Muhammad AmmirrulAtiqi Mohd Zainuri",
+      "given_name_from_source": "Muhammad AmmirrulAtiqi",
+      "family_name_from_source": "Mohd Zainuri",
+      "orcid_from_source": "https://orcid.org/0000-0001-9134-4869",
+      "affiliation_from_source": [
+        "Faculty of Engineering and Built Environment, universitikebangsaan Malaysia"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

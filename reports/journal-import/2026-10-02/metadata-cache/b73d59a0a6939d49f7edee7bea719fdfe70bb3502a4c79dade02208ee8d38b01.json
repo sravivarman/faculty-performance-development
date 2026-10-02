@@ -1,0 +1,145 @@
+{
+  "doi": "10.20508/ijrer.v14i2.14423.g8903",
+  "title": "Two Stage PV Generation System with Novel Control Strategy to Improve Grid Integrating Capabilities During Partial Shading Conditions",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "International Journal of Renewable Energy Research",
+  "publisher": "International Journal of Renewable Energy Research",
+  "publication_date": null,
+  "online_publication_date": null,
+  "print_publication_date": null,
+  "volume": null,
+  "issue": "V14i2",
+  "pages_or_article_number": null,
+  "issn": null,
+  "eissn": "1309-0127",
+  "isbn": null,
+  "url": "https://doi.org/10.20508/ijrer.v14i2.14423.g8903",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:14.457436+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            30
+          ]
+        ],
+        "date-time": "2026-09-30T16:02:28Z",
+        "timestamp": 1790784148036,
+        "version": "4.1.0"
+      },
+      "reference-count": 0,
+      "publisher": "International Journal of Renewable Energy Research",
+      "issue": "V14i2",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "IJRER"
+      ],
+      "DOI": "10.20508/ijrer.v14i2.14423.g8903",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            5
+          ]
+        ],
+        "date-time": "2024-07-05T10:50:38Z",
+        "timestamp": 1720176638000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 8,
+      "title": [
+        "Two Stage PV Generation System with Novel Control Strategy to Improve Grid Integrating Capabilities During Partial Shading Conditions"
+      ],
+      "prefix": "10.20508",
+      "member": "8406",
+      "published-online": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      },
+      "container-title": [
+        "International Journal of Renewable Energy Research"
+      ],
+      "original-title": [],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            30
+          ]
+        ],
+        "date-time": "2026-09-30T15:08:42Z",
+        "timestamp": 1790780922000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://ijrer.org/index.php/ijrer/article/view/14423"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      },
+      "references-count": 0,
+      "journal-issue": {
+        "issue": "V14i2",
+        "published-online": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.20508/ijrer.v14i2.14423.g8903",
+      "relation": {
+        "is-referenced-by": [
+          {
+            "id-type": "doi",
+            "id": "10.1038/s41598-025-10335-0",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "ISSN": [
+        "1309-0127"
+      ],
+      "issn-type": [
+        {
+          "value": "1309-0127",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      }
+    }
+  },
+  "indexing": [],
+  "authors": []
+}

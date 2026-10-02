@@ -1,0 +1,380 @@
+{
+  "doi": "10.2174/0118722121452931260119063649",
+  "title": "Sustainable Computing: AI and IoT-based Application Enhancement",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Recent Patents on Engineering",
+  "publisher": "Bentham Science Publishers Ltd.",
+  "publication_date": "2026-03-11",
+  "online_publication_date": null,
+  "print_publication_date": "2026-03-11",
+  "volume": "20",
+  "issue": null,
+  "pages_or_article_number": "e18722121452931",
+  "issn": "1872-2121",
+  "eissn": null,
+  "isbn": null,
+  "url": "https://doi.org/10.2174/0118722121452931260119063649",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:52:52.516637+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            23
+          ]
+        ],
+        "date-time": "2026-05-23T07:05:29Z",
+        "timestamp": 1779519929656,
+        "version": "3.53.1"
+      },
+      "reference-count": 4,
+      "publisher": "Bentham Science Publishers Ltd.",
+      "content-domain": {
+        "domain": [
+          "eurekaselect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "ENG"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            11
+          ]
+        ]
+      },
+      "abstract": "<jats:sec>\n                    <jats:title/>\n                    <jats:p/>\n                  </jats:sec>",
+      "DOI": "10.2174/0118722121452931260119063649",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            27
+          ]
+        ],
+        "date-time": "2026-03-27T05:52:53Z",
+        "timestamp": 1774590773000
+      },
+      "update-policy": "https://doi.org/10.2174/bsp_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Sustainable Computing: AI and IoT-based Application Enhancement"
+      ],
+      "prefix": "10.2174",
+      "volume": "20",
+      "author": [
+        {
+          "given": "Shitharth",
+          "family": "Selvarajan",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "School of Built Environment, Engineering and Computing, Leeds Beckett University, Leeds, U.K."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Karthikeyan",
+          "family": "Ramamoorthy",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of CSE\n(AI&ML), Vardhaman College of Engineering, Hyderabad, TG 501218, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of EEE, Vardhaman College of\nEngineering, Hyderabad, TG 501218, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "965",
+      "reference": [
+        {
+          "key": "ref=1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2174/0118722121341522250121222722",
+          "author": "Uthaman V.",
+          "year": "2024",
+          "unstructured": "Uthaman V.; Lavanya J.; Pioneering an Efficient Framework for Scalable and Operational Cognitive Analytics in the Vast Realm of Big Data Recent Patents on Engineering  2024",
+          "journal-title": "Recent Patents on Engineering"
+        },
+        {
+          "key": "ref=2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2174/0118722121339322241015060613",
+          "author": "Selvarajan S.",
+          "year": "2024",
+          "unstructured": "Selvarajan S.; Manoharan H.; Saleem F.; Ramesh S.; Manikandan T.; Identification and Control of Transportation Units with Sequenced Learning Models Using Neural Networks Recent Patents on Engineering  2024",
+          "journal-title": "Recent Patents on Engineering"
+        },
+        {
+          "key": "ref=3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2174/0118722121332131240913035206",
+          "author": "Wang J.",
+          "year": "2024",
+          "unstructured": "Wang J.; Investigation on Building Intelligent Engineering Safety Detection Based on BIM and Internet of Things Technology Recent Patents on Engineering  2024",
+          "journal-title": "Recent Patents on Engineering"
+        },
+        {
+          "key": "ref=4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2174/0118722121330025241009115648",
+          "author": "Zhao F.",
+          "year": "2024",
+          "unstructured": "Zhao F.; Han C.; Optimization analysis of urban and rural environmental planning based on artificial intelligence and intelligent information processing algorithms Recent Patents on Engineering  2024",
+          "journal-title": "Recent Patents on Engineering"
+        }
+      ],
+      "container-title": [
+        "Recent Patents on Engineering"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.eurekaselect.com/article/download/250655",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.eurekaselect.com/250655/article",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.eurekaselect.com/article/download/250655",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            23
+          ]
+        ],
+        "date-time": "2026-05-23T06:35:37Z",
+        "timestamp": 1779518137000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.eurekaselect.com/250655/article"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            11
+          ]
+        ]
+      },
+      "references-count": 4,
+      "alternative-id": [
+        "LiveAll1"
+      ],
+      "URL": "https://doi.org/10.2174/0118722121452931260119063649",
+      "relation": {},
+      "ISSN": [
+        "1872-2121"
+      ],
+      "issn-type": [
+        {
+          "value": "1872-2121",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            11
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Peer Reviewed",
+          "order": 0,
+          "name": "review_status",
+          "label": "Review Status",
+          "group": {
+            "name": "peer_review_details",
+            "label": "Peer Review Details"
+          }
+        },
+        {
+          "value": "Double blind",
+          "order": 1,
+          "name": "review_process",
+          "label": "Review Process",
+          "group": {
+            "name": "peer_review_details",
+            "label": "Peer Review Details"
+          }
+        },
+        {
+          "value": "Checked with iThenticate",
+          "order": 0,
+          "name": "screening_status",
+          "label": "Screening Status",
+          "group": {
+            "name": "plagiarism_screening",
+            "label": "Plagiarism Screening"
+          }
+        },
+        {
+          "value": "2025-10-06",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "1970-01-01",
+          "order": 1,
+          "name": "revised",
+          "label": "Revised",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2025-11-21",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2026-03-11",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ],
+      "article-number": "e18722121452931"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Shitharth Selvarajan",
+      "given_name_from_source": "Shitharth",
+      "family_name_from_source": "Selvarajan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "School of Built Environment, Engineering and Computing, Leeds Beckett University, Leeds, U.K."
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Karthikeyan Ramamoorthy",
+      "given_name_from_source": "Karthikeyan",
+      "family_name_from_source": "Ramamoorthy",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of CSE\n(AI&ML), Vardhaman College of Engineering, Hyderabad, TG 501218, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": null,
+      "affiliation_from_source": [
+        "Department of EEE, Vardhaman College of\nEngineering, Hyderabad, TG 501218, India"
+      ],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

@@ -1,0 +1,675 @@
+{
+  "doi": "10.1007/s42452-025-06615-z",
+  "title": "Model based multi-loop predictive control scheme for multivariable processes",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Discover Applied Sciences",
+  "publisher": "Springer Science and Business Media LLC",
+  "publication_date": "2025-02-22",
+  "online_publication_date": "2025-02-22",
+  "print_publication_date": null,
+  "volume": "7",
+  "issue": "3",
+  "pages_or_article_number": "165",
+  "issn": null,
+  "eissn": "3004-9261",
+  "isbn": null,
+  "url": "https://doi.org/10.1007/s42452-025-06615-z",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:47.473537+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            24
+          ]
+        ],
+        "date-time": "2026-07-24T15:51:53Z",
+        "timestamp": 1784908313413,
+        "version": "3.55.0"
+      },
+      "reference-count": 27,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "3",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                22
+              ]
+            ],
+            "date-time": "2025-02-22T00:00:00Z",
+            "timestamp": 1740182400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                22
+              ]
+            ],
+            "date-time": "2025-02-22T00:00:00Z",
+            "timestamp": 1740182400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Discov Appl Sci"
+      ],
+      "DOI": "10.1007/s42452-025-06615-z",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            22
+          ]
+        ],
+        "date-time": "2025-02-22T04:30:48Z",
+        "timestamp": 1740198648000
+      },
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "title": [
+        "Model based multi-loop predictive control scheme for multivariable processes"
+      ],
+      "prefix": "10.1007",
+      "volume": "7",
+      "author": [
+        {
+          "given": "Arun",
+          "family": "Ramaveerapathiran",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Muniraj",
+          "family": "Rathinam",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Karuppiah",
+          "family": "Natarajan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Muthiah",
+          "family": "Athi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Patil",
+          "family": "Mounica",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            22
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "6615_CR1",
+          "doi-asserted-by": "publisher",
+          "unstructured": "P. Aryan, G. L. Raja, R. Vilanova and M. Meneses, \"Optimal internal model control-based decoupled dual-loop control method for boiler steam drum,\" 2023 IEEE 28th International Conference on Emerging Technologies and Factory Automation (ETFA), Sinaia, Romania, 2023. https://doi.org/10.1109/ETFA54631.2023.10275712.",
+          "DOI": "10.1109/ETFA54631.2023.10275712"
+        },
+        {
+          "key": "6615_CR2",
+          "doi-asserted-by": "publisher",
+          "first-page": "521",
+          "DOI": "10.1007/978-3-031-10047-5_46",
+          "volume-title": "CONTROLO 2022",
+          "author": "P Aryan",
+          "year": "2022",
+          "unstructured": "Aryan P, Raja GL, Vilanova R. Optimal iIMC-PD Double-Loop Control Strategy for Integrating Processes with Dead-Time. In: Brito Palma L, Neves-Silva R, Gomes L, editors. CONTROLO 2022. Cham: Springer; 2022. p. 521–31."
+        },
+        {
+          "key": "6615_CR3",
+          "doi-asserted-by": "publisher",
+          "unstructured": "G. L. Raja and A. Ali, \"Enhanced Series Cascade Control Strategies for Unstable Processes,\" 2018 4th International Conference on Electrical Energy Systems (ICEES), Chennai, India, 2018. https://doi.org/10.1109/ICEES.2018.8443271.",
+          "DOI": "10.1109/ICEES.2018.8443271"
+        },
+        {
+          "key": "6615_CR4",
+          "doi-asserted-by": "publisher",
+          "unstructured": "G. L. Raja and A. Ali, \"Design of Cascade Control Structure for Stable Processes using Method of Moments,\" 2019 2nd International Conference on Power and Embedded Drive Control (ICPEDC), Chennai, India, 2019, pp. 445–449, https://doi.org/10.1109/ICPEDC47771.2019.9036626.",
+          "DOI": "10.1109/ICPEDC47771.2019.9036626"
+        },
+        {
+          "key": "6615_CR5",
+          "doi-asserted-by": "publisher",
+          "unstructured": "P. Aryan, G. L. Raja and U. Mehta, \"FOIλD1-λ controller: An alternative to double-loop control schemes for integrating processes,\" 2023 IEEE 3rd International Conference on Smart Technologies for Power, Energy and Control (STPEC), Bhubaneswar, India, 2023, pp. 1–6, https://doi.org/10.1109/STPEC59253.2023.10430962.",
+          "DOI": "10.1109/STPEC59253.2023.10430962"
+        },
+        {
+          "key": "6615_CR6",
+          "doi-asserted-by": "publisher",
+          "first-page": "427",
+          "DOI": "10.1007/978-981-19-0836-1_33",
+          "volume-title": "Modeling, Simulation and Optimization",
+          "author": "D Mukherjee",
+          "year": "2022",
+          "unstructured": "Mukherjee D, Lloyds Raja G, Kundu P, Ghosh A. Analysis of Fractional Calculus-Based MRAC and Modified Optimal FOPID on Unstable FOPTD Processes. In: Das B, Patgiri R, Bandyopadhyay S, Balas VE, editors. Modeling, Simulation and Optimization. Singapore: Springer; 2022. p. 427–42."
+        },
+        {
+          "key": "6615_CR7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ins.2024.121352",
+          "volume": "686",
+          "author": "J Qiao",
+          "year": "2025",
+          "unstructured": "Qiao J, Xiong N, Qiao J. Multivariable adaptive decoupling control based on stochastic configuration networks with serial-parallel switching distribution. Inf Sci. 2025;686: 121352.",
+          "journal-title": "Inf Sci"
+        },
+        {
+          "issue": "6",
+          "key": "6615_CR8",
+          "doi-asserted-by": "publisher",
+          "first-page": "1317",
+          "DOI": "10.1002/cjce.23068",
+          "volume": "96",
+          "author": "RP Arun",
+          "year": "2018",
+          "unstructured": "Arun RP, Prakash J. Model based multivariable control scheme in a reset configuration for stable multivariable systems. Can J Chem Eng. 2018;96(6):1317–26.",
+          "journal-title": "Can J Chem Eng"
+        },
+        {
+          "issue": "7",
+          "key": "6615_CR9",
+          "doi-asserted-by": "publisher",
+          "first-page": "1631",
+          "DOI": "10.1002/aic.10166",
+          "volume": "50",
+          "author": "M Lee",
+          "year": "2004",
+          "unstructured": "Lee M, Lee K, Kim C, Lee J. Analytical design of multiloop PID controllers for desired closed-loop responses. AIChE J. 2004;50(7):1631–5.",
+          "journal-title": "AIChE J"
+        },
+        {
+          "key": "6615_CR10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.conengprac.2022.105280",
+          "volume": "127",
+          "author": "H Ding",
+          "year": "2022",
+          "unstructured": "Ding H, Tang J, Qiao J. MIMO modeling and multi-loop control based on neural network for municipal solid waste incineration. Control Eng Pract. 2022;127: 105280.",
+          "journal-title": "Control Eng Pract"
+        },
+        {
+          "key": "6615_CR11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ie00099a012",
+          "author": "MS Chiu",
+          "year": "1990",
+          "unstructured": "Chiu MS, Arkun Y. Decentralized control structure selection based on integrity considerations. Ind Eng Chem Res. 1990. https://doi.org/10.1021/ie00099a012.",
+          "journal-title": "Ind Eng Chem Res"
+        },
+        {
+          "key": "6615_CR12",
+          "doi-asserted-by": "publisher",
+          "first-page": "922",
+          "DOI": "10.1016/j.jprocont.2010.06.012",
+          "volume": "20",
+          "author": "TNL Vu",
+          "year": "2010",
+          "unstructured": "Vu TNL, Lee M. Independent design of multi-loop PI/PID controllers for interacting multivariable processes. J Process Control. 2010;20:922–33.",
+          "journal-title": "J Process Control"
+        },
+        {
+          "key": "6615_CR13",
+          "doi-asserted-by": "publisher",
+          "first-page": "6051",
+          "DOI": "10.1109/ACCESS.2024.3349426",
+          "volume": "12",
+          "author": "LH Woldeamanuel",
+          "year": "2024",
+          "unstructured": "Woldeamanuel LH, Ramaveerapathiran A. Design of multivariable PID control scheme for humidity and temperature control of neonatal incubator. IEEE Access. 2024;12:6051–62. https://doi.org/10.1109/ACCESS.2024.3349426.",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "issue": "11",
+          "key": "6615_CR14",
+          "first-page": "1263",
+          "volume": "17",
+          "author": "A Nasir Ahmed",
+          "year": "2023",
+          "unstructured": "Nasir Ahmed A, Amjad Jaleel H, Ahmed SA. Active disturbance rejection control with decoupling case for a lower limb exoskeleton of swing leg. ICIC Express Letters. 2023;17(11):1263–75.",
+          "journal-title": "ICIC Express Letters"
+        },
+        {
+          "issue": "3",
+          "key": "6615_CR15",
+          "first-page": "25",
+          "volume": "4",
+          "author": "A Jebar",
+          "year": "2020",
+          "unstructured": "Jebar A. Decoupling and model reduction for the binary distillation column linear system. Int J Sci Eng Sci. 2020;4(3):25–31.",
+          "journal-title": "Int J Sci Eng Sci"
+        },
+        {
+          "key": "6615_CR16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.36937/ben.2021.001.005",
+          "author": "NA Alawad",
+          "year": "2021",
+          "unstructured": "Alawad NA, Jebar A. Comparison performance of PI and FPI controllers for model reduction of binary distillation column plant. J Brilliant Eng. 2021. https://doi.org/10.36937/ben.2021.001.005.",
+          "journal-title": "J Brilliant Eng"
+        },
+        {
+          "issue": "2",
+          "key": "6615_CR17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1590/0001-3765202320220680",
+          "volume": "95",
+          "author": "NA Alawad",
+          "year": "2023",
+          "unstructured": "Alawad NA, Humaidi AJ, Alaraji AS. Sliding mode-based active disturbance rejection control of assistive exoskeleton device for rehabilitation of disabled lower limbs. An Acad Bras Cienc. 2023;95(2): e20220680. https://doi.org/10.1590/0001-3765202320220680.",
+          "journal-title": "An Acad Bras Cienc"
+        },
+        {
+          "issue": "3",
+          "key": "6615_CR18",
+          "first-page": "158",
+          "volume": "63",
+          "author": "NA Alawad",
+          "year": "2023",
+          "unstructured": "Alawad NA, Humaidi AJ, Alaraji AS. Fractional multi-loop active disturbance rejection control for a lower knee exoskeleton system. Acta Polytechnica. 2023;63(3):158–70.",
+          "journal-title": "Acta Polytechnica"
+        },
+        {
+          "issue": "3",
+          "key": "6615_CR19",
+          "first-page": "316",
+          "volume": "14",
+          "author": "NA Alawad",
+          "year": "2023",
+          "unstructured": "Alawad NA, Humaidi AJ, Alaraji AS. A novel approach of multi-loop control based- ADRC for improving lower knee position exoskeleton system. Int Rev Appl Sci Eng. 2023;14(3):316–24.",
+          "journal-title": "Int Rev Appl Sci Eng"
+        },
+        {
+          "issue": "2",
+          "key": "6615_CR20",
+          "doi-asserted-by": "publisher",
+          "first-page": "80",
+          "DOI": "10.35784/acs-2020-14",
+          "volume": "16",
+          "author": "N Alawad",
+          "year": "2020",
+          "unstructured": "Alawad N, Alseady A. Fuzzy controller of model reduction distillation column with minimal rules. Applied Computer Science. 2020;16(2):80–94.",
+          "journal-title": "Applied Computer Science"
+        },
+        {
+          "key": "6615_CR21",
+          "doi-asserted-by": "publisher",
+          "first-page": "773",
+          "DOI": "10.1016/j.jprocont.2006.04.001",
+          "volume": "16",
+          "author": "Q Xiong",
+          "year": "2006",
+          "unstructured": "Xiong Q, Cai W-J. Effective transfer function method for decentralized control system design of multi-input multi-output processes. J Process Control. 2006;16:773–84.",
+          "journal-title": "J Process Control"
+        },
+        {
+          "key": "6615_CR22",
+          "doi-asserted-by": "publisher",
+          "first-page": "485",
+          "DOI": "10.1016/S0959-1524(01)00015-4",
+          "volume": "12",
+          "author": "H Cui",
+          "year": "2002",
+          "unstructured": "Cui H, Jacobsen EW. Performance limitations in decentralized control. J Process Control. 2002;12:485–94.",
+          "journal-title": "J Process Control"
+        },
+        {
+          "key": "6615_CR23",
+          "doi-asserted-by": "publisher",
+          "first-page": "1554",
+          "DOI": "10.1016/j.isatra.2014.05.016",
+          "volume": "53",
+          "author": "X Luan",
+          "year": "2014",
+          "unstructured": "Luan X, Chen Q, Liu F. Centralized PI control for high dimensional multivariable systems based on equivalent transfer function. ISA Trans. 2014;53:1554–61.",
+          "journal-title": "ISA Trans"
+        },
+        {
+          "key": "6615_CR24",
+          "doi-asserted-by": "publisher",
+          "first-page": "922",
+          "DOI": "10.1016/j.jprocont.2010.06.012",
+          "volume": "20",
+          "author": "TN Luan Vu",
+          "year": "2010",
+          "unstructured": "Luan Vu TN, Lee M. Independent design of multi-loop PI/PID controllers for interacting multivariable process. J Process Cont. 2010;20:922–33.",
+          "journal-title": "J Process Cont"
+        },
+        {
+          "issue": "1",
+          "key": "6615_CR25",
+          "doi-asserted-by": "publisher",
+          "first-page": "106",
+          "DOI": "10.1002/aic.690440112",
+          "volume": "44",
+          "author": "Y Lee",
+          "year": "1998",
+          "unstructured": "Lee Y, Park S, Lee M, Brosilow C. PID controller tuning for desired closed-loop responses for SI/SO systems. AIChE J. 1998;44(1):106–15.",
+          "journal-title": "AIChE J"
+        },
+        {
+          "key": "6615_CR26",
+          "doi-asserted-by": "publisher",
+          "first-page": "3037",
+          "DOI": "10.1021/ie0102347",
+          "volume": "41",
+          "author": "S Cha",
+          "year": "2002",
+          "unstructured": "Cha S, Chu D, Lee J. Two step IMC-PID method for multi-loop control system design. Ind Eng Chem Res. 2002;41:3037–41.",
+          "journal-title": "Ind Eng Chem Res"
+        },
+        {
+          "key": "6615_CR27",
+          "doi-asserted-by": "publisher",
+          "first-page": "1631",
+          "DOI": "10.1002/aic.10166",
+          "volume": "50",
+          "author": "M Lee",
+          "year": "2004",
+          "unstructured": "Lee M, Lee K, Kim C, Lee J. Analytical design of multi-loop PID controllers for desired closed-loop responses. AIChE J. 2004;50:1631–5.",
+          "journal-title": "AIChE J"
+        }
+      ],
+      "container-title": [
+        "Discover Applied Sciences"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s42452-025-06615-z.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/article/10.1007/s42452-025-06615-z/fulltext.html",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s42452-025-06615-z.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            22
+          ]
+        ],
+        "date-time": "2025-02-22T04:30:51Z",
+        "timestamp": 1740198651000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://link.springer.com/10.1007/s42452-025-06615-z"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            22
+          ]
+        ]
+      },
+      "references-count": 27,
+      "journal-issue": {
+        "issue": "3",
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              3
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "6615"
+      ],
+      "URL": "https://doi.org/10.1007/s42452-025-06615-z",
+      "relation": {},
+      "ISSN": [
+        "3004-9261"
+      ],
+      "issn-type": [
+        {
+          "value": "3004-9261",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            22
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "29 August 2024",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "11 February 2025",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "22 February 2025",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Declarations"
+          }
+        },
+        {
+          "value": "The authors declare no competing interests.",
+          "order": 2,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        }
+      ],
+      "article-number": "165"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Arun Ramaveerapathiran",
+      "given_name_from_source": "Arun",
+      "family_name_from_source": "Ramaveerapathiran",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Muniraj Rathinam",
+      "given_name_from_source": "Muniraj",
+      "family_name_from_source": "Rathinam",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Karuppiah Natarajan",
+      "given_name_from_source": "Karuppiah",
+      "family_name_from_source": "Natarajan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Muthiah Athi",
+      "given_name_from_source": "Muthiah",
+      "family_name_from_source": "Athi",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Patil Mounica",
+      "given_name_from_source": "Patil",
+      "family_name_from_source": "Mounica",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

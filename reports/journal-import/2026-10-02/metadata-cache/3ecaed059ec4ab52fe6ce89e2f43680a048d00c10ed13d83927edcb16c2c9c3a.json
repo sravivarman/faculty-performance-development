@@ -1,0 +1,773 @@
+{
+  "doi": "10.1016/j.est.2024.113933",
+  "title": "Optimal day-ahead scheduling of microgrid equipped with electric vehicle and distributed energy resources: SFO-CSGNN approach",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "Journal of Energy Storage",
+  "publisher": "Elsevier BV",
+  "publication_date": null,
+  "online_publication_date": null,
+  "print_publication_date": null,
+  "volume": "102",
+  "issue": null,
+  "pages_or_article_number": "113933",
+  "issn": "2352-152X",
+  "eissn": null,
+  "isbn": null,
+  "url": "https://doi.org/10.1016/j.est.2024.113933",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:53:56.096140+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            17
+          ]
+        ],
+        "date-time": "2026-09-17T18:41:06Z",
+        "timestamp": 1789670466203,
+        "version": "4.0.1"
+      },
+      "reference-count": 34,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2024-11-01T00:00:00Z",
+            "timestamp": 1730419200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2024-11-01T00:00:00Z",
+            "timestamp": 1730419200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2024-11-01T00:00:00Z",
+            "timestamp": 1730419200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-017"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2024-11-01T00:00:00Z",
+            "timestamp": 1730419200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2024-11-01T00:00:00Z",
+            "timestamp": 1730419200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-012"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2024-11-01T00:00:00Z",
+            "timestamp": 1730419200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2024-11-01T00:00:00Z",
+            "timestamp": 1730419200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-004"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Journal of Energy Storage"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            11
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.est.2024.113933",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            5
+          ]
+        ],
+        "date-time": "2024-10-05T16:12:54Z",
+        "timestamp": 1728144774000
+      },
+      "page": "113933",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 22,
+      "special_numbering": "PA",
+      "title": [
+        "Optimal day-ahead scheduling of microgrid equipped with electric vehicle and distributed energy resources: SFO-CSGNN approach"
+      ],
+      "prefix": "10.1016",
+      "volume": "102",
+      "author": [
+        {
+          "given": "Karunakaran",
+          "family": "Venkatesan",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Pramod Kumar",
+          "family": "Gouda",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bibhuti Bhusan",
+          "family": "Rath",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Murugaperumal",
+          "family": "Krishnamoorthy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.est.2024.113933_bb0005",
+          "article-title": "A stochastic tri-layer optimization framework for day-ahead scheduling of microgrids using cooperative game theory approach in the presence of electric vehicles",
+          "volume": "52",
+          "author": "Seyyedi",
+          "year": "2022",
+          "journal-title": "J. Energy Storage"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.est.2024.113933_bb0010",
+          "doi-asserted-by": "crossref",
+          "first-page": "491",
+          "DOI": "10.3390/smartcities6010023",
+          "article-title": "A day ahead demand schedule strategy for optimal operation of microgrid with uncertainty",
+          "volume": "6",
+          "author": "Battula",
+          "year": "2023",
+          "journal-title": "Smart Cit."
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.est.2024.113933_bb0015",
+          "doi-asserted-by": "crossref",
+          "first-page": "3356",
+          "DOI": "10.3390/en16083356",
+          "article-title": "Micro-grid day-ahead stochastic optimal dispatch considering multiple demand response and electric vehicles",
+          "volume": "16",
+          "author": "Li",
+          "year": "2023",
+          "journal-title": "Energies"
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.est.2024.113933_bb0020",
+          "doi-asserted-by": "crossref",
+          "first-page": "1993",
+          "DOI": "10.3390/sym15111993",
+          "article-title": "Research on optimal scheduling strategy of microgrid considering electric vehicle access",
+          "volume": "15",
+          "author": "Wu",
+          "year": "2023",
+          "journal-title": "Symmetry"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.est.2024.113933_bb0025",
+          "doi-asserted-by": "crossref",
+          "first-page": "17499",
+          "DOI": "10.1038/s41598-024-68228-7",
+          "article-title": "Dual layer energy management model for optimal operation of a community based microgrid considering electric vehicle penetration",
+          "volume": "14",
+          "author": "Sharma",
+          "year": "2024",
+          "journal-title": "Sci. Rep."
+        },
+        {
+          "key": "10.1016/j.est.2024.113933_bb0030",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.est.2024.112435",
+          "article-title": "Optimal power dispatching for a grid-connected electric vehicle charging station microgrid with renewable energy, battery storage and peer-to-peer energy sharing",
+          "volume": "96",
+          "author": "Bokopane",
+          "year": "2024",
+          "journal-title": "J. Energy Storage"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.est.2024.113933_bb0035",
+          "doi-asserted-by": "crossref",
+          "first-page": "1802",
+          "DOI": "10.3390/en16041802",
+          "article-title": "Day-ahead scheduling of multi-energy microgrids based on a stochastic multi-objective optimization model",
+          "volume": "16",
+          "author": "Seyednouri",
+          "year": "2023",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.est.2024.113933_bb0040",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.apenergy.2023.120703",
+          "article-title": "Integrated framework for modeling the interactions of plug-in hybrid electric vehicles aggregators, parking lots and distributed generation facilities in electricity markets",
+          "volume": "334",
+          "author": "Firouzi",
+          "year": "2023",
+          "journal-title": "Appl. Energy"
+        },
+        {
+          "issue": "13",
+          "key": "10.1016/j.est.2024.113933_bb0045",
+          "doi-asserted-by": "crossref",
+          "first-page": "5024",
+          "DOI": "10.3390/en16135024",
+          "article-title": "Optimal demand response using battery storage systems and electric vehicles in community home energy management system-based microgrids",
+          "volume": "16",
+          "author": "Abbasi",
+          "year": "2023",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.est.2024.113933_bb0050",
+          "series-title": "Distributed Consensus-based Optimal Power Sharing Between Grid and EV Charging Stations Using Derivative-free Charging Scheduling",
+          "author": "Ullah",
+          "year": "2024"
+        },
+        {
+          "key": "10.1016/j.est.2024.113933_bb0055",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.epsr.2021.107049",
+          "article-title": "Optimal allocation of EV charging spots and capacitors in distribution network improving voltage and power loss by Quantum-Behaved and Gaussian Mutational Dragonfly Algorithm (QGDA)",
+          "volume": "194",
+          "author": "Rajesh",
+          "year": "2021",
+          "journal-title": "Electr. Power Syst. Res."
+        },
+        {
+          "key": "10.1016/j.est.2024.113933_bb0060",
+          "article-title": "Hybrid technique for optimizing charging-discharging behaviour of EVs and demand response for cost-effective PV microgrid system",
+          "volume": "96",
+          "author": "Kumar",
+          "year": "2024",
+          "journal-title": "J. Energy Storage"
+        },
+        {
+          "key": "10.1016/j.est.2024.113933_bb0065",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.est.2020.101553",
+          "article-title": "Sustainable energy system planning for an industrial zone by integrating electric vehicles as energy storage",
+          "volume": "30",
+          "author": "Noorollahi",
+          "year": "2020",
+          "journal-title": "J. Energy Storage"
+        },
+        {
+          "key": "10.1016/j.est.2024.113933_bb0070",
+          "doi-asserted-by": "crossref",
+          "first-page": "6069",
+          "DOI": "10.1016/j.egyr.2024.05.003",
+          "article-title": "Power management for fuel-cell electric vehicle using Hybrid SHO-CSGNN approach",
+          "volume": "11",
+          "author": "SivaramKrishnan",
+          "year": "2024",
+          "journal-title": "Energy Rep."
+        },
+        {
+          "key": "10.1016/j.est.2024.113933_bb0075",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.adapen.2023.100148",
+          "article-title": "Low-carbon lithium extraction makes deep geothermal plants cost-competitive in future energy systems",
+          "volume": "11",
+          "author": "Weinand",
+          "year": "2023",
+          "journal-title": "Adv. Appl. Energy"
+        },
+        {
+          "key": "10.1016/j.est.2024.113933_bb0080",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.ijepes.2023.109766",
+          "article-title": "Optimal scheduling of electric vehicle ordered charging and discharging based on improved gravitational search and particle swarm optimization algorithm",
+          "volume": "157",
+          "author": "Pan",
+          "year": "2024",
+          "journal-title": "Int. J. Electr. Power Energy Syst."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.est.2024.113933_bb0085",
+          "doi-asserted-by": "crossref",
+          "first-page": "1202",
+          "DOI": "10.1002/ese3.1385",
+          "article-title": "Multi-objective optimal planning of EV charging stations and renewable energy resources for smart microgrids",
+          "volume": "11",
+          "author": "Asaad",
+          "year": "2023",
+          "journal-title": "Energy Sci. Eng."
+        },
+        {
+          "issue": "16",
+          "key": "10.1016/j.est.2024.113933_bb0090",
+          "doi-asserted-by": "crossref",
+          "first-page": "2625",
+          "DOI": "10.1049/gtd2.13221",
+          "article-title": "Optimal scheduling and management of grid-connected distributed resources using improved decomposition-based many-objective evolutionary algorithm",
+          "volume": "18",
+          "author": "Abbas",
+          "year": "2024",
+          "journal-title": "IET Gener. Transm. Distrib."
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.est.2024.113933_bb0095",
+          "doi-asserted-by": "crossref",
+          "first-page": "1798",
+          "DOI": "10.1049/rpg2.13038",
+          "article-title": "Optimized allocation of microgrids’ distributed generations and electric vehicle charging stations considering system uncertainties by clustering algorithms",
+          "volume": "18",
+          "author": "Yaghoubi-Nia",
+          "year": "2024",
+          "journal-title": "IET Renew. Power Generat."
+        },
+        {
+          "key": "10.1016/j.est.2024.113933_bb0100",
+          "article-title": "Priority-based scheduling in residential energy management systems integrated with renewable sources using adaptive salp swarm algorithm",
+          "volume": "102643",
+          "author": "Panda",
+          "year": "2024",
+          "journal-title": "Results Eng."
+        },
+        {
+          "key": "10.1016/j.est.2024.113933_bb0105",
+          "doi-asserted-by": "crossref",
+          "first-page": "4192",
+          "DOI": "10.1016/j.egyr.2024.04.001",
+          "article-title": "Optimal sizing of multi-energy microgrid with electric vehicle integration: considering carbon emission and resilience load",
+          "volume": "11",
+          "author": "Rehman",
+          "year": "2024",
+          "journal-title": "Energy Rep."
+        },
+        {
+          "key": "10.1016/j.est.2024.113933_bb0110",
+          "article-title": "Coordinated operation of active distribution network, networked microgrids, and electric vehicle: a multi-agent PPO optimization method",
+          "author": "Shi",
+          "year": "2023",
+          "journal-title": "CSEE J. Power Energy Syst."
+        },
+        {
+          "issue": "24",
+          "key": "10.1016/j.est.2024.113933_bb0115",
+          "doi-asserted-by": "crossref",
+          "first-page": "16682",
+          "DOI": "10.3390/su152416682",
+          "article-title": "Robust optimal scheduling of microgrid with electric vehicles based on stackelberg game",
+          "volume": "15",
+          "author": "Hao",
+          "year": "2023",
+          "journal-title": "Sustainability"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.est.2024.113933_bb0120",
+          "first-page": "143",
+          "article-title": "Fast EV charging station integration with grid ensuring optimal and quality power exchange",
+          "volume": "22",
+          "author": "Khan",
+          "year": "2019",
+          "journal-title": "Eng. Sci. Technol."
+        },
+        {
+          "issue": "27",
+          "key": "10.1016/j.est.2024.113933_bb0125",
+          "doi-asserted-by": "crossref",
+          "first-page": "13261",
+          "DOI": "10.1016/j.ijhydene.2022.02.084",
+          "article-title": "An innovative approach for geothermal-wind hybrid comprehensive energy system and hydrogen production modeling/process analysis",
+          "volume": "47",
+          "author": "Bamisile",
+          "year": "2022",
+          "journal-title": "Int. J. Hydrog. Energy"
+        },
+        {
+          "key": "10.1016/j.est.2024.113933_bb0130",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.adapen.2023.100148",
+          "article-title": "Low-carbon lithium extraction makes deep geothermal plants cost-competitive in future energy systems",
+          "volume": "11",
+          "author": "Weinand",
+          "year": "2023",
+          "journal-title": "Adv. Appl. Energy"
+        },
+        {
+          "key": "10.1016/j.est.2024.113933_bb0135",
+          "first-page": "1",
+          "article-title": "A hybrid BCMPO technique for optimal scheduling of electric vehicle aggregators under market price uncertainty",
+          "author": "Sukumar",
+          "year": "2023",
+          "journal-title": "IETE J. Res."
+        },
+        {
+          "key": "10.1016/j.est.2024.113933_bb0140",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.est.2020.101553",
+          "article-title": "Sustainable energy system planning for an industrial zone by integrating electric vehicles as energy storage",
+          "volume": "30",
+          "author": "Noorollahi",
+          "year": "2020",
+          "journal-title": "J. Energy Storage"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.est.2024.113933_bb0145",
+          "doi-asserted-by": "crossref",
+          "first-page": "2819",
+          "DOI": "10.3390/su15032819",
+          "article-title": "A multi-objective planning strategy for electric vehicle charging stations towards low carbon-oriented modern power systems",
+          "volume": "15",
+          "author": "Ahmed",
+          "year": "2023",
+          "journal-title": "Sustainability"
+        },
+        {
+          "key": "10.1016/j.est.2024.113933_bb0150",
+          "doi-asserted-by": "crossref",
+          "first-page": "156171",
+          "DOI": "10.1109/ACCESS.2021.3126537",
+          "article-title": "An improved sunflower optimization algorithm for cluster head selection in the internet of things",
+          "volume": "9",
+          "author": "Raslan",
+          "year": "2021",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.est.2024.113933_bb0155",
+          "series-title": "CSGNN: Contrastive Self-Supervised Graph Neural Network for Molecular Interaction Prediction. In IJCAI (pp. 3756-3763)",
+          "author": "Zhao",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.est.2024.113933_bb3200",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.est.2023.106987",
+          "article-title": "Development of improved reinforcement learning smart charging strategy for electric vehicle fleet",
+          "volume": "64",
+          "author": "Sultanuddin",
+          "year": "2023",
+          "journal-title": "J. Energy Storage"
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.est.2024.113933_bb3300",
+          "doi-asserted-by": "crossref",
+          "first-page": "15499",
+          "DOI": "10.1002/er.8248",
+          "article-title": "A hybrid technique based energy management in hybrid electric vehicle system",
+          "volume": "46",
+          "author": "Prasanna Moorthy",
+          "year": "2022",
+          "journal-title": "Int. J. Energy Res."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.est.2024.113933_bb3400",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1002/jnm.2893",
+          "article-title": "IoT based energy management in smart energy system: a hybrid SO2SA technique",
+          "volume": "34",
+          "author": "Muthubalaji",
+          "year": "2021",
+          "journal-title": "Int. J. Numer. Modell. Electron. Networks Devices Fields"
+        }
+      ],
+      "container-title": [
+        "Journal of Energy Storage"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2352152X24035199?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2352152X24035199?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            15
+          ]
+        ],
+        "date-time": "2024-11-15T12:23:41Z",
+        "timestamp": 1731673421000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2352152X24035199"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            11
+          ]
+        ]
+      },
+      "references-count": 34,
+      "alternative-id": [
+        "S2352152X24035199"
+      ],
+      "URL": "https://doi.org/10.1016/j.est.2024.113933",
+      "relation": {},
+      "ISSN": [
+        "2352-152X"
+      ],
+      "issn-type": [
+        {
+          "value": "2352-152X",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            11
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Optimal day-ahead scheduling of microgrid equipped with electric vehicle and distributed energy resources: SFO-CSGNN approach",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Journal of Energy Storage",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.est.2024.113933",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "113933"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "Karunakaran Venkatesan",
+      "given_name_from_source": "Karunakaran",
+      "family_name_from_source": "Venkatesan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "Pramod Kumar Gouda",
+      "given_name_from_source": "Pramod Kumar",
+      "family_name_from_source": "Gouda",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "Bibhuti Bhusan Rath",
+      "given_name_from_source": "Bibhuti Bhusan",
+      "family_name_from_source": "Rath",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Murugaperumal Krishnamoorthy",
+      "given_name_from_source": "Murugaperumal",
+      "family_name_from_source": "Krishnamoorthy",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}

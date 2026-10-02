@@ -1,0 +1,869 @@
+{
+  "doi": "10.1007/s42452-023-05526-1",
+  "title": "Fabrication and investigation of agricultural monitoring system with IoT &amp; AI",
+  "publication_type": "JOURNAL",
+  "journal_conference_name": "SN Applied Sciences",
+  "publisher": "Springer Science and Business Media LLC",
+  "publication_date": "2023-11-09",
+  "online_publication_date": "2023-11-09",
+  "print_publication_date": null,
+  "volume": "5",
+  "issue": "12",
+  "pages_or_article_number": "322",
+  "issn": "2523-3963",
+  "eissn": "2523-3971",
+  "isbn": null,
+  "url": "https://doi.org/10.1007/s42452-023-05526-1",
+  "metadata_source": "CROSSREF",
+  "metadata_fetched_at": "2026-10-02T05:54:37.044481+00:00",
+  "raw_metadata_json": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            1
+          ]
+        ],
+        "date-time": "2026-10-01T00:25:23Z",
+        "timestamp": 1790814323767,
+        "version": "4.1.0"
+      },
+      "reference-count": 50,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "12",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                11,
+                9
+              ]
+            ],
+            "date-time": "2023-11-09T00:00:00Z",
+            "timestamp": 1699488000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                11,
+                9
+              ]
+            ],
+            "date-time": "2023-11-09T00:00:00Z",
+            "timestamp": 1699488000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "SN Appl. Sci."
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            12
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title><jats:p>Artificial intelligence (AI) can be used in a variety of fields and has the potential to alter how we currently view farming. Due to its emphasis on effectiveness and usability artificial intelligence has the largest impact on agriculture of all industries. We highlight the automation-supporting technologies such as Artificial Intelligence (AI), Machine Learning, and Long-Range (LoRa) technology which provides data integrity and protection. We also offer a structure for smart farming that depends on the location of data processing after a comprehensive investigation of numerous designs. As part of our future study we have divided the unresolved difficulties in smart agriculture into two categories such as networking issues and technology issues. Artificial Intelligence and Machine Learning are examples of technologies whereas the Moderate Resolution Imaging Spectroradiometer satellite and LoRa are used for all network-related jobs. The goal of the research is to deploy a network of sensors throughout agricultural fields to gather real-time information on a variety of environmental factors including temperature, humidity, soil moisture and nutrient levels. The seamless data transmission and communication made possible by these sensors’ integration with Internet of Things technologies. With the use of AI techniques and algorithms the gathered data is examined. The technology may offer practical insights and suggestions for improving agricultural practices because the AI models are trained to spot patterns, correlations, and anomalies in the data. We are also focusing on indoor farming by supplying Ultra Violet radiation and artificial lighting in accordance with plant growth. When a pest assault is detected using AI and LoRa even in poor or no network coverage area and notifies the farmer’s mobile in any part of the world. The irrigation system is put to the test with various plants at various humidity and temperature levels in both dry and typical situations. To keep the water content in those specific regions soil moisture sensors are used.</jats:p>",
+      "DOI": "10.1007/s42452-023-05526-1",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            9
+          ]
+        ],
+        "date-time": "2023-11-09T12:02:30Z",
+        "timestamp": 1699531350000
+      },
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 33,
+      "title": [
+        "Fabrication and investigation of agricultural monitoring system with IoT &amp; AI"
+      ],
+      "prefix": "10.1007",
+      "volume": "5",
+      "author": [
+        {
+          "given": "P.",
+          "family": "Indira",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "I. Sheik",
+          "family": "Arafat",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "R.",
+          "family": "Karthikeyan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shitharth",
+          "family": "Selvarajan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Praveen Kumar",
+          "family": "Balachandran",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            9
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "5526_CR1",
+          "volume-title": "The state of food security and nutrition in the world: safeguarding against economic slowdowns and downturns",
+          "author": "World Health Organization",
+          "year": "2019",
+          "unstructured": "World Health Organization (2019) The state of food security and nutrition in the world: safeguarding against economic slowdowns and downturns. FAO, Rome"
+        },
+        {
+          "key": "5526_CR2",
+          "doi-asserted-by": "publisher",
+          "first-page": "331",
+          "DOI": "10.1016/j.iswcr.2018.06.002",
+          "volume": "6",
+          "author": "SM Wunderlich",
+          "year": "2018",
+          "unstructured": "Wunderlich SM, Martinez NM (2018) Conserving natural resources through food loss reduction: production and consumption stages of the food supply chain. Int Soil Water Conserv Res 6:331–339",
+          "journal-title": "Int Soil Water Conserv Res"
+        },
+        {
+          "key": "5526_CR3",
+          "unstructured": "Press Information Bureau Government of India Ministry of Finance 31-January-2022 “Despite COVID-19 shock agriculture sector grows at 3.9% in 2021–22 and 3.6% in 2020–21"
+        },
+        {
+          "key": "5526_CR4",
+          "doi-asserted-by": "publisher",
+          "first-page": "4155",
+          "DOI": "10.1007/s10661-014-4155-1",
+          "volume": "187",
+          "author": "MK Gumma",
+          "year": "2015",
+          "unstructured": "Gumma MK, Kajisa K, Mohammed IA, Whitbread AM, Nelson A, Rala A, Palanisami K (2015) Temporal change in land use by irrigation source in Tamil Nadu and management implications. Environ Monit Assess 187:4155. https://doi.org/10.1007/s10661-014-4155-1",
+          "journal-title": "Environ Monit Assess"
+        },
+        {
+          "key": "5526_CR5",
+          "doi-asserted-by": "publisher",
+          "first-page": "795",
+          "DOI": "10.1007/s12571-015-0478-1",
+          "volume": "7",
+          "author": "TW Reynolds",
+          "year": "2015",
+          "unstructured": "Reynolds TW, Waddington SR, Anderson CL, Chew A, True Z, Cullen A (2015) Environmental impacts and constraints associated with the production of major food crops in Sub-Saharan Africa and South Asia. Food Secur 7:795–822",
+          "journal-title": "Food Secur"
+        },
+        {
+          "key": "5526_CR6",
+          "unstructured": "Rajendranath UNVP, Hency VB (2015) Implementation of an automated irrigation system smart irrigation system. In: IEEE sponsored 2nd international conference on innovations in information, embedded and communication systems"
+        },
+        {
+          "key": "5526_CR7",
+          "volume-title": "Crop production: principles and practices",
+          "author": "DS Metclfe",
+          "year": "1980",
+          "unstructured": "Metclfe DS, Elkins DM (1980) Crop production: principles and practices. Macmillan Publishing Co., Inc., New York"
+        },
+        {
+          "key": "5526_CR8",
+          "doi-asserted-by": "publisher",
+          "first-page": "15",
+          "DOI": "10.5194/soil-5-15-2019",
+          "volume": "5",
+          "author": "EE Oldfield",
+          "year": "2019",
+          "unstructured": "Oldfield EE, Bradford MA, Wood SA (2019) Global meta-analysis of the relationship between soil, organic matter and crop yields. Soil 5:15–32. https://doi.org/10.5194/soil-5-15-2019",
+          "journal-title": "Soil"
+        },
+        {
+          "key": "5526_CR9",
+          "first-page": "1",
+          "volume-title": "Global perspectives on agro-ecology and sustainable agricultural systems",
+          "author": "P Allen",
+          "year": "1988",
+          "unstructured": "Allen P, Van Dusen D (1988) Sustainable agriculture: choosing the future. In: Appen P, Van Dusen D (eds) Global perspectives on agro-ecology and sustainable agricultural systems. University of California, Santa Cruz, pp 1–14"
+        },
+        {
+          "key": "5526_CR10",
+          "doi-asserted-by": "publisher",
+          "first-page": "812",
+          "DOI": "10.1126/science.1185383",
+          "volume": "327",
+          "author": "HCJ Godfray",
+          "year": "2010",
+          "unstructured": "Godfray HCJ, Beddington JR, Crute IR, Haddad L, Lawrence D, Muir JF et al (2010) Food security: the challenge of feeding 9 billion people. Science 327:812–818. https://doi.org/10.1126/science.1185383",
+          "journal-title": "Science"
+        },
+        {
+          "key": "5526_CR11",
+          "doi-asserted-by": "publisher",
+          "first-page": "337",
+          "DOI": "10.1038/nature10452",
+          "volume": "478",
+          "author": "JA Foley",
+          "year": "2011",
+          "unstructured": "Foley JA, Ramankutty N, Brauman KA, Cassidy ES, Gerber JS, Johnston M et al (2011) Solutions for a cultivated planet. Nature 478:337–342. https://doi.org/10.1038/nature10452",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "5526_CR12",
+          "doi-asserted-by": "publisher",
+          "first-page": "254",
+          "DOI": "10.1038/nature11420",
+          "volume": "490",
+          "author": "ND Mueller",
+          "year": "2012",
+          "unstructured": "Mueller ND, Gerber JS, Johnston M, Ray DK, Ramankutty N, Foley JA (2012) Closing yield gaps through nutrient and water management. Nature 490:254–257. https://doi.org/10.1038/nature11420",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "5526_CR13",
+          "doi-asserted-by": "publisher",
+          "first-page": "1498",
+          "DOI": "10.1080/01904167.2014.881876",
+          "volume": "37",
+          "author": "C-H Wang",
+          "year": "2014",
+          "unstructured": "Wang C-H (2014) Farming methods effects on the soil fertility and crop productionn under a rice—vegetables cropping sequences. J Plant Nutr 37:1498–1513. https://doi.org/10.1080/01904167.2014.881876",
+          "journal-title": "J Plant Nutr"
+        },
+        {
+          "issue": "5",
+          "key": "5526_CR14",
+          "doi-asserted-by": "publisher",
+          "first-page": "1125",
+          "DOI": "10.1109/JIOT.2017.2683200",
+          "volume": "4",
+          "author": "J Lin",
+          "year": "2017",
+          "unstructured": "Lin J, Yu W, Zhang N, Yang X, Zhang H, Zhao W (2017) A survey on Internet of Things: architecture enabling technologies security and privacy and applications. IEEE Internet Things J 4(5):1125–1142",
+          "journal-title": "IEEE Internet Things J"
+        },
+        {
+          "issue": "8",
+          "key": "5526_CR15",
+          "doi-asserted-by": "publisher",
+          "first-page": "1833",
+          "DOI": "10.3390/s19081833",
+          "volume": "19",
+          "author": "X Hi",
+          "year": "2019",
+          "unstructured": "Hi X, An X, Zhao Q, Liu H, Xia L, Sun X et al (2019) State-of-the-art Internet of Things in protected agriculture. Sensors 19(8):1833",
+          "journal-title": "Sensors"
+        },
+        {
+          "issue": "5",
+          "key": "5526_CR16",
+          "doi-asserted-by": "publisher",
+          "first-page": "3758",
+          "DOI": "10.1109/JIOT.2018.2844296",
+          "volume": "5",
+          "author": "O Elijah",
+          "year": "2018",
+          "unstructured": "Elijah O, Rahman TA, Orikumhi I, Leow CY, Hindia MN (2018) An overview of Internet of Things (IoT) and data analytics in agriculture: benefits and challenges. IEEE Internet Things J 5(5):3758–3773",
+          "journal-title": "IEEE Internet Things J"
+        },
+        {
+          "key": "5526_CR17",
+          "doi-asserted-by": "publisher",
+          "first-page": "31",
+          "DOI": "10.1016/j.biosystemseng.2017.09.007",
+          "volume": "164",
+          "author": "A Tzounis",
+          "year": "2017",
+          "unstructured": "Tzounis A, Katsoulas N, Bartzanas T, Kittas C (2017) Internet of Things in agriculture recent advances and future challenges. Biosyst Eng 164:31–48",
+          "journal-title": "Biosyst Eng"
+        },
+        {
+          "key": "5526_CR18",
+          "doi-asserted-by": "publisher",
+          "first-page": "216",
+          "DOI": "10.1016/j.geoderma.2015.06.023",
+          "volume": "263",
+          "author": "T-G Vågen",
+          "year": "2016",
+          "unstructured": "Vågen T-G, Winowiecki LA, Tondoh JE, Desta LT, Gumbricht T (2016) Mapping of soil properties and land degradation risk in Africa using MODIS reflectance. Geoderma 263:216–225",
+          "journal-title": "Geoderma"
+        },
+        {
+          "issue": "3",
+          "key": "5526_CR19",
+          "doi-asserted-by": "publisher",
+          "first-page": "45",
+          "DOI": "10.3390/jsan8030045",
+          "volume": "8",
+          "author": "TA Khoa",
+          "year": "2019",
+          "unstructured": "Khoa TA, Man MM, Nguyen T-Y, Nguyen VD, Nam NH (2019) Smart agriculture using IoT multi-sensors: a novel watering management system. J Sens Actuator Netw 8(3):45",
+          "journal-title": "J Sens Actuator Netw"
+        },
+        {
+          "key": "5526_CR20",
+          "unstructured": "Biswas SB, Iqbal MT (2018) Solar water pumping system control using a low cost ESP32 microcontroller. In: Proceedings of IEEE Canadian conference on electrical & computer engineering (CCECE). IEEE, pp 1–5"
+        },
+        {
+          "key": "5526_CR21",
+          "doi-asserted-by": "publisher",
+          "first-page": "34564",
+          "DOI": "10.1109/ACCESS.2020.2975142",
+          "volume": "8",
+          "author": "M Gupta",
+          "year": "2020",
+          "unstructured": "Gupta M, Abdelsalam M, Khorsandroo S, Mittal S (2020) Security and privacy in smart farming: challenges and opportunities. IEEE Access 8:34564–34584. https://doi.org/10.1109/ACCESS.2020.2975142",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "5526_CR22",
+          "doi-asserted-by": "publisher",
+          "first-page": "467",
+          "DOI": "10.1016/j.compag.2018.12.011",
+          "volume": "156",
+          "author": "J Muangprathub",
+          "year": "2019",
+          "unstructured": "Muangprathub J, Boonnam N, Kajornkasirat S, Lekbangpong N, Wanichsombat A, Nillaor P (2019) IoT and agriculture data analysis for smart farm. Comput Electron Agric 156:467–474",
+          "journal-title": "Comput Electron Agric"
+        },
+        {
+          "issue": "7",
+          "key": "5526_CR23",
+          "doi-asserted-by": "publisher",
+          "first-page": "2081",
+          "DOI": "10.3390/s20072081",
+          "volume": "20",
+          "author": "K Haseeb",
+          "year": "2020",
+          "unstructured": "Haseeb K, Ud Din I, Almogren A, Islam N (2020) An energy efficient and secure IoT-based WSN framework: an application to smart agriculture. Sensors 20(7):2081",
+          "journal-title": "Sensors"
+        },
+        {
+          "key": "5526_CR24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sushanth G, Sujatha S (2018) IOT based smart agriculture system. In: 2018 International conference on wireless communications, signal processing and networking (WiSPNET). IEEE, pp 1–4",
+          "DOI": "10.1109/WiSPNET.2018.8538702"
+        },
+        {
+          "key": "5526_CR25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Araby AA, Abd Elhameed MM, Magdy NM, Abdelaal N, Abd Allah YT, Darweesh MS, Fahim MA, Mostafa H (2019) Smart IoT monitoring system for agriculture with predictive analysis. In 2019 8th international conference on modern circuits and systems technologies (MOCAST). IEEE, pp 1–4",
+          "DOI": "10.1109/MOCAST.2019.8741794"
+        },
+        {
+          "issue": "2",
+          "key": "5526_CR26",
+          "first-page": "17",
+          "volume": "10",
+          "author": "R Kajol",
+          "year": "2018",
+          "unstructured": "Kajol R, Kashyap AK (2018) Automated agricultural field analysis and monitoring system using IoT. Int J Inf Eng Electron Bus 10(2):17",
+          "journal-title": "Int J Inf Eng Electron Bus"
+        },
+        {
+          "issue": "3",
+          "key": "5526_CR27",
+          "first-page": "3025",
+          "volume": "5",
+          "author": "KJ Vanaja",
+          "year": "2018",
+          "unstructured": "Vanaja KJ, Suresh A, Srilatha S, Kumar KV, Bharath M (2018) IOT based agriculture system using node MCU. Int Res J Eng Technol 5(3):3025–3028",
+          "journal-title": "Int Res J Eng Technol"
+        },
+        {
+          "key": "5526_CR28",
+          "doi-asserted-by": "publisher",
+          "first-page": "820",
+          "DOI": "10.3390/agronomy11050820",
+          "volume": "11",
+          "author": "M Swain",
+          "year": "2021",
+          "unstructured": "Swain M, Zimon D, Singh R, Hashmi MF, Rashid M, Hakak S (2021) LoRa-LBO: an experimental analysis of LoRa link budget optimization in custom build IoT test bed for agriculture 4.0. Agronomy 11:820",
+          "journal-title": "Agronomy"
+        },
+        {
+          "key": "5526_CR29",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Yao-lin Z, Gao-qiang Z, Lei Z, Jin X (2011) Design of wireless multi-point temperature transmission system based on nRF24l01. In: 2011 international conference on business management and electronic information. IEEE. https://doi.org/10.1109/icbmei.2011.5920375",
+          "DOI": "10.1109/icbmei.2011.5920375"
+        },
+        {
+          "issue": "3",
+          "key": "5526_CR30",
+          "doi-asserted-by": "publisher",
+          "first-page": "317",
+          "DOI": "10.1016/j.rse.2004.12.018",
+          "volume": "95",
+          "author": "PS Thenkabail",
+          "year": "2005",
+          "unstructured": "Thenkabail PS, Schull M, Turral H (2005) Ganges and Indus river basin land use/land cover (LULC) and irrigated area mapping using continuous streams of MODIS data. Remote Sens Environ 95(3):317–341",
+          "journal-title": "Remote Sens Environ"
+        },
+        {
+          "issue": "1",
+          "key": "5526_CR31",
+          "doi-asserted-by": "publisher",
+          "first-page": "181",
+          "DOI": "10.3390/agronomy11010181",
+          "volume": "11",
+          "author": "G Vitali",
+          "year": "2021",
+          "unstructured": "Vitali G, Francia M, Golfarelli M, Canavari M (2021) Crop management with the IoT: An interdisciplinary survey. Agronomy 11(1):181. https://doi.org/10.3390/agronomy11010181",
+          "journal-title": "Agronomy"
+        },
+        {
+          "issue": "5",
+          "key": "5526_CR32",
+          "first-page": "2016",
+          "volume": "6",
+          "author": "K Balakrishna",
+          "year": "2016",
+          "unstructured": "Balakrishna K, Nethravathi SN, Harshitha K (2016) Real-time soil monitoring system for the application of agriculture. Int J Eng Sci Comput 6(5):2016",
+          "journal-title": "Int J Eng Sci Comput"
+        },
+        {
+          "key": "5526_CR33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ma Z, Pan X (2012) Agricultural environment information collection system based on wireless sensor network. In: 2012 IEEE global high tech congress on electronics, pp 24–28",
+          "DOI": "10.1109/GHTCE.2012.6490118"
+        },
+        {
+          "key": "5526_CR34",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Radha N, Swathika R (2021) A polyhouse: plant monitoring and diseases detection using CNN. In: Proceedings of international conference on artificial intelligence and smart systems (ICAIS), pp 966–971. https://doi.org/10.1109/ICAIS50930.2021.9395847",
+          "DOI": "10.1109/ICAIS50930.2021.9395847"
+        },
+        {
+          "key": "5526_CR35",
+          "doi-asserted-by": "publisher",
+          "first-page": "181",
+          "DOI": "10.32628/cseit183856",
+          "volume": "3",
+          "author": "S Kanchana",
+          "year": "2018",
+          "unstructured": "Kanchana S (2018) IoT in agriculture: smart farming. Int J Sci Res Comput Sci Eng Inf Technol 3:181–184. https://doi.org/10.32628/cseit183856",
+          "journal-title": "Int J Sci Res Comput Sci Eng Inf Technol"
+        },
+        {
+          "key": "5526_CR36",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Nagothu SK (2016) Weather based smart watering system using soil sensor and GSM. In: Proceedings of world conference on futuristic trends in research and innovation for social welfare (startup conclave), pp 1–3. https://doi.org/10.1109/STARTUP.2016.7583991",
+          "DOI": "10.1109/STARTUP.2016.7583991"
+        },
+        {
+          "key": "5526_CR37",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Ogidan OK, Afia KR (2019) Smart irrigation system with an androidbased remote logging and control. In: Proceedings of IEEE AFRICON. IEEE. https://doi.org/10.1109/africon46755.2019.9133953",
+          "DOI": "10.1109/africon46755.2019.9133953"
+        },
+        {
+          "issue": "5",
+          "key": "5526_CR38",
+          "first-page": "223",
+          "volume": "4",
+          "author": "VD Soni",
+          "year": "2020",
+          "unstructured": "Soni VD (2020) Emerging roles of artificial intelligence in ecommerce. Int J Trend Sci Res Dev 4(5):223–225",
+          "journal-title": "Int J Trend Sci Res Dev"
+        },
+        {
+          "key": "5526_CR39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Strohmeier S, Piazza F (2015) Artificial intelligence techniques in human resource management—a conceptual exploration. In: Kahraman C, Onar SC (eds) Intelligent techniques in engineering management. Springer, pp 149–172",
+          "DOI": "10.1007/978-3-319-17906-3_7"
+        },
+        {
+          "key": "5526_CR40",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mitra A, Mohanty SP, Corcoran P, Kougianos E (2021) Detection of deep-morphed deepfake images to make robust automatic facial recognition systems. In: Proceedings of the 19th OITS international conference on information technology (OCIT)",
+          "DOI": "10.1109/OCIT53463.2021.00039"
+        },
+        {
+          "key": "5526_CR41",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mitra A, Mohanty SP, Corcoran P, Kougianos E (2021) EasyDeep: an IoT friendly robust detection method for GAN generated deepfake images in socialmedia. In: Proceedings of the 4th FIP international Internet of Things (IoT) conference (IFIP-IoT)",
+          "DOI": "10.1007/978-3-030-96466-5_14"
+        },
+        {
+          "key": "5526_CR42",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mitra A, Mohanty SP, Corcoran P, Kougianos E (2021) iFace: a deepfake resilient digital identification framework for smart cities. In: Proceedings of IEEE international symposium on smart electronic systems (iSES) (formerly iNiS), 2021, Accepted, In Press. 36 everything you wanted to know about smart agriculture A PREPRINT",
+          "DOI": "10.1109/iSES52644.2021.00090"
+        },
+        {
+          "key": "5526_CR43",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jiang F, Jiang Y, Zhi H, Dong Y, Li H, Ma S, Wang Y, Dong Q, Shen H, Wang Y (2017) Artificial intelligence in healthcare: past, present and future. Stroke Vasc Neurol 2(4):230–243",
+          "DOI": "10.1136/svn-2017-000101"
+        },
+        {
+          "key": "5526_CR44",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Mitra A, Mohanty SP, Corcoran P, Kougianos E (2020) A novel machine learning based method for deepfake video detection in social media. In: Proceedings of IEEE international symposium on smart electronic systems (iSES) (formerly iNiS), pp 91–96. https://doi.org/10.1109/iSES50453.2020.00031",
+          "DOI": "10.1109/iSES50453.2020.00031"
+        },
+        {
+          "issue": "2",
+          "key": "5526_CR45",
+          "doi-asserted-by": "publisher",
+          "first-page": "98",
+          "DOI": "10.1007/s42979-021-00495-x",
+          "volume": "2",
+          "author": "A Mitra",
+          "year": "2021",
+          "unstructured": "Mitra A, Mohanty SP, Corcoran P, Kougianos E (2021) A machine learning based approach for deepfake detection in social media through key video frame extraction. SN Comput Sci 2(2):98. https://doi.org/10.1007/s42979-021-00495-x",
+          "journal-title": "SN Comput Sci"
+        },
+        {
+          "key": "5526_CR46",
+          "doi-asserted-by": "publisher",
+          "first-page": "248",
+          "DOI": "10.3389/fnhum.2017.00248",
+          "volume": "11",
+          "author": "M Palaus",
+          "year": "2017",
+          "unstructured": "Palaus M, Marron EM, Viejo-Sobera R, Redolar-Ripoll D (2017) Neural basis of video gaming: a systematic review. Front Hum Neurosci 11:248",
+          "journal-title": "Front Hum Neurosci"
+        },
+        {
+          "key": "5526_CR47",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Skinner G, Walmsley T (2019) Artificial intelligence and deep learning in video games a brief review. In: Proceedings of IEEE 4th international conference on computer and communication systems (ICCCS), pp 404–408. https://doi.org/10.1109/CCOMS.2019.8821783",
+          "DOI": "10.1109/CCOMS.2019.8821783"
+        },
+        {
+          "issue": "2",
+          "key": "5526_CR48",
+          "doi-asserted-by": "publisher",
+          "first-page": "207",
+          "DOI": "10.3390/agronomy10020207",
+          "volume": "10",
+          "author": "V Saiz-Rubio",
+          "year": "2020",
+          "unstructured": "Saiz-Rubio V, Rovira-Más F (2020) From smart farming towards agriculture 5.0: a review on crop data management. Agronomy 10(2):207",
+          "journal-title": "Agronomy"
+        },
+        {
+          "key": "5526_CR49",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rahutomo R, Perbangsa AS, Lie Y, Cenggoro TW, Pardamean B (2019) Artificial intelligence model implementation in web-based application for pineapple object counting. In: International conference on information management and technology (ICIMTech), pp 19–21",
+          "DOI": "10.1109/ICIMTech.2019.8843741"
+        },
+        {
+          "issue": "3",
+          "key": "5526_CR50",
+          "doi-asserted-by": "publisher",
+          "first-page": "278",
+          "DOI": "10.1016/j.oneear.2019.10.022",
+          "volume": "1",
+          "author": "EDG Fraser",
+          "year": "2019",
+          "unstructured": "Fraser EDG, Campbell M (2019) Agriculture 5.0: reconciling production with planetary health. One Earth 1(3):278–280",
+          "journal-title": "One Earth"
+        }
+      ],
+      "container-title": [
+        "SN Applied Sciences"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s42452-023-05526-1.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/article/10.1007/s42452-023-05526-1/fulltext.html",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s42452-023-05526-1.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            9
+          ]
+        ],
+        "date-time": "2023-11-09T12:05:08Z",
+        "timestamp": 1699531508000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://link.springer.com/10.1007/s42452-023-05526-1"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            9
+          ]
+        ]
+      },
+      "references-count": 50,
+      "journal-issue": {
+        "issue": "12",
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              12
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "5526"
+      ],
+      "URL": "https://doi.org/10.1007/s42452-023-05526-1",
+      "relation": {},
+      "ISSN": [
+        "2523-3963",
+        "2523-3971"
+      ],
+      "issn-type": [
+        {
+          "value": "2523-3963",
+          "type": "print"
+        },
+        {
+          "value": "2523-3971",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            9
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "1 June 2023",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "16 October 2023",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "9 November 2023",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Declarations"
+          }
+        },
+        {
+          "value": "The authors have not disclosed any competing interests.",
+          "order": 2,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Conflict of interest"
+          }
+        }
+      ],
+      "article-number": "322"
+    }
+  },
+  "indexing": [],
+  "authors": [
+    {
+      "author_order": 1,
+      "author_name_from_source": "P. Indira",
+      "given_name_from_source": "P.",
+      "family_name_from_source": "Indira",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": true,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 2,
+      "author_name_from_source": "I. Sheik Arafat",
+      "given_name_from_source": "I. Sheik",
+      "family_name_from_source": "Arafat",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 3,
+      "author_name_from_source": "R. Karthikeyan",
+      "given_name_from_source": "R.",
+      "family_name_from_source": "Karthikeyan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 4,
+      "author_name_from_source": "Shitharth Selvarajan",
+      "given_name_from_source": "Shitharth",
+      "family_name_from_source": "Selvarajan",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    },
+    {
+      "author_order": 5,
+      "author_name_from_source": "Praveen Kumar Balachandran",
+      "given_name_from_source": "Praveen Kumar",
+      "family_name_from_source": "Balachandran",
+      "orcid_from_source": null,
+      "affiliation_from_source": [],
+      "person_type": "UNKNOWN",
+      "faculty_id": null,
+      "student_id": null,
+      "is_internal": false,
+      "is_claiming_faculty": false,
+      "is_first_author": false,
+      "is_corresponding_author": false,
+      "matching_status": "UNMATCHED",
+      "matching_confidence": null
+    }
+  ]
+}
