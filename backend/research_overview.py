@@ -2,13 +2,13 @@
 from datetime import date, timedelta
 from sqlalchemy import select, func, and_, or_, Integer, union_all
 from fastapi import HTTPException
-from .models import Publication, PublicationAuthor, Faculty, Patent, PatentInventor, BookPublication, BookContributor
+from .models import Publication, PublicationAuthor, Faculty, Patent, PatentInventor, BookPublication, BookContributor, Certification, FdpActivity, FdpParticipant
 from .publication_reporting import dashboard as publication_dashboard, publication_query
 from .patent_services import selected_patents, patent_kpis, patent_person_kpis, patent_drilldown, patent_type_counts
 from .book_services import selected_books, book_kpis, person_kpis, participants
 from .reporting import validate_date_range, within
 
-UNAVAILABLE = {'fdp': 'FDP / Workshops / Webinars', 'certifications': 'Certifications', 'proposals': 'Research Proposals', 'consultancy': 'Consultancy'}
+UNAVAILABLE = {'proposals': 'Research Proposals', 'consultancy': 'Consultancy'}
 
 
 def activity_trend(db, start, end, calendar_year=None, granularity='MONTHLY'):
@@ -77,6 +77,8 @@ def overview(db, start, end):
     validate_date_range(start, end)
     publication = publication_dashboard(db, {'from_date': start, 'to_date': end})
     rows, patents, books = activities(db, start, end)
+    fdp = db.scalars(select(FdpActivity).where(FdpActivity.is_active.is_(True), FdpActivity.start_date.between(start, end))).all()
+    certifications = db.scalars(select(Certification).where(Certification.is_active.is_(True), Certification.completion_date.between(start, end))).all()
     patent = patent_kpis(patents, start, end)
     patent['with_students'] = len(patent_drilldown(patents, start, end, 'with_confirmed_students'))
     patent_faculty = {p['id']: p for p in patent_person_kpis(db, patents, start, end, 'faculty')}
@@ -88,7 +90,7 @@ def overview(db, start, end):
         publication_types[(identity, kind)] = count
     for p in publication['faculty']:
         identity = p['id']
-        faculty.append({'id': identity, 'name': p['name'], 'publications_claimed': p['claimed'], 'publications_authored': p['authored'], 'patents_claimed': patent_faculty[identity]['claimed'], 'patents_invented': patent_faculty[identity]['invented'], 'books': book_faculty[identity]['participated'], **{k: None for k in UNAVAILABLE}, 'total_activities': sum(identity in r['faculty_ids'] for r in rows)})
+        faculty.append({'id': identity, 'name': p['name'], 'publications_claimed': p['claimed'], 'publications_authored': p['authored'], 'patents_claimed': patent_faculty[identity]['claimed'], 'patents_invented': patent_faculty[identity]['invented'], 'books': book_faculty[identity]['participated'], 'fdp':sum(any(x.faculty_id==identity for x in item.participants) for item in fdp), 'certifications':sum(item.faculty_id==identity for item in certifications), **{k: None for k in UNAVAILABLE}, 'total_activities': sum(identity in r['faculty_ids'] for r in rows)})
     contributors = {identity for r in rows for identity in r['faculty_ids']}
     for row in faculty:
         row['journal'] = publication_types.get((row['id'], 'JOURNAL'), 0)
@@ -106,7 +108,7 @@ def overview(db, start, end):
     data_quality['patents_missing_evidence'] = sum(not p.evidence for p in initiated)
     data_quality['patents_missing_lifecycle'] = len(patent_drilldown(patents, start, end, 'missing_lifecycle'))
     return {
-        'activity_totals': {'publications': publication['totals']['total'], 'patents': patent['unique'], 'books': book_kpis(books)['total'], **{k: None for k in UNAVAILABLE}},
+        'activity_totals': {'publications': publication['totals']['total'], 'patents': patent['unique'], 'books': book_kpis(books)['total'], 'fdp':len(fdp), 'certifications':len(certifications), **{k: None for k in UNAVAILABLE}},
         'outcomes': {'journal': publication['totals']['journal'], 'conference': publication['totals']['conference'], 'patents_granted': patent['granted'], 'proposals_sanctioned': None, 'funds_sanctioned': None, 'consultancy_revenue': None, 'faculty_contributors': len(contributors)},
         'publication_summary': publication['totals'], 'patent_summary': patent, 'patent_types': patent_type_counts(patents,start,end),
         'financial_summary': {'funds_sanctioned': None, 'consultancy_revenue': None},

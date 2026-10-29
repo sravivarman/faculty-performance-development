@@ -4,7 +4,7 @@ import pytest
 from alembic import command
 from alembic.config import Config
 from fastapi.testclient import TestClient
-from sqlalchemy.orm import sessionmaker
+from sqlalchemy.orm import close_all_sessions, sessionmaker
 
 from backend import db as database
 from backend.db import get_db, make_engine
@@ -15,10 +15,11 @@ from backend.models import AcademicYear, Faculty, Student
 @pytest.fixture
 def setup(tmp_path, monkeypatch):
     engine = make_engine(f"sqlite:///{tmp_path / 'test.db'}")
+    factory = sessionmaker(engine, expire_on_commit=False)
     monkeypatch.setattr(database, "engine", engine)
+    monkeypatch.setattr(database, "SessionLocal", factory)
     monkeypatch.setattr(database, "EVIDENCE_ROOT", tmp_path / "evidence")
     command.upgrade(Config("alembic.ini"), "head")
-    factory = sessionmaker(engine, expire_on_commit=False)
     with factory() as db:
         db.add_all([
             AcademicYear(id=1, name="2026-27", start_date=date(2026, 7, 1), end_date=date(2027, 6, 30)),
@@ -30,13 +31,23 @@ def setup(tmp_path, monkeypatch):
         ])
         db.commit()
     def override():
-        with factory() as db:
+        db = factory()
+        try:
             yield db
+        finally:
+            db.close()
     app.dependency_overrides[get_db] = override
-    with TestClient(app) as client:
-        yield client, factory, tmp_path
-    app.dependency_overrides.clear()
-    engine.dispose()
+    try:
+        # The client context closes the ASGI transport before database cleanup.
+        with TestClient(app) as client:
+            yield client, factory, tmp_path
+    finally:
+        # Windows will not remove a SQLite file while any pooled connection is
+        # alive. Clear the override first, close every ORM session, then
+        # dispose the isolated engine before pytest deletes tmp_path.
+        app.dependency_overrides.pop(get_db, None)
+        close_all_sessions()
+        engine.dispose()
 
 
 def author(order, kind, identity=None, claimant=False):

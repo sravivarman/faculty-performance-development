@@ -17,6 +17,7 @@ from .matching import match_author
 from .name_variants import normalize_person_name, prepare_variants
 from .metadata import CrossrefProvider, MetadataError
 from .models import AcademicYear, ChangeLog, EvidenceFile, Faculty, Publication, Student, now
+from .pagination import PageSize, paginate_records
 from .periods import period_options
 from .schemas import AuthorInput, FacultyInput, Indexing, PublicationInput, PublicationType, StudentInput, YearInput
 from .services import columns, department_kpis, faculty_kpis, filtered_publications, publication_dict, save_publication, student_kpis
@@ -175,8 +176,10 @@ def filters(
 
 
 @app.get("/publications")
-def list_publications(db: DB, selected: Annotated[dict, Depends(filters)]):
-    return [publication_dict(p, db) for p in filtered_publications(db, **selected)]
+def list_publications(db: DB, selected: Annotated[dict, Depends(filters)],
+                      page: int | None = None, page_size: PageSize = 25):
+    return paginate_records(filtered_publications(db, **selected), page, page_size,
+                            lambda publication: publication_dict(publication, db))
 
 
 @app.post("/publications", status_code=201)
@@ -242,7 +245,9 @@ from .evidence import router as evidence_router
 from .patent_api import router as patent_router
 from .dashboard_api import router as dashboard_router
 from .book_api import router as book_router
+from .fdp_certification_api import router as fdp_certification_router
 app.include_router(patent_router)
 app.include_router(book_router)
+app.include_router(fdp_certification_router)
 app.include_router(dashboard_router)
 app.include_router(evidence_router)

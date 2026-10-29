@@ -14,6 +14,7 @@ from .db import get_db
 from .doi import normalize_doi
 from .metadata import CrossrefProvider, MetadataError
 from .models import BookPublication, BookChangeLog
+from .pagination import PageSize, paginate_records
 from .reporting import validate_date_range
 from .services import columns
 
@@ -85,9 +86,10 @@ def persist(data, db, work=None):
 
 @router.get("/books")
 def records(db: DB, selected: Annotated[dict, Depends(filters)], metric: str = "total",
-            department_only: bool = True, drill_faculty_id: int | None = None, drill_student_id: int | None = None):
-    return [book_dict(w, db) for w in drilldown(selected_books(db, **selected, department_only=department_only),
-                                               metric, drill_faculty_id, drill_student_id)]
+            department_only: bool = True, drill_faculty_id: int | None = None, drill_student_id: int | None = None,
+            page: int | None = None, page_size: PageSize = 25):
+    works = drilldown(selected_books(db, **selected, department_only=department_only), metric, drill_faculty_id, drill_student_id)
+    return paginate_records(works, page, page_size, lambda work: book_dict(work, db))
 
 
 @router.get("/books/{identity}")

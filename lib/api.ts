@@ -10,6 +10,17 @@ export type Author = {
   suggestions?: {person_type: PersonType; id: number; name: string; confidence: number; reason: string}[];
 };
 export type Evidence = {id: number; original_filename: string; evidence_type: string; size_bytes: number};
+export type PaginatedResult<T> = {items: T[]; total: number; page: number; page_size: number | "all"};
+
+/** Validate the explicit pagination envelope before rendering a record table. */
+export function paginatedResult<T>(payload: unknown, endpoint: string): PaginatedResult<T> {
+  if (!payload || typeof payload !== "object" || Array.isArray(payload)) throw new ApiError(`${endpoint} returned a legacy array when a paginated response was requested.`);
+  const result = payload as Record<string, unknown>;
+  if (!Array.isArray(result.items) || typeof result.total !== "number" || typeof result.page !== "number" || (typeof result.page_size !== "number" && result.page_size !== "all")) {
+    throw new ApiError(`${endpoint} returned an invalid paginated response.`);
+  }
+  return {items: result.items as T[], total: result.total, page: result.page, page_size: result.page_size};
+}
 export type Publication = {
   id?: number; academic_year_id?: number; doi: string | null; title: string; publication_type: string;
   publication_date: string; online_publication_date?: string | null; print_publication_date?: string | null;

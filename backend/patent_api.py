@@ -13,6 +13,7 @@ from .models import Patent, PatentChangeLog
 from .patent_schemas import CURRENT_DEPARTMENT, INSTITUTION_NAME, InventorInput, PatentInput, PatentStatus
 from .patent_types import PatentType, PATENT_TYPES
 from .patent_services import patent_dict, patent_drilldown, patent_kpis, patent_person_kpis, save_patent, selected_patents
+from .pagination import PageSize, paginate_records
 from .reporting import validate_date_range
 from .services import columns
 
@@ -46,12 +47,13 @@ def create_patent(data:PatentInput,db:DB):
 
 
 @router.get("/patents")
-def list_patents(db:DB,selected:Annotated[dict,Depends(patent_filters)],from_date:date|None=None,to_date:date|None=None,metric:str|None=None,department_only:bool=True):
+def list_patents(db:DB,selected:Annotated[dict,Depends(patent_filters)],from_date:date|None=None,to_date:date|None=None,metric:str|None=None,department_only:bool=True,
+                 page:int|None=None,page_size:PageSize=25):
     date_range = validate_date_range(from_date,to_date,required=bool(metric))
     patents = selected_patents(db,**selected,department_only=department_only)
     if date_range:
         patents = patent_drilldown(patents,*date_range,metric or "unique",selected.get("drill_faculty_id") or selected.get("faculty_id"))
-    return [patent_dict(p,db) for p in patents]
+    return paginate_records(patents, page, page_size, lambda patent: patent_dict(patent, db))
 
 
 @router.get('/patent-export')

@@ -1,6 +1,6 @@
 from datetime import date, datetime, timezone
 
-from sqlalchemy import Boolean, CheckConstraint, Date, DateTime, ForeignKey, Index, Integer, JSON, String, Text, UniqueConstraint, text
+from sqlalchemy import Boolean, CheckConstraint, Date, DateTime, ForeignKey, Index, Integer, JSON, Numeric, String, Text, UniqueConstraint, text
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from .db import Base
@@ -131,13 +131,15 @@ class EvidenceFile(Base, Timestamps):
     publication_id: Mapped[int | None] = mapped_column(ForeignKey("publications.id", ondelete="CASCADE"), index=True)
     patent_id: Mapped[int | None] = mapped_column(ForeignKey("patents.id", ondelete="CASCADE"), index=True)
     book_record_id: Mapped[int | None] = mapped_column(ForeignKey("book_publications.id", ondelete="CASCADE"), index=True)
+    fdp_activity_id: Mapped[int | None] = mapped_column(ForeignKey("fdp_activities.id", ondelete="CASCADE"), index=True)
+    certification_id: Mapped[int | None] = mapped_column(ForeignKey("certifications.id", ondelete="CASCADE"), index=True)
     original_filename: Mapped[str] = mapped_column(Text)
     storage_path: Mapped[str] = mapped_column(Text, unique=True)
     content_type: Mapped[str] = mapped_column(String(100))
     size_bytes: Mapped[int] = mapped_column(Integer)
     sha256: Mapped[str] = mapped_column(String(64))
     evidence_type: Mapped[str] = mapped_column(String(80), default="PUBLICATION_PROOF")
-    __table_args__ = (CheckConstraint("(publication_id IS NOT NULL AND patent_id IS NULL AND book_record_id IS NULL) OR (patent_id IS NOT NULL AND publication_id IS NULL AND book_record_id IS NULL) OR (book_record_id IS NOT NULL AND publication_id IS NULL AND patent_id IS NULL)", name="one_evidence_owner"),)
+    __table_args__ = (CheckConstraint("(publication_id IS NOT NULL) + (patent_id IS NOT NULL) + (book_record_id IS NOT NULL) + (fdp_activity_id IS NOT NULL) + (certification_id IS NOT NULL) = 1", name="one_evidence_owner"),)
 
 
 class ChangeLog(Base):
@@ -305,6 +307,108 @@ class BookChangeLog(Base):
     __tablename__ = "book_change_logs"
     id: Mapped[int] = mapped_column(primary_key=True)
     book_record_id: Mapped[int] = mapped_column(ForeignKey("book_publications.id"), index=True)
+    changed_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=now)
+    action: Mapped[str] = mapped_column(String(80))
+    changes: Mapped[dict] = mapped_column(JSON)
+
+
+# Faculty Development Activity records intentionally remain separate from
+# publication contributors: their participation roles and external speakers
+# have different business meaning.
+class FdpActivity(Base, Timestamps):
+    __tablename__ = "fdp_activities"
+    id: Mapped[int] = mapped_column(primary_key=True)
+    title: Mapped[str] = mapped_column(Text)
+    activity_type: Mapped[str] = mapped_column(String(40), index=True)
+    organizing_institution: Mapped[str] = mapped_column(Text)
+    start_date: Mapped[date] = mapped_column(Date, index=True)
+    end_date: Mapped[date | None] = mapped_column(Date, index=True)
+    duration_value: Mapped[float] = mapped_column(Numeric(10, 2))
+    duration_unit: Mapped[str] = mapped_column(String(20))
+    location: Mapped[str | None] = mapped_column(Text)
+    mode: Mapped[str | None] = mapped_column(String(20))
+    description: Mapped[str | None] = mapped_column(Text)
+    source_url: Mapped[str | None] = mapped_column(Text)
+    outcomes: Mapped[str | None] = mapped_column(Text)
+    internal_notes: Mapped[str | None] = mapped_column(Text)
+    attendance_count: Mapped[int | None] = mapped_column(Integer)
+    company_location: Mapped[str | None] = mapped_column(Text)
+    is_active: Mapped[bool] = mapped_column(Boolean, default=True)
+    participants: Mapped[list["FdpParticipant"]] = relationship(cascade="all, delete-orphan", lazy="selectin")
+    speakers: Mapped[list["FdpSpeaker"]] = relationship(cascade="all, delete-orphan", lazy="selectin")
+    evidence: Mapped[list["EvidenceFile"]] = relationship(cascade="all, delete-orphan", lazy="selectin")
+    __table_args__ = (
+        CheckConstraint("activity_type IN ('FDP','STTP','WORKSHOP','WEBINAR','SEMINAR','INTERNSHIP','INDUSTRIAL_TRAINING')", name="fdp_activity_type_valid"),
+        CheckConstraint("end_date IS NULL OR end_date >= start_date", name="fdp_activity_dates_valid"),
+        CheckConstraint("duration_value > 0", name="fdp_activity_duration_valid"),
+        CheckConstraint("duration_unit IN ('HOURS','DAYS','WEEKS','MONTHS')", name="fdp_activity_duration_unit_valid"),
+        CheckConstraint("mode IS NULL OR mode IN ('PHYSICAL','ONLINE','HYBRID')", name="fdp_activity_mode_valid"),
+        CheckConstraint("attendance_count IS NULL OR attendance_count >= 0", name="fdp_activity_attendance_valid"),
+    )
+
+
+class FdpParticipant(Base, Timestamps):
+    __tablename__ = "fdp_participants"
+    id: Mapped[int] = mapped_column(primary_key=True)
+    activity_id: Mapped[int] = mapped_column(ForeignKey("fdp_activities.id", ondelete="CASCADE"), index=True)
+    faculty_id: Mapped[int] = mapped_column(ForeignKey("faculty.id"), index=True)
+    role: Mapped[str] = mapped_column(String(30))
+    __table_args__ = (
+        UniqueConstraint("activity_id", "faculty_id", "role", name="uq_fdp_participant_role"),
+        CheckConstraint("role IN ('ATTENDEE','RESOURCE_PERSON','ORGANIZER','CONDUCTOR','PARTICIPANT','TRAINEE','COLLABORATOR','OTHER')", name="fdp_participant_role_valid"),
+    )
+
+
+class FdpSpeaker(Base, Timestamps):
+    __tablename__ = "fdp_speakers"
+    id: Mapped[int] = mapped_column(primary_key=True)
+    activity_id: Mapped[int] = mapped_column(ForeignKey("fdp_activities.id", ondelete="CASCADE"), index=True)
+    name: Mapped[str] = mapped_column(Text)
+    designation: Mapped[str | None] = mapped_column(Text)
+    organization: Mapped[str | None] = mapped_column(Text)
+    location_or_contact: Mapped[str | None] = mapped_column(Text)
+
+
+class FdpChangeLog(Base):
+    __tablename__ = "fdp_change_logs"
+    id: Mapped[int] = mapped_column(primary_key=True)
+    activity_id: Mapped[int] = mapped_column(ForeignKey("fdp_activities.id"), index=True)
+    changed_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=now)
+    action: Mapped[str] = mapped_column(String(80))
+    changes: Mapped[dict] = mapped_column(JSON)
+
+
+class Certification(Base, Timestamps):
+    __tablename__ = "certifications"
+    id: Mapped[int] = mapped_column(primary_key=True)
+    faculty_id: Mapped[int] = mapped_column(ForeignKey("faculty.id"), index=True)
+    name: Mapped[str] = mapped_column(Text)
+    category: Mapped[str] = mapped_column(String(30), index=True)
+    provider: Mapped[str] = mapped_column(Text)
+    course_url: Mapped[str | None] = mapped_column(Text)
+    credential_id: Mapped[str | None] = mapped_column(String(250))
+    issue_date: Mapped[date | None] = mapped_column(Date, index=True)
+    completion_date: Mapped[date | None] = mapped_column(Date, index=True)
+    expiry_date: Mapped[date | None] = mapped_column(Date, index=True)
+    grade_score: Mapped[str | None] = mapped_column(String(100))
+    grade_scale: Mapped[str | None] = mapped_column(String(250))
+    status: Mapped[str] = mapped_column(String(30), index=True)
+    notes: Mapped[str | None] = mapped_column(Text)
+    is_active: Mapped[bool] = mapped_column(Boolean, default=True)
+    evidence: Mapped[list["EvidenceFile"]] = relationship(cascade="all, delete-orphan", lazy="selectin")
+    __table_args__ = (
+        CheckConstraint("category IN ('NPTEL_SWAYAM','MOOC','OTHER')", name="certification_category_valid"),
+        CheckConstraint("status IN ('COMPLETED','IN_PROGRESS')", name="certification_status_valid"),
+        CheckConstraint("expiry_date IS NULL OR issue_date IS NULL OR expiry_date >= issue_date", name="certification_expiry_valid"),
+        CheckConstraint("status != 'COMPLETED' OR completion_date IS NOT NULL", name="certification_completed_date_required"),
+        UniqueConstraint("faculty_id", "name", "provider", "credential_id", "completion_date", name="uq_certification_identity"),
+    )
+
+
+class CertificationChangeLog(Base):
+    __tablename__ = "certification_change_logs"
+    id: Mapped[int] = mapped_column(primary_key=True)
+    certification_id: Mapped[int] = mapped_column(ForeignKey("certifications.id"), index=True)
     changed_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=now)
     action: Mapped[str] = mapped_column(String(80))
     changes: Mapped[dict] = mapped_column(JSON)

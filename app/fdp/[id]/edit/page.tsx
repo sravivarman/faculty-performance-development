@@ -1,0 +1,4 @@
+"use client";
+import {useEffect,useState} from "react";import Link from "next/link";import {useParams} from "next/navigation";import {api} from "@/lib/api";import FdpEditor from "@/components/FdpEditor";import EvidenceManager from "@/components/EvidenceManager";
+const categories=["CERTIFICATE","COMPLETION_LETTER","PROGRAM","REPORT","OTHER"];
+export default function Page(){const {id}=useParams<{id:string}>();const [row,setRow]=useState<any>();const [error,setError]=useState("");useEffect(()=>{api<any>(`/fdp-activities/${id}`).then(setRow).catch(e=>setError(e.message));},[id]);return <><Link href={`/fdp/${id}`}>← Activity details</Link><h1>Edit activity</h1>{error?<div className="error">{error}</div>:!row?<p role="status">Loading activity…</p>:<><FdpEditor initial={row}/><EvidenceManager entity="fdp-activities" id={Number(id)} categories={categories}/></>}</>}
