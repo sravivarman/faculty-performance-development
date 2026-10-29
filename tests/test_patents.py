@@ -38,7 +38,7 @@ def test_patent_counting_lifecycle_and_people(setup):
     assert p1.status_code==201,p1.text
     query="/patent-kpis?from_date=2026-07-01&to_date=2027-06-30"
     k=client.get(query).json()
-    assert {key:k[key] for key in ["unique","filed","published","granted","with_students"]}=={"unique":1,"filed":1,"published":1,"granted":0,"with_students":1}
+    assert {key:k[key] for key in ["unique","filed","published","granted","with_students"]}=={"unique":1,"filed":0,"published":1,"granted":0,"with_students":1}
     assert [(p["claimed"],p["invented"]) for p in report(client,"/patent-kpis/faculty").json()]==[(1,1),(0,1)]
     assert report(client,"/patent-kpis/students").json()[0]["invented"]==1
     next_year=client.get("/patent-kpis?from_date=2027-07-01&to_date=2028-06-30").json()
@@ -110,9 +110,16 @@ def test_lifecycle_edit_same_record_status_history(setup):
     payload=patent();payload.update(current_status="FILED",publication_date=None,grant_date=None)
     first=client.post("/patents",json=payload).json()
     identity=first["id"]
+    query="?from_date=2026-07-01&to_date=2027-06-30"
+    assert client.get(f"/patent-kpis{query}").json()["filed"]==1
+    assert [p["id"] for p in client.get(f"/patents{query}&metric=filed").json()]==[identity]
     payload.update(current_status="PUBLISHED",publication_date="2026-12-15",publication_number="PUB123",status_note="Publication confirmed")
     second=client.put(f"/patents/{identity}",json=payload)
     assert second.status_code==200,second.text
+    assert client.get(f"/patent-kpis{query}").json()["filed"]==0
+    assert client.get(f"/patents{query}&metric=filed").json()==[]
+    assert [p["id"] for p in client.get(f"/patents{query}&metric=filed_event").json()]==[identity]
+    assert [p["id"] for p in client.get(f"/patents{query}&metric=published").json()]==[identity]
     payload.update(current_status="GRANTED",grant_date="2027-08-12",grant_number="GR123",status_note="Grant certificate received")
     third=client.put(f"/patents/{identity}",json=payload).json()
     assert third["id"]==identity and third["filing_date"]==first["filing_date"] and third["publication_date"]=="2026-12-15"
@@ -176,7 +183,7 @@ def test_date_boundaries_no_academic_year_and_event_dates(setup):
     payload=patent();payload.update(filing_date="2030-09-01",publication_date="2030-09-30",grant_date="2030-10-01")
     assert client.post("/patents",json=payload).status_code==201
     counts=client.get(f"/patent-kpis?{query}").json()
-    assert counts["filed"]==1 and counts["published"]==1 and counts["granted"]==0
+    assert counts["filed"]==0 and counts["published"]==1 and counts["granted"]==0
     for metric in ["filed","published","granted"]:
         assert len(client.get(f"/patents?{query}&metric={metric}").json())==counts[metric]
     assert client.get("/patent-kpis?from_date=2030-10-01&to_date=2030-10-01").json()["granted"]==1
@@ -186,7 +193,7 @@ def test_combined_dashboard_and_filtered_drilldowns(setup):
     client,_,_=setup
     client.post("/publications",json=paper())
     client.post("/patents",json=patent())
-    assert report(client,"/dashboard-kpis").json()=={"publications":1,"publications_journal":1,"publications_conference":0,"patents_unique":1,"patents_filed":1,"patents_published":1,"patents_granted":1,"books_total":0,"books_books":0,"books_chapters":0}
+    assert report(client,"/dashboard-kpis").json()=={"publications":1,"publications_journal":1,"publications_conference":0,"patents_unique":1,"patents_filed":0,"patents_published":1,"patents_granted":1,"books_total":0,"books_books":0,"books_chapters":0}
     faculty=report(client,"/faculty-kpis").json()
     assert faculty[0]["papers_claimed"]==1 and faculty[0]["patents_claimed"]==1
     assert faculty[1]["patents_claimed"]==0 and faculty[1]["patents_invented"]==1

@@ -120,10 +120,10 @@ def selected_patents(db, current_status=None,patent_type=None, faculty_id=None, 
 
 def patent_drilldown(patents, from_date, to_date, metric="unique", claimant_id=None):
     validate_date_range(from_date,to_date)
-    field = {"filed":"filing_date", "published":"publication_date", "granted":"grant_date"}.get(metric,"filing_date")
-    selected = [p for p in patents if (within(getattr(p,field),from_date,to_date) if metric in ("filed","published","granted") else any(within(getattr(p,event),from_date,to_date) for event in ("filing_date","publication_date","grant_date")))]
+    field = {"filed":"filing_date", "filed_event":"filing_date", "published":"publication_date", "granted":"grant_date"}.get(metric,"filing_date")
+    selected = [p for p in patents if (within(getattr(p,field),from_date,to_date) if metric in ("filed","filed_event","published","granted") else any(within(getattr(p,event),from_date,to_date) for event in ("filing_date","publication_date","grant_date")))]
     conditions = {
-        "unique":lambda p:True,"filed":lambda p:True,"published":lambda p:True,"granted":lambda p:True,
+        "unique":lambda p:True,"filed":lambda p:p.current_status == "FILED","filed_event":lambda p:True,"published":lambda p:True,"granted":lambda p:True,
         "missing_evidence":lambda p:not p.evidence,
         "missing_lifecycle":lambda p:(p.current_status in ('PUBLISHED','GRANTED') and not p.publication_date) or (p.current_status == 'GRANTED' and not p.grant_date),
         "with_students":lambda p:indicators(p)["has_current_department_student"],

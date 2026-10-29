@@ -483,7 +483,7 @@ for routes, components, validation and remaining module limitations.
 
 ## Historical patents — CY 2026
 
-Patents allow multiple mapped department Faculty inventor claimants (including historical Faculty). One patent remains one department record. Publications and Books retain their existing claimant rules. Patent totals and attribution count each record once when any filing/publication/grant event is in the inclusive range; Filed counts use only filing dates.
+Patents allow multiple mapped department Faculty inventor claimants (including historical Faculty). One patent remains one department record. Publications and Books retain their existing claimant rules. Patent totals and attribution count each record once when any filing/publication/grant event is in the inclusive range. The Filed KPI and its drill-down include only records whose current status is FILED and whose filing date is in range; Published and Granted use their respective milestone dates. Lifecycle trends continue to show filing, publication, and grant events regardless of current status.
 
 The controlled source is `data/historical_patents_2026.json`. Dry-run with `.\.venv\Scripts\python.exe -m scripts.import_historical_patents --report reports/patent-import/dry-run.json`; add `--apply` only for an authorized import. The script stops on ambiguous mappings or conflicting existing records and preserves unmatched department inventors. The completed import report is `reports/patent-import/completion.md`.
 
