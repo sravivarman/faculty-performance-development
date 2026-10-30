@@ -88,7 +88,10 @@ def test_empty_period_returns_configured_zeroes_without_fake_finances(setup):
 
 def test_home_overview_reuses_funding_fdp_and_certification_reporting_rules(setup):
     client, _, _ = setup
-    period = '2026-07-01', '2026-12-31'
+    academic_year = next(year for year in client.get('/masters').json()['academic_years'] if year['name'] == '2026-27')
+    assert academic_year['start_date'] == '2026-07-01' and academic_year['end_date'] == '2027-06-30'
+    # The home page supplies these stored bounds explicitly to every report.
+    period = academic_year['start_date'], academic_year['end_date']
     for activity_type in ('FDP', 'STTP', 'WORKSHOP', 'WEBINAR', 'SEMINAR', 'INTERNSHIP', 'INDUSTRIAL_TRAINING'):
         response = client.post('/fdp-activities', json={
             'title': activity_type, 'activity_type': activity_type, 'organizing_institution': 'VCE',

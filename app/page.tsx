@@ -83,7 +83,7 @@ export default function ResearchDashboard() {
       router.push(`/certifications?${params}`); return;
     }
     const module = key === "journal" || key === "conference" || key.startsWith("publications_") ? "publications" : key.startsWith("patents") ? "patents" : key;
-    const metric = key === "journal" || key === "conference" ? key : key === "patents" || key === "patents_invented" ? "unique" : key.endsWith("claimed") ? "claimed" : key === "books" && extra.faculty_id ? "participated" : "total";
+    const metric = key === "journal" || key === "conference" ? key : key === "patents" || key === "patents_invented" ? "unique" : key.endsWith("claimed") ? "claimed" : key === "books" && extra.drill_faculty_id ? "participated" : "total";
     router.push(moduleLink(module, metric, range, extra));
   }
 
@@ -102,6 +102,6 @@ export default function ResearchDashboard() {
     <ResearchActivityTrend />
     <Distribution title="Patents by Type" labels={PATENT_TYPES} counts={report?.patent_types || {}} loading={loading} error={error} onSelect={(patent_type) => navigate("patents", { patent_type })} />
     <PublicationAnalytics />
-    <FacultyContributionTable columns={columns} rows={report?.faculty_summary || []} loading={loading} error={error} note="Unique authored Journal and Conference records. Claims and authorship remain separate. Patents count once for any lifecycle event in the selected range; books include eligible authors and editors. Certification current work is shown independently of the completion-date range." onSelect={(row, key) => navigate(key, { faculty_id: String(row.id) })} />
+    <FacultyContributionTable columns={columns} rows={report?.faculty_summary || []} loading={loading} error={error} note="Unique authored Journal and Conference records. Claims and authorship remain separate. Patents count once for any lifecycle event in the selected range; books include eligible authors and editors. Certification current work is shown independently of the completion-date range." onSelect={(row, key) => navigate(key, ["fdp", "certifications", "certifications_in_progress", "research_projects", "consultancy", "internal_grants"].includes(key) ? { faculty_id: String(row.id) } : { drill_faculty_id: String(row.id) })} />
   </DashboardFrame>;
 }
