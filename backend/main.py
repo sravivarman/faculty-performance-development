@@ -246,8 +246,10 @@ from .patent_api import router as patent_router
 from .dashboard_api import router as dashboard_router
 from .book_api import router as book_router
 from .fdp_certification_api import router as fdp_certification_router
+from .funding_api import router as funding_router
 app.include_router(patent_router)
 app.include_router(book_router)
 app.include_router(fdp_certification_router)
+app.include_router(funding_router)
 app.include_router(dashboard_router)
 app.include_router(evidence_router)

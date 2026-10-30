@@ -10,18 +10,18 @@ from sqlalchemy.orm import Session
 
 from . import db as database
 from .db import get_db
-from .models import BookChangeLog, BookPublication, Certification, CertificationChangeLog, ChangeLog, EvidenceFile, FdpActivity, FdpChangeLog, Patent, PatentChangeLog, Publication, now
+from .models import BookChangeLog, BookPublication, Certification, CertificationChangeLog, ChangeLog, EvidenceFile, FdpActivity, FdpChangeLog, FundingProject, FundingProjectChangeLog, Patent, PatentChangeLog, Publication, now
 from .services import columns
 
 router = APIRouter()
 DB = Annotated[Session,Depends(get_db)]
-Entity = Literal["publications","patents","books","fdp-activities","certifications"]
-OWNERS = {"publications": "publication_id", "patents": "patent_id", "books": "book_record_id", "fdp-activities":"fdp_activity_id", "certifications":"certification_id"}
+Entity = Literal["publications","patents","books","fdp-activities","certifications","funding-projects"]
+OWNERS = {"publications": "publication_id", "patents": "patent_id", "books": "book_record_id", "fdp-activities":"fdp_activity_id", "certifications":"certification_id", "funding-projects":"funding_project_id"}
 BOOK_EVIDENCE_TYPES = {"COVER_PAGE", "TITLE_PAGE", "COPYRIGHT_PAGE", "ISBN_PAGE", "CHAPTER_FIRST_PAGE", "TABLE_OF_CONTENTS", "PUBLISHER_PROOF", "FULL_CHAPTER", "OTHER"}
 
 
 def evidence_parent(db,entity,identity):
-    model = {"publications": Publication, "patents": Patent, "books": BookPublication, "fdp-activities":FdpActivity, "certifications":Certification}[entity]
+    model = {"publications": Publication, "patents": Patent, "books": BookPublication, "fdp-activities":FdpActivity, "certifications":Certification, "funding-projects":FundingProject}[entity]
     parent = db.get(model,identity)
     if not parent:
         raise HTTPException(404,"Record not found")
@@ -29,8 +29,8 @@ def evidence_parent(db,entity,identity):
 
 
 def log_evidence(db,entity,identity,action,changes):
-    model = {"publications": ChangeLog, "patents": PatentChangeLog, "books": BookChangeLog, "fdp-activities":FdpChangeLog, "certifications":CertificationChangeLog}[entity]
-    log_owner = {"fdp-activities":"activity_id", "certifications":"certification_id"}.get(entity, OWNERS[entity])
+    model = {"publications": ChangeLog, "patents": PatentChangeLog, "books": BookChangeLog, "fdp-activities":FdpChangeLog, "certifications":CertificationChangeLog, "funding-projects":FundingProjectChangeLog}[entity]
+    log_owner = {"fdp-activities":"activity_id", "certifications":"certification_id", "funding-projects":"funding_project_id"}.get(entity, OWNERS[entity])
     log = model(**{log_owner: identity}, action=action, changes=changes)
     db.add(log)
 
@@ -45,6 +45,8 @@ def upload_evidence(entity:Entity,identity:int,db:DB,file:UploadFile=File(...),e
         categories = {"CERTIFICATE","COMPLETION_LETTER","PROGRAM","REPORT","OTHER"}
     if entity == "certifications":
         categories = {"CERTIFICATE","CREDENTIAL_PROOF","OTHER"}
+    if entity == "funding-projects":
+        categories = {"PROPOSAL", "SANCTION_LETTER", "AGREEMENT", "FUNDING_RECEIPT", "UTILIZATION_CERTIFICATE", "PROGRESS_REPORT", "COMPLETION_REPORT", "OUTCOME_EVIDENCE", "OTHER"}
     if evidence_type not in categories:
         raise HTTPException(422,"Unknown evidence category for this record")
     filename = Path((file.filename or "evidence").replace("\\","/")).name
@@ -52,7 +54,7 @@ def upload_evidence(entity:Entity,identity:int,db:DB,file:UploadFile=File(...),e
     media = {".pdf":"application/pdf",".png":"image/png",".jpg":"image/jpeg",".jpeg":"image/jpeg",".docx":"application/vnd.openxmlformats-officedocument.wordprocessingml.document"}
     if suffix not in media:
         raise HTTPException(422,"Upload a PDF, PNG, JPG or DOCX file")
-    reporting_date = parent.publication_date if entity in ("publications", "books") else parent.start_date if entity == "fdp-activities" else parent.completion_date if entity == "certifications" else parent.filing_date
+    reporting_date = parent.publication_date if entity in ("publications", "books") else parent.start_date if entity == "fdp-activities" else parent.completion_date if entity == "certifications" else (parent.sanction_date or parent.proposal_submission_date or parent.start_date) if entity == "funding-projects" else parent.filing_date
     year = reporting_date.year - (reporting_date.month < 7) if reporting_date else None
     folder = f"{year}-{str(year+1)[-2:]}" if year else "UNDATED"
     kind = "PAPER" if entity == "publications" else "PATENT"
@@ -60,6 +62,7 @@ def upload_evidence(entity:Entity,identity:int,db:DB,file:UploadFile=File(...),e
         kind = parent.work_type
     if entity == "fdp-activities": kind = "FDP_ACTIVITY"
     if entity == "certifications": kind = "CERTIFICATION"
+    if entity == "funding-projects": kind = "FUNDING_PROJECT"
     relative = Path(folder)/kind/str(identity)/f"{uuid.uuid4()}{suffix}"
     target = database.EVIDENCE_ROOT/relative
     target.parent.mkdir(parents=True,exist_ok=True)

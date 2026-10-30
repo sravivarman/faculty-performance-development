@@ -1,4 +1,5 @@
 from datetime import date, datetime, timezone
+from decimal import Decimal
 
 from sqlalchemy import Boolean, CheckConstraint, Date, DateTime, ForeignKey, Index, Integer, JSON, Numeric, String, Text, UniqueConstraint, text
 from sqlalchemy.orm import Mapped, mapped_column, relationship
@@ -133,13 +134,14 @@ class EvidenceFile(Base, Timestamps):
     book_record_id: Mapped[int | None] = mapped_column(ForeignKey("book_publications.id", ondelete="CASCADE"), index=True)
     fdp_activity_id: Mapped[int | None] = mapped_column(ForeignKey("fdp_activities.id", ondelete="CASCADE"), index=True)
     certification_id: Mapped[int | None] = mapped_column(ForeignKey("certifications.id", ondelete="CASCADE"), index=True)
+    funding_project_id: Mapped[int | None] = mapped_column(ForeignKey("funding_projects.id", ondelete="CASCADE"), index=True)
     original_filename: Mapped[str] = mapped_column(Text)
     storage_path: Mapped[str] = mapped_column(Text, unique=True)
     content_type: Mapped[str] = mapped_column(String(100))
     size_bytes: Mapped[int] = mapped_column(Integer)
     sha256: Mapped[str] = mapped_column(String(64))
     evidence_type: Mapped[str] = mapped_column(String(80), default="PUBLICATION_PROOF")
-    __table_args__ = (CheckConstraint("(publication_id IS NOT NULL) + (patent_id IS NOT NULL) + (book_record_id IS NOT NULL) + (fdp_activity_id IS NOT NULL) + (certification_id IS NOT NULL) = 1", name="one_evidence_owner"),)
+    __table_args__ = (CheckConstraint("(publication_id IS NOT NULL) + (patent_id IS NOT NULL) + (book_record_id IS NOT NULL) + (fdp_activity_id IS NOT NULL) + (certification_id IS NOT NULL) + (funding_project_id IS NOT NULL) = 1", name="one_evidence_owner"),)
 
 
 class ChangeLog(Base):
@@ -409,6 +411,65 @@ class CertificationChangeLog(Base):
     __tablename__ = "certification_change_logs"
     id: Mapped[int] = mapped_column(primary_key=True)
     certification_id: Mapped[int] = mapped_column(ForeignKey("certifications.id"), index=True)
+    changed_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=now)
+    action: Mapped[str] = mapped_column(String(80))
+    changes: Mapped[dict] = mapped_column(JSON)
+
+
+class FundingProject(Base, Timestamps):
+    __tablename__ = "funding_projects"
+    id: Mapped[int] = mapped_column(primary_key=True)
+    title: Mapped[str] = mapped_column(Text)
+    category: Mapped[str] = mapped_column(String(30), index=True)
+    department: Mapped[str] = mapped_column(String(250))
+    funding_agency: Mapped[str | None] = mapped_column(Text)
+    proposal_submission_date: Mapped[date | None] = mapped_column(Date, index=True)
+    sanction_date: Mapped[date | None] = mapped_column(Date, index=True)
+    start_date: Mapped[date | None] = mapped_column(Date, index=True)
+    end_date: Mapped[date | None] = mapped_column(Date, index=True)
+    sanctioned_amount: Mapped[Decimal | None] = mapped_column(Numeric(14, 2))
+    amount_received: Mapped[Decimal | None] = mapped_column(Numeric(14, 2))
+    amount_utilized: Mapped[Decimal | None] = mapped_column(Numeric(14, 2))
+    currency: Mapped[str] = mapped_column(String(3), default="INR")
+    reference_number: Mapped[str | None] = mapped_column(String(250))
+    status: Mapped[str] = mapped_column(String(30), default="DRAFT", index=True)
+    description: Mapped[str | None] = mapped_column(Text)
+    outcomes: Mapped[str | None] = mapped_column(Text)
+    deliverables: Mapped[str | None] = mapped_column(Text)
+    completion_details: Mapped[str | None] = mapped_column(Text)
+    internal_notes: Mapped[str | None] = mapped_column(Text)
+    source_url: Mapped[str | None] = mapped_column(Text)
+    is_active: Mapped[bool] = mapped_column(Boolean, default=True, index=True)
+    faculty: Mapped[list["FundingProjectFaculty"]] = relationship(cascade="all, delete-orphan", lazy="selectin")
+    evidence: Mapped[list[EvidenceFile]] = relationship(cascade="all, delete-orphan", lazy="selectin")
+    __table_args__ = (
+        CheckConstraint("category IN ('SPONSORED_RESEARCH','CONSULTANCY','INTERNAL_GRANT')", name="funding_project_category_valid"),
+        CheckConstraint("status IN ('DRAFT','SUBMITTED','UNDER_REVIEW','SANCTIONED','ONGOING','COMPLETED','REJECTED','WITHDRAWN')", name="funding_project_status_valid"),
+        CheckConstraint("currency = 'INR'", name="funding_project_currency_inr"),
+        CheckConstraint("end_date IS NULL OR start_date IS NULL OR end_date >= start_date", name="funding_project_dates_valid"),
+        CheckConstraint("sanctioned_amount IS NULL OR sanctioned_amount >= 0", name="funding_project_sanctioned_amount_valid"),
+        CheckConstraint("amount_received IS NULL OR amount_received >= 0", name="funding_project_received_amount_valid"),
+        CheckConstraint("amount_utilized IS NULL OR amount_utilized >= 0", name="funding_project_utilized_amount_valid"),
+    )
+
+
+class FundingProjectFaculty(Base, Timestamps):
+    __tablename__ = "funding_project_faculty"
+    id: Mapped[int] = mapped_column(primary_key=True)
+    funding_project_id: Mapped[int] = mapped_column(ForeignKey("funding_projects.id", ondelete="CASCADE"), index=True)
+    faculty_id: Mapped[int] = mapped_column(ForeignKey("faculty.id"), index=True)
+    role: Mapped[str] = mapped_column(String(20))
+    __table_args__ = (
+        UniqueConstraint("funding_project_id", "faculty_id", "role", name="uq_funding_project_faculty_role"),
+        CheckConstraint("role IN ('PI','CO_PI','BENEFICIARY')", name="funding_project_faculty_role_valid"),
+        Index("uq_funding_project_pi", "funding_project_id", unique=True, sqlite_where=text("role = 'PI'")),
+    )
+
+
+class FundingProjectChangeLog(Base):
+    __tablename__ = "funding_project_change_logs"
+    id: Mapped[int] = mapped_column(primary_key=True)
+    funding_project_id: Mapped[int] = mapped_column(ForeignKey("funding_projects.id"), index=True)
     changed_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=now)
     action: Mapped[str] = mapped_column(String(80))
     changes: Mapped[dict] = mapped_column(JSON)

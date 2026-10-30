@@ -1,2 +1,5 @@
-import UnconfiguredDashboard from '@/components/dashboard/UnconfiguredDashboard';
-export default function Page(){return <UnconfiguredDashboard module="consultancy"/>;}
+import FundingOverview from "@/components/FundingOverview";
+
+export default function ConsultancyPage() {
+  return <FundingOverview category="CONSULTANCY" />;
+}
