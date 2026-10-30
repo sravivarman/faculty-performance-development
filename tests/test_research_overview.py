@@ -66,15 +66,87 @@ def test_grant_event_qualifies_once_without_new_filing(setup):
     assert len(report(client, '/patents?metric=granted', '2027-08-12', '2027-08-12').json()) == 1
 
 
-def test_missing_modules_and_empty_period_have_no_fake_finances(setup):
+def test_empty_period_returns_configured_zeroes_without_fake_finances(setup):
     client, _, _ = setup
     data = report(client, '/research/overview', '2026-07-01', '2026-07-31').json()
     assert data['activity_totals']['publications'] == data['activity_totals']['patents'] == data['activity_totals']['books'] == 0
-    assert all(data['activity_totals'][key] is None for key in ['fdp', 'certifications', 'proposals', 'consultancy'])
-    assert data['financial_summary'] == {'funds_sanctioned': None, 'consultancy_revenue': None}
-    assert data['outcomes']['proposals_sanctioned'] is None
+    assert all(data['activity_totals'][key] == 0 for key in [
+        'fdp', 'certifications', 'certifications_in_progress', 'research_projects', 'consultancy', 'internal_grants',
+    ])
+    assert data['financial_summary'] == {
+        'sponsored_proposed_amount': 0,
+        'sponsored_sanctioned_amount': 0,
+        'consultancy_contract_amount': 0,
+        'consultancy_amount_received': 0,
+        'internal_grants_sanctioned_amount': 0,
+        'internal_grants_amount_utilized': 0,
+    }
+    assert data['outcomes']['proposals_sanctioned'] == 0
     assert data['faculty_participation'] == {'with_activity': 0, 'without_activity': 2}
     assert data['recent_activity'] == []
+
+
+def test_home_overview_reuses_funding_fdp_and_certification_reporting_rules(setup):
+    client, _, _ = setup
+    period = '2026-07-01', '2026-12-31'
+    for activity_type in ('FDP', 'STTP', 'WORKSHOP', 'WEBINAR', 'SEMINAR', 'INTERNSHIP', 'INDUSTRIAL_TRAINING'):
+        response = client.post('/fdp-activities', json={
+            'title': activity_type, 'activity_type': activity_type, 'organizing_institution': 'VCE',
+            'start_date': '2026-08-01', 'duration_value': 1, 'duration_unit': 'DAYS',
+            'participants': [{'faculty_id': 1, 'role': 'ATTENDEE'}, {'faculty_id': 2, 'role': 'COORDINATOR'}],
+        })
+        assert response.status_code == 201, response.text
+    assert client.post('/certifications', json={
+        'faculty_id': 1, 'name': 'Completed course', 'category': 'MOOC', 'provider': 'Provider',
+        'status': 'COMPLETED', 'completion_date': '2026-08-01',
+    }).status_code == 201
+    assert client.post('/certifications', json={
+        'faculty_id': 2, 'name': 'Current course', 'category': 'OTHER', 'provider': 'Provider',
+        'status': 'IN_PROGRESS',
+    }).status_code == 201
+
+    def project(category, status, title, **amounts):
+        payload = {
+            'title': title, 'category': category, 'department': 'CSE', 'funding_agency': 'Agency',
+            'proposal_submission_date': '2026-08-01', 'status': status,
+            'faculty': [{'faculty_id': 1, 'role': 'MEMBER_PI'}, {'faculty_id': 2, 'role': 'CO_PI'}],
+        }
+        if status in ('SANCTIONED', 'ONGOING', 'COMPLETED'):
+            payload['sanction_date'] = '2026-08-02'
+        payload.update(amounts)
+        return payload
+
+    assert client.post('/funding-projects', json=project(
+        'SPONSORED_RESEARCH', 'SUBMITTED', 'Proposal', proposed_amount='200.25', sanctioned_amount='999.99',
+    )).status_code == 201
+    assert client.post('/funding-projects', json=project(
+        'SPONSORED_RESEARCH', 'SANCTIONED', 'Award', proposed_amount='300.25', sanctioned_amount='250.50',
+    )).status_code == 201
+    assert client.post('/funding-projects', json=project(
+        'CONSULTANCY', 'ONGOING', 'Consultancy', contract_amount='400.75', amount_received='125.25',
+    )).status_code == 201
+    assert client.post('/funding-projects', json=project(
+        'INTERNAL_GRANT', 'COMPLETED', 'Internal grant', sanctioned_amount='500.00', amount_utilized='0.00',
+    )).status_code == 201
+
+    data = report(client, '/research/overview', *period).json()
+    assert data['activity_totals']['fdp'] == 7
+    assert data['activity_totals']['certifications'] == data['activity_totals']['certifications_in_progress'] == 1
+    assert data['activity_totals']['research_projects'] == 2
+    assert data['activity_totals']['consultancy'] == data['activity_totals']['internal_grants'] == 1
+    assert data['funding_summary']['sponsored_research']['submitted_under_review'] == 1
+    assert data['funding_summary']['sponsored_research']['sanctioned'] == 1
+    assert data['financial_summary']['sponsored_proposed_amount'] == 500.5
+    # The submitted proposal's legacy sanctioned field is deliberately not an award.
+    assert data['financial_summary']['sponsored_sanctioned_amount'] == 250.5
+    assert data['financial_summary']['consultancy_contract_amount'] == 400.75
+    assert data['financial_summary']['consultancy_amount_received'] == 125.25
+    assert data['financial_summary']['internal_grants_sanctioned_amount'] == 500
+    assert data['financial_summary']['internal_grants_amount_utilized'] == 0
+    faculty = {row['id']: row for row in data['faculty_summary']}
+    assert faculty[1]['fdp'] == 7 and faculty[1]['certifications'] == 1
+    assert faculty[2]['certifications_in_progress'] == 1
+    assert faculty[1]['research_projects'] == 2 and faculty[1]['consultancy'] == faculty[1]['internal_grants'] == 1
 
 
 def test_unmapped_student_inventor_is_not_a_confirmed_student(setup):
@@ -123,7 +195,7 @@ def test_preview_calendar_aggregates_zero_buckets_and_business_dates(setup):
     annual = report(client, '/research/overview?granularity=YEARLY').json()['buckets']
     assert [r['label'] for r in annual] == ['2025', '2026', '2027']
     assert [r['journal'] for r in annual] == [1, 5, 0]
-    assert annual[0]['fdp'] is None
+    assert 'fdp' not in annual[0]  # The compact trend intentionally charts dated publication/patent/book events only.
     bounded = report(client, '/research/overview?granularity=MONTHLY&calendar_year=2026', '2026-03-31', '2026-04-01').json()['buckets']
     assert sum(r['journal'] for r in bounded) == sum(r['conference'] for r in bounded) == 1
     assert report(client, '/research/overview?granularity=WEEKLY').status_code == 422
