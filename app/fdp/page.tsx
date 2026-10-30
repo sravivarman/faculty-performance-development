@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import DateRangeFilter, { useDateRange } from "@/components/DateRange";
 import { api, label, Masters, paginatedResult } from "@/lib/api";
 import { DashboardFrame, KpiGrid, ResearchPageHeader } from "@/components/dashboard/UI";
@@ -34,6 +35,7 @@ const kpiTypes: Record<string, string> = { fdp: "FDP", sttp: "STTP", workshops: 
 
 export default function Page() {
   const { range, ready } = useDateRange();
+  const searchParams = useSearchParams();
   const [masters, setMasters] = useState<Masters>();
   const [result, setResult] = useState<PageResult>({ items: [], total: 0, page: 1, page_size: 25 });
   const [dashboard, setDashboard] = useState<Dashboard>({ totals: {}, types: {}, role_counts: {}, trend: [], faculty_performance: [], faculty_participants: [] });
@@ -41,10 +43,10 @@ export default function Page() {
   const [loading, setLoading] = useState(false);
   const [dashboardLoading, setDashboardLoading] = useState(false);
   const [search, setSearch] = useState("");
-  const [activityType, setActivityType] = useState("");
+  const [activityType, setActivityType] = useState(() => searchParams.get("activity_type") || "");
   const [activityGroup, setActivityGroup] = useState("");
-  const [facultyId, setFacultyId] = useState("");
-  const [role, setRole] = useState("");
+  const [facultyId, setFacultyId] = useState(() => searchParams.get("faculty_id") || "");
+  const [role, setRole] = useState(() => searchParams.get("role") || "");
   const [includeInactive, setIncludeInactive] = useState(false);
   const [page, setPage] = useState(1);
   const [pageSize, setPageSize] = useState<RecordPageSize>(25);

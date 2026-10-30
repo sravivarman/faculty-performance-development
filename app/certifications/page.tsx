@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import DateRangeFilter, { useDateRange } from "@/components/DateRange";
 import { api, label, Masters, paginatedResult } from "@/lib/api";
 import { DashboardFrame, KpiGrid, ResearchPageHeader } from "@/components/dashboard/UI";
@@ -34,6 +35,7 @@ const categoryLabels: Record<string, string> = { NPTEL_SWAYAM: "NPTEL / SWAYAM",
 
 export default function Page() {
   const { range, ready } = useDateRange();
+  const searchParams = useSearchParams();
   const [masters, setMasters] = useState<Masters>();
   const [result, setResult] = useState<Result>({ items: [], total: 0, page: 1, page_size: 25 });
   const [dashboard, setDashboard] = useState<Dashboard>({ totals: {}, categories: {}, trend: [], providers: [], faculty_performance: [] });
@@ -41,11 +43,11 @@ export default function Page() {
   const [loading, setLoading] = useState(false);
   const [dashboardLoading, setDashboardLoading] = useState(false);
   const [search, setSearch] = useState("");
-  const [faculty, setFaculty] = useState("");
+  const [faculty, setFaculty] = useState(() => searchParams.get("faculty_id") || "");
   const [category, setCategory] = useState("");
-  const [status, setStatus] = useState("");
+  const [status, setStatus] = useState(() => searchParams.get("status") || "");
   const [includeInactive, setIncludeInactive] = useState(false);
-  const [currentInProgress, setCurrentInProgress] = useState(false);
+  const [currentInProgress, setCurrentInProgress] = useState(() => searchParams.get("current_in_progress") === "true");
   const [drilldown, setDrilldown] = useState<Drilldown>("");
   const [showFacultyContributors, setShowFacultyContributors] = useState(false);
   const [page, setPage] = useState(1);

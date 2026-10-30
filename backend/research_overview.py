@@ -6,9 +6,12 @@ from .models import Publication, PublicationAuthor, Faculty, Patent, PatentInven
 from .publication_reporting import dashboard as publication_dashboard, publication_query
 from .patent_services import selected_patents, patent_kpis, patent_person_kpis, patent_drilldown, patent_type_counts
 from .book_services import selected_books, book_kpis, person_kpis, participants
+from .funding_api import funding_dashboard_data, project_filters
 from .reporting import validate_date_range, within
 
-UNAVAILABLE = {'proposals': 'Research Proposals', 'consultancy': 'Consultancy'}
+# Kept in the response for compatibility with the trend chart contract.  All
+# currently supported home-dashboard modules now provide live data.
+UNAVAILABLE = {}
 
 
 def activity_trend(db, start, end, calendar_year=None, granularity='MONTHLY'):
@@ -78,7 +81,21 @@ def overview(db, start, end):
     publication = publication_dashboard(db, {'from_date': start, 'to_date': end})
     rows, patents, books = activities(db, start, end)
     fdp = db.scalars(select(FdpActivity).where(FdpActivity.is_active.is_(True), FdpActivity.start_date.between(start, end))).all()
-    certifications = db.scalars(select(Certification).where(Certification.is_active.is_(True), Certification.completion_date.between(start, end))).all()
+    certifications = db.scalars(select(Certification).where(
+        Certification.is_active.is_(True),
+        Certification.status == 'COMPLETED',
+        Certification.completion_date.between(start, end),
+    )).all()
+    in_progress_certifications = db.scalars(select(Certification).where(
+        Certification.is_active.is_(True), Certification.status == 'IN_PROGRESS',
+    )).all()
+    funding = {
+        category: funding_dashboard_data(db, project_filters(category=category), start, end)
+        for category in ('SPONSORED_RESEARCH', 'CONSULTANCY', 'INTERNAL_GRANT')
+    }
+    sponsored, consultancy, internal_grants = (
+        funding['SPONSORED_RESEARCH'], funding['CONSULTANCY'], funding['INTERNAL_GRANT']
+    )
     patent = patent_kpis(patents, start, end)
     patent['with_students'] = len(patent_drilldown(patents, start, end, 'with_confirmed_students'))
     patent_faculty = {p['id']: p for p in patent_person_kpis(db, patents, start, end, 'faculty')}
@@ -88,10 +105,43 @@ def overview(db, start, end):
     type_query = publication_query(from_date=start, to_date=end, dashboard_only=True).with_only_columns(PublicationAuthor.faculty_id, Publication.publication_type, func.count(func.distinct(Publication.id))).join(PublicationAuthor).where(PublicationAuthor.person_type == 'FACULTY').group_by(PublicationAuthor.faculty_id, Publication.publication_type)
     for identity, kind, count in db.execute(type_query):
         publication_types[(identity, kind)] = count
+    funding_faculty = {
+        category: {person['id']: person['projects'] for person in report['faculty']}
+        for category, report in funding.items()
+    }
+    fdp_faculty = {
+        identity for activity in fdp for identity in {member.faculty_id for member in activity.participants if member.faculty_id}
+    }
+    certification_faculty = {item.faculty_id for item in certifications}
+    in_progress_faculty = {item.faculty_id for item in in_progress_certifications}
     for p in publication['faculty']:
         identity = p['id']
+        fdp_count = sum(any(x.faculty_id == identity for x in item.participants) for item in fdp)
+        completed_certification_count = sum(item.faculty_id == identity for item in certifications)
+        in_progress_certification_count = sum(item.faculty_id == identity for item in in_progress_certifications)
+        sponsored_count = funding_faculty['SPONSORED_RESEARCH'].get(identity, 0)
+        consultancy_count = funding_faculty['CONSULTANCY'].get(identity, 0)
+        internal_grant_count = funding_faculty['INTERNAL_GRANT'].get(identity, 0)
         faculty.append({'id': identity, 'name': p['name'], 'publications_claimed': p['claimed'], 'publications_authored': p['authored'], 'patents_claimed': patent_faculty[identity]['claimed'], 'patents_invented': patent_faculty[identity]['invented'], 'books': book_faculty[identity]['participated'], 'fdp':sum(any(x.faculty_id==identity for x in item.participants) for item in fdp), 'certifications':sum(item.faculty_id==identity for item in certifications), **{k: None for k in UNAVAILABLE}, 'total_activities': sum(identity in r['faculty_ids'] for r in rows)})
-    contributors = {identity for r in rows for identity in r['faculty_ids']}
+        faculty[-1].update({
+            'fdp': fdp_count,
+            'certifications': completed_certification_count,
+            'certifications_in_progress': in_progress_certification_count,
+            # `proposals` is retained for response compatibility; the home UI
+            # uses the clearer research-projects label.
+            'proposals': sponsored_count,
+            'research_projects': sponsored_count,
+            'consultancy': consultancy_count,
+            'internal_grants': internal_grant_count,
+            'total_activities': sum(identity in r['faculty_ids'] for r in rows)
+            + fdp_count + completed_certification_count + in_progress_certification_count
+            + sponsored_count + consultancy_count + internal_grant_count,
+        })
+    contributors = (
+        {identity for r in rows for identity in r['faculty_ids']}
+        | fdp_faculty | certification_faculty | in_progress_faculty
+        | {identity for report in funding_faculty.values() for identity in report}
+    )
     for row in faculty:
         row['journal'] = publication_types.get((row['id'], 'JOURNAL'), 0)
         row['conference'] = publication_types.get((row['id'], 'CONFERENCE'), 0)
@@ -108,10 +158,40 @@ def overview(db, start, end):
     data_quality['patents_missing_evidence'] = sum(not p.evidence for p in initiated)
     data_quality['patents_missing_lifecycle'] = len(patent_drilldown(patents, start, end, 'missing_lifecycle'))
     return {
-        'activity_totals': {'publications': publication['totals']['total'], 'patents': patent['unique'], 'books': book_kpis(books)['total'], 'fdp':len(fdp), 'certifications':len(certifications), **{k: None for k in UNAVAILABLE}},
-        'outcomes': {'journal': publication['totals']['journal'], 'conference': publication['totals']['conference'], 'patents_granted': patent['granted'], 'proposals_sanctioned': None, 'funds_sanctioned': None, 'consultancy_revenue': None, 'faculty_contributors': len(contributors)},
+        'activity_totals': {
+            'publications': publication['totals']['total'], 'patents': patent['unique'],
+            'books': book_kpis(books)['total'], 'fdp': len(fdp),
+            # Completed certification outcomes use their inclusive completion
+            # date; current in-progress work is intentionally date-independent.
+            'certifications': len(certifications),
+            'certifications_in_progress': len(in_progress_certifications),
+            'research_projects': sponsored['totals']['total'],
+            'proposals': sponsored['totals']['total'],
+            'consultancy': consultancy['totals']['total'],
+            'internal_grants': internal_grants['totals']['total'],
+        },
+        'outcomes': {
+            'journal': publication['totals']['journal'], 'conference': publication['totals']['conference'],
+            'patents_granted': patent['granted'],
+            'proposals_sanctioned': sponsored['totals']['sanctioned'],
+            'funds_sanctioned': sponsored['totals']['sanctioned_amount'],
+            'consultancy_revenue': consultancy['totals']['amount_received'],
+            'faculty_contributors': len(contributors),
+        },
         'publication_summary': publication['totals'], 'patent_summary': patent, 'patent_types': patent_type_counts(patents,start,end),
-        'financial_summary': {'funds_sanctioned': None, 'consultancy_revenue': None},
+        'financial_summary': {
+            'sponsored_proposed_amount': sponsored['totals']['proposed_amount'],
+            'sponsored_sanctioned_amount': sponsored['totals']['sanctioned_amount'],
+            'consultancy_contract_amount': consultancy['totals']['contract_value'],
+            'consultancy_amount_received': consultancy['totals']['amount_received'],
+            'internal_grants_sanctioned_amount': internal_grants['totals']['sanctioned_amount'],
+            'internal_grants_amount_utilized': internal_grants['totals']['amount_utilized'],
+        },
+        'funding_summary': {
+            'sponsored_research': sponsored['totals'],
+            'consultancy': consultancy['totals'],
+            'internal_grants': internal_grants['totals'],
+        },
         'faculty_summary': faculty, 'faculty_participation': {'with_activity': len(contributors), 'without_activity': len(faculty) - len(contributors)},
         'student_summary': {'publications': publication['totals']['with_students'], 'patents': patent['with_students'], 'unique_contributors': len(students)},
         'trend': trend, 'recent_activity': rows[:10], 'data_quality': data_quality,

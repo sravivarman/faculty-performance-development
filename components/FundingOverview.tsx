@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import DateRangeFilter, { useDateRange } from "@/components/DateRange";
 import FacultyContributionTable from "@/components/dashboard/FacultyContributionTable";
 import { DashboardFrame, KpiGrid, ResearchPageHeader } from "@/components/dashboard/UI";
@@ -90,6 +91,7 @@ function financialAmount(record: FundingProject, metric: string, category: Categ
 }
 
 export default function FundingOverview({ category }: { category: Category }) {
+  const searchParams = useSearchParams();
   const config = configuration[category];
   const facultyMetric = category === "INTERNAL_GRANT" ? "faculty_beneficiaries" : "faculty_contributors";
   const { range, ready } = useDateRange();
@@ -101,7 +103,7 @@ export default function FundingOverview({ category }: { category: Category }) {
   const [loading, setLoading] = useState(false);
   const [dashboardLoading, setDashboardLoading] = useState(false);
   const [search, setSearch] = useState("");
-  const [facultyId, setFacultyId] = useState("");
+  const [facultyId, setFacultyId] = useState(() => searchParams.get("faculty_id") || "");
   const [department, setDepartment] = useState("");
   const [agency, setAgency] = useState("");
   const [status, setStatus] = useState("");
