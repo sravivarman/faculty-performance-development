@@ -4,7 +4,7 @@ from pathlib import Path
 from typing import Annotated, Literal
 from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel, Field, model_validator
-from sqlalchemy import func, or_, select
+from sqlalchemy import and_, func, or_, select
 from sqlalchemy.orm import Session
 from . import db as database
 from .db import get_db
@@ -132,8 +132,15 @@ def list_activities(db:DB,from_date:date|None=None,to_date:date|None=None,activi
     if activity_type: query=query.where(FdpActivity.activity_type==activity_type)
     if activity_group == "OTHER": query=query.where(FdpActivity.activity_type.not_in(("FDP","WORKSHOP","STTP")))
     if activity_group not in (None,"OTHER"): raise HTTPException(422,"Unknown activity group")
-    if faculty_id: query=query.where(FdpActivity.participants.any(FdpParticipant.faculty_id==faculty_id))
-    if role: query=query.where(FdpActivity.participants.any(FdpParticipant.role==role))
+    if faculty_id is not None and role is not None:
+        # Keep Faculty and role on one participant row. Two separate `.any()`
+        # predicates produce independent EXISTS clauses, which can otherwise
+        # match different participants on the same activity.
+        query=query.where(FdpActivity.participants.any(and_(FdpParticipant.faculty_id==faculty_id,FdpParticipant.role==role)))
+    elif faculty_id is not None:
+        query=query.where(FdpActivity.participants.any(FdpParticipant.faculty_id==faculty_id))
+    elif role is not None:
+        query=query.where(FdpActivity.participants.any(FdpParticipant.role==role))
     if search: query=query.where(or_(FdpActivity.title.ilike(f"%{search}%"),FdpActivity.organizing_institution.ilike(f"%{search}%"),FdpActivity.participants.any(FdpParticipant.faculty_id.in_(select(Faculty.id).where(Faculty.name.ilike(f"%{search}%"))))))
     if page_size != "all" and page_size not in ALLOWED_PAGE_SIZES: raise HTTPException(422,"Page size must be 10, 25, 50 or all")
     if page is not None:
@@ -204,22 +211,42 @@ def permanently_delete_activity(identity:int,db:DB):
 def fdp_dashboard(db:DB,from_date:date,to_date:date,activity_type:str|None=None,activity_group:str|None=None,faculty_id:int|None=None,role:ParticipationRole|None=None,search:str|None=None,include_inactive:bool=False):
     records=list_activities(db,from_date,to_date,activity_type,activity_group,faculty_id,role,search,include_inactive)
     types={kind:sum(row["activity_type"]==kind for row in records) for kind in ACTIVITY_TYPES}
+    def scoped_participants(row):
+        """Apply Faculty and role reporting filters to participant associations.
+
+        `records` deliberately remains an activity-level result set for the
+        activity KPIs. Person-level metrics must instead count only the
+        associations that satisfy an explicitly selected Faculty or role.
+        """
+        participants=row["participants"]
+        if faculty_id is not None:
+            participants=[participant for participant in participants if participant["faculty_id"]==faculty_id]
+        if role is not None:
+            participants=[participant for participant in participants if participant["role"]==role]
+        return participants
+
+    scoped_rows=[(row,scoped_participants(row)) for row in records]
     participant_counts={}
-    for row in records:
+    participant_roles={}
+    for _, participants in scoped_rows:
         # A Faculty member can hold multiple roles in one activity, but still
         # contributes one distinct activity to this person-level KPI.
-        for identity in {p["faculty_id"] for p in row["participants"]}:
+        for identity in {p["faculty_id"] for p in participants}:
             participant_counts[identity]=participant_counts.get(identity,0)+1
+        for participant in participants:
+            participant_roles.setdefault(participant["faculty_id"],set()).add(participant["role"])
     people={person.id:person for person in db.scalars(select(Faculty).where(Faculty.id.in_(participant_counts)))}
     faculty_participants=[
-        {"id":identity,"name":people[identity].name,"is_active":people[identity].is_active,"activity_count":count}
+        {"id":identity,"name":people[identity].name,"employee_id":people[identity].employee_id,
+         "department":None,"is_active":people[identity].is_active,"activity_count":count,
+         "roles":[role_name for role_name in ROLES if role_name in participant_roles.get(identity,set())]}
         for identity,count in sorted(participant_counts.items(),key=lambda item: people[item[0]].name.lower())
     ]
-    role_counts={role_name:sum(p["role"]==role_name for row in records for p in row["participants"]) for role_name in ROLES}
+    role_counts={role_name:sum(p["role"]==role_name for _,participants in scoped_rows for p in participants) for role_name in ROLES}
     faculty_performance=[]
     for identity, person in sorted(people.items(), key=lambda item:item[1].name.lower()):
-        involved=[row for row in records if any(p["faculty_id"]==identity for p in row["participants"])]
-        associations=[p for row in involved for p in row["participants"] if p["faculty_id"]==identity]
+        involved=[row for row,participants in scoped_rows if any(p["faculty_id"]==identity for p in participants)]
+        associations=[p for _,participants in scoped_rows for p in participants if p["faculty_id"]==identity]
         faculty_performance.append({
             "id":identity,"name":person.name,"employee_id":person.employee_id,"activities":len(involved),
             "participations":len(associations),

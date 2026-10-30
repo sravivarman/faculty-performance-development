@@ -22,6 +22,7 @@ type RecordSummary = {
 };
 type FdpSummary = { id: number; title: string; publication_date: string | null; role: string };
 type CertificationSummary = { id: number; title: string; publication_date: string | null; status: string };
+type FundingSummary = { id: number; title: string; publication_date: string | null; category: string; status: string; roles: string[] };
 type Profile = {
   faculty: Person;
   from_date: string;
@@ -32,6 +33,7 @@ type Profile = {
   books: RecordSummary[];
   fdp: FdpSummary[];
   certifications: CertificationSummary[];
+  funding_projects: FundingSummary[];
   unavailable_modules: Record<string, string>;
 };
 
@@ -46,9 +48,20 @@ const summaryLabels = {
   books: "Books / Chapters",
   fdp: "FDP / Workshop / Seminar",
   certifications: "Certifications",
+  funding_projects: "Funding Projects",
   proposals: "Research Proposals",
   consultancy: "Consultancy",
 };
+
+function fundingRoleLabel(role: string) {
+  if (role === "LEAD_PI") return "Lead PI / Principal Investigator";
+  if (role === "MEMBER_PI") return "Member PI";
+  if (role === "CO_PI") return "Co-PI / Co-Investigator";
+  if (role === "ADMIN_PI") return "Admin PI";
+  if (role === "PI") return "Historical Principal Investigator";
+  if (role === "CO_INVESTIGATOR") return "Historical Co-Investigator";
+  return label(role);
+}
 
 export function FacultyName({ id, name }: { id: number; name: string }) {
   const open = useContext(Context);
@@ -193,6 +206,11 @@ export function FacultyDetailsProvider({ children }: { children: React.ReactNode
     );
   }
 
+  function fundingTable() {
+    const rows = profile?.funding_projects || [];
+    return <><p className="muted">Only Faculty Master-linked investigators contribute to this Faculty record. A project appears once even when this Faculty member has multiple investigator roles.</p><div className="table-wrap"><table><thead><tr><th>Project</th><th>Category</th><th>Role</th><th>Reporting date</th><th>Status</th><th>Details</th></tr></thead><tbody>{rows.map((row) => <tr key={row.id}><td>{row.title}</td><td>{label(row.category)}</td><td>{row.roles.map(fundingRoleLabel).join(", ")}</td><td>{row.publication_date || "—"}</td><td>{label(row.status)}</td><td><Link href={`/funding-projects/${row.id}?${dates}`} onClick={() => setIdentity(null)}>View details</Link></td></tr>)}</tbody></table></div>{!rows.length && <p className="dash-empty">No Faculty Master-linked funding records in the selected period.</p>}</>;
+  }
+
   return (
     <Context.Provider value={open}>
       {children}
@@ -224,6 +242,7 @@ export function FacultyDetailsProvider({ children }: { children: React.ReactNode
                 books: "Books / Chapters",
                 fdp: "FDP Activities",
                 certifications: "Certifications",
+                funding_projects: "Funding Projects",
               }).map(([key, text]) => (
                 <button type="button" role="tab" aria-selected={tab === key} aria-controls="faculty-tab-panel" key={key} onClick={() => setTab(key)}>{text}</button>
               ))}
@@ -238,7 +257,7 @@ export function FacultyDetailsProvider({ children }: { children: React.ReactNode
                   </div>
                   <p>Claimed and authored/inventor counts remain separate. No composite score is calculated.</p>
                 </>
-              ) : tab === "fdp" || tab === "certifications" ? peopleTable(tab) : recordTable(tab as "publications" | "patents" | "books")}
+              ) : tab === "fdp" || tab === "certifications" ? peopleTable(tab) : tab === "funding_projects" ? fundingTable() : recordTable(tab as "publications" | "patents" | "books")}
             </div>
           </>
         )}

@@ -20,16 +20,42 @@ router = APIRouter()
 DB = Annotated[Session, Depends(get_db)]
 FundingCategory = Literal["SPONSORED_RESEARCH", "CONSULTANCY", "INTERNAL_GRANT"]
 FundingStatus = Literal["DRAFT", "SUBMITTED", "UNDER_REVIEW", "SANCTIONED", "ONGOING", "COMPLETED", "REJECTED", "WITHDRAWN"]
-FundingRole = Literal["PI", "CO_PI", "BENEFICIARY"]
+FundingRole = Literal["LEAD_PI", "MEMBER_PI", "CO_PI", "ADMIN_PI", "BENEFICIARY", "PI", "CO_INVESTIGATOR"]
 CATEGORIES = ("SPONSORED_RESEARCH", "CONSULTANCY", "INTERNAL_GRANT")
 STATUSES = ("DRAFT", "SUBMITTED", "UNDER_REVIEW", "SANCTIONED", "ONGOING", "COMPLETED", "REJECTED", "WITHDRAWN")
-ROLES = ("PI", "CO_PI", "BENEFICIARY")
+ROLES = ("LEAD_PI", "MEMBER_PI", "CO_PI", "ADMIN_PI", "BENEFICIARY")
+LEGACY_ROLES = {"PI", "CO_INVESTIGATOR"}
+PI_LEVEL_ROLES = {"LEAD_PI", "MEMBER_PI", "PI"}
 SANCTIONED_STATUSES = {"SANCTIONED", "ONGOING", "COMPLETED"}
+FINANCIAL_METRICS = {"sanctioned_amount", "contract_value", "amount_received", "amount_utilized"}
+FINANCIAL_METRIC_FIELDS = {
+    "sanctioned_amount": "sanctioned_amount",
+    "contract_value": "contract_amount",
+    "amount_received": "amount_received",
+    "amount_utilized": "amount_utilized",
+}
 
 
 class FundingFacultyInput(BaseModel):
-    faculty_id: int
+    id: int | None = None
+    faculty_id: int | None = None
     role: FundingRole
+    investigator_name: str | None = Field(default=None, max_length=500)
+    department_name: str | None = Field(default=None, max_length=250)
+    institution_name: str | None = Field(default=None, max_length=500)
+    agency_role_label: str | None = Field(default=None, max_length=100)
+    is_designated_lead: bool = False
+
+    @model_validator(mode="after")
+    def validate_identity(self):
+        manual_name = (self.investigator_name or "").strip()
+        if self.faculty_id is None and not manual_name:
+            raise ValueError("Select a Faculty Master investigator or enter an investigator name")
+        if self.faculty_id is not None and manual_name:
+            raise ValueError("A linked Faculty investigator cannot also retain manual investigator details")
+        if self.role == "LEAD_PI":
+            self.is_designated_lead = True
+        return self
 
 
 class FundingProjectInput(BaseModel):
@@ -41,7 +67,9 @@ class FundingProjectInput(BaseModel):
     sanction_date: date | None = None
     start_date: date | None = None
     end_date: date | None = None
+    proposed_amount: Decimal | None = Field(default=None, ge=0, max_digits=14, decimal_places=2)
     sanctioned_amount: Decimal | None = Field(default=None, ge=0, max_digits=14, decimal_places=2)
+    contract_amount: Decimal | None = Field(default=None, ge=0, max_digits=14, decimal_places=2)
     amount_received: Decimal | None = Field(default=None, ge=0, max_digits=14, decimal_places=2)
     amount_utilized: Decimal | None = Field(default=None, ge=0, max_digits=14, decimal_places=2)
     reference_number: str | None = Field(default=None, max_length=250)
@@ -58,11 +86,17 @@ class FundingProjectInput(BaseModel):
     def validate_project(self):
         if self.end_date and self.start_date and self.end_date < self.start_date:
             raise ValueError("Project end date must be on or after the start date")
-        pairs = [(member.faculty_id, member.role) for member in self.faculty]
-        if len(pairs) != len(set(pairs)):
+        identities = [
+            ("FACULTY", member.faculty_id, member.role) if member.faculty_id is not None
+            else ("MANUAL", member.investigator_name, member.department_name, member.institution_name, member.role)
+            for member in self.faculty
+        ]
+        if len(identities) != len(set(identities)):
             raise ValueError("A Faculty member may be assigned each project role only once")
-        if sum(member.role == "PI" for member in self.faculty) != 1:
-            raise ValueError("Select exactly one Principal Investigator")
+        if self.category in {"SPONSORED_RESEARCH", "CONSULTANCY"} and not any(member.role in PI_LEVEL_ROLES for member in self.faculty):
+            raise ValueError("Sponsored research and consultancy records require at least one PI-level investigator")
+        if sum(member.is_designated_lead for member in self.faculty) > 1:
+            raise ValueError("Only one designated overall lead is allowed for a project")
         if self.status in SANCTIONED_STATUSES and not self.sanction_date:
             raise ValueError("Sanction date is required for sanctioned, ongoing, or completed records")
         return self
@@ -76,16 +110,23 @@ def faculty_or_422(db: Session, identity: int) -> Faculty:
 
 
 def funding_dict(record: FundingProject, db: Session):
-    faculty = [
-        {**columns(member), "faculty_name": faculty_or_422(db, member.faculty_id).name,
-         "employee_id": faculty_or_422(db, member.faculty_id).employee_id,
-         "is_active": faculty_or_422(db, member.faculty_id).is_active}
-        for member in sorted(record.faculty, key=lambda member: (ROLES.index(member.role), member.faculty_id))
-    ]
+    faculty = []
+    for member in sorted(record.faculty, key=lambda member: (member.display_order, member.id)):
+        value = columns(member)
+        if member.faculty_id is not None:
+            person = faculty_or_422(db, member.faculty_id)
+            value.update({"faculty_name": person.name, "employee_id": person.employee_id,
+                          "is_active": person.is_active, "affiliation_type": "FACULTY_MASTER"})
+        else:
+            value.update({"faculty_name": member.investigator_name, "employee_id": None,
+                          "is_active": None, "affiliation_type": "MANUAL"})
+        faculty.append(value)
     values = columns(record)
     values["faculty"] = faculty
     values["evidence_count"] = len(record.evidence)
+    values["proposed_amount_lakhs"] = record.proposed_amount / Decimal("100000") if record.proposed_amount is not None else None
     values["sanctioned_amount_lakhs"] = record.sanctioned_amount / Decimal("100000") if record.sanctioned_amount is not None else None
+    values["contract_amount_lakhs"] = record.contract_amount / Decimal("100000") if record.contract_amount is not None else None
     values["amount_received_lakhs"] = record.amount_received / Decimal("100000") if record.amount_received is not None else None
     values["amount_utilized_lakhs"] = record.amount_utilized / Decimal("100000") if record.amount_utilized is not None else None
     values["reporting_date"] = record.sanction_date or record.proposal_submission_date or record.start_date
@@ -95,14 +136,34 @@ def funding_dict(record: FundingProject, db: Session):
 def save_project(db: Session, data: FundingProjectInput, record: FundingProject | None = None):
     is_new = record is None
     record = record or FundingProject()
+    existing_members = {member.id: member for member in record.faculty} if not is_new else {}
     for member in data.faculty:
-        faculty_or_422(db, member.faculty_id)
+        if member.role in LEGACY_ROLES:
+            historical = existing_members.get(member.id)
+            if not historical or historical.role != member.role:
+                raise HTTPException(422, "Historical PI and Co-Investigator roles are preserved for existing records only. Select one of the five active roles for a new investigator.")
+        if member.faculty_id is not None:
+            faculty_or_422(db, member.faculty_id)
+        if member.role != "LEAD_PI" and member.is_designated_lead:
+            historical = existing_members.get(member.id)
+            if not historical or not historical.is_designated_lead:
+                raise HTTPException(422, "Only LEAD_PI automatically designates the overall lead")
     for key, value in data.model_dump(exclude={"faculty"}).items():
         setattr(record, key, value)
     if not is_new:
         record.faculty.clear()
         db.flush()
-    record.faculty.extend(FundingProjectFaculty(faculty_id=member.faculty_id, role=member.role) for member in data.faculty)
+    record.faculty.extend(FundingProjectFaculty(
+        faculty_id=member.faculty_id,
+        role=member.role,
+        investigator_name=(member.investigator_name or "").strip() or None,
+        department_name=(member.department_name or "").strip() or None,
+        institution_name=(member.institution_name or "").strip() or None,
+        affiliation_type="FACULTY_MASTER" if member.faculty_id is not None else "MANUAL",
+        agency_role_label=(member.agency_role_label or "").strip() or None,
+        is_designated_lead=member.is_designated_lead,
+        display_order=index,
+    ) for index, member in enumerate(data.faculty, start=1))
     db.add(record)
     db.flush()
     db.add(FundingProjectChangeLog(
@@ -171,8 +232,9 @@ def metric_records(records: list[FundingProject], metric: str | None):
         return [record for record in records if record.status in SANCTIONED_STATUSES]
     if metric in {"ongoing", "completed"}:
         return [record for record in records if record.status == metric.upper()]
-    if metric in {"sanctioned_amount", "contract_value", "amount_received", "amount_utilized"}:
-        return records
+    if metric in FINANCIAL_METRICS:
+        field = FINANCIAL_METRIC_FIELDS[metric]
+        return [record for record in records if record.status in SANCTIONED_STATUSES and getattr(record, field) is not None]
     raise HTTPException(422, "Unknown funding dashboard metric")
 
 
@@ -239,6 +301,59 @@ def amount(records: list[FundingProject], field: str) -> Decimal:
     return sum((getattr(record, field) or Decimal("0") for record in records), Decimal("0"))
 
 
+def funding_dashboard_data(db: Session, selected: dict, from_date: date, to_date: date):
+    """Return the shared, unpaginated funding summary for one reporting scope.
+
+    The overview dashboard uses this service directly so it cannot accidentally
+    calculate amounts from a paginated list or from investigator associations.
+    """
+    records = filtered_projects(db, selected, from_date, to_date)
+    faculty_counts: dict[int, int] = {}
+    faculty_role_counts: dict[int, dict[str, int]] = {}
+    faculty_departments: dict[int, set[str]] = {}
+    faculty_roles: dict[int, list[str]] = {}
+    for record in records:
+        for identity in {member.faculty_id for member in record.faculty if member.faculty_id is not None}:
+            faculty_counts[identity] = faculty_counts.get(identity, 0) + 1
+            faculty_departments.setdefault(identity, set()).add(record.department)
+        for member in record.faculty:
+            if member.faculty_id is not None:
+                counts = faculty_role_counts.setdefault(member.faculty_id, {role: 0 for role in ROLES})
+                reporting_role = "CO_PI" if member.role == "CO_INVESTIGATOR" else member.role
+                if reporting_role in counts:
+                    counts[reporting_role] += 1
+                display_role = member.agency_role_label or member.role
+                roles = faculty_roles.setdefault(member.faculty_id, [])
+                if display_role not in roles:
+                    roles.append(display_role)
+    people = {person.id: person for person in db.scalars(select(Faculty).where(Faculty.id.in_(faculty_counts)))}
+    faculty = [
+        {"id": identity, "name": people[identity].name, "employee_id": people[identity].employee_id,
+         "is_active": people[identity].is_active, "projects": count,
+         "department": ", ".join(sorted(faculty_departments.get(identity, set()))),
+         "roles": faculty_roles.get(identity, []),
+         **{f"role_{role.lower()}": faculty_role_counts.get(identity, {}).get(role, 0) for role in ROLES}}
+        for identity, count in sorted(faculty_counts.items(), key=lambda item: people[item[0]].name.lower())
+    ]
+    submitted = sum(record.status in {"SUBMITTED", "UNDER_REVIEW"} for record in records)
+    sanctioned = sum(record.status in SANCTIONED_STATUSES for record in records)
+    awarded_records = [record for record in records if record.status in SANCTIONED_STATUSES]
+    totals = {
+        "total": len(records), "submitted_under_review": submitted, "sanctioned": sanctioned,
+        "ongoing": sum(record.status == "ONGOING" for record in records),
+        "completed": sum(record.status == "COMPLETED" for record in records),
+        "proposed_amount": amount(records, "proposed_amount"),
+        "sanctioned_amount": amount(awarded_records, "sanctioned_amount"),
+        "contract_value": amount(awarded_records, "contract_amount"),
+        "amount_received": amount(awarded_records, "amount_received"),
+        "amount_utilized": amount(awarded_records, "amount_utilized"),
+        "faculty_beneficiaries": len(faculty_counts),
+        "faculty_contributors": len(faculty_counts),
+    }
+    return {"totals": totals, "faculty": faculty,
+            "role_counts": {role: sum(member.role == role for record in records for member in record.faculty) for role in ROLES}}
+
+
 @router.get("/funding-dashboard")
 def funding_dashboard(
     db: DB,
@@ -246,27 +361,4 @@ def funding_dashboard(
     from_date: date,
     to_date: date,
 ):
-    records = filtered_projects(db, selected, from_date, to_date)
-    faculty_counts: dict[int, int] = {}
-    for record in records:
-        for identity in {member.faculty_id for member in record.faculty}:
-            faculty_counts[identity] = faculty_counts.get(identity, 0) + 1
-    people = {person.id: person for person in db.scalars(select(Faculty).where(Faculty.id.in_(faculty_counts)))}
-    faculty = [
-        {"id": identity, "name": people[identity].name, "employee_id": people[identity].employee_id,
-         "is_active": people[identity].is_active, "projects": count}
-        for identity, count in sorted(faculty_counts.items(), key=lambda item: people[item[0]].name.lower())
-    ]
-    submitted = sum(record.status in {"SUBMITTED", "UNDER_REVIEW"} for record in records)
-    sanctioned = sum(record.status in SANCTIONED_STATUSES for record in records)
-    totals = {
-        "total": len(records), "submitted_under_review": submitted, "sanctioned": sanctioned,
-        "ongoing": sum(record.status == "ONGOING" for record in records),
-        "completed": sum(record.status == "COMPLETED" for record in records),
-        "sanctioned_amount": amount(records, "sanctioned_amount"),
-        "contract_value": amount(records, "sanctioned_amount"),
-        "amount_received": amount(records, "amount_received"),
-        "amount_utilized": amount(records, "amount_utilized"),
-        "faculty_beneficiaries": len(faculty_counts),
-    }
-    return {"totals": totals, "faculty": faculty}
+    return funding_dashboard_data(db, selected, from_date, to_date)

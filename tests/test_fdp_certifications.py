@@ -610,6 +610,79 @@ def test_fdp_and_certification_dashboard_analytics_are_full_filtered_sets(setup)
     assert next(row for row in certifications["trend"] if row["month"] == "2026-08")["completed"] == 2
 
 
+def test_fdp_faculty_participated_kpi_uses_distinct_faculty_and_dashboard_scope(setup):
+    client, factory, _ = setup
+    from backend.models import Faculty
+
+    with factory() as db:
+        db.add(Faculty(id=3, employee_id="C", name="Faculty C", name_variants=[]))
+        db.commit()
+
+    first = client.post("/fdp-activities", json={
+        **activity(), "title": "FDP participation", "participants": [
+            {"faculty_id": 1, "role": "ATTENDEE"},
+            {"faculty_id": 1, "role": "COORDINATOR"},
+            {"faculty_id": 2, "role": "RESOURCE_PERSON"},
+        ],
+    })
+    workshop = client.post("/fdp-activities", json={
+        **activity(), "title": "Workshop participation", "activity_type": "WORKSHOP", "participants": [
+            {"faculty_id": 1, "role": "ATTENDEE"}, {"faculty_id": 3, "role": "COORDINATOR"},
+        ],
+    })
+    inactive = client.post("/fdp-activities", json={
+        **activity(), "title": "Inactive webinar", "activity_type": "WEBINAR", "participants": [{"faculty_id": 3, "role": "ATTENDEE"}],
+    })
+    outside_period = client.post("/fdp-activities", json={
+        **activity(), "title": "Outside period", "start_date": "2027-01-01", "end_date": "2027-01-02",
+        "participants": [{"faculty_id": 3, "role": "ATTENDEE"}],
+    })
+    assert first.status_code == workshop.status_code == inactive.status_code == outside_period.status_code == 201
+    assert client.delete(f"/fdp-activities/{inactive.json()['id']}").status_code == 200
+
+    period = "from_date=2026-07-01&to_date=2026-12-31"
+    dashboard = client.get("/fdp-dashboard?" + period).json()
+    participants = {row["id"]: row for row in dashboard["faculty_participants"]}
+    assert dashboard["totals"]["faculty_contributors"] == len(participants) == 3
+    assert participants[1]["activity_count"] == 2 and participants[1]["roles"] == ["ATTENDEE", "COORDINATOR"]
+    assert participants[2]["activity_count"] == participants[3]["activity_count"] == 1
+    assert dashboard["types"] == {"FDP": 1, "STTP": 0, "WORKSHOP": 1, "WEBINAR": 0, "SEMINAR": 0, "INTERNSHIP": 0, "INDUSTRIAL_TRAINING": 0}
+
+    faculty_filtered = client.get("/fdp-dashboard?" + period + "&faculty_id=1").json()
+    role_filtered = client.get("/fdp-dashboard?" + period + "&role=COORDINATOR").json()
+    type_filtered = client.get("/fdp-dashboard?" + period + "&activity_type=FDP").json()
+    paged_dashboard = client.get("/fdp-dashboard?" + period + "&page=2&page_size=10").json()
+    assert faculty_filtered["totals"]["faculty_contributors"] == 1
+    assert role_filtered["totals"]["faculty_contributors"] == 2
+    assert type_filtered["totals"]["faculty_contributors"] == 2
+    assert paged_dashboard == dashboard
+    assert [row["id"] for row in faculty_filtered["faculty_participants"]] == [1]
+    assert {row["id"] for row in role_filtered["faculty_participants"]} == {1, 3}
+    assert all(row["roles"] == ["COORDINATOR"] for row in role_filtered["faculty_participants"])
+    assert {row["id"] for row in type_filtered["faculty_participants"]} == {1, 2}
+
+    faculty_records = client.get("/fdp-activities?" + period + "&faculty_id=1&page=1&page_size=all").json()
+    coordinator_records = client.get("/fdp-activities?" + period + "&faculty_id=1&role=COORDINATOR&page=1&page_size=all").json()
+    attendee_records = client.get("/fdp-activities?" + period + "&faculty_id=1&role=ATTENDEE&page=1&page_size=all").json()
+    faculty_three_coordinator = client.get("/fdp-activities?" + period + "&faculty_id=3&role=COORDINATOR&page=1&page_size=all").json()
+    faculty_two_resource_person = client.get("/fdp-activities?" + period + "&faculty_id=2&role=RESOURCE_PERSON&page=1&page_size=all").json()
+    faculty_one_resource_person = client.get("/fdp-activities?" + period + "&faculty_id=1&role=RESOURCE_PERSON&page=1&page_size=all").json()
+    all_coordinators = client.get("/fdp-activities?" + period + "&role=COORDINATOR&page=1&page_size=all").json()
+    first_page = client.get("/fdp-activities?" + period + "&faculty_id=1&role=ATTENDEE&page=1&page_size=10").json()
+    page_size_twenty_five = client.get("/fdp-activities?" + period + "&faculty_id=1&role=ATTENDEE&page=1&page_size=25").json()
+    page_size_fifty = client.get("/fdp-activities?" + period + "&faculty_id=1&role=ATTENDEE&page=1&page_size=50").json()
+    assert {row["id"] for row in faculty_records["items"]} == {first.json()["id"], workshop.json()["id"]}
+    assert [row["id"] for row in coordinator_records["items"]] == [first.json()["id"]]
+    assert {row["id"] for row in attendee_records["items"]} == {first.json()["id"], workshop.json()["id"]}
+    assert [row["id"] for row in faculty_three_coordinator["items"]] == [workshop.json()["id"]]
+    assert [row["id"] for row in faculty_two_resource_person["items"]] == [first.json()["id"]]
+    assert faculty_one_resource_person["total"] == 0 and faculty_one_resource_person["items"] == []
+    assert {row["id"] for row in all_coordinators["items"]} == {first.json()["id"], workshop.json()["id"]}
+    assert first_page["total"] == 2 and {row["id"] for row in first_page["items"]} == {first.json()["id"], workshop.json()["id"]}
+    assert page_size_twenty_five["total"] == page_size_fifty["total"] == 2
+    assert {row["id"] for row in page_size_twenty_five["items"]} == {row["id"] for row in page_size_fifty["items"]} == {first.json()["id"], workshop.json()["id"]}
+
+
 def test_certification_approved_categories_are_filterable_and_legacy_value_is_rejected(setup):
     client, _, _ = setup
     rows = {}

@@ -427,7 +427,11 @@ class FundingProject(Base, Timestamps):
     sanction_date: Mapped[date | None] = mapped_column(Date, index=True)
     start_date: Mapped[date | None] = mapped_column(Date, index=True)
     end_date: Mapped[date | None] = mapped_column(Date, index=True)
+    # These summary fields deliberately remain nullable: no amount is distinct
+    # from a confirmed zero amount in performance reporting.
+    proposed_amount: Mapped[Decimal | None] = mapped_column(Numeric(14, 2))
     sanctioned_amount: Mapped[Decimal | None] = mapped_column(Numeric(14, 2))
+    contract_amount: Mapped[Decimal | None] = mapped_column(Numeric(14, 2))
     amount_received: Mapped[Decimal | None] = mapped_column(Numeric(14, 2))
     amount_utilized: Mapped[Decimal | None] = mapped_column(Numeric(14, 2))
     currency: Mapped[str] = mapped_column(String(3), default="INR")
@@ -447,7 +451,9 @@ class FundingProject(Base, Timestamps):
         CheckConstraint("status IN ('DRAFT','SUBMITTED','UNDER_REVIEW','SANCTIONED','ONGOING','COMPLETED','REJECTED','WITHDRAWN')", name="funding_project_status_valid"),
         CheckConstraint("currency = 'INR'", name="funding_project_currency_inr"),
         CheckConstraint("end_date IS NULL OR start_date IS NULL OR end_date >= start_date", name="funding_project_dates_valid"),
+        CheckConstraint("proposed_amount IS NULL OR proposed_amount >= 0", name="funding_project_proposed_amount_valid"),
         CheckConstraint("sanctioned_amount IS NULL OR sanctioned_amount >= 0", name="funding_project_sanctioned_amount_valid"),
+        CheckConstraint("contract_amount IS NULL OR contract_amount >= 0", name="funding_project_contract_amount_valid"),
         CheckConstraint("amount_received IS NULL OR amount_received >= 0", name="funding_project_received_amount_valid"),
         CheckConstraint("amount_utilized IS NULL OR amount_utilized >= 0", name="funding_project_utilized_amount_valid"),
     )
@@ -457,12 +463,21 @@ class FundingProjectFaculty(Base, Timestamps):
     __tablename__ = "funding_project_faculty"
     id: Mapped[int] = mapped_column(primary_key=True)
     funding_project_id: Mapped[int] = mapped_column(ForeignKey("funding_projects.id", ondelete="CASCADE"), index=True)
-    faculty_id: Mapped[int] = mapped_column(ForeignKey("faculty.id"), index=True)
+    faculty_id: Mapped[int | None] = mapped_column(ForeignKey("faculty.id"), index=True)
     role: Mapped[str] = mapped_column(String(20))
+    investigator_name: Mapped[str | None] = mapped_column(String(500))
+    department_name: Mapped[str | None] = mapped_column(String(250))
+    institution_name: Mapped[str | None] = mapped_column(String(500))
+    affiliation_type: Mapped[str] = mapped_column(String(30), default="FACULTY_MASTER")
+    display_order: Mapped[int] = mapped_column(Integer, default=0)
+    agency_role_label: Mapped[str | None] = mapped_column(String(100))
+    is_designated_lead: Mapped[bool] = mapped_column(Boolean, default=False)
     __table_args__ = (
         UniqueConstraint("funding_project_id", "faculty_id", "role", name="uq_funding_project_faculty_role"),
-        CheckConstraint("role IN ('PI','CO_PI','BENEFICIARY')", name="funding_project_faculty_role_valid"),
-        Index("uq_funding_project_pi", "funding_project_id", unique=True, sqlite_where=text("role = 'PI'")),
+        CheckConstraint("role IN ('LEAD_PI','MEMBER_PI','CO_PI','ADMIN_PI','BENEFICIARY','PI','CO_INVESTIGATOR')", name="funding_project_faculty_role_valid"),
+        CheckConstraint("faculty_id IS NOT NULL OR (investigator_name IS NOT NULL AND length(trim(investigator_name)) > 0)", name="funding_project_investigator_identity"),
+        CheckConstraint("affiliation_type IN ('FACULTY_MASTER','MANUAL')", name="funding_project_investigator_affiliation_valid"),
+        Index("uq_funding_project_designated_lead", "funding_project_id", unique=True, sqlite_where=text("is_designated_lead = 1")),
     )
 
 

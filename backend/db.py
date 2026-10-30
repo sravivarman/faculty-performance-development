@@ -14,8 +14,17 @@ class Base(DeclarativeBase):
     pass
 
 
-def make_engine(url):
-    engine = create_engine(url, connect_args={"check_same_thread": False})
+def make_engine(url, *, poolclass=None):
+    """Create the application engine.
+
+    Production callers retain SQLAlchemy's normal pool. Test fixtures may pass
+    ``NullPool`` so Windows releases every SQLite file handle as soon as its
+    session or migration connection closes.
+    """
+    options = {"connect_args": {"check_same_thread": False}}
+    if poolclass is not None:
+        options["poolclass"] = poolclass
+    engine = create_engine(url, **options)
 
     @event.listens_for(engine, "connect")
     def configure_sqlite(connection, _):

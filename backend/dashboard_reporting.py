@@ -1,8 +1,8 @@
 """Read-only dashboard payloads; counting stays in the existing module services."""
 from datetime import date, timedelta
 from fastapi import HTTPException
-from sqlalchemy import and_, or_, select
-from .models import Certification, Faculty, FdpActivity, FdpParticipant, Publication
+from sqlalchemy import and_, func, or_, select
+from .models import Certification, Faculty, FdpActivity, FdpParticipant, FundingProject, FundingProjectFaculty, Publication
 from .publication_reporting import publication_query
 from .patent_services import selected_patents, patent_kpis, patent_person_kpis, patent_drilldown, patent_type_counts
 from .book_services import selected_books, book_kpis, person_kpis, participants
@@ -54,6 +54,12 @@ def faculty_details(db, identity, start, end):
     event_patents = [p for p in patents if any(within(getattr(p, field), start, end) for field in ('filing_date', 'publication_date', 'grant_date'))]
     books = selected_books(db, from_date=start, to_date=end, faculty_id=identity)
     fdp = db.scalars(select(FdpActivity).where(FdpActivity.is_active.is_(True), FdpActivity.start_date.between(start,end), FdpActivity.participants.any(FdpParticipant.faculty_id==identity))).all()
+    funding_date = func.coalesce(FundingProject.sanction_date, FundingProject.proposal_submission_date, FundingProject.start_date)
+    funding_projects = db.scalars(select(FundingProject).where(
+        FundingProject.is_active.is_(True),
+        funding_date.between(start, end),
+        FundingProject.faculty.any(FundingProjectFaculty.faculty_id == identity),
+    )).all()
     certifications = db.scalars(select(Certification).where(
         Certification.is_active.is_(True),
         Certification.faculty_id==identity,
@@ -66,9 +72,12 @@ def faculty_details(db, identity, start, end):
     return {'faculty': {'id': identity, 'name': person.name, 'employee_id': person.employee_id, 'designation': person.designation},
             'from_date': start, 'to_date': end,
             'summary': {'journal': sum(p.publication_type == 'JOURNAL' for p in publications), 'conference': sum(p.publication_type == 'CONFERENCE' for p in publications),
-                        'publications_claimed': sum(claimed(p) for p in publications), 'publications_authored': len(publications), 'patents': patent_row['invented'], 'patents_claimed': patent_row['claimed'], 'books': len(books), 'fdp':len(fdp), 'certifications':len(certifications), **{key: None for key in UNAVAILABLE}},
+                        'publications_claimed': sum(claimed(p) for p in publications), 'publications_authored': len(publications), 'patents': patent_row['invented'], 'patents_claimed': patent_row['claimed'], 'books': len(books), 'fdp':len(fdp), 'certifications':len(certifications), 'funding_projects': len(funding_projects), **{key: None for key in UNAVAILABLE}},
             'publications': [{'id': p.id, 'title': p.title, 'publication_type': p.publication_type, 'publication_date': p.publication_date, 'claimed': claimed(p), 'indexing': p.indexing, 'quartile': p.quartile, 'classification': p.classification} for p in publications],
             'patents': [{'id': p.id, 'title': p.title, 'patent_type': p.patent_type, 'application_number': p.application_number, 'filing_date': p.filing_date, 'publication_date': p.publication_date, 'grant_date': p.grant_date, 'claimed': any(i.faculty_id == identity and i.is_claiming_faculty for i in p.inventors)} for p in event_patents],
             'books': [{'id': b.id, 'title': b.title, 'work_type': b.work_type, 'publication_date': b.publication_date, 'claimed': any(c.faculty_id == identity and c.is_claiming_faculty for c in b.contributors)} for b in books],
             'fdp': [{'id':x.id,'title':x.title,'publication_date':x.start_date,'role':next(p.role for p in x.participants if p.faculty_id==identity)} for x in fdp],
-            'certifications': [{'id':x.id,'title':x.name,'publication_date':x.completion_date,'status':x.status} for x in certifications], 'unavailable_modules': UNAVAILABLE}
+            'certifications': [{'id':x.id,'title':x.name,'publication_date':x.completion_date,'status':x.status} for x in certifications],
+            'funding_projects': [{'id': x.id, 'title': x.title, 'publication_date': x.sanction_date or x.proposal_submission_date or x.start_date, 'category': x.category, 'status': x.status,
+                                  'roles': [member.agency_role_label or member.role for member in x.faculty if member.faculty_id == identity]} for x in funding_projects],
+            'unavailable_modules': UNAVAILABLE}

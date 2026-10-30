@@ -5,6 +5,7 @@ from alembic import command
 from alembic.config import Config
 from fastapi.testclient import TestClient
 from sqlalchemy.orm import close_all_sessions, sessionmaker
+from sqlalchemy.pool import NullPool
 
 from backend import db as database
 from backend.db import get_db, make_engine
@@ -14,37 +15,43 @@ from backend.models import AcademicYear, Faculty, Student
 
 @pytest.fixture
 def setup(tmp_path, monkeypatch):
-    engine = make_engine(f"sqlite:///{tmp_path / 'test.db'}")
+    # A function-scoped folder and NullPool guarantee that no test shares a
+    # database or retains a pooled Windows file handle after a request ends.
+    engine = make_engine(f"sqlite:///{tmp_path / 'test.db'}", poolclass=NullPool)
     factory = sessionmaker(engine, expire_on_commit=False)
     monkeypatch.setattr(database, "engine", engine)
     monkeypatch.setattr(database, "SessionLocal", factory)
     monkeypatch.setattr(database, "EVIDENCE_ROOT", tmp_path / "evidence")
-    command.upgrade(Config("alembic.ini"), "head")
-    with factory() as db:
-        db.add_all([
-            AcademicYear(id=1, name="2026-27", start_date=date(2026, 7, 1), end_date=date(2027, 6, 30)),
-            AcademicYear(id=2, name="2027-28", start_date=date(2027, 7, 1), end_date=date(2028, 6, 30)),
-            Faculty(id=1, employee_id="A", name="Faculty A", orcid="0000-0001-2345-6789", name_variants=["A. Faculty"]),
-            Faculty(id=2, employee_id="B", name="Faculty B", name_variants=["B. Faculty"]),
-            Student(id=1, roll_number="X", name="Student X", name_variants=["X. Student"]),
-            Student(id=2, roll_number="Y", name="Student Y"),
-        ])
-        db.commit()
-    def override():
-        db = factory()
-        try:
-            yield db
-        finally:
-            db.close()
-    app.dependency_overrides[get_db] = override
     try:
-        # The client context closes the ASGI transport before database cleanup.
+        # Setup is inside the guarded lifecycle too: a failed migration or
+        # seed must still dispose its SQLite engine before pytest removes the
+        # function-scoped directory.
+        command.upgrade(Config("alembic.ini"), "head")
+        with factory() as db:
+            db.add_all([
+                AcademicYear(id=1, name="2026-27", start_date=date(2026, 7, 1), end_date=date(2027, 6, 30)),
+                AcademicYear(id=2, name="2027-28", start_date=date(2027, 7, 1), end_date=date(2028, 6, 30)),
+                Faculty(id=1, employee_id="A", name="Faculty A", orcid="0000-0001-2345-6789", name_variants=["A. Faculty"]),
+                Faculty(id=2, employee_id="B", name="Faculty B", name_variants=["B. Faculty"]),
+                Student(id=1, roll_number="X", name="Student X", name_variants=["X. Student"]),
+                Student(id=2, roll_number="Y", name="Student Y"),
+            ])
+            db.commit()
+
+        def override():
+            db = factory()
+            try:
+                yield db
+            finally:
+                db.close()
+
+        app.dependency_overrides[get_db] = override
+        # The client context closes its ASGI transport before engine cleanup.
         with TestClient(app) as client:
             yield client, factory, tmp_path
     finally:
-        # Windows will not remove a SQLite file while any pooled connection is
-        # alive. Clear the override first, close every ORM session, then
-        # dispose the isolated engine before pytest deletes tmp_path.
+        # Always run—even when migration, seeding, or a request fails—before
+        # pytest attempts to remove this test's temporary directory.
         app.dependency_overrides.pop(get_db, None)
         close_all_sessions()
         engine.dispose()

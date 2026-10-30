@@ -21,15 +21,15 @@ type Row = {
 };
 
 type PageResult = { items: Row[]; total: number; page: number; page_size: number | "all" };
-type FacultyParticipant = { id: number; name: string; is_active: boolean; activity_count: number };
+type FacultyParticipant = { id: number; name: string; employee_id?: string | null; department?: string | null; is_active: boolean; activity_count: number; roles: string[] };
 type Trend = { month: string; activities: number; fdp: number; workshops: number; sttp: number };
-type FacultyPerformance = FacultyParticipant & { employee_id?: string | null; participations: number; role_attendee: number; role_coordinator: number; role_resource_person: number; type_fdp: number; type_workshop: number; type_sttp: number };
+type FacultyPerformance = { id: number; name: string; employee_id?: string | null; is_active: boolean; activities: number; participations: number; role_attendee: number; role_coordinator: number; role_resource_person: number; type_fdp: number; type_workshop: number; type_sttp: number };
 type Dashboard = { totals: Record<string, number>; types: Record<string, number>; role_counts: Record<string, number>; trend: Trend[]; faculty_performance: FacultyPerformance[]; faculty_participants: FacultyParticipant[] };
 
 const roles = ["ATTENDEE", "RESOURCE_PERSON", "COORDINATOR"];
 const types = ["FDP", "STTP", "WORKSHOP", "WEBINAR", "SEMINAR", "INTERNSHIP", "INDUSTRIAL_TRAINING"];
 const activityTypeLabels: Record<string, string> = { FDP: "FDP", STTP: "STTP", WORKSHOP: "Workshop", WEBINAR: "Webinar", SEMINAR: "Seminar", INTERNSHIP: "Internship", INDUSTRIAL_TRAINING: "Industrial Training" };
-const kpiLabels: Record<string, string> = { activities: "Distinct Activities", fdp: "FDPs", sttp: "STTPs", workshops: "Workshops", webinars: "Webinars", seminars: "Seminars", internships: "Internships", industrial_training: "Industrial Training" };
+const kpiLabels: Record<string, string> = { faculty_contributors: "Faculty Participated", fdp: "FDPs", sttp: "STTPs", workshops: "Workshops", webinars: "Webinars", seminars: "Seminars", internships: "Internships", industrial_training: "Industrial Training" };
 const kpiTypes: Record<string, string> = { fdp: "FDP", sttp: "STTP", workshops: "WORKSHOP", webinars: "WEBINAR", seminars: "SEMINAR", internships: "INTERNSHIP", industrial_training: "INDUSTRIAL_TRAINING" };
 
 export default function Page() {
@@ -129,7 +129,6 @@ export default function Page() {
   };
   const viewFacultyActivities = (identity: number) => {
     setFacultyId(String(identity));
-    setActivityGroup("");
     setPage(1);
     setActiveMetric("");
     setShowFacultyParticipants(false);
@@ -157,7 +156,7 @@ export default function Page() {
     }
   }
   const kpiCounts = {
-    activities: dashboard.totals.activities,
+    faculty_contributors: dashboard.totals.faculty_contributors,
     fdp: dashboard.types.FDP,
     sttp: dashboard.types.STTP,
     workshops: dashboard.types.WORKSHOP,
@@ -190,19 +189,22 @@ export default function Page() {
       {showFacultyParticipants && (
         <section className="panel" id="faculty-participants">
           <div className="row-between">
-            <h2>Faculty participation · {dashboard.faculty_participants.length}</h2>
-            <button className="secondary small" onClick={() => { setShowFacultyParticipants(false); setActiveMetric(""); }}>Close</button>
+            <h2>Faculty Participated · {dashboard.totals.faculty_contributors || 0}</h2>
+            <button className="secondary small" onClick={() => selectMetric("")}>Clear KPI selection</button>
           </div>
           <p className="muted">One row per Faculty Master record. Activity count is distinct across the current dashboard filters; speaker-only associations do not contribute.</p>
           {!dashboard.faculty_participants.length ? <p className="dash-empty">No Faculty participants match the current filters.</p> : (
             <div className="table-wrap">
               <table>
-                <thead><tr><th>Faculty</th><th>Activity participation</th><th>Records</th></tr></thead>
+                <thead><tr><th>Faculty</th><th>Employee ID</th><th>Department</th><th>Distinct activities</th><th>Participation roles</th><th>Records</th></tr></thead>
                 <tbody>
                   {dashboard.faculty_participants.map((person) => (
                     <tr key={person.id}>
                       <td>{person.name}{person.is_active ? "" : " (historical)"}</td>
+                      <td>{person.employee_id || "—"}</td>
+                      <td>{person.department || "—"}</td>
                       <td>{person.activity_count}</td>
+                      <td>{person.roles.map((value) => label(value)).join(", ") || "—"}</td>
                       <td><button className="link-button" onClick={() => viewFacultyActivities(person.id)}>View matching activities</button></td>
                     </tr>
                   ))}
@@ -249,7 +251,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="panel" id="fdp-records">
+      {!showFacultyParticipants && <section className="panel" id="fdp-records">
         <div className="row-between">
           <h2>{activeMetric ? kpiLabels[activeMetric] : "Activities"} · {result.total}</h2>
           {activeMetric && <button className="secondary small" onClick={() => selectMetric("")}>Clear KPI selection</button>}
@@ -278,7 +280,7 @@ export default function Page() {
           </div>
         )}
         <PaginationControls page={result.page} pageSize={pageSize} total={result.total} loading={loading} onPageChange={setPage} onPageSizeChange={(next) => { setPageSize(next); setPage(1); }} />
-      </section>
+      </section>}
 
     </DashboardFrame>
   );

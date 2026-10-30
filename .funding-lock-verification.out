@@ -1,0 +1,8 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.14, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\silic\Documents\GitHub\faculty-performance-development\.venv\Scripts\python.exe
+rootdir: C:\Users\silic\Documents\GitHub\faculty-performance-development
+configfile: pytest.ini
+plugins: anyio-4.15.1
+collecting ... collected 10 items
+
+tests/test_funding_projects.py::test_funding_categories_associations_and_validation 

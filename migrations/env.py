@@ -1,15 +1,19 @@
 from alembic import context
-from backend.db import Base, engine
+from backend import db as database
+from backend.db import Base
 from backend import models
 
 target_metadata = Base.metadata
 
 if context.is_offline_mode():
-    context.configure(url=str(engine.url), target_metadata=target_metadata, literal_binds=True, render_as_batch=True)
+    context.configure(url=str(database.engine.url), target_metadata=target_metadata, literal_binds=True, render_as_batch=True)
     with context.begin_transaction():
         context.run_migrations()
 else:
-    with engine.connect() as connection:
+    # Resolve the module attribute at migration time. Pytest replaces it with
+    # an isolated engine for every test; retaining an imported engine object
+    # here can leave a prior SQLite file open on Windows.
+    with database.engine.connect() as connection:
         # SQLite batch alterations recreate tables. Disable FK enforcement only
         # on this migration connection, then verify all preserved references.
         connection.exec_driver_sql("PRAGMA foreign_keys=OFF")
