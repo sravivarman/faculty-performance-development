@@ -16,7 +16,8 @@ from .services import columns
 router = APIRouter()
 DB = Annotated[Session, Depends(get_db)]
 ACTIVITY_TYPES = ("FDP","STTP","WORKSHOP","WEBINAR","SEMINAR","INTERNSHIP","INDUSTRIAL_TRAINING")
-ROLES = ("ATTENDEE","RESOURCE_PERSON","ORGANIZER","CONDUCTOR","PARTICIPANT","TRAINEE","COLLABORATOR","OTHER")
+ROLES = ("ATTENDEE", "RESOURCE_PERSON", "COORDINATOR")
+ParticipationRole = Literal["ATTENDEE", "RESOURCE_PERSON", "COORDINATOR"]
 
 def monthly_rows(start: date, end: date, records, date_key: str, labels: dict[str, callable]):
     """Inclusive month buckets built from the complete, unpaginated report set."""
@@ -33,7 +34,7 @@ def monthly_rows(start: date, end: date, records, date_key: str, labels: dict[st
 
 class ActivityParticipantInput(BaseModel):
     faculty_id: int
-    role: Literal["ATTENDEE","RESOURCE_PERSON","ORGANIZER","CONDUCTOR","PARTICIPANT","TRAINEE","COLLABORATOR","OTHER"]
+    role: ParticipationRole
 class SpeakerInput(BaseModel):
     name: str = Field(min_length=1, max_length=500)
     designation: str|None=None; organization: str|None=None; location_or_contact: str|None=None
@@ -124,7 +125,7 @@ def cleanup_fdp_evidence_files(evidence: list[EvidenceFile]):
 @router.get("/fdp-options")
 def fdp_options(): return {"activity_types":ACTIVITY_TYPES,"roles":ROLES,"duration_units":("HOURS","DAYS","WEEKS","MONTHS"),"modes":("PHYSICAL","ONLINE","HYBRID")}
 @router.get("/fdp-activities")
-def list_activities(db:DB,from_date:date|None=None,to_date:date|None=None,activity_type:str|None=None,activity_group:str|None=None,faculty_id:int|None=None,role:str|None=None,search:str|None=None,include_inactive:bool=False,page:int|None=None,page_size:PageSize=25):
+def list_activities(db:DB,from_date:date|None=None,to_date:date|None=None,activity_type:str|None=None,activity_group:str|None=None,faculty_id:int|None=None,role:ParticipationRole|None=None,search:str|None=None,include_inactive:bool=False,page:int|None=None,page_size:PageSize=25):
     validate_date_range(from_date,to_date,required=False); query=select(FdpActivity)
     if not include_inactive: query=query.where(FdpActivity.is_active.is_(True))
     if from_date: query=query.where(FdpActivity.start_date>=from_date,FdpActivity.start_date<=to_date)
@@ -200,7 +201,7 @@ def permanently_delete_activity(identity:int,db:DB):
     }
 
 @router.get("/fdp-dashboard")
-def fdp_dashboard(db:DB,from_date:date,to_date:date,activity_type:str|None=None,activity_group:str|None=None,faculty_id:int|None=None,role:str|None=None,search:str|None=None,include_inactive:bool=False):
+def fdp_dashboard(db:DB,from_date:date,to_date:date,activity_type:str|None=None,activity_group:str|None=None,faculty_id:int|None=None,role:ParticipationRole|None=None,search:str|None=None,include_inactive:bool=False):
     records=list_activities(db,from_date,to_date,activity_type,activity_group,faculty_id,role,search,include_inactive)
     types={kind:sum(row["activity_type"]==kind for row in records) for kind in ACTIVITY_TYPES}
     participant_counts={}

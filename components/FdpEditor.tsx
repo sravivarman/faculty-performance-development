@@ -39,7 +39,7 @@ type Props = {
   onSaved?: (activity: FdpActivity) => void;
 };
 
-const roles = ["ATTENDEE", "RESOURCE_PERSON", "ORGANIZER", "CONDUCTOR", "PARTICIPANT", "TRAINEE", "COLLABORATOR", "OTHER"];
+const roles = ["ATTENDEE", "RESOURCE_PERSON", "COORDINATOR"];
 const activityTypes = ["FDP", "STTP", "WORKSHOP", "WEBINAR", "SEMINAR", "INTERNSHIP", "INDUSTRIAL_TRAINING"];
 const activityTypeLabels: Record<string, string> = { FDP: "FDP", STTP: "STTP", WORKSHOP: "Workshop", WEBINAR: "Webinar", SEMINAR: "Seminar", INTERNSHIP: "Internship", INDUSTRIAL_TRAINING: "Industrial Training" };
 

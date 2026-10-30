@@ -13,6 +13,38 @@ def test_fdp_multiple_people_and_filters(setup):
     assert client.delete(f"/fdp-activities/{created.json()['id']}").status_code == 200
 
 
+def test_fdp_participation_roles_are_limited_to_three_approved_values(setup):
+    client, factory, _ = setup
+    from backend.models import Faculty
+
+    with factory() as db:
+        db.add(Faculty(id=3, employee_id="C", name="Faculty C", name_variants=[]))
+        db.commit()
+
+    participants = [
+        {"faculty_id": 1, "role": "ATTENDEE"},
+        {"faculty_id": 2, "role": "RESOURCE_PERSON"},
+        {"faculty_id": 3, "role": "COORDINATOR"},
+        {"faculty_id": 1, "role": "COORDINATOR"},
+    ]
+    created = client.post("/fdp-activities", json={**activity(), "participants": participants})
+    assert created.status_code == 201
+    assert {(row["faculty_id"], row["role"]) for row in created.json()["participants"]} == {
+        (1, "ATTENDEE"), (1, "COORDINATOR"), (2, "RESOURCE_PERSON"), (3, "COORDINATOR"),
+    }
+    assert client.get("/fdp-options").json()["roles"] == ["ATTENDEE", "RESOURCE_PERSON", "COORDINATOR"]
+    assert client.get("/fdp-activities?role=COORDINATOR").status_code == 200
+    assert client.post("/fdp-activities", json={**activity(), "participants": [*participants, {"faculty_id": 1, "role": "ATTENDEE"}]}).status_code == 422
+    for retired in ("ORGANIZER", "CONDUCTOR", "PARTICIPANT", "TRAINEE", "COLLABORATOR", "OTHER"):
+        assert client.post("/fdp-activities", json={**activity(), "participants": [{"faculty_id": 1, "role": retired}]}).status_code == 422
+        assert client.get("/fdp-activities?role=" + retired).status_code == 422
+        assert client.get("/fdp-dashboard?from_date=2026-07-01&to_date=2026-12-31&role=" + retired).status_code == 422
+
+    dashboard = client.get("/fdp-dashboard?from_date=2026-07-01&to_date=2026-12-31").json()
+    assert dashboard["role_counts"] == {"ATTENDEE": 1, "RESOURCE_PERSON": 1, "COORDINATOR": 2}
+    assert dashboard["totals"]["activities"] == 1 and dashboard["totals"]["faculty_contributors"] == 3
+
+
 def test_fdp_many_participants_preserve_one_activity_evidence_and_distinct_counts(setup):
     client, factory, _ = setup
     from backend.models import Faculty
@@ -25,7 +57,7 @@ def test_fdp_many_participants_preserve_one_activity_evidence_and_distinct_count
         db.commit()
 
     participants = [{"faculty_id": identity, "role": "ATTENDEE"} for identity in range(1, 13)]
-    participants.append({"faculty_id": 1, "role": "ORGANIZER"})
+    participants.append({"faculty_id": 1, "role": "COORDINATOR"})
     payload = {**activity(), "title": "Bulk participant activity", "participants": participants}
     created = client.post("/fdp-activities", json=payload)
     assert created.status_code == 201
@@ -41,18 +73,18 @@ def test_fdp_many_participants_preserve_one_activity_evidence_and_distinct_count
     assert evidence.status_code == 201
 
     updated_participants = [{"faculty_id": faculty_id, "role": "ATTENDEE"} for faculty_id in range(1, 12)]
-    updated_participants.extend([{"faculty_id": 13, "role": "ATTENDEE"}, {"faculty_id": 1, "role": "ORGANIZER"}])
+    updated_participants.extend([{"faculty_id": 13, "role": "ATTENDEE"}, {"faculty_id": 1, "role": "COORDINATOR"}])
     updated = client.put(f"/fdp-activities/{identity}", json={**payload, "participants": updated_participants})
     assert updated.status_code == 200 and updated.json()["id"] == identity
     detail = client.get(f"/fdp-activities/{identity}").json()
-    expected_participants = {(faculty_id, "ATTENDEE") for faculty_id in range(1, 12)} | {(13, "ATTENDEE"), (1, "ORGANIZER")}
+    expected_participants = {(faculty_id, "ATTENDEE") for faculty_id in range(1, 12)} | {(13, "ATTENDEE"), (1, "COORDINATOR")}
     assert {(row["faculty_id"], row["role"]) for row in detail["participants"]} == expected_participants
     assert len(client.get(f"/fdp-activities/{identity}/evidence").json()) == 1
     assert client.post("/fdp-activities", json={**payload, "title": "Duplicate participant", "participants": [*participants, {"faculty_id": 1, "role": "ATTENDEE"}]}).status_code == 422
 
     dashboard = client.get("/fdp-dashboard?from_date=2026-07-01&to_date=2026-12-31").json()
     assert dashboard["totals"]["activities"] == 1 and dashboard["totals"]["faculty_contributors"] == 12
-    assert dashboard["role_counts"]["ATTENDEE"] == 12 and dashboard["role_counts"]["ORGANIZER"] == 1
+    assert dashboard["role_counts"]["ATTENDEE"] == 12 and dashboard["role_counts"]["COORDINATOR"] == 1
     performance = {row["id"]: row for row in dashboard["faculty_performance"]}
     assert performance[1]["activities"] == 1 and performance[1]["participations"] == 2
 
@@ -146,15 +178,15 @@ def test_fdp_update_filters_pagination_and_faculty_details(setup):
     client, _, _ = setup
     payload=activity()
     created=client.post("/fdp-activities",json=payload).json()
-    updated={**payload,"title":"Updated activity","participants":[{"faculty_id":1,"role":"CONDUCTOR"},{"faculty_id":2,"role":"PARTICIPANT"}],"speakers":[{"name":"Edited"},{"name":"New"}]}
+    updated={**payload,"title":"Updated activity","participants":[{"faculty_id":1,"role":"COORDINATOR"},{"faculty_id":2,"role":"RESOURCE_PERSON"}],"speakers":[{"name":"Edited"},{"name":"New"}]}
     response=client.put(f"/fdp-activities/{created['id']}",json=updated)
     assert response.status_code == 200 and response.json()["id"] == created["id"]
     detail=client.get(f"/fdp-activities/{created['id']}").json()
     assert detail["title"] == "Updated activity" and len(detail["participants"]) == 2 and len(detail["speakers"]) == 2
-    page=client.get("/fdp-activities?from_date=2026-07-01&to_date=2026-12-31&search=Updated&activity_type=FDP&faculty_id=1&role=CONDUCTOR&page=1&page_size=10").json()
+    page=client.get("/fdp-activities?from_date=2026-07-01&to_date=2026-12-31&search=Updated&activity_type=FDP&faculty_id=1&role=COORDINATOR&page=1&page_size=10").json()
     assert page["total"] == 1 and page["items"][0]["id"] == created["id"]
     profile=client.get("/research/faculty/1?from_date=2026-07-01&to_date=2026-12-31").json()
-    assert profile["fdp"][0]["id"] == created["id"] and profile["fdp"][0]["role"] == "CONDUCTOR"
+    assert profile["fdp"][0]["id"] == created["id"] and profile["fdp"][0]["role"] == "COORDINATOR"
 
 
 def test_evidence_lifecycle_isolated_by_owner(setup):
@@ -177,7 +209,7 @@ def test_fdp_reactivation_and_permanent_deletion_isolate_relations_and_evidence(
     from backend.models import EvidenceFile, Faculty, FdpChangeLog, FdpParticipant, FdpSpeaker
 
     deleted = client.post("/fdp-activities", json=activity()).json()
-    retained = client.post("/fdp-activities", json={**activity(), "title": "Retained activity", "participants": [{"faculty_id": 2, "role": "ORGANIZER"}]}).json()
+    retained = client.post("/fdp-activities", json={**activity(), "title": "Retained activity", "participants": [{"faculty_id": 2, "role": "COORDINATOR"}]}).json()
     for row, filename in ((deleted, "delete-me.pdf"), (retained, "keep-me.pdf")):
         response = client.post(
             f"/fdp-activities/{row['id']}/evidence",
@@ -255,7 +287,7 @@ def test_fdp_dashboard_types_other_group_and_distinct_people(setup):
     client, _, _ = setup
     base=activity()
     fdp=client.post("/fdp-activities",json=base).json()
-    workshop=client.post("/fdp-activities",json={**base,"title":"Workshop","activity_type":"WORKSHOP","participants":[{"faculty_id":1,"role":"ORGANIZER"}],"speakers":[{"name":"One"},{"name":"Two"}]}).json()
+    workshop=client.post("/fdp-activities",json={**base,"title":"Workshop","activity_type":"WORKSHOP","participants":[{"faculty_id":1,"role":"COORDINATOR"}],"speakers":[{"name":"One"},{"name":"Two"}]}).json()
     other=client.post("/fdp-activities",json={**base,"title":"Seminar","activity_type":"SEMINAR","participants":[{"faculty_id":1,"role":"ATTENDEE"},{"faculty_id":2,"role":"RESOURCE_PERSON"}]}).json()
     dashboard=client.get("/fdp-dashboard?from_date=2026-07-01&to_date=2026-12-31").json()
     assert dashboard["totals"] == {"activities":3,"faculty_contributors":2,"fdp":1,"sttp":0,"workshops":1,"webinars":0,"seminars":1,"internships":0,"industrial_training":0}
@@ -383,7 +415,7 @@ def test_fdp_optional_fields_editor_parity_and_faculty_participation_summary(set
         "title":"Complete activity",
         "participants":[
             {"faculty_id":1,"role":"ATTENDEE"},
-            {"faculty_id":1,"role":"ORGANIZER"},
+            {"faculty_id":1,"role":"COORDINATOR"},
             {"faculty_id":2,"role":"RESOURCE_PERSON"},
         ],
         "speakers":[
@@ -421,7 +453,7 @@ def test_fdp_optional_fields_editor_parity_and_faculty_participation_summary(set
         "location":"Virtual",
         "participants":[
             {"faculty_id":1,"role":"ATTENDEE"},
-            {"faculty_id":1,"role":"CONDUCTOR"},
+            {"faculty_id":1,"role":"COORDINATOR"},
             {"faculty_id":2,"role":"RESOURCE_PERSON"},
         ],
         "speakers":[
@@ -435,14 +467,14 @@ def test_fdp_optional_fields_editor_parity_and_faculty_participation_summary(set
     assert revised["title"] == "Updated complete activity"
     assert revised["mode"] == "ONLINE" and revised["location"] == "Virtual"
     assert revised["outcomes"] == payload["outcomes"] and len(revised["speakers"]) == 2
-    assert {(row["faculty_id"],row["role"]) for row in revised["participants"]} == {(1,"ATTENDEE"),(1,"CONDUCTOR"),(2,"RESOURCE_PERSON")}
+    assert {(row["faculty_id"],row["role"]) for row in revised["participants"]} == {(1,"ATTENDEE"),(1,"COORDINATOR"),(2,"RESOURCE_PERSON")}
     assert revised["speakers"][0]["name"] == "Updated external speaker"
     assert len(client.get(f"/fdp-activities/{identity}/evidence").json()) == 1
 
     assert client.post("/fdp-activities",json={
         **activity(),
         "title":"Second activity",
-        "participants":[{"faculty_id":1,"role":"PARTICIPANT"}],
+        "participants":[{"faculty_id":1,"role":"COORDINATOR"}],
         "speakers":[{"name":"Speaker"}],
     }).status_code == 201
     dashboard=client.get("/fdp-dashboard?from_date=2026-07-01&to_date=2026-12-31").json()
@@ -546,7 +578,7 @@ def test_fdp_and_certification_dashboard_analytics_are_full_filtered_sets(setup)
     client, _, _ = setup
     first = client.post("/fdp-activities", json={
         **activity(), "participants": [
-            {"faculty_id": 1, "role": "ATTENDEE"}, {"faculty_id": 1, "role": "ORGANIZER"},
+            {"faculty_id": 1, "role": "ATTENDEE"}, {"faculty_id": 1, "role": "COORDINATOR"},
             {"faculty_id": 2, "role": "RESOURCE_PERSON"},
         ],
     })
@@ -557,7 +589,7 @@ def test_fdp_and_certification_dashboard_analytics_are_full_filtered_sets(setup)
     assert first.status_code == 201 and second.status_code == 201
     fdp = client.get("/fdp-dashboard?from_date=2026-07-01&to_date=2026-12-31").json()
     assert fdp["types"]["FDP"] == 1 and fdp["types"]["WORKSHOP"] == 1
-    assert fdp["role_counts"]["ATTENDEE"] == 2 and fdp["role_counts"]["ORGANIZER"] == 1
+    assert fdp["role_counts"]["ATTENDEE"] == 2 and fdp["role_counts"]["COORDINATOR"] == 1
     faculty = {row["id"]: row for row in fdp["faculty_performance"]}
     assert faculty[1]["activities"] == 2 and faculty[1]["participations"] == 3
     assert next(row for row in fdp["trend"] if row["month"] == "2026-08")["activities"] == 2

@@ -355,7 +355,7 @@ class FdpParticipant(Base, Timestamps):
     role: Mapped[str] = mapped_column(String(30))
     __table_args__ = (
         UniqueConstraint("activity_id", "faculty_id", "role", name="uq_fdp_participant_role"),
-        CheckConstraint("role IN ('ATTENDEE','RESOURCE_PERSON','ORGANIZER','CONDUCTOR','PARTICIPANT','TRAINEE','COLLABORATOR','OTHER')", name="fdp_participant_role_valid"),
+        CheckConstraint("role IN ('ATTENDEE','RESOURCE_PERSON','COORDINATOR')", name="fdp_participant_role_valid"),
     )
 
 

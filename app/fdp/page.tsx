@@ -23,10 +23,10 @@ type Row = {
 type PageResult = { items: Row[]; total: number; page: number; page_size: number | "all" };
 type FacultyParticipant = { id: number; name: string; is_active: boolean; activity_count: number };
 type Trend = { month: string; activities: number; fdp: number; workshops: number; sttp: number };
-type FacultyPerformance = FacultyParticipant & { employee_id?: string | null; participations: number; role_attendee: number; role_organizer: number; role_resource_person: number; type_fdp: number; type_workshop: number; type_sttp: number };
+type FacultyPerformance = FacultyParticipant & { employee_id?: string | null; participations: number; role_attendee: number; role_coordinator: number; role_resource_person: number; type_fdp: number; type_workshop: number; type_sttp: number };
 type Dashboard = { totals: Record<string, number>; types: Record<string, number>; role_counts: Record<string, number>; trend: Trend[]; faculty_performance: FacultyPerformance[]; faculty_participants: FacultyParticipant[] };
 
-const roles = ["ATTENDEE", "RESOURCE_PERSON", "ORGANIZER", "CONDUCTOR", "PARTICIPANT", "TRAINEE", "COLLABORATOR", "OTHER"];
+const roles = ["ATTENDEE", "RESOURCE_PERSON", "COORDINATOR"];
 const types = ["FDP", "STTP", "WORKSHOP", "WEBINAR", "SEMINAR", "INTERNSHIP", "INDUSTRIAL_TRAINING"];
 const activityTypeLabels: Record<string, string> = { FDP: "FDP", STTP: "STTP", WORKSHOP: "Workshop", WEBINAR: "Webinar", SEMINAR: "Seminar", INTERNSHIP: "Internship", INDUSTRIAL_TRAINING: "Industrial Training" };
 const kpiLabels: Record<string, string> = { activities: "Distinct Activities", fdp: "FDPs", sttp: "STTPs", workshops: "Workshops", webinars: "Webinars", seminars: "Seminars", internships: "Internships", industrial_training: "Industrial Training" };
@@ -185,7 +185,7 @@ export default function Page() {
         <Distribution title="Participation by role" labels={Object.fromEntries(roles.map((value) => [value, label(value)]))} counts={dashboard.role_counts} onSelect={selectRole} loading={dashboardLoading} note="Faculty participation associations. One Faculty may hold more than one role in an activity." />
         <SeriesChart title="Activity trend" rows={dashboard.trend} series={{ activities: "Activities", fdp: "FDPs", workshops: "Workshops", sttp: "STTPs" }} loading={dashboardLoading} note="Monthly distinct activity totals by start date." />
       </div>
-      <FacultyContributionTable title="Faculty development performance" columns={{ activities: "Distinct Activities", participations: "Role Associations", role_attendee: "Attendee", role_organizer: "Organizer", role_resource_person: "Resource Person", type_fdp: "FDP", type_workshop: "Workshop", type_sttp: "STTP" }} rows={dashboard.faculty_performance} loading={dashboardLoading} note="Distinct activity totals do not increase when the same Faculty member holds multiple roles in one activity." onSelect={(row, key) => viewFacultyPerformance(row.id, key)} />
+      <FacultyContributionTable title="Faculty development performance" columns={{ activities: "Distinct Activities", participations: "Role Associations", role_attendee: "Attendee", role_resource_person: "Resource Person", role_coordinator: "Coordinator", type_fdp: "FDP", type_workshop: "Workshop", type_sttp: "STTP" }} rows={dashboard.faculty_performance} loading={dashboardLoading} note="Distinct activity totals do not increase when the same Faculty member holds multiple roles in one activity." onSelect={(row, key) => viewFacultyPerformance(row.id, key)} />
 
       {showFacultyParticipants && (
         <section className="panel" id="faculty-participants">
