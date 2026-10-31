@@ -1,13 +1,13 @@
 import {test,expect} from '@playwright/test';
 
-test('research overview uses shared dates, missing modules, faculty activity view and module drills',async({page,request})=>{
+test('research overview uses shared dates, live funding summaries, faculty activity view and module drills',async({page,request})=>{
   const faculty=await (await request.post('/api/faculty',{data:{employee_id:'RESEARCH-E2E',name:'Research Faculty'}})).json();
   const publication=await (await request.post('/api/publications',{data:{title:'Research overview fixture',doi:'10.1234/research-overview-e2e',publication_type:'JOURNAL',publication_date:'2026-09-18',journal_conference_name:'Research Journal',indexing:['SCOPUS'],quartile:'Q1',classification:'INTERNATIONAL',authors:[{author_order:1,author_name_from_source:'Research Faculty',person_type:'FACULTY',faculty_id:faculty.id,is_claiming_faculty:true}]}})).json();
   try{
     await page.goto('/?from_date=2026-09-18&to_date=2026-09-18');
     const response=await request.get('/api/research/overview?from_date=2026-09-18&to_date=2026-09-18');expect(response.ok()).toBeTruthy();const report=await response.json();
     await expect(page.getByRole('button',{name:`Journals: ${report.outcomes.journal}`,exact:true})).toBeVisible();
-    await expect(page.getByRole('button',{name:'Research Proposals: Not configured',exact:true})).toBeEnabled();
+    await expect(page.getByRole('button',{name:'Sponsored Research: 0',exact:true})).toBeEnabled();
     await page.getByRole('button',{name:'Open Faculty Research Details: Research Faculty',exact:true}).click();
     const modal=page.getByRole('dialog',{name:'Faculty Research Details'});
     await expect(modal).toContainText('RESEARCH-E2E');

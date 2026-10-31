@@ -26,7 +26,10 @@ def test_research_overview_distinct_records_module_reuse_and_drills(setup):
     data = response.json()
     assert data['activity_totals']['publications'] == 5
     assert data['activity_totals']['patents'] == data['activity_totals']['books'] == 1
-    assert data['patent_summary']['filed'] == data['patent_summary']['published'] == 1
+    # `filed` follows the Patent module's current-status metric.  This fixture
+    # is now GRANTED; its in-range publication event still counts as published.
+    assert data['patent_summary']['filed'] == 0
+    assert data['patent_summary']['published'] == 1
     assert data['outcomes']['patents_granted'] == 0
     assert data['outcomes']['faculty_contributors'] == 4
     assert data['faculty_participation'] == {'with_activity': 4, 'without_activity': 0}
@@ -51,6 +54,34 @@ def test_research_overview_distinct_records_module_reuse_and_drills(setup):
         assert report(client, '/patents?metric=' + metric, '2026-07-01', '2027-06-30').status_code == 200
     for identity, f in faculty.items():
         assert len(report(client, f'/research/activities?faculty_id={identity}', '2026-07-01', '2027-06-30').json()) == f['total_activities']
+
+
+def test_research_overview_patent_lifecycle_summary_matches_patent_module(setup):
+    client, _, _ = setup
+    filed_only = patent('FILED-ONLY')
+    filed_only.update(current_status='FILED', filing_date='2026-07-01', publication_date=None, grant_date=None)
+    published = patent('PUBLISHED-IN-PERIOD')
+    published.update(current_status='PUBLISHED', filing_date='2026-07-02', publication_date='2026-07-03', grant_date=None)
+    published_later = patent('PUBLISHED-LATER')
+    published_later.update(current_status='PUBLISHED', filing_date='2026-06-30', publication_date='2026-07-04', grant_date=None)
+    granted = patent('GRANTED-IN-PERIOD')
+    granted.update(current_status='GRANTED', filing_date='2025-06-30', publication_date='2025-07-01', grant_date='2026-07-05')
+    for payload in (filed_only, published, published_later, granted):
+        response = client.post('/patents', json=payload)
+        assert response.status_code == 201, response.text
+
+    overview = report(client, '/research/overview', '2026-07-01', '2026-07-31').json()
+    patent_kpis = client.get('/patent-kpis?from_date=2026-07-01&to_date=2026-07-31').json()
+    assert overview['patent_summary'] == patent_kpis
+    # Four parent records have at least one lifecycle event in the period. They
+    # remain four unique patents even though one is published and another granted.
+    assert overview['patent_summary']['unique'] == 4
+    assert overview['patent_summary']['filed'] == 1
+    assert overview['patent_summary']['published'] == 2
+    assert overview['patent_summary']['granted'] == 1
+    before_publication = report(client, '/research/overview', '2026-06-30', '2026-06-30').json()
+    assert before_publication['patent_summary']['unique'] == 1
+    assert before_publication['patent_summary']['published'] == 0
 
 
 def test_grant_event_qualifies_once_without_new_filing(setup):

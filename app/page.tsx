@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import Link from "next/link";
 import { useRouter } from "next/navigation";
 import DateRangeFilter, { useDateRange } from "@/components/DateRange";
 import { api, Masters } from "@/lib/api";
@@ -88,7 +87,7 @@ export default function ResearchDashboard() {
   }
 
   return <DashboardFrame>
-    <ResearchPageHeader title="Research Overview" subtitle="Department research performance and activity"><Link className="button" href="/publications/new">+ Add publication</Link></ResearchPageHeader>
+    <ResearchPageHeader title="Research Overview" subtitle="Department research performance and activity" />
     <DateRangeFilter />
     <section className="panel"><label className="field">Academic Year Master<select aria-label="Academic Year Master" value={selectedAcademicYear?.id ?? ""} onChange={(event) => {
       const year = masters?.academic_years.find((item) => item.id === Number(event.target.value));

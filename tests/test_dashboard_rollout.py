@@ -48,11 +48,22 @@ def test_faculty_profile_correct_identity_claims_authorship_and_dates(setup):
         assert profile['summary']['patents_claimed'] == claimed and profile['summary']['patents'] == 1
         assert len(profile['publications']) == len(profile['patents']) == len(profile['books']) == 1
         assert profile['publications'][0]['claimed'] == bool(claimed)
-        assert profile['summary']['consultancy'] is None
+        assert profile['summary']['sponsored_research'] == profile['summary']['consultancy'] == profile['summary']['internal_grants'] == 0
+        assert profile['summary']['certifications_completed'] == profile['summary']['certifications_in_progress'] == 0
     grant = report(client,'/research/faculty/2','2027-08-12','2027-08-12').json()
     assert grant['summary']['patents'] == 1 and len(grant['patents']) == 1
     assert grant['publications'] == grant['books'] == []
     assert report(client,'/research/faculty/99999').status_code == 404
+
+
+def test_faculty_profile_returns_real_zeroes_for_a_faculty_without_contributions(setup):
+    client, _, _ = setup
+    profile = report(client, '/research/faculty/2', '2026-07-01', '2026-12-31').json()
+    assert profile['summary']['journal'] == profile['summary']['conference'] == 0
+    assert profile['summary']['fdp'] == 0
+    assert profile['summary']['certifications_completed'] == profile['summary']['certifications_in_progress'] == 0
+    assert profile['summary']['sponsored_research'] == profile['summary']['consultancy'] == profile['summary']['internal_grants'] == 0
+    assert profile['publications'] == profile['patents'] == profile['books'] == profile['fdp'] == profile['certifications'] == profile['funding_projects'] == []
 
 
 def test_editor_contribution_not_faked_as_authorship_and_partial_month(setup):

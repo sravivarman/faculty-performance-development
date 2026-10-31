@@ -42,6 +42,76 @@ def test_funding_categories_associations_and_validation(setup):
     assert client.get("/funding-project-options").json()["categories"] == ["SPONSORED_RESEARCH", "CONSULTANCY", "INTERNAL_GRANT"]
 
 
+def test_faculty_details_enriches_activity_certification_and_funding_records(setup):
+    client, _, _ = setup
+    activity_types = ("FDP", "STTP", "WORKSHOP", "WEBINAR", "SEMINAR", "INTERNSHIP", "INDUSTRIAL_TRAINING")
+    for activity_type in activity_types:
+        response = client.post("/fdp-activities", json={
+            "title": f"{activity_type} activity", "activity_type": activity_type,
+            "organizing_institution": "VCE", "start_date": "2026-08-01", "end_date": "2026-08-02",
+            "duration_value": 2, "duration_unit": "DAYS",
+            "participants": [{"faculty_id": 1, "role": "ATTENDEE"}, *([{ "faculty_id": 1, "role": "COORDINATOR" }] if activity_type == "FDP" else [])],
+        })
+        assert response.status_code == 201, response.text
+
+    completed_certification = client.post("/certifications", json={
+        "faculty_id": 1, "name": "Completed credential", "category": "MOOC", "provider": "NPTEL",
+        "status": "COMPLETED", "issue_date": "2026-08-04", "completion_date": "2026-08-03",
+        "expiry_date": "2028-08-03", "credential_id": "CRED-1",
+    })
+    assert completed_certification.status_code == 201, completed_certification.text
+    current_certification = client.post("/certifications", json={
+        "faculty_id": 1, "name": "Current credential", "category": "OTHER", "provider": "Provider",
+        "status": "IN_PROGRESS",
+    })
+    assert current_certification.status_code == 201, current_certification.text
+
+    submitted = client.post("/funding-projects", json=funding(
+        "SPONSORED_RESEARCH", "SUBMITTED", title="Submitted proposal", proposed_amount="100.25", sanctioned_amount="999.99",
+        faculty=[{"faculty_id": 1, "role": "MEMBER_PI"}],
+    ))
+    awarded = client.post("/funding-projects", json=funding(
+        "SPONSORED_RESEARCH", "SANCTIONED", title="Awarded project", proposed_amount="200.25", sanctioned_amount="150.50",
+        faculty=[{"faculty_id": 1, "role": "MEMBER_PI"}, {"faculty_id": 1, "role": "CO_PI", "agency_role_label": "Agency Co-Investigator"}],
+    ))
+    consultancy = client.post("/funding-projects", json=funding(
+        "CONSULTANCY", "ONGOING", title="Consultancy", contract_amount="300.75", amount_received="125.25",
+        faculty=[{"faculty_id": 1, "role": "MEMBER_PI"}],
+    ))
+    internal = client.post("/funding-projects", json=funding(
+        "INTERNAL_GRANT", "COMPLETED", title="Internal grant", sanctioned_amount="400.00", amount_utilized="0.00",
+        faculty=[{"faculty_id": 1, "role": "BENEFICIARY"}],
+    ))
+    external = client.post("/funding-projects", json=funding(
+        "SPONSORED_RESEARCH", "SUBMITTED", title="External-only proposal", proposed_amount="700.00",
+        faculty=[manual_investigator("External PI", "MEMBER_PI")],
+    ))
+    assert submitted.status_code == awarded.status_code == consultancy.status_code == internal.status_code == external.status_code == 201
+
+    profile = client.get("/research/faculty/1?from_date=2026-07-01&to_date=2026-12-31").json()
+    assert profile["summary"]["fdp"] == 7
+    assert profile["summary"]["certifications_completed"] == profile["summary"]["certifications_in_progress"] == 1
+    assert profile["summary"]["sponsored_research"] == 2
+    assert profile["summary"]["consultancy"] == profile["summary"]["internal_grants"] == 1
+    fdp = next(row for row in profile["fdp"] if row["activity_type"] == "FDP")
+    assert fdp["roles"] == ["ATTENDEE", "COORDINATOR"] and fdp["role"] == "ATTENDEE"
+    assert {row["activity_type"] for row in profile["fdp"]} == set(activity_types)
+    completed = next(row for row in profile["certifications"] if row["status"] == "COMPLETED")
+    assert completed["provider"] == "NPTEL" and completed["credential_id"] == "CRED-1"
+    current = next(row for row in profile["certifications"] if row["status"] == "IN_PROGRESS")
+    assert current["completion_date"] is None
+    sponsored = profile["funding_summary"]["sponsored_research"]
+    assert sponsored == {"projects": 2, "submitted_under_review": 1, "awarded": 1, "proposed_amount": 300.5, "sanctioned_amount": 150.5, "contract_amount": None, "amount_received": None, "amount_utilized": None}
+    assert profile["funding_summary"]["consultancy"]["contract_amount"] == 300.75
+    assert profile["funding_summary"]["consultancy"]["amount_received"] == 125.25
+    assert profile["funding_summary"]["internal_grants"]["sanctioned_amount"] == 400
+    assert profile["funding_summary"]["internal_grants"]["amount_utilized"] == 0
+    project = next(row for row in profile["funding_projects"] if row["id"] == awarded.json()["id"])
+    assert [role["role"] for role in project["investigator_roles"]] == ["MEMBER_PI", "CO_PI"]
+    assert project["investigator_roles"][1]["agency_role_label"] == "Agency Co-Investigator"
+    assert external.json()["id"] not in {row["id"] for row in profile["funding_projects"]}
+
+
 def test_funding_dashboard_filters_pagination_and_lifecycle(setup):
     client, _, _ = setup
     for index in range(12):
