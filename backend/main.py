@@ -6,17 +6,32 @@ from fastapi.encoders import jsonable_encoder
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse
 from pydantic import ValidationError
-from sqlalchemy import select
+from sqlalchemy import func, select
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
 
 from . import db as database
 from .db import get_db, sqlite_database_path
 from .doi import normalize_doi, parse_doi_input
+from .evidence import permanently_delete_owner
 from .matching import match_author
 from .name_variants import normalize_person_name, prepare_variants
 from .metadata import CrossrefProvider, MetadataError
-from .models import AcademicYear, ChangeLog, EvidenceFile, Faculty, Publication, Student, now
+from .models import (
+    AcademicYear,
+    BookContributor,
+    Certification,
+    ChangeLog,
+    EvidenceFile,
+    Faculty,
+    FdpParticipant,
+    FundingProjectFaculty,
+    PatentInventor,
+    Publication,
+    PublicationAuthor,
+    Student,
+    now,
+)
 from .pagination import PageSize, paginate_records
 from .periods import period_options
 from .schemas import AuthorInput, FacultyInput, Indexing, PublicationInput, PublicationType, StudentInput, YearInput
@@ -81,6 +96,59 @@ def save_master(db, model, data, identity=None):
     return faculty_dict(obj) if model is Faculty else columns(obj)
 
 
+def master_dependencies(db: Session, model, identity: int) -> dict[str, int]:
+    """Return real stored references before allowing a Master record to vanish.
+
+    The application deliberately keeps historical person associations intact.
+    These explicit counts are both safer and more helpful than relying on a
+    late foreign-key failure, particularly on SQLite installations where
+    foreign-key enforcement can be configured differently per connection.
+    """
+    if model is Faculty:
+        checks = {
+            "publication author associations": (PublicationAuthor, PublicationAuthor.faculty_id),
+            "patent inventor associations": (PatentInventor, PatentInventor.faculty_id),
+            "book contributor associations": (BookContributor, BookContributor.faculty_id),
+            "FDP participant associations": (FdpParticipant, FdpParticipant.faculty_id),
+            "certifications": (Certification, Certification.faculty_id),
+            "funding investigator associations": (FundingProjectFaculty, FundingProjectFaculty.faculty_id),
+        }
+    elif model is Student:
+        checks = {
+            "publication author associations": (PublicationAuthor, PublicationAuthor.student_id),
+            "patent inventor associations": (PatentInventor, PatentInventor.student_id),
+            "book contributor associations": (BookContributor, BookContributor.student_id),
+        }
+    elif model is AcademicYear:
+        checks = {"publications": (Publication, Publication.academic_year_id)}
+    else:  # Defensive guard for future Master types.
+        checks = {}
+    return {
+        label: count
+        for label, (dependent, column) in checks.items()
+        if (count := db.scalar(select(func.count()).select_from(dependent).where(column == identity)))
+    }
+
+
+def delete_master(db: Session, model, identity: int, description: str):
+    record = db.get(model, identity)
+    if not record:
+        raise HTTPException(404, f"{description} not found")
+    dependencies = master_dependencies(db, model, identity)
+    if dependencies:
+        summary = ", ".join(f"{count} {label}" for label, count in dependencies.items())
+        raise HTTPException(409, f"Cannot delete {description}: it is referenced by {summary}.")
+    try:
+        db.delete(record)
+        db.commit()
+    except IntegrityError as exc:
+        db.rollback()
+        # A future relationship not yet represented above must still never be
+        # deleted through a cascade or exposed as a raw database exception.
+        raise HTTPException(409, f"Cannot delete {description}: it is referenced by existing records.") from exc
+    return {"deleted": identity}
+
+
 @app.post("/faculty", status_code=201)
 def create_faculty(data: FacultyInput, db: DB):
     return save_master(db, Faculty, data)
@@ -89,6 +157,13 @@ def create_faculty(data: FacultyInput, db: DB):
 @app.put("/faculty/{identity}")
 def update_faculty(identity: int, data: FacultyInput, db: DB):
     return save_master(db, Faculty, data, identity)
+
+
+@app.delete("/faculty/{identity}")
+def delete_faculty(identity: int, db: DB):
+    record = db.get(Faculty, identity)
+    description = f"Faculty member {record.name} ({record.employee_id})" if record else "Faculty member"
+    return delete_master(db, Faculty, identity, description)
 
 
 @app.post("/students", status_code=201)
@@ -101,11 +176,38 @@ def update_student(identity: int, data: StudentInput, db: DB):
     return save_master(db, Student, data, identity)
 
 
+@app.delete("/students/{identity}")
+def delete_student(identity: int, db: DB):
+    record = db.get(Student, identity)
+    description = f"Student {record.name} ({record.roll_number})" if record else "Student"
+    return delete_master(db, Student, identity, description)
+
+
 @app.post("/academic-years", status_code=201)
 def create_year(data: YearInput, db: DB):
     if db.scalar(select(AcademicYear).where(AcademicYear.start_date <= data.end_date, AcademicYear.end_date >= data.start_date)):
         raise HTTPException(409, "Academic years cannot overlap")
     return save_master(db, AcademicYear, data)
+
+
+@app.put("/academic-years/{identity}")
+def update_year(identity: int, data: YearInput, db: DB):
+    if not db.get(AcademicYear, identity):
+        raise HTTPException(404, "Academic year not found")
+    if db.scalar(select(AcademicYear).where(
+        AcademicYear.id != identity,
+        AcademicYear.start_date <= data.end_date,
+        AcademicYear.end_date >= data.start_date,
+    )):
+        raise HTTPException(409, "Academic years cannot overlap")
+    return save_master(db, AcademicYear, data, identity)
+
+
+@app.delete("/academic-years/{identity}")
+def delete_year(identity: int, db: DB):
+    record = db.get(AcademicYear, identity)
+    description = f"Academic Year {record.name}" if record else "Academic Year"
+    return delete_master(db, AcademicYear, identity, description)
 
 
 @app.get("/academic-years/{identity}/periods")
@@ -207,6 +309,23 @@ def deactivate_publication(identity: int, db: DB):
     db.add(ChangeLog(publication_id=identity, action="DEACTIVATE", changes={"is_active": False}))
     db.commit()
     return {"id": identity, "is_active": False}
+
+
+@app.post("/publications/{identity}/reactivate")
+def reactivate_publication(identity: int, db: DB):
+    pub = get_publication(db, identity)
+    if pub.is_active:
+        raise HTTPException(409, "Publication is already active")
+    pub.is_active = True
+    db.add(ChangeLog(publication_id=identity, action="REACTIVATE", changes={"is_active": True}))
+    db.commit()
+    return publication_dict(pub, db)
+
+
+@app.delete("/publications/{identity}/permanent")
+def permanently_delete_publication(identity: int, db: DB):
+    """Irreversibly delete only this publication and its owned relations."""
+    return permanently_delete_owner(db, get_publication(db, identity), "publication_id", identity, ChangeLog, "publication_id")
 
 
 @app.put("/publications/{identity}/authors")

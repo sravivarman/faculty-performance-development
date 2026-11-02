@@ -11,6 +11,7 @@ from .book_schemas import BookInput, WorkType
 from .book_queue import BookPreviewInput, validate_preview
 from .book_services import book_dict, book_kpis, drilldown, person_kpis, save_book, selected_books
 from .db import get_db
+from .evidence import permanently_delete_owner
 from .doi import normalize_doi
 from .metadata import CrossrefProvider, MetadataError
 from .models import BookPublication, BookChangeLog
@@ -110,6 +111,22 @@ def deactivate(identity: int, db: DB):
     db.add(BookChangeLog(book_record_id=identity, action="DEACTIVATE", changes={"is_active": False}))
     db.commit()
     return {"id": identity, "is_active": False}
+
+
+@router.post("/books/{identity}/reactivate")
+def reactivate(identity: int, db: DB):
+    work = get_book(db, identity)
+    if work.is_active:
+        raise HTTPException(409, "Book / chapter is already active")
+    work.is_active = True
+    db.add(BookChangeLog(book_record_id=identity, action="REACTIVATE", changes={"is_active": True}))
+    db.commit()
+    return book_dict(work, db)
+
+
+@router.delete("/books/{identity}/permanent")
+def permanently_delete_book(identity: int, db: DB):
+    return permanently_delete_owner(db, get_book(db, identity), "book_record_id", identity, BookChangeLog, "book_record_id")
 
 
 def reporting_books(db, selected):

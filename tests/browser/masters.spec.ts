@@ -17,3 +17,24 @@ test("editing Faculty Master preserves weak variant review safeguards",async({pa
   expect(updated.name_variants).toEqual(["Md Asif Test","M. Asif Test"]);
   expect(updated.name_variant_strengths["m asif test"]).toBe("WEAK");
 });
+
+test("unused Master records require confirmation before permanent deletion", async ({ page, request }) => {
+  const created = await request.post("/api/faculty", { data: { employee_id: "DELETE-TEST", name: "Delete Test Faculty" } });
+  expect(created.ok()).toBeTruthy();
+  const faculty = await created.json();
+
+  await page.goto("/masters");
+  const row = page.getByRole("row").filter({ hasText: "DELETE-TEST" });
+  await row.getByRole("button", { name: "Delete", exact: true }).click();
+  const dialog = page.getByRole("dialog", { name: "Delete Faculty Member?" });
+  await expect(dialog).toContainText("Delete Test Faculty");
+  await dialog.getByRole("button", { name: "Cancel", exact: true }).click();
+  await expect(row).toBeVisible();
+
+  await row.getByRole("button", { name: "Delete", exact: true }).click();
+  await dialog.getByRole("button", { name: "Delete", exact: true }).click();
+  await expect(page.getByRole("status")).toContainText("was deleted");
+  await expect(row).toHaveCount(0);
+  const masters = await (await request.get("/api/masters")).json();
+  expect(masters.faculty.some((person: { id: number }) => person.id === faculty.id)).toBeFalsy();
+});

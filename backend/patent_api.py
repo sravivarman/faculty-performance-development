@@ -9,6 +9,7 @@ from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from .db import get_db
+from .evidence import permanently_delete_owner
 from .models import Patent, PatentChangeLog
 from .patent_schemas import CURRENT_DEPARTMENT, INSTITUTION_NAME, InventorInput, PatentInput, PatentStatus
 from .patent_types import PatentType, PATENT_TYPES
@@ -96,6 +97,22 @@ def deactivate_patent(identity:int,db:DB):
     db.add(PatentChangeLog(patent_id=identity,action="DEACTIVATE",changes={"is_active":False}))
     db.commit()
     return {"id":identity,"is_active":False}
+
+
+@router.post("/patents/{identity}/reactivate")
+def reactivate_patent(identity: int, db: DB):
+    patent = get_patent(db, identity)
+    if patent.is_active:
+        raise HTTPException(409, "Patent is already active")
+    patent.is_active = True
+    db.add(PatentChangeLog(patent_id=identity, action="REACTIVATE", changes={"is_active": True}))
+    db.commit()
+    return patent_dict(patent, db)
+
+
+@router.delete("/patents/{identity}/permanent")
+def permanently_delete_patent(identity: int, db: DB):
+    return permanently_delete_owner(db, get_patent(db, identity), "patent_id", identity, PatentChangeLog, "patent_id")
 
 
 @router.get("/patent-kpis")

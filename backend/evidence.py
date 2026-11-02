@@ -6,6 +6,7 @@ from typing import Annotated, Literal
 
 from fastapi import APIRouter, Depends, File, Form, HTTPException, UploadFile
 from fastapi.responses import FileResponse
+from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
 
 from . import db as database
@@ -18,6 +19,49 @@ DB = Annotated[Session,Depends(get_db)]
 Entity = Literal["publications","patents","books","fdp-activities","certifications","funding-projects"]
 OWNERS = {"publications": "publication_id", "patents": "patent_id", "books": "book_record_id", "fdp-activities":"fdp_activity_id", "certifications":"certification_id", "funding-projects":"funding_project_id"}
 BOOK_EVIDENCE_TYPES = {"COVER_PAGE", "TITLE_PAGE", "COPYRIGHT_PAGE", "ISBN_PAGE", "CHAPTER_FIRST_PAGE", "TABLE_OF_CONTENTS", "PUBLISHER_PROOF", "FULL_CHAPTER", "OTHER"}
+
+
+def cleanup_owned_evidence_files(items: list[EvidenceFile]) -> tuple[int, list[dict[str, str | int]]]:
+    """Best-effort cleanup after a successful owner-record transaction.
+
+    Evidence rows have exactly one owner and a unique storage path, so a file
+    listed here cannot be shared by another application record. The database
+    deletion is intentionally committed first; a failed filesystem cleanup is
+    reported to the caller instead of rolling back a sound relational delete.
+    """
+    root = database.EVIDENCE_ROOT.resolve()
+    removed, failures = 0, []
+    for item in items:
+        target = (root / item.storage_path).resolve()
+        if not target.is_relative_to(root):
+            failures.append({"evidence_id": item.id, "filename": item.original_filename, "reason": "unsafe storage path"})
+            continue
+        try:
+            if target.exists():
+                target.unlink()
+                removed += 1
+        except OSError:
+            failures.append({"evidence_id": item.id, "filename": item.original_filename, "reason": "file cleanup failed"})
+    return removed, failures
+
+
+def permanently_delete_owner(db: Session, parent, owner_column: str, identity: int, change_log_model, change_log_column: str):
+    """Delete a record and only its exclusively-owned rows, transactionally."""
+    evidence = list(db.query(EvidenceFile).filter(getattr(EvidenceFile, owner_column) == identity))
+    try:
+        # Change-log FKs deliberately do not cascade: audit rows must only be
+        # removed as part of an explicit permanent-delete operation.
+        db.query(change_log_model).filter(getattr(change_log_model, change_log_column) == identity).delete(synchronize_session=False)
+        db.delete(parent)
+        db.commit()
+    except IntegrityError as exc:
+        db.rollback()
+        raise HTTPException(409, "Deletion is blocked because this record is referenced by another record.") from exc
+    except Exception as exc:
+        db.rollback()
+        raise HTTPException(500, "Could not delete the record safely.") from exc
+    removed, failures = cleanup_owned_evidence_files(evidence)
+    return {"deleted": identity, "evidence_files_removed": removed, "evidence_cleanup_failures": failures}
 
 
 def evidence_parent(db,entity,identity):

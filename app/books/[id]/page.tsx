@@ -6,6 +6,7 @@ import Link from "next/link";
 import { api, label } from "@/lib/api";
 import { Book } from "@/lib/books";
 import { SCOPES } from "@/lib/patents";
+import DeleteConfirmationDialog from "@/components/DeleteConfirmationDialog";
 
 export default function BookDetail() {
   const { id } = useParams<{ id: string }>();
@@ -13,6 +14,7 @@ export default function BookDetail() {
   const [error, setError] = useState("");
   const [back, setBack] = useState("/books");
   const [deactivating, setDeactivating] = useState(false);
+  const [deleting, setDeleting] = useState(false);
 
   async function loadWork() {
     try {
@@ -51,6 +53,33 @@ export default function BookDetail() {
     }
   }
 
+  async function reactivate() {
+    if (!work) return;
+    setDeactivating(true);
+    setError("");
+    try {
+      setWork(await api<Book>(`/books/${work.id}/reactivate`, { method: "POST" }));
+    } catch (requestError) {
+      setError((requestError as Error).message);
+    } finally {
+      setDeactivating(false);
+    }
+  }
+
+  async function permanentlyDelete() {
+    if (!work) return;
+    setDeactivating(true);
+    setError("");
+    try {
+      await api(`/books/${work.id}/permanent`, { method: "DELETE" });
+      window.location.assign(back);
+    } catch (requestError) {
+      setError((requestError as Error).message);
+    } finally {
+      setDeactivating(false);
+    }
+  }
+
   return <>
     {error && <div className="error" role="alert">{error}</div>}
     {!work && !error && <p>Loading work…</p>}
@@ -60,7 +89,8 @@ export default function BookDetail() {
         <div className="actions">
           <Link href={back}>← Back to report</Link>
           <Link className="button" href={`/books/${id}/edit`}>Edit work</Link>
-          {work.is_active && <button className="danger" disabled={deactivating} onClick={deactivate}>{deactivating ? "Deactivating…" : "Deactivate"}</button>}
+          {work.is_active ? <button className="danger" disabled={deactivating} onClick={deactivate}>{deactivating ? "Deactivating…" : "Deactivate"}</button> : <button className="secondary" disabled={deactivating} onClick={reactivate}>Reactivate</button>}
+          <button className="danger" disabled={deactivating} onClick={() => setDeleting(true)}>Delete</button>
         </div>
       </div>
       <section className="panel"><h2>Work Details</h2><dl className="detail-grid">{(["parent_book_title", "chapter_number", "publisher", "publication_date", "edition", "volume", "publication_year", "classification", "metadata_source", "metadata_fetched_at", "page_range", "isbn", "eisbn", "doi"] as const).filter((key) => work.work_type === "BOOK_CHAPTER" ? true : !["parent_book_title", "chapter_number", "page_range"].includes(key)).map((key) => <div key={key}><dt>{label(key)}</dt><dd>{work[key] || "—"}</dd></div>)}</dl>{work.url && /^https?:\/\//i.test(work.url) && <p><a href={work.url} target="_blank" rel="noreferrer">Publisher / Publication URL ↗</a></p>}<p>{work.remarks}</p></section>
@@ -68,6 +98,7 @@ export default function BookDetail() {
       <section className="panel"><h2>Collaboration</h2><div className="checks"><span>Department faculty: {work.current_department_faculty_count}</span><span>Department students: {work.current_department_student_count}</span><span>Other VCE departments: {work.same_institution_other_department_count}</span><span>External contributors: {work.external_contributor_count}</span></div></section>
       <section className="panel"><div className="row-between"><h2>Evidence · {work.evidence_count} files</h2><Link href={`/books/${id}/edit`}>Add evidence →</Link></div>{work.evidence?.map((evidence) => <div className="row-between pending-file" key={evidence.id}><div><strong>{evidence.original_filename}</strong><div className="muted">{label(evidence.evidence_type)} · {Math.ceil(evidence.size_bytes / 1024)} KB</div></div><div className="actions"><a href={`/api/books/${id}/evidence/${evidence.id}`} target="_blank" rel="noreferrer">View</a><a href={`/api/books/${id}/evidence/${evidence.id}?download=true`}>Download</a><button className="danger small" onClick={() => removeEvidence(evidence.id)}>Remove</button></div></div>)}{!work.evidence?.length && <p className="muted">No evidence attached.</p>}</section>
       <section className="panel"><details><summary>Record changes</summary>{work.change_log?.map((change) => <p key={change.id}>{label(change.action)} · {new Date(change.changed_at).toLocaleString()}</p>)}</details></section>
+      <DeleteConfirmationDialog open={deleting} title={`Delete ${work.work_type === "BOOK_CHAPTER" ? "Book Chapter" : "Book"}?`} recordName={work.title} description={`Are you sure you want to permanently delete this ${work.work_type === "BOOK_CHAPTER" ? "book chapter" : "book"}? This action cannot be undone.`} busy={deactivating} error={error} requireTypedConfirmation onCancel={() => setDeleting(false)} onConfirm={permanentlyDelete}/>
     </>}
   </>;
 }
