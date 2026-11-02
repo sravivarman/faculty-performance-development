@@ -126,6 +126,17 @@ class PublicationAuthor(Base, Timestamps):
     )
 
 
+class PublicationReportTemplate(Base, Timestamps):
+    """Shared, layout-only configuration for the Publications report builder."""
+
+    __tablename__ = "publication_report_templates"
+    id: Mapped[int] = mapped_column(primary_key=True)
+    name: Mapped[str] = mapped_column(String(160), unique=True)
+    description: Mapped[str | None] = mapped_column(Text)
+    config: Mapped[dict] = mapped_column(JSON, default=dict)
+    is_builtin: Mapped[bool] = mapped_column(Boolean, default=False, server_default=text("0"))
+
+
 class EvidenceFile(Base, Timestamps):
     __tablename__ = "evidence_files"
     id: Mapped[int] = mapped_column(primary_key=True)

@@ -32,7 +32,7 @@ export default function PublicationOverview(){
   function drillTo(key:string,values:Record<string,string>={}){setDrill({metric:key,...values});setPage(1);setTimeout(()=>document.getElementById("papers")?.scrollIntoView({behavior:"smooth"}),0);}
   const counts=report?.totals||{};
   const select=(key:string)=>drillTo(key);
-  return <DashboardFrame><ResearchPageHeader title="Publications Overview" subtitle="Publication performance, collaboration and data completeness."><Link className="button" href="/publications/new">+ Add publication</Link></ResearchPageHeader>
+  return <DashboardFrame><ResearchPageHeader title="Publications Overview" subtitle="Publication performance, collaboration and data completeness."><Link className="secondary button" href="/publications/reports">Report Builder</Link><Link className="button" href="/publications/new">+ Add publication</Link></ResearchPageHeader>
     <DateRangeFilter/><DashboardFilters>
       <label className="field">Publication Type<select value={filters.publication_type||""} onChange={e=>filter("publication_type",e.target.value)}><option value="">All</option><option value="JOURNAL">Journal</option><option value="CONFERENCE">Conference</option></select></label>
       <label className="field">Faculty<select value={filters.faculty_id||""} onChange={e=>filter("faculty_id",e.target.value)}><option value="">All Faculty</option>{masters?.faculty.map(f=><option key={f.id} value={f.id}>{f.name}{f.is_active ? "" : " (historical)"}</option>)}</select></label>

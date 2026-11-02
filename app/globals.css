@@ -95,3 +95,20 @@ th { background: #f7f8fb; }
   .portal-title { font-size: 15px; }
   .portal-navigation-mobile { margin-bottom: 12px; }
 }
+
+.report-faculty-list { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; max-height: 210px; overflow: auto; margin-top: 8px; padding: 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--paper); }
+.report-faculty-list .check { align-items: flex-start; min-width: 0; }
+.report-faculty-list input { flex: 0 0 auto; margin-top: 3px; }
+.report-faculty-label { min-width: 0; overflow-wrap: anywhere; }
+.report-field-groups { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: 18px; }
+.report-field-groups > section { border: 1px solid var(--line); border-radius: 8px; padding: 14px; }
+.report-field { align-items: flex-start; padding: 7px 0; border-bottom: 1px solid var(--line); }
+.report-field:last-child { border-bottom: 0; }
+.report-field small, .citation-entry small { display: block; color: var(--muted); font-size: 11px; }
+.report-field.unavailable { cursor: not-allowed; color: var(--muted); }
+.report-column-row { display: grid; grid-template-columns: minmax(180px, 1fr) minmax(180px, 1fr) auto auto auto; gap: 8px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--line); }
+.citation-entry { padding: 14px 0; border-bottom: 1px solid var(--line); line-height: 1.7; }
+.citation-entry:last-child { border-bottom: 0; }
+.report-preview td { white-space: pre-wrap; min-width: 130px; }
+@media (max-width: 1050px) { .report-faculty-list { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 720px) { .report-faculty-list, .report-field-groups { grid-template-columns: 1fr; } .report-column-row { grid-template-columns: 1fr; } }
