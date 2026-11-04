@@ -2,11 +2,13 @@
 from datetime import date
 from sqlalchemy import select
 from .db import SessionLocal
-from .models import AcademicYear
+from .models import AcademicYear, Department
 
 
 def seed():
     with SessionLocal() as db:
+        if not db.scalar(select(Department).where(Department.code == "EEE")):
+            db.add(Department(code="EEE", name="Electrical and Electronics Engineering", is_active=True))
         for start_year in range(2024, 2029):
             start, end = date(start_year, 7, 1), date(start_year + 1, 6, 30)
             if not db.scalar(select(AcademicYear).where(AcademicYear.start_date <= end, AcademicYear.end_date >= start)):

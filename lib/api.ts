@@ -1,7 +1,9 @@
 export type PersonType = "FACULTY" | "STUDENT" | "EXTERNAL" | "UNKNOWN";
-export type Person = {id: number; name: string; is_active: boolean; name_variants: string[]; weak_name_variants?: string[]; name_variant_strengths?: Record<string,"STRONG"|"WEAK">; employee_id?: string; designation?: string; orcid?: string; scopus_author_id?: string; roll_number?: string; batch?: string; program?: string; year_of_study?: number};
+export type Department = {id: number; code: string; name: string; is_active: boolean; faculty_count?: number; student_count?: number};
+export type DepartmentAffiliation = {id: number; department_id: number; effective_from: string | null; effective_to: string | null; is_primary: boolean; source: string; department: Department | null};
+export type Person = {id: number; name: string; is_active: boolean; name_variants: string[]; weak_name_variants?: string[]; name_variant_strengths?: Record<string,"STRONG"|"WEAK">; employee_id?: string; designation?: string; orcid?: string; scopus_author_id?: string; roll_number?: string; batch?: string; program?: string; year_of_study?: number; department_id?: number | null; department?: Department | null; department_history?: DepartmentAffiliation[]};
 export type Year = {id: number; name: string; start_date: string; end_date: string};
-export type Masters = {faculty: Person[]; students: Person[]; academic_years: Year[]};
+export type Masters = {faculty: Person[]; students: Person[]; academic_years: Year[]; departments: Department[]};
 export type Author = {
   author_order: number; author_name_from_source: string; given_name_from_source?: string | null; family_name_from_source?: string | null;
   orcid_from_source?: string | null; affiliation_from_source: string[]; person_type: PersonType; faculty_id: number | null; student_id: number | null;

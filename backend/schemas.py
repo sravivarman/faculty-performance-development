@@ -22,6 +22,10 @@ class FacultyInput(Input):
     scopus_author_id: str | None = None
     name_variants: list[str] = Field(default_factory=list)
     name_variant_strengths: dict[str, Literal["STRONG", "WEAK"]] | None = None
+    # The value identifies a current primary affiliation.  Ordinary Faculty
+    # edits may retain it but must use the transfer endpoint to change it.
+    department_id: int | None = None
+    department_effective_from: date | None = None
     is_active: bool = True
     _orcid = field_validator("orcid")(normalize_orcid)
 
@@ -41,7 +45,27 @@ class StudentInput(Input):
     program: str | None = None
     year_of_study: int | None = Field(default=None, ge=1, le=10)
     name_variants: list[str] = Field(default_factory=list)
+    department_id: int | None = None
     is_active: bool = True
+
+
+class DepartmentInput(Input):
+    code: str = Field(min_length=2, max_length=40)
+    name: str = Field(min_length=1, max_length=250)
+
+    @field_validator("code")
+    @classmethod
+    def department_code(cls, value: str):
+        import re
+        normalized = re.sub(r"\s+", "", value).upper()
+        if not re.fullmatch(r"[A-Z0-9][A-Z0-9_-]*", normalized):
+            raise ValueError("Department code may contain only letters, numbers, hyphens and underscores")
+        return normalized
+
+
+class FacultyDepartmentTransferInput(Input):
+    department_id: int
+    effective_from: date
 
 
 class YearInput(Input):

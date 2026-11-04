@@ -25,6 +25,19 @@ class AcademicYear(Base, Timestamps):
     __table_args__ = (CheckConstraint("end_date >= start_date"),)
 
 
+class Department(Base, Timestamps):
+    """Institutional department directory.
+
+    Department codes are stable reporting identifiers; display names may change
+    without rewriting Faculty, Student, or historical affiliation records.
+    """
+    __tablename__ = "departments"
+    id: Mapped[int] = mapped_column(primary_key=True)
+    code: Mapped[str] = mapped_column(String(40), unique=True)
+    name: Mapped[str] = mapped_column(String(250))
+    is_active: Mapped[bool] = mapped_column(Boolean, default=True)
+
+
 class Faculty(Base, Timestamps):
     __tablename__ = "faculty"
     id: Mapped[int] = mapped_column(primary_key=True)
@@ -36,6 +49,9 @@ class Faculty(Base, Timestamps):
     name_variants: Mapped[list] = mapped_column(JSON, default=list)
     name_variant_strengths: Mapped[dict] = mapped_column(JSON, default=dict, server_default=text("'{}'"))
     is_active: Mapped[bool] = mapped_column(Boolean, default=True)
+    department_affiliations: Mapped[list["FacultyDepartmentAffiliation"]] = relationship(
+        cascade="all, delete-orphan", lazy="selectin"
+    )
 
 
 class Student(Base, Timestamps):
@@ -48,6 +64,42 @@ class Student(Base, Timestamps):
     year_of_study: Mapped[int | None] = mapped_column(Integer)
     name_variants: Mapped[list] = mapped_column(JSON, default=list)
     is_active: Mapped[bool] = mapped_column(Boolean, default=True)
+    department_id: Mapped[int | None] = mapped_column(ForeignKey("departments.id"), index=True)
+
+
+class FacultyDepartmentAffiliation(Base, Timestamps):
+    """A primary or secondary Faculty appointment with inclusive date bounds.
+
+    Legacy records use ``effective_from=None`` and ``source=MIGRATION_BASELINE``
+    to explicitly represent an unknown historical start rather than inventing a
+    date. New transfers always provide an actual inclusive start date.
+    """
+    __tablename__ = "faculty_department_affiliations"
+    id: Mapped[int] = mapped_column(primary_key=True)
+    faculty_id: Mapped[int] = mapped_column(ForeignKey("faculty.id"), index=True)
+    department_id: Mapped[int] = mapped_column(ForeignKey("departments.id"), index=True)
+    effective_from: Mapped[date | None] = mapped_column(Date, nullable=True)
+    effective_to: Mapped[date | None] = mapped_column(Date, nullable=True)
+    is_primary: Mapped[bool] = mapped_column(Boolean, default=True)
+    source: Mapped[str] = mapped_column(String(40), default="MANUAL")
+    # Select-in loading keeps a batch attribution pass from issuing one query
+    # for every resolved affiliation while retaining the stable Department FK.
+    department: Mapped[Department | None] = relationship(lazy="selectin")
+    __table_args__ = (
+        CheckConstraint(
+            "effective_from IS NULL OR effective_to IS NULL OR effective_to >= effective_from",
+            name="faculty_department_affiliation_dates_valid",
+        ),
+        CheckConstraint("source IN ('MIGRATION_BASELINE','MANUAL_TRANSFER','MANUAL')", name="faculty_department_affiliation_source_valid"),
+        UniqueConstraint("faculty_id", "department_id", "effective_from", name="uq_faculty_department_affiliation_start"),
+        Index(
+            "uq_faculty_current_primary_department",
+            "faculty_id",
+            unique=True,
+            sqlite_where=text("is_primary = 1 AND effective_to IS NULL"),
+            postgresql_where=text("is_primary = true AND effective_to IS NULL"),
+        ),
+    )
 
 
 class Publication(Base, Timestamps):
@@ -219,8 +271,8 @@ class PatentInventor(Base, Timestamps):
         CheckConstraint("inventor_order > 0"),
         CheckConstraint("person_type IN ('FACULTY','STUDENT','EXTERNAL_PERSON','UNKNOWN')"),
         CheckConstraint("institution_scope IN ('CURRENT_DEPARTMENT','SAME_INSTITUTION_OTHER_DEPARTMENT','EXTERNAL_INSTITUTION','UNKNOWN')"),
-        CheckConstraint("(faculty_id IS NULL OR (person_type='FACULTY' AND institution_scope='CURRENT_DEPARTMENT' AND student_id IS NULL)) AND (student_id IS NULL OR (person_type='STUDENT' AND institution_scope='CURRENT_DEPARTMENT' AND faculty_id IS NULL))", name="patent_local_identity"),
-        CheckConstraint("is_claiming_faculty=0 OR (person_type='FACULTY' AND institution_scope='CURRENT_DEPARTMENT' AND faculty_id IS NOT NULL)", name="patent_department_claimant"),
+        CheckConstraint("(faculty_id IS NULL OR (person_type='FACULTY' AND institution_scope IN ('CURRENT_DEPARTMENT','SAME_INSTITUTION_OTHER_DEPARTMENT') AND student_id IS NULL)) AND (student_id IS NULL OR (person_type='STUDENT' AND institution_scope IN ('CURRENT_DEPARTMENT','SAME_INSTITUTION_OTHER_DEPARTMENT') AND faculty_id IS NULL))", name="patent_local_identity"),
+        CheckConstraint("is_claiming_faculty=0 OR (person_type='FACULTY' AND institution_scope IN ('CURRENT_DEPARTMENT','SAME_INSTITUTION_OTHER_DEPARTMENT') AND faculty_id IS NOT NULL)", name="patent_department_claimant"),
     )
 
 
@@ -310,8 +362,8 @@ class BookContributor(Base, Timestamps):
         CheckConstraint("role IN ('AUTHOR','EDITOR')"),
         CheckConstraint("person_type IN ('FACULTY','STUDENT','EXTERNAL_PERSON','UNKNOWN')"),
         CheckConstraint("institution_scope IN ('CURRENT_DEPARTMENT','SAME_INSTITUTION_OTHER_DEPARTMENT','EXTERNAL_INSTITUTION','UNKNOWN')"),
-        CheckConstraint("(faculty_id IS NULL OR (person_type='FACULTY' AND institution_scope='CURRENT_DEPARTMENT' AND student_id IS NULL)) AND (student_id IS NULL OR (person_type='STUDENT' AND institution_scope='CURRENT_DEPARTMENT' AND faculty_id IS NULL))", name="book_local_identity"),
-        CheckConstraint("is_claiming_faculty=0 OR (person_type='FACULTY' AND institution_scope='CURRENT_DEPARTMENT' AND faculty_id IS NOT NULL)", name="book_department_claimant"),
+        CheckConstraint("(faculty_id IS NULL OR (person_type='FACULTY' AND institution_scope IN ('CURRENT_DEPARTMENT','SAME_INSTITUTION_OTHER_DEPARTMENT') AND student_id IS NULL)) AND (student_id IS NULL OR (person_type='STUDENT' AND institution_scope IN ('CURRENT_DEPARTMENT','SAME_INSTITUTION_OTHER_DEPARTMENT') AND faculty_id IS NULL))", name="book_local_identity"),
+        CheckConstraint("is_claiming_faculty=0 OR (person_type='FACULTY' AND institution_scope IN ('CURRENT_DEPARTMENT','SAME_INSTITUTION_OTHER_DEPARTMENT') AND faculty_id IS NOT NULL)", name="book_department_claimant"),
         Index("uq_book_claimant", "book_record_id", unique=True, sqlite_where=text("is_claiming_faculty=1")),
     )
 

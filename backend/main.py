@@ -1,4 +1,4 @@
-from datetime import date
+from datetime import date, timedelta
 from typing import Annotated, Literal
 
 from fastapi import Depends, FastAPI, File, Form, HTTPException, Query, UploadFile
@@ -22,8 +22,10 @@ from .models import (
     BookContributor,
     Certification,
     ChangeLog,
+    Department,
     EvidenceFile,
     Faculty,
+    FacultyDepartmentAffiliation,
     FdpParticipant,
     FundingProjectFaculty,
     PatentInventor,
@@ -34,7 +36,17 @@ from .models import (
 )
 from .pagination import PageSize, paginate_records
 from .periods import period_options
-from .schemas import AuthorInput, FacultyInput, Indexing, PublicationInput, PublicationType, StudentInput, YearInput
+from .schemas import (
+    AuthorInput,
+    DepartmentInput,
+    FacultyDepartmentTransferInput,
+    FacultyInput,
+    Indexing,
+    PublicationInput,
+    PublicationType,
+    StudentInput,
+    YearInput,
+)
 from .services import columns, department_kpis, faculty_kpis, filtered_publications, publication_dict, save_publication, student_kpis
 from .reporting import validate_date_range
 
@@ -72,14 +84,78 @@ def health(db: DB):
 
 @app.get("/masters")
 def masters(db: DB):
-    return {"faculty": [faculty_dict(p) for p in db.scalars(select(Faculty).order_by(Faculty.name))],
-            "students": [columns(p) for p in db.scalars(select(Student).order_by(Student.name))],
-            "academic_years": [columns(p) for p in db.scalars(select(AcademicYear).order_by(AcademicYear.start_date.desc()))]}
+    return {
+        "faculty": [faculty_dict(p, db) for p in db.scalars(select(Faculty).order_by(Faculty.name))],
+        "students": [student_dict(p, db) for p in db.scalars(select(Student).order_by(Student.name))],
+        "academic_years": [columns(p) for p in db.scalars(select(AcademicYear).order_by(AcademicYear.start_date.desc()))],
+        # Historical associations need their inactive Departments available too.
+        "departments": [department_dict(p, db) for p in db.scalars(select(Department).order_by(Department.name))],
+    }
 
 
-def faculty_dict(person):
-    return {**columns(person), "weak_name_variants": [v for v in person.name_variants
-            if (person.name_variant_strengths or {}).get(normalize_person_name(v)) == "WEAK"]}
+def affiliation_sort_key(item: FacultyDepartmentAffiliation):
+    return (item.effective_to is None, item.effective_from or date.min, item.id)
+
+
+def current_affiliation(person: Faculty) -> FacultyDepartmentAffiliation | None:
+    primary = [item for item in person.department_affiliations if item.is_primary and item.effective_to is None]
+    return max(primary, key=affiliation_sort_key) if primary else None
+
+
+def department_summary(department: Department | None):
+    return None if department is None else {"id": department.id, "code": department.code, "name": department.name, "is_active": department.is_active}
+
+
+def faculty_dict(person: Faculty, db: Session):
+    departments = {department.id: department for department in db.scalars(select(Department)).all()}
+    current = current_affiliation(person)
+    history = [
+        {
+            **columns(item),
+            "department": department_summary(departments.get(item.department_id)),
+        }
+        for item in sorted(person.department_affiliations, key=affiliation_sort_key, reverse=True)
+    ]
+    return {
+        **columns(person),
+        "department_id": current.department_id if current else None,
+        "department": department_summary(departments.get(current.department_id)) if current else None,
+        "department_history": history,
+        "weak_name_variants": [v for v in person.name_variants if (person.name_variant_strengths or {}).get(normalize_person_name(v)) == "WEAK"],
+    }
+
+
+def student_dict(person: Student, db: Session):
+    department = db.get(Department, person.department_id) if person.department_id is not None else None
+    return {**columns(person), "department": department_summary(department)}
+
+
+def department_dict(record: Department, db: Session):
+    return {
+        **columns(record),
+        "faculty_count": db.scalar(select(func.count(func.distinct(FacultyDepartmentAffiliation.faculty_id))).where(
+            FacultyDepartmentAffiliation.department_id == record.id,
+            FacultyDepartmentAffiliation.is_primary.is_(True),
+            FacultyDepartmentAffiliation.effective_to.is_(None),
+        )),
+        "student_count": db.scalar(select(func.count()).select_from(Student).where(Student.department_id == record.id)),
+    }
+
+
+def eee_department(db: Session) -> Department:
+    record = db.scalar(select(Department).where(Department.code == "EEE"))
+    if record is None:
+        raise HTTPException(409, "The required EEE Department baseline has not been migrated yet")
+    return record
+
+
+def valid_department(db: Session, identity: int | None, *, current_id: int | None = None) -> Department:
+    record = db.get(Department, identity) if identity is not None else eee_department(db)
+    if record is None:
+        raise HTTPException(422, "Unknown Department ID")
+    if not record.is_active and record.id != current_id:
+        raise HTTPException(422, "Cannot assign a new active membership to an inactive Department")
+    return record
 
 
 def save_master(db, model, data, identity=None):
@@ -88,6 +164,8 @@ def save_master(db, model, data, identity=None):
         raise HTTPException(404, "Master record not found")
     values = data.model_dump()
     if model is Faculty:
+        values.pop("department_id", None)
+        values.pop("department_effective_from", None)
         strengths = data.name_variant_strengths
         if strengths is None:
             keys = {normalize_person_name(v) for v in data.name_variants}
@@ -97,7 +175,7 @@ def save_master(db, model, data, identity=None):
         setattr(obj, key, value)
     db.add(obj)
     db.commit()
-    return faculty_dict(obj) if model is Faculty else columns(obj)
+    return faculty_dict(obj, db) if model is Faculty else student_dict(obj, db) if model is Student else columns(obj)
 
 
 def master_dependencies(db: Session, model, identity: int) -> dict[str, int]:
@@ -125,6 +203,11 @@ def master_dependencies(db: Session, model, identity: int) -> dict[str, int]:
         }
     elif model is AcademicYear:
         checks = {"publications": (Publication, Publication.academic_year_id)}
+    elif model is Department:
+        checks = {
+            "Faculty department affiliations": (FacultyDepartmentAffiliation, FacultyDepartmentAffiliation.department_id),
+            "Students": (Student, Student.department_id),
+        }
     else:  # Defensive guard for future Master types.
         checks = {}
     return {
@@ -143,6 +226,12 @@ def delete_master(db: Session, model, identity: int, description: str):
         summary = ", ".join(f"{count} {label}" for label, count in dependencies.items())
         raise HTTPException(409, f"Cannot delete {description}: it is referenced by {summary}.")
     try:
+        # Affiliation history is exclusively owned by an otherwise unreferenced
+        # Faculty Master.  It is removed explicitly only after the established
+        # research-reference protection above has passed.
+        if model is Faculty:
+            record.department_affiliations.clear()
+            db.flush()
         db.delete(record)
         db.commit()
     except IntegrityError as exc:
@@ -155,12 +244,72 @@ def delete_master(db: Session, model, identity: int, description: str):
 
 @app.post("/faculty", status_code=201)
 def create_faculty(data: FacultyInput, db: DB):
-    return save_master(db, Faculty, data)
+    department = valid_department(db, data.department_id)
+    person = Faculty(
+        **{key: value for key, value in data.model_dump(exclude={"department_id", "department_effective_from"}).items()}
+    )
+    strengths = data.name_variant_strengths
+    person.name_variants, person.name_variant_strengths = prepare_variants(data.name_variants, strengths)
+    db.add(person)
+    db.flush()
+    db.add(FacultyDepartmentAffiliation(
+        faculty_id=person.id,
+        department_id=department.id,
+        effective_from=data.department_effective_from or date.today(),
+        is_primary=True,
+        source="MANUAL",
+    ))
+    db.commit()
+    return faculty_dict(person, db)
 
 
 @app.put("/faculty/{identity}")
 def update_faculty(identity: int, data: FacultyInput, db: DB):
+    person = db.get(Faculty, identity)
+    if not person:
+        raise HTTPException(404, "Faculty Master record not found")
+    current = current_affiliation(person)
+    if data.department_id is not None and data.department_id != (current.department_id if current else None):
+        raise HTTPException(409, "Use the Faculty Department transfer action to preserve affiliation history")
     return save_master(db, Faculty, data, identity)
+
+
+@app.post("/faculty/{identity}/department-transfer")
+def transfer_faculty_department(identity: int, data: FacultyDepartmentTransferInput, db: DB):
+    person = db.get(Faculty, identity)
+    if not person:
+        raise HTTPException(404, "Faculty Master record not found")
+    current = current_affiliation(person)
+    if not current:
+        raise HTTPException(409, "Faculty member has no current primary Department affiliation")
+    department = valid_department(db, data.department_id, current_id=current.department_id)
+    if department.id == current.department_id:
+        raise HTTPException(422, "Faculty member is already assigned to this Department")
+    if current.effective_from is not None and data.effective_from <= current.effective_from:
+        raise HTTPException(422, "Transfer date must follow the current primary affiliation start date")
+    if db.scalar(select(FacultyDepartmentAffiliation).where(
+        FacultyDepartmentAffiliation.id != current.id,
+        FacultyDepartmentAffiliation.faculty_id == identity,
+        FacultyDepartmentAffiliation.is_primary.is_(True),
+        FacultyDepartmentAffiliation.effective_from.is_not(None),
+        FacultyDepartmentAffiliation.effective_from <= data.effective_from,
+        (FacultyDepartmentAffiliation.effective_to.is_(None) | (FacultyDepartmentAffiliation.effective_to >= data.effective_from)),
+    )):
+        raise HTTPException(409, "Primary Department affiliation dates overlap")
+    current.effective_to = data.effective_from - timedelta(days=1)
+    current.updated_at = now()
+    # Release the partial current-primary index before adding the successor.
+    db.flush()
+    affiliation = FacultyDepartmentAffiliation(
+        faculty_id=identity,
+        department_id=department.id,
+        effective_from=data.effective_from,
+        is_primary=True,
+        source="MANUAL_TRANSFER",
+    )
+    person.department_affiliations.append(affiliation)
+    db.commit()
+    return faculty_dict(person, db)
 
 
 @app.delete("/faculty/{identity}")
@@ -172,12 +321,21 @@ def delete_faculty(identity: int, db: DB):
 
 @app.post("/students", status_code=201)
 def create_student(data: StudentInput, db: DB):
-    return save_master(db, Student, data)
+    department = valid_department(db, data.department_id)
+    payload = data.model_dump()
+    payload["department_id"] = department.id
+    return save_master(db, Student, StudentInput.model_validate(payload))
 
 
 @app.put("/students/{identity}")
 def update_student(identity: int, data: StudentInput, db: DB):
-    return save_master(db, Student, data, identity)
+    person = db.get(Student, identity)
+    if not person:
+        raise HTTPException(404, "Student Master record not found")
+    department = valid_department(db, data.department_id if data.department_id is not None else person.department_id, current_id=person.department_id)
+    payload = data.model_dump()
+    payload["department_id"] = department.id
+    return save_master(db, Student, StudentInput.model_validate(payload), identity)
 
 
 @app.delete("/students/{identity}")
@@ -185,6 +343,82 @@ def delete_student(identity: int, db: DB):
     record = db.get(Student, identity)
     description = f"Student {record.name} ({record.roll_number})" if record else "Student"
     return delete_master(db, Student, identity, description)
+
+
+@app.get("/departments")
+def list_departments(db: DB, include_inactive: bool = True):
+    query = select(Department).order_by(Department.name)
+    if not include_inactive:
+        query = query.where(Department.is_active.is_(True))
+    return [department_dict(record, db) for record in db.scalars(query)]
+
+
+@app.get("/departments/active")
+def list_active_departments(db: DB):
+    return [department_dict(record, db) for record in db.scalars(select(Department).where(Department.is_active.is_(True)).order_by(Department.name))]
+
+
+@app.get("/departments/{identity}")
+def department_detail(identity: int, db: DB):
+    record = db.get(Department, identity)
+    if not record:
+        raise HTTPException(404, "Department not found")
+    return department_dict(record, db)
+
+
+@app.post("/departments", status_code=201)
+def create_department(data: DepartmentInput, db: DB):
+    if db.scalar(select(Department).where(Department.code == data.code)):
+        raise HTTPException(409, "Department Code already exists")
+    record = Department(**data.model_dump())
+    db.add(record)
+    db.commit()
+    return department_dict(record, db)
+
+
+@app.put("/departments/{identity}")
+def update_department(identity: int, data: DepartmentInput, db: DB):
+    record = db.get(Department, identity)
+    if not record:
+        raise HTTPException(404, "Department not found")
+    if data.code != record.code and master_dependencies(db, Department, identity):
+        raise HTTPException(409, "Department Code cannot change after the Department has been referenced")
+    if data.code != record.code and db.scalar(select(Department).where(Department.code == data.code, Department.id != identity)):
+        raise HTTPException(409, "Department Code already exists")
+    record.code, record.name = data.code, data.name
+    db.commit()
+    return department_dict(record, db)
+
+
+@app.post("/departments/{identity}/deactivate")
+def deactivate_department(identity: int, db: DB):
+    record = db.get(Department, identity)
+    if not record:
+        raise HTTPException(404, "Department not found")
+    if not record.is_active:
+        raise HTTPException(409, "Department is already inactive")
+    record.is_active = False
+    db.commit()
+    return department_dict(record, db)
+
+
+@app.post("/departments/{identity}/reactivate")
+def reactivate_department(identity: int, db: DB):
+    record = db.get(Department, identity)
+    if not record:
+        raise HTTPException(404, "Department not found")
+    if record.is_active:
+        raise HTTPException(409, "Department is already active")
+    record.is_active = True
+    db.commit()
+    return department_dict(record, db)
+
+
+@app.delete("/departments/{identity}")
+def delete_department(identity: int, db: DB):
+    record = db.get(Department, identity)
+    description = f"Department {record.code}" if record else "Department"
+    return delete_master(db, Department, identity, description)
 
 
 @app.post("/academic-years", status_code=201)

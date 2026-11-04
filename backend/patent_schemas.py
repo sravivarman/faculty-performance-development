@@ -64,11 +64,11 @@ class PatentInput(Input):
         if self.publication_date and self.current_status == "FILED":
             raise ValueError("A recorded publication requires Published or a later status")
         claims = sum(i.is_claiming_faculty for i in self.inventors)
-        faculty = any(i.person_type == "FACULTY" and i.institution_scope == "CURRENT_DEPARTMENT" for i in self.inventors)
+        faculty = any(i.person_type == "FACULTY" and i.faculty_id is not None for i in self.inventors)
         if not self.is_claimable and claims:
             raise ValueError("A non-claimable patent cannot have a claimant")
         if self.is_claimable and faculty and not claims:
-            raise ValueError("Select at least one mapped current-department faculty claimant or mark non-claimable")
+            raise ValueError("Select at least one mapped institutional Faculty claimant or mark non-claimable")
         for field in ("inventor_order", "faculty_id", "student_id"):
             values = [getattr(i, field) for i in self.inventors if getattr(i, field) is not None]
             if len(values) != len(set(values)):

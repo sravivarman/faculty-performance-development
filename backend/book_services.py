@@ -51,7 +51,7 @@ def book_dict(work, db):
 
 def save_book(db, data, work=None):
     if (work is None or any(c.is_claiming_faculty for c in work.contributors)) and sum(c.is_claiming_faculty for c in data.contributors) != 1:
-        raise HTTPException(422, 'Select exactly one mapped current-department Faculty claimant.')
+        raise HTTPException(422, 'Select exactly one mapped institutional Faculty claimant.')
     if data.doi:
         existing = db.scalar(select(BookPublication).where(BookPublication.doi == data.doi))
         if existing and (not work or existing.id != work.id):

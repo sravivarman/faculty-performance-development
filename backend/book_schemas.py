@@ -75,7 +75,7 @@ class BookInput(Input):
         else:
             self.parent_book_title = self.chapter_number = self.page_range = None
         if sum(c.is_claiming_faculty for c in self.contributors) > 1:
-            raise ValueError("At most one current-department faculty contributor may claim a work")
+            raise ValueError("At most one institutional Faculty contributor may claim a work")
         if self.work_type == "BOOK_CHAPTER" and any(c.is_claiming_faculty and c.role != "AUTHOR" for c in self.contributors):
             raise ValueError("A chapter claimant must be a chapter author, not only a parent-book editor")
         for field in ("contributor_order",):

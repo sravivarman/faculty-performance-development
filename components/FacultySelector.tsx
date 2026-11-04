@@ -17,7 +17,9 @@ type Props = {
 };
 
 function display(person: Person) {
-  return person.name + (person.employee_id ? " · " + person.employee_id : "") + (person.is_active ? "" : " (historical)");
+  const identity = person.employee_id ? " (" + person.employee_id + ")" : "";
+  const department = person.department?.code ? " — " + person.department.code : "";
+  return person.name + identity + department + (person.is_active ? "" : " (historical)");
 }
 
 export default function FacultySelector({
@@ -42,7 +44,7 @@ export default function FacultySelector({
   const normalizedQuery = query.trim().toLocaleLowerCase();
   const matches = useMemo(() => (faculty || []).filter((person) => {
     if (!includeInactive && !person.is_active && person.id !== value) return false;
-    const candidate = (person.name + " " + (person.employee_id || "")).toLocaleLowerCase();
+    const candidate = (person.name + " " + (person.employee_id || "") + " " + (person.department?.code || "")).toLocaleLowerCase();
     return !normalizedQuery || candidate.includes(normalizedQuery);
   }), [faculty, includeInactive, normalizedQuery, value]);
 
