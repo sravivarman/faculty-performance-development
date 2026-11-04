@@ -63,7 +63,11 @@ def get_publication(db, identity):
 
 @app.get("/health")
 def health(db: DB):
-    return {"status": "ok", "database_path": sqlite_database_path(db)}
+    return {
+        "status": "ok",
+        "database_path": sqlite_database_path(db),
+        "evidence_path": str(database.EVIDENCE_ROOT.resolve()),
+    }
 
 
 @app.get("/masters")
