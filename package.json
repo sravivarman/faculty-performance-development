@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start --hostname 127.0.0.1",
     "typecheck": "tsc --noEmit",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "test:functional": "playwright test tests/browser",
+    "test:functional:smoke": "playwright test tests/browser/masters.spec.ts tests/browser/publications.spec.ts tests/browser/patents.spec.ts tests/browser/books.spec.ts tests/browser/faculty-research-details.spec.ts tests/browser/institutional-reporting-acceptance.spec.ts"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.3.3",
