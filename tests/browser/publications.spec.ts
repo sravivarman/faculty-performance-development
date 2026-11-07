@@ -19,6 +19,7 @@ async function createFacultyFixture(request: APIRequestContext, departmentId:num
 }
 
 test("manual review, author ownership, evidence, dashboard and edit",async({page,request})=>{
+  const dashboardDate="2026-09-28";
   const errors:string[]=[];page.on("pageerror",error=>errors.push(error.message));
   const departmentId=await activeDepartmentId(request);
   await page.goto("/masters");
@@ -36,7 +37,7 @@ test("manual review, author ownership, evidence, dashboard and edit",async({page
   await page.getByRole("button",{name:"Enter manually"}).click();
   await page.getByLabel("Title *",{exact:true}).fill("Research collaboration P1");
   await page.getByLabel("DOI",{exact:true}).fill("https://doi.org/10.1234/E2E-P1");
-  await page.getByLabel("Publication date *",{exact:true}).fill("2026-09-18");
+  await page.getByLabel("Publication date *",{exact:true}).fill(dashboardDate);
   await page.getByLabel("Journal name",{exact:true}).fill("Department Research Journal");
   for(const [index,name,type] of [[0,"Faculty A","FACULTY"],[1,"Faculty B","FACULTY"],[2,"Student X","STUDENT"],[3,"External Y","EXTERNAL"]] as const){
     await page.getByRole("button",{name:"+ Add author",exact:true}).click();
@@ -70,15 +71,22 @@ test("manual review, author ownership, evidence, dashboard and edit",async({page
   await expect(page).toHaveURL(detailUrl);
   // Keep this dashboard assertion independent of the browser's persisted
   // reporting-period preference and the machine clock.
-  await page.goto("/publications?from_date=2026-09-01&to_date=2026-09-30");
+  const dashboardResponse=page.waitForResponse(response=>{
+    const url=new URL(response.url());
+    return url.pathname==="/api/publication-dashboard"&&url.searchParams.get("from_date")===dashboardDate&&url.searchParams.get("to_date")===dashboardDate;
+  });
+  await page.goto(`/publications?from_date=${dashboardDate}&to_date=${dashboardDate}`);
+  const dashboard=await dashboardResponse;
+  expect(dashboard.ok(),await dashboard.text()).toBeTruthy();
+  expect((await dashboard.json()).totals.total).toBe(1);
   await expect(page.getByRole("button",{name:"Total Publications: 1",exact:true})).toBeVisible();
   await page.getByRole("button",{name:"Publications with Students: 1",exact:true}).first().click();
   await expect(page.locator('#papers').getByRole("link",{name:"Research collaboration P1",exact:true})).toBeVisible();
   await page.getByRole("combobox", { name: "Reporting Period", exact: true }).selectOption("Custom");
   await expect(page.getByLabel("From Date",{exact:true})).toBeVisible();
   await expect(page.getByLabel("To Date",{exact:true})).toBeVisible();
-  await page.getByLabel("From Date",{exact:true}).fill("2026-09-01");
-  await page.getByLabel("To Date",{exact:true}).fill("2026-09-30");
+  await page.getByLabel("From Date",{exact:true}).fill(dashboardDate);
+  await page.getByLabel("To Date",{exact:true}).fill(dashboardDate);
   await page.getByRole("button",{name:"Apply range",exact:true}).click();
   await expect(page.getByRole("button",{name:"Total Publications: 1",exact:true})).toBeVisible();
   await page.screenshot({path:"test-results/publication-dashboard.png",fullPage:true});

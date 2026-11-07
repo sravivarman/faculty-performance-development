@@ -7,7 +7,9 @@ test('research overview uses shared dates, live funding summaries, faculty activ
     await page.goto('/?from_date=2026-09-18&to_date=2026-09-18');
     const response=await request.get('/api/research/overview?from_date=2026-09-18&to_date=2026-09-18');expect(response.ok()).toBeTruthy();const report=await response.json();
     await expect(page.getByRole('button',{name:`Journals: ${report.outcomes.journal}`,exact:true})).toBeVisible();
-    await expect(page.getByRole('button',{name:'Sponsored Research: 0',exact:true})).toBeEnabled();
+    const fundingSummary=page.getByRole('heading',{name:'Funding at a glance',exact:true}).locator('..');
+    const sponsoredResearch=fundingSummary.getByRole('row').filter({hasText:'Sponsored Research'});
+    await expect(sponsoredResearch.getByRole('button',{name:`${report.funding_summary.sponsored_research.total} records`,exact:true})).toBeEnabled();
     await page.getByRole('button',{name:'Open Faculty Research Details: Research Faculty',exact:true}).click();
     const modal=page.getByRole('dialog',{name:'Faculty Research Details'});
     await expect(modal).toContainText('RESEARCH-E2E');

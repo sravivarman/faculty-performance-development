@@ -18,7 +18,7 @@ test("patent affiliations, one-record lifecycle, evidence and date-specific gran
   const create=async(path:string,data:object)=>{const response=await request.post(`/api${path}`,{data});expect(response.ok()).toBeTruthy();return response.json();};
   const faculty=await create("/faculty",{employee_id:"PAT-A",name:"Patent Faculty A"});
   await create("/faculty",{employee_id:"PAT-B",name:"Patent Faculty B"});
-  await create("/students",{roll_number:"PAT-X",name:"Patent Student X"});
+  const student=await create("/students",{roll_number:"PAT-X",name:"Patent Student X"});
   await page.goto("/patents/new");
   await page.getByRole("combobox",{name:"Patent Type",exact:true}).selectOption("UTILITY");
   await page.getByLabel("Patent title *",{exact:true}).fill("Adaptive energy storage patent");
@@ -30,7 +30,7 @@ test("patent affiliations, one-record lifecycle, evidence and date-specific gran
     await card.getByLabel("Inventor Name",{exact:true}).fill(inventor.name);
     await card.getByRole("combobox",{name:"Person Type",exact:true}).selectOption(inventor.type);
     if(inventor.type==="FACULTY")await chooseFaculty(card,inventor.name);
-    if(inventor.type==="STUDENT")await card.getByRole("combobox",{name:"Student",exact:true}).selectOption({label:inventor.name});
+    if(inventor.type==="STUDENT")await card.getByRole("combobox",{name:"Student",exact:true}).selectOption(String(student.id));
     if(inventor.type==="EXTERNAL_PERSON")await card.getByLabel("Organization / Institution",{exact:true}).fill("IIT Hyderabad");
   }
   await expect(page.getByRole("checkbox",{name:"Claiming faculty: Patent Faculty A",exact:true})).toBeChecked();
@@ -58,7 +58,7 @@ test("patent affiliations, one-record lifecycle, evidence and date-specific gran
   await page.getByRole("button",{name:"Granted: 1",exact:true}).click();await expect(page.getByRole("link",{name:"Adaptive energy storage patent",exact:true})).toBeVisible();
   await page.screenshot({path:"test-results/patent-dashboard.png",fullPage:true});
   await page.getByRole("link",{name:"Publications",exact:true}).click();await expect(page.getByLabel("From Date",{exact:true})).toHaveValue("2027-08-12");
-  await page.getByRole("link",{name:"Overview",exact:true}).click();await page.getByRole("button",{name:"Patents: 1",exact:true}).click();await page.getByRole("button",{name:"Granted: 1",exact:true}).click();
+  await page.getByRole("link",{name:"Overview",exact:true}).click();await page.getByRole("button",{name:"Patents: 1",exact:true}).filter({hasText:"Explore records"}).click();await page.getByRole("button",{name:"Granted: 1",exact:true}).click();
   await expect(page).toHaveURL(/metric=granted/);await expect(page.getByRole("link",{name:"Adaptive energy storage patent",exact:true})).toBeVisible();
   await page.goto("/patents/new");await page.getByRole("combobox",{name:"Patent Type",exact:true}).selectOption("UTILITY");await page.getByLabel("Patent title *",{exact:true}).fill("Duplicate check");await page.getByLabel("Application number",{exact:true}).fill("eee2026123");await page.getByLabel("I reviewed the dates, inventor affiliations and claimants.").check();await page.getByRole("button",{name:"Save patent",exact:true}).click();
   await expect(page.getByRole("main").getByRole("alert")).toContainText("Patent already exists");await expect(page.getByRole("link",{name:"Open existing patent →"})).toHaveAttribute("href",`/patents/${identity}`);

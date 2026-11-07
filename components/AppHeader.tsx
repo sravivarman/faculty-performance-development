@@ -57,12 +57,15 @@ function itemIsActive(pathname: string, item: NavigationItem) {
 
 export default function AppHeader() {
   const pathname = usePathname();
-  const { range } = useDateRange();
+  const { range, preset } = useDateRange();
   const [openMenu, setOpenMenu] = useState<string | null>(null);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [mobileSection, setMobileSection] = useState<string | null>(null);
   const headerRef = useRef<HTMLElement>(null);
-  const rangeQuery = new URLSearchParams(range).toString();
+  const rangeQuery = new URLSearchParams({
+    ...range,
+    ...(preset === "Custom" ? {} : { reporting_preset: preset }),
+  }).toString();
 
   useEffect(() => {
     function closeFromOutside(event: PointerEvent) {

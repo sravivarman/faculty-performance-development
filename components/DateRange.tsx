@@ -24,6 +24,7 @@ export function DateRangeProvider({children}:{children:React.ReactNode}) {
   useEffect(()=>{
     const params=new URLSearchParams(window.location.search);
     const requested={from_date:params.get("from_date")||"",to_date:params.get("to_date")||""};
+    const requestedPreset=params.get("reporting_preset");
     let chosen:DatePreset="This Academic Year",value=presetRange(chosen);
     if(selection.current) {
       chosen=selection.current.preset;
@@ -38,7 +39,13 @@ export function DateRangeProvider({children}:{children:React.ReactNode}) {
         }
       } catch{/* Start with the current academic year when storage is unavailable. */}
     }
-    if(validRange(requested)) {
+    // Header navigation carries the selected named preset explicitly. Its
+    // concrete bounds are useful to server-rendered links, but they must not
+    // turn a dynamic preset into a stale Custom range on the next route.
+    if(requestedPreset && requestedPreset !== "Custom" && isDatePreset(requestedPreset)) {
+      chosen=requestedPreset;
+      value=presetRange(chosen);
+    } else if(validRange(requested)) {
       if(requested.from_date!==value.from_date || requested.to_date!==value.to_date) chosen="Custom";
       value=requested;
     }

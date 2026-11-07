@@ -1,7 +1,8 @@
 import {test,expect} from '@playwright/test';
 
 test('executive overview counts, filters, charts, faculty drills and restored context',async({page,request})=>{
-  await page.clock.install({time:new Date('2026-10-02T12:00:00+05:30')});
+  const overviewDate='2031-09-29';
+  await page.clock.install({time:new Date('2031-10-02T12:00:00+05:30')});
   const faculty=[];
   for(const name of ['Overview Claimant','Overview Coauthor']){
     const result=await request.post('/api/faculty',{data:{employee_id:name,name}});expect(result.ok()).toBeTruthy();faculty.push(await result.json());
@@ -10,14 +11,21 @@ test('executive overview counts, filters, charts, faculty drills and restored co
   const ids:number[]=[];
   try{
     for(let i=0;i<5;i++){
-      const response=await request.post('/api/publications',{data:{title:`Overview paper ${i}`,doi:`10.1234/overview-${i}`,publication_type:i<3?'JOURNAL':'CONFERENCE',publication_date:'2026-09-18',journal_conference_name:'Overview Journal',conference_name:i>=3?'Overview Conference':null,indexing:i===0?['SCIE','SCOPUS','WEB_OF_SCIENCE']:['UNKNOWN'],quartile:i===0?'Q1':'UNKNOWN',classification:'INTERNATIONAL',authors:[
+      const response=await request.post('/api/publications',{data:{title:`Overview paper ${i}`,doi:`10.1234/overview-${i}`,publication_type:i<3?'JOURNAL':'CONFERENCE',publication_date:overviewDate,journal_conference_name:'Overview Journal',conference_name:i>=3?'Overview Conference':null,indexing:i===0?['SCIE','SCOPUS','WEB_OF_SCIENCE']:['UNKNOWN'],quartile:i===0?'Q1':'UNKNOWN',classification:'INTERNATIONAL',authors:[
         {author_order:1,author_name_from_source:faculty[0].name,person_type:'FACULTY',faculty_id:faculty[0].id,is_claiming_faculty:true},
         {author_order:2,author_name_from_source:faculty[1].name,person_type:'FACULTY',faculty_id:faculty[1].id},
         {author_order:3,author_name_from_source:'Overview Student',person_type:'STUDENT',student_id:student.id},
         {author_order:4,author_name_from_source:'Unclassified',person_type:'UNKNOWN',affiliation_from_source:['Vardhaman College']},
       ]}});expect(response.ok()).toBeTruthy();ids.push((await response.json()).id);
     }
-    await page.goto('/publications?from_date=2026-09-01&to_date=2026-09-30');
+    const dashboardResponse=page.waitForResponse(response=>{
+      const url=new URL(response.url());
+      return url.pathname==='/api/publication-dashboard'&&url.searchParams.get('from_date')===overviewDate&&url.searchParams.get('to_date')===overviewDate;
+    });
+    await page.goto(`/publications?from_date=${overviewDate}&to_date=${overviewDate}`);
+    const dashboard=await dashboardResponse;
+    expect(dashboard.ok(),await dashboard.text()).toBeTruthy();
+    expect((await dashboard.json()).totals.total).toBe(5);
     await expect(page.getByRole('button',{name:'Total Publications: 5',exact:true})).toBeVisible();
     await expect(page.getByRole('button',{name:'Faculty Claimants: 1',exact:true})).toBeVisible();
     await page.getByRole('button',{name:'Scopus: 1',exact:true}).click();
@@ -47,7 +55,7 @@ test('executive overview counts, filters, charts, faculty drills and restored co
     await preset.selectOption('This Calendar Year');
     await expect(page.getByRole('button',{name:'Total Publications: 5',exact:true})).toBeVisible();
     await page.getByText('Explore monthly records',{exact:true}).click();
-    await page.getByRole('button',{name:'2026-09 total: 5',exact:true}).click();
+    await page.getByRole('button',{name:'2031-09 total: 5',exact:true}).click();
     await expect(page.locator('#papers').getByRole('heading')).toContainText('5 papers');
     await preset.selectOption('This Month');
     await expect(page.locator('#papers').getByRole('heading')).toContainText('0 papers');
@@ -58,7 +66,9 @@ test('executive overview counts, filters, charts, faculty drills and restored co
     await page.setViewportSize({width:390,height:844});
     expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(390);
     await page.screenshot({path:'test-results/executive-overview-mobile.png',fullPage:true});
-    await page.getByRole('link',{name:'Overview',exact:true}).click();
+    const header=page.locator('.portal-header');
+    await header.getByRole('button',{name:'Menu',exact:true}).click();
+    await header.getByRole('navigation',{name:'Mobile primary navigation',exact:true}).getByRole('link',{name:'Overview',exact:true}).click();
     await expect(page.getByRole('heading',{name:'Research Overview',exact:true})).toBeVisible();
   }finally{for(const id of ids)await request.delete(`/api/publications/${id}`);}
 });

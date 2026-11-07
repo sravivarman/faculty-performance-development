@@ -19,7 +19,7 @@ test("book chapter entry, contributors, evidence, counting and date-preserving d
   await create("/faculty",{employee_id:"BOOK-A",name:"Book Faculty A"});
   await create("/faculty",{employee_id:"BOOK-B",name:"Book Faculty B"});
   await create("/faculty",{employee_id:"BOOK-C",name:"Book Faculty C"});
-  await create("/students",{roll_number:"BOOK-X",name:"Book Student X"});
+  const student=await create("/students",{roll_number:"BOOK-X",name:"Book Student X"});
   await page.goto("/books/new");
   await page.getByRole("button",{name:"Manual Entry",exact:true}).click();
   await expect(page.getByLabel("Chapter number",{exact:true})).toHaveCount(0);
@@ -36,7 +36,7 @@ test("book chapter entry, contributors, evidence, counting and date-preserving d
     await card.getByLabel("Contributor name",{exact:true}).fill(c.name);
     await card.getByRole("combobox",{name:"Person Type",exact:true}).selectOption(c.type);
     if(c.type==="FACULTY")await chooseFaculty(card,c.name);
-    if(c.type==="STUDENT")await card.getByRole("combobox",{name:"Student",exact:true}).selectOption({label:c.name});
+    if(c.type==="STUDENT")await card.getByRole("combobox",{name:"Student",exact:true}).selectOption(String(student.id));
     if(c.type==="EXTERNAL_PERSON")await card.getByLabel("Organization / Institution",{exact:true}).fill("External University");
   }
   await page.getByRole("radio",{name:"Claiming faculty: Book Faculty A",exact:true}).check();
@@ -78,7 +78,7 @@ test("book chapter entry, contributors, evidence, counting and date-preserving d
   const record=await (await request.get(`/api/books/${id}`)).json();
   expect(record.contributors).toHaveLength(5);expect(record.evidence_count).toBe(2);
   await page.getByRole("link",{name:"Overview",exact:true}).click();
-  await page.getByRole("button",{name:"Books / Chapters: 1",exact:true}).click();
+  await page.getByRole("button",{name:"Books / Chapters: 1",exact:true}).filter({hasText:"Explore records"}).click();
   await expect(page.getByLabel("From Date",{exact:true})).toHaveValue("2026-08-15");
 });
 

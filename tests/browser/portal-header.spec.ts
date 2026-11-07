@@ -1,7 +1,19 @@
 import { expect, test } from "@playwright/test";
 
+async function expectRangeHref(locator: import("@playwright/test").Locator, path: string, period: string) {
+  const href = await locator.getAttribute("href");
+  expect(href).toBeTruthy();
+  const target = new URL(href!, "http://portal.local");
+  const expected = new URLSearchParams(period);
+  expect(target.pathname).toBe(path);
+  expect(target.searchParams.get("from_date")).toBe(expected.get("from_date"));
+  expect(target.searchParams.get("to_date")).toBe(expected.get("to_date"));
+  expect(target.searchParams.get("reporting_preset")).toBe("This Academic Year");
+}
+
 test("portal header distinguishes direct links from dropdown parent menus", async ({ page }) => {
   const period = "from_date=2026-07-01&to_date=2027-06-30";
+  await page.clock.install({ time: new Date("2026-10-02T12:00:00+05:30") });
   await page.setViewportSize({ width: 1440, height: 900 });
   await page.goto(`/?${period}`);
   const header = page.locator(".portal-header");
@@ -25,18 +37,18 @@ test("portal header distinguishes direct links from dropdown parent menus", asyn
   await facultyDevelopment.click();
   await expect(facultyDevelopment).toHaveAttribute("aria-expanded", "true");
   await expect(facultyDevelopment).toHaveClass(/open/);
-  await expect(desktopNavigation.getByRole("menuitem", { name: /FDP \/ STTP/ })).toHaveAttribute("href", `/fdp?${period}`);
+  await expectRangeHref(desktopNavigation.getByRole("menuitem", { name: /FDP \/ STTP/ }), "/fdp", period);
   await researchFunding.click();
   await expect(facultyDevelopment).toHaveAttribute("aria-expanded", "false");
   await expect(researchFunding).toHaveAttribute("aria-expanded", "true");
-  await expect(desktopNavigation.getByRole("menuitem", { name: "Sponsored Research" })).toHaveAttribute("href", `/research-projects?${period}`);
-  await expect(desktopNavigation.getByRole("menuitem", { name: "Consultancy" })).toHaveAttribute("href", `/consultancy?${period}`);
-  await expect(desktopNavigation.getByRole("menuitem", { name: "Seed Money / Internal Grants" })).toHaveAttribute("href", `/seed-money?${period}`);
+  await expectRangeHref(desktopNavigation.getByRole("menuitem", { name: "Sponsored Research" }), "/research-projects", period);
+  await expectRangeHref(desktopNavigation.getByRole("menuitem", { name: "Consultancy" }), "/consultancy", period);
+  await expectRangeHref(desktopNavigation.getByRole("menuitem", { name: "Seed Money / Internal Grants" }), "/seed-money", period);
   await expect(desktopNavigation.getByRole("menuitem", { name: "NBA Funding Reports" })).toHaveCount(0);
 
   await reports.click();
   await expect(reports).toHaveAttribute("aria-expanded", "true");
-  await expect(desktopNavigation.getByRole("menuitem", { name: "NBA Funding Reports" })).toHaveAttribute("href", `/nba-reports?${period}`);
+  await expectRangeHref(desktopNavigation.getByRole("menuitem", { name: "NBA Funding Reports" }), "/nba-reports", period);
   await page.keyboard.press("Escape");
   await expect(reports).toHaveAttribute("aria-expanded", "false");
   await expect(desktopNavigation.getByRole("menuitem", { name: "NBA Funding Reports" })).toHaveCount(0);
@@ -55,7 +67,7 @@ test("portal header distinguishes direct links from dropdown parent menus", asyn
   await expect(more).toHaveAttribute("aria-expanded", "false");
   await expect(more).toHaveClass(/active-parent/);
   await more.click();
-  await expect(compactNavigation.getByRole("menuitem", { name: "Consultancy" })).toHaveAttribute("href", `/consultancy?${period}`);
+  await expectRangeHref(compactNavigation.getByRole("menuitem", { name: "Consultancy" }), "/consultancy", period);
   await expect(compactNavigation.getByRole("menuitem", { name: "NBA Funding Reports" })).toBeVisible();
 
   await page.setViewportSize({ width: 600, height: 900 });
@@ -63,7 +75,7 @@ test("portal header distinguishes direct links from dropdown parent menus", asyn
   await header.getByRole("button", { name: "Menu", exact: true }).click();
   const mobileNavigation = header.getByRole("navigation", { name: "Mobile primary navigation", exact: true });
   await mobileNavigation.getByRole("button", { name: "Faculty Development", exact: true }).click();
-  await expect(mobileNavigation.getByRole("link", { name: "Certifications & MOOCs", exact: true })).toHaveAttribute("href", `/certifications?${period}`);
+  await expectRangeHref(mobileNavigation.getByRole("link", { name: "Certifications & MOOCs", exact: true }), "/certifications", period);
   await expect(mobileNavigation.locator(".portal-chevron")).toHaveCount(3);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBeTruthy();
 });

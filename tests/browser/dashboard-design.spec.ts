@@ -13,7 +13,9 @@ test('production dashboard renders aggregates, calendar controls and responsive 
     await expect(page.getByRole('heading',{name:title,exact:true})).toBeVisible();
   }
   await expect(page.getByRole('heading',{name:'Indexing Distribution',exact:true})).toBeVisible();
-  await expect(page.getByText('Not configured',{exact:true}).first()).toBeVisible();
+  const fundingSummary=page.getByRole('heading',{name:'Funding at a glance',exact:true}).locator('..');
+  const sponsoredResearch=fundingSummary.getByRole('row').filter({hasText:'Sponsored Research'});
+  await expect(sponsoredResearch.getByRole('button',{name:`${report.funding_summary.sponsored_research.total} records`,exact:true})).toBeVisible();
   await expect(page.locator('[tremor-id="tremor-raw"]').first()).toHaveCSS('background-color','rgb(255, 255, 255)');
   await expect(page.locator('.dash-grid').first().locator(':scope > *')).toHaveCount(8);
   expect(await page.locator('.dash-grid').first().evaluate(e=>getComputedStyle(e).gridTemplateColumns.split(' ').length)).toBe(4);
@@ -54,7 +56,9 @@ test('production dashboard renders aggregates, calendar controls and responsive 
   expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(390);
   expect(await page.locator('.dash-grid').first().evaluate(e=>getComputedStyle(e).gridTemplateColumns.split(' ').length)).toBe(1);
   await page.screenshot({path:'test-results/research-production-mobile.png',fullPage:true});
-  await page.getByRole('link',{name:'Overview',exact:true}).click();
+  const header=page.locator('.portal-header');
+  await header.getByRole('button',{name:'Menu',exact:true}).click();
+  await header.getByRole('navigation',{name:'Mobile primary navigation',exact:true}).getByRole('link',{name:'Overview',exact:true}).click();
   await expect(page.getByRole('heading',{name:'Research Overview',exact:true})).toBeVisible();
   expect(errors).toEqual([]);
 });

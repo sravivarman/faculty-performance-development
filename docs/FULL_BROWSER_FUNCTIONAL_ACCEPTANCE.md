@@ -1,6 +1,6 @@
 # Full Browser Functional Acceptance — Phase 3E
 
-**Current recommendation: FAIL — full browser acceptance rerun required**
+**Current recommendation: PASS — full browser acceptance verified**
 
 The functional suite uses the real Next.js interface and Playwright browser
 actions. It does not use the production database or evidence storage.
@@ -117,10 +117,73 @@ them, avoiding reliance on production Master data or prior browser state.
 - `npm run typecheck` — passed.
 - `git diff --check` — passed.
 - `npx playwright test --list tests/browser` — passed; 43 tests discovered.
-- Focused and full Playwright executions initiated in this agent environment
-  were terminated during web-server startup at the environment's 30-second
-  execution limit, before test outcomes were emitted. They are therefore
-  **not** recorded as passed.
+- A subsequent local full run completed with 35 passing and 8 failing tests.
+  It exposed the follow-up issues below; that run is not represented as a
+  passing acceptance result.
+
+### Follow-up repairs after the 35/8 local run
+
+| Failure | Repair |
+| --- | --- |
+| Books and Patents could not select newly created Students | Tests now use the returned Student Master ID, rather than a display label that includes the generated student identifier. |
+| Dashboard tests expected retired `Not configured` and a removed sponsored-research KPI button | Tests now assert the live **Funding at a glance** summary and its API-backed record count. |
+| This Academic Year became Custom after header navigation | Named presets now travel with header links as a UI-only `reporting_preset`; the shared date provider recalculates its range on the destination route. Backend reporting requests continue to contain only explicit dates. |
+| FDP and Publication KPI tests reported an unexplained missing card | The tests now wait for and verify the corresponding dashboard HTTP response and exact total before checking the rendered KPI, so a real data/API error is reported directly. |
+
+The TypeScript and diff checks after these changes passed. The full browser
+suite still needs a local rerun because this agent environment stops
+long-running Playwright invocations after roughly 30 seconds.
+
+### Latest local execution and final follow-up
+
+A later local execution completed rather than timing out:
+
+- Smoke suite: 10 passed, 3 failed.
+- Full suite: 36 passed, 7 failed.
+
+Those failures were all deterministic test-contract issues, not new backend
+or record-management failures:
+
+1. The home page renders a disabled scoped-analysis card and an enabled
+   Research Activity card with the same label. Books and Patents tests now
+   select the enabled card by its `Explore records` text.
+2. The funding summary has three record-count buttons. Dashboard tests now
+   scope the count to the **Sponsored Research** table row.
+3. Header tests now validate date bounds and the named `reporting_preset`
+   parameter individually, rather than asserting an obsolete exact URL.
+4. The e2e database is shared by all browser specs in one invocation. The
+   Publication and FDP/Certification KPI fixtures now use unique reporting
+   dates; the current-work Certification case is also scoped to its fixture
+   Faculty Master record. This prevents records created by prior specs from
+   inflating otherwise exact KPI assertions.
+
+These follow-up changes have TypeScript and diff-check validation, but require
+one further local full browser run before this document can record acceptance
+as passing.
+
+### Most recent local rerun
+
+The smoke suite then passed in full: **13 passed**. The full suite next
+improved to **41 passed, 2 failed**, and then to **42 passed, 1 failed**. The
+remaining responsive-navigation correction is now applied:
+
+1. At mobile width, the dashboard-design and executive-overview tests must
+   open the Header Menu before selecting Overview; the desktop link is
+   intentionally not rendered.
+2. The executive-publications fixture now uses September 2031 with the browser
+   clock set to October 2031. Calendar-year and previous-month assertions are
+   therefore independent of 2026 records created by earlier browser specs.
+
+### Final acceptance evidence
+
+The final local full browser run completed successfully:
+
+- `npm run test:functional:smoke` — **13 passed** in 50.5 seconds.
+- `npm run test:functional` — **43 passed** in 2.5 minutes.
+
+The three Alembic warnings about unnamed reflected SQLite CHECK constraints
+remain non-fatal migration warnings; they did not affect the isolated browser
+database, application startup, or any acceptance assertion.
 
 Run these commands locally to complete the acceptance evidence:
 

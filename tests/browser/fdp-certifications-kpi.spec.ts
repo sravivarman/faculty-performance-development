@@ -1,6 +1,6 @@
 import { expect, test } from "@playwright/test";
 
-const period = "from_date=2026-07-01&to_date=2026-12-31";
+const period = "from_date=2031-02-01&to_date=2031-02-02";
 
 test("FDP and certification KPI selections do not refetch or replace their summaries", async ({ page, request }) => {
   const create = async (path: string, data: object) => {
@@ -16,23 +16,30 @@ test("FDP and certification KPI selections do not refetch or replace their summa
 
   await create("/fdp-activities", {
     title: "KPI FDP", activity_type: "FDP", organizing_institution: "Vardhaman",
-    start_date: "2026-08-01", duration_value: 1, duration_unit: "DAYS",
+    start_date: "2031-02-01", duration_value: 1, duration_unit: "DAYS",
     participants: [{ faculty_id: facultyA.id, role: "ATTENDEE" }], speakers: [],
   });
   await create("/fdp-activities", {
     title: "KPI STTP", activity_type: "STTP", organizing_institution: "Vardhaman",
-    start_date: "2026-08-02", duration_value: 1, duration_unit: "DAYS",
+    start_date: "2031-02-02", duration_value: 1, duration_unit: "DAYS",
     participants: [{ faculty_id: facultyB.id, role: "ATTENDEE" }], speakers: [],
   });
   await create("/certifications", {
     faculty_id: facultyA.id, name: "KPI completed", category: "MOOC", provider: "Provider",
-    status: "COMPLETED", completion_date: "2026-08-01",
+    status: "COMPLETED", completion_date: "2031-02-01",
   });
   await create("/certifications", {
-    faculty_id: facultyB.id, name: "KPI current", category: "OTHER", provider: "Provider", status: "IN_PROGRESS",
+    faculty_id: facultyA.id, name: "KPI current", category: "OTHER", provider: "Provider", status: "IN_PROGRESS",
   });
 
+  const fdpDashboardResponse = page.waitForResponse((response) => {
+    const url = new URL(response.url());
+    return url.pathname === "/api/fdp-dashboard" && url.searchParams.get("from_date") === "2031-02-01" && url.searchParams.get("to_date") === "2031-02-02";
+  });
   await page.goto(`/fdp?${period}`);
+  const fdpDashboard = await fdpDashboardResponse;
+  expect(fdpDashboard.ok(), await fdpDashboard.text()).toBeTruthy();
+  expect((await fdpDashboard.json()).totals.faculty_contributors).toBe(2);
   const fdpCards = [
     ["Faculty Participated: 2", "FDPs: 1", "STTPs: 1", "Workshops: 0"],
   ];
@@ -52,7 +59,12 @@ test("FDP and certification KPI selections do not refetch or replace their summa
   await expect(page.locator("#fdp-records")).toContainText("KPI STTP");
   for (const name of fdpCards[0]) await expect(page.getByRole("button", { name, exact: true })).toBeVisible();
 
-  await page.goto(`/certifications?${period}`);
+  const certificationDashboardResponse = page.waitForResponse((response) => {
+    const url = new URL(response.url());
+    return url.pathname === "/api/certification-dashboard" && url.searchParams.get("from_date") === "2031-02-01" && url.searchParams.get("to_date") === "2031-02-02" && url.searchParams.get("faculty_id") === String(facultyA.id);
+  });
+  await page.goto(`/certifications?${period}&faculty_id=${facultyA.id}`);
+  expect((await certificationDashboardResponse).ok()).toBeTruthy();
   const certificationCards = ["Certifications completed in period: 1", "Completed: 1", "In progress: 1", "MOOCs: 1"];
   for (const name of certificationCards) await expect(page.getByRole("button", { name, exact: true })).toBeVisible();
 
