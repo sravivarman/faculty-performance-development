@@ -26,12 +26,20 @@ test("publication report builder exposes table and citation configuration", asyn
   await expect.poll(() => facultyGrid.evaluate((element) => getComputedStyle(element).gridTemplateColumns.split(" ").length)).toBe(1);
   await page.setViewportSize({ width: 1280, height: 720 });
   await expect(reportBuilder.getByRole("checkbox", { name: /Article Number/ })).toBeVisible();
-  await expect(reportBuilder.getByRole("checkbox", { name: "Classification Stored", exact: true })).toBeVisible();
+  await expect(reportBuilder.getByRole("checkbox", { name: "Conference Scope Stored", exact: true })).toBeVisible();
   await expect(reportBuilder.getByRole("checkbox", { name: "SCI Indexed Calculated", exact: true })).toBeVisible();
   await expect(reportBuilder.getByText("Conference Type", { exact: true })).toHaveCount(0);
   for (const removedField of ["Starting Page", "Ending Page", "Conference Acronym", "Funding Acknowledgement", "Funded Publication", "Corresponding Institution"]) {
     await expect(reportBuilder.getByText(removedField, { exact: true })).toHaveCount(0);
   }
+
+  const publicationType = reportBuilder.getByRole("combobox", { name: "Publication Type", exact: true });
+  await publicationType.selectOption("JOURNAL");
+  await expect(reportBuilder.getByRole("checkbox", { name: "Conference Scope Stored", exact: true })).toHaveCount(0);
+  await expect(reportBuilder.getByRole("combobox", { name: "Journal Quartile", exact: true })).toBeVisible();
+  await publicationType.selectOption("CONFERENCE");
+  await expect(reportBuilder.getByRole("checkbox", { name: "Conference Scope Stored", exact: true })).toBeVisible();
+  await expect(reportBuilder.getByRole("combobox", { name: "Journal Quartile", exact: true })).toHaveCount(0);
 
   await reportBuilder.getByRole("combobox", { name: "Reporting Period", exact: true }).selectOption("CUSTOM");
   await expect(reportBuilder.locator("#report-from-date")).toBeVisible();

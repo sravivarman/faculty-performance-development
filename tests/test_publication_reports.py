@@ -150,26 +150,48 @@ def test_report_classification_and_indexing_flags_use_stored_publication_values(
     preview = client.post("/publication-reports/preview", json=request(fields, page_size="all"))
     assert preview.status_code == 200, preview.text
     rows = {item["values"]["publication_title"]: item["values"] for item in preview.json()["items"]}
-    assert rows["Classification International"]["classification"] == "International"
+    # New configurations treat the stable key as Conference Scope only.
+    assert rows["Classification International"]["classification"] == ""
     assert rows["Classification National"]["classification"] == "National"
-    assert rows["Classification Other"]["classification"] == "Other"
+    assert rows["Classification Other"]["classification"] == ""
     assert rows["Classification Unknown"]["classification"] == "Unknown"
     assert rows["Classification National"]["sci_indexed"] == "Yes"
     assert rows["Classification Other"]["indexing_databases"] == "None"
     assert rows["Classification Unknown"]["indexing_databases"] == "Unknown"
     assert rows["Classification International"]["indexing_databases"] == ""
 
-    legacy_preview = client.post("/publication-reports/preview", json=request(["conference_type"], page_size="all"))
+    legacy_preview = client.post("/publication-reports/preview", json={**request(["conference_type"], page_size="all"), "legacy_classification": True})
     assert legacy_preview.status_code == 200, legacy_preview.text
-    assert legacy_preview.json()["headers"] == [{"id": "classification", "heading": "Classification"}]
+    assert legacy_preview.json()["headers"] == [{"id": "classification", "heading": "Legacy Classification"}]
+    legacy_rows = {item["values"]["classification"] for item in legacy_preview.json()["items"]}
+    assert {"International", "National", "Other", "Unknown"}.issubset(legacy_rows)
 
     exported = client.post("/publication-reports/export/xlsx", json=request(fields, page_size="all"))
     assert exported.status_code == 200, exported.text
     worksheet = load_workbook(BytesIO(exported.content), read_only=True).active
     headers = [cell.value for cell in next(worksheet.iter_rows(min_row=3, max_row=3))]
-    exported_rows = {row[headers.index("Publication Title")]: row[headers.index("Classification")]
+    exported_rows = {row[headers.index("Publication Title")]: row[headers.index("Conference Scope")]
                      for row in worksheet.iter_rows(min_row=4, values_only=True)}
     assert exported_rows["Classification National"] == rows["Classification National"]["classification"]
+
+
+def test_report_subtype_quality_applicability_preserves_stored_metadata(setup):
+    client, _, _ = setup
+    journal = paper("10.1234/batch3-journal", "2026-09-18")
+    journal.update(title="Journal quality", publication_type="JOURNAL", quartile="Q1", impact_factor=4.2, classification="INTERNATIONAL")
+    conference = paper("10.1234/batch3-conference", "2026-09-19")
+    conference.update(title="Conference scope", publication_type="CONFERENCE", quartile="Q2", impact_factor=3.1, classification="NATIONAL", conference_name="Batch 3 Conference")
+    assert client.post("/publications", json=journal).status_code == 201
+    assert client.post("/publications", json=conference).status_code == 201
+
+    fields = ["publication_title", "quartile", "impact_factor", "classification"]
+    preview = client.post("/publication-reports/preview", json=request(fields, page_size="all"))
+    assert preview.status_code == 200, preview.text
+    rows = {item["values"]["publication_title"]: item["values"] for item in preview.json()["items"]}
+    assert rows["Journal quality"] == {"publication_title": "Journal quality", "quartile": "Q1", "impact_factor": 4.2, "classification": ""}
+    assert rows["Conference scope"] == {"publication_title": "Conference scope", "quartile": "", "impact_factor": "", "classification": "National"}
+    rejected = client.post("/publication-reports/preview", json=request(["publication_title"], publication_type="CONFERENCE", quartile="Q2"))
+    assert rejected.status_code == 422
 
 
 def test_report_indexing_filters_use_exact_json_codes_across_preview_export_and_citations(setup):

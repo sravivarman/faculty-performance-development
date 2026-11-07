@@ -18,7 +18,8 @@ from sqlalchemy import exists, func, select
 from sqlalchemy.orm import Session
 
 from .db import get_db
-from .models import AcademicYear, Faculty, Publication, PublicationAuthor, PublicationReportTemplate, Student
+from .models import AcademicYear, Department, Faculty, Publication, PublicationAuthor, PublicationReportTemplate, Student
+from .department_filtering import department_record_predicate
 from .publication_reporting import P, A, publication_query
 from .reporting import validate_date_range
 from .services import columns
@@ -95,7 +96,7 @@ FIELD_CATALOGUE = [
     field("ugc_care_listed", "UGC CARE Listed", "Indexing and Research Quality", CALCULATED),
     field("quartile", "Quartile", "Indexing and Research Quality", AVAILABLE),
     field("impact_factor", "Impact Factor", "Indexing and Research Quality", AVAILABLE),
-    field("classification", "Classification", "Indexing and Research Quality", AVAILABLE, "Stored institutional classification for journal and conference publications."),
+    field("classification", "Conference Scope", "Conference Metadata", AVAILABLE, "Conference rows only. Historical templates may request the raw legacy classification value."),
     # Group 6
     field("internal_author_count", "Number of Internal Authors", "Institutional and Collaboration Details", CALCULATED),
     field("external_author_count", "Number of External Authors", "Institutional and Collaboration Details", CALCULATED),
@@ -147,6 +148,13 @@ class ReportRequest(BaseModel):
     publication_year: int | None = Field(default=None, ge=1900, le=2500)
     indexing: str | None = None
     quartile: str | None = None
+    legacy_classification: bool = False
+    # LEGACY preserves requests/templates created before Phase 3A.
+    scope_type: Literal["LEGACY", "INSTITUTION", "DEPARTMENT", "FACULTY"] = "LEGACY"
+    department_id: int | None = None
+    attribution_mode: Literal["CURRENT", "AT_ACTIVITY_DATE"] = "CURRENT"
+    scope_faculty_id: int | None = None
+    faculty_relationship: Literal["CLAIMING", "CONTRIBUTING"] = "CLAIMING"
     row_mode: Literal["PUBLICATION", "FACULTY"] = "PUBLICATION"
     sort: Literal["DATE_DESC", "DATE_ASC", "YEAR", "FACULTY", "TITLE", "VENUE"] = "DATE_DESC"
     fields: list[str] = Field(default_factory=lambda: list(DEFAULT_FIELDS))
@@ -170,6 +178,14 @@ class ReportRequest(BaseModel):
             raise ValueError("Select an Academic Year")
         if self.period_mode == "CUSTOM":
             validate_date_range(self.from_date, self.to_date)
+        if self.quartile and self.publication_type == "CONFERENCE":
+            raise ValueError("Quartile is available only for Journal publications")
+        if self.scope_type == "DEPARTMENT" and self.department_id is None:
+            raise ValueError("Department scope requires department_id")
+        if self.scope_type == "FACULTY" and self.scope_faculty_id is None:
+            raise ValueError("Faculty scope requires scope_faculty_id")
+        if self.scope_type in {"INSTITUTION", "LEGACY"} and (self.department_id is not None or self.scope_faculty_id is not None):
+            raise ValueError("Department or Faculty IDs require the matching reporting scope")
         if self.page_size != "all" and self.page_size not in (10, 25, 50):
             raise ValueError("Page size must be 10, 25, 50 or all")
         invalid = set(self.fields) - SELECTABLE
@@ -219,6 +235,10 @@ def _supported_template_config(config: dict | None):
     return {
         **source,
         "fields": fields or list(DEFAULT_FIELDS),
+        # Old templates predate subtype-aware terminology. Preserve their
+        # stored classification request as an explicit read-only compatibility
+        # mode; opening a template never writes this marker back to the DB.
+        "legacy_classification": bool("classification" in fields and (source.get("legacy_classification") or source.get("field_semantics_version") != 3)),
         "headings": {LEGACY_FIELD_ALIASES.get(field_id, field_id): heading for field_id, heading in headings.items()
                      if LEGACY_FIELD_ALIASES.get(field_id, field_id) in fields}
         if isinstance(headings, dict) else {},
@@ -303,6 +323,17 @@ def _selection(db: Session, request: ReportRequest):
         query = query.where(P.publication_date.between(request.from_date, request.to_date))
     if request.publication_type != "ALL":
         query = query.where(P.publication_type == request.publication_type)
+    if request.scope_type == "DEPARTMENT":
+        if db.get(Department, request.department_id) is None:
+            raise HTTPException(422, "Unknown Department ID")
+        query = query.where(department_record_predicate(db, "publications", request.department_id, attribution_mode=request.attribution_mode))
+    elif request.scope_type == "FACULTY":
+        if db.get(Faculty, request.scope_faculty_id) is None:
+            raise HTTPException(422, "Unknown Faculty ID")
+        if request.faculty_relationship == "CLAIMING":
+            query = query.where(P.authors.any((A.faculty_id == request.scope_faculty_id) & A.is_claiming_faculty.is_(True)))
+        else:
+            query = query.where(P.authors.any(A.faculty_id == request.scope_faculty_id))
     if request.faculty_ids:
         if request.row_mode == "FACULTY":
             # A Faculty-wise report is claimant-specific: one author association
@@ -344,7 +375,7 @@ def _build_rows(db: Session, request: ReportRequest):
             contexts = [author for author in claimant_authors
                         if not request.faculty_ids or author.faculty_id in request.faculty_ids]
         for context in contexts:
-            row = _values(pub, context, faculty, students, years, author_names, faculty_authors, claimant_authors, student_authors)
+            row = _values(pub, context, faculty, students, years, author_names, faculty_authors, claimant_authors, student_authors, request)
             row["_publication"] = pub
             row["_author_names"] = author_names
             rows.append(row)
@@ -362,7 +393,7 @@ def _build_rows(db: Session, request: ReportRequest):
     return rows, len(publications)
 
 
-def _values(pub, context, faculty, students, years, author_names, faculty_authors, claimant_authors, student_authors):
+def _values(pub, context, faculty, students, years, author_names, faculty_authors, claimant_authors, student_authors, request):
     current = faculty.get(context.faculty_id) if context else None
     faculty_names = [faculty[author.faculty_id].name for author in faculty_authors]
     claimant_names = [faculty[author.faculty_id].name for author in claimant_authors]
@@ -426,9 +457,9 @@ def _values(pub, context, faculty, students, years, author_names, faculty_author
         "esci_indexed": _index_flag(pub, "ESCI"),
         "web_of_science_indexed": _index_flag(pub, "WEB_OF_SCIENCE"),
         "ugc_care_listed": _index_flag(pub, "UGC_CARE"),
-        "quartile": pub.quartile or "",
-        "impact_factor": pub.impact_factor if pub.impact_factor is not None else "",
-        "classification": _label(pub.classification),
+        "quartile": (pub.quartile or "") if pub.publication_type == "JOURNAL" else "",
+        "impact_factor": pub.impact_factor if pub.publication_type == "JOURNAL" and pub.impact_factor is not None else "",
+        "classification": _label(pub.classification) if pub.publication_type == "CONFERENCE" or request.legacy_classification else "",
         "internal_author_count": len(faculty_authors) + len(student_authors),
         "external_author_count": len(external_names),
         "student_coauthors": "; ".join(student_names),
@@ -448,9 +479,13 @@ def _values(pub, context, faculty, students, years, author_names, faculty_author
 
 
 def _response_rows(rows, request):
-    headers = [{"id": field_id, "heading": request.headings.get(field_id) or FIELDS[field_id]["label"]} for field_id in request.fields]
+    headers = [{"id": field_id, "heading": _heading(request, field_id)} for field_id in request.fields]
     return [{"publication_id": row["_publication"].id, "faculty_id": row.get("_faculty_id"),
              "values": {field_id: row.get(field_id, "") for field_id in request.fields}} for row in rows], headers
+
+
+def _heading(request: ReportRequest, field_id: str):
+    return request.headings.get(field_id) or ("Legacy Classification" if field_id == "classification" and request.legacy_classification else FIELDS[field_id]["label"])
 
 
 @router.get("/fields")
@@ -465,6 +500,7 @@ def preview(request: ReportRequest, db: Session = Depends(get_db)):
     selected = rows if request.page_size == "all" else rows[(request.page - 1) * request.page_size: request.page * request.page_size]
     payload, headers = _response_rows(selected, request)
     return {"headers": headers, "items": payload, "total": total, "unique_publication_count": unique_count,
+            "scope": _scope_metadata(db, request),
             "row_mode": request.row_mode, "page": 1 if request.page_size == "all" else request.page, "page_size": request.page_size}
 
 
@@ -479,10 +515,10 @@ def export_xlsx(request: ReportRequest, db: Session = Depends(get_db)):
     workbook = Workbook()
     sheet = workbook.active
     sheet.title = "Publications"
-    scope = "Entire department" if not request.faculty_ids else f"{len(request.faculty_ids)} selected faculty member(s)"
+    scope = _scope_metadata(db, request)["label"]
     sheet.append(["Custom Publications Report"])
     sheet.append([f"Faculty scope: {scope} | Row mode: {request.row_mode.title()} | Unique publications: {unique_count} | Generated: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}"])
-    headings = [request.headings.get(field_id) or FIELDS[field_id]["label"] for field_id in request.fields]
+    headings = [_heading(request, field_id) for field_id in request.fields]
     sheet.append(headings)
     for cell in sheet[3]:
         cell.font = Font(bold=True)

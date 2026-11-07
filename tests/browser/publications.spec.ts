@@ -1,15 +1,37 @@
-import {test,expect} from "@playwright/test";
+import {test,expect,type APIRequestContext} from "@playwright/test";
+
+type MasterPerson = {id:number; name:string; employee_id:string};
+type MastersPayload = {departments:{id:number;is_active:boolean}[]};
+
+async function activeDepartmentId(request: APIRequestContext) {
+  const response=await request.get("/api/masters");
+  expect(response.ok()).toBeTruthy();
+  const masters=await response.json() as MastersPayload;
+  const department=masters.departments.find(value=>value.is_active);
+  if(!department) throw new Error("Browser fixtures require an active Department Master record.");
+  return department.id;
+}
+
+async function createFacultyFixture(request: APIRequestContext, departmentId:number, employeeId:string, name:string):Promise<MasterPerson>{
+  const response=await request.post("/api/faculty",{data:{employee_id:employeeId,name,department_id:departmentId,department_effective_from:"2026-07-01"}});
+  expect(response.ok()).toBeTruthy();
+  return await response.json() as MasterPerson;
+}
 
 test("manual review, author ownership, evidence, dashboard and edit",async({page,request})=>{
   const errors:string[]=[];page.on("pageerror",error=>errors.push(error.message));
+  const departmentId=await activeDepartmentId(request);
   await page.goto("/masters");
   await page.getByLabel("Employee Id").fill("E2E-A");
   await page.getByLabel("Name",{exact:true}).fill("Faculty A");
   await page.getByLabel("Name Variants").fill("A. Faculty");
+  await page.getByLabel("Current Department",{exact:true}).selectOption(String(departmentId));
   await page.getByRole("button",{name:"Save master record"}).click();
   await expect(page.getByRole("status")).toHaveText("Master record saved.");
-  for(const p of [{employee_id:"E2E-B",name:"Faculty B"}]) expect((await request.post("/api/faculty",{data:p})).ok()).toBeTruthy();
-  expect((await request.post("/api/students",{data:{roll_number:"E2E-X",name:"Student X"}})).ok()).toBeTruthy();
+  await createFacultyFixture(request,departmentId,"E2E-B","Faculty B");
+  const studentResponse=await request.post("/api/students",{data:{roll_number:"E2E-X",name:"Student X",department_id:departmentId}});
+  expect(studentResponse.ok()).toBeTruthy();
+  const student=await studentResponse.json() as {id:number};
   await page.goto("/publications/new");
   await page.getByRole("button",{name:"Enter manually"}).click();
   await page.getByLabel("Title *",{exact:true}).fill("Research collaboration P1");
@@ -20,8 +42,12 @@ test("manual review, author ownership, evidence, dashboard and edit",async({page
     await page.getByRole("button",{name:"+ Add author",exact:true}).click();
     const card=page.locator(".author-card").nth(index);
     await card.getByLabel("Author name",{exact:true}).fill(name);
-    await card.getByRole("combobox",{name:"Person type",exact:true}).selectOption(type);
-    if(type!=="EXTERNAL")await card.getByLabel("Matched person").selectOption({label:name});
+    await card.getByRole("combobox",{name:"Person Type",exact:true}).selectOption(type);
+    if(type==="FACULTY") {
+      await card.getByRole("combobox",{name:"Faculty",exact:true}).fill(name);
+      await card.getByRole("option",{name:new RegExp(`^${name}\\b`)}).getByRole("button").click();
+    }
+    if(type==="STUDENT")await card.getByRole("combobox",{name:"Student",exact:true}).selectOption(String(student.id));
   }
   await expect(page.getByRole("radio",{name:"Claiming faculty: Faculty A",exact:true})).toBeChecked();
   await page.getByRole("radio",{name:"Claiming faculty: Faculty B",exact:true}).check();
@@ -46,9 +72,12 @@ test("manual review, author ownership, evidence, dashboard and edit",async({page
   await expect(page.getByRole("button",{name:"Total Publications: 1",exact:true})).toBeVisible();
   await page.getByRole("button",{name:"Publications with Students: 1",exact:true}).first().click();
   await expect(page.locator('#papers').getByRole("link",{name:"Research collaboration P1",exact:true})).toBeVisible();
+  await page.getByRole("combobox", { name: "Reporting Period", exact: true }).selectOption("Custom");
+  await expect(page.getByLabel("From Date",{exact:true})).toBeVisible();
+  await expect(page.getByLabel("To Date",{exact:true})).toBeVisible();
   await page.getByLabel("From Date",{exact:true}).fill("2026-09-01");
   await page.getByLabel("To Date",{exact:true}).fill("2026-09-30");
-  await page.getByRole("button",{name:"Apply dates",exact:true}).click();
+  await page.getByRole("button",{name:"Apply range",exact:true}).click();
   await expect(page.getByRole("button",{name:"Total Publications: 1",exact:true})).toBeVisible();
   await page.screenshot({path:"test-results/publication-dashboard.png",fullPage:true});
   await page.setViewportSize({width:390,height:844});
@@ -78,8 +107,11 @@ test("single DOI exception edits return to compact queue without approval",async
 });
 
 test('unified DOI and BibTeX queue supports inline and selected bulk edits, independent claims and evidence',async({page,request})=>{
-  const masters=await (await request.get('/api/masters')).json();
-  const faculty=masters.faculty.slice(0,2);
+  const departmentId=await activeDepartmentId(request);
+  const faculty=[
+    await createFacultyFixture(request,departmentId,"E2E-Q1","Queue Faculty One"),
+    await createFacultyFixture(request,departmentId,"E2E-Q2","Queue Faculty Two"),
+  ];
   const authors=faculty.map((f:{id:number;name:string},i:number)=>({author_order:i+1,author_name_from_source:f.name,person_type:'FACULTY',faculty_id:f.id,student_id:null,is_internal:true,is_claiming_faculty:false,is_first_author:i===0,is_corresponding_author:false,affiliation_from_source:[],matching_status:'EXACT'}));
   const unknown={author_order:3,author_name_from_source:'Unclassified colleague',person_type:'UNKNOWN',faculty_id:null,student_id:null,is_internal:false,is_claiming_faculty:false,is_first_author:false,is_corresponding_author:false,affiliation_from_source:['Vardhaman College of Engineering'],matching_status:'UNMATCHED'};
   const existing=await (await request.post('/api/publications',{data:{doi:'10.1234/queue-existing',title:'Existing queue paper',publication_type:'JOURNAL',publication_date:'2026-09-22',indexing:[],authors:[{...authors[0],is_claiming_faculty:true}]}})).json();
@@ -149,4 +181,18 @@ test('unified DOI and BibTeX queue supports inline and selected bulk edits, inde
   await page.getByRole('combobox',{name:'Filter queue',exact:true}).selectOption('ALL');
   await page.screenshot({path:'test-results/import-queue.png',fullPage:true});
   for(const pub of saved.filter((p:{doi:string;title:string})=>p.doi?.startsWith('10.1234/queue-') || p.title.startsWith('Queue BibTeX'))) expect((await request.delete(`/api/publications/${pub.id}`)).ok()).toBeTruthy();
+});
+
+test("publication quality fields follow the selected publication type", async ({ page }) => {
+  await page.goto("/publications/new");
+  await page.getByRole("button", { name: "Enter manually", exact: true }).click();
+  const type = page.getByRole("combobox", { name: "Publication type", exact: true });
+  await type.selectOption("JOURNAL");
+  await expect(page.getByRole("combobox", { name: "Conference Scope", exact: true })).toHaveCount(0);
+  await expect(page.getByRole("combobox", { name: "Quartile", exact: true })).toBeVisible();
+  await expect(page.getByRole("spinbutton", { name: "Impact factor", exact: true })).toBeVisible();
+  await type.selectOption("CONFERENCE");
+  await expect(page.getByRole("combobox", { name: "Conference Scope", exact: true })).toBeVisible();
+  await expect(page.getByRole("combobox", { name: "Quartile", exact: true })).toHaveCount(0);
+  await expect(page.getByRole("spinbutton", { name: "Impact factor", exact: true })).toHaveCount(0);
 });

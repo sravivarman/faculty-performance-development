@@ -45,7 +45,7 @@ export default function CertificationEditor({ initial, onSaved }: { initial?: Ce
     {error && <div className="error wide" role="alert">{error}</div>}
     <section className="panel wide"><h2>Faculty and certification details</h2><div className="grid">
       <FacultySelector label="Faculty" value={draft.faculty_id || null} onChange={(value) => patch({ faculty_id: value || 0 })} faculty={masters?.faculty} loading={!masters && !error} error={!masters ? error : undefined} />
-      {text("name", "Course / certification name")}{text("provider", "Provider")}
+      {text("name", "Course / certification name")}{text("provider", "Provider / Issuer")}
       <label><span>Category</span><select value={draft.category} onChange={(event) => patch({ category: event.target.value })}>{newCategories.map((value) => <option key={value} value={value}>{categoryLabels[value]}</option>)}</select></label>
       <label><span>Status</span><select value={draft.status} onChange={(event) => patch({ status: event.target.value, ...(event.target.value === "IN_PROGRESS" ? { completion_date: null } : {}) })}><option value="COMPLETED">Completed</option><option value="IN_PROGRESS">In progress</option></select></label>
     </div></section>

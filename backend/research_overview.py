@@ -90,7 +90,7 @@ def overview(db, start, end):
         Certification.is_active.is_(True), Certification.status == 'IN_PROGRESS',
     )).all()
     funding = {
-        category: funding_dashboard_data(db, project_filters(category=category), start, end)
+        category: funding_dashboard_data(db, project_filters(db, category=category), start, end)
         for category in ('SPONSORED_RESEARCH', 'CONSULTANCY', 'INTERNAL_GRANT')
     }
     sponsored, consultancy, internal_grants = (

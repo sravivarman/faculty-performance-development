@@ -94,7 +94,8 @@ def save_patent(db, data, patent=None, *, commit=True):
 
 def selected_patents(db, current_status=None,patent_type=None, faculty_id=None, student_id=None, student_participation=None,
                      patent_office=None, country=None, include_inactive=False, department_only=True,
-                     drill_faculty_id=None, drill_student_id=None):
+                     drill_faculty_id=None, drill_student_id=None, department_id=None, attribution_mode="CURRENT"):
+    from .department_filtering import department_record_predicate
     query = select(Patent).order_by(Patent.filing_date.desc(),Patent.id.desc())
     if not include_inactive:
         query = query.where(Patent.is_active.is_(True))
@@ -106,7 +107,13 @@ def selected_patents(db, current_status=None,patent_type=None, faculty_id=None, 
         query = query.where(Patent.patent_office == patent_office)
     if country:
         query = query.where(Patent.country == country)
-    if department_only:
+    if department_id is not None:
+        # The shared predicate uses one distinct parent-ID subquery, so linked
+        # inventors from the same Department never duplicate a patent.
+        query = query.where(department_record_predicate(
+            db, "patents", department_id, attribution_mode=attribution_mode
+        ))
+    elif department_only:
         query = query.where(Patent.inventors.any(PatentInventor.institution_scope == "CURRENT_DEPARTMENT"))
     for identity, column in ((faculty_id,PatentInventor.faculty_id),(student_id,PatentInventor.student_id),
                              (drill_faculty_id,PatentInventor.faculty_id),(drill_student_id,PatentInventor.student_id)):

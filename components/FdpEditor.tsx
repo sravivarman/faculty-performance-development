@@ -76,6 +76,9 @@ export default function FdpEditor({ initial, onSaved }: Props) {
   const [bulkQuery, setBulkQuery] = useState("");
   const [bulkRole, setBulkRole] = useState("ATTENDEE");
   const [bulkSelected, setBulkSelected] = useState<number[]>([]);
+  const isHostActivity = ["INTERNSHIP", "INDUSTRIAL_TRAINING"].includes(draft.activity_type);
+  const showVenue = draft.mode !== "ONLINE";
+  const organizationLabel = isHostActivity ? "Host Organization / Company" : "Organizing Institution / Organization";
 
   useEffect(() => {
     setDraft(initial || emptyActivity());
@@ -190,7 +193,7 @@ export default function FdpEditor({ initial, onSaved }: Props) {
               {["PHYSICAL", "ONLINE", "HYBRID"].map((value) => <option key={value} value={value}>{label(value)}</option>)}
             </select>
           </label>
-          <label className="field">Organizing institution / company *
+          <label className="field">{organizationLabel} *
             <input required value={draft.organizing_institution} onChange={(event) => setDraft({ ...draft, organizing_institution: event.target.value })} />
           </label>
           <label className="field">Duration *
@@ -211,12 +214,12 @@ export default function FdpEditor({ initial, onSaved }: Props) {
           <label className="field">End date
             <input type="date" value={draft.end_date || ""} onChange={(event) => setDraft({ ...draft, end_date: event.target.value || null })} />
           </label>
-          <label className="field">Location / venue
+          {showVenue && <label className="field">Location / venue
             <input value={draft.location || ""} onChange={(event) => setDraft({ ...draft, location: event.target.value || null })} />
-          </label>
-          <label className="field">Company location
+          </label>}
+          {isHostActivity && <label className="field">Host Organization Location
             <input value={draft.company_location || ""} onChange={(event) => setDraft({ ...draft, company_location: event.target.value || null })} />
-          </label>
+          </label>}
         </div>
       </section>
 

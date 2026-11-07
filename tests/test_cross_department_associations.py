@@ -102,3 +102,38 @@ def test_department_attribution_is_dated_and_never_fabricates_baseline_history(s
     assert current["department_codes"] == ["CSE"]
     assert no_date["resolution_status"] == "ACTIVITY_DATE_UNKNOWN"
     assert legacy["resolution_status"] == "HISTORICAL_AFFILIATION_UNVERIFIED"
+
+
+def test_scoped_reporting_credits_shared_publication_once_per_verified_department(setup):
+    client, _, _ = setup
+    eee = next(item for item in client.get("/departments").json() if item["code"] == "EEE")
+    cse = create_department(client, "CSE", "Computer Science and Engineering")
+    faculty_eee = create_faculty(client, "PH3-EEE", "Phase 3 EEE", eee["id"])
+    faculty_cse = create_faculty(client, "PH3-CSE", "Phase 3 CSE", cse["id"])
+    created = client.post("/publications", json={
+        "doi": "10.1234/phase3-scoped",
+        "title": "Verified Cross Department Publication",
+        "publication_type": "JOURNAL",
+        "journal_conference_name": "Institutional Research",
+        "publication_date": "2026-09-01",
+        "authors": [
+            {"author_order": 1, "author_name_from_source": "Phase 3 EEE", "person_type": "FACULTY", "faculty_id": faculty_eee["id"], "is_claiming_faculty": True},
+            {"author_order": 2, "author_name_from_source": "Phase 3 CSE", "person_type": "FACULTY", "faculty_id": faculty_cse["id"]},
+        ],
+    })
+    assert created.status_code == 201, created.text
+
+    base = "from_date=2026-07-01&to_date=2026-12-31&attribution_mode=AT_ACTIVITY_DATE"
+    institution = client.get(f"/research/scoped-overview?{base}&scope=INSTITUTION")
+    assert institution.status_code == 200, institution.text
+    data = institution.json()
+    assert data["totals"]["publications"] == data["totals"]["unique_records"] == 1
+    assert data["collaboration"]["unique_records"] == 1
+    assert data["collaboration"]["pairs"][0]["records"] == 1
+
+    eee_scope = client.get(f"/research/scoped-overview?{base}&scope=DEPARTMENT&department_id={eee['id']}").json()
+    cse_scope = client.get(f"/research/scoped-overview?{base}&scope=DEPARTMENT&department_id={cse['id']}").json()
+    faculty_scope = client.get(f"/research/scoped-overview?{base}&scope=FACULTY&faculty_id={faculty_cse['id']}").json()
+    assert eee_scope["totals"]["publications"] == cse_scope["totals"]["publications"] == 1
+    assert faculty_scope["totals"]["publications"] == 1
+    assert len(eee_scope["records"]) == 1 and eee_scope["records"][0]["id"] == created.json()["id"]

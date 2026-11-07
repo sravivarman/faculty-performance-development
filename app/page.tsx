@@ -32,6 +32,15 @@ type Overview = Omit<ResearchOverview, "faculty_summary"> & {
   funding_summary: { sponsored_research: FundingTotals; consultancy: FundingTotals; internal_grants: FundingTotals };
   faculty_summary: ({ id: number; name: string } & Record<keyof typeof columns, number | null>)[];
 };
+type ScopedOverview = {
+  scope: { type: "INSTITUTION" | "DEPARTMENT" | "FACULTY"; department_id: number | null; faculty_id: number | null; label: string; attribution_mode: "CURRENT" | "AT_ACTIVITY_DATE"; attribution_label: string };
+  totals: Record<string, number>;
+  faculty_contributors: number;
+  department_comparison: { id: number; code: string; name: string; is_active: boolean; totals: Record<string, number>; unique_records: number; faculty_contributors: number }[];
+  collaboration: { unique_records: number; pairs: { department_a: { id: number; code: string; name: string }; department_b: { id: number; code: string; name: string }; records: number; publications: number; patents: number; books: number; research_projects: number; consultancy: number; internal_grants: number }[] };
+  data_quality: Record<string, number>;
+};
+const scopedLabels = { publications: "Publications", patents: "Patents", books: "Books / Chapters", fdp: "FDP / Training", certifications: "Certifications", research_projects: "Sponsored Research", consultancy: "Consultancy", internal_grants: "Internal Grants" };
 
 function FundingSummary({ report, onSelect }: { report?: Overview; onSelect: (key: string) => void }) {
   const rows = [
@@ -57,6 +66,13 @@ export default function ResearchDashboard() {
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(true);
   const [retry, setRetry] = useState(0);
+  const [scope, setScope] = useState<"INSTITUTION" | "DEPARTMENT" | "FACULTY">("INSTITUTION");
+  const [scopeDepartmentId, setScopeDepartmentId] = useState("");
+  const [scopeFacultyId, setScopeFacultyId] = useState("");
+  const [attributionMode, setAttributionMode] = useState<"CURRENT" | "AT_ACTIVITY_DATE">("CURRENT");
+  const [scopedReport, setScopedReport] = useState<ScopedOverview>();
+  const [scopedError, setScopedError] = useState("");
+  const [scopedLoading, setScopedLoading] = useState(false);
   const query = new URLSearchParams(range).toString();
   const selectedAcademicYear = useMemo(() => masters?.academic_years.find((year) => year.start_date === range.from_date && year.end_date === range.to_date), [masters, range.from_date, range.to_date]);
 
@@ -71,6 +87,19 @@ export default function ResearchDashboard() {
       .finally(() => { if (active) setLoading(false); });
     return () => { active = false; };
   }, [query, ready, retry]);
+  useEffect(() => {
+    if (!ready || (scope === "DEPARTMENT" && !scopeDepartmentId) || (scope === "FACULTY" && !scopeFacultyId)) { setScopedReport(undefined); return; }
+    let active = true;
+    setScopedLoading(true); setScopedError("");
+    const params = new URLSearchParams({ ...range, scope, attribution_mode: attributionMode });
+    if (scope === "DEPARTMENT") params.set("department_id", scopeDepartmentId);
+    if (scope === "FACULTY") params.set("faculty_id", scopeFacultyId);
+    api<ScopedOverview>(`/research/scoped-overview?${params}`)
+      .then((data) => { if (active) setScopedReport(data); })
+      .catch((reason: Error) => { if (active) { setScopedReport(undefined); setScopedError(reason.message); } })
+      .finally(() => { if (active) setScopedLoading(false); });
+    return () => { active = false; };
+  }, [range, ready, scope, scopeDepartmentId, scopeFacultyId, attributionMode]);
 
   function navigate(key: string, extra: Record<string, string> = {}) {
     const params = new URLSearchParams({ ...range, ...extra });
@@ -87,13 +116,25 @@ export default function ResearchDashboard() {
   }
 
   return <DashboardFrame>
-    <ResearchPageHeader title="Research Overview" subtitle="Department research performance and activity" />
-    <DateRangeFilter />
-    <section className="panel"><label className="field">Academic Year Master<select aria-label="Academic Year Master" value={selectedAcademicYear?.id ?? ""} onChange={(event) => {
-      const year = masters?.academic_years.find((item) => item.id === Number(event.target.value));
-      if (year) setRange({ from_date: year.start_date, to_date: year.end_date }, "Custom");
-    }}><option value="">Custom date range</option>{masters?.academic_years.map((year) => <option key={year.id} value={year.id}>{year.name} · {year.start_date} to {year.end_date}</option>)}</select></label>
-      <p className="muted">Selecting a configured Academic Year applies its stored inclusive dates. Custom From/To dates remain available above.</p></section>
+    <ResearchPageHeader title="Research Overview" subtitle="Institutional research performance and activity" />
+    <section className="reporting-toolbar" aria-label="Institutional reporting controls"><DateRangeFilter /><div className="reporting-toolbar-controls">
+      <label className="field">Academic Year<select aria-label="Academic Year Master" value={selectedAcademicYear?.id ?? ""} onChange={(event) => {
+        const year = masters?.academic_years.find((item) => item.id === Number(event.target.value));
+        if (year) setRange({ from_date: year.start_date, to_date: year.end_date }, "Custom");
+      }}><option value="">Use selected reporting period</option>{masters?.academic_years.map((year) => <option key={year.id} value={year.id}>{year.name} · {year.start_date} to {year.end_date}</option>)}</select></label>
+      <label className="field">Scope<select value={scope} onChange={(event) => { setScope(event.target.value as typeof scope); setScopeDepartmentId(""); setScopeFacultyId(""); }}><option value="INSTITUTION">Institution</option><option value="DEPARTMENT">Department</option><option value="FACULTY">Faculty</option></select></label>
+      {scope === "DEPARTMENT" && <label className="field">Department<select value={scopeDepartmentId} onChange={(event) => setScopeDepartmentId(event.target.value)}><option value="">Select Department</option>{masters?.departments.map((department) => <option key={department.id} value={department.id}>{department.name} ({department.code}){department.is_active ? "" : " (historical)"}</option>)}</select></label>}
+      {scope === "FACULTY" && <label className="field">Faculty<select value={scopeFacultyId} onChange={(event) => setScopeFacultyId(event.target.value)}><option value="">Select Faculty</option>{masters?.faculty.map((faculty) => <option key={faculty.id} value={faculty.id}>{faculty.name} ({faculty.employee_id}){faculty.department?.code ? ` — ${faculty.department.code}` : ""}</option>)}</select></label>}
+      {scope !== "INSTITUTION" && <label className="field">Attribution<select value={attributionMode} onChange={(event) => setAttributionMode(event.target.value as typeof attributionMode)}><option value="CURRENT">Current Department Attribution</option><option value="AT_ACTIVITY_DATE">Activity-Date Attribution</option></select></label>}
+    </div><p className="muted compact-note">Scope is analytical only. Department totals are contribution counts and are not additive across the Institution.</p></section>
+    <DashboardSection title="Scoped institutional analysis">
+      <DashboardError message={scopedError} />
+      {scopedReport && <><p className="muted"><strong>{scopedReport.scope.label}</strong> · {scopedReport.scope.attribution_label} · {range.from_date} to {range.to_date}</p><KpiGrid labels={scopedLabels} counts={scopedReport.totals} loading={scopedLoading} /><p className="muted">Distinct Faculty contributors: {scopedReport.faculty_contributors}. A record is counted once within this scope even where several linked people contributed.</p></>}
+      {!scopedReport && !scopedLoading && !scopedError && <p className="dash-empty">Choose the required Department or Faculty to view its scoped analysis.</p>}
+    </DashboardSection>
+    {scopedReport && scope !== "FACULTY" && <DashboardSection title="Department comparison" note="A shared record may be credited once to each verified contributing Department; these rows must not be summed into an institution total."><div className="table-wrap"><table><thead><tr><th>Department</th><th>Publications</th><th>Patents</th><th>Books / Chapters</th><th>FDP / Training</th><th>Certifications</th><th>Research Projects</th><th>Faculty Contributors</th></tr></thead><tbody>{scopedReport.department_comparison.map((department) => <tr key={department.id}><td>{department.name} ({department.code}){department.is_active ? "" : " · historical"}</td><td>{department.totals.publications}</td><td>{department.totals.patents}</td><td>{department.totals.books}</td><td>{department.totals.fdp}</td><td>{department.totals.certifications}</td><td>{department.totals.research_projects + department.totals.consultancy + department.totals.internal_grants}</td><td>{department.faculty_contributors}</td></tr>)}</tbody></table></div></DashboardSection>}
+    {scopedReport && <DashboardSection title="Cross-department collaboration" note="A record qualifies when two or more verified Vardhaman Departments contributed. Pair counts can overlap when one record involves more than two Departments."><p className="muted">Unique cross-department records: {scopedReport.collaboration.unique_records}</p><div className="table-wrap"><table><thead><tr><th>Department A</th><th>Department B</th><th>Shared records</th><th>Publications</th><th>Patents</th><th>Books / Chapters</th><th>Projects</th></tr></thead><tbody>{scopedReport.collaboration.pairs.map((pair) => <tr key={`${pair.department_a.id}-${pair.department_b.id}`}><td>{pair.department_a.code}</td><td>{pair.department_b.code}</td><td>{pair.records}</td><td>{pair.publications}</td><td>{pair.patents}</td><td>{pair.books}</td><td>{pair.research_projects + pair.consultancy + pair.internal_grants}</td></tr>)}</tbody></table></div>{!scopedReport.collaboration.pairs.length && <p className="dash-empty">No verified cross-department collaboration is recorded for this scope and period.</p>}</DashboardSection>}
+    {scopedReport && <DashboardSection title="Attribution data quality" note="Unverified historical affiliations are kept separate from confirmed Department totals."><div className="dash-profile-summary">{Object.entries(scopedReport.data_quality).map(([key, value]) => <div key={key}><span>{key.replaceAll("_", " ")}</span><strong>{value}</strong></div>)}</div></DashboardSection>}
     <DashboardError message={error} retry={() => setRetry((value) => value + 1)} />
     <h2>Research Activity</h2>
     <KpiGrid labels={activities} counts={{ ...report?.activity_totals, journal: report?.outcomes.journal, conference: report?.outcomes.conference }} loading={loading} onSelect={navigate} />

@@ -10,7 +10,8 @@ from sqlalchemy import func, or_, select
 from sqlalchemy.orm import Session
 
 from .db import get_db
-from .models import Faculty, FundingProject, FundingProjectChangeLog, FundingProjectFaculty
+from .models import Department, Faculty, FacultyDepartmentAffiliation, FundingProject, FundingProjectChangeLog, FundingProjectFaculty
+from .department_filtering import department_record_predicate
 from .pagination import PageSize, paginate_records
 from .reporting import validate_date_range
 from .services import columns
@@ -184,15 +185,32 @@ def get_project(db: Session, identity: int) -> FundingProject:
 
 
 def project_filters(
+    db: DB,
     category: FundingCategory | None = None,
     faculty_id: int | None = None,
     department: str | None = None,
+    department_id: int | None = None,
+    attribution_mode: Literal["CURRENT", "AT_ACTIVITY_DATE"] = "CURRENT",
     funding_agency: str | None = None,
     status: FundingStatus | None = None,
     search: str | None = None,
     include_inactive: bool = False,
 ):
-    return locals()
+    if department_id is not None and db.get(Department, department_id) is None:
+        raise HTTPException(422, "Unknown Department ID")
+    return {
+        "category": category,
+        "faculty_id": faculty_id,
+        # ``department`` remains the recorded lead / administrative text field.
+        # It is intentionally distinct from Department Master attribution.
+        "department": department,
+        "department_id": department_id,
+        "attribution_mode": attribution_mode,
+        "funding_agency": funding_agency,
+        "status": status,
+        "search": search,
+        "include_inactive": include_inactive,
+    }
 
 
 def filtered_projects(db: Session, filters: dict, from_date: date | None = None, to_date: date | None = None):
@@ -205,6 +223,13 @@ def filtered_projects(db: Session, filters: dict, from_date: date | None = None,
             query = query.where(getattr(FundingProject, key) == filters[key])
     if filters["faculty_id"]:
         query = query.where(FundingProject.faculty.any(FundingProjectFaculty.faculty_id == filters["faculty_id"]))
+    if filters["department_id"] is not None:
+        query = query.where(department_record_predicate(
+            db,
+            "funding",
+            filters["department_id"],
+            attribution_mode=filters["attribution_mode"],
+        ))
     if filters["department"]:
         query = query.where(FundingProject.department.ilike(f"%{filters['department']}%"))
     if filters["funding_agency"]:
@@ -301,6 +326,44 @@ def amount(records: list[FundingProject], field: str) -> Decimal:
     return sum((getattr(record, field) or Decimal("0") for record in records), Decimal("0"))
 
 
+def department_scoped_member_keys(db: Session, records: list[FundingProject], selected: dict) -> set[tuple[int, int]] | None:
+    """Return Faculty-linked investigator rows eligible for a Department scope.
+
+    The project predicate intentionally admits a shared project once for every
+    eligible Department.  Person-level KPIs must still include only the
+    Faculty contributors attributed to that Department, rather than every
+    investigator on a shared project.  Resolving the keys in one query avoids
+    an affiliation lookup per dashboard row.
+    """
+    department_id = selected.get("department_id")
+    if department_id is None:
+        return None
+    project_ids = [record.id for record in records]
+    if not project_ids:
+        return set()
+    affiliation = FacultyDepartmentAffiliation
+    query = select(FundingProjectFaculty.funding_project_id, FundingProjectFaculty.faculty_id).distinct().join(
+        FundingProject, FundingProject.id == FundingProjectFaculty.funding_project_id
+    ).join(
+        affiliation, affiliation.faculty_id == FundingProjectFaculty.faculty_id
+    ).where(
+        FundingProjectFaculty.funding_project_id.in_(project_ids),
+        FundingProjectFaculty.faculty_id.is_not(None),
+        affiliation.department_id == department_id,
+        affiliation.is_primary.is_(True),
+    )
+    if selected.get("attribution_mode") == "AT_ACTIVITY_DATE":
+        query = query.where(
+            FundingProject.sanction_date.is_not(None),
+            affiliation.effective_from.is_not(None),
+            affiliation.effective_from <= FundingProject.sanction_date,
+            or_(affiliation.effective_to.is_(None), affiliation.effective_to >= FundingProject.sanction_date),
+        )
+    else:
+        query = query.where(affiliation.effective_to.is_(None))
+    return {(project_id, faculty_id) for project_id, faculty_id in db.execute(query).all()}
+
+
 def funding_dashboard_data(db: Session, selected: dict, from_date: date, to_date: date):
     """Return the shared, unpaginated funding summary for one reporting scope.
 
@@ -308,15 +371,21 @@ def funding_dashboard_data(db: Session, selected: dict, from_date: date, to_date
     calculate amounts from a paginated list or from investigator associations.
     """
     records = filtered_projects(db, selected, from_date, to_date)
+    scoped_member_keys = department_scoped_member_keys(db, records, selected)
     faculty_counts: dict[int, int] = {}
     faculty_role_counts: dict[int, dict[str, int]] = {}
     faculty_departments: dict[int, set[str]] = {}
     faculty_roles: dict[int, list[str]] = {}
     for record in records:
-        for identity in {member.faculty_id for member in record.faculty if member.faculty_id is not None}:
+        members = [
+            member for member in record.faculty
+            if member.faculty_id is not None
+            and (scoped_member_keys is None or (record.id, member.faculty_id) in scoped_member_keys)
+        ]
+        for identity in {member.faculty_id for member in members if member.faculty_id is not None}:
             faculty_counts[identity] = faculty_counts.get(identity, 0) + 1
             faculty_departments.setdefault(identity, set()).add(record.department)
-        for member in record.faculty:
+        for member in members:
             if member.faculty_id is not None:
                 counts = faculty_role_counts.setdefault(member.faculty_id, {role: 0 for role in ROLES})
                 reporting_role = "CO_PI" if member.role == "CO_INVESTIGATOR" else member.role
@@ -351,7 +420,13 @@ def funding_dashboard_data(db: Session, selected: dict, from_date: date, to_date
         "faculty_contributors": len(faculty_counts),
     }
     return {"totals": totals, "faculty": faculty,
-            "role_counts": {role: sum(member.role == role for record in records for member in record.faculty) for role in ROLES}}
+            "role_counts": {role: sum(
+                member.role == role
+                for record in records
+                for member in record.faculty
+                if scoped_member_keys is None
+                or (member.faculty_id is not None and (record.id, member.faculty_id) in scoped_member_keys)
+            ) for role in ROLES}}
 
 
 @router.get("/funding-dashboard")

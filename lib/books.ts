@@ -1,5 +1,5 @@
 import {Evidence} from "./api";
-import {Inventor} from "./patents";
+import {Inventor,isVceContributorScope} from "./patents";
 
 export type Contributor = Omit<Inventor,"inventor_order"|"inventor_name"> & {contributor_order:number; contributor_name:string; role:"AUTHOR"|"EDITOR";source_metadata?:{author_name_from_source?:string;given_name_from_source?:string;family_name_from_source?:string;orcid_from_source?:string;affiliation_from_source?:string[];matching_status?:string;suggestions?:{id:number;name:string;person_type:string;reason:string}[]}};
 export type Book = {
@@ -14,7 +14,7 @@ export type Book = {
   change_log?:{id:number; action:string; changed_at:string}[];
 };
 export type BookMetadata = Partial<Book> & {source_type?:string;warnings?:string[]};
-export function eligibleBookClaimant(c:Contributor,kind:Book["work_type"]){return c.person_type==="FACULTY"&&["CURRENT_DEPARTMENT","SAME_INSTITUTION_OTHER_DEPARTMENT"].includes(c.institution_scope)&&!!c.faculty_id&&(kind==="BOOK"||c.role==="AUTHOR");}
+export function eligibleBookClaimant(c:Contributor,kind:Book["work_type"]){return c.person_type==="FACULTY"&&isVceContributorScope(c.institution_scope)&&!!c.faculty_id&&(kind==="BOOK"||c.role==="AUTHOR");}
 export function bookClaimantReady(book:Book){const claims=book.contributors.filter(c=>c.is_claiming_faculty);return claims.length===1&&eligibleBookClaimant(claims[0],book.work_type);}
 export const bookMetrics = {total:"Total Works", books:"Books", chapters:"Book Chapters", with_students:"Student-involved", interdepartmental:"Works with Other VCE Departments", external_collaboration:"Works with External Collaboration", unique_faculty:"Unique Department Faculty Authors", unique_students:"Unique Department Student Authors"};
 export const BOOK_EVIDENCE = ["COVER_PAGE","TITLE_PAGE","COPYRIGHT_PAGE","ISBN_PAGE","CHAPTER_FIRST_PAGE","TABLE_OF_CONTENTS","PUBLISHER_PROOF","FULL_CHAPTER","OTHER"];

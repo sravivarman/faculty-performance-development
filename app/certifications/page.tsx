@@ -43,6 +43,8 @@ export default function Page() {
   const [loading, setLoading] = useState(false);
   const [dashboardLoading, setDashboardLoading] = useState(false);
   const [search, setSearch] = useState("");
+  const [department, setDepartment] = useState("");
+  const [attributionMode, setAttributionMode] = useState("CURRENT");
   const [faculty, setFaculty] = useState(() => searchParams.get("faculty_id") || "");
   const [category, setCategory] = useState("");
   const [status, setStatus] = useState(() => searchParams.get("status") || "");
@@ -75,12 +77,14 @@ export default function Page() {
   const listParams = new URLSearchParams({
     ...range, page: String(page), page_size: String(pageSize),
     ...(search ? { search } : {}), ...(faculty ? { faculty_id: faculty } : {}),
+    ...(department ? { department_id: department, attribution_mode: attributionMode } : {}),
     ...(recordCategory ? { category: recordCategory } : {}), ...(recordStatus ? { status: recordStatus } : {}),
     ...(includeInactive ? { include_inactive: "true" } : {}),
     ...(recordCurrentInProgress ? { current_in_progress: "true" } : {}),
   });
   const dashboardParams = new URLSearchParams({
     ...range, ...(search ? { search } : {}), ...(faculty ? { faculty_id: faculty } : {}),
+    ...(department ? { department_id: department, attribution_mode: attributionMode } : {}),
     ...(category ? { category } : {}), ...(status ? { status } : {}),
     ...(includeInactive ? { include_inactive: "true" } : {}),
   });
@@ -107,10 +111,10 @@ export default function Page() {
     api<Masters>("/masters").then(setMasters).catch((requestError: Error) => setError(requestError.message));
   }, []);
   useEffect(() => { loadList(); }, [
-    ready, range.from_date, range.to_date, page, pageSize, search, faculty, category, status, includeInactive, currentInProgress, drilldown,
+    ready, range.from_date, range.to_date, page, pageSize, search, department, attributionMode, faculty, category, status, includeInactive, currentInProgress, drilldown,
   ]);
   useEffect(() => { loadDashboard(); }, [
-    ready, range.from_date, range.to_date, search, faculty, category, status, includeInactive,
+    ready, range.from_date, range.to_date, search, department, attributionMode, faculty, category, status, includeInactive,
   ]);
 
   const resetPage = (change: () => void) => {
@@ -120,7 +124,7 @@ export default function Page() {
     setShowFacultyContributors(false);
   };
   const resetFilters = () => {
-    setSearch(""); setFaculty(""); setCategory(""); setStatus("");
+    setSearch(""); setDepartment(""); setAttributionMode("CURRENT"); setFaculty(""); setCategory(""); setStatus("");
     setIncludeInactive(false); setCurrentInProgress(false); setDrilldown(""); setShowFacultyContributors(false); setPage(1);
   };
   const selectKpi = (selected: Drilldown) => {
@@ -213,6 +217,20 @@ export default function Page() {
         <h2>Find certifications</h2>
         <div className="filters">
           <label className="field">
+            Department
+            <select value={department} onChange={(event) => resetPage(() => { setDepartment(event.target.value); setAttributionMode("CURRENT"); })}>
+              <option value="">All Departments</option>
+              {masters?.departments.map((item) => <option key={item.id} value={item.id}>{item.name} ({item.code}){item.is_active ? "" : " (historical)"}</option>)}
+            </select>
+          </label>
+          {department && <label className="field">
+            Department Attribution
+            <select value={attributionMode} onChange={(event) => resetPage(() => setAttributionMode(event.target.value))}>
+              <option value="CURRENT">Current Department</option>
+              <option value="AT_ACTIVITY_DATE">Activity-Date Department</option>
+            </select>
+          </label>}
+          <label className="field">
             Search
             <input
               placeholder="Faculty, certification, or provider"
@@ -258,6 +276,7 @@ export default function Page() {
           <div className="actions"><button type="button" className="secondary" onClick={resetFilters}>Reset filters</button></div>
         </div>
       </section>
+      {department && attributionMode === "AT_ACTIVITY_DATE" && <p className="muted compact-note">Only certification holders with verified primary Department affiliations on their completion date are included. In-progress records without a completion date are not historically attributed.</p>}
 
       <section className="panel" id="certification-records">
         <div className="row-between">

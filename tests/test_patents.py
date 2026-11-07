@@ -32,6 +32,21 @@ def test_application_duplicate_and_link(setup):
     assert duplicate.json()["detail"]["patent_id"]==first.json()["id"]
 
 
+def test_jurisdiction_and_applicant_assignee_persist_without_lifecycle_changes(setup):
+    client, _, _ = setup
+    data = patent("JURISDICTION-1")
+    data.update(country="India", applicant_assignee="Vardhaman College of Engineering")
+
+    created = client.post("/patents", json=data)
+
+    assert created.status_code == 201, created.text
+    saved = created.json()
+    assert saved["country"] == "India"
+    assert saved["applicant_assignee"] == "Vardhaman College of Engineering"
+    assert saved["filing_date"] == data["filing_date"]
+    assert saved["publication_date"] == data["publication_date"]
+
+
 def test_patent_counting_lifecycle_and_people(setup):
     client,_,_=setup
     p1=client.post("/patents",json=patent())

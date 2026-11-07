@@ -93,6 +93,7 @@ function financialAmount(record: FundingProject, metric: string, category: Categ
 export default function FundingOverview({ category }: { category: Category }) {
   const searchParams = useSearchParams();
   const config = configuration[category];
+  const organizationLabel = category === "SPONSORED_RESEARCH" ? "Funding Agency" : category === "CONSULTANCY" ? "Client / Sponsoring Organization" : "Internal Granting Authority / Institution";
   const facultyMetric = category === "INTERNAL_GRANT" ? "faculty_beneficiaries" : "faculty_contributors";
   const { range, ready } = useDateRange();
   const [masters, setMasters] = useState<Masters>();
@@ -104,7 +105,9 @@ export default function FundingOverview({ category }: { category: Category }) {
   const [dashboardLoading, setDashboardLoading] = useState(false);
   const [search, setSearch] = useState("");
   const [facultyId, setFacultyId] = useState(() => searchParams.get("faculty_id") || "");
-  const [department, setDepartment] = useState("");
+  const [departmentId, setDepartmentId] = useState("");
+  const [attributionMode, setAttributionMode] = useState<"CURRENT" | "AT_ACTIVITY_DATE">("CURRENT");
+  const [administrativeDepartment, setAdministrativeDepartment] = useState("");
   const [agency, setAgency] = useState("");
   const [status, setStatus] = useState("");
   const [includeInactive, setIncludeInactive] = useState(false);
@@ -117,7 +120,9 @@ export default function FundingOverview({ category }: { category: Category }) {
   const sharedParams = new URLSearchParams({
     ...range, category,
     ...(search ? { search } : {}), ...(facultyId ? { faculty_id: facultyId } : {}),
-    ...(department ? { department } : {}), ...(agency ? { funding_agency: agency } : {}),
+    ...(departmentId ? { department_id: departmentId, attribution_mode: attributionMode } : {}),
+    ...(administrativeDepartment ? { department: administrativeDepartment } : {}),
+    ...(agency ? { funding_agency: agency } : {}),
     ...(status ? { status } : {}), ...(includeInactive ? { include_inactive: "true" } : {}),
   });
   const listParams = new URLSearchParams(sharedParams);
@@ -136,7 +141,7 @@ export default function FundingOverview({ category }: { category: Category }) {
       .then((data) => setResult(paginatedResult<FundingProject>(data, "Funding projects")))
       .catch((reason: Error) => setError(reason.message))
       .finally(() => setLoading(false));
-  }, [ready, range.from_date, range.to_date, category, search, facultyId, department, agency, status, includeInactive, page, pageSize, activeMetric, revision]);
+  }, [ready, range.from_date, range.to_date, category, search, facultyId, departmentId, attributionMode, administrativeDepartment, agency, status, includeInactive, page, pageSize, activeMetric, revision]);
   useEffect(() => {
     if (!ready) return;
     setDashboardLoading(true);
@@ -144,13 +149,13 @@ export default function FundingOverview({ category }: { category: Category }) {
       .then(setDashboard)
       .catch((reason: Error) => setError(reason.message))
       .finally(() => setDashboardLoading(false));
-  }, [ready, range.from_date, range.to_date, category, search, facultyId, department, agency, status, includeInactive, revision]);
+  }, [ready, range.from_date, range.to_date, category, search, facultyId, departmentId, attributionMode, administrativeDepartment, agency, status, includeInactive, revision]);
 
   function resetPage(change: () => void) {
     change(); setPage(1); setActiveMetric(""); setShowFaculty(false);
   }
   function resetFilters() {
-    setSearch(""); setFacultyId(""); setDepartment(""); setAgency(""); setStatus("");
+    setSearch(""); setFacultyId(""); setDepartmentId(""); setAttributionMode("CURRENT"); setAdministrativeDepartment(""); setAgency(""); setStatus("");
     setIncludeInactive(false); setPage(1); setActiveMetric(""); setShowFaculty(false);
   }
   function selectMetric(metric: string) {
@@ -171,6 +176,10 @@ export default function FundingOverview({ category }: { category: Category }) {
 
   const financialDrillDown = financialMetrics.has(activeMetric);
   const amountHeading = activeMetric === "amount_received" ? "Amount received" : activeMetric === "amount_utilized" ? "Amount utilized" : activeMetric === "contract_value" ? "Contract / approved amount" : category === "SPONSORED_RESEARCH" ? "Proposed / sanctioned amount" : "Amount sanctioned";
+  const kpiLabels = departmentId ? Object.fromEntries(Object.entries(config.labels).map(([key, value]) => [
+    key,
+    financialMetrics.has(key) ? value.replace(/^Total /, "Associated ") : value,
+  ])) : config.labels;
 
   return <DashboardFrame>
     <ResearchPageHeader title={config.title} subtitle="Department funding records, lifecycle tracking, financial reporting and evidence.">
@@ -178,8 +187,10 @@ export default function FundingOverview({ category }: { category: Category }) {
     </ResearchPageHeader>
     <DateRangeFilter />
     {error && <div className="error" role="alert">{error}</div>}
-    <KpiGrid labels={config.labels} counts={dashboard.totals} loading={dashboardLoading} active={activeMetric} onSelect={selectMetric} financial={config.financial} />
+    <KpiGrid labels={kpiLabels} counts={dashboard.totals} loading={dashboardLoading} active={activeMetric} onSelect={selectMetric} financial={config.financial} />
     <p className="muted">Sanctioned and financial award totals include only sanctioned, ongoing, or completed records. Submitted and under-review proposal budgets remain stored but are not counted as awards.</p>
+    {departmentId && <p className="compact-note">Department values represent distinct projects associated with eligible Faculty contributors. Shared projects can appear for more than one Department, so Department financial values are not additive.</p>}
+    {departmentId && attributionMode === "AT_ACTIVITY_DATE" && <p className="compact-note">Activity-Date Department uses verified primary Faculty affiliations at the project sanction date. Records without a sanction date or verified historical affiliation are excluded from this historical view.</p>}
 
     {!activeMetric && <FacultyContributionTable
       title="Faculty funding contribution"
@@ -192,24 +203,26 @@ export default function FundingOverview({ category }: { category: Category }) {
 
     {showFaculty && <section className="panel" id="funding-faculty-contributors">
       <div className="row-between"><h2>{config.labels[facultyMetric]} · {dashboard.totals[facultyMetric] || 0}</h2><button className="secondary small" onClick={() => selectMetric("")}>Close drill-down</button></div>
-      <p className="muted">One row per linked Faculty Master record. Manual investigators are excluded; each contributor’s project count is distinct.</p>
-      {dashboardLoading ? <p role="status">Loading Faculty contributors…</p> : !dashboard.faculty.length ? <p className="dash-empty">No Faculty contributors match this selection.</p> : <div className="table-wrap"><table><thead><tr><th>Faculty</th><th>Employee ID</th><th>Department</th><th>Distinct projects</th><th>Investigator roles</th><th>Records</th></tr></thead><tbody>{dashboard.faculty.map((person) => <tr key={person.id}><td>{person.name}{person.is_active ? "" : " (historical)"}</td><td>{person.employee_id || "—"}</td><td>{person.department || "—"}</td><td>{person.projects}</td><td>{person.roles.map(investigatorRoleLabel).join(", ") || "—"}</td><td><button className="link-button" onClick={() => viewFacultyProjects(person.id)}>View matching project records</button></td></tr>)}</tbody></table></div>}
+      <p className="muted">One row per linked Faculty Master record. Manual investigators are excluded; each contributor’s project count is distinct. Recorded administrative Departments remain project metadata and do not determine contributor attribution.</p>
+      {dashboardLoading ? <p role="status">Loading Faculty contributors…</p> : !dashboard.faculty.length ? <p className="dash-empty">No Faculty contributors match this selection.</p> : <div className="table-wrap"><table><thead><tr><th>Faculty</th><th>Employee ID</th><th>Recorded administrative Dept.</th><th>Distinct projects</th><th>Investigator roles</th><th>Records</th></tr></thead><tbody>{dashboard.faculty.map((person) => <tr key={person.id}><td>{person.name}{person.is_active ? "" : " (historical)"}</td><td>{person.employee_id || "—"}</td><td>{person.department || "—"}</td><td>{person.projects}</td><td>{person.roles.map(investigatorRoleLabel).join(", ") || "—"}</td><td><button className="link-button" onClick={() => viewFacultyProjects(person.id)}>View matching project records</button></td></tr>)}</tbody></table></div>}
     </section>}
 
     {!showFaculty && <>
       <section className="panel"><h2>Find {config.title.toLowerCase()}</h2><div className="filters">
         <label className="field">Search<input value={search} placeholder="Title, agency, department, or Faculty" onChange={(event) => resetPage(() => setSearch(event.target.value))} /></label>
         <label className="field">Faculty<select value={facultyId} onChange={(event) => resetPage(() => setFacultyId(event.target.value))}><option value="">All Faculty</option>{masters?.faculty.map((person) => <option key={person.id} value={person.id}>{person.name}{person.is_active ? "" : " (historical)"}</option>)}</select></label>
-        <label className="field">Department<select value={department} onChange={(event) => resetPage(() => setDepartment(event.target.value))}><option value="">All departments</option>{options.departments.map((value) => <option key={value}>{value}</option>)}</select></label>
-        <label className="field">Funding agency / client<select value={agency} onChange={(event) => resetPage(() => setAgency(event.target.value))}><option value="">All agencies / clients</option>{options.funding_agencies.map((value) => <option key={value}>{value}</option>)}</select></label>
+        <label className="field">Department<select value={departmentId} onChange={(event) => resetPage(() => { setDepartmentId(event.target.value); setAttributionMode("CURRENT"); })}><option value="">All Departments</option>{masters?.departments.map((item) => <option key={item.id} value={item.id}>{item.name} ({item.code}){item.is_active ? "" : " (historical)"}</option>)}</select></label>
+        {departmentId && <label className="field">Department Attribution<select value={attributionMode} onChange={(event) => resetPage(() => setAttributionMode(event.target.value as "CURRENT" | "AT_ACTIVITY_DATE"))}><option value="CURRENT">Current Department</option><option value="AT_ACTIVITY_DATE">Activity-Date Department</option></select></label>}
+        <label className="field">Recorded Lead / Administrative Department<select value={administrativeDepartment} onChange={(event) => resetPage(() => setAdministrativeDepartment(event.target.value))}><option value="">All recorded departments</option>{options.departments.map((value) => <option key={value}>{value}</option>)}</select></label>
+        <label className="field">{organizationLabel}<select value={agency} onChange={(event) => resetPage(() => setAgency(event.target.value))}><option value="">All {organizationLabel.toLowerCase()} entries</option>{options.funding_agencies.map((value) => <option key={value}>{value}</option>)}</select></label>
         <label className="field">Status<select value={status} onChange={(event) => resetPage(() => setStatus(event.target.value))}><option value="">All statuses</option>{["DRAFT", "SUBMITTED", "UNDER_REVIEW", "SANCTIONED", "ONGOING", "COMPLETED", "REJECTED", "WITHDRAWN"].map((value) => <option key={value} value={value}>{label(value)}</option>)}</select></label>
         <label className="field">Record status<span className="check"><input type="checkbox" checked={includeInactive} onChange={(event) => resetPage(() => setIncludeInactive(event.target.checked))} />Include inactive</span></label>
         <div className="actions"><button type="button" className="secondary" onClick={resetFilters}>Reset filters</button></div>
       </div></section>
 
-      <section className="panel" id="funding-records"><div className="row-between"><h2>{activeMetric ? config.labels[activeMetric] : config.title} · {result.total}</h2>{activeMetric && <button className="secondary small" onClick={() => selectMetric("")}>Clear KPI selection</button>}</div>
+      <section className="panel" id="funding-records"><div className="row-between"><h2>{activeMetric ? kpiLabels[activeMetric] : config.title} · {result.total}</h2>{activeMetric && <button className="secondary small" onClick={() => selectMetric("")}>Clear KPI selection</button>}</div>
         {financialDrillDown && <p className="muted">Only sanctioned, ongoing, or completed records with the corresponding amount contribute to this financial total.</p>}
-        {loading ? <p role="status">Loading funding records…</p> : !result.items.length ? <p className="dash-empty">No records match the current filters.</p> : <div className="table-wrap"><table><thead><tr><th>Project</th><th>Agency / client</th><th>PI</th><th>Reporting date</th><th>Status</th><th>{amountHeading}</th><th>Actions</th></tr></thead><tbody>{result.items.map((record) => <tr key={record.id}><td><strong>{record.title}</strong><small>{record.department}</small></td><td>{record.funding_agency || "—"}</td><td>{principalInvestigatorDisplay(record)}</td><td>{record.sanction_date || record.proposal_submission_date || record.start_date || "—"}</td><td>{label(record.status)}</td><td>{financialAmount(record, activeMetric, category)}</td><td className="actions"><Link href={`/funding-projects/${record.id}`}>View</Link><Link href={`/funding-projects/${record.id}/edit`}>Edit</Link>{(record as FundingProject & { is_active: boolean }).is_active && <button className="danger small" onClick={() => deactivate(record.id!)}>Deactivate</button>}</td></tr>)}</tbody></table></div>}
+        {loading ? <p role="status">Loading funding records…</p> : !result.items.length ? <p className="dash-empty">No records match the current filters.</p> : <div className="table-wrap"><table><thead><tr><th>Project</th><th>Agency / client</th><th>PI</th><th>Reporting date</th><th>Status</th><th>{amountHeading}</th><th>Actions</th></tr></thead><tbody>{result.items.map((record) => <tr key={record.id}><td><strong>{record.title}</strong><small>Recorded administrative Department: {record.department}</small></td><td>{record.funding_agency || "—"}</td><td>{principalInvestigatorDisplay(record)}</td><td>{record.sanction_date || record.proposal_submission_date || record.start_date || "—"}</td><td>{label(record.status)}</td><td>{financialAmount(record, activeMetric, category)}</td><td className="actions"><Link href={`/funding-projects/${record.id}`}>View</Link><Link href={`/funding-projects/${record.id}/edit`}>Edit</Link>{(record as FundingProject & { is_active: boolean }).is_active && <button className="danger small" onClick={() => deactivate(record.id!)}>Deactivate</button>}</td></tr>)}</tbody></table></div>}
         <PaginationControls page={result.page} pageSize={pageSize} total={result.total} loading={loading} onPageChange={setPage} onPageSizeChange={(next) => { setPageSize(next); setPage(1); }} />
       </section>
     </>}

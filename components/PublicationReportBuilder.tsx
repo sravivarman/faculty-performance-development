@@ -13,7 +13,7 @@ type Config = {
   faculty_ids: number[]; publication_type: "ALL" | "JOURNAL" | "CONFERENCE"; period_mode: "ALL" | "ACADEMIC_YEAR" | "CUSTOM";
   academic_year_id?: number; from_date?: string; to_date?: string; title_keyword?: string; venue_keyword?: string;
   publication_year?: string; indexing?: string; quartile?: string; row_mode: "PUBLICATION" | "FACULTY";
-  sort: "DATE_DESC" | "DATE_ASC" | "YEAR" | "FACULTY" | "TITLE" | "VENUE"; fields: string[]; headings: Record<string, string>;
+  sort: "DATE_DESC" | "DATE_ASC" | "YEAR" | "FACULTY" | "TITLE" | "VENUE"; fields: string[]; headings: Record<string, string>; legacy_classification?: boolean;
 };
 type SavedConfig = Partial<Config> & { mode?: "TABLE" | "CITATIONS"; citation_style?: "IEEE" | "APA" | "HARVARD" };
 type Template = { id: number; name: string; description?: string | null; config: SavedConfig; is_builtin: boolean };
@@ -57,7 +57,11 @@ export default function PublicationReportBuilder() {
     refreshTemplates();
   }, []);
 
-  const groupedFields = useMemo(() => fields.filter((item) => !fieldSearch || item.label.toLowerCase().includes(fieldSearch.toLowerCase()) || item.group.toLowerCase().includes(fieldSearch.toLowerCase())).reduce<Record<string, FieldInfo[]>>((groups, item) => ({ ...groups, [item.group]: [...(groups[item.group] || []), item] }), {}), [fields, fieldSearch]);
+  const groupedFields = useMemo(() => fields.filter((item) => {
+    if (config.publication_type === "JOURNAL" && item.id === "classification") return false;
+    if (config.publication_type === "CONFERENCE" && ["quartile", "impact_factor"].includes(item.id)) return false;
+    return !fieldSearch || item.label.toLowerCase().includes(fieldSearch.toLowerCase()) || item.group.toLowerCase().includes(fieldSearch.toLowerCase());
+  }).reduce<Record<string, FieldInfo[]>>((groups, item) => ({ ...groups, [item.group]: [...(groups[item.group] || []), item] }), {}), [fields, fieldSearch, config.publication_type]);
   const matchingFaculty = useMemo(() => masters?.faculty.filter((person) => `${person.name} ${person.employee_id || ""}`.toLowerCase().includes(facultySearch.toLowerCase())) || [], [masters, facultySearch]);
   const selectedFields = config.fields.map((id) => fields.find((item) => item.id === id)).filter(Boolean) as FieldInfo[];
 
@@ -83,7 +87,7 @@ export default function PublicationReportBuilder() {
 
   async function saveTemplate(updateExisting = false) {
     if (!templateName.trim()) { setError("Enter a template name."); return; }
-    const payload = { name: templateName.trim(), description: templateDescription || null, config: { fields: config.fields, headings: config.headings, row_mode: config.row_mode, sort: config.sort, mode, citation_style: citationStyle } };
+    const payload = { name: templateName.trim(), description: templateDescription || null, config: { fields: config.fields, headings: config.headings, row_mode: config.row_mode, sort: config.sort, mode, citation_style: citationStyle, ...(config.legacy_classification ? { legacy_classification: true } : { field_semantics_version: 3 }) } };
     try {
       const result = await api<Template>(updateExisting && selectedTemplate ? `/publication-reports/templates/${selectedTemplate}` : "/publication-reports/templates", { method: updateExisting && selectedTemplate ? "PUT" : "POST", body: JSON.stringify(payload) });
       setSelectedTemplate(result.id); await refreshTemplates();
@@ -121,7 +125,7 @@ export default function PublicationReportBuilder() {
       <label className="field" htmlFor="report-venue-keyword">Journal / Conference<input id="report-venue-keyword" value={config.venue_keyword || ""} onChange={(event) => update({ venue_keyword: event.target.value })}/></label>
       <label className="field" htmlFor="report-publication-year">Publication Year<input id="report-publication-year" type="number" min="1900" value={config.publication_year || ""} onChange={(event) => update({ publication_year: event.target.value })}/></label>
       <label className="field" htmlFor="report-indexing">Indexing<select id="report-indexing" value={config.indexing || ""} onChange={(event) => update({ indexing: event.target.value })}><option value="">All Indexing</option>{["SCOPUS", "SCI", "SCIE", "ESCI", "WEB_OF_SCIENCE", "UGC_CARE", "OTHER", "NONE", "UNKNOWN"].map((value) => <option key={value} value={value}>{label(value)}</option>)}</select></label>
-      <label className="field" htmlFor="report-quartile">Quartile<select id="report-quartile" value={config.quartile || ""} onChange={(event) => update({ quartile: event.target.value })}><option value="">All</option>{["Q1", "Q2", "Q3", "Q4", "NOT_APPLICABLE", "UNKNOWN"].map((value) => <option key={value}>{label(value)}</option>)}</select></label>
+      {config.publication_type !== "CONFERENCE" && <label className="field" htmlFor="report-quartile">Journal Quartile<select id="report-quartile" value={config.quartile || ""} onChange={(event) => update({ quartile: event.target.value })}><option value="">All</option>{["Q1", "Q2", "Q3", "Q4", "NOT_APPLICABLE", "UNKNOWN"].map((value) => <option key={value}>{label(value)}</option>)}</select></label>}
       <label className="field" htmlFor="report-sort">Sort<select id="report-sort" value={config.sort} onChange={(event) => update({ sort: event.target.value as Config["sort"] })}>{[["DATE_DESC", "Publication date — newest first"], ["DATE_ASC", "Publication date — oldest first"], ["YEAR", "Publication year"], ["FACULTY", "Faculty name"], ["TITLE", "Publication title"], ["VENUE", "Journal / conference"]].map(([value, text]) => <option key={value} value={value}>{text}</option>)}</select></label>
       <label className="field" htmlFor="report-row-mode">Row Mode<select id="report-row-mode" value={config.row_mode} onChange={(event) => update({ row_mode: event.target.value as Config["row_mode"] })}><option value="PUBLICATION">Publication-wise</option><option value="FACULTY">Faculty-wise</option></select></label>
     </div>
@@ -129,6 +133,7 @@ export default function PublicationReportBuilder() {
     <div className="report-faculty-list">{matchingFaculty.map((person) => <label className="check" key={person.id}><input type="checkbox" checked={config.faculty_ids.includes(person.id)} onChange={() => toggleFaculty(person.id)}/><span className="report-faculty-label">{person.name}{person.employee_id ? ` (${person.employee_id})` : ""}</span>{!person.is_active && <span className="badge">Historical</span>}</label>)}</div>
     </section>
     {mode === "TABLE" ? <>
+      {config.legacy_classification && <p className="compact-note">This saved layout uses the historical raw Classification field. It is retained unchanged for compatibility; new layouts use Conference Scope for conference records only.</p>}
       <section className="panel"><div className="row-between"><div><h2>Columns</h2><p className="muted">Unavailable fields are shown for transparency and cannot be selected.</p></div><div className="actions"><button className="secondary small" onClick={() => update({ fields: fields.filter((item) => item.availability !== "UNAVAILABLE").map((item) => item.id) })}>Select All Available</button><button className="secondary small" onClick={() => update({ fields: [] })}>Clear Selection</button></div></div>
         <div className="actions"><label className="field" htmlFor="report-field-search" style={{ flex: 1 }}>Find a field<input id="report-field-search" value={fieldSearch} onChange={(event) => setFieldSearch(event.target.value)}/></label><label className="field" htmlFor="report-built-in-template">Built-in Template<select id="report-built-in-template" defaultValue="" onChange={(event) => { const template = builtIns.find((item) => item.id === event.target.value); if (template) applyTemplate(template.fields); event.currentTarget.value = ""; }}><option value="">Choose a template</option>{builtIns.map((item) => <option key={item.id} value={item.id}>{builtInNames[item.id] || item.name}</option>)}</select></label></div>
         <div className="report-field-groups">{Object.entries(groupedFields).map(([group, items]) => <section key={group}><h3>{group}</h3>{items.map((item) => <label className={`check report-field${item.availability === "UNAVAILABLE" ? " unavailable" : ""}`} key={item.id} title={item.note || ""}><input type="checkbox" disabled={item.availability === "UNAVAILABLE"} checked={config.fields.includes(item.id)} onChange={() => toggleField(item)}/><span>{item.label}</span><small>{item.availability === "CALCULATED" ? "Calculated" : item.availability === "UNAVAILABLE" ? `Unavailable${item.note ? ` — ${item.note}` : ""}` : "Stored"}</small></label>)}</section>)}</div>

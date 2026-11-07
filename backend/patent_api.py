@@ -1,7 +1,7 @@
 from datetime import date
 import csv
 import io
-from typing import Annotated
+from typing import Annotated, Literal
 
 from fastapi import APIRouter, Depends, HTTPException
 from fastapi.responses import Response
@@ -10,7 +10,7 @@ from sqlalchemy.orm import Session
 
 from .db import get_db
 from .evidence import permanently_delete_owner
-from .models import Patent, PatentChangeLog
+from .models import Department, Patent, PatentChangeLog
 from .patent_schemas import CURRENT_DEPARTMENT, INSTITUTION_NAME, InventorInput, PatentInput, PatentStatus
 from .patent_types import PatentType, PATENT_TYPES
 from .patent_services import patent_dict, patent_drilldown, patent_kpis, patent_person_kpis, save_patent, selected_patents
@@ -29,10 +29,13 @@ def get_patent(db,identity):
     return patent
 
 
-def patent_filters(patent_type:PatentType|None=None,current_status:PatentStatus|None=None,faculty_id:int|None=None,student_id:int|None=None,
+def patent_filters(db: DB, patent_type:PatentType|None=None,current_status:PatentStatus|None=None,faculty_id:int|None=None,student_id:int|None=None,
                    student_participation:bool|None=None,patent_office:str|None=None,country:str|None=None,
-                   include_inactive:bool=False,drill_faculty_id:int|None=None,drill_student_id:int|None=None):
-    return locals()
+                   include_inactive:bool=False,drill_faculty_id:int|None=None,drill_student_id:int|None=None,
+                   department_id:int|None=None,attribution_mode:Literal["CURRENT","AT_ACTIVITY_DATE"]="CURRENT"):
+    if department_id is not None and db.get(Department, department_id) is None:
+        raise HTTPException(422, "Unknown Department ID")
+    return {key: value for key, value in locals().items() if key != "db"}
 
 
 @router.get("/patent-options")

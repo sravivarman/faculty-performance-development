@@ -5,7 +5,7 @@ import {FacultyDetailsProvider} from './FacultyResearchDetails';
 import {currency} from '@/lib/research-overview';
 
 export function DashboardFrame({children}:{children:ReactNode}){return <FacultyDetailsProvider><div className="research-dashboard">{children}</div></FacultyDetailsProvider>;}
-export function ResearchPageHeader({title,subtitle,children}:{title:string;subtitle:string;children?:ReactNode}){return <div className="dash-heading"><div><span className="dash-kicker">Department research records</span><h1>{title}</h1><p>{subtitle}</p></div><div className="actions">{children}</div></div>;}
+export function ResearchPageHeader({title,subtitle,children}:{title:string;subtitle:string;children?:ReactNode}){return <div className="dash-heading"><div><span className="dash-kicker">Institutional research records</span><h1>{title}</h1><p>{subtitle}</p></div><div className="actions">{children}</div></div>;}
 export function DashboardSection({title,children,note,id}:{title:string;children:ReactNode;note?:string;id?:string}){return <Card asChild className="dash-chart dash-section"><section id={id}><h2>{title}</h2>{note&&<p>{note}</p>}{children}</section></Card>;}
 export const DashboardTile=DashboardSection;
 export function EmptyState({message='Not configured',detail}:{message?:string;detail?:string}){return <div className="dash-empty" role="status"><strong>{message}</strong>{detail&&<p>{detail}</p>}</div>;}

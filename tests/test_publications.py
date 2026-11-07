@@ -265,6 +265,40 @@ def test_evidence_upload_link_view_download_delete(setup):
     assert client.get(f"/publications/{identity}").json()["evidence_count"]==0
 
 
+def test_publication_update_preserves_id_author_metadata_and_evidence(setup):
+    client, _, _ = setup
+    payload = paper("10.1234/edit-preservation")
+    payload["authors"][0].update(given_name_from_source="Faculty", family_name_from_source="One")
+    payload["authors"][1].update(given_name_from_source="Faculty", family_name_from_source="Two")
+    created = client.post("/publications", json=payload)
+    assert created.status_code == 201, created.text
+    identity = created.json()["id"]
+    evidence = client.post(
+        f"/publications/{identity}/evidence",
+        files={"file": ("edit-proof.pdf", b"%PDF-1.4\nproof", "application/pdf")},
+        data={"evidence_type": "PUBLISHED_PAPER"},
+    )
+    assert evidence.status_code == 201, evidence.text
+
+    existing = client.get(f"/publications/{identity}")
+    assert existing.status_code == 200, existing.text
+    update = existing.json()
+    update["title"] = "Updated without replacing author metadata"
+    response = client.put(f"/publications/{identity}", json=update)
+    assert response.status_code == 200, response.text
+    saved = response.json()
+
+    assert saved["id"] == identity
+    assert saved["title"] == "Updated without replacing author metadata"
+    assert saved["doi"] == "10.1234/edit-preservation"
+    assert saved["indexing"] == payload["indexing"]
+    assert [(author["author_order"], author["faculty_id"], author["student_id"])
+            for author in saved["authors"]] == [(1, 1, None), (2, 2, None), (3, None, 1), (4, None, None)]
+    assert saved["authors"][0]["given_name_from_source"] == "Faculty"
+    assert saved["authors"][0]["family_name_from_source"] == "One"
+    assert saved["evidence_count"] == 1
+
+
 def test_master_validation_and_year_overlap(setup):
     client,_,_=setup
     assert client.post("/faculty",json={"employee_id":"C","name":"Faculty C","orcid":"https://orcid.org/0000-0002-1234-5678"}).json()["orcid"]=="0000-0002-1234-5678"

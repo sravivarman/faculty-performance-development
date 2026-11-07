@@ -140,6 +140,7 @@ export default function FundingEditor({ category, initial }: Props) {
   const historicalPreSanctionAmount = category === "SPONSORED_RESEARCH"
     && !["SANCTIONED", "ONGOING", "COMPLETED"].includes(draft.status)
     && draft.sanctioned_amount !== null && draft.sanctioned_amount !== undefined;
+  const agencyLabel = category === "SPONSORED_RESEARCH" ? "Funding Agency" : category === "CONSULTANCY" ? "Client / Sponsoring Organization" : "Internal Granting Authority / Institution";
 
   return <form className="fdp-editor" onSubmit={save}>
     {error && <div className="error" role="alert">{error}</div>}
@@ -148,9 +149,9 @@ export default function FundingEditor({ category, initial }: Props) {
       <p className="muted">{categoryText}. Amounts are recorded in INR; reporting derives lakhs without changing the stored amount.</p>
       <div className="split">
         <label className="field wide">Project title *<input required value={draft.title} onChange={(event) => setDraft({ ...draft, title: event.target.value })} /></label>
-        <label className="field">Department where sanctioned *<input required value={draft.department} onChange={(event) => setDraft({ ...draft, department: event.target.value })} /></label>
+        <div className="field"><label htmlFor="funding-administrative-department">Recorded Lead / Administrative Department *</label><input id="funding-administrative-department" required aria-describedby="funding-administrative-department-help" value={draft.department} onChange={(event) => setDraft({ ...draft, department: event.target.value })} /><small id="funding-administrative-department-help" className="muted">This records the Department stated for project administration. Participating Departments are determined separately from linked Faculty investigators.</small></div>
         <label className="field">Project status *<select value={draft.status} onChange={(event) => setDraft({ ...draft, status: event.target.value })}>{fundingStatuses.map((status) => <option key={status} value={status}>{label(status)}</option>)}</select></label>
-        <label className="field">Funding agency / organization<input value={draft.funding_agency || ""} onChange={(event) => setText("funding_agency", event.target.value)} /></label>
+        <label className="field">{agencyLabel}<input value={draft.funding_agency || ""} onChange={(event) => setText("funding_agency", event.target.value)} /></label>
         <label className="field">Reference / sanction number<input value={draft.reference_number || ""} onChange={(event) => setText("reference_number", event.target.value)} /></label>
         <label className="field">Proposal submission date<input type="date" value={draft.proposal_submission_date || ""} onChange={(event) => setText("proposal_submission_date", event.target.value)} /></label>
         <label className="field">Sanction / approval date<input type="date" value={draft.sanction_date || ""} onChange={(event) => setText("sanction_date", event.target.value)} /></label>

@@ -110,13 +110,25 @@ def save_publication(db, data: PublicationInput, pub=None):
     return pub
 
 
-def filtered_publications(db, from_date=None, to_date=None,
+def filtered_publications_query(db, from_date=None, to_date=None,
                           faculty_id=None, student_id=None, student_participation=None,
                           indexing=None, publication_type=None, metric=None, include_inactive=False,
-                          drill_faculty_id=None, drill_student_id=None, claiming_faculty_id=None, quartile=None, classification=None, dashboard_only=False):
+                          drill_faculty_id=None, drill_student_id=None, claiming_faculty_id=None, quartile=None, classification=None, dashboard_only=False,
+                          department_id=None, attribution_mode="CURRENT"):
     from .publication_reporting import publication_query
+    from .department_filtering import department_record_predicate
     selected = {key: value for key, value in locals().items() if key != 'db'}
-    return db.scalars(publication_query(**selected).order_by(Publication.publication_date.desc(), Publication.id.desc())).all()
+    query = publication_query(**selected)
+    if department_id is not None:
+        query = query.where(department_record_predicate(
+            db, "publications", department_id, attribution_mode=attribution_mode,
+        ))
+    return query
+
+
+def filtered_publications(db, **filters):
+    query = filtered_publications_query(db, **filters)
+    return db.scalars(query.order_by(Publication.publication_date.desc(), Publication.id.desc())).all()
 
 
 def department_kpis(pubs):

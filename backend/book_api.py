@@ -1,5 +1,5 @@
 from datetime import date
-from typing import Annotated
+from typing import Annotated, Literal
 
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy import select
@@ -14,7 +14,7 @@ from .db import get_db
 from .evidence import permanently_delete_owner
 from .doi import normalize_doi
 from .metadata import CrossrefProvider, MetadataError
-from .models import BookPublication, BookChangeLog
+from .models import BookPublication, BookChangeLog, Department
 from .pagination import PageSize, paginate_records
 from .reporting import validate_date_range
 from .services import columns
@@ -47,12 +47,15 @@ def metadata(doi: str, db: DB):
         raise HTTPException(502, str(exc)) from exc
 
 
-def filters(from_date: date | None = None, to_date: date | None = None, work_type: WorkType | None = None,
+def filters(db: DB, from_date: date | None = None, to_date: date | None = None, work_type: WorkType | None = None,
             faculty_id: int | None = None, student_id: int | None = None, student_participation: bool | None = None,
             interdepartmental: bool | None = None, external_collaboration: bool | None = None,
-            publisher: str | None = None, isbn_search: str | None = None, include_inactive: bool = False):
+            publisher: str | None = None, isbn_search: str | None = None, include_inactive: bool = False,
+            department_id: int | None = None, attribution_mode: Literal["CURRENT", "AT_ACTIVITY_DATE"] = "CURRENT"):
     validate_date_range(from_date, to_date, required=False)
-    return locals()
+    if department_id is not None and db.get(Department, department_id) is None:
+        raise HTTPException(422, "Unknown Department ID")
+    return {key: value for key, value in locals().items() if key != "db"}
 
 
 def get_book(db, identity):

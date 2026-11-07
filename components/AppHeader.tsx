@@ -144,7 +144,7 @@ export default function AppHeader() {
     <header className="portal-header" ref={headerRef}>
       <div className="portal-header-shell">
         <Link href={hrefWithRange("/")} className="portal-brand" onClick={closeMenus}>
-          <span className="portal-title">Faculty Research &amp; Development Portal – EEE</span>
+          <span className="portal-title">Faculty Research &amp; Development Portal</span>
         </Link>
 
         <nav className="portal-navigation portal-navigation-desktop" aria-label="Primary navigation">

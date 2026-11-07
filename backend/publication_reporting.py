@@ -87,7 +87,14 @@ def dashboard(db, filters):
     bounds = validate_date_range(filters['from_date'], filters['to_date'])
     selected = dict(filters, metric=None, drill_faculty_id=None, drill_student_id=None)
     # The executive dashboard covers Journal + Conference; legacy Other records remain available in the registry.
-    ids = publication_query(**selected).where(P.publication_type.in_(['JOURNAL', 'CONFERENCE'])).with_only_columns(P.id).subquery()
+    query = publication_query(**selected)
+    if selected.get('department_id') is not None:
+        from .department_filtering import department_record_predicate
+        query = query.where(department_record_predicate(
+            db, 'publications', selected['department_id'],
+            attribution_mode=selected.get('attribution_mode', 'CURRENT'),
+        ))
+    ids = query.where(P.publication_type.in_(['JOURNAL', 'CONFERENCE'])).with_only_columns(P.id).subquery()
     base = P.id.in_(select(ids.c.id))
     def count(condition):
         return func.count(func.distinct(case((condition, P.id))))

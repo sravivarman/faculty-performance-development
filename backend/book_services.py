@@ -100,7 +100,9 @@ def save_book(db, data, work=None):
 
 def selected_books(db, from_date=None, to_date=None, work_type=None, faculty_id=None, student_id=None,
                    student_participation=None, interdepartmental=None, external_collaboration=None,
-                   publisher=None, isbn_search=None, include_inactive=False, department_only=True):
+                   publisher=None, isbn_search=None, include_inactive=False, department_only=True,
+                   department_id=None, attribution_mode="CURRENT"):
+    from .department_filtering import department_record_predicate
     query = select(BookPublication).order_by(BookPublication.publication_date.desc(), BookPublication.id.desc())
     if not include_inactive:
         query = query.where(BookPublication.is_active.is_(True))
@@ -110,8 +112,14 @@ def selected_books(db, from_date=None, to_date=None, work_type=None, faculty_id=
         query = query.where(BookPublication.work_type == work_type)
     if publisher:
         query = query.where(BookPublication.publisher == publisher)
+    if department_id is not None:
+        # Filter parent records in SQL before list materialisation and later
+        # pagination. The shared predicate keeps one row per work.
+        query = query.where(department_record_predicate(
+            db, "books", department_id, attribution_mode=attribution_mode
+        ))
     works = db.scalars(query).all()
-    if department_only:
+    if department_only and department_id is None:
         works = [w for w in works if department_work(w)]
     for identity, field in ((faculty_id, "faculty_id"), (student_id, "student_id")):
         if identity is not None:

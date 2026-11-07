@@ -47,7 +47,7 @@ from .schemas import (
     StudentInput,
     YearInput,
 )
-from .services import columns, department_kpis, faculty_kpis, filtered_publications, publication_dict, save_publication, student_kpis
+from .services import columns, department_kpis, faculty_kpis, filtered_publications, filtered_publications_query, publication_dict, save_publication, student_kpis
 from .reporting import validate_date_range
 
 app = FastAPI(title="Faculty publications", version="1.0.0")
@@ -503,6 +503,7 @@ def parse_bibtex(data: BibTeXPaste, db: DB):
 
 
 def filters(
+    db: DB,
     from_date: date | None = None, to_date: date | None = None,
     faculty_id: int | None = None, student_id: int | None = None,
     drill_faculty_id: int | None = None, drill_student_id: int | None = None,
@@ -510,16 +511,30 @@ def filters(
     publication_type: PublicationType | None = None, metric: str | None = None, include_inactive: bool = False,
     claiming_faculty_id: int | None = None, quartile: Literal["Q1", "Q2", "Q3", "Q4", "NOT_APPLICABLE", "UNKNOWN"] | None = None,
     classification: Literal["INTERNATIONAL", "NATIONAL", "OTHER", "UNKNOWN"] | None = None,
+    department_id: int | None = None,
+    attribution_mode: Literal["CURRENT", "AT_ACTIVITY_DATE"] = "CURRENT",
     dashboard_only: bool = False,
 ):
-    return locals()
+    if department_id is not None and db.get(Department, department_id) is None:
+        raise HTTPException(422, "Unknown Department ID")
+    return {key: value for key, value in locals().items() if key != "db"}
 
 
 @app.get("/publications")
 def list_publications(db: DB, selected: Annotated[dict, Depends(filters)],
                       page: int | None = None, page_size: PageSize = 25):
-    return paginate_records(filtered_publications(db, **selected), page, page_size,
-                            lambda publication: publication_dict(publication, db))
+    if page_size != "all" and page_size not in (10, 25, 50):
+        raise HTTPException(422, "Page size must be 10, 25, 50 or all")
+    if page is not None and page < 1:
+        raise HTTPException(422, "Page must be positive")
+    query = filtered_publications_query(db, **selected)
+    ordered = query.order_by(Publication.publication_date.desc(), Publication.id.desc())
+    if page is None:
+        return [publication_dict(item, db) for item in db.scalars(ordered)]
+    total = db.scalar(select(func.count()).select_from(query.subquery())) or 0
+    rows = db.scalars(ordered if page_size == "all" else ordered.offset((page - 1) * page_size).limit(page_size)).all()
+    return {"items": [publication_dict(item, db) for item in rows], "total": total,
+            "page": 1 if page_size == "all" else page, "page_size": page_size}
 
 
 @app.post("/publications", status_code=201)

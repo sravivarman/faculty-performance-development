@@ -26,6 +26,28 @@ def research_overview(db:DB,from_date:date,to_date:date,calendar_year:int|None=N
     return overview(db,from_date,to_date)
 
 
+@router.get("/research/scoped-overview")
+def scoped_research_overview(
+    db: DB, from_date: date, to_date: date,
+    scope: str = "INSTITUTION", department_id: int | None = None,
+    faculty_id: int | None = None, attribution_mode: str = "CURRENT",
+):
+    """Additive institutional reporting API; legacy overview semantics remain intact."""
+    validate_date_range(from_date, to_date)
+    if scope not in {"INSTITUTION", "DEPARTMENT", "FACULTY"}:
+        from fastapi import HTTPException
+        raise HTTPException(422, "scope must be INSTITUTION, DEPARTMENT, or FACULTY")
+    if attribution_mode not in {"CURRENT", "AT_ACTIVITY_DATE"}:
+        from fastapi import HTTPException
+        raise HTTPException(422, "attribution_mode must be CURRENT or AT_ACTIVITY_DATE")
+    from .scoped_reporting import scoped_overview
+    return scoped_overview(
+        db, start=from_date, end=to_date, scope=scope,
+        department_id=department_id, faculty_id=faculty_id,
+        attribution_mode=attribution_mode,
+    )
+
+
 @router.get("/research/activities")
 def research_activities(db:DB,from_date:date,to_date:date,faculty_id:int|None=None,student_only:bool=False):
     from .research_overview import activities

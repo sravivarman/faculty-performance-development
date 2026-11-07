@@ -212,6 +212,19 @@ def test_update_claimant_roles_deactivate_and_audit(setup):
     assert report(client, "/book-kpis?include_inactive=true").json()["total"] == 1
 
 
+def test_historical_classification_survives_an_unrelated_edit(setup):
+    client, _, _ = setup
+    data = book()
+    data["classification"] = "INTERNATIONAL"
+    record = create(client, data)
+
+    data["title"] = "Updated power systems"
+    response = client.put(f'/books/{record["id"]}', json=data)
+
+    assert response.status_code == 200, response.text
+    assert response.json()["classification"] == "INTERNATIONAL"
+
+
 @pytest.mark.parametrize("kind", ["BOOK", "BOOK_CHAPTER"])
 def test_multiple_evidence_storage_view_download_remove_and_owner_isolation(setup, kind):
     client, _, root = setup

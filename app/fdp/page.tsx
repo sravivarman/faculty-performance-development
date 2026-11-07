@@ -45,6 +45,8 @@ export default function Page() {
   const [search, setSearch] = useState("");
   const [activityType, setActivityType] = useState(() => searchParams.get("activity_type") || "");
   const [activityGroup, setActivityGroup] = useState("");
+  const [departmentId, setDepartmentId] = useState("");
+  const [attributionMode, setAttributionMode] = useState("CURRENT");
   const [facultyId, setFacultyId] = useState(() => searchParams.get("faculty_id") || "");
   const [role, setRole] = useState(() => searchParams.get("role") || "");
   const [includeInactive, setIncludeInactive] = useState(false);
@@ -66,6 +68,7 @@ export default function Page() {
     ...(search ? { search } : {}),
     ...(recordActivityType ? { activity_type: recordActivityType } : {}),
     ...(activityGroup ? { activity_group: activityGroup } : {}),
+    ...(departmentId ? { department_id: departmentId, attribution_mode: attributionMode } : {}),
     ...(facultyId ? { faculty_id: facultyId } : {}),
     ...(role ? { role } : {}),
     ...(includeInactive ? { include_inactive: "true" } : {}),
@@ -75,6 +78,7 @@ export default function Page() {
     ...(search ? { search } : {}),
     ...(activityType ? { activity_type: activityType } : {}),
     ...(activityGroup ? { activity_group: activityGroup } : {}),
+    ...(departmentId ? { department_id: departmentId, attribution_mode: attributionMode } : {}),
     ...(facultyId ? { faculty_id: facultyId } : {}),
     ...(role ? { role } : {}),
     ...(includeInactive ? { include_inactive: "true" } : {}),
@@ -103,10 +107,10 @@ export default function Page() {
   }, []);
   useEffect(() => {
     loadList();
-  }, [ready, range.from_date, range.to_date, page, pageSize, search, activityType, activityGroup, facultyId, role, includeInactive, activeMetric]);
+  }, [ready, range.from_date, range.to_date, page, pageSize, search, activityType, activityGroup, departmentId, attributionMode, facultyId, role, includeInactive, activeMetric]);
   useEffect(() => {
     loadDashboard();
-  }, [ready, range.from_date, range.to_date, search, activityType, activityGroup, facultyId, role, includeInactive]);
+  }, [ready, range.from_date, range.to_date, search, activityType, activityGroup, departmentId, attributionMode, facultyId, role, includeInactive]);
 
   const resetPage = (change: () => void) => {
     change();
@@ -115,7 +119,7 @@ export default function Page() {
     setShowFacultyParticipants(false);
   };
   const resetFilters = () => {
-    setSearch(""); setActivityType(""); setActivityGroup(""); setFacultyId("");
+    setSearch(""); setActivityType(""); setActivityGroup(""); setDepartmentId(""); setAttributionMode("CURRENT"); setFacultyId("");
     setRole(""); setIncludeInactive(false); setPage(1);
     setActiveMetric(""); setShowFacultyParticipants(false);
   };
@@ -221,6 +225,20 @@ export default function Page() {
         <h2>Find activities</h2>
         <div className="filters">
           <label className="field">
+            Department
+            <select value={departmentId} onChange={(event) => resetPage(() => { setDepartmentId(event.target.value); setAttributionMode("CURRENT"); })}>
+              <option value="">All Departments</option>
+              {masters?.departments.map((department) => <option key={department.id} value={department.id}>{department.name} ({department.code}){department.is_active ? "" : " (historical)"}</option>)}
+            </select>
+          </label>
+          {departmentId && <label className="field">
+            Department Attribution
+            <select value={attributionMode} onChange={(event) => resetPage(() => setAttributionMode(event.target.value))}>
+              <option value="CURRENT">Current Department</option>
+              <option value="AT_ACTIVITY_DATE">Activity-Date Department</option>
+            </select>
+          </label>}
+          <label className="field">
             Search
             <input value={search} placeholder="Title, organizer, or Faculty" onChange={(event) => resetPage(() => setSearch(event.target.value))} />
           </label>
@@ -252,6 +270,7 @@ export default function Page() {
           <div className="actions"><button type="button" className="secondary" onClick={resetFilters}>Reset filters</button></div>
         </div>
       </section>
+      {departmentId && attributionMode === "AT_ACTIVITY_DATE" && <p className="muted compact-note">Only participants with verified primary Department affiliations on the activity start date are included. Unverified historical baseline affiliations are excluded.</p>}
 
       {!showFacultyParticipants && <section className="panel" id="fdp-records">
         <div className="row-between">

@@ -170,12 +170,13 @@ export default function MasterPage() {
   function renderDepartmentSelect(labelText: string, value: string, onChange: (value: string) => void, allowCurrentInactive = false) {
     const current = masters?.departments.find((department) => String(department.id) === value);
     const choices = current && !current.is_active && allowCurrentInactive ? [current, ...activeDepartments] : activeDepartments;
-    return <label className="field">{labelText}<select required value={value} onChange={(event) => onChange(event.target.value)}>
+    const selectId = "department-" + labelText.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+    return <div className="field"><label htmlFor={selectId}>{labelText}</label><select id={selectId} required value={value} onChange={(event) => onChange(event.target.value)}>
       <option value="">Select Department</option>
       {choices.map((department) => <option key={department.id} value={department.id}>
         {department.name} ({department.code}){department.is_active ? "" : " · inactive"}
       </option>)}
-    </select></label>;
+    </select></div>;
   }
 
   const editedFaculty = kind === "faculty" && editing

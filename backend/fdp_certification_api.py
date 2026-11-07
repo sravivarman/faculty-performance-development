@@ -8,7 +8,7 @@ from sqlalchemy import and_, func, or_, select
 from sqlalchemy.orm import Session
 from . import db as database
 from .db import get_db
-from .models import Certification, CertificationChangeLog, EvidenceFile, Faculty, FdpActivity, FdpChangeLog, FdpParticipant, FdpSpeaker
+from .models import Certification, CertificationChangeLog, Department, EvidenceFile, Faculty, FdpActivity, FdpChangeLog, FdpParticipant, FdpSpeaker
 from .pagination import ALLOWED_PAGE_SIZES, PageSize
 from .reporting import validate_date_range
 from .services import columns
@@ -125,8 +125,14 @@ def cleanup_fdp_evidence_files(evidence: list[EvidenceFile]):
 @router.get("/fdp-options")
 def fdp_options(): return {"activity_types":ACTIVITY_TYPES,"roles":ROLES,"duration_units":("HOURS","DAYS","WEEKS","MONTHS"),"modes":("PHYSICAL","ONLINE","HYBRID")}
 @router.get("/fdp-activities")
-def list_activities(db:DB,from_date:date|None=None,to_date:date|None=None,activity_type:str|None=None,activity_group:str|None=None,faculty_id:int|None=None,role:ParticipationRole|None=None,search:str|None=None,include_inactive:bool=False,page:int|None=None,page_size:PageSize=25):
+def list_activities(db:DB,from_date:date|None=None,to_date:date|None=None,activity_type:str|None=None,activity_group:str|None=None,faculty_id:int|None=None,role:ParticipationRole|None=None,search:str|None=None,include_inactive:bool=False,page:int|None=None,page_size:PageSize=25,department_id:int|None=None,attribution_mode:Literal["CURRENT","AT_ACTIVITY_DATE"]="CURRENT"):
     validate_date_range(from_date,to_date,required=False); query=select(FdpActivity)
+    if department_id is not None:
+        if db.get(Department, department_id) is None: raise HTTPException(422, "Unknown Department ID")
+        from .department_filtering import department_record_predicate
+        # One parent-ID predicate preserves distinct activities even where
+        # several participants belong to the selected Department.
+        query=query.where(department_record_predicate(db,"fdp",department_id,attribution_mode=attribution_mode))
     if not include_inactive: query=query.where(FdpActivity.is_active.is_(True))
     if from_date: query=query.where(FdpActivity.start_date>=from_date,FdpActivity.start_date<=to_date)
     if activity_type: query=query.where(FdpActivity.activity_type==activity_type)
@@ -208,9 +214,18 @@ def permanently_delete_activity(identity:int,db:DB):
     }
 
 @router.get("/fdp-dashboard")
-def fdp_dashboard(db:DB,from_date:date,to_date:date,activity_type:str|None=None,activity_group:str|None=None,faculty_id:int|None=None,role:ParticipationRole|None=None,search:str|None=None,include_inactive:bool=False):
-    records=list_activities(db,from_date,to_date,activity_type,activity_group,faculty_id,role,search,include_inactive)
+def fdp_dashboard(db:DB,from_date:date,to_date:date,activity_type:str|None=None,activity_group:str|None=None,faculty_id:int|None=None,role:ParticipationRole|None=None,search:str|None=None,include_inactive:bool=False,department_id:int|None=None,attribution_mode:Literal["CURRENT","AT_ACTIVITY_DATE"]="CURRENT"):
+    records=list_activities(db,from_date,to_date,activity_type,activity_group,faculty_id,role,search,include_inactive,department_id=department_id,attribution_mode=attribution_mode)
     types={kind:sum(row["activity_type"]==kind for row in records) for kind in ACTIVITY_TYPES}
+    department_membership={}
+    def belongs_to_department(participant, start_date):
+        if department_id is None: return True
+        from .department_attribution import resolve_faculty_departments
+        key=(participant["faculty_id"], start_date if attribution_mode=="AT_ACTIVITY_DATE" else None)
+        if key not in department_membership:
+            department_membership[key]=resolve_faculty_departments(db,participant["faculty_id"],activity_date=key[1],mode=attribution_mode)["department_ids"]
+        return department_id in department_membership[key]
+
     def scoped_participants(row):
         """Apply Faculty and role reporting filters to participant associations.
 
@@ -218,7 +233,7 @@ def fdp_dashboard(db:DB,from_date:date,to_date:date,activity_type:str|None=None,
         activity KPIs. Person-level metrics must instead count only the
         associations that satisfy an explicitly selected Faculty or role.
         """
-        participants=row["participants"]
+        participants=[participant for participant in row["participants"] if belongs_to_department(participant,row["start_date"])]
         if faculty_id is not None:
             participants=[participant for participant in participants if participant["faculty_id"]==faculty_id]
         if role is not None:
@@ -262,8 +277,12 @@ def fdp_dashboard(db:DB,from_date:date,to_date:date,activity_type:str|None=None,
 @router.get("/certification-options")
 def certification_options(): return {"categories":("NPTEL_SWAYAM","MOOC","OTHER"),"statuses":("COMPLETED","IN_PROGRESS")}
 @router.get("/certifications")
-def list_certifications(db:DB,from_date:date|None=None,to_date:date|None=None,faculty_id:int|None=None,category:str|None=None,status:str|None=None,search:str|None=None,include_inactive:bool=False,page:int|None=None,page_size:PageSize=25,current_in_progress:bool=False):
+def list_certifications(db:DB,from_date:date|None=None,to_date:date|None=None,faculty_id:int|None=None,category:str|None=None,status:str|None=None,search:str|None=None,include_inactive:bool=False,page:int|None=None,page_size:PageSize=25,current_in_progress:bool=False,department_id:int|None=None,attribution_mode:Literal["CURRENT","AT_ACTIVITY_DATE"]="CURRENT"):
     validate_date_range(from_date,to_date,required=False); query=select(Certification)
+    if department_id is not None:
+        if db.get(Department, department_id) is None: raise HTTPException(422, "Unknown Department ID")
+        from .department_filtering import department_record_predicate
+        query=query.where(department_record_predicate(db,"certifications",department_id,attribution_mode=attribution_mode))
     if not include_inactive: query=query.where(Certification.is_active.is_(True))
     if current_in_progress:
         if status not in (None,"IN_PROGRESS"): raise HTTPException(422,"Current in-progress mode only supports IN_PROGRESS status")
@@ -300,7 +319,7 @@ def delete_certification(identity:int,db:DB):
     row.is_active=False;db.add(CertificationChangeLog(certification_id=identity,action="DEACTIVATE",changes={"is_active":False}));db.commit();return {"id":identity,"is_active":False}
 
 @router.get("/certification-dashboard")
-def certification_dashboard(db:DB,from_date:date,to_date:date,faculty_id:int|None=None,category:str|None=None,status:str|None=None,search:str|None=None,include_inactive:bool=False):
+def certification_dashboard(db:DB,from_date:date,to_date:date,faculty_id:int|None=None,category:str|None=None,status:str|None=None,search:str|None=None,include_inactive:bool=False,department_id:int|None=None,attribution_mode:Literal["CURRENT","AT_ACTIVITY_DATE"]="CURRENT"):
     """Return department-wide certification metrics without table pagination.
 
     Completion is a date-based outcome; in-progress work is a current state.
@@ -314,6 +333,8 @@ def certification_dashboard(db:DB,from_date:date,to_date:date,faculty_id:int|Non
         category=category,
         search=search,
         include_inactive=include_inactive,
+        department_id=department_id,
+        attribution_mode=attribution_mode,
     )
     completed=[r for r in records if r["status"]=="COMPLETED" and r["completion_date"] and from_date <= r["completion_date"] <= to_date]
     in_progress=[r for r in records if r["status"]=="IN_PROGRESS"]

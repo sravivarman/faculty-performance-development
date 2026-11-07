@@ -59,15 +59,16 @@ export default function DateRangeFilter() {
     if(!validRange(draft)){setError("From Date and To Date are required; From Date must be on or before To Date.");return;}
     setError("");setRange(draft,preset);
   }
-  return <section className="panel"><form className="date-range" onSubmit={apply} aria-label="Reporting date range">
-    <label className="field">Date Range<select disabled={!initialized} value={preset} onChange={e=>{
+  const showCustomRange = preset === "Custom";
+  return <section className="reporting-period"><form className="date-range" onSubmit={apply} aria-label="Reporting period">
+    <label className="field">Reporting Period<select disabled={!initialized} value={preset} onChange={e=>{
       const chosen=e.target.value as DatePreset;setPreset(chosen);setError("");
       if(chosen!=="Custom") {const value=presetRange(chosen);setDraft(value);setRange(value,chosen);}
-    }}>{DATE_PRESETS.map(value=><option key={value}>{value}</option>)}<optgroup label="Additional calendar ranges">{EXTRA_DATE_PRESETS.map(value=><option key={value}>{value}</option>)}</optgroup></select></label>
-    <label className="field">From Date<input disabled={!initialized} required type="date" value={draft.from_date} onChange={e=>{setDraft({...draft,from_date:e.target.value});setPreset("Custom");}}/></label>
-    <label className="field">To Date<input disabled={!initialized} required type="date" value={draft.to_date} onChange={e=>{setDraft({...draft,to_date:e.target.value});setPreset("Custom");}}/></label>
-    <button disabled={!initialized} type="submit">Apply dates</button>
+    }}>{DATE_PRESETS.map(value=><option key={value} value={value}>{value==="Custom"?"Custom Range":value==="Last Academic Year"?"Previous Academic Year":value}</option>)}<optgroup label="Additional calendar ranges">{EXTRA_DATE_PRESETS.map(value=><option key={value}>{value}</option>)}</optgroup></select></label>
+    {showCustomRange&&<><label className="field">From Date<input disabled={!initialized} required type="date" value={draft.from_date} onChange={e=>{setDraft({...draft,from_date:e.target.value});}}/></label>
+    <label className="field">To Date<input disabled={!initialized} required type="date" value={draft.to_date} onChange={e=>{setDraft({...draft,to_date:e.target.value});}}/></label>
+    <button disabled={!initialized} type="submit">Apply range</button></>}
     <button disabled={!initialized} type="button" className="secondary" onClick={()=>{const value=presetRange('This Academic Year');setDraft(value);setPreset('This Academic Year');setRange(value,'This Academic Year');setError('');}}>Reset</button>
   </form>{error && <div className="error" role="alert">{error}</div>}
-  <p className="muted range-caption">{validRange(draft)?`${preset} · ${displayRange(draft)} · Inclusive dates`:'Choose From Date and To Date.'} · Selection carries between reports. Academic year: July 1–June 30.{(draft.from_date!==range.from_date || draft.to_date!==range.to_date) && ' Apply dates to update reports.'}</p></section>;
+  <p className="muted range-caption">{validRange(draft)?`${preset==="Custom"?"Custom Range":preset} · ${displayRange(draft)} · Inclusive dates`:'Choose From Date and To Date.'} · Selection carries between reports.{(draft.from_date!==range.from_date || draft.to_date!==range.to_date) && ' Apply the custom range to update reports.'}</p></section>;
 }
