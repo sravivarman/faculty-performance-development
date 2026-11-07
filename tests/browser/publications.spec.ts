@@ -68,7 +68,9 @@ test("manual review, author ownership, evidence, dashboard and edit",async({page
   await page.getByLabel("I reviewed the metadata, author mappings and claiming faculty.").check();
   await page.getByRole("button",{name:"Save changes",exact:true}).click();
   await expect(page).toHaveURL(detailUrl);
-  await page.goto("/publications");
+  // Keep this dashboard assertion independent of the browser's persisted
+  // reporting-period preference and the machine clock.
+  await page.goto("/publications?from_date=2026-09-01&to_date=2026-09-30");
   await expect(page.getByRole("button",{name:"Total Publications: 1",exact:true})).toBeVisible();
   await page.getByRole("button",{name:"Publications with Students: 1",exact:true}).first().click();
   await expect(page.locator('#papers').getByRole("link",{name:"Research collaboration P1",exact:true})).toBeVisible();

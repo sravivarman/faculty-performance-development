@@ -34,7 +34,7 @@ test("FDP and certification KPI selections do not refetch or replace their summa
 
   await page.goto(`/fdp?${period}`);
   const fdpCards = [
-    ["Distinct Activities: 2", "FDPs: 1", "STTPs: 1", "Workshops: 0"],
+    ["Faculty Participated: 2", "FDPs: 1", "STTPs: 1", "Workshops: 0"],
   ];
   for (const names of fdpCards) for (const name of names) await expect(page.getByRole("button", { name, exact: true })).toBeVisible();
 

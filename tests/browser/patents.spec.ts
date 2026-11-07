@@ -1,5 +1,19 @@
 import {test,expect} from "@playwright/test";
 
+async function chooseFaculty(card: import("@playwright/test").Locator, name: string) {
+  const selector = card.getByRole("combobox", {name: "Faculty", exact: true});
+  await selector.fill(name);
+  await card.getByRole("button", {name: new RegExp(`^${name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}`)}).click();
+}
+
+async function applyCustomRange(page: import("@playwright/test").Page, from: string, to: string) {
+  await page.getByRole("combobox", {name: "Reporting Period", exact: true}).selectOption("Custom");
+  await expect(page.getByLabel("From Date", {exact: true})).toBeVisible();
+  await page.getByLabel("From Date", {exact: true}).fill(from);
+  await page.getByLabel("To Date", {exact: true}).fill(to);
+  await page.getByRole("button", {name: "Apply range", exact: true}).click();
+}
+
 test("patent affiliations, one-record lifecycle, evidence and date-specific grant drill-down",async({page,request})=>{
   const create=async(path:string,data:object)=>{const response=await request.post(`/api${path}`,{data});expect(response.ok()).toBeTruthy();return response.json();};
   const faculty=await create("/faculty",{employee_id:"PAT-A",name:"Patent Faculty A"});
@@ -10,18 +24,16 @@ test("patent affiliations, one-record lifecycle, evidence and date-specific gran
   await page.getByLabel("Patent title *",{exact:true}).fill("Adaptive energy storage patent");
   await page.getByLabel("Application number",{exact:true}).fill(" EEE / 2026 - 123 ");
   await page.getByLabel("Filing date",{exact:true}).fill("2026-08-10");
-  const inventors=[{name:"Patent Faculty A",type:"FACULTY",scope:"CURRENT_DEPARTMENT"},{name:"Patent Faculty B",type:"FACULTY",scope:"CURRENT_DEPARTMENT"},{name:"Patent Student X",type:"STUDENT",scope:"CURRENT_DEPARTMENT"},{name:"Collaborator CSE",type:"FACULTY",scope:"SAME_INSTITUTION_OTHER_DEPARTMENT"},{name:"External Inventor",type:"EXTERNAL_PERSON",scope:"EXTERNAL_INSTITUTION"}];
+  const inventors=[{name:"Patent Faculty A",type:"FACULTY"},{name:"Patent Faculty B",type:"FACULTY"},{name:"Patent Student X",type:"STUDENT"},{name:"External Inventor",type:"EXTERNAL_PERSON"}];
   for(const [index,inventor] of inventors.entries()){
     await page.getByRole("button",{name:"+ Add inventor",exact:true}).click();const card=page.locator(".inventor-card").nth(index);
-    await card.getByLabel("Inventor name",{exact:true}).fill(inventor.name);
-    await card.getByRole("combobox",{name:"Person type",exact:true}).selectOption(inventor.type);
-    await card.getByRole("combobox",{name:"Affiliation",exact:true}).selectOption(inventor.scope);
-    if(inventor.scope==="CURRENT_DEPARTMENT")await card.getByRole("combobox",{name:"Local master reference",exact:true}).selectOption({label:inventor.name});
-    if(inventor.scope==="SAME_INSTITUTION_OTHER_DEPARTMENT")await card.getByLabel("Department / Organization",{exact:true}).fill("CSE");
-    if(inventor.scope==="EXTERNAL_INSTITUTION")await card.getByLabel("Institution name",{exact:true}).fill("IIT Hyderabad");
+    await card.getByLabel("Inventor Name",{exact:true}).fill(inventor.name);
+    await card.getByRole("combobox",{name:"Person Type",exact:true}).selectOption(inventor.type);
+    if(inventor.type==="FACULTY")await chooseFaculty(card,inventor.name);
+    if(inventor.type==="STUDENT")await card.getByRole("combobox",{name:"Student",exact:true}).selectOption({label:inventor.name});
+    if(inventor.type==="EXTERNAL_PERSON")await card.getByLabel("Organization / Institution",{exact:true}).fill("IIT Hyderabad");
   }
   await expect(page.getByRole("checkbox",{name:"Claiming faculty: Patent Faculty A",exact:true})).toBeChecked();
-  await expect(page.getByRole("checkbox",{name:"Claiming faculty: Collaborator CSE",exact:true})).toBeDisabled();
   await page.getByRole("checkbox",{name:"Claiming faculty: Patent Faculty B",exact:true}).check();
   await page.getByLabel("Choose evidence files").setInputFiles({name:"filing.pdf",mimeType:"application/pdf",buffer:Buffer.from("%PDF-1.4 filing")});
   await page.getByLabel("I reviewed the dates, inventor affiliations and claimants.").check();
@@ -41,8 +53,7 @@ test("patent affiliations, one-record lifecycle, evidence and date-specific gran
   await page.goto("/patents?from_date=2026-07-01&to_date=2027-06-30");
   await expect(page.getByRole("button",{name:"Unique Patents: 1",exact:true})).toBeVisible();
   await expect(page.getByRole("button",{name:"Granted: 0",exact:true})).toBeVisible();
-  await expect(page.getByRole("button",{name:"Interdepartmental: 1",exact:true})).toBeVisible();
-  await page.getByLabel("From Date",{exact:true}).fill("2027-08-12");await page.getByLabel("To Date",{exact:true}).fill("2027-08-12");await page.getByRole("button",{name:"Apply dates",exact:true}).click();
+  await applyCustomRange(page,"2027-08-12","2027-08-12");
   await expect(page.getByRole("button",{name:"Unique Patents: 1",exact:true})).toBeVisible();
   await page.getByRole("button",{name:"Granted: 1",exact:true}).click();await expect(page.getByRole("link",{name:"Adaptive energy storage patent",exact:true})).toBeVisible();
   await page.screenshot({path:"test-results/patent-dashboard.png",fullPage:true});
@@ -55,9 +66,10 @@ test("patent affiliations, one-record lifecycle, evidence and date-specific gran
 
 test("date range rejects reversed bounds and presets refresh explicit dates",async({page})=>{
   await page.goto("/patents?from_date=2026-07-01&to_date=2027-06-30");
-  await page.getByLabel("From Date",{exact:true}).fill("2028-01-01");await page.getByLabel("To Date",{exact:true}).fill("2027-01-01");await page.getByRole("button",{name:"Apply dates",exact:true}).click();
+  await applyCustomRange(page,"2028-01-01","2027-01-01");
   await expect(page.getByRole("main").getByRole("alert")).toContainText("From Date must be on or before To Date");
-  await page.getByRole("combobox",{name:"Date Range",exact:true}).selectOption("This Academic Year");
-  await expect(page.getByLabel("From Date",{exact:true})).toHaveValue(/\d{4}-07-01/);await expect(page.getByLabel("To Date",{exact:true})).toHaveValue(/\d{4}-06-30/);
-  await page.getByRole("button",{name:"Apply dates",exact:true}).click();await expect(page.getByRole("main").getByRole("alert")).toHaveCount(0);
+  await page.getByRole("combobox",{name:"Reporting Period",exact:true}).selectOption("This Academic Year");
+  await expect(page.getByLabel("From Date",{exact:true})).toHaveCount(0);
+  await expect(page.locator(".range-caption")).toContainText(/01-07-\d{4} to 30-06-\d{4}/);
+  await expect(page.getByRole("main").getByRole("alert")).toHaveCount(0);
 });

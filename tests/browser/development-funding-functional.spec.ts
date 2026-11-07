@@ -58,7 +58,8 @@ test("Certification creation, in-progress edit semantics, and evidence use the s
   await page.getByRole("combobox", { name: "Status", exact: true }).selectOption("IN_PROGRESS");
   await expect(page.getByText(/does not require a completion date/i)).toBeVisible();
   await page.getByRole("button", { name: "Save changes", exact: true }).click();
-  await expect(page.getByText("In Progress", { exact: true })).toBeVisible();
+  const statusField = page.locator("dl.detail-grid > div").filter({ has: page.getByText("Status", { exact: true }) });
+  await expect(statusField.getByText("In Progress", { exact: true })).toBeVisible();
   await expect(page.getByText("credential.pdf", { exact: true })).toBeVisible();
 });
 

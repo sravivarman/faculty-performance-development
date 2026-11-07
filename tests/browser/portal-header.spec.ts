@@ -8,8 +8,8 @@ test("portal header distinguishes direct links from dropdown parent menus", asyn
   const desktopNavigation = header.getByRole("navigation", { name: "Primary navigation", exact: true });
 
   await expect(header.getByAltText("Vardhaman College of Engineering logo")).toHaveCount(0);
-  await expect(header.getByText("Faculty Research & Development Portal – EEE", { exact: true })).toBeVisible();
-  await expect(header.getByText("Vardhaman College of Engineering", { exact: true })).toHaveCount(0);
+  await expect(header.getByText("Faculty Research & Development Portal", { exact: true })).toBeVisible();
+  await expect(header.getByText("– EEE", { exact: true })).toHaveCount(0);
   await expect(desktopNavigation.getByRole("link", { name: "Overview", exact: true })).toHaveAttribute("aria-current", "page");
   await expect(header).toHaveCSS("border-bottom-style", "solid");
   expect((await header.boundingBox())?.height).toBeLessThanOrEqual(70);

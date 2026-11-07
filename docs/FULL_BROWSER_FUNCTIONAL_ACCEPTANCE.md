@@ -1,6 +1,6 @@
 # Full Browser Functional Acceptance — Phase 3E
 
-**Current recommendation: PASS WITH LIMITATIONS**
+**Current recommendation: FAIL — full browser acceptance rerun required**
 
 The functional suite uses the real Next.js interface and Playwright browser
 actions. It does not use the production database or evidence storage.
@@ -81,10 +81,63 @@ Playwright retains failure screenshots and traces according to
 
 No unexecuted suite is represented as passed in this record.
 
+## Phase 3E.1 failure triage and repairs
+
+The first Phase 3E full run reported 43 tests with 27 passing and 16 failing.
+The affected controls were compared with the rendered component source before
+changing either assertions or application behavior. The repaired failures are
+listed below; a full local rerun remains required to replace this triage record
+with completed browser evidence.
+
+| Original failure area | Classification | Verified cause and repair |
+| --- | --- | --- |
+| Book / Chapter manual contributor workflow | STALE_TEST | `BookEditor` now derives institutional affiliation from Faculty or Student Master selection. Tests now choose the current `Person Type`, Faculty/Student selector, or External organization control rather than removed Affiliation and local-reference dropdowns. |
+| Book DOI exception review | STALE_TEST | The queue review uses the same standardized contributor card. The test now selects its created Faculty Master record through the searchable selector and retains its claimant assertion. |
+| Patent and Copyright inventor workflows | STALE_TEST | `PatentEditor` uses the standardized Person Type and Faculty/Student/External controls. Tests no longer address removed Affiliation or local-reference fields and continue to assert claimant, lifecycle, evidence, type, and export behavior. |
+| Reporting-period tests on Books, Patents, dashboards, and the shared date component | STALE_TEST | `DateRange` renders From Date and To Date only for `Reporting Period = Custom`. Tests select `Custom`, check that the date controls appear, apply the range with `Apply range`, and validate preset values through the inclusive range caption. |
+| Institutional header branding | STALE_TEST | The header intentionally shows `Faculty Research & Development Portal` without the former EEE-only suffix. The header test now verifies the institutional title and absence of the retired suffix while retaining navigation assertions. |
+| Certification in-progress assertion | LOCATOR_ERROR | `In Progress` occurs in both the status eyebrow and the detail value. The test now scopes the assertion to the Status row in the persisted detail grid. |
+| Research-dashboard chart count | STALE_TEST | Five chart-ready visualizations are intentional: Research Activity Trend, Patents by Type, and the three publication analytics distributions. The test verifies those named sections rather than an unexplained legacy count of four. |
+| FDP KPI selection | STALE_TEST | The first FDP card is intentionally `Faculty Participated`, replacing the earlier `Distinct Activities` card. The KPI test now expects the documented distinct-Faculty metric while continuing to check that a KPI selection never refetches or replaces its summary. |
+| Publication dashboard count after save | FIXTURE_ERROR | The assertion depended on the browser's persisted/default reporting period. Its fixture now opens an explicit September 2026 inclusive range containing the record, while retaining the dashboard, drill-down, edit, and evidence assertions. |
+| Sponsored Research save heading in the full run | TIMING/ISOLATION INVESTIGATION | The focused browser workflow previously passed. Its save and persisted-heading assertions are retained; no product change was justified without a reproducible failed save response or validation error. Rerun it independently and within the full suite to detect any remaining order-dependent behavior. |
+| Overview, Research Overview, and KPI record drill-downs | VERIFIED CONTRACT | Their fixtures use explicit periods and API-created records. The test source was checked against the current distinct-record, active-record, and Department-attribution contracts; no unsupported expected values were changed. |
+
+### Isolation safeguards
+
+`scripts/e2e_server.py` still creates a unique, migrated SQLite database and
+evidence directory below `.test-tmp-e2e` for every Playwright invocation. It
+resolves and rejects production database/evidence locations before migration,
+and fails if either test path escapes the test-owned root. The repaired tests
+also create their own Faculty/Student prerequisites where the workflow needs
+them, avoiding reliance on production Master data or prior browser state.
+
+### Verification following repair
+
+- `npm run typecheck` — passed.
+- `git diff --check` — passed.
+- `npx playwright test --list tests/browser` — passed; 43 tests discovered.
+- Focused and full Playwright executions initiated in this agent environment
+  were terminated during web-server startup at the environment's 30-second
+  execution limit, before test outcomes were emitted. They are therefore
+  **not** recorded as passed.
+
+Run these commands locally to complete the acceptance evidence:
+
+```powershell
+npm run test:e2e -- tests/browser/books.spec.ts tests/browser/book-doi-queue.spec.ts
+npm run test:e2e -- tests/browser/patents.spec.ts tests/browser/patent-types.spec.ts
+npm run test:e2e -- tests/browser/date-range.spec.ts tests/browser/portal-header.spec.ts tests/browser/dashboard-design.spec.ts
+npm run test:e2e -- tests/browser/fdp-certifications-kpi.spec.ts tests/browser/development-funding-functional.spec.ts
+npm run test:functional:smoke
+npm run test:functional
+```
+
 ## Known limitations and follow-up coverage
 
-1. Run `npm run test:functional` locally before promoting the recommendation to
-   `PASS`.
+1. Run `npm run test:functional` locally. Promote the recommendation only when
+   the complete suite passes, including the critical create/edit/evidence and
+   reporting-period workflows.
 2. Add equivalent browser creation flows for Consultancy and Internal Grants if
    their category-specific forms gain behavior beyond the shared FundingEditor.
 3. Add browser assertions for Certification deactivate/reactivate only if that

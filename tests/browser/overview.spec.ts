@@ -41,7 +41,7 @@ test('executive overview counts, filters, charts, faculty drills and restored co
     await expect(page.locator('#papers').getByRole('heading')).toContainText('2 papers');
     await page.getByRole('button',{name:'Reset Filters',exact:true}).click();
     await expect(page.getByRole('button',{name:'Total Publications: 5',exact:true})).toBeVisible();
-    const preset=page.getByRole('combobox',{name:'Date Range',exact:true});
+    const preset=page.getByRole('combobox',{name:'Reporting Period',exact:true});
     await preset.selectOption('Last Calendar Year');
     await expect(page.getByRole('button',{name:'Total Publications: 0',exact:true})).toBeVisible();
     await preset.selectOption('This Calendar Year');

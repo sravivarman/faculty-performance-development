@@ -8,7 +8,10 @@ test('production dashboard renders aggregates, calendar controls and responsive 
   const report=await (await request.get('/api/research/overview?from_date=2026-09-01&to_date=2026-09-30')).json();
   await expect(page.getByRole('button',{name:`Journals: ${report.outcomes.journal}`,exact:true})).toBeVisible();
   await expect(page.getByRole('button',{name:`Conferences: ${report.outcomes.conference}`,exact:true})).toBeVisible();
-  await expect(page.locator('[data-chart-ready="true"]')).toHaveCount(4);
+  await expect(page.locator('[data-chart-ready="true"]')).toHaveCount(5);
+  for (const title of ["Research Activity Trend", "Patents by Type", "Publications by Type", "Indexing Distribution", "Quartile Distribution"]) {
+    await expect(page.getByRole('heading',{name:title,exact:true})).toBeVisible();
+  }
   await expect(page.getByRole('heading',{name:'Indexing Distribution',exact:true})).toBeVisible();
   await expect(page.getByText('Not configured',{exact:true}).first()).toBeVisible();
   await expect(page.locator('[tremor-id="tremor-raw"]').first()).toHaveCSS('background-color','rgb(255, 255, 255)');
@@ -37,9 +40,9 @@ test('production dashboard renders aggregates, calendar controls and responsive 
   await page.getByLabel('Find faculty',{exact:true}).fill('');
   await expect(page.getByRole('button',{name:'Open Faculty Research Details: Preview Faculty',exact:true})).toBeEnabled();
   await page.getByRole('button',{name:/^Publications Authored/}).click();
-  await page.getByRole('combobox',{name:'Date Range',exact:true}).selectOption('Last Calendar Year');
-  await expect(page.getByLabel('From Date',{exact:true})).toHaveValue('2025-01-01');
-  await expect(page.locator('[data-chart-ready="true"]')).toHaveCount(4);
+  await page.getByRole('combobox',{name:'Reporting Period',exact:true}).selectOption('Last Calendar Year');
+  await expect(page.locator('.range-caption')).toContainText('01-01-2025 to 31-12-2025');
+  await expect(page.locator('[data-chart-ready="true"]')).toHaveCount(5);
   await page.screenshot({path:'test-results/research-production-desktop.png',fullPage:true});
   await page.setViewportSize({width:900,height:900});
   await page.clock.runFor(100);

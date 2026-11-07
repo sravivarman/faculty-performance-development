@@ -1,5 +1,11 @@
 import {test,expect} from '@playwright/test';
 
+async function chooseFaculty(card: import('@playwright/test').Locator, name: string) {
+  const selector=card.getByRole('combobox',{name:'Faculty',exact:true});
+  await selector.fill(name);
+  await card.getByRole('button',{name:new RegExp(`^${name.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')}`)}).click();
+}
+
 test('Copyright entry, type filters, breakdowns, CSV and faculty details retain the type',async({page,request})=>{
   const faculty=await (await request.post('/api/faculty',{data:{employee_id:'TYPE-FACULTY',name:'Type Faculty'}})).json();
   for(const type of ['UTILITY','DESIGN']){
@@ -17,10 +23,9 @@ test('Copyright entry, type filters, breakdowns, CSV and faculty details retain 
   await page.getByRole('combobox',{name:'Current status',exact:true}).selectOption('PUBLISHED');
   await page.getByRole('button',{name:'+ Add inventor',exact:true}).click();
   const card=page.locator('.inventor-card').first();
-  await card.getByLabel('Inventor name',{exact:true}).fill(faculty.name);
-  await card.getByRole('combobox',{name:'Person type',exact:true}).selectOption('FACULTY');
-  await card.getByRole('combobox',{name:'Affiliation',exact:true}).selectOption('CURRENT_DEPARTMENT');
-  await card.getByRole('combobox',{name:'Local master reference',exact:true}).selectOption(String(faculty.id));
+  await card.getByLabel('Inventor Name',{exact:true}).fill(faculty.name);
+  await card.getByRole('combobox',{name:'Person Type',exact:true}).selectOption('FACULTY');
+  await chooseFaculty(card,faculty.name);
   await page.getByLabel('I reviewed the dates, inventor affiliations and claimants.').check();
   await page.getByRole('button',{name:'Save patent',exact:true}).click();
   await expect(page).toHaveURL(/\/patents\/\d+$/);
