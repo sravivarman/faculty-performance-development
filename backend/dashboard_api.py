@@ -13,9 +13,25 @@ DB=Annotated[Session,Depends(get_db)]
 
 
 @router.get('/research/faculty/{identity}')
-def faculty_details(identity:int,db:DB,from_date:date,to_date:date):
+def faculty_details(
+    identity: int,
+    db: DB,
+    from_date: date,
+    to_date: date,
+    department_id: int | None = None,
+    attribution_mode: str = "CURRENT",
+):
+    """Faculty profile with optional selected-Faculty Department attribution.
+
+    Omitting ``department_id`` deliberately retains the legacy, complete
+    Faculty profile.  Supplying it applies the Department only to this
+    Faculty member's own contributor associations.
+    """
     from .dashboard_reporting import faculty_details as details
-    return details(db,identity,from_date,to_date)
+    return details(
+        db, identity, from_date, to_date,
+        department_id=department_id, attribution_mode=attribution_mode,
+    )
 
 
 @router.get("/research/overview")

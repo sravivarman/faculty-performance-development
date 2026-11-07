@@ -116,3 +116,18 @@ th { background: #f7f8fb; }
 .report-preview td { white-space: pre-wrap; min-width: 130px; }
 @media (max-width: 1050px) { .report-faculty-list { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 720px) { .report-faculty-list, .report-field-groups { grid-template-columns: 1fr; } .report-column-row { grid-template-columns: 1fr; } }
+/* Faculty Research Details keeps its scoped controls compact without turning
+   the existing dialog into a second full-page dashboard. */
+.faculty-profile-context {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: end;
+}
+.faculty-profile-context .compact-note,
+.faculty-profile-context .dash-empty {
+  grid-column: 1 / -1;
+  margin: 0;
+}
+@media (max-width: 720px) {
+  .faculty-profile-context { grid-template-columns: 1fr; }
+}

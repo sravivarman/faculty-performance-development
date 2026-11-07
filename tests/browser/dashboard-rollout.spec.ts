@@ -39,7 +39,7 @@ test('configured activity and funding dashboards share the reporting date contro
   const calls:string[]=[];page.on('request',r=>{if(r.url().includes('/api/'))calls.push(r.url());});
   for(const [path,title] of [['fdp','Faculty Development Activities'],['certifications','Certifications / MOOCs'],['research-projects','Sponsored Research Projects'],['consultancy','Consultancy Projects'],['seed-money','Seed Money / Internal Grants']]){
     await page.goto(`/${path}?from_date=2026-03-01&to_date=2026-03-31`);await expect(page.getByRole('heading',{name:title,exact:true})).toBeVisible();await expect(page.getByLabel('From Date',{exact:true})).toHaveValue('2026-03-01');
-    await page.getByRole('combobox',{name:'Date Range',exact:true}).selectOption('This Academic Year');await page.getByRole('button',{name:'Reset',exact:true}).click();
+    await page.getByRole('combobox',{name:'Reporting Period',exact:true}).selectOption('This Academic Year');await page.getByRole('button',{name:'Reset',exact:true}).click();
     await page.setViewportSize({width:390,height:844});expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(390);
   }
   expect(calls.some(url=>url.includes('/fdp-activities')||url.includes('/certifications')||url.includes('/funding-projects'))).toBeTruthy();

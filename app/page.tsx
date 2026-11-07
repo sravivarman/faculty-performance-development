@@ -10,6 +10,7 @@ import { Distribution, ResearchActivityTrend } from "@/components/dashboard/Char
 import PublicationAnalytics from "@/components/dashboard/PublicationAnalytics";
 import { PATENT_TYPES } from "@/lib/patents";
 import FacultyContributionTable from "@/components/dashboard/FacultyContributionTable";
+import { FacultyName } from "@/components/dashboard/FacultyResearchDetails";
 
 const activities = {
   journal: "Journals", conference: "Conferences", patents: "Patents", books: "Books / Chapters",
@@ -129,7 +130,7 @@ export default function ResearchDashboard() {
     </div><p className="muted compact-note">Scope is analytical only. Department totals are contribution counts and are not additive across the Institution.</p></section>
     <DashboardSection title="Scoped institutional analysis">
       <DashboardError message={scopedError} />
-      {scopedReport && <><p className="muted"><strong>{scopedReport.scope.label}</strong> · {scopedReport.scope.attribution_label} · {range.from_date} to {range.to_date}</p><KpiGrid labels={scopedLabels} counts={scopedReport.totals} loading={scopedLoading} /><p className="muted">Distinct Faculty contributors: {scopedReport.faculty_contributors}. A record is counted once within this scope even where several linked people contributed.</p></>}
+      {scopedReport && <><p className="muted"><strong>{scopedReport.scope.label}</strong> · {scopedReport.scope.attribution_label} · {range.from_date} to {range.to_date}</p>{scope === "FACULTY" && scopeFacultyId && <p className="muted">Open the selected Faculty&apos;s <FacultyName id={Number(scopeFacultyId)} name={masters?.faculty.find((faculty) => faculty.id === Number(scopeFacultyId))?.name || "Research Details"} /> to inspect the contributing records behind this scoped analysis.</p>}<KpiGrid labels={scopedLabels} counts={scopedReport.totals} loading={scopedLoading} /><p className="muted">Distinct Faculty contributors: {scopedReport.faculty_contributors}. A record is counted once within this scope even where several linked people contributed.</p></>}
       {!scopedReport && !scopedLoading && !scopedError && <p className="dash-empty">Choose the required Department or Faculty to view its scoped analysis.</p>}
     </DashboardSection>
     {scopedReport && scope !== "FACULTY" && <DashboardSection title="Department comparison" note="A shared record may be credited once to each verified contributing Department; these rows must not be summed into an institution total."><div className="table-wrap"><table><thead><tr><th>Department</th><th>Publications</th><th>Patents</th><th>Books / Chapters</th><th>FDP / Training</th><th>Certifications</th><th>Research Projects</th><th>Faculty Contributors</th></tr></thead><tbody>{scopedReport.department_comparison.map((department) => <tr key={department.id}><td>{department.name} ({department.code}){department.is_active ? "" : " · historical"}</td><td>{department.totals.publications}</td><td>{department.totals.patents}</td><td>{department.totals.books}</td><td>{department.totals.fdp}</td><td>{department.totals.certifications}</td><td>{department.totals.research_projects + department.totals.consultancy + department.totals.internal_grants}</td><td>{department.faculty_contributors}</td></tr>)}</tbody></table></div></DashboardSection>}
