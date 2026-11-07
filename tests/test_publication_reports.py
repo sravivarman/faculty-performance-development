@@ -194,6 +194,30 @@ def test_report_subtype_quality_applicability_preserves_stored_metadata(setup):
     assert rejected.status_code == 422
 
 
+def test_report_scopes_use_department_predicate_and_claimant_relationships(setup):
+    client, factory, _ = setup
+    eee = next(item for item in client.get("/departments").json() if item["code"] == "EEE")
+    cse = client.post("/departments", json={"code": "CSE", "name": "Computer Science and Engineering"}).json()
+    first = client.post("/faculty", json={"employee_id": "RPT-EEE", "name": "EEE claimant", "department_id": eee["id"], "department_effective_from": "2025-07-01"}).json()
+    second = client.post("/faculty", json={"employee_id": "RPT-CSE", "name": "CSE contributor", "department_id": cse["id"], "department_effective_from": "2025-07-01"}).json()
+    record = paper("10.1234/scoped-report", "2026-09-18")
+    record["authors"] = [author(1, "FACULTY", first["id"], True), author(2, "FACULTY", second["id"])]
+    created = client.post("/publications", json=record)
+    assert created.status_code == 201, created.text
+    base = request(["publication_title"], page_size="all")
+    for department in (eee, cse):
+        scoped = client.post("/publication-reports/preview", json={**base, "scope_type": "DEPARTMENT", "department_id": department["id"]})
+        assert scoped.status_code == 200, scoped.text
+        assert scoped.json()["unique_publication_count"] == 1
+        assert scoped.json()["scope"]["department_id"] == department["id"]
+    claiming = client.post("/publication-reports/preview", json={**base, "scope_type": "FACULTY", "scope_faculty_id": second["id"], "faculty_relationship": "CLAIMING"})
+    contributing = client.post("/publication-reports/preview", json={**base, "scope_type": "FACULTY", "scope_faculty_id": second["id"], "faculty_relationship": "CONTRIBUTING"})
+    assert claiming.status_code == contributing.status_code == 200
+    assert claiming.json()["total"] == 0 and contributing.json()["total"] == 1
+    assert client.post("/publication-reports/preview", json={**base, "scope_type": "DEPARTMENT"}).status_code == 422
+    assert client.post("/publication-reports/preview", json={**base, "scope_type": "DEPARTMENT", "department_id": 999999}).status_code == 422
+
+
 def test_report_indexing_filters_use_exact_json_codes_across_preview_export_and_citations(setup):
     client, _, _ = setup
     cases = [

@@ -488,6 +488,20 @@ def _heading(request: ReportRequest, field_id: str):
     return request.headings.get(field_id) or ("Legacy Classification" if field_id == "classification" and request.legacy_classification else FIELDS[field_id]["label"])
 
 
+def _scope_metadata(db: Session, request: ReportRequest):
+    if request.scope_type in {"LEGACY", "INSTITUTION"}:
+        return {"type": request.scope_type, "label": "Institution — Vardhaman College of Engineering"}
+    if request.scope_type == "DEPARTMENT":
+        department = db.get(Department, request.department_id)
+        return {"type": "DEPARTMENT", "department_id": request.department_id,
+                "attribution_mode": request.attribution_mode,
+                "label": f"Department — {department.name} ({department.code}) · {'Activity-Date' if request.attribution_mode == 'AT_ACTIVITY_DATE' else 'Current'} Department Attribution"}
+    faculty = db.get(Faculty, request.scope_faculty_id)
+    return {"type": "FACULTY", "faculty_id": request.scope_faculty_id,
+            "relationship": request.faculty_relationship,
+            "label": f"Faculty — {faculty.name}{f' ({faculty.employee_id})' if faculty.employee_id else ''} · {request.faculty_relationship.title()} Faculty"}
+
+
 @router.get("/fields")
 def fields():
     return {"fields": FIELD_CATALOGUE, "built_in_templates": [{"id": key, "name": _label(key), "fields": value} for key, value in TEMPLATES.items()]}

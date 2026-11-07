@@ -8,6 +8,16 @@ test("publication report builder exposes table and citation configuration", asyn
   await expect(reportBuilder.getByRole("button", { name: "Custom Table Report", exact: true })).toBeVisible();
   await expect(reportBuilder.getByRole("button", { name: "Citation List", exact: true })).toBeVisible();
   await expect(reportBuilder.getByRole("combobox", { name: "Publication Type", exact: true })).toHaveValue("ALL");
+  const scope = reportBuilder.getByRole("combobox", { name: "Reporting Scope", exact: true });
+  await expect(scope).toHaveValue("INSTITUTION");
+  await expect(reportBuilder.getByRole("combobox", { name: "Department", exact: true })).toHaveCount(0);
+  await scope.selectOption("DEPARTMENT");
+  await expect(reportBuilder.getByRole("combobox", { name: "Department", exact: true })).toBeVisible();
+  await expect(reportBuilder.getByRole("combobox", { name: "Department Attribution", exact: true })).toBeVisible();
+  await scope.selectOption("FACULTY");
+  await expect(reportBuilder.getByRole("combobox", { name: "Faculty", exact: true })).toBeVisible();
+  await expect(reportBuilder.getByRole("combobox", { name: "Faculty Relationship", exact: true })).toHaveValue("CLAIMING");
+  await scope.selectOption("INSTITUTION");
   await expect(reportBuilder.getByRole("combobox", { name: "Row Mode", exact: true })).toHaveValue("PUBLICATION");
   await expect(reportBuilder.getByRole("textbox", { name: "Find Faculty", exact: true })).toBeVisible();
   const indexing = reportBuilder.getByRole("combobox", { name: "Indexing", exact: true });
