@@ -26,6 +26,40 @@ def source_date(record, key):
         return None
 
 
+def _date_candidate(record: dict, key: str, label: str) -> dict | None:
+    """Return a Crossref date without inventing missing month or day parts."""
+    try:
+        parts = (record.get(key) or {}).get("date-parts") or []
+        values = parts[0]
+        if not values or not isinstance(values[0], int):
+            return None
+        precision = ("YEAR", "MONTH", "DAY")[min(len(values), 3) - 1]
+        rendered = "-".join(str(value).zfill(2) if index else str(value) for index, value in enumerate(values[:3]))
+        return {"date": rendered, "precision": precision, "date_type": label, "source_field": key, "is_exact_online": label == "ONLINE" and precision == "DAY"}
+    except (IndexError, TypeError, ValueError):
+        return None
+
+
+def crossref_date_candidates(raw: dict) -> dict:
+    """Expose Crossref publication-date alternatives for review only.
+
+    The caller decides whether to persist anything; this helper never writes
+    and deliberately retains partial dates as partial dates.
+    """
+    work = raw.get("message") if isinstance(raw, dict) else None
+    if not isinstance(work, dict):
+        raise MetadataError("Crossref returned an invalid metadata record")
+    candidates = [
+        candidate for candidate in (
+            _date_candidate(work, "published-online", "ONLINE"),
+            _date_candidate(work, "published", "PUBLISHED"),
+            _date_candidate(work, "published-print", "PRINT"),
+            _date_candidate(work, "issued", "ISSUED"),
+        ) if candidate
+    ]
+    return {"preferred": candidates[0] if candidates else None, "alternatives": candidates}
+
+
 def parse_crossref(raw: dict, requested_doi: str) -> dict:
     work = raw.get("message")
     if not isinstance(work, dict):
