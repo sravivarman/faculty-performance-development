@@ -3,7 +3,8 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
-import DateRangeFilter, { useDateRange } from "@/components/DateRange";
+import { useDateRange } from "@/components/DateRange";
+import OverviewFilterPanel from "@/components/OverviewFilterPanel";
 import { api, label, Masters, paginatedResult } from "@/lib/api";
 import { DashboardFrame, KpiGrid, ResearchPageHeader } from "@/components/dashboard/UI";
 import { Distribution, SeriesChart } from "@/components/dashboard/Charts";
@@ -179,43 +180,8 @@ export default function Page() {
       <ResearchPageHeader title="Certifications / MOOCs" subtitle="Department certification records, outcomes, and current learning work.">
         <Link className="button" href="/certifications/new">+ Add certification</Link>
       </ResearchPageHeader>
-      <DateRangeFilter />
       {error && <div className="error" role="alert">{error}</div>}
-      <KpiGrid
-        labels={{
-          certifications: "Certifications completed in period",
-          completed: "Completed",
-          in_progress: "In progress",
-          nptel_swayam: "NPTEL / SWAYAM",
-          mooc: "MOOCs",
-          other: "Other certifications",
-          faculty: "Faculty certified",
-        }}
-        counts={kpiCounts}
-        loading={dashboardLoading}
-        active={drilldown}
-        onSelect={(key) => selectKpi(key as Drilldown)}
-      />
-      <p className="muted">
-        Completion and category cards use the selected inclusive completion-date period. In-progress work is active current work and is independent of that period.
-      </p>
-      <div className="dash-charts">
-        <Distribution title="Completed certification distribution" labels={{ NPTEL_SWAYAM: "NPTEL / SWAYAM", MOOC: "MOOC", OTHER: "Other Certifications" }} counts={dashboard.categories} onSelect={selectCategory} loading={dashboardLoading} note="Completed records within the selected inclusive completion-date period." />
-        <Distribution title="Certification status summary" labels={{ completed: "Completed in period", in_progress: "Current in progress" }} counts={{ completed: dashboard.totals.completed || 0, in_progress: dashboard.totals.in_progress || 0 }} onSelect={(value) => selectKpi(value as Drilldown)} loading={dashboardLoading} note="Current in-progress work is independent of the completion-date period." />
-        <SeriesChart title="Completion trend" rows={dashboard.trend} series={{ completed: "Completed", nptel_swayam: "NPTEL / SWAYAM", mooc: "MOOC", other: "Other" }} loading={dashboardLoading} note="Monthly completed certifications by completion date. Null completion dates are excluded." />
-      </div>
-      <section className="panel"><h2>Provider analysis</h2><p className="muted">Providers use stored labels; spelling variants are not merged automatically.</p>{dashboardLoading ? <p role="status">Loading providers…</p> : !dashboard.providers.length ? <p className="dash-empty">No completed providers in this selection.</p> : <div className="table-wrap"><table><thead><tr><th>Provider</th><th>Completed certifications</th></tr></thead><tbody>{dashboard.providers.map((provider) => <tr key={provider.provider}><td>{provider.provider}</td><td>{provider.completed}</td></tr>)}</tbody></table></div>}</section>
-      <FacultyContributionTable title="Faculty certification performance" columns={{ completed: "Completed", nptel_swayam: "NPTEL / SWAYAM", mooc: "MOOC", other: "Other", in_progress: "Current In Progress" }} rows={dashboard.faculty_performance} loading={dashboardLoading} note="Completed metrics use the selected inclusive completion-date period; current in-progress records are active work." />
-
-      {showFacultyContributors && <section className="panel" id="certification-faculty-contributors">
-        <div className="row-between"><h2>Faculty certified · {dashboard.totals.faculty_contributors || 0}</h2><button className="secondary small" onClick={() => selectKpi("")}>Close drill-down</button></div>
-        <p className="muted">One row per Faculty Master record with a completed certification in the selected inclusive completion-date period.</p>
-        {dashboardLoading ? <p role="status">Loading Faculty contributors…</p> : !dashboard.faculty_performance.length ? <p className="dash-empty">No Faculty contributors match this selection.</p> : <div className="table-wrap"><table><thead><tr><th>Faculty</th><th>Completed certifications</th><th>Records</th></tr></thead><tbody>{dashboard.faculty_performance.map((person) => <tr key={person.id}><td>{person.name}<small>{person.employee_id || "—"}</small></td><td>{person.completed}</td><td><button className="link-button" onClick={() => viewFacultyCertifications(person.id)}>View matching certifications</button></td></tr>)}</tbody></table></div>}
-      </section>}
-
-      <section className="panel">
-        <h2>Find certifications</h2>
-        <div className="filters">
+      <OverviewFilterPanel onResetFilters={resetFilters} footer={<label className="check"><input type="checkbox" checked={includeInactive} onChange={(event) => resetPage(() => setIncludeInactive(event.target.checked))} />Include inactive</label>}>
           <label className="field">
             Department
             <select value={department} onChange={(event) => resetPage(() => { setDepartment(event.target.value); setAttributionMode("CURRENT"); })}>
@@ -269,14 +235,39 @@ export default function Page() {
               <option value="IN_PROGRESS">In progress</option>
             </select>
           </label>
-          <label className="field">
-            Record status
-            <span className="check"><input type="checkbox" checked={includeInactive} onChange={(event) => resetPage(() => setIncludeInactive(event.target.checked))} />Include inactive</span>
-          </label>
-          <div className="actions"><button type="button" className="secondary" onClick={resetFilters}>Reset filters</button></div>
-        </div>
-      </section>
+      </OverviewFilterPanel>
       {department && attributionMode === "AT_ACTIVITY_DATE" && <p className="muted compact-note">Only certification holders with verified primary Department affiliations on their completion date are included. In-progress records without a completion date are not historically attributed.</p>}
+      <KpiGrid
+        labels={{
+          certifications: "Certifications completed in period",
+          completed: "Completed",
+          in_progress: "In progress",
+          nptel_swayam: "NPTEL / SWAYAM",
+          mooc: "MOOCs",
+          other: "Other certifications",
+          faculty: "Faculty certified",
+        }}
+        counts={kpiCounts}
+        loading={dashboardLoading}
+        active={drilldown}
+        onSelect={(key) => selectKpi(key as Drilldown)}
+      />
+      <p className="muted">
+        Completion and category cards use the selected inclusive completion-date period. In-progress work is active current work and is independent of that period.
+      </p>
+      <div className="dash-charts">
+        <Distribution title="Completed certification distribution" labels={{ NPTEL_SWAYAM: "NPTEL / SWAYAM", MOOC: "MOOC", OTHER: "Other Certifications" }} counts={dashboard.categories} onSelect={selectCategory} loading={dashboardLoading} note="Completed records within the selected inclusive completion-date period." />
+        <Distribution title="Certification status summary" labels={{ completed: "Completed in period", in_progress: "Current in progress" }} counts={{ completed: dashboard.totals.completed || 0, in_progress: dashboard.totals.in_progress || 0 }} onSelect={(value) => selectKpi(value as Drilldown)} loading={dashboardLoading} note="Current in-progress work is independent of the completion-date period." />
+        <SeriesChart title="Completion trend" rows={dashboard.trend} series={{ completed: "Completed", nptel_swayam: "NPTEL / SWAYAM", mooc: "MOOC", other: "Other" }} loading={dashboardLoading} note="Monthly completed certifications by completion date. Null completion dates are excluded." />
+      </div>
+      <section className="panel"><h2>Provider analysis</h2><p className="muted">Providers use stored labels; spelling variants are not merged automatically.</p>{dashboardLoading ? <p role="status">Loading providers…</p> : !dashboard.providers.length ? <p className="dash-empty">No completed providers in this selection.</p> : <div className="table-wrap"><table><thead><tr><th>Provider</th><th>Completed certifications</th></tr></thead><tbody>{dashboard.providers.map((provider) => <tr key={provider.provider}><td>{provider.provider}</td><td>{provider.completed}</td></tr>)}</tbody></table></div>}</section>
+      <FacultyContributionTable title="Faculty certification performance" columns={{ completed: "Completed", nptel_swayam: "NPTEL / SWAYAM", mooc: "MOOC", other: "Other", in_progress: "Current In Progress" }} rows={dashboard.faculty_performance} loading={dashboardLoading} note="Completed metrics use the selected inclusive completion-date period; current in-progress records are active work." />
+
+      {showFacultyContributors && <section className="panel" id="certification-faculty-contributors">
+        <div className="row-between"><h2>Faculty certified · {dashboard.totals.faculty_contributors || 0}</h2><button className="secondary small" onClick={() => selectKpi("")}>Close drill-down</button></div>
+        <p className="muted">One row per Faculty Master record with a completed certification in the selected inclusive completion-date period.</p>
+        {dashboardLoading ? <p role="status">Loading Faculty contributors…</p> : !dashboard.faculty_performance.length ? <p className="dash-empty">No Faculty contributors match this selection.</p> : <div className="table-wrap"><table><thead><tr><th>Faculty</th><th>Completed certifications</th><th>Records</th></tr></thead><tbody>{dashboard.faculty_performance.map((person) => <tr key={person.id}><td>{person.name}<small>{person.employee_id || "—"}</small></td><td>{person.completed}</td><td><button className="link-button" onClick={() => viewFacultyCertifications(person.id)}>View matching certifications</button></td></tr>)}</tbody></table></div>}
+      </section>}
 
       <section className="panel" id="certification-records">
         <div className="row-between">

@@ -3,7 +3,8 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
-import DateRangeFilter, { useDateRange } from "@/components/DateRange";
+import { useDateRange } from "@/components/DateRange";
+import OverviewFilterPanel from "@/components/OverviewFilterPanel";
 import FacultyContributionTable from "@/components/dashboard/FacultyContributionTable";
 import { DashboardFrame, KpiGrid, ResearchPageHeader } from "@/components/dashboard/UI";
 import PaginationControls, { RecordPageSize } from "@/components/PaginationControls";
@@ -32,7 +33,7 @@ type Options = { departments: string[]; funding_agencies: string[] };
 const configuration: Record<Category, { title: string; singular: string; addPath: string; labels: Record<string, string>; financial: string[] }> = {
   SPONSORED_RESEARCH: {
     title: "Sponsored Research Projects", singular: "project", addPath: "/research-projects/new",
-    labels: { total: "Total Proposals", submitted_under_review: "Submitted / Under Review", sanctioned: "Sanctioned Projects", ongoing: "Ongoing Projects", completed: "Completed Projects", sanctioned_amount: "Total Sanctioned Amount", faculty_contributors: "Faculty Contributors" },
+    labels: { total: "Total Research Records", submitted_under_review: "Submitted / Under Review", sanctioned: "Sanctioned Projects", ongoing: "Ongoing Projects", completed: "Completed Projects", sanctioned_amount: "Total Sanctioned Amount", faculty_contributors: "Faculty Contributors" },
     financial: ["sanctioned_amount"],
   },
   CONSULTANCY: {
@@ -185,9 +186,18 @@ export default function FundingOverview({ category }: { category: Category }) {
     <ResearchPageHeader title={config.title} subtitle="Department funding records, lifecycle tracking, financial reporting and evidence.">
       <Link className="button" href={config.addPath}>+ Add {config.singular}</Link>
     </ResearchPageHeader>
-    <DateRangeFilter />
     {error && <div className="error" role="alert">{error}</div>}
+    <OverviewFilterPanel onResetFilters={resetFilters} footer={<label className="check"><input type="checkbox" checked={includeInactive} onChange={(event) => resetPage(() => setIncludeInactive(event.target.checked))} />Include inactive</label>}>
+      <label className="field">Department<select value={departmentId} onChange={(event) => resetPage(() => { setDepartmentId(event.target.value); setAttributionMode("CURRENT"); })}><option value="">All Departments</option>{masters?.departments.map((item) => <option key={item.id} value={item.id}>{item.name} ({item.code}){item.is_active ? "" : " (historical)"}</option>)}</select></label>
+      <label className="field">Faculty<select value={facultyId} onChange={(event) => resetPage(() => setFacultyId(event.target.value))}><option value="">All Faculty</option>{masters?.faculty.map((person) => <option key={person.id} value={person.id}>{person.name}{person.is_active ? "" : " (historical)"}</option>)}</select></label>
+      <label className="field">Search<input value={search} placeholder="Title, agency, department, or Faculty" onChange={(event) => resetPage(() => setSearch(event.target.value))} /></label>
+      {departmentId && <label className="field">Department Attribution<select value={attributionMode} onChange={(event) => resetPage(() => setAttributionMode(event.target.value as "CURRENT" | "AT_ACTIVITY_DATE"))}><option value="CURRENT">Current Department</option><option value="AT_ACTIVITY_DATE">Activity-Date Department</option></select></label>}
+      <label className="field">Recorded Lead / Administrative Department<select value={administrativeDepartment} onChange={(event) => resetPage(() => setAdministrativeDepartment(event.target.value))}><option value="">All recorded departments</option>{options.departments.map((value) => <option key={value}>{value}</option>)}</select></label>
+      <label className="field">{organizationLabel}<select value={agency} onChange={(event) => resetPage(() => setAgency(event.target.value))}><option value="">All {organizationLabel.toLowerCase()} entries</option>{options.funding_agencies.map((value) => <option key={value}>{value}</option>)}</select></label>
+      <label className="field">Status<select value={status} onChange={(event) => resetPage(() => setStatus(event.target.value))}><option value="">All statuses</option>{["DRAFT", "SUBMITTED", "UNDER_REVIEW", "SANCTIONED", "ONGOING", "COMPLETED", "REJECTED", "WITHDRAWN"].map((value) => <option key={value} value={value}>{label(value)}</option>)}</select></label>
+    </OverviewFilterPanel>
     <KpiGrid labels={kpiLabels} counts={dashboard.totals} loading={dashboardLoading} active={activeMetric} onSelect={selectMetric} financial={config.financial} />
+    <p className="muted compact-note">General reporting dates use sanction date first, then proposal submission date, then project start date. NBA reports show and apply their own selected date basis.</p>
     <p className="muted">Sanctioned and financial award totals include only sanctioned, ongoing, or completed records. Submitted and under-review proposal budgets remain stored but are not counted as awards.</p>
     {departmentId && <p className="compact-note">Department values represent distinct projects associated with eligible Faculty contributors. Shared projects can appear for more than one Department, so Department financial values are not additive.</p>}
     {departmentId && attributionMode === "AT_ACTIVITY_DATE" && <p className="compact-note">Activity-Date Department uses verified primary Faculty affiliations at the project sanction date. Records without a sanction date or verified historical affiliation are excluded from this historical view.</p>}
@@ -208,18 +218,6 @@ export default function FundingOverview({ category }: { category: Category }) {
     </section>}
 
     {!showFaculty && <>
-      <section className="panel"><h2>Find {config.title.toLowerCase()}</h2><div className="filters">
-        <label className="field">Search<input value={search} placeholder="Title, agency, department, or Faculty" onChange={(event) => resetPage(() => setSearch(event.target.value))} /></label>
-        <label className="field">Faculty<select value={facultyId} onChange={(event) => resetPage(() => setFacultyId(event.target.value))}><option value="">All Faculty</option>{masters?.faculty.map((person) => <option key={person.id} value={person.id}>{person.name}{person.is_active ? "" : " (historical)"}</option>)}</select></label>
-        <label className="field">Department<select value={departmentId} onChange={(event) => resetPage(() => { setDepartmentId(event.target.value); setAttributionMode("CURRENT"); })}><option value="">All Departments</option>{masters?.departments.map((item) => <option key={item.id} value={item.id}>{item.name} ({item.code}){item.is_active ? "" : " (historical)"}</option>)}</select></label>
-        {departmentId && <label className="field">Department Attribution<select value={attributionMode} onChange={(event) => resetPage(() => setAttributionMode(event.target.value as "CURRENT" | "AT_ACTIVITY_DATE"))}><option value="CURRENT">Current Department</option><option value="AT_ACTIVITY_DATE">Activity-Date Department</option></select></label>}
-        <label className="field">Recorded Lead / Administrative Department<select value={administrativeDepartment} onChange={(event) => resetPage(() => setAdministrativeDepartment(event.target.value))}><option value="">All recorded departments</option>{options.departments.map((value) => <option key={value}>{value}</option>)}</select></label>
-        <label className="field">{organizationLabel}<select value={agency} onChange={(event) => resetPage(() => setAgency(event.target.value))}><option value="">All {organizationLabel.toLowerCase()} entries</option>{options.funding_agencies.map((value) => <option key={value}>{value}</option>)}</select></label>
-        <label className="field">Status<select value={status} onChange={(event) => resetPage(() => setStatus(event.target.value))}><option value="">All statuses</option>{["DRAFT", "SUBMITTED", "UNDER_REVIEW", "SANCTIONED", "ONGOING", "COMPLETED", "REJECTED", "WITHDRAWN"].map((value) => <option key={value} value={value}>{label(value)}</option>)}</select></label>
-        <label className="field">Record status<span className="check"><input type="checkbox" checked={includeInactive} onChange={(event) => resetPage(() => setIncludeInactive(event.target.checked))} />Include inactive</span></label>
-        <div className="actions"><button type="button" className="secondary" onClick={resetFilters}>Reset filters</button></div>
-      </div></section>
-
       <section className="panel" id="funding-records"><div className="row-between"><h2>{activeMetric ? kpiLabels[activeMetric] : config.title} · {result.total}</h2>{activeMetric && <button className="secondary small" onClick={() => selectMetric("")}>Clear KPI selection</button>}</div>
         {financialDrillDown && <p className="muted">Only sanctioned, ongoing, or completed records with the corresponding amount contribute to this financial total.</p>}
         {loading ? <p role="status">Loading funding records…</p> : !result.items.length ? <p className="dash-empty">No records match the current filters.</p> : <div className="table-wrap"><table><thead><tr><th>Project</th><th>Agency / client</th><th>PI</th><th>Reporting date</th><th>Status</th><th>{amountHeading}</th><th>Actions</th></tr></thead><tbody>{result.items.map((record) => <tr key={record.id}><td><strong>{record.title}</strong><small>Recorded administrative Department: {record.department}</small></td><td>{record.funding_agency || "—"}</td><td>{principalInvestigatorDisplay(record)}</td><td>{record.sanction_date || record.proposal_submission_date || record.start_date || "—"}</td><td>{label(record.status)}</td><td>{financialAmount(record, activeMetric, category)}</td><td className="actions"><Link href={`/funding-projects/${record.id}`}>View</Link><Link href={`/funding-projects/${record.id}/edit`}>Edit</Link>{(record as FundingProject & { is_active: boolean }).is_active && <button className="danger small" onClick={() => deactivate(record.id!)}>Deactivate</button>}</td></tr>)}</tbody></table></div>}

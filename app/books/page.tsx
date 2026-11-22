@@ -2,8 +2,9 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import DateRangeFilter, { useDateRange } from "@/components/DateRange";
-import { DashboardError, DashboardFilters, DashboardFrame, KpiGrid as KpiCards, ResearchPageHeader } from "@/components/dashboard/UI";
+import { useDateRange } from "@/components/DateRange";
+import OverviewFilterPanel from "@/components/OverviewFilterPanel";
+import { DashboardError, DashboardFrame, KpiGrid as KpiCards, ResearchPageHeader } from "@/components/dashboard/UI";
 import { Distribution, SeriesChart } from "@/components/dashboard/Charts";
 import FacultyContributionTable from "@/components/dashboard/FacultyContributionTable";
 import PaginationControls, { RecordPageSize } from "@/components/PaginationControls";
@@ -13,7 +14,7 @@ import { api, label, Masters, paginatedResult } from "@/lib/api";
 import { Book, bookMetrics, BookPersonKpi } from "@/lib/books";
 
 type PageResult = { items: Book[]; total: number; page: number; page_size: number | "all" };
-const FILTER_KEYS = ["department_id", "attribution_mode", "work_type", "faculty_id", "student_participation", "interdepartmental", "external_collaboration", "publisher", "isbn_search", "include_inactive"];
+const FILTER_KEYS = ["department_id", "attribution_mode", "work_type", "faculty_id", "student_participation", "publisher", "isbn_search", "include_inactive"];
 const pageSizeFrom = (value: string | null): RecordPageSize => value === "all" ? "all" : [10, 25, 50].includes(Number(value)) ? Number(value) as 10 | 25 | 50 : 25;
 
 export default function BooksDashboard() {
@@ -104,21 +105,16 @@ export default function BooksDashboard() {
 
   return <DashboardFrame>
     <ResearchPageHeader title="Books / Chapters Overview" subtitle="One work, one Department count. Every author, editor and collaboration retained."><Link href="/books/records">All work records</Link><Link className="button" href="/books/new">+ Add Book / Book Chapter</Link></ResearchPageHeader>
-    <DateRangeFilter />
     {error && <div className="error" role="alert">{error}</div>}
-    <DashboardFilters>
+    <OverviewFilterPanel onResetFilters={resetFilters} footer={<label className="check"><input type="checkbox" checked={filters.include_inactive === "true"} onChange={(event) => filter("include_inactive", event.target.checked ? "true" : "")} />Include inactive records</label>}>
       <label className="field">Department<select value={filters.department_id || ""} onChange={(event) => filter("department_id", event.target.value)}><option value="">All Departments</option>{masters?.departments.map((department) => <option key={department.id} value={department.id}>{department.name} ({department.code}){department.is_active ? "" : " (historical)"}</option>)}</select></label>
       {filters.department_id && <label className="field">Department Attribution<select value={filters.attribution_mode || "CURRENT"} onChange={(event) => filter("attribution_mode", event.target.value)}><option value="CURRENT">Current Department</option><option value="AT_ACTIVITY_DATE">Activity-Date Department</option></select></label>}
       <label className="field">Work Type<select value={filters.work_type || ""} onChange={(event) => filter("work_type", event.target.value)}><option value="">Books + Chapters</option><option value="BOOK">Book</option><option value="BOOK_CHAPTER">Book Chapter</option></select></label>
       <label className="field">Faculty Contributor<select value={filters.faculty_id || ""} onChange={(event) => filter("faculty_id", event.target.value)}><option value="">All Faculty</option>{masters?.faculty.map((person) => <option key={person.id} value={person.id}>{person.name}{person.is_active ? "" : " (historical)"}</option>)}</select></label>
       <label className="field">Student Participation<select value={filters.student_participation || ""} onChange={(event) => filter("student_participation", event.target.value)}><option value="">All Works</option><option value="true">With Student Contributors</option><option value="false">Without Student Contributors</option></select></label>
-      <label className="field">Cross-Department Collaboration<select value={filters.interdepartmental || ""} onChange={(event) => filter("interdepartmental", event.target.value)}><option value="">All Works</option><option value="true">With Cross-Department Collaboration</option><option value="false">Without Cross-Department Collaboration</option></select></label>
-      <label className="field">External Collaboration<select value={filters.external_collaboration || ""} onChange={(event) => filter("external_collaboration", event.target.value)}><option value="">All Works</option><option value="true">With External Collaboration</option><option value="false">Without External Collaboration</option></select></label>
       <label className="field">Publisher<select value={filters.publisher || ""} onChange={(event) => filter("publisher", event.target.value)}><option value="">All publishers</option>{options?.publishers.map((publisher) => <option key={publisher}>{publisher}</option>)}</select></label>
       <label className="field">ISBN search<input value={filters.isbn_search || ""} onChange={(event) => filter("isbn_search", event.target.value)} /></label>
-      <label className="check"><input type="checkbox" checked={filters.include_inactive === "true"} onChange={(event) => filter("include_inactive", event.target.checked ? "true" : "")} />Include inactive records</label>
-      <button type="button" className="secondary" onClick={resetFilters}>Reset filters</button>
-    </DashboardFilters>
+    </OverviewFilterPanel>
     {filters.department_id && filters.attribution_mode === "AT_ACTIVITY_DATE" && <p className="muted compact-note">Only contributors with verified primary Department affiliations on the publication date are included. Unverified historical baseline affiliations are excluded.</p>}
     <KpiCards labels={{ total: "Total Works", books: "Books", chapters: "Book Chapters", international: "International", national: "National", with_students: "Student-involved", faculty_contributors: "Faculty Contributors" }} counts={counts} loading={loading} active={drill.metric} onSelect={(metric) => select({ metric })} />
     <p className="muted">Publication date is used for every count, with both boundaries included. Chapters require an eligible chapter author; parent-book editors alone do not qualify. Author counts exclude editors.</p>

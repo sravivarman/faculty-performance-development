@@ -157,6 +157,38 @@ def test_p1_p2_counting_examples_and_drilldowns(setup):
     assert len(client.get("/publications?student_id=1").json()) == 2
 
 
+def test_student_participation_filters_use_confirmed_student_master_links(setup):
+    client, _, _ = setup
+    mixed = client.post("/publications", json=paper("10.1234/mixed"))
+    assert mixed.status_code == 201, mixed.text
+
+    external_only = paper("10.1234/external-only")
+    external_only["authors"] = [author(1, "FACULTY", 1, True), author(2, "EXTERNAL")]
+    external = client.post("/publications", json=external_only)
+    assert external.status_code == 201, external.text
+
+    unresolved = paper("10.1234/unresolved")
+    unresolved["authors"] = [author(1, "FACULTY", 1, True), author(2, "UNKNOWN")]
+    unresolved_response = client.post("/publications", json=unresolved)
+    assert unresolved_response.status_code == 201, unresolved_response.text
+
+    common = "from_date=2026-07-01&to_date=2026-12-31&dashboard_only=true"
+    with_students = client.get(f"/publications?{common}&student_participation=true&page=1&page_size=all")
+    assert with_students.status_code == 200, with_students.text
+    assert [row["id"] for row in with_students.json()["items"]] == [mixed.json()["id"]]
+    assert with_students.json()["total"] == 1
+
+    without_students = client.get(f"/publications?{common}&student_participation=false&page=1&page_size=all")
+    assert without_students.status_code == 200, without_students.text
+    assert {row["id"] for row in without_students.json()["items"]} == {external.json()["id"], unresolved_response.json()["id"]}
+    assert without_students.json()["total"] == 2
+
+    dashboard = client.get(f"/publication-dashboard?{common}&student_participation=true")
+    assert dashboard.status_code == 200, dashboard.text
+    assert dashboard.json()["totals"]["total"] == 1
+    assert dashboard.json()["totals"]["with_students"] == 1
+
+
 @pytest.mark.parametrize("period_type,period,expected", [("MONTHLY",3,1),("MONTHLY",4,1),("QUARTERLY",1,1),("QUARTERLY",2,1),("HALF_YEARLY",1,2),("HALF_YEARLY",2,1),("ACADEMIC_YEAR",1,3)])
 def test_period_aggregation(setup,period_type,period,expected):
     client,_,_=setup

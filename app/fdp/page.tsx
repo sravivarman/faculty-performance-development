@@ -3,7 +3,8 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
-import DateRangeFilter, { useDateRange } from "@/components/DateRange";
+import { useDateRange } from "@/components/DateRange";
+import OverviewFilterPanel from "@/components/OverviewFilterPanel";
 import { api, label, Masters, paginatedResult } from "@/lib/api";
 import { DashboardFrame, KpiGrid, ResearchPageHeader } from "@/components/dashboard/UI";
 import { Distribution, SeriesChart } from "@/components/dashboard/Charts";
@@ -176,8 +177,49 @@ export default function Page() {
       <ResearchPageHeader title="Faculty Development Activities" subtitle="Coordinator entry, participation, and activity management.">
         <Link className="button" href="/fdp/new">+ Add activity</Link>
       </ResearchPageHeader>
-      <DateRangeFilter />
       {error && <div className="error" role="alert">{error}</div>}
+      <OverviewFilterPanel onResetFilters={resetFilters} footer={<label className="check"><input type="checkbox" checked={includeInactive} onChange={(event) => resetPage(() => setIncludeInactive(event.target.checked))} />Include inactive</label>}>
+          <label className="field">
+            Department
+            <select value={departmentId} onChange={(event) => resetPage(() => { setDepartmentId(event.target.value); setAttributionMode("CURRENT"); })}>
+              <option value="">All Departments</option>
+              {masters?.departments.map((department) => <option key={department.id} value={department.id}>{department.name} ({department.code}){department.is_active ? "" : " (historical)"}</option>)}
+            </select>
+          </label>
+          {departmentId && <label className="field">
+            Department Attribution
+            <select value={attributionMode} onChange={(event) => resetPage(() => setAttributionMode(event.target.value))}>
+              <option value="CURRENT">Current Department</option>
+              <option value="AT_ACTIVITY_DATE">Activity-Date Department</option>
+            </select>
+          </label>}
+          <label className="field">
+            Search
+            <input value={search} placeholder="Title, organizer, or Faculty" onChange={(event) => resetPage(() => setSearch(event.target.value))} />
+          </label>
+          <label className="field">
+            Activity type
+            <select value={activityType} onChange={(event) => resetPage(() => { setActivityType(event.target.value); setActivityGroup(""); })}>
+              <option value="">All types</option>
+              {types.map((value) => <option key={value} value={value}>{activityTypeLabels[value]}</option>)}
+            </select>
+          </label>
+          <label className="field">
+            Faculty
+            <select value={facultyId} onChange={(event) => resetPage(() => setFacultyId(event.target.value))}>
+              <option value="">All Faculty</option>
+              {masters?.faculty.map((person) => <option key={person.id} value={person.id}>{person.name}{person.is_active ? "" : " (historical)"}</option>)}
+            </select>
+          </label>
+          <label className="field">
+            Role
+            <select value={role} onChange={(event) => resetPage(() => setRole(event.target.value))}>
+              <option value="">All roles</option>
+              {roles.map((value) => <option key={value} value={value}>{label(value)}</option>)}
+            </select>
+          </label>
+      </OverviewFilterPanel>
+      {departmentId && attributionMode === "AT_ACTIVITY_DATE" && <p className="muted compact-note">Only participants with verified primary Department affiliations on the activity start date are included. Unverified historical baseline affiliations are excluded.</p>}
       <KpiGrid
         labels={kpiLabels}
         counts={kpiCounts}
@@ -220,57 +262,6 @@ export default function Page() {
           )}
         </section>
       )}
-
-      <section className="panel">
-        <h2>Find activities</h2>
-        <div className="filters">
-          <label className="field">
-            Department
-            <select value={departmentId} onChange={(event) => resetPage(() => { setDepartmentId(event.target.value); setAttributionMode("CURRENT"); })}>
-              <option value="">All Departments</option>
-              {masters?.departments.map((department) => <option key={department.id} value={department.id}>{department.name} ({department.code}){department.is_active ? "" : " (historical)"}</option>)}
-            </select>
-          </label>
-          {departmentId && <label className="field">
-            Department Attribution
-            <select value={attributionMode} onChange={(event) => resetPage(() => setAttributionMode(event.target.value))}>
-              <option value="CURRENT">Current Department</option>
-              <option value="AT_ACTIVITY_DATE">Activity-Date Department</option>
-            </select>
-          </label>}
-          <label className="field">
-            Search
-            <input value={search} placeholder="Title, organizer, or Faculty" onChange={(event) => resetPage(() => setSearch(event.target.value))} />
-          </label>
-          <label className="field">
-            Activity type
-            <select value={activityType} onChange={(event) => resetPage(() => { setActivityType(event.target.value); setActivityGroup(""); })}>
-              <option value="">All types</option>
-              {types.map((value) => <option key={value} value={value}>{activityTypeLabels[value]}</option>)}
-            </select>
-          </label>
-          <label className="field">
-            Faculty
-            <select value={facultyId} onChange={(event) => resetPage(() => setFacultyId(event.target.value))}>
-              <option value="">All Faculty</option>
-              {masters?.faculty.map((person) => <option key={person.id} value={person.id}>{person.name}{person.is_active ? "" : " (historical)"}</option>)}
-            </select>
-          </label>
-          <label className="field">
-            Role
-            <select value={role} onChange={(event) => resetPage(() => setRole(event.target.value))}>
-              <option value="">All roles</option>
-              {roles.map((value) => <option key={value} value={value}>{label(value)}</option>)}
-            </select>
-          </label>
-          <label className="field">
-            Record status
-            <span className="check"><input type="checkbox" checked={includeInactive} onChange={(event) => resetPage(() => setIncludeInactive(event.target.checked))} />Include inactive</span>
-          </label>
-          <div className="actions"><button type="button" className="secondary" onClick={resetFilters}>Reset filters</button></div>
-        </div>
-      </section>
-      {departmentId && attributionMode === "AT_ACTIVITY_DATE" && <p className="muted compact-note">Only participants with verified primary Department affiliations on the activity start date are included. Unverified historical baseline affiliations are excluded.</p>}
 
       {!showFacultyParticipants && <section className="panel" id="fdp-records">
         <div className="row-between">

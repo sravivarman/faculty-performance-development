@@ -77,7 +77,6 @@ export default function FundingEditor({ category, initial }: Props) {
   const [error, setError] = useState("");
   const [busy, setBusy] = useState(false);
 
-  useEffect(() => setDraft(initial ? { ...initial, category } : emptyProject(category)), [category, initial]);
   useEffect(() => { api<Masters>("/masters").then(setMasters).catch((reason: Error) => setError(reason.message)); }, []);
 
   function changeFaculty(index: number, key: keyof FundingFaculty, value: string | number | boolean | null) {
@@ -141,6 +140,9 @@ export default function FundingEditor({ category, initial }: Props) {
     && !["SANCTIONED", "ONGOING", "COMPLETED"].includes(draft.status)
     && draft.sanctioned_amount !== null && draft.sanctioned_amount !== undefined;
   const agencyLabel = category === "SPONSORED_RESEARCH" ? "Funding Agency" : category === "CONSULTANCY" ? "Client / Sponsoring Organization" : "Internal Granting Authority / Institution";
+  const referenceLabel = category === "CONSULTANCY" ? "Reference / Work-order Number" : "Reference / sanction number";
+  const descriptionLabel = category === "CONSULTANCY" ? "Description / Scope of Consultancy" : "Description";
+  const deliverablesLabel = category === "CONSULTANCY" ? "Deliverables / Services Provided" : "Deliverables";
 
   return <form className="fdp-editor" onSubmit={save}>
     {error && <div className="error" role="alert">{error}</div>}
@@ -152,12 +154,13 @@ export default function FundingEditor({ category, initial }: Props) {
         <div className="field"><label htmlFor="funding-administrative-department">Recorded Lead / Administrative Department *</label><input id="funding-administrative-department" required aria-describedby="funding-administrative-department-help" value={draft.department} onChange={(event) => setDraft({ ...draft, department: event.target.value })} /><small id="funding-administrative-department-help" className="muted">This records the Department stated for project administration. Participating Departments are determined separately from linked Faculty investigators.</small></div>
         <label className="field">Project status *<select value={draft.status} onChange={(event) => setDraft({ ...draft, status: event.target.value })}>{fundingStatuses.map((status) => <option key={status} value={status}>{label(status)}</option>)}</select></label>
         <label className="field">{agencyLabel}<input value={draft.funding_agency || ""} onChange={(event) => setText("funding_agency", event.target.value)} /></label>
-        <label className="field">Reference / sanction number<input value={draft.reference_number || ""} onChange={(event) => setText("reference_number", event.target.value)} /></label>
+        <label className="field">{referenceLabel}<input value={draft.reference_number || ""} onChange={(event) => setText("reference_number", event.target.value)} /></label>
         <label className="field">Proposal submission date<input type="date" value={draft.proposal_submission_date || ""} onChange={(event) => setText("proposal_submission_date", event.target.value)} /></label>
         <label className="field">Sanction / approval date<input type="date" value={draft.sanction_date || ""} onChange={(event) => setText("sanction_date", event.target.value)} /></label>
         <label className="field">Project start date<input type="date" value={draft.start_date || ""} onChange={(event) => setText("start_date", event.target.value)} /></label>
         <label className="field">Project end date<input type="date" value={draft.end_date || ""} onChange={(event) => setText("end_date", event.target.value)} /></label>
       </div>
+      {(category === "SPONSORED_RESEARCH" || category === "CONSULTANCY") && <p className="muted compact-note">Draft, Submitted and Under Review records do not require a sanction date. Sanctioned, Ongoing and Completed records require one. Start and end dates describe the project period. Rejected and Withdrawn are project statuses, while Deactivate separately controls record visibility.</p>}
     </section>
 
     <section className="panel">
@@ -185,8 +188,8 @@ export default function FundingEditor({ category, initial }: Props) {
       <div className="split">
         {financialFields.map(([caption, key]) => <label className="field" key={key}>{caption}<input type="number" min="0" step="0.01" inputMode="decimal" value={asInput(draft[key as keyof FundingProject] as string | number | null)} onChange={(event) => setText(key as keyof FundingProject, event.target.value)} /></label>)}
         <label className="field">Source URL<input type="url" value={draft.source_url || ""} onChange={(event) => setText("source_url", event.target.value)} /></label>
-        <label className="field wide">Description<textarea rows={4} value={draft.description || ""} onChange={(event) => setText("description", event.target.value)} /></label>
-        <label className="field wide">Deliverables<textarea rows={3} value={draft.deliverables || ""} onChange={(event) => setText("deliverables", event.target.value)} /></label>
+        <label className="field wide">{descriptionLabel}<textarea rows={4} value={draft.description || ""} onChange={(event) => setText("description", event.target.value)} /></label>
+        <label className="field wide">{deliverablesLabel}<textarea rows={3} value={draft.deliverables || ""} onChange={(event) => setText("deliverables", event.target.value)} /></label>
         <label className="field wide">Outcomes<textarea rows={4} value={draft.outcomes || ""} onChange={(event) => setText("outcomes", event.target.value)} /></label>
         <label className="field wide">Completion details<textarea rows={3} value={draft.completion_details || ""} onChange={(event) => setText("completion_details", event.target.value)} /></label>
         <label className="field wide">Internal notes<textarea rows={3} value={draft.internal_notes || ""} onChange={(event) => setText("internal_notes", event.target.value)} /></label>

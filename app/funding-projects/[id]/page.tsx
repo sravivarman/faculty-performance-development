@@ -11,6 +11,15 @@ const evidenceTypes = ["PROPOSAL", "SANCTION_LETTER", "AGREEMENT", "FUNDING_RECE
 
 function backPath(category: string) { return category === "CONSULTANCY" ? "/consultancy" : category === "INTERNAL_GRANT" ? "/seed-money" : "/research-projects"; }
 function amount(value: string | number | null | undefined) { return value === null || value === undefined ? "—" : new Intl.NumberFormat("en-IN", { style: "currency", currency: "INR", maximumFractionDigits: 2 }).format(Number(value)); }
+function safeExternalUrl(value: string | null | undefined) {
+  if (!value) return null;
+  try {
+    const url = new URL(value);
+    return url.protocol === "https:" || url.protocol === "http:" ? url.href : null;
+  } catch {
+    return null;
+  }
+}
 function normalizedRoleLabel(role: string) {
   if (role === "LEAD_PI") return "Lead PI / Principal Investigator";
   if (role === "MEMBER_PI") return "Member PI";
@@ -43,10 +52,11 @@ export default function FundingProjectDetailPage() {
   if (error && !record) return <div className="error">{error}</div>;
   if (!record) return <p role="status">Loading funding record…</p>;
   const back = backPath(record.category);
+  const sourceUrl = safeExternalUrl(record.source_url);
   const roleOrder = ["LEAD_PI", "MEMBER_PI", "CO_PI", "ADMIN_PI", "BENEFICIARY", "PI", "CO_INVESTIGATOR"];
   const investigators = (members: typeof record.faculty) => members.length ? <ul>{members.map((member) => <li key={member.id || `${member.role}-${member.faculty_name}`}><strong>{member.faculty_name || member.investigator_name}</strong>{` · ${member.agency_role_label || normalizedRoleLabel(member.role)}`}{member.is_designated_lead && " · Designated overall lead"}{member.department_name && ` · ${member.department_name}`}{member.institution_name && ` · ${member.institution_name}`}{member.affiliation_type === "FACULTY_MASTER" && " · Faculty Master"}</li>)}</ul> : "—";
   return <><Link href={back}>← Back to funding records</Link><div className="page-heading"><div><div className="eyebrow">{label(record.category)} · {record.is_active ? "Active" : "Inactive"}</div><h1>{record.title}</h1><p>{record.department}{record.funding_agency && ` · ${record.funding_agency}`}</p></div><div className="actions">{record.is_active ? <><Link className="button" href={`/funding-projects/${id}/edit`}>Edit record</Link><button className="secondary" disabled={busy} onClick={deactivate}>Deactivate</button></> : <button disabled={busy} onClick={reactivate}>Reactivate</button>}</div></div>{error && <div className="error">{error}</div>}
-    <section className="panel"><h2>Project and financial details</h2><dl className="detail-grid">{[["Status", label(record.status)], ["Reference / sanction number", record.reference_number], ["Proposal submitted", record.proposal_submission_date], ["Sanction date", record.sanction_date], ["Start date", record.start_date], ["End date", record.end_date], ...financialDetails(record)].map(([key, value]) => <div key={String(key)}><dt>{key}</dt><dd>{value || "—"}</dd></div>)}</dl>{record.category === "SPONSORED_RESEARCH" && !["SANCTIONED", "ONGOING", "COMPLETED"].includes(record.status) && record.sanctioned_amount !== null && record.sanctioned_amount !== undefined && <p className="muted">A historical amount remains in the sanctioned-amount field for this pre-sanction record. It is excluded from award totals until its meaning is confirmed.</p>}{record.description && <p>{record.description}</p>}{record.deliverables && <p><strong>Deliverables:</strong> {record.deliverables}</p>}{record.outcomes && <p><strong>Outcomes:</strong> {record.outcomes}</p>}{record.completion_details && <p><strong>Completion details:</strong> {record.completion_details}</p>}</section>
+    <section className="panel"><h2>Project and financial details</h2><dl className="detail-grid">{[["Status", label(record.status)], ["Reference / sanction number", record.reference_number], ["Proposal submitted", record.proposal_submission_date], ["Sanction date", record.sanction_date], ["Start date", record.start_date], ["End date", record.end_date], ...financialDetails(record)].map(([key, value]) => <div key={String(key)}><dt>{key}</dt><dd>{value || "—"}</dd></div>)}</dl>{record.category === "SPONSORED_RESEARCH" && !["SANCTIONED", "ONGOING", "COMPLETED"].includes(record.status) && record.sanctioned_amount !== null && record.sanctioned_amount !== undefined && <p className="muted">A historical amount remains in the sanctioned-amount field for this pre-sanction record. It is excluded from award totals until its meaning is confirmed.</p>}{sourceUrl && <p><strong>Source:</strong> <a href={sourceUrl} target="_blank" rel="noreferrer" aria-label="Open source link">Open source link ↗</a></p>}{record.description && <p>{record.description}</p>}{record.deliverables && <p><strong>Deliverables:</strong> {record.deliverables}</p>}{record.outcomes && <p><strong>Outcomes:</strong> {record.outcomes}</p>}{record.completion_details && <p><strong>Completion details:</strong> {record.completion_details}</p>}</section>
     <section className="panel"><h2>Investigators and beneficiaries</h2>{roleOrder.map((role) => { const members = record.faculty.filter((member) => member.role === role); return members.length ? <div key={role}><strong>{normalizedRoleLabel(role)}</strong>{investigators(members)}</div> : null; })}</section>
     <EvidenceManager entity="funding-projects" id={Number(id)} categories={evidenceTypes} />
   </>;

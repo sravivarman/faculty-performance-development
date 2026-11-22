@@ -66,16 +66,21 @@ test("Certification creation, in-progress edit semantics, and evidence use the s
 test("Sponsored research uses browser-created Faculty investigators, financial values, evidence, and lifecycle controls", async ({ page, request }) => {
   const faculty = await createFaculty(request, "E2E-FUND-1", "Functional Funding Faculty");
   await page.goto("/research-projects/new");
-  await page.getByRole("textbox", { name: /Project title/ }).fill("Functional Sponsored Project");
+  const title = page.getByRole("textbox", { name: /Project title/ });
+  await title.fill("Functional Sponsored Project");
   await page.getByLabel("Recorded Lead / Administrative Department *").fill("EEE");
   await page.getByRole("combobox", { name: "Project status *", exact: true }).selectOption("SANCTIONED");
   await page.getByLabel("Sanction / approval date").fill("2026-09-18");
   await page.getByLabel("Sanctioned amount (INR)").fill("1000000.00");
+  await page.getByLabel("Source URL").fill("https://example.org/funding-source");
+  await expect(page.getByText(/Draft, Submitted and Under Review records do not require a sanction date/i)).toBeVisible();
   await page.getByRole("button", { name: /Add investigator/ }).click();
   await chooseFaculty(page, "Member Principal Investigator 1", faculty.name);
+  await expect(title).toHaveValue("Functional Sponsored Project");
   await page.getByRole("button", { name: "Save project", exact: true }).click();
   await expect(page.getByRole("heading", { name: "Functional Sponsored Project", exact: true })).toBeVisible();
   await expect(page.getByText("Member PI", { exact: true })).toBeVisible();
+  await expect(page.getByRole("link", { name: "Open source link", exact: true })).toHaveAttribute("href", "https://example.org/funding-source");
   await page.getByLabel("Choose document").setInputFiles({ name: "sanction.pdf", mimeType: "application/pdf", buffer: Buffer.from("%PDF-1.4 sanction") });
   await page.getByRole("button", { name: "Upload evidence", exact: true }).click();
   await expect(page.getByText("sanction.pdf", { exact: true })).toBeVisible();
@@ -84,4 +89,15 @@ test("Sponsored research uses browser-created Faculty investigators, financial v
   await expect(page.getByRole("button", { name: "Reactivate", exact: true })).toBeVisible();
   await page.getByRole("button", { name: "Reactivate", exact: true }).click();
   await expect(page.getByRole("link", { name: "Edit record", exact: true })).toBeVisible();
+  await page.goto("/research-projects");
+  await expect(page.getByText("Total Research Records", { exact: true })).toBeVisible();
+});
+
+test("Consultancy reuses funding fields with clear category-specific labels", async ({ page }) => {
+  await page.goto("/consultancy/new");
+  await expect(page.getByLabel("Client / Sponsoring Organization", { exact: true })).toBeVisible();
+  await expect(page.getByLabel("Reference / Work-order Number", { exact: true })).toBeVisible();
+  await expect(page.getByLabel("Description / Scope of Consultancy", { exact: true })).toBeVisible();
+  await expect(page.getByLabel("Deliverables / Services Provided", { exact: true })).toBeVisible();
+  await expect(page.getByText(/Rejected and Withdrawn are project statuses, while Deactivate separately controls record visibility/i)).toBeVisible();
 });

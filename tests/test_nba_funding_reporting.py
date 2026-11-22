@@ -15,8 +15,8 @@ def project(title, category="SPONSORED_RESEARCH", sanction_date="2026-07-01", pr
         "end_date": None,
         "proposed_amount": "100.00",
         "sanctioned_amount": "90.00",
-        "contract_amount": "80.00",
-        "amount_received": "0.00",
+        "contract_amount": None,
+        "amount_received": None,
         "amount_utilized": None,
         "status": "SANCTIONED",
         "faculty": [{"faculty_id": 1, "role": "MEMBER_PI"}],
@@ -86,7 +86,10 @@ def test_nba_reporting_flags_missing_dates_and_supports_explicit_policy_override
     assert overridden_preview.status_code == 200
     periods = overridden_preview.json()["periods"]
     assert periods[0]["count"] == 0
-    assert {record["id"] for record in periods[1]["records"]} == {override.json()["id"]}
+    # The override changes the required reporting date. The sanctioned record
+    # with a deliberately missing sanction date remains eligible because it
+    # has a proposal-submission date within the selected academic year.
+    assert {record["id"] for record in periods[1]["records"]} == {override.json()["id"], missing.json()["id"]}
 
 
 def test_nba_funding_report_categories_have_explicit_tables_and_no_year_writes(setup):

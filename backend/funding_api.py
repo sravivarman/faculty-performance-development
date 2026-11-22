@@ -35,6 +35,12 @@ FINANCIAL_METRIC_FIELDS = {
     "amount_received": "amount_received",
     "amount_utilized": "amount_utilized",
 }
+FINANCIAL_FIELDS = frozenset({"proposed_amount", "sanctioned_amount", "contract_amount", "amount_received", "amount_utilized"})
+CATEGORY_FINANCIAL_FIELDS = {
+    "SPONSORED_RESEARCH": frozenset({"proposed_amount", "sanctioned_amount"}),
+    "CONSULTANCY": frozenset({"contract_amount", "amount_received"}),
+    "INTERNAL_GRANT": frozenset({"sanctioned_amount", "amount_utilized"}),
+}
 
 
 class FundingFacultyInput(BaseModel):
@@ -137,6 +143,17 @@ def funding_dict(record: FundingProject, db: Session):
 def save_project(db: Session, data: FundingProjectInput, record: FundingProject | None = None):
     is_new = record is None
     record = record or FundingProject()
+    applicable_financial_fields = CATEGORY_FINANCIAL_FIELDS[data.category]
+    for field in FINANCIAL_FIELDS - applicable_financial_fields:
+        incoming = getattr(data, field)
+        existing = getattr(record, field)
+        # Full PUT payloads preserve legacy cross-category values unchanged.
+        # New or changed irrelevant amounts are rejected instead of silently
+        # creating ambiguous category data.
+        if incoming is not None and (is_new or incoming != existing):
+            raise HTTPException(422, f"{field} is not applicable to {data.category}")
+        if not is_new and incoming is None and existing is not None:
+            raise HTTPException(422, f"{field} is a preserved legacy value and cannot be cleared for {data.category}")
     existing_members = {member.id: member for member in record.faculty} if not is_new else {}
     for member in data.faculty:
         if member.role in LEGACY_ROLES:

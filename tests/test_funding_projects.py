@@ -21,7 +21,9 @@ def funding(category="SPONSORED_RESEARCH", status="DRAFT", **changes):
         "faculty": [{"faculty_id": 1, "role": "MEMBER_PI"}, {"faculty_id": 2, "role": "CO_PI"}],
     }
     if status in ("SANCTIONED", "ONGOING", "COMPLETED"):
-        value.update({"sanction_date": "2026-08-10", "start_date": "2026-08-15", "sanctioned_amount": "125000.50"})
+        value.update({"sanction_date": "2026-08-10", "start_date": "2026-08-15"})
+        if category in ("SPONSORED_RESEARCH", "INTERNAL_GRANT"):
+            value["sanctioned_amount"] = "125000.50"
     value.update(changes)
     return value
 
@@ -151,7 +153,7 @@ def test_funding_update_and_evidence_preservation(setup):
     )
     assert evidence.status_code == 201
     updated = client.put(f"/funding-projects/{identity}", json=funding(
-        "CONSULTANCY", "COMPLETED", title="Updated", amount_received="1000.10", amount_utilized="900.00",
+        "CONSULTANCY", "COMPLETED", title="Updated", amount_received="1000.10",
         faculty=[{"faculty_id": 1, "role": "MEMBER_PI"}, {"faculty_id": 1, "role": "BENEFICIARY"}, {"faculty_id": 2, "role": "CO_PI"}],
     ))
     assert updated.status_code == 200 and updated.json()["id"] == identity
@@ -354,6 +356,43 @@ def test_category_specific_financial_amounts_are_precise_and_not_duplicated(setu
     contract_rows = client.get("/funding-projects?category=CONSULTANCY&" + period + "&metric=contract_value&page=1&page_size=all").json()
     assert sanctioned_rows["total"] == 1 and sanctioned_rows["items"][0]["id"] == sanctioned.json()["id"]
     assert contract_rows["total"] == 1 and contract_rows["items"][0]["id"] == consultancy.json()["id"]
+
+
+def test_category_financial_validation_rejects_new_cross_category_values_and_preserves_legacy_values(setup):
+    client, factory, _ = setup
+    from backend.models import FundingProject, FundingProjectFaculty
+
+    invalid_sponsored = client.post("/funding-projects", json=funding("SPONSORED_RESEARCH", "DRAFT", contract_amount="100.00"))
+    invalid_consultancy = client.post("/funding-projects", json=funding("CONSULTANCY", "DRAFT", proposed_amount="100.00"))
+    invalid_internal = client.post("/funding-projects", json=funding("INTERNAL_GRANT", "DRAFT", amount_received="100.00"))
+    assert invalid_sponsored.status_code == invalid_consultancy.status_code == invalid_internal.status_code == 422
+    assert "not applicable" in invalid_sponsored.text
+
+    with factory() as db:
+        legacy = FundingProject(
+            title="Historical sponsored record", category="SPONSORED_RESEARCH", department="CSE",
+            status="DRAFT", contract_amount=Decimal("100.00"),
+        )
+        legacy.faculty = [FundingProjectFaculty(faculty_id=1, role="MEMBER_PI", affiliation_type="FACULTY_MASTER")]
+        db.add(legacy)
+        db.commit()
+        db.refresh(legacy)
+        identity = legacy.id
+
+    compatible = client.put(f"/funding-projects/{identity}", json=funding(
+        "SPONSORED_RESEARCH", "DRAFT", title="Historical sponsored record updated",
+        contract_amount="100.00", proposed_amount="250.00",
+    ))
+    assert compatible.status_code == 200, compatible.text
+    assert Decimal(str(compatible.json()["contract_amount"])) == Decimal("100.00")
+    assert Decimal(str(compatible.json()["proposed_amount"])) == Decimal("250.00")
+
+    changed_legacy_value = client.put(f"/funding-projects/{identity}", json=funding(
+        "SPONSORED_RESEARCH", "DRAFT", title="Attempted legacy change", contract_amount="101.00",
+    ))
+    assert changed_legacy_value.status_code == 422
+    reloaded = client.get(f"/funding-projects/{identity}")
+    assert Decimal(str(reloaded.json()["contract_amount"])) == Decimal("100.00")
 
 
 def test_historical_pre_sanction_amount_is_preserved_without_automatic_reclassification(setup):

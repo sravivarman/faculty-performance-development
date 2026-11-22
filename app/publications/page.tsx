@@ -3,8 +3,9 @@ import {useEffect,useRef,useState} from "react";
 import Link from "next/link";
 import {usePathname} from "next/navigation";
 import {api,INDEXING,label,Masters,paginatedResult,Publication} from "@/lib/api";
-import DateRangeFilter,{useDateRange} from "@/components/DateRange";
-import {DashboardFrame,ResearchPageHeader,DashboardFilters,NeedsAttentionPanel,KpiGrid as KpiCards} from "@/components/dashboard/UI";
+import {useDateRange} from "@/components/DateRange";
+import OverviewFilterPanel from "@/components/OverviewFilterPanel";
+import {DashboardFrame,ResearchPageHeader,NeedsAttentionPanel,KpiGrid as KpiCards} from "@/components/dashboard/UI";
 import {Distribution,SeriesChart} from "@/components/dashboard/Charts";
 import FacultyContributionTable from "@/components/dashboard/FacultyContributionTable";
 import {typeLabels} from "@/lib/dashboard-charts";
@@ -33,16 +34,16 @@ export default function PublicationOverview(){
   const counts=report?.totals||{};
   const select=(key:string)=>drillTo(key);
   return <DashboardFrame><ResearchPageHeader title="Publications Overview" subtitle="Publication performance, collaboration and data completeness."><Link className="secondary button" href="/publications/reports">Report Builder</Link><Link className="button" href="/publications/new">+ Add publication</Link></ResearchPageHeader>
-    <DateRangeFilter/><DashboardFilters>
+    <OverviewFilterPanel onResetFilters={()=>{setFilters({});setDrill({});setPage(1);}}>
       <label className="field">Department<select value={filters.department_id||""} onChange={e=>filter("department_id",e.target.value)}><option value="">All Departments</option>{masters?.departments.map(d=><option key={d.id} value={d.id}>{d.name} ({d.code}){d.is_active ? "" : " (historical)"}</option>)}</select></label>
       <label className="field">Publication Type<select value={filters.publication_type||""} onChange={e=>filter("publication_type",e.target.value)}><option value="">All</option><option value="JOURNAL">Journal</option><option value="CONFERENCE">Conference</option></select></label>
       <label className="field">Contributing Faculty<select value={filters.faculty_id||""} onChange={e=>filter("faculty_id",e.target.value)}><option value="">All Faculty</option>{masters?.faculty.map(f=><option key={f.id} value={f.id}>{f.name}{f.is_active ? "" : " (historical)"}</option>)}</select></label>
+      <label className="field">Student Participation<select value={filters.student_participation||""} onChange={e=>filter("student_participation",e.target.value)}><option value="">All Publications</option><option value="true">With Students</option><option value="false">Without Students</option></select></label>
       <label className="field">Indexing<select value={filters.indexing||""} onChange={e=>filter("indexing",e.target.value)}><option value="">All</option>{INDEXING.map(v=><option key={v} value={v}>{v==="WEB_OF_SCIENCE"?"Web of Science":label(v)}</option>)}</select></label>
       {filters.department_id&&<label className="field">Department Attribution<select value={filters.attribution_mode||"CURRENT"} onChange={e=>filter("attribution_mode",e.target.value)}><option value="CURRENT">Current Department Attribution</option><option value="AT_ACTIVITY_DATE">Activity-Date Attribution</option></select></label>}
       {filters.publication_type==="CONFERENCE"&&<label className="field">Conference Scope<select value={filters.classification||""} onChange={e=>filter("classification",e.target.value)}><option value="">All scopes</option>{["INTERNATIONAL","NATIONAL","OTHER","UNKNOWN"].map(v=><option key={v} value={v}>{label(v)}</option>)}</select></label>}
       {filters.publication_type==="JOURNAL"&&<label className="field">Quartile<select value={filters.quartile||""} onChange={e=>filter("quartile",e.target.value)}><option value="">All quartiles</option>{["Q1","Q2","Q3","Q4","NOT_APPLICABLE","UNKNOWN"].map(v=><option key={v} value={v}>{v.startsWith("Q")?v:label(v)}</option>)}</select></label>}
-      <button className="secondary" onClick={()=>{setFilters({});setDrill({});setPage(1);}}>Reset Filters</button>
-    </DashboardFilters>{filters.department_id&&filters.attribution_mode==="AT_ACTIVITY_DATE"&&<p className="muted compact-note">Only contributors with verified Department affiliations on the publication date are included. Historical baseline affiliations with unknown start dates remain unverified.</p>}{error&&<div role="alert" className="error">{error}</div>}
+    </OverviewFilterPanel>{filters.department_id&&filters.attribution_mode==="AT_ACTIVITY_DATE"&&<p className="muted compact-note">Only contributors with verified Department affiliations on the publication date are included. Historical baseline affiliations with unknown start dates remain unverified.</p>}{error&&<div role="alert" className="error">{error}</div>}
     <div className="row-between"><h2>Department at a glance</h2><span className="muted" role="status">{loading?"Loading report…":"Unique publications · select any count to explore"}</span></div><KpiCards labels={PRIMARY} counts={counts} loading={loading} onSelect={select}/>
     <div className="row-between dashboard-subheading"><h2>Indexing</h2><button className="link-button" onClick={()=>select("indexed")}>Indexed Publications · {loading?"—":counts.indexed||0}</button></div><p className="muted compact-note">Indexing categories may overlap. Each publication counts once per applicable category and once in the total.</p><div className="six-cards"><KpiCards labels={INDEX_CARDS} counts={counts} loading={loading} onSelect={select}/></div>
     <h2 className="dashboard-subheading">Quality & classification</h2><div className="six-cards"><KpiCards labels={QUALITY} counts={counts} loading={loading} onSelect={select}/></div>
