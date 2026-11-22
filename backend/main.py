@@ -1,7 +1,4 @@
 from datetime import date, timedelta
-import os
-from pathlib import Path
-from time import sleep
 from typing import Annotated, Literal
 
 from fastapi import Depends, FastAPI, File, Form, HTTPException, Query, UploadFile
@@ -17,9 +14,9 @@ from . import db as database
 from .db import get_db, sqlite_database_path
 from .doi import normalize_doi, parse_doi_input
 from .evidence import permanently_delete_owner
-from .matching import match_author, normalized_name
+from .matching import match_author
 from .name_variants import normalize_person_name, prepare_variants
-from .metadata import CrossrefProvider, MetadataError, crossref_date_candidates
+from .metadata import CrossrefProvider, MetadataError
 from .models import (
     AcademicYear,
     BookContributor,
@@ -484,8 +481,6 @@ def lookup_doi(doi: str, db: DB):
 
 from pydantic import BaseModel, Field
 from .bibtex import BibTeXPublicationParser
-from .bibtex_analysis import analyze_bibtex
-from .scopus_analysis import ScopusCSVError, parse_scopus_csv, reconcile_scopus_entries, review_dimensions
 
 
 class BibTeXPaste(BaseModel):
@@ -505,128 +500,6 @@ def parse_dois(data: DOIPaste):
 @app.post("/publications/parse-bibtex")
 def parse_bibtex(data: BibTeXPaste, db: DB):
     return BibTeXPublicationParser().parse(data.content, db, provider, data.enrich_doi)
-
-
-# Uploads are parsed directly from the request and discarded.  This is kept
-# separate from evidence storage so an analysis cannot leave a file behind.
-BIBTEX_ANALYSIS_MAX_BYTES = int(os.getenv("BIBTEX_ANALYSIS_MAX_BYTES", str(5 * 1024 * 1024)))
-SCOPUS_ANALYSIS_MAX_BYTES = int(os.getenv("SCOPUS_ANALYSIS_MAX_BYTES", str(10 * 1024 * 1024)))
-DOI_DATE_ENRICHMENT_MAX_ENTRIES = 25
-
-
-@app.post("/publications/analyze-bibtex-file")
-async def analyze_bibtex_file(db: DB, file: UploadFile = File(...), scopus_file: UploadFile | None = File(None)):
-    filename = file.filename or ""
-    if Path(filename).suffix.lower() != ".bib":
-        raise HTTPException(422, "Upload a .bib BibTeX file.")
-    try:
-        payload = await file.read(BIBTEX_ANALYSIS_MAX_BYTES + 1)
-    finally:
-        await file.close()
-    if not payload.strip():
-        raise HTTPException(422, "The BibTeX file is empty.")
-    if len(payload) > BIBTEX_ANALYSIS_MAX_BYTES:
-        raise HTTPException(413, f"The BibTeX file exceeds the {BIBTEX_ANALYSIS_MAX_BYTES // (1024 * 1024)} MB analysis limit.")
-    try:
-        content = payload.decode("utf-8-sig")
-    except UnicodeDecodeError as exc:
-        raise HTTPException(422, "The BibTeX file must use UTF-8 encoding.") from exc
-    try:
-        result = analyze_bibtex(content, db, provider)
-    except Exception as exc:
-        # Individual malformed blocks are returned by the established parser.
-        # This branch is only for a document with no recoverable BibTeX shape.
-        raise HTTPException(422, "The file could not be read as BibTeX. Check its syntax and encoding.") from exc
-    if not result["total_entries"]:
-        raise HTTPException(422, "No BibTeX entries were detected in the uploaded file.")
-    response = {"file_name": Path(filename).name, "file_size_bytes": len(payload), **result}
-    if scopus_file is not None:
-        csv_filename = scopus_file.filename or ""
-        if Path(csv_filename).suffix.lower() != ".csv":
-            await scopus_file.close()
-            raise HTTPException(422, "Upload a .csv Scopus file.")
-        try:
-            csv_payload = await scopus_file.read(SCOPUS_ANALYSIS_MAX_BYTES + 1)
-        finally:
-            await scopus_file.close()
-        if not csv_payload.strip():
-            raise HTTPException(422, "The Scopus CSV file is empty.")
-        if len(csv_payload) > SCOPUS_ANALYSIS_MAX_BYTES:
-            raise HTTPException(413, f"The Scopus CSV exceeds the {SCOPUS_ANALYSIS_MAX_BYTES // (1024 * 1024)} MB analysis limit.")
-        try:
-            records = parse_scopus_csv(csv_payload.decode("utf-8-sig"))
-        except UnicodeDecodeError as exc:
-            raise HTTPException(422, "The Scopus CSV file must use UTF-8 encoding.") from exc
-        except ScopusCSVError as exc:
-            raise HTTPException(422, str(exc)) from exc
-        response["scopus_file_name"] = Path(csv_filename).name
-        response["scopus_file_size_bytes"] = len(csv_payload)
-        response["scopus"] = reconcile_scopus_entries(response["entries"], records)
-        response["summary"]["review_dimensions"] = review_dimensions(response["entries"])
-    return response
-
-
-class DOIAnalysisSelection(BaseModel):
-    entry_number: int = Field(ge=1)
-    doi: str = Field(min_length=1, max_length=500)
-    title: str | None = Field(default=None, max_length=4_000)
-    publication_year: str | None = Field(default=None, max_length=4)
-    bibtex_date: str | None = Field(default=None, max_length=32)
-
-
-class DOIAnalysisEnrichmentRequest(BaseModel):
-    entries: list[DOIAnalysisSelection] = Field(min_length=1, max_length=DOI_DATE_ENRICHMENT_MAX_ENTRIES)
-
-
-@app.post("/publications/analyze-bibtex-file/enrich-dates")
-def enrich_bibtex_analysis_dates(data: DOIAnalysisEnrichmentRequest):
-    """Fetch bounded Crossref date suggestions; no publication data is saved."""
-    results, seen = [], set()
-    for selection in data.entries:
-        try:
-            doi = normalize_doi(selection.doi)
-        except ValueError as exc:
-            results.append({"entry_number": selection.entry_number, "doi": selection.doi, "status": "INVALID_DOI", "error": str(exc)})
-            continue
-        if doi in seen:
-            results.append({"entry_number": selection.entry_number, "doi": doi, "status": "DUPLICATE_REQUEST"})
-            continue
-        seen.add(doi)
-        metadata = None
-        failure = None
-        # Crossref calls are deliberately sequential and bounded: this is a
-        # reviewer-triggered preview, not a background bulk import. Retry only
-        # transient provider failures once; a 404-style response is final.
-        for attempt in range(2):
-            try:
-                metadata = provider.fetch_by_doi(doi)
-                break
-            except MetadataError as exc:
-                failure = exc
-                if "not found" in str(exc).casefold() or attempt:
-                    break
-                sleep(0.15)
-        if metadata is None:
-            results.append({"entry_number": selection.entry_number, "doi": doi, "status": "UNAVAILABLE", "error": str(failure)})
-        else:
-            raw = metadata.get("raw_metadata_json") or {}
-            date_candidates = crossref_date_candidates(raw)
-            message = raw.get("message") if isinstance(raw, dict) else {}
-            provider_title = ((message.get("title") or [None])[0] if isinstance(message, dict) else None)
-            provider_year = None
-            for candidate in date_candidates["alternatives"]:
-                if candidate["precision"] in {"YEAR", "MONTH", "DAY"}:
-                    provider_year = candidate["date"][:4]
-                    break
-            identity_conflicts = []
-            if selection.title and provider_title and normalized_name(selection.title) != normalized_name(provider_title):
-                identity_conflicts.append({"field": "Title", "bibtex_value": selection.title, "provider_value": provider_title, "assessment": "Verify DOI metadata identity before using this date."})
-            if selection.publication_year and provider_year and selection.publication_year != provider_year:
-                identity_conflicts.append({"field": "Publication year", "bibtex_value": selection.publication_year, "provider_value": provider_year, "assessment": "Verify DOI metadata identity before using this date."})
-            date_conflict = bool(selection.bibtex_date and date_candidates["preferred"] and selection.bibtex_date != date_candidates["preferred"]["date"])
-            status = "IDENTITY_CONFLICT" if identity_conflicts else "FOUND"
-            results.append({"entry_number": selection.entry_number, "doi": doi, "status": status, "source": "CROSSREF", "provider_title": provider_title, "identity_conflicts": identity_conflicts, "bibtex_date_conflict": date_conflict, **date_candidates})
-    return {"analysis_only": True, "requested": len(data.entries), "results": results}
 
 
 def filters(

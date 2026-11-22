@@ -5,7 +5,6 @@ import pytest
 from sqlalchemy import func, select
 
 from backend import main
-from backend.bibtex import BibTeXPublicationParser
 from backend.metadata import MetadataError
 from backend.models import Publication
 from conftest import author, paper, report
@@ -61,28 +60,6 @@ def test_bad_entry_does_not_lose_neighbors(setup):
     assert entries[0]['publication']['title'] == 'Example Energy Paper'
     assert entries[2]['publication']['publication_type'] == 'CONFERENCE'
     assert entries[3]['publication']['title'] == 'Conference collaboration'
-
-
-def test_duplicate_citation_keys_keep_all_metadata_at_parser_level(setup):
-    """Repeated BibTeX keys are review warnings, not malformed publications."""
-    client, factory, _ = setup
-    content = '\n'.join([
-        ARTICLE.replace('test2026', 'same-key').replace('Example Energy Paper', 'First paper').replace('10.1234/EXAMPLE', '10.1234/one'),
-        ARTICLE.replace('test2026', 'same-key').replace('Example Energy Paper', 'Second paper').replace('10.1234/EXAMPLE', '10.1234/two'),
-        ARTICLE.replace('test2026', 'same-key').replace('Example Energy Paper', 'Third paper').replace('10.1234/EXAMPLE', '10.1234/three'),
-    ])
-    with factory() as db:
-        entries = BibTeXPublicationParser().parse(content, db, main.provider, enrich=False)['entries']
-    assert [entry['citation_key'] for entry in entries] == ['same-key', 'same-key', 'same-key']
-    assert [entry['publication']['doi'] for entry in entries] == ['10.1234/one', '10.1234/two', '10.1234/three']
-    assert [entry['publication']['title'] for entry in entries] == ['First paper', 'Second paper', 'Third paper']
-    assert all(entry['publication']['publication_type'] == 'JOURNAL' for entry in entries)
-    assert all(entry['publication_year'] == '2026' for entry in entries)
-    assert all(entry['publication']['journal_conference_name'] == 'Energy and Buildings' for entry in entries)
-    assert all([author['author_name_from_source'] for author in entry['publication']['authors']] == ['Md Asif', 'N Karuppiah'] for entry in entries)
-    assert all(entry['publication']['raw_bibtex'].startswith('@article{same-key') for entry in entries)
-    assert entries[0]['warnings'] == []
-    assert all('repeated' in entry['warnings'][0] for entry in entries[1:])
 
 
 def test_quotes_braces_latex_macros_suffix_corporate_names(setup):
