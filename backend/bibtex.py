@@ -36,6 +36,28 @@ class BibTeXPublicationParser:
         library = bibtexparser.parse_string(content, append_middleware=[m.SeparateCoAuthors(), m.SplitNameParts()])
         faculty, students = list(db.scalars(select(Faculty))), list(db.scalars(select(Student)))
         publications = list(db.scalars(select(Publication)))
+        faculty_by_id = {person.id: person for person in faculty}
+
+        def matched_author(author):
+            """Attach only existing current Department context to a match.
+
+            The analysis has no verified activity date until a reviewer supplies
+            one, so it must not infer a historical Department attribution.
+            """
+            result = match_author(author, faculty, students)
+            faculty_id = result.get("faculty_id")
+            person = faculty_by_id.get(faculty_id) if faculty_id else None
+            affiliations = [
+                item for item in (person.department_affiliations if person else [])
+                if item.is_primary and item.effective_to is None
+            ]
+            if affiliations:
+                current = max(affiliations, key=lambda item: (item.effective_from or date.min, item.id))
+                department = current.department
+                if department:
+                    result["department"] = {"id": department.id, "code": department.code, "name": department.name}
+            return result
+
         decoder = LatexNodes2Text()
         results, cache, seen_dois, seen_titles = [], {}, {}, {}
         for block in library.blocks:
@@ -67,7 +89,7 @@ class BibTeXPublicationParser:
                     return decoder.latex_to_text(str(raw)).strip() if raw is not None else None
                 kind = self.types.get(entry_block.entry_type.casefold())
                 draft = {'title': value('title') or '', 'doi': None, 'publication_type': kind or 'OTHER',
-                         'journal_conference_name': value('journal') if kind == 'JOURNAL' else value('booktitle'),
+                         'journal_conference_name': value('journal') if kind == 'JOURNAL' else (value('booktitle') or value('journal')),
                          'publisher': value('publisher'), 'volume': value('volume'), 'issue': value('number'),
                          'pages_or_article_number': value('pages'), 'issn': value('issn'), 'isbn': value('isbn'),
                          'url': value('url'), 'publication_date': None, 'indexing': [], 'impact_factor': None,
@@ -76,7 +98,10 @@ class BibTeXPublicationParser:
                          'raw_metadata_json': {'bibtex': {'entry_type': entry_block.entry_type, 'key': entry_block.key,
                                                'fields': {key: str(field.value) for key, field in entry_block.fields_dict.items()}}}}
                 if kind == 'CONFERENCE':
-                    draft.update(proceedings_title=value('booktitle'), conference_name=value('eventtitle'),
+                    # Some Scopus BibTeX exports put a proceedings series in
+                    # ``journal`` for conference papers.  Preserve it as a
+                    # proceedings title; it is not a journal classification.
+                    draft.update(proceedings_title=value('booktitle') or value('journal'), conference_name=value('eventtitle'),
                                  conference_location=value('address') or value('venue'), conference_organizer=value('organization'))
                     for key in ['conference_start_date', 'conference_end_date']:
                         if fields.get(key):
@@ -125,7 +150,7 @@ class BibTeXPublicationParser:
                         metadata = cache[draft['doi']]
                         if isinstance(metadata, MetadataError): raise metadata
                         if normalize_doi(metadata['doi']) != draft['doi']: raise MetadataError('DOI provider returned a different identifier')
-                        metadata = dict(metadata, authors=[dict(match_author(a, faculty, students), is_claiming_faculty=False) for a in metadata.get('authors', [])])
+                        metadata = dict(metadata, authors=[dict(matched_author(a), is_claiming_faculty=False) for a in metadata.get('authors', [])])
                         for key, enriched in metadata.items():
                             if key in {'doi', 'indexing', 'impact_factor', 'quartile', 'metadata_source', 'raw_metadata_json', 'metadata_fetched_at'}:
                                 continue
@@ -139,7 +164,7 @@ class BibTeXPublicationParser:
                         draft.update(source_type='BIBTEX_PLUS_DOI', metadata_source='BIBTEX_PLUS_DOI')
                     except MetadataError as exc:
                         item['warnings'].append('DOI enrichment unavailable; BibTeX remains editable. ' + str(exc))
-                draft['authors'] = [dict(match_author(a, faculty, students), is_claiming_faculty=False) for a in draft['authors']]
+                draft['authors'] = [dict(matched_author(a), is_claiming_faculty=False) for a in draft['authors']]
                 item['publication'] = draft
                 if item['errors']: item['status'] = 'PARSE_ERROR'
                 elif item['duplicate_ids'] or item['duplicate_entry']: item['status'] = 'DUPLICATE'

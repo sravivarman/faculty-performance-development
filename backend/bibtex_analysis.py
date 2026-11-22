@@ -14,7 +14,7 @@ from sqlalchemy.orm import Session, selectinload
 
 from .bibtex import BibTeXPublicationParser
 from .matching import normalized_name
-from .models import Publication
+from .models import Faculty, Publication
 
 
 PRIMARY_DISPOSITIONS = (
@@ -61,13 +61,18 @@ def _possible_match(left: dict, right: dict) -> bool:
     return title_ratio >= 0.92 and venue_ratio >= 0.70 and (title_ratio < 1 or venue_ratio < 1)
 
 
-def _database_reference(publication: Publication) -> dict:
+def _database_reference(publication: Publication, faculty_names: dict[int, str]) -> dict:
+    claimant = next((author for author in publication.authors if author.is_claiming_faculty and author.faculty_id), None)
     return {
         "publication_id": publication.id,
         "title": publication.title,
         "publication_type": publication.publication_type,
         "doi": publication.doi,
         "is_active": publication.is_active,
+        "claiming_faculty": None if claimant is None else {
+            "faculty_id": claimant.faculty_id,
+            "name": faculty_names.get(claimant.faculty_id, claimant.author_name_from_source),
+        },
     }
 
 
@@ -76,6 +81,7 @@ def analyze_bibtex(content: str, db: Session, provider) -> dict:
     parsed = BibTeXPublicationParser().parse(content, db, provider, enrich=False)
     entries = parsed["entries"]
     publications = list(db.scalars(select(Publication).options(selectinload(Publication.authors))))
+    faculty_names = dict(db.execute(select(Faculty.id, Faculty.name)).all())
 
     database_by_doi: dict[str, list[Publication]] = defaultdict(list)
     database_by_key: dict[tuple[str, str, str], list[Publication]] = defaultdict(list)
@@ -124,17 +130,17 @@ def analyze_bibtex(content: str, db: Session, provider) -> dict:
 
         if values:
             if values["doi"]:
-                exact_database.extend(_database_reference(publication) for publication in database_by_doi[values["doi"]])
+                exact_database.extend(_database_reference(publication, faculty_names) for publication in database_by_doi[values["doi"]])
                 exact_file.extend({"entry_number": entries[other]["entry_number"], "citation_key": entries[other].get("citation_key"), "reason": "Repeated normalized DOI"}
                                   for other in doi_groups[values["doi"]] if other != index)
             key = _title_year_venue(draft.get("title", ""), values["year"], _venue(draft))
             if key:
-                exact_database.extend(_database_reference(publication) for publication in database_by_key[key] if publication.id not in {item["publication_id"] for item in exact_database})
+                exact_database.extend(_database_reference(publication, faculty_names) for publication in database_by_key[key] if publication.id not in {item["publication_id"] for item in exact_database})
                 exact_file.extend({"entry_number": entries[other]["entry_number"], "citation_key": entries[other].get("citation_key"), "reason": "Same normalized title, year and venue"}
                                   for other in key_groups[key] if other != index and not any(match["entry_number"] == entries[other]["entry_number"] for match in exact_file))
             for candidate, publication in database_candidates:
                 if publication.id not in {item["publication_id"] for item in exact_database} and _possible_match(values, candidate):
-                    possible_database.append(_database_reference(publication))
+                    possible_database.append(_database_reference(publication, faculty_names))
             for other, candidate in enumerate(normalized_entries):
                 if other != index and candidate and not any(match["entry_number"] == entries[other]["entry_number"] for match in exact_file) and _possible_match(values, candidate):
                     possible_file.append({"entry_number": entries[other]["entry_number"], "citation_key": entries[other].get("citation_key"), "reason": "Similar title, year and venue"})
@@ -144,9 +150,15 @@ def analyze_bibtex(content: str, db: Session, provider) -> dict:
 
         missing = []
         if draft:
-            for field, value in (("title", draft.get("title")), ("publication year", entry.get("publication_year")), ("journal or conference", _venue(draft))):
+            for field, value in (("title", draft.get("title")), ("publication year", entry.get("publication_year"))):
                 if not value:
                     missing.append(field)
+            if draft.get("publication_type") == "JOURNAL" and not draft.get("journal_conference_name"):
+                missing.append("journal name")
+            elif draft.get("publication_type") == "CONFERENCE" and not _venue(draft):
+                # The current input schema accepts a proceedings title or a
+                # conference name.  Analysis must not falsely require both.
+                missing.append("conference venue")
             if not draft.get("publication_date"):
                 missing.append("exact publication date")
         if entry.get("errors"):
