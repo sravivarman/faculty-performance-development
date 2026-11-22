@@ -3,7 +3,8 @@ from datetime import date
 
 import bibtexparser
 from bibtexparser import middlewares as m
-from bibtexparser.model import Entry, ParsingFailedBlock
+from bibtexparser.library import Library
+from bibtexparser.model import DuplicateBlockKeyBlock, Entry, ParsingFailedBlock
 from pylatexenc.latex2text import LatexNodes2Text
 from sqlalchemy import select
 
@@ -15,6 +16,21 @@ from .models import Faculty, Publication, Student
 
 class BibTeXPublicationParser:
     types = {'article': 'JOURNAL', 'inproceedings': 'CONFERENCE', 'conference': 'CONFERENCE'}
+
+    @staticmethod
+    def _recover_duplicate_key_entry(entry: Entry, library):
+        """Apply the normal parse middleware to a recoverable duplicate-key entry.
+
+        ``DuplicateBlockKeyBlock`` is created before the middleware pipeline,
+        which intentionally skips failed blocks.  A small temporary Library is
+        enough to restore the usual string resolution, enclosing removal, and
+        author transformations without reparsing the BibTeX source or changing
+        the original library.
+        """
+        recovered = Library([*library.strings, entry], fail_on_duplicate_key=False)
+        for middleware in [*m.default_parse_stack(allow_inplace_modification=True), m.SeparateCoAuthors(), m.SplitNameParts()]:
+            recovered = middleware.transform(recovered)
+        return recovered.blocks[-1]
 
     def parse(self, content, db, provider, enrich=True):
         library = bibtexparser.parse_string(content, append_middleware=[m.SeparateCoAuthors(), m.SplitNameParts()])
@@ -30,18 +46,26 @@ class BibTeXPublicationParser:
                     'line': block.start_line + 1, 'status': 'PARSE_ERROR', 'errors': [], 'warnings': [],
                     'duplicate_ids': [], 'duplicate_entry': None, 'differences': [], 'publication': None}
             results.append(item)
-            if isinstance(block, ParsingFailedBlock):
+            # bibtexparser keeps the second entry with a repeated citation key
+            # as a DuplicateBlockKeyBlock.  The wrapped Entry remains valid
+            # bibliographic data, so preserve it for review instead of treating
+            # the key collision as a malformed publication.
+            entry_block = block.ignore_error_block if isinstance(block, DuplicateBlockKeyBlock) else block
+            if isinstance(block, DuplicateBlockKeyBlock) and isinstance(entry_block, Entry):
+                entry_block = self._recover_duplicate_key_entry(entry_block, library)
+                item['warnings'].append(f"Citation key '{block.key}' is repeated in this BibTeX source; the entry remains available for review.")
+            if isinstance(entry_block, ParsingFailedBlock) or not isinstance(entry_block, Entry):
                 item['errors'] = [f'Entry {number} could not be parsed near line {block.start_line+1}. Check braces, quotes and field separators. {block.error}']
                 continue
             try:
-                fields = {key: field.value for key, field in block.fields_dict.items()}
+                fields = {key: field.value for key, field in entry_block.fields_dict.items()}
                 def value(key):
                     raw = fields.get(key)
                     if key in {'doi', 'url', 'issn', 'isbn', 'pages', 'volume', 'number', 'year', 'month',
                                'date', 'conference_start_date', 'conference_end_date'}:
                         return str(raw).strip() if raw is not None else None
                     return decoder.latex_to_text(str(raw)).strip() if raw is not None else None
-                kind = self.types.get(block.entry_type.casefold())
+                kind = self.types.get(entry_block.entry_type.casefold())
                 draft = {'title': value('title') or '', 'doi': None, 'publication_type': kind or 'OTHER',
                          'journal_conference_name': value('journal') if kind == 'JOURNAL' else value('booktitle'),
                          'publisher': value('publisher'), 'volume': value('volume'), 'issue': value('number'),
@@ -49,8 +73,8 @@ class BibTeXPublicationParser:
                          'url': value('url'), 'publication_date': None, 'indexing': [], 'impact_factor': None,
                          'quartile': None, 'source_type': 'BIBTEX', 'metadata_source': 'BIBTEX',
                          'raw_bibtex': block.raw, 'is_claimable': True, 'is_active': True, 'authors': [],
-                         'raw_metadata_json': {'bibtex': {'entry_type': block.entry_type, 'key': block.key,
-                                               'fields': {key: str(field.value) for key, field in block.fields_dict.items()}}}}
+                         'raw_metadata_json': {'bibtex': {'entry_type': entry_block.entry_type, 'key': entry_block.key,
+                                               'fields': {key: str(field.value) for key, field in entry_block.fields_dict.items()}}}}
                 if kind == 'CONFERENCE':
                     draft.update(proceedings_title=value('booktitle'), conference_name=value('eventtitle'),
                                  conference_location=value('address') or value('venue'), conference_organizer=value('organization'))
@@ -59,7 +83,7 @@ class BibTeXPublicationParser:
                             try: draft[key] = date.fromisoformat(value(key)).isoformat()
                             except ValueError: item['warnings'].append(f'{key} is not an exact date; complete it manually.')
                 if not kind:
-                    item['warnings'].append(f'Unsupported BibTeX type @{block.entry_type}; choose Journal or Conference after manual review.')
+                    item['warnings'].append(f'Unsupported BibTeX type @{entry_block.entry_type}; choose Journal or Conference after manual review.')
                 year = value('year')
                 item['publication_year'], item['publication_month'] = year, value('month')
                 if value('date'):

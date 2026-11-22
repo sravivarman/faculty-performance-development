@@ -161,7 +161,7 @@ test('unified DOI and BibTeX queue supports inline and selected bulk edits, inde
   await editor.getByRole('combobox',{name:'Evidence type',exact:true}).selectOption('CERTIFICATE');
   await editor.getByLabel('Choose evidence files').setInputFiles({name:'certificate.pdf',mimeType:'application/pdf',buffer:Buffer.from('%PDF-1.4 certificate')});
   await editor.getByRole('button',{name:'Return to queue',exact:true}).click();
-  await page.getByRole('button',{name:'BibTeX',exact:true}).click();
+  await page.getByRole('button',{name:'Paste BibTeX',exact:true}).click();
   await page.getByLabel('Enrich missing fields using DOI metadata').uncheck();
   await page.getByLabel('BibTeX content').fill(`@article{queuebib, title={Queue BibTeX Journal},author={${faculty[0].name}},journal={Bibtex Venue},date={2026-09-22}}
 @inproceedings{queueconf, title={Queue BibTeX Conference},author={${faculty[0].name}},booktitle={Bibtex Proceedings},date={2026-09-22}}
