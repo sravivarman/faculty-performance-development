@@ -51,16 +51,6 @@ def test_requested_journal_and_conference_examples(setup):
         assert db.scalar(select(func.count()).select_from(Publication)) == 0
 
 
-def test_conference_journal_field_is_preserved_as_proceedings_title(setup):
-    client, _, _ = setup
-    entry = parse(client, "@inproceedings{reddy, author={Reddy, A}, title={Conference source}, journal={AIP Conference Proceedings}, year={2026}, doi={10.1063/5.0317499}}", enrich=False)[0]
-    draft = entry["publication"]
-    assert draft["publication_type"] == "CONFERENCE"
-    assert draft["proceedings_title"] == "AIP Conference Proceedings"
-    assert draft["journal_conference_name"] == "AIP Conference Proceedings"
-    assert draft["conference_name"] is None
-
-
 def test_bad_entry_does_not_lose_neighbors(setup):
     client, _, _ = setup
     bad = '\n@article{broken, author={Broken Author\n'

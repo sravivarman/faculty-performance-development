@@ -1,6 +1,7 @@
 from datetime import date, timedelta
 import os
 from pathlib import Path
+from time import sleep
 from typing import Annotated, Literal
 
 from fastapi import Depends, FastAPI, File, Form, HTTPException, Query, UploadFile
@@ -16,10 +17,9 @@ from . import db as database
 from .db import get_db, sqlite_database_path
 from .doi import normalize_doi, parse_doi_input
 from .evidence import permanently_delete_owner
-from .matching import match_author
+from .matching import match_author, normalized_name
 from .name_variants import normalize_person_name, prepare_variants
-from .metadata import CrossrefProvider, MetadataError
-from .publication_date_verification import PublicationDateVerifier
+from .metadata import CrossrefProvider, MetadataError, crossref_date_candidates
 from .models import (
     AcademicYear,
     BookContributor,
@@ -57,7 +57,6 @@ app = FastAPI(title="Faculty publications", version="1.0.0")
 app.add_middleware(CORSMiddleware, allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"], allow_methods=["*"], allow_headers=["*"])
 DB = Annotated[Session, Depends(get_db)]
 provider = CrossrefProvider()
-date_verifier_factory = PublicationDateVerifier
 
 
 @app.exception_handler(IntegrityError)
@@ -581,37 +580,52 @@ class DOIAnalysisEnrichmentRequest(BaseModel):
 
 @app.post("/publications/analyze-bibtex-file/enrich-dates")
 def enrich_bibtex_analysis_dates(data: DOIAnalysisEnrichmentRequest):
-    """Verify bounded DOI date evidence; no publication data is saved."""
+    """Fetch bounded Crossref date suggestions; no publication data is saved."""
     results, seen = [], set()
-    verifier = date_verifier_factory(provider)
-    try:
-        for selection in data.entries:
+    for selection in data.entries:
+        try:
+            doi = normalize_doi(selection.doi)
+        except ValueError as exc:
+            results.append({"entry_number": selection.entry_number, "doi": selection.doi, "status": "INVALID_DOI", "error": str(exc)})
+            continue
+        if doi in seen:
+            results.append({"entry_number": selection.entry_number, "doi": doi, "status": "DUPLICATE_REQUEST"})
+            continue
+        seen.add(doi)
+        metadata = None
+        failure = None
+        # Crossref calls are deliberately sequential and bounded: this is a
+        # reviewer-triggered preview, not a background bulk import. Retry only
+        # transient provider failures once; a 404-style response is final.
+        for attempt in range(2):
             try:
-                doi = normalize_doi(selection.doi)
-            except ValueError as exc:
-                results.append({"entry_number": selection.entry_number, "doi": selection.doi, "status": "INVALID_DOI", "error": str(exc)})
-                continue
-            if doi in seen:
-                results.append({"entry_number": selection.entry_number, "doi": doi, "status": "DUPLICATE_REQUEST"})
-                continue
-            seen.add(doi)
-            try:
-                verification = verifier.verify(doi, title=selection.title, publication_year=selection.publication_year, bibtex_date=selection.bibtex_date)
-            except Exception as exc:
-                results.append({"entry_number": selection.entry_number, "doi": doi, "status": "UNAVAILABLE", "error": f"Date verification failed: {exc}"})
-                continue
-            suggested = verification["suggested_date"]
-            # Legacy aliases keep Stage 1B consumers working while the full
-            # multi-source evidence is available under ``verification``.
-            legacy = [{"date": item["date"], "precision": item["precision"], "date_type": item["date_type"].replace("_PUBLICATION", "").replace("PUBLICATION_DATE", "PUBLISHED"), "source_field": item["source_field"], "is_exact_online": item["date_type"] == "ONLINE_PUBLICATION" and item["precision"] == "DAY"} for item in verification["candidates"]]
-            legacy_preferred = ({"date": suggested["date"], "precision": suggested["precision"], "date_type": suggested["date_type"].replace("_PUBLICATION", "").replace("PUBLICATION_DATE", "PUBLISHED"), "source_field": suggested["source_field"], "is_exact_online": suggested["date_type"] == "ONLINE_PUBLICATION" and suggested["precision"] == "DAY"} if suggested else None)
-            results.append({"entry_number": selection.entry_number, "doi": doi,
-                            "status": "FOUND" if suggested else ("IDENTITY_CONFLICT" if verification["suggestion_status"] == "IDENTITY_CONFLICT" else "UNAVAILABLE"),
-                            "source": suggested.get("source") if suggested else None, "preferred": legacy_preferred,
-                            "alternatives": legacy, "bibtex_date_conflict": verification["bibtex_date_conflict"], "verification": verification,
-                            "error": "; ".join(item["error"] for item in verification["provider_failures"]) or None})
-    finally:
-        verifier.close()
+                metadata = provider.fetch_by_doi(doi)
+                break
+            except MetadataError as exc:
+                failure = exc
+                if "not found" in str(exc).casefold() or attempt:
+                    break
+                sleep(0.15)
+        if metadata is None:
+            results.append({"entry_number": selection.entry_number, "doi": doi, "status": "UNAVAILABLE", "error": str(failure)})
+        else:
+            raw = metadata.get("raw_metadata_json") or {}
+            date_candidates = crossref_date_candidates(raw)
+            message = raw.get("message") if isinstance(raw, dict) else {}
+            provider_title = ((message.get("title") or [None])[0] if isinstance(message, dict) else None)
+            provider_year = None
+            for candidate in date_candidates["alternatives"]:
+                if candidate["precision"] in {"YEAR", "MONTH", "DAY"}:
+                    provider_year = candidate["date"][:4]
+                    break
+            identity_conflicts = []
+            if selection.title and provider_title and normalized_name(selection.title) != normalized_name(provider_title):
+                identity_conflicts.append({"field": "Title", "bibtex_value": selection.title, "provider_value": provider_title, "assessment": "Verify DOI metadata identity before using this date."})
+            if selection.publication_year and provider_year and selection.publication_year != provider_year:
+                identity_conflicts.append({"field": "Publication year", "bibtex_value": selection.publication_year, "provider_value": provider_year, "assessment": "Verify DOI metadata identity before using this date."})
+            date_conflict = bool(selection.bibtex_date and date_candidates["preferred"] and selection.bibtex_date != date_candidates["preferred"]["date"])
+            status = "IDENTITY_CONFLICT" if identity_conflicts else "FOUND"
+            results.append({"entry_number": selection.entry_number, "doi": doi, "status": status, "source": "CROSSREF", "provider_title": provider_title, "identity_conflicts": identity_conflicts, "bibtex_date_conflict": date_conflict, **date_candidates})
     return {"analysis_only": True, "requested": len(data.entries), "results": results}
 
 
