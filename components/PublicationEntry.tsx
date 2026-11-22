@@ -3,13 +3,12 @@ import {useEffect, useRef, useState} from "react";
 import Link from "next/link";
 import PublicationEditor, {DOIInput} from "@/components/PublicationEditor";
 import PublicationImportQueue, {ImportRow} from "@/components/PublicationImportQueue";
-import BibTeXFileAnalysis from "@/components/BibTeXFileAnalysis";
 import {api, ApiError, blankPublication, Masters, Publication} from "@/lib/api";
 import {prepareQueuePublication} from "@/lib/publication-readiness";
 
 type ParsedEntry = {entry_number:number;status:string;errors:string[];warnings:string[];duplicate_ids:number[];duplicate_entry?:number;publication?:Publication;differences:{field:string;bibtex:unknown;doi:unknown}[]};
 export default function PublicationEntry() {
-  const [method,setMethod]=useState<"DOI"|"BibTeX"|"Upload"|"Manual">("DOI");
+  const [method,setMethod]=useState<"DOI"|"BibTeX"|"Manual">("DOI");
   const [content,setContent]=useState("");
   const [bibtex,setBibtex]=useState("");
   const [enrich,setEnrich]=useState(true);
@@ -61,14 +60,13 @@ export default function PublicationEntry() {
     } catch(e) {setError((e as Error).message);} finally {setBusy(false);}
   }
   return <><div className="page-heading"><div><div className="eyebrow">Research records</div><h1>Add Publication</h1><p className="muted">Add sources, match authors, set claimant and KPI fields, then add all ready publications.</p></div><Link href="/publications">← Publication overview</Link></div>
-    <section className="panel" aria-label="Entry method"><h2>Add sources</h2><div className="actions">{(["DOI","BibTeX","Upload","Manual"] as const).map(value=><button key={value} type="button" aria-pressed={method===value} className={method===value?"":"secondary"} disabled={busy} onClick={()=>setMethod(value)}>{{DOI:"DOI Import",BibTeX:"Paste BibTeX",Upload:"Upload BibTeX File",Manual:"Manual Entry"}[value]}</button>)}</div>
+    <section className="panel" aria-label="Entry method"><h2>Add sources</h2><div className="actions">{(["DOI","BibTeX","Manual"] as const).map(value=><button key={value} type="button" aria-pressed={method===value} className={method===value?"":"secondary"} disabled={busy} onClick={()=>setMethod(value)}>{value}</button>)}</div>
       {method==="DOI" && <><label className="field">DOI or DOI link<textarea rows={4} value={content} onChange={e=>setContent(e.target.value)} placeholder="One DOI per line, comma or semicolon"/></label><div className="actions"><button disabled={busy || !content.trim()} onClick={fetchSources}>{busy?"Retrieving…":"Fetch metadata"}</button><button className="secondary" onClick={()=>setMethod("Manual")}>Enter manually</button></div></>}
       {method==="BibTeX" && <><label className="field">BibTeX content<textarea rows={6} value={bibtex} onChange={e=>setBibtex(e.target.value)}/></label><div className="actions"><button disabled={busy || !bibtex.trim()} onClick={fetchSources}>{busy?"Parsing…":"Parse BibTeX"}</button><label className="check"><input type="checkbox" checked={enrich} onChange={e=>setEnrich(e.target.checked)}/>Enrich missing fields using DOI metadata</label></div></>}
-      {method!=="Manual" && method!=="Upload" && <p className="muted">Sources append to the same queue. Nothing is saved during metadata lookup. Single and multiple entries use the same controls.</p>}
+      {method!=="Manual" && <p className="muted">Sources append to the same queue. Nothing is saved during metadata lookup. Single and multiple entries use the same controls.</p>}
       {progress && <p role="status">{progress}</p>}{error && <div className="error" role="alert">{error}</div>}
     </section>
     <div hidden={method!=="Manual"}><PublicationEditor compact entryMethod="Manual"/></div>
-    <div hidden={method!=="Upload"}><BibTeXFileAnalysis/></div>
-    <div hidden={method==="Manual" || method==="Upload"}><PublicationImportQueue rows={rows} setRows={setRows} masters={masters} fetching={busy}/></div>
+    <div hidden={method==="Manual"}><PublicationImportQueue rows={rows} setRows={setRows} masters={masters} fetching={busy}/></div>
   </>;
 }
